@@ -3,63 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vegetarian Lunch Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Lunch</title>
 </head>
 <body>
-    <h1>Vegetarian Lunch Recipes</h1>
-    <div id="lunch-recipes" class="recipe-section"></div>
-
-    <script>
-        const apiKey = "bc0e7ccb11ff45e88e15f373de26687e";
-
-        function fetchLunchRecipes() {
-            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=vegetarian&number=5&apiKey=${apiKey}`)
-                .then(response => response.json())
-                .then(data => {
-                    const recipePromises = data.results.map(recipe => fetchRecipeDetails(recipe.id));
-                    return Promise.all(recipePromises);
-                })
-                .then(recipes => displayRecipes(recipes, "lunch-recipes"))
-                .catch(error => console.error('Error:', error));
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Veg Biriyani</h5>
+              <p class="card-text">
+                <ol type="1">
+                    <li>Sauté onions in ghee until golden.</li>
+                    <li>Add ginger-garlic paste and sauté.</li>
+                    <li>Stir in mixed vegetables and biryani masala, cooking for a few minutes.</li>
+                    <li>Add rinsed basmati rice and water, season with salt.</li>
+                    <li>Cook until rice is tender. Garnish with mint leaves before serving.</li>
+                </ol>
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <style>
+        .card{
+            border-width: 1px;
+            border-color:black;
+            height:fit-content;
+            width:fit-content;
         }
-
-        function fetchRecipeDetails(recipeId) {
-            return fetch(`https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${apiKey}`)
-                .then(response => response.json());
-        }
-
-        function displayRecipes(recipes, containerId) {
-            const container = document.getElementById(containerId);
-            container.innerHTML = recipes.map(recipe => `
-                <div class="recipe-card">
-                    <img src="${recipe.image}" alt="${recipe.title}">
-                    <h3>${recipe.title}</h3>
-                    <button class="read-more" onclick="toggleDetails(this)">Read More</button>
-                    <div class="details" style="display: none;">
-                        <h4>Ingredients:</h4>
-                        <ul>
-                            ${recipe.extendedIngredients.map(ingredient => `<li>${ingredient.original}</li>`).join('')}
-                        </ul>
-                        <h4>Procedure:</h4>
-                        <p>${recipe.instructions ? recipe.instructions : 'Instructions not available.'}</p>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        function toggleDetails(button) {
-            const detailsDiv = button.nextElementSibling;
-            if (detailsDiv.style.display === "none") {
-                detailsDiv.style.display = "block";
-                button.textContent = "Read Less";
-            } else {
-                detailsDiv.style.display = "none";
-                button.textContent = "Read More";
-            }
-        }
-
-        document.addEventListener("DOMContentLoaded", fetchLunchRecipes);
-    </script>
+    </style>
 </body>
 </html>
