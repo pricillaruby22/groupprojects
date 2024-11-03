@@ -1,11 +1,11 @@
 <html>
 <head>
 	<title>PetLane</title>
-	<link rel="shortcut icon" href="C:\UIUx\task\images\peticon.png">
+	<link rel="shortcut icon" href="images/peticon.png">
 	<style>
 		body {
 			background-color: #E6E6FA;
-			background-image: url('C:/UIUx/task/images/bg4-transformed.jpeg');
+			background-image: url("images/bg4-transformed.jpeg");
 			background-size: cover;
 			background-repeat: no-repeat;
 			font-family: "Arial";
@@ -55,6 +55,14 @@
 			font-size: 23px;
 			padding-top: 30px;
 		}
+		.nav-container a{
+			color: white;
+			text-decoration: none;
+		}
+		.nav-container a:hover{
+			color: red;
+		}
+
 		.searchBox {
 			width: 250px;
 			height: 40px;
@@ -102,17 +110,17 @@
 <body>
 	<div class="container">
 		<div class="childContainer">
-			<img src="C:\UIUx\task\images\logo.png" class="image">
+			<img src="images/logo.png" class="image">
 			<h1 class="heading">PetLane</h1>
 		</div>
 		<input class="searchBox" placeholder="Search...">
 		<div id="navTags">
-			<nav>
-				<a href="homepage.html" style="color:white; text-decoration:none;">Home</a>
-				<a href="petAdoptionpage.html" style="color:white; text-decoration:none;">Pet Adoption</a>
-				<a href="petProductspage.html" style="color:white; text-decoration:none;">Pet Products</a>
-				<a href="contactUsPage.html" style="color:white; text-decoration:none;">Contact Us</a>
-				<a href="aboutUspage.html" style="color:white; text-decoration:none;">About Us</a>
+			<nav class="nav-container">
+				<a href="homepage.html">Home</a>
+				<a href="petAdoptionpage.html">Pet Adoption</a>
+				<a href="petProductspage.html">Pet Products</a>
+				<a href="contactUsPage.html">Contact Us</a>
+				<a href="aboutUspage.html">About Us</a>
 			</nav>
 		</div>
 	</div>

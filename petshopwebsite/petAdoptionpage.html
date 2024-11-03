@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption</title>
-    <link rel="shortcut icon" href="C:\UIUx\task\images\peticon.png">
+    <!--<link rel="shortcut icon" href="C:\UIUx\task\images\peticon.png">-->
+    <link rel="shortcut icon" href="../petshopwebsite/images/peticon.png">
     <style>
         body {
             background-image: url('images/Desktop\ -\ 1.png');
+            background-size: cover;
+			background-repeat: no-repeat;
+            overflow-x:hidden;
         }
 
         .Nav-container {
@@ -57,17 +61,13 @@
             font-size: 23px;
             padding-top: 24px;
         }
-
-        .searchBox {
-            width: 250px;
-            height: 40px;
-            margin-top: 20px;
-            border-radius: 50px;
-            padding-left: 20px;
-            font-size: 18px;
-            border: none;
-        }
-
+        .nav-container a{
+			color: white;
+			text-decoration: none;
+		}
+		.nav-container a:hover{
+			color: red;
+		}
         .category-container {
             width: 1300px;
             height: 400px;
@@ -99,6 +99,7 @@
             font-family: Arial;
             text-decoration: none;
             font-size: 30px;
+            color: blue;
         }
     </style>
 </head>
@@ -106,18 +107,18 @@
 <body>
     <div class="Nav-container">
         <div class="childContainer">
-            <img src="C:\UIUx\task\images\logo.png" class="image">
+            <!--<img src="C:\UIUx\task\images\logo.png" class="image">-->
+            <img src="../petshopwebsite/images/logo.png" class="image">
             <h1 class="heading">PetLane</h1>
         </div>
-        <input class="searchBox" placeholder="Search...">
         <div id="navTags">
-            <nav>
-                <a href="homepage.html" style="color:white; text-decoration:none;">Home</a>
-                <a href="petAdoptionpage.html" style="color:white; text-decoration:none;">Pet Adoption</a>
-                <a href="petProductspage.html" style="color:white; text-decoration:none;">Pet Products</a>
-                <a href="contactUsPage.html" style="color:white; text-decoration:none;">Contact Us</a>
-                <a href="aboutUspage.html" style="color:white; text-decoration:none;">About Us</a>
-            </nav>
+            <nav class="nav-container">
+				<a href="homepage.html">Home</a>
+				<a href="petAdoptionpage.html">Pet Adoption</a>
+				<a href="petProductspage.html">Pet Products</a>
+				<a href="contactUsPage.html">Contact Us</a>
+				<a href="aboutUspage.html">About Us</a>
+			</nav>
         </div>
     </div>
     <h1 style="color:#800080; text-align: center; font-family: Arial; margin-top: 30px; font-size: 30px;">Find Your New
