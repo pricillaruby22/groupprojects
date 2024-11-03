@@ -3,63 +3,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dessert Recipes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dessert</title>
 </head>
-<body>
-    <h1>Dessert Recipes</h1>
-    <div id="dessert-recipes" class="recipe-section"></div>
-
-    <script>
-        const apiKey = "bc0e7ccb11ff45e88e15f373de26687e";
-
-        function fetchDessertRecipes() {
-            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=dessert&number=5&apiKey=${apiKey}`)
-                .then(response => response.json())
-                .then(data => {
-                    const recipePromises = data.results.map(recipe => fetchRecipeDetails(recipe.id));
-                    return Promise.all(recipePromises);
-                })
-                .then(recipes => displayRecipes(recipes, "dessert-recipes"))
-                .catch(error => console.error('Error:', error));
-        }
-
-        function fetchRecipeDetails(recipeId) {
-            return fetch(`https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${apiKey}`)
-                .then(response => response.json());
-        }
-
-        function displayRecipes(recipes, containerId) {
-            const container = document.getElementById(containerId);
-            container.innerHTML = recipes.map(recipe => `
-                <div class="recipe-card">
-                    <img src="${recipe.image}" alt="${recipe.title}">
-                    <h3>${recipe.title}</h3>
-                    <button class="read-more" onclick="toggleDetails(this)">Read More</button>
-                    <div class="details" style="display: none;">
-                        <h4>Ingredients:</h4>
-                        <ul>
-                            ${recipe.extendedIngredients.map(ingredient => `<li>${ingredient.original}</li>`).join('')}
-                        </ul>
-                        <h4>Procedure:</h4>
-                        <p>${recipe.instructions ? recipe.instructions : 'Instructions not available.'}</p>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        function toggleDetails(button) {
-            const detailsDiv = button.nextElementSibling;
-            if (detailsDiv.style.display === "none") {
-                detailsDiv.style.display = "block";
-                button.textContent = "Read Less";
-            } else {
-                detailsDiv.style.display = "none";
-                button.textContent = "Read More";
-            }
-        }
-
-        document.addEventListener("DOMContentLoaded", fetchDessertRecipes);
-    </script>
+<body>  
+    <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Gulab Jamun">
+          <div class="card-body">
+            <h5 class="card-title">Gulab Jamun</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Make a dough from khoya and flour.</li>
+                <li>Shape into balls and fry until golden.</li>
+                <li>Soak in sugar syrup flavored with rose water.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Jalebi">
+          <div class="card-body">
+            <h5 class="card-title">Jalebi</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Mix flour, yogurt, and water to make a batter.</li>
+                <li>Pipe in circular shapes and fry until golden.</li>
+                <li>Soak in warm sugar syrup.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Kheer">
+          <div class="card-body">
+            <h5 class="card-title">Kheer</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Boil milk and add soaked rice or vermicelli.</li>
+                <li>Cook until thick, add sugar, and cardamom.</li>
+                <li>Garnish with nuts and serve warm or cold.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Rasgulla">
+          <div class="card-body">
+            <h5 class="card-title">Rasgulla</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Boil milk, curdle with lemon juice, and strain.</li>
+                <li>Knead chenna until smooth, shape into balls.</li>
+                <li>Cook in sugar syrup until they double in size.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Barfi">
+          <div class="card-body">
+            <h5 class="card-title">Barfi</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Cook khoya with sugar and cardamom until thick.</li>
+                <li>Spread in a greased plate, let cool.</li>
+                <li>Cut into pieces and garnish with nuts.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Ladoo">
+          <div class="card-body">
+            <h5 class="card-title">Ladoo</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Roast flour or semolina with ghee.</li>
+                <li>Add sugar, nuts, and cardamom.</li>
+                <li>Shape into balls while warm.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Peda">
+          <div class="card-body">
+            <h5 class="card-title">Peda</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Cook khoya with sugar and cardamom.</li>
+                <li>Cool slightly, then shape into small discs.</li>
+                <li>Garnish with nuts and serve.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Chum Chum">
+          <div class="card-body">
+            <h5 class="card-title">Chum Chum</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Make chenna and shape into oval pieces.</li>
+                <li>Boil in sugar syrup until they double in size.</li>
+                <li>Cool and serve with coconut or khoya topping.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Sooji Halwa">
+          <div class="card-body">
+            <h5 class="card-title">Sooji Halwa</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Roast semolina in ghee until golden.</li>
+                <li>Add water and sugar, stir until thick.</li>
+                <li>Garnish with nuts and serve warm.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Kesar Pista Kulfi">
+          <div class="card-body">
+            <h5 class="card-title">Kesar Pista Kulfi</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Boil milk and reduce it to half.</li>
+                <li>Add sugar, saffron, and crushed pistachios.</li>
+                <li>Pour into molds and freeze until set.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Rava Kesari">
+          <div class="card-body">
+            <h5 class="card-title">Rava Kesari</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Roast semolina in ghee.</li>
+                <li>Add water, sugar, and color, stirring continuously.</li>
+                <li>Garnish with nuts and serve warm.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Doodh Peda">
+          <div class="card-body">
+            <h5 class="card-title">Doodh Peda</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Reduce milk to a thick consistency.</li>
+                <li>Add sugar, cardamom, and shape into discs.</li>
+                <li>Garnish with nuts and serve.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="..." class="card-img-top" alt="Mysore Pak">
+          <div class="card-body">
+            <h5 class="card-title">Mysore Pak</h5>
+            <p class="card-text">
+              <ol type="1">
+                <li>Heat ghee and add besan, stirring continuously.</li>
+                <li>Add sugar syrup and cook until thick.</li>
+                <li>Spread in a plate, cool, and cut into pieces.</li>
+              </ol>
+            </p>
+          </div>
+        </div>
+      </div>
+    
 </body>
 </html>
