@@ -14,7 +14,7 @@
         const apiKey = "bc0e7ccb11ff45e88e15f373de26687e";
 
         function fetchBreakfastRecipes() {
-            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=breakfast&number=5&apiKey=${apiKey}`)
+            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=breakfast&number=10&apiKey=${apiKey}`)
                 .then(response => response.json())
                 .then(data => {
                     const recipePromises = data.results.map(recipe => fetchRecipeDetails(recipe.id));

@@ -3,12 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COOKBYU</title>
+    <title>Recipe Website3</title>
 </head>
+    
 <body>
-    <h1>Landing page</h1>
-    <a href="Home.html">
-        <button onclick="">Get Started</button>
-    </a>
+    <div class="head">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">ABOUT US</button></a></li>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="">LOGIN</a></li>
+                    <li><a href="">SIGNUP</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="cont">
+        <h2 class="logo">Food Recipe😋<font>&#127860;</font></h2>    
+            <div>
+                <center>
+                    <h1 class="a">COOKBYU</h1>
+                    <!--<h3 class="b">"The proof of the pudding is in the eating."</h3>-->
+                    <h3 class="b"><q>One cannot think well, love well, sleep well, if one has not dined well.</q></h3>
+                    <a href="Home.html"><button class="but">Get Started</button></a>
+                </center>
+            </div>
+    </div>
 </body>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-image: url('./images/bgimage2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-attachment: fixed;
+    }
+    header{
+        /*background-color: #008080;*/
+        padding: 15px 10px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+    }
+    li{
+        margin-right: 50px;
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        font-weight: bold;
+        color: white;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .cont{
+        margin-top: 50px;
+        margin-left:350px;
+        width:800px;
+        height: 450px;
+        box-shadow:0 0 8px white;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo{
+        font-size: 22px;
+        color:white;
+        margin-left: 10px;
+    }
+    .a{
+        color:white;
+        margin: 0 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 110px;
+        letter-spacing:5px;
+        margin-top: 30px;
+    }
+    .b{
+        color: white;
+        margin: 40px 110px -25px;
+        font-style: oblique;
+        font-weight:100;
+        letter-spacing: 2px;
+        font-size:30px;
+        margin-top: 30px;
+    }
+    .but{
+        color: white;
+        background-color: /*rgb(92, 133, 10)*/ darkcyan;
+        height: 50px;
+        width: 100px;
+        border-radius: 10px;
+        margin-top: 60px;
+        cursor: pointer;
+        box-shadow:0 0 8px silver;
+    }
+    .but:hover{
+        background-color: /*rgb(125, 180, 15)*/ rgb(3, 94, 94);
+    }
+</style>
 </html>
