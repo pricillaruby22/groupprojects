@@ -54,16 +54,13 @@
             font-size: 23px;
             padding-top: 24px;
         }
-
-        .searchBox {
-            width: 250px;
-            height: 40px;
-            margin-top: 20px;
-            border-radius: 50px;
-            padding-left: 20px;
-            font-size: 18px;
-            border: none;
-        }
+        .nav-container a{
+			color: white;
+			text-decoration: none;
+		}
+		.nav-container a:hover{
+			color: red;
+		}
 
         .cat {
             height: 1000px;
@@ -85,15 +82,14 @@
             <img src="C:\UIUx\task\images\logo.png" class="image">
             <h1 class="heading">PetLane</h1>
         </div>
-        <input class="searchBox" placeholder="Search...">
         <div id="navTags">
-            <nav>
-                <a href="homepage.html" style="color:white; text-decoration:none;">Home</a>
-                <a href="petAdoptionpage.html" style="color:white; text-decoration:none;">Pet Adoption</a>
-                <a href="petProductspage.html" style="color:white; text-decoration:none;">Pet Products</a>
-                <a href="contactUsPage.html" style="color:white; text-decoration:none;">Contact Us</a>
-                <a href="aboutUspage.html" style="color:white; text-decoration:none;">About Us</a>
-            </nav>
+            <nav class="nav-container">
+				<a href="homepage.html">Home</a>
+				<a href="petAdoptionpage.html">Pet Adoption</a>
+				<a href="petProductspage.html">Pet Products</a>
+				<a href="contactUsPage.html">Contact Us</a>
+				<a href="aboutUspage.html">About Us</a>
+			</nav>
         </div>
     </div>
     <div class="cat">
