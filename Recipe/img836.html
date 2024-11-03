@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakfast Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Breakfast Recipes</h1>
+    <div id="breakfast-recipes" class="recipe-section"></div>
+
+    <script>
+        const apiKey = "bc0e7ccb11ff45e88e15f373de26687e";
+
+        function fetchBreakfastRecipes() {
+            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=breakfast&number=5&apiKey=${apiKey}`)
+                .then(response => response.json())
+                .then(data => {
+                    const recipePromises = data.results.map(recipe => fetchRecipeDetails(recipe.id));
+                    return Promise.all(recipePromises);
+                })
+                .then(recipes => displayRecipes(recipes, "breakfast-recipes"))
+                .catch(error => console.error('Error:', error));
+        }
+
+        function fetchRecipeDetails(recipeId) {
+            return fetch(`https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${apiKey}`)
+                .then(response => response.json());
+        }
+
+        function displayRecipes(recipes, containerId) {
+            const container = document.getElementById(containerId);
+            container.innerHTML = recipes.map(recipe => `
+                <div class="recipe-card">
+                    <img src="${recipe.image}" alt="${recipe.title}">
+                    <h3>${recipe.title}</h3>
+                    <button class="read-more" onclick="toggleDetails(this)">Read More</button>
+                    <div class="details" style="display: none;">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            ${recipe.extendedIngredients.map(ingredient => `<li>${ingredient.original}</li>`).join('')}
+                        </ul>
+                        <h4>Procedure:</h4>
+                        <p>${recipe.instructions ? recipe.instructions : 'Instructions not available.'}</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleDetails(button) {
+            const detailsDiv = button.nextElementSibling;
+            if (detailsDiv.style.display === "none") {
+                detailsDiv.style.display = "block";
+                button.textContent = "Read Less";
+            } else {
+                detailsDiv.style.display = "none";
+                button.textContent = "Read More";
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", fetchBreakfastRecipes);
+    </script>
+</body>
+</html>
