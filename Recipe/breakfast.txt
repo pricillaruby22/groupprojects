@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Starts the HTML document with English as the language -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Makes the page responsive on different devices -->
+    <title>Breakfast Recipes</title> <!-- Title of the webpage displayed in the browser tab -->
+    <link rel="stylesheet" href="styles.css"> <!-- Links to the external CSS stylesheet for styling -->
+</head>
+<body>
+    <h1>Breakfast Recipes</h1> <!-- Main heading of the webpage -->
+
+    <div id="breakfast-recipes" class="recipe-section"></div> <!-- Container for the recipe cards -->
+
+    <script>
+        const apiKey = "bc0e7ccb11ff45e88e15f373de26687e"; // Your Spoonacular API key for fetching recipes
+
+        // Function to fetch breakfast recipes from the Spoonacular API
+        function fetchBreakfastRecipes() {
+            fetch(`https://api.spoonacular.com/recipes/complexSearch?type=breakfast&number=5&apiKey=${apiKey}`)
+                .then(response => response.json()) // Parse the JSON response
+                .then(data => {
+                    // Fetch detailed information for each recipe
+                    const recipePromises = data.results.map(recipe => fetchRecipeDetails(recipe.id));
+                    return Promise.all(recipePromises); // Wait for all recipe details to be fetched
+                })
+                .then(recipes => displayRecipes(recipes, "breakfast-recipes")) // Display the recipes in the container
+                .catch(error => console.error('Error:', error)); // Log any errors to the console
+        }
+
+        // Function to fetch detailed information about a specific recipe
+        function fetchRecipeDetails(recipeId) {
+            return fetch(`https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${apiKey}`)
+                .then(response => response.json()); // Parse the JSON response for the recipe details
+        }
+
+        // Function to display the fetched recipes in the specified container
+        function displayRecipes(recipes, containerId) {
+            const container = document.getElementById(containerId); // Get the container element by its ID
+            container.innerHTML = recipes.map(recipe => `
+                <div class="recipe-card"> <!-- Individual recipe card -->
+                    <img src="${recipe.image}" alt="${recipe.title}"> <!-- Image of the recipe -->
+                    <h3>${recipe.title}</h3> <!-- Title of the recipe -->
+                    <button class="read-more" onclick="toggleDetails(this)">Read More</button> <!-- Button to toggle details -->
+                    <div class="details" style="display: none;"> <!-- Hidden details section -->
+                        <h4>Ingredients:</h4> <!-- Ingredients section heading -->
+                        <ul>
+                            ${recipe.extendedIngredients.map(ingredient => `<li>${ingredient.original}</li>`).join('')} <!-- List of ingredients -->
+                        </ul>
+                        <h4>Procedure:</h4> <!-- Procedure section heading -->
+                        <p>${recipe.instructions ? recipe.instructions : 'Instructions not available.'}</p> <!-- Instructions for the recipe -->
+                    </div>
+                </div>
+            `).join(''); // Join the recipe cards into a single HTML string and set it as the container's inner HTML
+        }
+
+        // Function to toggle the visibility of the recipe details
+        function toggleDetails(button) {
+            const detailsDiv = button.nextElementSibling; // Get the next sibling element (details div)
+            if (detailsDiv.style.display === "none") {
+                detailsDiv.style.display = "block"; // Show the details if currently hidden
+                button.textContent = "Read Less"; // Change button text
+            } else {
+                detailsDiv.style.display = "none"; // Hide the details if currently shown
+                button.textContent = "Read More"; // Change button text
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", fetchBreakfastRecipes); // Fetch recipes once the DOM is fully loaded
+    </script>
+</body>
+</html>
