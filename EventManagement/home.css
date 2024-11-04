@@ -79,7 +79,8 @@ img{
 }
 .mrq{
     position: absolute;
-    color: #FFF0D1;
+    /*color: #FFF0D1;*/
+    color: black;
     font-size: 25px;
     font-family: 'Arial Narrow Bold';
     margin-top: 696px;
