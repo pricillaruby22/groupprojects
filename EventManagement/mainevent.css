@@ -1,0 +1,72 @@
+img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bar{
+    background-color: black;
+    position: fixed;
+    width: 98%;
+    height: 59px;
+    left: 15px;
+    border-radius: 30px;
+    margin-top: 8px;
+}
+.logo img{
+    position: fixed;
+    height: 45px;
+    width: 55px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.ttl{
+    color: #FFF0D1;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 11px;
+    font-family:'Times New Roman', Times, serif;
+}
+.menu{
+    color: #FFF0D1;
+    position: fixed;
+    word-spacing: 20px;
+    margin-left: 850px;
+    top: 15px;
+}
+.size{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.size2{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 50px; 
+}
+.card{
+    position: absolute;
+    margin-top: 60px;
+}
+.card-img-top{
+    position: absolute;
+    height: 400px;
+    width: 35rem;
+}
+.card-body{
+    position: absolute;
+    margin-top: 400px;
+}

@@ -1,0 +1,149 @@
+img{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.bar{
+    background-color: black;
+    position: fixed;
+    width: 98%;
+    height: 59px;
+    left: 15px;
+    border-radius: 30px;
+}
+.logo img{
+    position: fixed;
+    height: 45px;
+    width: 55px;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.ttl{
+    color: #FFF0D1;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.menu{
+    color: #FFF0D1;
+    position: fixed;
+    word-spacing: 20px;
+    margin-left: 725px;
+    top: 15px;
+}
+.size{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.size2{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.size3{
+    font-size: 18;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.about {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.about2 {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+.mission {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 50px;
+}
+.mission2 {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 50px;
+}
+.values {
+    font-size: 30px;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 50px;
+}
+.values2 {
+    font-size: 22px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 50px;
+}
+.aboutus-img img {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 65%;
+}
+.connect {
+    margin-top: 590px;
+    margin-left: 100px;
+    position: absolute;
+    font-size: 25px;
+    color: #FFF0D1;
+}
+.twr-img img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+.insta-img img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+.fb-img img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 190px;
+    cursor: pointer;
+}
+.wp-img img {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 630px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+.mrq{
+    position: absolute;
+    color: #FFF0D1;
+    font-size: 25px;
+    font-family: 'Arial Narrow Bold';
+    margin-top: 696px;
+    left: 0;
+}

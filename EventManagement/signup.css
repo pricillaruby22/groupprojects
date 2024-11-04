@@ -1,0 +1,139 @@
+body {
+    background-image: url('images/bgimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+.bar{
+    position: fixed;
+    background-color: black;
+    width: 98%;
+    height: 59px;
+    left: 15px;
+    border-radius: 30px;
+    margin-top: -92px;
+}
+.logo img{
+    position: fixed;
+    height: 45px;
+    width: 55px;
+    margin-top: 8px;
+    margin-left: 35px;
+}
+.ttl{
+    color: #FFF0D1;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 15px;
+    position: fixed;
+}
+.menu{
+    color: #FFF0D1;
+    position: fixed;
+    word-spacing: 20px;
+    margin-left: 725px;
+    top: 15px;
+    cursor: pointer;
+}
+.size{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.size2{
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+.size3{
+    font-size: 18;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 0px;
+    width: 80%;
+    margin: 100px auto 0; 
+    padding-top: 40px;
+}
+.signupimg {
+    width: 600px; 
+    height: 630px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signupimg img {
+    width: 600px;
+    height: 630px;
+    border-radius: 0px;
+}
+.signupform{
+    background-color: #FFF0D1; 
+    border-radius: 0px;
+}
+.signin-heading{
+    font-size: 40px;
+    text-align: center;
+    font: bold;
+}
+.name{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.email{
+    font-size: 20px;
+    margin-left: 70px;
+}
+.password {
+    font-size: 20px;
+    margin-left: 70px;
+}
+.input-box {
+    height: 35px;
+    width: 460px;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.rememberme {
+    margin-left: 70px;
+}
+.forgotpass {
+    font-size: 15px;
+    margin-left: 380px;
+    color: #102C57;
+    margin-top: -33px;
+}
+.signup-btn {
+    font-size: 18px;
+    height: 35px;
+    width: 460px;
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    color: #FFF0D1;
+}
+.snbtn {
+    text-align: center;
+}
+.goto-signin {
+    color: #102C57;
+    margin-left: 70px;
+}
+a {
+    cursor: pointer;
+}
