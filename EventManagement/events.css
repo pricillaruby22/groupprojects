@@ -1,38 +1,38 @@
-img{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+body{
+    background-image: url('images/backgroundimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .bar{
-    background-color: black;
+    background-color: #025B64;
     position: fixed;
     width: 98%;
     height: 59px;
     left: 15px;
     border-radius: 30px;
-    margin-top: 8px;
+    top: 8px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .logo img{
     position: fixed;
     height: 45px;
     width: 55px;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-left: 50px;
 }
 .ttl{
     color: #FFF0D1;
     font-size: 25px;
-    margin-left: 100px;
-    margin-top: 11px;
-    font-family:'Times New Roman', Times, serif;
+    margin-left: 120px;
+    margin-top: 12px;
 }
 .menu{
     color: #FFF0D1;
     position: fixed;
     word-spacing: 20px;
-    margin-left: 710px;
+    margin-left: 725px;
     top: 15px;
 }
 .size{
@@ -42,6 +42,11 @@ img{
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+}
+.size:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size2{
     font-size: 18px;
@@ -50,6 +55,11 @@ img{
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+}
+.size2:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size3{
     font-size: 18;
@@ -58,6 +68,11 @@ img{
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+}
+.size3:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .card-container{
     display: flex;

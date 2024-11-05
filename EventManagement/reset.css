@@ -1,33 +1,31 @@
 body {
-    background-image: url('images/bgimg.jpg');
+    background-image: url('images/backgroundimage.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
 }
 .bar{
+    background-color: #025B64;
     position: fixed;
-    background-color: black;
     width: 98%;
     height: 59px;
     left: 15px;
     border-radius: 30px;
-    margin-top: -92px;
+    margin-top: -92;
 }
 .logo img{
     position: fixed;
     height: 45px;
     width: 55px;
     margin-top: 8px;
-    margin-left: 35px;
+    margin-left: 50px;
 }
 .ttl{
     color: #FFF0D1;
     font-size: 25px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 15px;
-    position: fixed;
 }
 .menu{
     color: #FFF0D1;
@@ -35,7 +33,6 @@ body {
     word-spacing: 20px;
     margin-left: 725px;
     top: 15px;
-    cursor: pointer;
 }
 .size{
     font-size: 18px;
@@ -44,6 +41,12 @@ body {
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size2{
     font-size: 18px;
@@ -52,6 +55,12 @@ body {
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size2:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size3{
     font-size: 18;
@@ -60,8 +69,13 @@ body {
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+.size3:hover {
+    background-color: #014752;
+    color: #FFF0D1;
+}
 .grid {
     display: grid;
     grid-template-columns: 600px 600px;
@@ -83,17 +97,19 @@ body {
     border-radius: 0px;
 }
 .resetform{
-    background-color: #FFF0D1; 
+    background-color: #031A2E; 
     border-radius: 0px;
 }
 .reset-heading{
     font-size: 40px;
     text-align: center;
     font: bold;
+    color: #FFF0D1;
 }
 .email{
     font-size: 20px;
     margin-left: 70px;
+    color: #FFF0D1;
 }
 .input-box {
     height: 35px;
@@ -106,15 +122,19 @@ body {
     height: 35px;
     width: 460px;
     border-radius: 25px;
-    background-color: black;
+    background-color: #025B64;
     cursor: pointer;
     color: #FFF0D1;
+}
+.reset-btn:hover {
+    color: black;
+    background-color: #013440;
 }
 .snbtn {
     text-align: center;
 }
 .goto-signin {
-    color: #102C57;
+    color: #FFF0D1;
     text-align: center;
 }
 a {

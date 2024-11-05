@@ -1,12 +1,12 @@
-img{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
+body{
+    background-image: url('images/backgroundimage.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .bar{
-    background-color: black;
+    background-color: #025B64;
     position: fixed;
     width: 98%;
     height: 59px;
@@ -17,20 +17,20 @@ img{
     position: fixed;
     height: 45px;
     width: 55px;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-left: 50px;
 }
 .ttl{
     color: #FFF0D1;
     font-size: 25px;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 15px;
 }
 .menu{
     color: #FFF0D1;
     position: fixed;
     word-spacing: 20px;
-    margin-left: 870px;
+    margin-left: 875px;
     top: 15px;
 }
 .size{
@@ -40,6 +40,12 @@ img{
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size2{
     font-size: 18px;
@@ -48,102 +54,87 @@ img{
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
 }
-.size3{
-    font-size: 18;
-    height: 45px;
-    width: 120px;
-    border-radius: 25px;
-    background-color: #FFF0D1;
-    cursor: pointer;
+.size2:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .about {
     font-size: 30px;
-    position: absolute;
-    margin-top: 80px;
     margin-left: 50px;
+    color: #FFF0D1;
+    padding-top: 80px;
+    text-decoration: underline;
 }
 .about2 {
     font-size: 22px;
-    position: absolute;
-    margin-top: 130px;
     margin-left: 50px;
+    color: #FFF0D1;
 }
 .mission {
     font-size: 30px;
-    position: absolute;
-    margin-top: 220px;
     margin-left: 50px;
+    color: #FFF0D1;
+    text-decoration: underline;
 }
 .mission2 {
     font-size: 22px;
-    position: absolute;
-    margin-top: 260px;
     margin-left: 50px;
+    color: #FFF0D1;
 }
 .values {
     font-size: 30px;
-    position: absolute;
-    margin-top: 340px;
     margin-left: 50px;
+    color: #FFF0D1;
+    text-decoration: underline;
 }
 .values2 {
     font-size: 22px;
-    position: absolute;
-    margin-top: 380px;
     margin-left: 50px;
+    color: #FFF0D1;
 }
 .aboutus-img img {
     height: 400px;
     width: 400px;
-    position: absolute;
-    margin-top: 140px;
     margin-left: 65%;
+    margin-top: -540px;
 }
 .connect {
-    margin-top: 590px;
     margin-left: 100px;
-    position: absolute;
     font-size: 25px;
     color: #FFF0D1;
 }
 .twr-img img {
     height: 40px;
     width: 40px;
-    position: absolute;
-    margin-top: 630px;
     margin-left: 70px;
     cursor: pointer;
 }
 .insta-img img {
     height: 40px;
     width: 40px;
-    position: absolute;
-    margin-top: 630px;
     margin-left: 130px;
     cursor: pointer;
+    margin-top: -40px;
 }
 .fb-img img {
     height: 40px;
     width: 40px;
-    position: absolute;
-    margin-top: 630px;
     margin-left: 190px;
     cursor: pointer;
+    margin-top: -40px;
 }
 .wp-img img {
     height: 40px;
     width: 40px;
-    position: absolute;
-    margin-top: 630px;
     margin-left: 250px;
     cursor: pointer;
+    margin-top: -40px;
 }
 .mrq{
-    position: absolute;
     color: #FFF0D1;
     font-size: 25px;
     font-family: 'Arial Narrow Bold';
-    margin-top: 696px;
-    left: 0;
 }
