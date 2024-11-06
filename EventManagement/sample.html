@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <title>CelebrateHub</title>
+        <link rel="icon" href="images/celebratehublogo.png">
+        <link rel="stylesheet" href="account.css">
+    </head>
+    <body>
+        <div class="grid">
+            <div class="sidebar">
+
+                <div class="DP">
+                    <img src="images/profile.jpeg">
+                </div>
+                <p class="name">[Your name]</p><br />
+
+                <div class="menus">
+                    <p>My Bookings</p>
+                    <p>Event calendar</p>
+                    <p>Venue Information</p>
+                    <p>Payment History</p>
+                    <p>Event Feedback</p>
+                </div>
+
+                <hr>
+                <div class="logout">
+                    <img src="images/logout.png">
+                </div>
+                <p class="log">Logout</p>
+            </div>
+            <div class="booking">
+                <p class="bookit">Have an event? Book it here now!</p>
+
+                <div>
+                    <form>
+                        <table class="tbl">
+                            <tr>
+                                <td>Enter your Name:</td>
+                                <td><input type="text" placeholder="Enter name" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Choose Your Event Name:</td>
+                                <td>
+                                    <select class="inputs">
+                                        <option>Wedding</option>
+                                        <option>Birthday Party</option>
+                                        <option>Product Launch</option>
+                                        <option>Corporate Meeting</option>
+                                        <option>Anniversaries</option>
+                                        <option>Family Reunions</option>
+                                        <option>Festivals</option>
+                                        <option>Art Exhibitions</option>
+                                        <option>Holiday Parties</option>
+                                        <option>Religious Ceremonies</option>
+                                        <option>Others</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Enter Your Event Name:</td>
+                                <td><input type="text" placeholder="Enter event name" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Event Date:</td>
+                                <td><input type="date" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Event Time:</td>
+                                <td><input type="time" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Choose Your Events:</td>
+                                <td>
+                                    <div><input type="checkbox"> Dance</div>
+                                    <div><input type="checkbox"> Photography</div>
+                                    <div><input type="checkbox"> Music</div>
+                                    <div><input type="checkbox"> Games</div>
+                                    <div><input type="checkbox"> Food Catering</div>
+                                    <div><input type="checkbox"> Face painting</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Location:</td>
+                                <td><input type="text" placeholder="Enter location" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number:</td>
+                                <td><input type="tel" placeholder="Enter phone number" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Description:</td>
+                                <td><input type="text" class="inputs"></td>
+                            </tr>
+                            <tr>
+                                <td>Attachments:</td>
+                                <td><input type="file"></td>
+                            </tr>
+                            <tr>
+                                <td>Payment:</td>
+                                <td><strong>₹60,000</strong></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div><br />
+                
+                <div class="terms">
+                    <p>*Please agree to the terms and conditions before proceeding to book your event!</p>
+                    <p>-All bookings require full payment. Cancellations must be in writing; refunds are available for cancellations made more than 
+                        [X] days prior.<br /> -We are not liable for injuries during events.<br /> -Personal information 
+                        will be handled per our privacy policy.</p>
+                        <input type="checkbox">I agree to the terms and conditions
+                </div><br /><br />
+
+                <div>
+                    <button class="book-btn">Book By Paying</button>
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 400px 875px;
+    gap: 50px;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.sidebar {
+    background-color: #FFF0D1; 
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+.DP img {
+    height: 60px;
+    width: 60px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+.name {
+    padding-left: 100px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.menus {
+    font-size: 20px;
+    padding-left: 20px;
+}
+.logout img {
+    height: 30px;
+    width: 30px;
+    margin-top: 1005px;
+    margin-left: 25px;
+    cursor: pointer;
+    position: absolute;
+}
+.log {
+    font-size: 20px;
+    padding-left: 40px;
+    padding-top: 2px;
+}
+.booking {
+    background-color: #FFF0D1;
+    padding: 20px;
+    color: black;
+    position: relative;
+}
+.bookit {
+    font-size: 30px;
+}
+.tbl {
+    font-size: 20px;
+    border-spacing: 5px;
+}
+.terms {
+    font-size: 20px;
+}
+td {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.inputs {
+    width: 400px;
+    height: 35px;
+}
+.book-btn {
+    height: 40px;
+    width: 200px;
+    border-radius: 25px;
+    background-color: black;
+    cursor: pointer;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 340px;
+    color: #FFF0D1;
+}
