@@ -1,4 +1,6 @@
+version: "3.1"
 
+stories:
   - story: Admission process inquiry
     steps:
       - intent: admission_process
@@ -39,3 +41,8 @@
     steps:
       - intent: family_visit
       - action: utter_family_visit_info
+
+  - story: User asks for college location and address
+    steps:
+      - intent: college_location_address
+      - action: utter_college_location_address

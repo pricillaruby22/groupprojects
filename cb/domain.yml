@@ -1,4 +1,6 @@
+version: "3.1"
 
+intents:
 
   - admission_process
   - ask_online_courses
@@ -9,7 +11,9 @@
   - student_count
   - hostel_availability
   - family_visit
+  - college_location_address
 
+responses:
 
   utter_admission_process:
   - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. Dr. S. Joseph Dominic Vijayakumar,
@@ -37,3 +41,5 @@
   - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
   utter_family_visit_info:
   - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+  utter_college_location_address:
+    - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"

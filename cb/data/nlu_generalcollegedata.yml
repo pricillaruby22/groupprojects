@@ -1,4 +1,6 @@
+version: "3.1"
 
+nlu:
   - intent: admission_process
     examples: |
       - How can I apply for admission to this college?
@@ -123,3 +125,36 @@
        - What is the policy on family visits?
        - Can my family visit me while I stay in the hostel?
        - Are there specific timings for family visits?
+
+  - intent: college_location_address
+    examples: |
+      - Where is the college located?
+      - College place where?
+      - Institute side which area?
+      - Where to go for college?
+      - Show me where college is.
+      - What is the location of the institute?
+      - Where exactly is the college situated?
+      - Where exactly is the college located?
+      - Can you tell me the location of the institution?
+      - Can you show me the location of the college?
+      - How can I reach the college?
+      - Is the institute near any landmarks?
+      - What is the precise geographical location of the college?
+      - Can you provide the latitude and longitude of the college?
+      - Could you share the live location link of the institute?
+      - What is the official address of the college, including postal code?
+      - College address where?
+      - Tell me college place.
+      - Where is the college side?
+      - Tell me the college address.
+      - What is the full address of the college?
+      - Can you share the college location details?
+      - Give me the postal address of the college.
+      - What is the registered address of the institute?
+      - Could you give the latitude and longitude coordinates of the college?
+      - Can you provide the address along with nearby landmarks?
+
+
+
+
