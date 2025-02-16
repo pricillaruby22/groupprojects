@@ -1,148 +1,148 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
-- rule: Respond to greetings
-  steps:
-    - intent: greet
-    - action: utter_welcome
-    - action: utter_greet
+# rules:
+# - rule: Respond to greetings
+#   steps:
+#     - intent: greet
+#     - action: utter_welcome
+#     - action: utter_greet
 
-- rule: Respond to college info request
-  steps:
-    - intent: ask_college_name
-    - action: utter_college_name
+# - rule: Respond to college info request
+#   steps:
+#     - intent: ask_college_name
+#     - action: utter_college_name
 
-- rule: Respond to college code
-  steps:
-    - intent: ask_college_code
-    - action: utter_college_code
+# - rule: Respond to college code
+#   steps:
+#     - intent: ask_college_code
+#     - action: utter_college_code
 
-- rule: Respond to admissions query
-  steps:
-    - intent: ask_admissions
-    - action: utter_admissions
+# - rule: Respond to admissions query
+#   steps:
+#     - intent: ask_admissions
+#     - action: utter_admissions
 
-- rule: Respond to exam schedule query
-  steps:
-    - intent: ask_exam_schedule
-    - action: utter_exam_schedule
+# - rule: Respond to exam schedule query
+#   steps:
+#     - intent: ask_exam_schedule
+#     - action: utter_exam_schedule
 
-- rule: Respond to welcome message query
-  steps:
-    - intent: ask_welcome_message
-    - action: utter_welcome_message
+# - rule: Respond to welcome message query
+#   steps:
+#     - intent: ask_welcome_message
+#     - action: utter_welcome_message
 
-- rule: Respond to academic calendar query
-  steps:
-    - intent: ask_academic_calendar
-    - action: utter_academic_calendar
+# - rule: Respond to academic calendar query
+#   steps:
+#     - intent: ask_academic_calendar
+#     - action: utter_academic_calendar
 
-- rule: Respond to contact number query
-  steps:
-    - intent: ask_contact_number
-    - action: utter_contact_number
+# - rule: Respond to contact number query
+#   steps:
+#     - intent: ask_contact_number
+#     - action: utter_contact_number
 
-- rule: Respond to about us query
-  steps:
-    - intent: ask_about_ssmiet
-    - action: utter_about_ssmiet
+# - rule: Respond to about us query
+#   steps:
+#     - intent: ask_about_ssmiet
+#     - action: utter_about_ssmiet
 
-- rule: Respond to placement details queries
-  steps:
-    - intent: placement_details
-    - action: utter_placement_details
+# - rule: Respond to placement details queries
+#   steps:
+#     - intent: placement_details
+#     - action: utter_placement_details
 
-- rule: Respond to recruiters queries
-  steps:
-    - intent: recruiters
-    - action: utter_recruiters
+# - rule: Respond to recruiters queries
+#   steps:
+#     - intent: recruiters
+#     - action: utter_recruiters
 
-- rule: Respond to staff count queries
-  steps:
-    - intent: staff_count
-    - action: utter_staff_count
+# - rule: Respond to staff count queries
+#   steps:
+#     - intent: staff_count
+#     - action: utter_staff_count
 
-- rule: Respond to internship details queries
-  steps:
-    - intent: internship_details
-    - action: utter_internship_details
+# - rule: Respond to internship details queries
+#   steps:
+#     - intent: internship_details
+#     - action: utter_internship_details
 
-- rule: Respond to general course inquiries
-  steps:
-    - intent: inquire_courses
-    - action: utter_inquire_courses
+# - rule: Respond to general course inquiries
+#   steps:
+#     - intent: inquire_courses
+#     - action: utter_inquire_courses
 
-- rule: Respond to undergraduate course inquiries
-  steps:
-    - intent: inquire_ug_courses
-    - action: utter_ug_courses
+# - rule: Respond to undergraduate course inquiries
+#   steps:
+#     - intent: inquire_ug_courses
+#     - action: utter_ug_courses
 
-- rule: Respond to postgraduate course inquiries
-  steps:
-    - intent: inquire_pg_courses
-    - action: utter_pg_courses
+# - rule: Respond to postgraduate course inquiries
+#   steps:
+#     - intent: inquire_pg_courses
+#     - action: utter_pg_courses
 
-- rule: Respond to Ph.D. course inquiries
-  steps:
-    - intent: inquire_phddoctorate_courses
-    - action: utter_phddoctorate_courses
+# - rule: Respond to Ph.D. course inquiries
+#   steps:
+#     - intent: inquire_phddoctorate_courses
+#     - action: utter_phddoctorate_courses
 
-- rule: Respond to approvals and affiliations inquiries
-  steps:
-    - intent: inquire_approvals_affiliations
-    - action: utter_approvals_affiliations
+# - rule: Respond to approvals and affiliations inquiries
+#   steps:
+#     - intent: inquire_approvals_affiliations
+#     - action: utter_approvals_affiliations
 
-- rule: Respond to vision query
-  steps:
-    - intent: ask_ssmiet_vision
-    - action: utter_ssmiet_vision
+# - rule: Respond to vision query
+#   steps:
+#     - intent: ask_ssmiet_vision
+#     - action: utter_ssmiet_vision
 
-- rule: Respond to mission query
-  steps:
-    - intent: ask_ssmiet_mission
-    - action: utter_ssmiet_mission
+# - rule: Respond to mission query
+#   steps:
+#     - intent: ask_ssmiet_mission
+#     - action: utter_ssmiet_mission
 
-- rule: Respond to fees payment query
-  steps:
-    - intent: fees_payment
-    - action: utter_fees_payment
+# - rule: Respond to fees payment query
+#   steps:
+#     - intent: fees_payment
+#     - action: utter_fees_payment
 
-- rule: Respond to student feedback query
-  steps:
-    - intent: student_feedback
-    - action: utter_student_feedback
+# - rule: Respond to student feedback query
+#   steps:
+#     - intent: student_feedback
+#     - action: utter_student_feedback
 
-- rule: Respond to parents feedback query
-  steps:
-    - intent: parents_feedback
-    - action: utter_parents_feedback
+# - rule: Respond to parents feedback query
+#   steps:
+#     - intent: parents_feedback
+#     - action: utter_parents_feedback
 
-- rule: Respond to institution policies query
-  steps:
-    - intent: institution_policies
-    - action: utter_institution_policies
+# - rule: Respond to institution policies query
+#   steps:
+#     - intent: institution_policies
+#     - action: utter_institution_policies
 
-- rule: Respond to income and expenditure query
-  steps:
-    - intent: income_expenditure
-    - action: utter_income_expenditure
+# - rule: Respond to income and expenditure query
+#   steps:
+#     - intent: income_expenditure
+#     - action: utter_income_expenditure
 
-- rule: Respond to student count query
-  steps:
-    - intent: student_count
-    - action: utter_student_count
+# - rule: Respond to student count query
+#   steps:
+#     - intent: student_count
+#     - action: utter_student_count
 
-- rule: Respond to SSMIET address
-  steps:
-    - intent: ask_address_of_SSMIET
-    - action: utter_address_of_SSMIET
+# - rule: Respond to SSMIET address
+#   steps:
+#     - intent: ask_address_of_SSMIET
+#     - action: utter_address_of_SSMIET
 
-- rule: Respond to SSMIET contact
-  steps:
-    - intent: ask_contact_of_SSMIET
-    - action: utter_contact_of_SSMIET
+# - rule: Respond to SSMIET contact
+#   steps:
+#     - intent: ask_contact_of_SSMIET
+#     - action: utter_contact_of_SSMIET
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-    - intent: goodbye
-    - action: utter_goodbye
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#     - intent: goodbye
+#     - action: utter_goodbye

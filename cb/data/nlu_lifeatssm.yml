@@ -1,429 +1,429 @@
-version: "3.1"
+# version: "3.1"
 
-nlu:
-  - intent: wec_about
-    examples: |
-      - Tell me about the Women Empowerment Cell.
-      - What is the Women Empowerment Cell?
-      - Give me an overview of WEC.
+# nlu:
+#   - intent: wec_about
+#     examples: |
+#       - Tell me about the Women Empowerment Cell.
+#       - What is the Women Empowerment Cell?
+#       - Give me an overview of WEC.
 
-  - intent: wec_objectives
-    examples: |
-      - What are the objectives of the Women Empowerment Cell?
-      - Tell me the objectives of WEC.
-      - What is the purpose of the Women Empowerment Cell?
+#   - intent: wec_objectives
+#     examples: |
+#       - What are the objectives of the Women Empowerment Cell?
+#       - Tell me the objectives of WEC.
+#       - What is the purpose of the Women Empowerment Cell?
 
-  - intent: wec_faculty_incharges
-    examples: |
-      - Who are the faculty in charge of WEC?
-      - Show me the WEC faculty incharges.
-      - List the faculty members in WEC.
+#   - intent: wec_faculty_incharges
+#     examples: |
+#       - Who are the faculty in charge of WEC?
+#       - Show me the WEC faculty incharges.
+#       - List the faculty members in WEC.
 
-  - intent: wec_members
-    examples: |
-      - Who are the members of WEC?
-      - Show me the WEC members list.
-      - Provide the list of WEC members.
+#   - intent: wec_members
+#     examples: |
+#       - Who are the members of WEC?
+#       - Show me the WEC members list.
+#       - Provide the list of WEC members.
 
-  - intent: wec_activities
-    examples: |
-      - What activities does the WEC conduct?
-      - Show WEC activities.
-      - Tell me about Women Empowerment Cell activities.
+#   - intent: wec_activities
+#     examples: |
+#       - What activities does the WEC conduct?
+#       - Show WEC activities.
+#       - Tell me about Women Empowerment Cell activities.
 
-  - intent: vision_iiic
-    examples: |
-      - What is the vision of IIIC?
-      - Tell me about IIIC's vision.
-      - What does IIIC aim to achieve?
+#   - intent: vision_iiic
+#     examples: |
+#       - What is the vision of IIIC?
+#       - Tell me about IIIC's vision.
+#       - What does IIIC aim to achieve?
 
-  - intent: mission_iiic
-    examples: |
-      - What is the mission of IIIC?
-      - Tell me about IIIC's mission.
-      - What are the goals of IIIC?
+#   - intent: mission_iiic
+#     examples: |
+#       - What is the mission of IIIC?
+#       - Tell me about IIIC's mission.
+#       - What are the goals of IIIC?
 
-  - intent: objectives_iiic
-    examples: |
-      - What are the objectives of IIIC?
-      - List the objectives of IIIC.
-      - What does IIIC focus on?
+#   - intent: objectives_iiic
+#     examples: |
+#       - What are the objectives of IIIC?
+#       - List the objectives of IIIC.
+#       - What does IIIC focus on?
 
-  - intent: policies_iiic
-    examples: |
-      - Where can I find IIIC policies?
-      - Show me IIIC's policies.
-      - Provide the policies of IIIC.
+#   - intent: policies_iiic
+#     examples: |
+#       - Where can I find IIIC policies?
+#       - Show me IIIC's policies.
+#       - Provide the policies of IIIC.
 
-  - intent: members_iiic
-    examples: |
-      - Who are the members of IIIC?
-      - Show me the IIIC members list.
-      - Where can I find information about IIIC members?
+#   - intent: members_iiic
+#     examples: |
+#       - Who are the members of IIIC?
+#       - Show me the IIIC members list.
+#       - Where can I find information about IIIC members?
 
-  - intent: events_iiic
-    examples: |
-      - What are the events of IIIC?
-      - Show me upcoming IIIC events.
-      - Where can I find information on IIIC events?
+#   - intent: events_iiic
+#     examples: |
+#       - What are the events of IIIC?
+#       - Show me upcoming IIIC events.
+#       - Where can I find information on IIIC events?
 
-  - intent: student_induction_program
-    examples: |
-      - Where can I find details about the student induction program?
-      - Tell me about the student induction program.
-      - Show me information on SIP.
+#   - intent: student_induction_program
+#     examples: |
+#       - Where can I find details about the student induction program?
+#       - Tell me about the student induction program.
+#       - Show me information on SIP.
 
-  - intent: startup_tn_objective
-    examples: |
-      - What is the objective of StartupTN Campus Circle?
-      - Tell me about StartupTN Campus Circle.
-      - What does StartupTN Campus Circle focus on?
+#   - intent: startup_tn_objective
+#     examples: |
+#       - What is the objective of StartupTN Campus Circle?
+#       - Tell me about StartupTN Campus Circle.
+#       - What does StartupTN Campus Circle focus on?
 
-  - intent: startup_tn_office_bearers
-    examples: |
-      - Who are the office bearers of StartupTN Campus Circle?
-      - Show me the StartupTN office bearers list.
-      - Where can I find details about StartupTN Campus Circle team?
+#   - intent: startup_tn_office_bearers
+#     examples: |
+#       - Who are the office bearers of StartupTN Campus Circle?
+#       - Show me the StartupTN office bearers list.
+#       - Where can I find details about StartupTN Campus Circle team?
 
-  - intent: startup_tn_events
-    examples: |
-      - What are the events of StartupTN Campus Circle?
-      - Show me StartupTN events.
-      - Where can I find information on StartupTN events?
+#   - intent: startup_tn_events
+#     examples: |
+#       - What are the events of StartupTN Campus Circle?
+#       - Show me StartupTN events.
+#       - Where can I find information on StartupTN events?
 
-  - intent: life_at_ssm
-    examples: |
-      - Tell me about life at SSM
-      - What is student life like at SSM?
-      - How is campus life at SSM?
-      - Describe the extracurricular activities at SSM
+#   - intent: life_at_ssm
+#     examples: |
+#       - Tell me about life at SSM
+#       - What is student life like at SSM?
+#       - How is campus life at SSM?
+#       - Describe the extracurricular activities at SSM
 
-  - intent: help_center
-    examples: |
-      - Where can I find the help center?
-      - How do I contact the help desk?
-      - I need assistance, where should I go?
-      - Help desk information
+#   - intent: help_center
+#     examples: |
+#       - Where can I find the help center?
+#       - How do I contact the help desk?
+#       - I need assistance, where should I go?
+#       - Help desk information
 
-  - intent: ask_about_edc
-    examples: |
-      - What is EDC?
-      - Tell me about the Entrepreneurship Development Cell
+#   - intent: ask_about_edc
+#     examples: |
+#       - What is EDC?
+#       - Tell me about the Entrepreneurship Development Cell
 
-  - intent: ask_edc_objectives
-    examples: |
-      - What are the objectives of EDC?
-      - What does EDC aim to achieve?
+#   - intent: ask_edc_objectives
+#     examples: |
+#       - What are the objectives of EDC?
+#       - What does EDC aim to achieve?
 
-  - intent: ask_edc_vision
-    examples: |
-      - What is the vision of EDC?
+#   - intent: ask_edc_vision
+#     examples: |
+#       - What is the vision of EDC?
 
-  - intent: ask_edc_mission
-    examples: |
-      - What is the mission of EDC?
+#   - intent: ask_edc_mission
+#     examples: |
+#       - What is the mission of EDC?
 
-  - intent: ask_edc_staff
-    examples: |
-      - Who are the staff members of EDC?
+#   - intent: ask_edc_staff
+#     examples: |
+#       - Who are the staff members of EDC?
 
-  - intent: ask_edc_office_barriers
-    examples: |
-      - What are the office barriers of EDC?
+#   - intent: ask_edc_office_barriers
+#     examples: |
+#       - What are the office barriers of EDC?
 
-  - intent: ask_edc_events
-    examples: |
-      - What events does EDC conduct?
+#   - intent: ask_edc_events
+#     examples: |
+#       - What events does EDC conduct?
 
-  - intent: ask_successful_entrepreneurs
-    examples: |
-      - Who are the successful entrepreneurs from EDC?
+#   - intent: ask_successful_entrepreneurs
+#     examples: |
+#       - Who are the successful entrepreneurs from EDC?
 
-  - intent: ask_about_info
-    examples: |
-      - What is UBA?
-      - Tell me about Unnat Bharat Abhiyan
+#   - intent: ask_about_info
+#     examples: |
+#       - What is UBA?
+#       - Tell me about Unnat Bharat Abhiyan
 
-  - intent: ask_uba_vision
-    examples: |
-      - What is the vision of UBA?
+#   - intent: ask_uba_vision
+#     examples: |
+#       - What is the vision of UBA?
 
-  - intent: ask_uba_mission
-    examples: |
-      - What is the mission of UBA?
+#   - intent: ask_uba_mission
+#     examples: |
+#       - What is the mission of UBA?
 
-  - intent: ask_uba_objectives
-    examples: |
-      - What are the objectives of UBA?
+#   - intent: ask_uba_objectives
+#     examples: |
+#       - What are the objectives of UBA?
 
-  - intent: ask_uba_activities
-    examples: |
-      - What activities are conducted under UBA?
+#   - intent: ask_uba_activities
+#     examples: |
+#       - What activities are conducted under UBA?
 
-  - intent: ask_uba_members
-    examples: |
-      - Who are the members of UBA?
+#   - intent: ask_uba_members
+#     examples: |
+#       - Who are the members of UBA?
 
-  - intent: ask_uba_villages
-    examples: |
-      - Which villages are adopted under UBA?
+#   - intent: ask_uba_villages
+#     examples: |
+#       - Which villages are adopted under UBA?
 
-  - intent: ask_nss_objectives
-    examples: |
-      - What is the objective of NSS?
-      - Tell me about National Service Scheme objectives
+#   - intent: ask_nss_objectives
+#     examples: |
+#       - What is the objective of NSS?
+#       - Tell me about National Service Scheme objectives
 
-  - intent: ask_nss_activities
-    examples: |
-      - What are the activities of NSS?
-      - Describe NSS activities
+#   - intent: ask_nss_activities
+#     examples: |
+#       - What are the activities of NSS?
+#       - Describe NSS activities
 
-  - intent: ask_nss_members
-    examples: |
-      - Who are the members of NSS?
+#   - intent: ask_nss_members
+#     examples: |
+#       - Who are the members of NSS?
 
-  - intent: ask_nss_events
-    examples: |
-      - What events does NSS conduct?
+#   - intent: ask_nss_events
+#     examples: |
+#       - What events does NSS conduct?
 
-  - intent: ask_bhs_objective
-    examples: |
-      - What is the objective of BHS?
-      - Tell me about Bureau for Higher Studies
+#   - intent: ask_bhs_objective
+#     examples: |
+#       - What is the objective of BHS?
+#       - Tell me about Bureau for Higher Studies
 
-  - intent: ask_bhs_members
-    examples: |
-      - Who are the members of BHS?
+#   - intent: ask_bhs_members
+#     examples: |
+#       - Who are the members of BHS?
 
-  - intent: ask_bhs_gallery
-    examples: |
-      - Show me the BHS gallery
+#   - intent: ask_bhs_gallery
+#     examples: |
+#       - Show me the BHS gallery
 
-  - intent: ask_bhs_events
-    examples: |
-      - What are the events conducted by BHS?
+#   - intent: ask_bhs_events
+#     examples: |
+#       - What are the events conducted by BHS?
 
-  - intent: iic_about
-    examples: |
-      - Tell me about the Institution Innovation Council.
-      - What is IIC?
-      - Give me an overview of IIC.
+#   - intent: iic_about
+#     examples: |
+#       - Tell me about the Institution Innovation Council.
+#       - What is IIC?
+#       - Give me an overview of IIC.
 
-  - intent: iic_objectives
-    examples: |
-      - What are the objectives of the Institution Innovation Council?
-      - Tell me the objectives of IIC.
-      - What is the purpose of IIC?
+#   - intent: iic_objectives
+#     examples: |
+#       - What are the objectives of the Institution Innovation Council?
+#       - Tell me the objectives of IIC.
+#       - What is the purpose of IIC?
 
-  - intent: iic_faculty_incharges
-    examples: |
-      - Who are the faculty in charge of IIC?
-      - Show me the IIC faculty incharges.
-      - List the faculty members in IIC.
+#   - intent: iic_faculty_incharges
+#     examples: |
+#       - Who are the faculty in charge of IIC?
+#       - Show me the IIC faculty incharges.
+#       - List the faculty members in IIC.
 
-  - intent: iic_members
-    examples: |
-      - Who are the members of IIC?
-      - Show me the IIC members list.
-      - Provide the list of IIC members.
+#   - intent: iic_members
+#     examples: |
+#       - Who are the members of IIC?
+#       - Show me the IIC members list.
+#       - Provide the list of IIC members.
 
-  - intent: iic_activities
-    examples: |
-      - What activities does IIC conduct?
-      - Show IIC activities.
-      - Tell me about IIC activities.
+#   - intent: iic_activities
+#     examples: |
+#       - What activities does IIC conduct?
+#       - Show IIC activities.
+#       - Tell me about IIC activities.
 
-  - intent: ask_grc_about
-    examples: |
-      - What is the Grievance Redressal Cell?
+#   - intent: ask_grc_about
+#     examples: |
+#       - What is the Grievance Redressal Cell?
 
-  - intent: ask_grc_objectives
-    examples: |
-      - What are the objectives of the GRC?
+#   - intent: ask_grc_objectives
+#     examples: |
+#       - What are the objectives of the GRC?
 
-  - intent: ask_grc_systems
-    examples: |
-      - What is the Grievance Redressal System?
+#   - intent: ask_grc_systems
+#     examples: |
+#       - What is the Grievance Redressal System?
 
-  - intent: ask_grc_members
-    examples: |
-      - Who are the members of the GRC?
+#   - intent: ask_grc_members
+#     examples: |
+#       - Who are the members of the GRC?
 
-  - intent: ask_grc_gazette
-    examples: |
-      - Where can I find the Sexual Harassment Act Gazette?
+#   - intent: ask_grc_gazette
+#     examples: |
+#       - Where can I find the Sexual Harassment Act Gazette?
 
-  - intent: ask_grc_posh
-    examples: |
-      - What is POSH?
+#   - intent: ask_grc_posh
+#     examples: |
+#       - What is POSH?
 
-  - intent: ask_grc_posh_members
-    examples: |
-      - Who are the POSH members?
+#   - intent: ask_grc_posh_members
+#     examples: |
+#       - Who are the POSH members?
 
-  - intent: ask_grc_posh_activities
-    examples: |
-      - What are the POSH activities?
+#   - intent: ask_grc_posh_activities
+#     examples: |
+#       - What are the POSH activities?
 
-  - intent: ask_grc_mechanism
-    examples: |
-      - What is the GRC mechanism?
+#   - intent: ask_grc_mechanism
+#     examples: |
+#       - What is the GRC mechanism?
 
-  - intent: ask_grc_suggestion_box
-    examples: |
-      - Where is the GRC suggestion box located?
+#   - intent: ask_grc_suggestion_box
+#     examples: |
+#       - Where is the GRC suggestion box located?
 
-  - intent: ask_grc_action_taken
-    examples: |
-      - Where can I find action taken reports?
+#   - intent: ask_grc_action_taken
+#     examples: |
+#       - Where can I find action taken reports?
 
-  - intent: ask_grc_cell_activities
-    examples: |
-      - What are the GRC cell activities?
+#   - intent: ask_grc_cell_activities
+#     examples: |
+#       - What are the GRC cell activities?
 
-  - intent: ask_grc_online_submission
-    examples: |
-      - How can I submit a grievance online?
+#   - intent: ask_grc_online_submission
+#     examples: |
+#       - How can I submit a grievance online?
 
-  - intent: ask_grc_gallery
-    examples: |
-      - Where can I find the GRC gallery?
+#   - intent: ask_grc_gallery
+#     examples: |
+#       - Where can I find the GRC gallery?
 
-  - intent: ipr_objectives
-    examples: |
-      - What are the objectives of the IPR Cell?
-      - Tell me about the IPR objectives.
+#   - intent: ipr_objectives
+#     examples: |
+#       - What are the objectives of the IPR Cell?
+#       - Tell me about the IPR objectives.
   
-  - intent: ipr_roles
-    examples: |
-      - What are the roles of the IPR Cell?
-      - Explain the responsibilities of the IPR Cell.
+#   - intent: ipr_roles
+#     examples: |
+#       - What are the roles of the IPR Cell?
+#       - Explain the responsibilities of the IPR Cell.
   
-  - intent: ipr_functions
-    examples: |
-      - What are the functions of the IPR Cell?
-      - Explain the responsibilities of IPR Cell members.
+#   - intent: ipr_functions
+#     examples: |
+#       - What are the functions of the IPR Cell?
+#       - Explain the responsibilities of IPR Cell members.
   
-  - intent: ipr_importance
-    examples: |
-      - Why is IPR important?
-      - What is the importance of IPR?
+#   - intent: ipr_importance
+#     examples: |
+#       - Why is IPR important?
+#       - What is the importance of IPR?
   
-  - intent: ipr_types
-    examples: |
-      - What are the types of IPR?
-      - Explain different types of Intellectual Property Rights.
+#   - intent: ipr_types
+#     examples: |
+#       - What are the types of IPR?
+#       - Explain different types of Intellectual Property Rights.
   
-  - intent: ipr_coordinators
-    examples: |
-      - Who are the IPR coordinators?
-      - Show me the IPR Cell members list.
+#   - intent: ipr_coordinators
+#     examples: |
+#       - Who are the IPR coordinators?
+#       - Show me the IPR Cell members list.
   
-  - intent: ipr_events
-    examples: |
-      - What events has the IPR Cell organized?
-      - Show me past IPR events.
+#   - intent: ipr_events
+#     examples: |
+#       - What events has the IPR Cell organized?
+#       - Show me past IPR events.
   
-  - intent: ipr_patent_status
-    examples: |
-      - What is the patent filing status?
-      - Show me the list of filed patents.
+#   - intent: ipr_patent_status
+#     examples: |
+#       - What is the patent filing status?
+#       - Show me the list of filed patents.
 
-  - intent: about_iete
-    examples: |
-      - What is IETE?
-      - Tell me about the IETE Students Forum
-      - Give details about the IETE organization
+#   - intent: about_iete
+#     examples: |
+#       - What is IETE?
+#       - Tell me about the IETE Students Forum
+#       - Give details about the IETE organization
 
-  - intent: iete_events
-    examples: |
-      - Show me the IETE events
-      - What are the recent IETE events?
-      - Give me the list of IETE events
-      - Where can I find IETE event details?
+#   - intent: iete_events
+#     examples: |
+#       - Show me the IETE events
+#       - What are the recent IETE events?
+#       - Give me the list of IETE events
+#       - Where can I find IETE event details?
 
-  - intent: inquire_scst_cell
-    examples: |
-      - What is the SCST Cell?
-      - Tell me about the SCST Cell
-      - SC/ST Cell information
-      - Where can I find details about sc st Cell?
-      - Provide scst Cell link
+#   - intent: inquire_scst_cell
+#     examples: |
+#       - What is the SCST Cell?
+#       - Tell me about the SCST Cell
+#       - SC/ST Cell information
+#       - Where can I find details about sc st Cell?
+#       - Provide scst Cell link
 
-  - intent: ask_yrc_objectives
-    examples: |
-      - What are the principles of Youth Red Cross?
-      - Tell me about the objectives of YRC.
-      - What does the Youth Red Cross focus on?
-      - Explain the aim of the Youth Red Cross at SSMIET.
-      - Can you list the principles and objectives of YRC?
+#   - intent: ask_yrc_objectives
+#     examples: |
+#       - What are the principles of Youth Red Cross?
+#       - Tell me about the objectives of YRC.
+#       - What does the Youth Red Cross focus on?
+#       - Explain the aim of the Youth Red Cross at SSMIET.
+#       - Can you list the principles and objectives of YRC?
 
-  - intent: ask_yrc_faculty
-    examples: |
-      - Who are the Youth Red Cross coordinators?
-      - Tell me about YRC faculty members.
-      - Can you list the YRC faculty?
-      - Who manages the Youth Red Cross at SSMIET?
-      - Provide details about YRC faculty.
+#   - intent: ask_yrc_faculty
+#     examples: |
+#       - Who are the Youth Red Cross coordinators?
+#       - Tell me about YRC faculty members.
+#       - Can you list the YRC faculty?
+#       - Who manages the Youth Red Cross at SSMIET?
+#       - Provide details about YRC faculty.
   
-  - intent: ask_yrc_events
-    examples: |
-      - What are the YRC events at SSMIET?
-      - Can you tell me about Youth Red Cross events?
-      - Give me information on YRC events.
-      - What events are organized by the Youth Red Cross?
-      - I want to know about YRC events.
+#   - intent: ask_yrc_events
+#     examples: |
+#       - What are the YRC events at SSMIET?
+#       - Can you tell me about Youth Red Cross events?
+#       - Give me information on YRC events.
+#       - What events are organized by the Youth Red Cross?
+#       - I want to know about YRC events.
 
-  - intent: ask_yrc_members
-    examples: |
-      - Can you share the Youth Red Cross members list?
-      - Where can I find the list of Youth Red Cross members?
-      - Tell me the link for the YRC members.
-      - What are the members of the Youth Red Cross?
+#   - intent: ask_yrc_members
+#     examples: |
+#       - Can you share the Youth Red Cross members list?
+#       - Where can I find the list of Youth Red Cross members?
+#       - Tell me the link for the YRC members.
+#       - What are the members of the Youth Red Cross?
 
-  - intent: ask_anti_ragging_vision
-    examples: |
-      - What is the vision of Anti Ragging Cell?
-      - Can you tell me the vision of the Anti Ragging Cell?
-      - I want to know the vision of the Anti Ragging Cell.
-      - What is the purpose of the Anti Ragging Cell vision?
+#   - intent: ask_anti_ragging_vision
+#     examples: |
+#       - What is the vision of Anti Ragging Cell?
+#       - Can you tell me the vision of the Anti Ragging Cell?
+#       - I want to know the vision of the Anti Ragging Cell.
+#       - What is the purpose of the Anti Ragging Cell vision?
   
-  - intent: ask_anti_ragging_mission
-    examples: |
-      - What is the mission of Anti Ragging Cell?
-      - Can you tell me the mission of the Anti Ragging Cell?
-      - I want to know the mission of the Anti Ragging Cell.
-      - What does the Anti Ragging Cell aim to do?
+#   - intent: ask_anti_ragging_mission
+#     examples: |
+#       - What is the mission of Anti Ragging Cell?
+#       - Can you tell me the mission of the Anti Ragging Cell?
+#       - I want to know the mission of the Anti Ragging Cell.
+#       - What does the Anti Ragging Cell aim to do?
 
-  - intent: ask_anti_ragging_objectives
-    examples: |
-      - What are the objectives of Anti Ragging Cell?
-      - Can you tell me the objectives of the Anti Ragging Cell?
-      - I want to know the objectives of the Anti Ragging Cell.
-      - What is the purpose of the Anti Ragging Cell?
+#   - intent: ask_anti_ragging_objectives
+#     examples: |
+#       - What are the objectives of Anti Ragging Cell?
+#       - Can you tell me the objectives of the Anti Ragging Cell?
+#       - I want to know the objectives of the Anti Ragging Cell.
+#       - What is the purpose of the Anti Ragging Cell?
 
-  - intent: ask_committee_and_squad_members
-    examples: |
-      - Who are the committee and squad members for anti ragging?
-      - Can you tell me about the anti ragging cell committee and squad members?
-      - What are the members of the anti ragging cell?
-      - Who is part of the committee and squad for anti ragging?
+#   - intent: ask_committee_and_squad_members
+#     examples: |
+#       - Who are the committee and squad members for anti ragging?
+#       - Can you tell me about the anti ragging cell committee and squad members?
+#       - What are the members of the anti ragging cell?
+#       - Who is part of the committee and squad for anti ragging?
       
-  - intent: ask_commitee
-    examples: |
-      - Tell me about the anti ragging committee.
-      - What is the anti ragging committee?
-      - Who is in the anti ragging committee?
+#   - intent: ask_commitee
+#     examples: |
+#       - Tell me about the anti ragging committee.
+#       - What is the anti ragging committee?
+#       - Who is in the anti ragging committee?
       
-  - intent: ask_squad
-    examples: |
-      - Tell me about the anti ragging squad.
-      - Who is in the anti ragging squad?
-      - What is the anti ragging squad?
+#   - intent: ask_squad
+#     examples: |
+#       - Tell me about the anti ragging squad.
+#       - Who is in the anti ragging squad?
+#       - What is the anti ragging squad?
 
-  - intent: ask_minutes_of_meeting
-    examples: |
-      - Can you share the minutes of the anti ragging cell meeting?
-      - Where can I find the minutes of the anti ragging cell?
-      - Tell me the link for the anti ragging cell meeting minutes.
-      - What are the minutes of the anti ragging cell meeting?
+#   - intent: ask_minutes_of_meeting
+#     examples: |
+#       - Can you share the minutes of the anti ragging cell meeting?
+#       - Where can I find the minutes of the anti ragging cell?
+#       - Tell me the link for the anti ragging cell meeting minutes.
+#       - What are the minutes of the anti ragging cell meeting?

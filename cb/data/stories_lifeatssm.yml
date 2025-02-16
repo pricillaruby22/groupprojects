@@ -1,407 +1,407 @@
-version: "3.1"
+# version: "3.1"
 
-stories:
-  - story: provide WEC about information
-    steps:
-      - intent: wec_about
-      - action: utter_wec_about
+# stories:
+#   - story: provide WEC about information
+#     steps:
+#       - intent: wec_about
+#       - action: utter_wec_about
 
-  - story: provide WEC objectives
-    steps:
-      - intent: wec_objectives
-      - action: utter_wec_objectives
+#   - story: provide WEC objectives
+#     steps:
+#       - intent: wec_objectives
+#       - action: utter_wec_objectives
 
-  - story: provide WEC faculty incharges
-    steps:
-      - intent: wec_faculty_incharges
-      - action: utter_wec_faculty_incharges
+#   - story: provide WEC faculty incharges
+#     steps:
+#       - intent: wec_faculty_incharges
+#       - action: utter_wec_faculty_incharges
 
-  - story: provide WEC members list
-    steps:
-      - intent: wec_members
-      - action: utter_wec_members
+#   - story: provide WEC members list
+#     steps:
+#       - intent: wec_members
+#       - action: utter_wec_members
 
-  - story: provide WEC activities
-    steps:
-      - intent: wec_activities
-      - action: utter_wec_activities
+#   - story: provide WEC activities
+#     steps:
+#       - intent: wec_activities
+#       - action: utter_wec_activities
 
-  - story: Vision of IIIC
-    steps:
-      - intent: vision_iiic
-      - action: utter_vision_iiic
+#   - story: Vision of IIIC
+#     steps:
+#       - intent: vision_iiic
+#       - action: utter_vision_iiic
 
-  - story: Mission of IIIC
-    steps:
-      - intent: mission_iiic
-      - action: utter_mission_iiic
+#   - story: Mission of IIIC
+#     steps:
+#       - intent: mission_iiic
+#       - action: utter_mission_iiic
 
-  - story: Objectives of IIIC
-    steps:
-      - intent: objectives_iiic
-      - action: utter_objectives_iiic
+#   - story: Objectives of IIIC
+#     steps:
+#       - intent: objectives_iiic
+#       - action: utter_objectives_iiic
 
-  - story: IIIC Policies
-    steps:
-      - intent: policies_iiic
-      - action: utter_policies_iiic
+#   - story: IIIC Policies
+#     steps:
+#       - intent: policies_iiic
+#       - action: utter_policies_iiic
 
-  - story: IIIC Members
-    steps:
-      - intent: members_iiic
-      - action: utter_members_iiic
+#   - story: IIIC Members
+#     steps:
+#       - intent: members_iiic
+#       - action: utter_members_iiic
 
-  - story: IIIC Events
-    steps:
-      - intent: events_iiic
-      - action: utter_events_iiic
+#   - story: IIIC Events
+#     steps:
+#       - intent: events_iiic
+#       - action: utter_events_iiic
 
-  - story: Student Induction Program
-    steps:
-      - intent: student_induction_program
-      - action: utter_student_induction_program
+#   - story: Student Induction Program
+#     steps:
+#       - intent: student_induction_program
+#       - action: utter_student_induction_program
 
-  - story: StartupTN Campus Circle Objective
-    steps:
-      - intent: startup_tn_objective
-      - action: utter_startup_tn_objective
+#   - story: StartupTN Campus Circle Objective
+#     steps:
+#       - intent: startup_tn_objective
+#       - action: utter_startup_tn_objective
 
-  - story: StartupTN Campus Circle Office Bearers
-    steps:
-      - intent: startup_tn_office_bearers
-      - action: utter_startup_tn_office_bearers
+#   - story: StartupTN Campus Circle Office Bearers
+#     steps:
+#       - intent: startup_tn_office_bearers
+#       - action: utter_startup_tn_office_bearers
 
-  - story: StartupTN Campus Circle Events
-    steps:
-      - intent: startup_tn_events
-      - action: utter_startup_tn_events
+#   - story: StartupTN Campus Circle Events
+#     steps:
+#       - intent: startup_tn_events
+#       - action: utter_startup_tn_events
 
-  - story: user asks about life at SSM
-    steps:
-    - intent: life_at_ssm
-    - action: utter_life_at_ssm
+#   - story: user asks about life at SSM
+#     steps:
+#     - intent: life_at_ssm
+#     - action: utter_life_at_ssm
 
-  - story: user asks for help center details
-    steps:
-    - intent: help_center
-    - action: utter_help_center
+#   - story: user asks for help center details
+#     steps:
+#     - intent: help_center
+#     - action: utter_help_center
 
-  - story: User asks about EDC
-    steps:
-      - intent: ask_about_edc
-      - action: utter_edc_info
+#   - story: User asks about EDC
+#     steps:
+#       - intent: ask_about_edc
+#       - action: utter_edc_info
 
-  - story: User asks about EDC objectives
-    steps:
-      - intent: ask_edc_objectives
-      - action: utter_edc_objectives
+#   - story: User asks about EDC objectives
+#     steps:
+#       - intent: ask_edc_objectives
+#       - action: utter_edc_objectives
 
-  - story: User asks about EDC vision
-    steps:
-      - intent: ask_edc_vision
-      - action: utter_edc_vision
+#   - story: User asks about EDC vision
+#     steps:
+#       - intent: ask_edc_vision
+#       - action: utter_edc_vision
 
-  - story: User asks about EDC mission
-    steps:
-      - intent: ask_edc_mission
-      - action: utter_edc_mission
+#   - story: User asks about EDC mission
+#     steps:
+#       - intent: ask_edc_mission
+#       - action: utter_edc_mission
 
-  - story: User asks about EDC staff
-    steps:
-      - intent: ask_edc_staff
-      - action: utter_edc_staff
+#   - story: User asks about EDC staff
+#     steps:
+#       - intent: ask_edc_staff
+#       - action: utter_edc_staff
 
-  - story: User asks about EDC office barriers
-    steps:
-      - intent: ask_edc_office_barriers
-      - action: utter_edc_office_barriers
+#   - story: User asks about EDC office barriers
+#     steps:
+#       - intent: ask_edc_office_barriers
+#       - action: utter_edc_office_barriers
 
-  - story: User asks about EDC events
-    steps:
-      - intent: ask_edc_events
-      - action: utter_edc_events
+#   - story: User asks about EDC events
+#     steps:
+#       - intent: ask_edc_events
+#       - action: utter_edc_events
 
-  - story: User asks about successful entrepreneurs
-    steps:
-      - intent: ask_successful_entrepreneurs
-      - action: utter_successful_entrepreneurs
+#   - story: User asks about successful entrepreneurs
+#     steps:
+#       - intent: ask_successful_entrepreneurs
+#       - action: utter_successful_entrepreneurs
 
-  - story: User asks about UBA
-    steps:
-      - intent: ask_about_info
-      - action: utter_about_info
+#   - story: User asks about UBA
+#     steps:
+#       - intent: ask_about_info
+#       - action: utter_about_info
 
-  - story: User asks about UBA vision
-    steps:
-      - intent: ask_uba_vision
-      - action: utter_uba_vision
+#   - story: User asks about UBA vision
+#     steps:
+#       - intent: ask_uba_vision
+#       - action: utter_uba_vision
 
-  - story: User asks about UBA mission
-    steps:
-      - intent: ask_uba_mission
-      - action: utter_uba_mission
+#   - story: User asks about UBA mission
+#     steps:
+#       - intent: ask_uba_mission
+#       - action: utter_uba_mission
 
-  - story: User asks about UBA objectives
-    steps:
-      - intent: ask_uba_objectives
-      - action: utter_uba_objectives
+#   - story: User asks about UBA objectives
+#     steps:
+#       - intent: ask_uba_objectives
+#       - action: utter_uba_objectives
 
-  - story: User asks about UBA activities
-    steps:
-      - intent: ask_uba_activities
-      - action: utter_uba_activities
+#   - story: User asks about UBA activities
+#     steps:
+#       - intent: ask_uba_activities
+#       - action: utter_uba_activities
 
-  - story: User asks about UBA members
-    steps:
-      - intent: ask_uba_members
-      - action: utter_uba_members
+#   - story: User asks about UBA members
+#     steps:
+#       - intent: ask_uba_members
+#       - action: utter_uba_members
 
-  - story: User asks about UBA villages
-    steps:
-      - intent: ask_uba_villages
-      - action: utter_uba_villages
+#   - story: User asks about UBA villages
+#     steps:
+#       - intent: ask_uba_villages
+#       - action: utter_uba_villages
 
-  - story: User asks about NSS objectives
-    steps:
-      - intent: ask_nss_objectives
-      - action: utter_nss_objectives
+#   - story: User asks about NSS objectives
+#     steps:
+#       - intent: ask_nss_objectives
+#       - action: utter_nss_objectives
 
-  - story: User asks about NSS activities
-    steps:
-      - intent: ask_nss_activities
-      - action: utter_nss_activities
+#   - story: User asks about NSS activities
+#     steps:
+#       - intent: ask_nss_activities
+#       - action: utter_nss_activities
 
-  - story: User asks about NSS members
-    steps:
-      - intent: ask_nss_members
-      - action: utter_nss_members
+#   - story: User asks about NSS members
+#     steps:
+#       - intent: ask_nss_members
+#       - action: utter_nss_members
 
-  - story: User asks about NSS events
-    steps:
-      - intent: ask_nss_events
-      - action: utter_nss_events
+#   - story: User asks about NSS events
+#     steps:
+#       - intent: ask_nss_events
+#       - action: utter_nss_events
 
-  - story: User asks about BHS objective
-    steps:
-      - intent: ask_bhs_objective
-      - action: utter_bhs_objective
+#   - story: User asks about BHS objective
+#     steps:
+#       - intent: ask_bhs_objective
+#       - action: utter_bhs_objective
 
-  - story: User asks about BHS members
-    steps:
-      - intent: ask_bhs_members
-      - action: utter_bhs_members
+#   - story: User asks about BHS members
+#     steps:
+#       - intent: ask_bhs_members
+#       - action: utter_bhs_members
 
-  - story: User asks about BHS gallery
-    steps:
-      - intent: ask_bhs_gallery
-      - action: utter_bhs_gallery
+#   - story: User asks about BHS gallery
+#     steps:
+#       - intent: ask_bhs_gallery
+#       - action: utter_bhs_gallery
 
-  - story: User asks about BHS events
-    steps:
-      - intent: ask_bhs_events
-      - action: utter_bhs_events
+#   - story: User asks about BHS events
+#     steps:
+#       - intent: ask_bhs_events
+#       - action: utter_bhs_events
 
-  - story: provide IIC about information
-    steps:
-      - intent: iic_about
-      - action: utter_iic_about
+#   - story: provide IIC about information
+#     steps:
+#       - intent: iic_about
+#       - action: utter_iic_about
 
-  - story: provide IIC objectives
-    steps:
-      - intent: iic_objectives
-      - action: utter_iic_objectives
+#   - story: provide IIC objectives
+#     steps:
+#       - intent: iic_objectives
+#       - action: utter_iic_objectives
 
-  - story: provide IIC faculty incharges
-    steps:
-      - intent: iic_faculty_incharges
-      - action: utter_iic_faculty_incharges
+#   - story: provide IIC faculty incharges
+#     steps:
+#       - intent: iic_faculty_incharges
+#       - action: utter_iic_faculty_incharges
 
-  - story: provide IIC members list
-    steps:
-      - intent: iic_members
-      - action: utter_iic_members
+#   - story: provide IIC members list
+#     steps:
+#       - intent: iic_members
+#       - action: utter_iic_members
 
-  - story: provide IIC activities
-    steps:
-      - intent: iic_activities
-      - action: utter_iic_activities
+#   - story: provide IIC activities
+#     steps:
+#       - intent: iic_activities
+#       - action: utter_iic_activities
   
-  - story: user asks about Grievance Redressal Cell
-    steps:
-      - intent: ask_about_grc
-      - action: utter_about_grc
+#   - story: user asks about Grievance Redressal Cell
+#     steps:
+#       - intent: ask_about_grc
+#       - action: utter_about_grc
 
-  - story: user asks about objectives of Grievance Redressal Cell
-    steps:
-    - intent: ask_objective_grc
-    - action: utter_objective_grc
+#   - story: user asks about objectives of Grievance Redressal Cell
+#     steps:
+#     - intent: ask_objective_grc
+#     - action: utter_objective_grc
 
-  - story: user asks about Grievance Redressal Systems
-    steps:
-    - intent: ask_grc_systems
-    - action: utter_grc_systems
+#   - story: user asks about Grievance Redressal Systems
+#     steps:
+#     - intent: ask_grc_systems
+#     - action: utter_grc_systems
 
-  - story: user asks about members of GRC
-    steps:
-    - intent: ask_grc_members
-    - action: utter_grc_members
+#   - story: user asks about members of GRC
+#     steps:
+#     - intent: ask_grc_members
+#     - action: utter_grc_members
 
-  - story: user asks about Sexual Harassment of Women Act 2013
-    steps:
-    - intent: ask_gazette_act
-    - action: utter_gazette_act
+#   - story: user asks about Sexual Harassment of Women Act 2013
+#     steps:
+#     - intent: ask_gazette_act
+#     - action: utter_gazette_act
 
-  - story: user asks about POSH
-    steps:
-    - intent: ask_posh
-    - action: utter_posh
+#   - story: user asks about POSH
+#     steps:
+#     - intent: ask_posh
+#     - action: utter_posh
 
-  - story: user asks about POSH members
-    steps:
-    - intent: ask_posh_members
-    - action: utter_posh_members
+#   - story: user asks about POSH members
+#     steps:
+#     - intent: ask_posh_members
+#     - action: utter_posh_members
 
-  - story: user asks about POSH activities
-    steps:
-    - intent: ask_posh_activities
-    - action: utter_posh_activities
+#   - story: user asks about POSH activities
+#     steps:
+#     - intent: ask_posh_activities
+#     - action: utter_posh_activities
 
-  - story: user asks about GRC mechanism
-    steps:
-    - intent: ask_grc_mechanism
-    - action: utter_grc_mechanism
+#   - story: user asks about GRC mechanism
+#     steps:
+#     - intent: ask_grc_mechanism
+#     - action: utter_grc_mechanism
 
-  - story: user asks about GRC suggestion box
-    steps:
-    - intent: ask_grc_suggestion_box
-    - action: utter_grc_suggestion_box
+#   - story: user asks about GRC suggestion box
+#     steps:
+#     - intent: ask_grc_suggestion_box
+#     - action: utter_grc_suggestion_box
 
-  - story: user asks about action taken reports
-    steps:
-    - intent: ask_action_taken_reports
-    - action: utter_action_taken_reports
+#   - story: user asks about action taken reports
+#     steps:
+#     - intent: ask_action_taken_reports
+#     - action: utter_action_taken_reports
 
-  - story: user asks about GRC cell activities
-    steps:
-    - intent: ask_grc_cell_activities
-    - action: utter_grc_cell_activities
+#   - story: user asks about GRC cell activities
+#     steps:
+#     - intent: ask_grc_cell_activities
+#     - action: utter_grc_cell_activities
 
-  - story: user asks about GRC online submission form
-    steps:
-    - intent: ask_grc_online_submission
-    - action: utter_grc_online_submission
+#   - story: user asks about GRC online submission form
+#     steps:
+#     - intent: ask_grc_online_submission
+#     - action: utter_grc_online_submission
 
-  - story: user asks about GRC gallery
-    steps:
-    - intent: ask_grc_gallery
-    - action: utter_grc_gallery
+#   - story: user asks about GRC gallery
+#     steps:
+#     - intent: ask_grc_gallery
+#     - action: utter_grc_gallery
 
-  - story: User asks about IPR objectives
-    steps:
-      - intent: ipr_objectives
-      - action: utter_ipr_objectives
+#   - story: User asks about IPR objectives
+#     steps:
+#       - intent: ipr_objectives
+#       - action: utter_ipr_objectives
   
-  - story: User asks about IPR roles
-    steps:
-      - intent: ipr_roles
-      - action: utter_ipr_roles
+#   - story: User asks about IPR roles
+#     steps:
+#       - intent: ipr_roles
+#       - action: utter_ipr_roles
   
-  - story: User asks about IPR functions
-    steps:
-      - intent: ipr_functions
-      - action: utter_ipr_functions
+#   - story: User asks about IPR functions
+#     steps:
+#       - intent: ipr_functions
+#       - action: utter_ipr_functions
   
-  - story: User asks about IPR importance
-    steps:
-      - intent: ipr_importance
-      - action: utter_ipr_importance
+#   - story: User asks about IPR importance
+#     steps:
+#       - intent: ipr_importance
+#       - action: utter_ipr_importance
   
-  - story: User asks about types of IPR
-    steps:
-      - intent: ipr_types
-      - action: utter_ipr_types
+#   - story: User asks about types of IPR
+#     steps:
+#       - intent: ipr_types
+#       - action: utter_ipr_types
   
-  - story: User asks about IPR coordinators
-    steps:
-      - intent: ipr_coordinators
-      - action: utter_ipr_coordinators
+#   - story: User asks about IPR coordinators
+#     steps:
+#       - intent: ipr_coordinators
+#       - action: utter_ipr_coordinators
   
-  - story: User asks about IPR events
-    steps:
-      - intent: ipr_events
-      - action: utter_ipr_events
+#   - story: User asks about IPR events
+#     steps:
+#       - intent: ipr_events
+#       - action: utter_ipr_events
   
-  - story: User asks about patent filing status
-    steps:
-      - intent: ipr_patent_status
-      - action: utter_ipr_patent_status
+#   - story: User asks about patent filing status
+#     steps:
+#       - intent: ipr_patent_status
+#       - action: utter_ipr_patent_status
 
-  - story: User asks about IETE
-    steps:
-      - intent: about_iete
-      - action: utter_about_iete
+#   - story: User asks about IETE
+#     steps:
+#       - intent: about_iete
+#       - action: utter_about_iete
 
-  - story: User inquires about IETE events
-    steps:
-    - intent: iete_events
-    - action: utter_iete_events
+#   - story: User inquires about IETE events
+#     steps:
+#     - intent: iete_events
+#     - action: utter_iete_events
 
-  - story: provide scst cell info
-    steps:
-      - intent: inquire_scst_cell
-      - action: utter_scst_cell
+#   - story: provide scst cell info
+#     steps:
+#       - intent: inquire_scst_cell
+#       - action: utter_scst_cell
 
-  - story: User asks about Youth Red Cross Objectives & Principles
-    steps:
-      - intent: ask_yrc_objectives
-      - action: utter_yrc_objectives
+#   - story: User asks about Youth Red Cross Objectives & Principles
+#     steps:
+#       - intent: ask_yrc_objectives
+#       - action: utter_yrc_objectives
 
-  - story: User asks about YRC Faculty
-    steps:
-      - intent: ask_yrc_faculty
-      - action: utter_yrc_faculty
+#   - story: User asks about YRC Faculty
+#     steps:
+#       - intent: ask_yrc_faculty
+#       - action: utter_yrc_faculty
 
-  - story: User asks about YRC Events
-    steps:
-      - intent: ask_yrc_events
-      - action: utter_yrc_events
+#   - story: User asks about YRC Events
+#     steps:
+#       - intent: ask_yrc_events
+#       - action: utter_yrc_events
 
-  - story: User asks for Youth Red Cross members
-    steps:
-      - intent: ask_yrc_members
-      - action: utter_yrc_members_link
+#   - story: User asks for Youth Red Cross members
+#     steps:
+#       - intent: ask_yrc_members
+#       - action: utter_yrc_members_link
 
-  - story: User asks for Anti Ragging Cell Vision
-    steps:
-      - intent: ask_anti_ragging_vision
-      - action: utter_anti_ragging_vision
+#   - story: User asks for Anti Ragging Cell Vision
+#     steps:
+#       - intent: ask_anti_ragging_vision
+#       - action: utter_anti_ragging_vision
 
-  - story: User asks for Anti Ragging Cell Mission
-    steps:
-      - intent: ask_anti_ragging_mission
-      - action: utter_anti_ragging_mission
+#   - story: User asks for Anti Ragging Cell Mission
+#     steps:
+#       - intent: ask_anti_ragging_mission
+#       - action: utter_anti_ragging_mission
 
-  - story: User asks for Anti Ragging Cell Objectives
-    steps:
-      - intent: ask_anti_ragging_objectives
-      - action: utter_anti_ragging_objectives
+#   - story: User asks for Anti Ragging Cell Objectives
+#     steps:
+#       - intent: ask_anti_ragging_objectives
+#       - action: utter_anti_ragging_objectives
 
-  - story: User asks for Committee and Squad Members
-    steps:
-      - intent: ask_committee_and_squad_members
-      - action: utter_committee_and_squad_members_link
+#   - story: User asks for Committee and Squad Members
+#     steps:
+#       - intent: ask_committee_and_squad_members
+#       - action: utter_committee_and_squad_members_link
 
-  - story: User asks for Committee inquiry
-    steps:
-      - intent: ask_commitee
-      - action: utter_committee_and_squad_members_link
+#   - story: User asks for Committee inquiry
+#     steps:
+#       - intent: ask_commitee
+#       - action: utter_committee_and_squad_members_link
 
-  - story: User asks for Squad inquiry
-    steps:
-      - intent: ask_squad
-      - action: utter_committee_and_squad_members_link
+#   - story: User asks for Squad inquiry
+#     steps:
+#       - intent: ask_squad
+#       - action: utter_committee_and_squad_members_link
 
-  - story: User asks for Minutes of Meeting
-    steps:
-      - intent: ask_minutes_of_meeting
-      - action: utter_minutes_of_meeting_link
+#   - story: User asks for Minutes of Meeting
+#     steps:
+#       - intent: ask_minutes_of_meeting
+#       - action: utter_minutes_of_meeting_link

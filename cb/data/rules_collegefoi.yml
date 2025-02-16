@@ -1,27 +1,27 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
-  - rule: Respond to SSMIET FOI inquiry
-    steps:
-        - intent: ask_ssmiet_foi
-        - action: utter_ssmiet_foi
+# rules:
+#   - rule: Respond to SSMIET FOI inquiry
+#     steps:
+#         - intent: ask_ssmiet_foi
+#         - action: utter_ssmiet_foi
 
-  - rule: Respond to SSMIET FOI inquiry
-    steps:
-      - intent: ask_ssmiet_foi
-      - action: utter_ssmiet_foi
+#   - rule: Respond to SSMIET FOI inquiry
+#     steps:
+#       - intent: ask_ssmiet_foi
+#       - action: utter_ssmiet_foi
 
-  - rule: Respond to SSMIET FOI Vision inquiry
-    steps:
-      - intent: ask_ssmiet_foi_vision
-      - action: utter_ssmiet_foi_vision
+#   - rule: Respond to SSMIET FOI Vision inquiry
+#     steps:
+#       - intent: ask_ssmiet_foi_vision
+#       - action: utter_ssmiet_foi_vision
 
-  - rule: Respond to SSMIET FOI Mission inquiry
-    steps:
-      - intent: ask_ssmiet_foi_mission
-      - action: utter_ssmiet_foi_mission
+#   - rule: Respond to SSMIET FOI Mission inquiry
+#     steps:
+#       - intent: ask_ssmiet_foi_mission
+#       - action: utter_ssmiet_foi_mission
 
-  - rule: Respond to SSMIET FOI Achievements inquiry
-    steps:
-      - intent: ask_ssmiet_foi_achievements
-      - action: utter_ssmiet_foi_achievements
+#   - rule: Respond to SSMIET FOI Achievements inquiry
+#     steps:
+#       - intent: ask_ssmiet_foi_achievements
+#       - action: utter_ssmiet_foi_achievements

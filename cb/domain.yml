@@ -1,7 +1,6 @@
 version: "3.1"
 
 intents:
-
   - admission_process
   - ask_online_courses
   - coeducation
@@ -18,22 +17,28 @@ intents:
   - college_contact_email
   - college_distance_travel_time
   - fee_structure
-  
+  - college_courses
+  - college_ug_courses
+  - college_pg_courses
+  - college_phd_courses
+  - college_courses_duration
+  - college_admission_form
+  - college_admission_eligibilty
 
 responses:
 
   utter_admission_process:
-    - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. Dr. S. Joseph Dominic Vijayakumar,
-          Admission Cell – Coordinator,SSM Higher EducationalInstitutions Dindigul – Palani Highway, Dindigul.
-          Contact Number: 7373707002, 7373707008 If you need further assistance, contact us at 0451 244 8800.
-           Admission process
+    - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.\n**Dr. S. Joseph Dominic Vijayakumar**,
+           **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
+           **Contact Number**: 7373707002, 7373707008 .If you need further assistance, contact us at 0451 244 8800.
+           **Admission process**:
 
-          • Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.
-          • The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.
-          • The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+            • Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
+            • The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.
+            • The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_online_courses:
-    - text: "Yes, we offer online courses and distance learning options. You can take some or all of your classes remotely, depending on the program. Would you like more details on available courses?"
+    - text: "No, we don't offer online courses and distance learning options. Would you like to know more details on available courses?"
   utter_coeducation:
     - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a safe and respectful environment for all students"
   utter_entrance_exam:
@@ -49,7 +54,7 @@ responses:
   utter_family_visit_info:
     - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
   utter_college_location_address:
-    - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
+    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
 
   utter_college_name_private_anna_university:
     - text: "SSM Institute of Engineering and Technology (SSMIET). It is a private autonomous institution. It is approved by AICTE, New Delhi, 
@@ -72,7 +77,74 @@ responses:
 
   utter_college_distance_travel_time:
     - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
-
   
   utter_fee_structure_info:
       - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+  utter_college_location_address:
+    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the Location of our college: https://ssmiet.ac.in/contact-us.html"
+  
+  utter_college_courses:
+    - text: |
+          Our College Offers Various Courses:
+          
+          **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**.
+          **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**.
+          **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**.
+          ** Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
+
+  utter_college_ug_courses:
+    - text: |
+          **Undergraduate Courses(B.E & B.Tech)**:
+
+          **B.E. Programs:**
+            - Civil Engineering
+            - Electronics and Communication Engineering (ECE)
+            - Electrical and Electronics Engineering (EEE)
+            - Mechanical Engineering
+            - Computer Science and Engineering (CSE)
+            - Computer Science and Engineering (Cyber Security)
+            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+
+          **B.Tech. Programs:**
+            - Artificial Intelligence and Data Science (AI&DS)
+            - Computer Science and Business Systems (CSBS)
+            - Information Technology (IT)
+
+  utter_college_pg_courses:
+    - text: |
+          **PostGraduate Courses(M.E)**:
+            - Communication Systems
+            - Thermal Engineering
+            
+  utter_college_phd_courses:
+    - text: |
+          **Ph.D Courses**:
+            - Information & Communication Engineering
+            - Mechanical Engineering
+            - Physics and Mathematics
+
+  utter_college_courses_duration:
+    - text: |
+          **The Duration of the Courses**:
+            Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
+            Postgraduate (M.E.) - 2 years (4 semesters)
+            Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
+
+  utter_college_admission_form:
+    - text: |
+          **To apply for admission**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+
+          - The form is available online. Click the link to access it.
+          - Fill in the required details and submit it.
+          - If you need help, contact the admission office.
+          - Make sure to check deadlines and required documents before submission.
+
+  utter_college_admission_eligibility:
+    - text: |
+         **Admission eligibility depends on the course you choose**:
+
+         - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
+         - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage.
+         - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
+         - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
+         - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.

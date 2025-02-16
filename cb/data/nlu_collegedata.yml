@@ -1,227 +1,227 @@
-version: "3.1"
+# version: "3.1"
 
-nlu:
-- intent: greet
-  examples: |
-    - Hello
-    - Hi
-    - Hey
-    - Good morning
-    - Good evening
+# nlu:
+# - intent: greet
+#   examples: |
+#     - Hello
+#     - Hi
+#     - Hey
+#     - Good morning
+#     - Good evening
 
-- intent: ask_college_name
-  examples: |
-    - Tell me the name of college
-    - what is the college name
-    - college name
-    - Tell me institution name
-    - Give me details about the college
-    - What is SSM Institute of Engineering and Technology?
+# - intent: ask_college_name
+#   examples: |
+#     - Tell me the name of college
+#     - what is the college name
+#     - college name
+#     - Tell me institution name
+#     - Give me details about the college
+#     - What is SSM Institute of Engineering and Technology?
 
-- intent: ask_college_code
-  examples: |
-    - Tell me counselling code
-    - Tell me college code
-    - what is college counselling code
-    - what is college code
+# - intent: ask_college_code
+#   examples: |
+#     - Tell me counselling code
+#     - Tell me college code
+#     - what is college counselling code
+#     - what is college code
 
-- intent: ask_admissions
-  examples: |
-    - When are admissions open?
-    - Is admission open for 2025?
-    - Can I apply for admission now?
+# - intent: ask_admissions
+#   examples: |
+#     - When are admissions open?
+#     - Is admission open for 2025?
+#     - Can I apply for admission now?
 
-- intent: ask_exam_schedule
-  examples: |
-    - When are the semester exams?
-    - Show me the exam timetable for UG courses
-    - What is the PG exam schedule?
+# - intent: ask_exam_schedule
+#   examples: |
+#     - When are the semester exams?
+#     - Show me the exam timetable for UG courses
+#     - What is the PG exam schedule?
 
-- intent: ask_welcome_message
-  examples: |
-    - What is the history of SSMIET?
-    - Tell me about SSMIET's foundation
-    - Give me an introduction to SSMIET
+# - intent: ask_welcome_message
+#   examples: |
+#     - What is the history of SSMIET?
+#     - Tell me about SSMIET's foundation
+#     - Give me an introduction to SSMIET
 
-- intent: ask_academic_calendar
-  examples: |
-    - Where can I find the academic calendar?
-    - Show me the academic calendar
-    - Give me the link to the academic calendar
+# - intent: ask_academic_calendar
+#   examples: |
+#     - Where can I find the academic calendar?
+#     - Show me the academic calendar
+#     - Give me the link to the academic calendar
 
-- intent: ask_contact_number
-  examples: |
-    - What is the contact number of SSMIET?
-    - Give me the phone number of the college
-    - How can I contact SSMIET?
+# - intent: ask_contact_number
+#   examples: |
+#     - What is the contact number of SSMIET?
+#     - Give me the phone number of the college
+#     - How can I contact SSMIET?
 
-- intent: ask_about_ssmiet
-  examples: |
-    - Who are the key people at SSMIET?
-    - Tell me about us
-    - who are the members in SSMIET?
-    - who is the chairman of SSMIET?
-    - who is the managing director of SSMIET?
-    - Who is the principal of SSMIET?
+# - intent: ask_about_ssmiet
+#   examples: |
+#     - Who are the key people at SSMIET?
+#     - Tell me about us
+#     - who are the members in SSMIET?
+#     - who is the chairman of SSMIET?
+#     - who is the managing director of SSMIET?
+#     - Who is the principal of SSMIET?
 
-- intent: placement_details
-  examples: |
-    - placements
-    - hiring
-    - jobs
-    - What are the placement statistics?
-    - How many students got placed last year?
-    - Tell me about the placement record
-    - What is the placement percentage?
-    - Provide details about campus placements
+# - intent: placement_details
+#   examples: |
+#     - placements
+#     - hiring
+#     - jobs
+#     - What are the placement statistics?
+#     - How many students got placed last year?
+#     - Tell me about the placement record
+#     - What is the placement percentage?
+#     - Provide details about campus placements
 
-- intent: recruiters
-  examples: |
-    - recruiters
-    - companies
-    - hiring companies
-    - Who are the top recruiters?
-    - Which companies visit the campus for placements?
-    - List some companies that hire from the institute
-    - Tell me about the major recruiters
-    - Name a few companies that offer jobs to students
+# - intent: recruiters
+#   examples: |
+#     - recruiters
+#     - companies
+#     - hiring companies
+#     - Who are the top recruiters?
+#     - Which companies visit the campus for placements?
+#     - List some companies that hire from the institute
+#     - Tell me about the major recruiters
+#     - Name a few companies that offer jobs to students
 
-- intent: staff_count
-  examples: |
-    - staff
-    - faculty
-    - professors
-    - How many staff members are there?
-    - What is the faculty strength?
-    - Tell me about the number of teaching staff
-    - How many professors and lecturers are there?
-    - Provide details on faculty count
+# - intent: staff_count
+#   examples: |
+#     - staff
+#     - faculty
+#     - professors
+#     - How many staff members are there?
+#     - What is the faculty strength?
+#     - Tell me about the number of teaching staff
+#     - How many professors and lecturers are there?
+#     - Provide details on faculty count
 
-- intent: internship_details
-  examples: |
-    - internships
-    - training
-    - student internships
-    - Do students get internship opportunities?
-    - How does the college help in getting internships?
-    - Tell me about internship programs
-    - Are internships provided by the college?
-    - What companies offer internships to students?
+# - intent: internship_details
+#   examples: |
+#     - internships
+#     - training
+#     - student internships
+#     - Do students get internship opportunities?
+#     - How does the college help in getting internships?
+#     - Tell me about internship programs
+#     - Are internships provided by the college?
+#     - What companies offer internships to students?
 
-- intent: inquire_courses
-  examples: |
-    - What courses are offered?
-    - List all the available courses.
-    - Tell me about the programs you offer.
-    - Can you provide details about all courses?
+# - intent: inquire_courses
+#   examples: |
+#     - What courses are offered?
+#     - List all the available courses.
+#     - Tell me about the programs you offer.
+#     - Can you provide details about all courses?
 
-- intent: inquire_ug_courses
-  examples: |
-    - What undergraduate courses do you offer?
-    - Tell me about B.E. programs.
-    - List all B.Tech courses.
-    - What are the UG courses available?
+# - intent: inquire_ug_courses
+#   examples: |
+#     - What undergraduate courses do you offer?
+#     - Tell me about B.E. programs.
+#     - List all B.Tech courses.
+#     - What are the UG courses available?
 
-- intent: inquire_pg_courses
-  examples: |
-    - What postgraduate courses are available?
-    - Tell me about PG programs.
-    - Do you offer any M.E. programs?
-    - List all PG courses.
+# - intent: inquire_pg_courses
+#   examples: |
+#     - What postgraduate courses are available?
+#     - Tell me about PG programs.
+#     - Do you offer any M.E. programs?
+#     - List all PG courses.
 
-- intent: inquire_phddoctorate_courses
-  examples: |
-    - Do you offer Ph.D. courses?
-    - What are the available doctoral courses?
-    - Tell me about phd courses.
-    - List Ph.D.courses.
-    - phd courses
+# - intent: inquire_phddoctorate_courses
+#   examples: |
+#     - Do you offer Ph.D. courses?
+#     - What are the available doctoral courses?
+#     - Tell me about phd courses.
+#     - List Ph.D.courses.
+#     - phd courses
 
-- intent: inquire_approvals_affiliations
-  examples: |
-    - What are the approvals and affiliations of the institute?
-    - Can you tell me about the institution's approvals?
-    - What are the affiliations of SSMIET?
-    - Tell me about the accreditations and approvals.
+# - intent: inquire_approvals_affiliations
+#   examples: |
+#     - What are the approvals and affiliations of the institute?
+#     - Can you tell me about the institution's approvals?
+#     - What are the affiliations of SSMIET?
+#     - Tell me about the accreditations and approvals.
 
-- intent: ask_ssmiet_vision
-  examples: |
-    - What is the vision of SSMIET?
-    - Tell me the vision statement of SSMIET.
-    - Can you provide the vision of SSMIET?
-    - What is SSMIET's vision?
+# - intent: ask_ssmiet_vision
+#   examples: |
+#     - What is the vision of SSMIET?
+#     - Tell me the vision statement of SSMIET.
+#     - Can you provide the vision of SSMIET?
+#     - What is SSMIET's vision?
 
-- intent: ask_ssmiet_mission
-  examples: |
-    - What is the mission of SSMIET?
-    - Tell me the mission statement of SSMIET.
-    - Can you provide the mission of SSMIET?
-    - What is SSMIET's mission?
+# - intent: ask_ssmiet_mission
+#   examples: |
+#     - What is the mission of SSMIET?
+#     - Tell me the mission statement of SSMIET.
+#     - Can you provide the mission of SSMIET?
+#     - What is SSMIET's mission?
 
-- intent: fees_payment
-  examples: |
-    - How can I pay my fees?
-    - Where can I pay my tuition fees?
-    - Online fee payment link?
-    - Give me the link for fee payment
-    - How do I pay my college fees?
+# - intent: fees_payment
+#   examples: |
+#     - How can I pay my fees?
+#     - Where can I pay my tuition fees?
+#     - Online fee payment link?
+#     - Give me the link for fee payment
+#     - How do I pay my college fees?
 
-- intent: student_feedback
-  examples: |
-    - How can students give feedback?
-    - Where can I submit student feedback?
-    - Provide the student feedback link
-    - How do I submit my review as a student?
-    - Where can I give my feedback about the college?
+# - intent: student_feedback
+#   examples: |
+#     - How can students give feedback?
+#     - Where can I submit student feedback?
+#     - Provide the student feedback link
+#     - How do I submit my review as a student?
+#     - Where can I give my feedback about the college?
 
-- intent: parents_feedback
-  examples: |
-    - Where can parents submit feedback?
-    - How do parents provide feedback?
-    - Give me the link for parent feedback
-    - Where can my parents submit a review?
-    - How can a parent give feedback about the college?
+# - intent: parents_feedback
+#   examples: |
+#     - Where can parents submit feedback?
+#     - How do parents provide feedback?
+#     - Give me the link for parent feedback
+#     - Where can my parents submit a review?
+#     - How can a parent give feedback about the college?
 
-- intent: institution_policies
-  examples: |
-    - What are the college policies?
-    - Where can I read the institution policies?
-    - Provide the link for college policies
-    - Show me the SSMIET policies
-    - Where can I find rules and regulations?
+# - intent: institution_policies
+#   examples: |
+#     - What are the college policies?
+#     - Where can I read the institution policies?
+#     - Provide the link for college policies
+#     - Show me the SSMIET policies
+#     - Where can I find rules and regulations?
 
-- intent: income_expenditure
-  examples: |
-    - Where can I check the college income and expenditure?
-    - Provide the financial report link
-    - Show me the income and expenditure details
-    - Where can I find the annual financial report?
-    - Give me the income and expense details
+# - intent: income_expenditure
+#   examples: |
+#     - Where can I check the college income and expenditure?
+#     - Provide the financial report link
+#     - Show me the income and expenditure details
+#     - Where can I find the annual financial report?
+#     - Give me the income and expense details
 
-- intent: student_count
-  examples: |
-    - How many students are currently enrolled?
-    - What is the student count?
-    - Show me the number of students in the college
-    - Where can I check the total student strength?
-    - Provide student enrollment details
+# - intent: student_count
+#   examples: |
+#     - How many students are currently enrolled?
+#     - What is the student count?
+#     - Show me the number of students in the college
+#     - Where can I check the total student strength?
+#     - Provide student enrollment details
 
-- intent: ask_address_of_SSMIET
-  examples: |
-    - what is the address of ssmiet?
-    - Tell me the address of SSM college?
-    - give the address of ssm college?
-    - address of ssmiet
+# - intent: ask_address_of_SSMIET
+#   examples: |
+#     - what is the address of ssmiet?
+#     - Tell me the address of SSM college?
+#     - give the address of ssm college?
+#     - address of ssmiet
 
-- intent: ask_contact_of_SSMIET
-  examples: |
-    - what is the contact of ssmiet?
-    - Tell me the contact of SSM college?
-    - give the contact of ssm college?
-    - contact of ssmiet
+# - intent: ask_contact_of_SSMIET
+#   examples: |
+#     - what is the contact of ssmiet?
+#     - Tell me the contact of SSM college?
+#     - give the contact of ssm college?
+#     - contact of ssmiet
 
-- intent: goodbye
-  examples: |
-    - Bye
-    - See you later
-    - Goodbye
+# - intent: goodbye
+#   examples: |
+#     - Bye
+#     - See you later
+#     - Goodbye

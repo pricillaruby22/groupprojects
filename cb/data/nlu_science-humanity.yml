@@ -1,226 +1,226 @@
-version: "3.1"
+# version: "3.1"
 
-nlu:
-  - intent: ask_science_humanities
-    examples: |
-      - What subjects are included in Science and Humanities?
-      - Tell me about Science and Humanities department
+# nlu:
+#   - intent: ask_science_humanities
+#     examples: |
+#       - What subjects are included in Science and Humanities?
+#       - Tell me about Science and Humanities department
 
-  - intent: ask_sah_professional_bodies
-    examples: |
-      - What are the professional bodies of Science and Humanities?
-      - Science and Humanities professional organizations
+#   - intent: ask_sah_professional_bodies
+#     examples: |
+#       - What are the professional bodies of Science and Humanities?
+#       - Science and Humanities professional organizations
 
-  - intent: ask_sah_research
-    examples: |
-      - What research is done in Science and Humanities?
-      - Science and Humanities research details
+#   - intent: ask_sah_research
+#     examples: |
+#       - What research is done in Science and Humanities?
+#       - Science and Humanities research details
 
-  - intent: ask_sah_value_added_course
-    examples: |
-      - What value-added courses are offered in Science and Humanities?
-      - Science and Humanities value-added courses
+#   - intent: ask_sah_value_added_course
+#     examples: |
+#       - What value-added courses are offered in Science and Humanities?
+#       - Science and Humanities value-added courses
 
-  - intent: ask_sah_criteria_clubs_cells
-    examples: |
-      - What are the criteria, clubs, and cells in Science and Humanities?
-      - Science and Humanities clubs and criteria details
+#   - intent: ask_sah_criteria_clubs_cells
+#     examples: |
+#       - What are the criteria, clubs, and cells in Science and Humanities?
+#       - Science and Humanities clubs and criteria details
 
-  - intent: ask_sah_facilities
-    examples: |
-      - What facilities are available in Science and Humanities?
-      - Science and Humanities department facilities
+#   - intent: ask_sah_facilities
+#     examples: |
+#       - What facilities are available in Science and Humanities?
+#       - Science and Humanities department facilities
 
-  - intent: ask_maths_vision
-    examples: |
-      - What is the vision of the Mathematics department?
-      - Tell me the vision of Mathematics at SSMIET
-      - Mathematics department vision
+#   - intent: ask_maths_vision
+#     examples: |
+#       - What is the vision of the Mathematics department?
+#       - Tell me the vision of Mathematics at SSMIET
+#       - Mathematics department vision
 
-  - intent: ask_maths_mission
-    examples: |
-      - What is the mission of the Mathematics department?
-      - Tell me the mission of Mathematics at SSMIET
-      - Mathematics department mission
+#   - intent: ask_maths_mission
+#     examples: |
+#       - What is the mission of the Mathematics department?
+#       - Tell me the mission of Mathematics at SSMIET
+#       - Mathematics department mission
 
-  - intent: ask_maths_faculty
-    examples: |
-      - Who are the faculty members of the Mathematics department?
-      - Provide details about the Mathematics faculty
-      - Mathematics department faculty details
+#   - intent: ask_maths_faculty
+#     examples: |
+#       - Who are the faculty members of the Mathematics department?
+#       - Provide details about the Mathematics faculty
+#       - Mathematics department faculty details
 
-  - intent: ask_maths_contact
-    examples: |
-      - How can I contact the Mathematics department?
-      - Give me the contact details for Mathematics at SSMIET
-      - Mathematics department phone number and email
+#   - intent: ask_maths_contact
+#     examples: |
+#       - How can I contact the Mathematics department?
+#       - Give me the contact details for Mathematics at SSMIET
+#       - Mathematics department phone number and email
 
-  - intent: ask_library_vision
-    examples: |
-      - What is the vision of the library?
-      - Library vision statement
+#   - intent: ask_library_vision
+#     examples: |
+#       - What is the vision of the library?
+#       - Library vision statement
 
-  - intent: ask_library_mission
-    examples: |
-      - What is the mission of the library?
-      - Library mission statement
+#   - intent: ask_library_mission
+#     examples: |
+#       - What is the mission of the library?
+#       - Library mission statement
 
-  - intent: ask_library_about
-    examples: |
-      - Tell me about the library
-      - Where can I find information about the library?
+#   - intent: ask_library_about
+#     examples: |
+#       - Tell me about the library
+#       - Where can I find information about the library?
 
-  - intent: ask_library_faculty
-    examples: |
-      - Who are the faculty members of the library?
-      - Library faculty details
+#   - intent: ask_library_faculty
+#     examples: |
+#       - Who are the faculty members of the library?
+#       - Library faculty details
 
-  - intent: ask_library_events
-    examples: |
-      - What events are conducted by the library?
-      - Tell me about library events
+#   - intent: ask_library_events
+#     examples: |
+#       - What events are conducted by the library?
+#       - Tell me about library events
 
-  - intent: ask_faculty_physical_education
-    examples: |
-      - Tell me about the Physical Education faculty
-      - Who are the faculty members in the Physical Education department?
-      - Can you provide faculty details for Physical Education?
-      - Show me the Physical Education faculty list
-      - Faculty details for Physical Education, please
+#   - intent: ask_faculty_physical_education
+#     examples: |
+#       - Tell me about the Physical Education faculty
+#       - Who are the faculty members in the Physical Education department?
+#       - Can you provide faculty details for Physical Education?
+#       - Show me the Physical Education faculty list
+#       - Faculty details for Physical Education, please
 
-  - intent: ask_contact_physical_education
-    examples: |
-      - How can I contact the Physical Education department?
-      - Give me the contact details for Physical Education
-      - What is the phone number for the Physical Education department?
-      - How do I email the Physical Education department?
+#   - intent: ask_contact_physical_education
+#     examples: |
+#       - How can I contact the Physical Education department?
+#       - Give me the contact details for Physical Education
+#       - What is the phone number for the Physical Education department?
+#       - How do I email the Physical Education department?
 
 
-  - intent: ask_faculty_tamil_department
-    examples: |
-      - Tell me about the tamil faculty
-      - Who are the faculty members in the tamil department?
-      - Can you provide faculty details for the Tamil department?
-      - Show me the Tamil faculty list
-      - tamil department faculty details, please
+#   - intent: ask_faculty_tamil_department
+#     examples: |
+#       - Tell me about the tamil faculty
+#       - Who are the faculty members in the tamil department?
+#       - Can you provide faculty details for the Tamil department?
+#       - Show me the Tamil faculty list
+#       - tamil department faculty details, please
 
-  - intent: ask_contact_tamil_department
-    examples: |
-      - How can I contact the tamil department?
-      - Give me the contact details of the Tamil department
-      - What is the phone number of the Tamil department?
-      - How do I email the Tamil department?
-      - tamil department contact info
+#   - intent: ask_contact_tamil_department
+#     examples: |
+#       - How can I contact the tamil department?
+#       - Give me the contact details of the Tamil department
+#       - What is the phone number of the Tamil department?
+#       - How do I email the Tamil department?
+#       - tamil department contact info
 
-  - intent: ask_about_english_department
-    examples: |
-      - Tell me about the English department
-      - What does the English department do?
-      - Give me details about the English department
-      - Can you provide information about the English department?
+#   - intent: ask_about_english_department
+#     examples: |
+#       - Tell me about the English department
+#       - What does the English department do?
+#       - Give me details about the English department
+#       - Can you provide information about the English department?
 
-  - intent: ask_contact_english_department
-    examples: |
-      - How can I contact the English department?
-      - Give me the contact details of the English department
-      - What is the phone number of the English department?
-      - How do I email the English department?
+#   - intent: ask_contact_english_department
+#     examples: |
+#       - How can I contact the English department?
+#       - Give me the contact details of the English department
+#       - What is the phone number of the English department?
+#       - How do I email the English department?
 
-  - intent: ask_english_faculty_details
-    examples: |
-      - Tell me about the faculty
-      - Who are the faculty members?
-      - Can you provide faculty details?
-      - Show me the faculty list
-      - Faculty details, please
+#   - intent: ask_english_faculty_details
+#     examples: |
+#       - Tell me about the faculty
+#       - Who are the faculty members?
+#       - Can you provide faculty details?
+#       - Show me the faculty list
+#       - Faculty details, please
 
-  - intent: ask_english_technical_support
-    examples: |
-      - Where can I find technical support?
-      - I need technical support
-      - Help with technical issues
-      - Contact for technical support
+#   - intent: ask_english_technical_support
+#     examples: |
+#       - Where can I find technical support?
+#       - I need technical support
+#       - Help with technical issues
+#       - Contact for technical support
 
-  - intent: department_physics_about
-    examples: |
-      - Tell me about the Department of Physics.
-      - What is the Physics department?
-      - Give me an overview of the Physics department.
+#   - intent: department_physics_about
+#     examples: |
+#       - Tell me about the Department of Physics.
+#       - What is the Physics department?
+#       - Give me an overview of the Physics department.
 
-  - intent: department_physics_vision
-    examples: |
-      - What is the vision of the Physics department?
-      - Physics department vision statement.
-      - Tell me the vision of the Physics department.
+#   - intent: department_physics_vision
+#     examples: |
+#       - What is the vision of the Physics department?
+#       - Physics department vision statement.
+#       - Tell me the vision of the Physics department.
 
-  - intent: department_physics_mission
-    examples: |
-      - What is the mission of the Physics department?
-      - Physics department mission statement.
-      - Tell me the mission of the Physics department.
+#   - intent: department_physics_mission
+#     examples: |
+#       - What is the mission of the Physics department?
+#       - Physics department mission statement.
+#       - Tell me the mission of the Physics department.
 
-  - intent: department_physics_contact
-    examples: |
-      - How can I contact the Physics department?
-      - Physics department contact information.
-      - Where is the Physics department office?
+#   - intent: department_physics_contact
+#     examples: |
+#       - How can I contact the Physics department?
+#       - Physics department contact information.
+#       - Where is the Physics department office?
 
-  - intent: department_physics_faculty
-    examples: |
-      - Who are the faculty members of the Physics department?
-      - List the Physics faculty.
-      - Show me the Physics department faculty.
+#   - intent: department_physics_faculty
+#     examples: |
+#       - Who are the faculty members of the Physics department?
+#       - List the Physics faculty.
+#       - Show me the Physics department faculty.
 
-  - intent: department_physics_technical_support
-    examples: |
-      - What technical support is available for Physics?
-      - Physics department technical support.
-      - Tell me about technical support for Physics.
+#   - intent: department_physics_technical_support
+#     examples: |
+#       - What technical support is available for Physics?
+#       - Physics department technical support.
+#       - Tell me about technical support for Physics.
 
-  - intent: department_physics_research
-    examples: |
-      - What research is done in the Physics department?
-      - Physics research activities.
-      - Tell me about Physics research.
+#   - intent: department_physics_research
+#     examples: |
+#       - What research is done in the Physics department?
+#       - Physics research activities.
+#       - Tell me about Physics research.
 
-  - intent: ask_vision_chemistry_department
-    examples: |
-      - Tell me vision of Chemistry department
-      - What is the vision of the Chemistry department?
-      - What is the vision of the Chemistry department?
-      - Provide details vision the Chemistry department
+#   - intent: ask_vision_chemistry_department
+#     examples: |
+#       - Tell me vision of Chemistry department
+#       - What is the vision of the Chemistry department?
+#       - What is the vision of the Chemistry department?
+#       - Provide details vision the Chemistry department
 
-  - intent: ask_mission_chemistry_department
-    examples: |
-      - Tell me mission of Chemistry department
-      - What is the mission of the Chemistry department?
-      - What is the mission of the Chemistry department?
-      - Provide details mission the Chemistry department
+#   - intent: ask_mission_chemistry_department
+#     examples: |
+#       - Tell me mission of Chemistry department
+#       - What is the mission of the Chemistry department?
+#       - What is the mission of the Chemistry department?
+#       - Provide details mission the Chemistry department
 
-  - intent: ask_facilities_chemistry_department
-    examples: |
-      - What facilities does the Chemistry department have?
-      - Tell me about the lab facilities in the Chemistry department
-      - What equipment is available in the Chemistry department?
+#   - intent: ask_facilities_chemistry_department
+#     examples: |
+#       - What facilities does the Chemistry department have?
+#       - Tell me about the lab facilities in the Chemistry department
+#       - What equipment is available in the Chemistry department?
 
-  - intent: ask_contact_chemistry_department
-    examples: |
-      - How can I contact the Chemistry department?
-      - Give me the contact details of the Chemistry department
-      - What is the phone number of the Chemistry department?
-      - How do I email the Chemistry department?
+#   - intent: ask_contact_chemistry_department
+#     examples: |
+#       - How can I contact the Chemistry department?
+#       - Give me the contact details of the Chemistry department
+#       - What is the phone number of the Chemistry department?
+#       - How do I email the Chemistry department?
 
-  - intent: ask_faculty_physical_education
-    examples: |
-      - Tell me about the faculty in the Physical Education department
-      - Who are the faculty members in the Physical Education department?
-      - Can you provide Physical Education faculty details?
-      - Show me the Physical Education faculty list
+#   - intent: ask_faculty_physical_education
+#     examples: |
+#       - Tell me about the faculty in the Physical Education department
+#       - Who are the faculty members in the Physical Education department?
+#       - Can you provide Physical Education faculty details?
+#       - Show me the Physical Education faculty list
 
-  - intent: ask_technical_support_physical_education
-    examples: |
-      - Where can I find technical support for Physical Education?
-      - I need technical support in Physical Education
-      - Help with Physical Education technical issues
-      - Contact for Physical Education technical support
+#   - intent: ask_technical_support_physical_education
+#     examples: |
+#       - Where can I find technical support for Physical Education?
+#       - I need technical support in Physical Education
+#       - Help with Physical Education technical issues
+#       - Contact for Physical Education technical support
 

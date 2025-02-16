@@ -1,662 +1,662 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
-- rule: Respond to AIML department query
-  steps:
-  - intent: about_aiml_dept
-  - action: utter_about_aiml_dept
+# rules:
+# - rule: Respond to AIML department query
+#   steps:
+#   - intent: about_aiml_dept
+#   - action: utter_about_aiml_dept
 
-- rule: Respond to AIML vision query
-  steps:
-  - intent: aiml_vision
-  - action: utter_aiml_vision
+# - rule: Respond to AIML vision query
+#   steps:
+#   - intent: aiml_vision
+#   - action: utter_aiml_vision
 
-- rule: Respond to AIML mission query
-  steps:
-  - intent: aiml_mission
-  - action: utter_aiml_mission
+# - rule: Respond to AIML mission query
+#   steps:
+#   - intent: aiml_mission
+#   - action: utter_aiml_mission
 
-- rule: Provide AIML faculty information
-  steps:
-  - intent: faculty_aiml_info
-  - action: utter_faculty_aiml_info
+# - rule: Provide AIML faculty information
+#   steps:
+#   - intent: faculty_aiml_info
+#   - action: utter_faculty_aiml_info
 
-- rule: Provide AIML facilities information
-  steps:
-  - intent: facilities_aiml_info
-  - action: utter_facilities_aiml_info
+# - rule: Provide AIML facilities information
+#   steps:
+#   - intent: facilities_aiml_info
+#   - action: utter_facilities_aiml_info
 
-- rule: Respond to CSBS department inquiries
-  steps:
-  - intent: inquire_csbs_department
-  - action: utter_csbs_department
+# - rule: Respond to CSBS department inquiries
+#   steps:
+#   - intent: inquire_csbs_department
+#   - action: utter_csbs_department
 
-- rule: Respond to CSBS vision inquiries
-  steps:
-  - intent: inquire_csbs_vision
-  - action: utter_csbs_vision
+# - rule: Respond to CSBS vision inquiries
+#   steps:
+#   - intent: inquire_csbs_vision
+#   - action: utter_csbs_vision
 
-- rule: Respond to CSBS mission inquiries
-  steps:
-  - intent: inquire_csbs_mission
-  - action: utter_csbs_mission
+# - rule: Respond to CSBS mission inquiries
+#   steps:
+#   - intent: inquire_csbs_mission
+#   - action: utter_csbs_mission
 
-- rule: Respond to CSBS PoC inquiries
-  steps:
-  - intent: inquire_csbs_poc
-  - action: utter_csbs_poc
+# - rule: Respond to CSBS PoC inquiries
+#   steps:
+#   - intent: inquire_csbs_poc
+#   - action: utter_csbs_poc
 
-- rule: Respond to CSBS faculty inquiries
-  steps:
-  - intent: inquire_csbs_faculty
-  - action: utter_csbs_faculty
+# - rule: Respond to CSBS faculty inquiries
+#   steps:
+#   - intent: inquire_csbs_faculty
+#   - action: utter_csbs_faculty
 
-- rule: Respond to admission inquiries
-  steps:
-  - intent: inquire_admissions_process
-  - action: utter_admissions_process
+# - rule: Respond to admission inquiries
+#   steps:
+#   - intent: inquire_admissions_process
+#   - action: utter_admissions_process
 
-- rule: Respond to Cyber Security PEO-PO-PSO inquiry
-  steps:
-    - intent: ask_peo_po_pso_cyber
-    - action: utter_peo_po_pso_cyber
+# - rule: Respond to Cyber Security PEO-PO-PSO inquiry
+#   steps:
+#     - intent: ask_peo_po_pso_cyber
+#     - action: utter_peo_po_pso_cyber
 
-- rule: Respond to Cyber Security faculty inquiry
-  steps:
-    - intent: ask_faculty_cyber
-    - action: utter_faculty_cyber
+# - rule: Respond to Cyber Security faculty inquiry
+#   steps:
+#     - intent: ask_faculty_cyber
+#     - action: utter_faculty_cyber
 
-- rule: Respond to Cyber Security department activities inquiry
-  steps:
-    - intent: ask_department_activities_cyber
-    - action: utter_department_activities_cyber
+# - rule: Respond to Cyber Security department activities inquiry
+#   steps:
+#     - intent: ask_department_activities_cyber
+#     - action: utter_department_activities_cyber
 
-- rule: Respond to Cyber Security faculty activities inquiry
-  steps:
-    - intent: ask_faculty_activities_cyber
-    - action: utter_faculty_activities_cyber
+# - rule: Respond to Cyber Security faculty activities inquiry
+#   steps:
+#     - intent: ask_faculty_activities_cyber
+#     - action: utter_faculty_activities_cyber
 
-- rule: Respond to Cyber Security student activities inquiry
-  steps:
-    - intent: ask_student_activities_cyber
-    - action: utter_student_activities_cyber
+# - rule: Respond to Cyber Security student activities inquiry
+#   steps:
+#     - intent: ask_student_activities_cyber
+#     - action: utter_student_activities_cyber
 
-- rule: Respond to Cyber Security value-added course inquiry
-  steps:
-    - intent: ask_value_added_course_cyber
-    - action: utter_value_added_course_cyber
+# - rule: Respond to Cyber Security value-added course inquiry
+#   steps:
+#     - intent: ask_value_added_course_cyber
+#     - action: utter_value_added_course_cyber
 
-- rule: Respond to Cyber Security MOU inquiry
-  steps:
-    - intent: ask_mou_cyber
-    - action: utter_mou_cyber
+# - rule: Respond to Cyber Security MOU inquiry
+#   steps:
+#     - intent: ask_mou_cyber
+#     - action: utter_mou_cyber
 
-- rule: Respond to Cyber Security internship inquiry
-  steps:
-    - intent: ask_internship_cyber
-    - action: utter_internship_cyber
+# - rule: Respond to Cyber Security internship inquiry
+#   steps:
+#     - intent: ask_internship_cyber
+#     - action: utter_internship_cyber
 
-- rule: Respond to Cyber Security contact inquiry
-  steps:
-    - intent: ask_contact_cyber
-    - action: utter_contact_cyber
+# - rule: Respond to Cyber Security contact inquiry
+#   steps:
+#     - intent: ask_contact_cyber
+#     - action: utter_contact_cyber
 
-- rule: Respond to about Cyber Security
-  steps:
-    - intent: ask_about_cyber_security
-    - action: utter_about_cyber_security
+# - rule: Respond to about Cyber Security
+#   steps:
+#     - intent: ask_about_cyber_security
+#     - action: utter_about_cyber_security
   
-- rule: Respond to vision of Cyber Security
-  steps:
-    - intent: ask_vision_cyber_security
-    - action: utter_vision_cyber_security
+# - rule: Respond to vision of Cyber Security
+#   steps:
+#     - intent: ask_vision_cyber_security
+#     - action: utter_vision_cyber_security
   
-- rule: Respond to mission of Cyber Security
-  steps:
-      - intent: ask_mission_cyber_security
-      - action: utter_mission_cyber_security
+# - rule: Respond to mission of Cyber Security
+#   steps:
+#       - intent: ask_mission_cyber_security
+#       - action: utter_mission_cyber_security
   
-- rule: Respond to programme overview of Cyber Security
-  steps:
-      - intent: ask_programme_overview_cyber_security
-      - action: utter_programme_overview_cyber_security
+# - rule: Respond to programme overview of Cyber Security
+#   steps:
+#       - intent: ask_programme_overview_cyber_security
+#       - action: utter_programme_overview_cyber_security
   
-- rule: Respond to career opportunities in Cyber Security
-  steps:
-      - intent: ask_career_opportunities_cyber_security
-      - action: utter_career_opportunities_cyber_security
-
-- rule: Respond to user asking about PEO-PO-PSO of CSE
-  steps:
-    - intent: ask_peo_po_pso_cse
-    - action: utter_peo_po_pso_cse
-
-- rule: Respond to user asking about course outcomes of CSE
-  steps:
-    - intent: ask_course_outcomes_cse
-    - action: utter_course_outcomes_cse
-
-- rule: Respond to user asking about faculty of CSE
-  steps:
-    - intent: ask_faculty_cse
-    - action: utter_faculty_cse
-
-- rule: Respond to user asking about technical support of CSE
-  steps:
-    - intent: ask_technical_support_cse
-    - action: utter_technical_support_cse
-
-- rule: Respond to user asking about placement of CSE
-  steps:
-    - intent: ask_placement_cse
-    - action: utter_placement_cse
-
-- rule: Respond to user asking about department activities of CSE
-  steps:
-    - intent: ask_department_activities_cse
-    - action: utter_department_activities_cse
-
-- rule: Respond to user asking about faculty activities of CSE
-  steps:
-    - intent: ask_faculty_activities_cse
-    - action: utter_faculty_activities_cse
-
-- rule: Respond to user asking about student activities of CSE
-  steps:
-    - intent: ask_student_activities_cse
-    - action: utter_student_activities_cse
-
-- rule: Respond to user asking about professional bodies of CSE
-  steps:
-    - intent: ask_professional_bodies_cse
-    - action: utter_professional_bodies_cse
-
-- rule: Respond to user asking about research of CSE
-  steps:
-    - intent: ask_research_cse
-    - action: utter_research_cse
-
-- rule: Respond to user asking about value-added course of CSE
-  steps:
-    - intent: ask_value_added_course_cse
-    - action: utter_value_added_course_cse
-
-- rule: Respond to user asking about newsletter of CSE
-  steps:
-    - intent: ask_newsletter_cse
-    - action: utter_newsletter_cse
-
-- rule: Respond to user asking about MOU of CSE
-  steps:
-    - intent: ask_mou_cse
-    - action: utter_mou_cse
-
-- rule: Respond to user asking about internship of CSE
-  steps:
-    - intent: ask_internship_cse
-    - action: utter_internship_cse
-
-- rule: Respond to user asking about facilities of CSE
-  steps:
-    - intent: ask_facilities_cse
-    - action: utter_facilities_cse
-
-- rule: Respond to user asking about contact of CSE
-  steps:
-    - intent: ask_contact_cse
-    - action: utter_contact_cse
-
-- rule: Respond to B.E. CSE details query
-  steps:
-    - intent: ask_be_cse
-    - action: utter_be_cse
-
-- rule: Respond to B.E. CSE vision query
-  steps:
-  - intent: ask_vision_be_cse
-  - action: utter_vision_be_cse
-
-- rule: Respond to B.E. CSE mission query
-  steps:
-  - intent: ask_mission_be_cse
-  - action: utter_mission_cse
-
-- rule: Respond to AI&DS department query
-  steps:
-  - intent: about_aids_dept
-  - action: utter_about_aids_dept
-
-- rule: Respond to AI&DS vision query
-  steps:
-  - intent: aids_vision
-  - action: utter_aids_vision
-
-- rule: Respond to AI&DS mission query
-  steps:
-  - intent: aids_mission
-  - action: utter_aids_mission
-
-- rule: Respond to AI&DS PEO-PO-PSO query
-  steps:
-  - intent: aids_peo_po_pso
-  - action: utter_aids_peo_po_pso
-
-- rule: Respond to AI&DS faculty query
-  steps:
-  - intent: aids_faculty
-  - action: utter_aids_faculty
-
-- rule: Respond to AI&DS technical support query
-  steps:
-  - intent: aids_technical_support
-  - action: utter_aids_technical_support
-
-- rule: Respond to AI&DS facilities query
-  steps:
-  - intent: aids_facilities
-  - action: utter_aids_facilities
-
-- rule: Respond to AI&DS department activities query
-  steps:
-  - intent: aids_department_activities
-  - action: utter_aids_department_activities
-
-- rule: Respond to AI&DS faculty activities query
-  steps:
-  - intent: aids_faculty_activities
-  - action: utter_aids_faculty_activities
-
-- rule: Respond to AI&DS student activities query
-  steps:
-  - intent: aids_student_activities
-  - action: utter_aids_student_activities
-
-- rule: Respond to AI&DS research query
-  steps:
-  - intent: aids_research
-  - action: utter_aids_research
-
-- rule: Respond to AI&DS value added courses query
-  steps:
-  - intent: aids_value_added_courses
-  - action: utter_aids_value_added_courses
-
-- rule: Respond to AI&DS internship query
-  steps:
-  - intent: aids_internship
-  - action: utter_aids_internship
-
-- rule: Respond to IT department inquiry
-  steps:
-    - intent: ask_about_it_department
-    - action: utter_it_department
-
-- rule: Respond to IT department vision
-  steps:
-    - intent: ask_it_vision
-    - action: utter_it_vision
-
-- rule: Respond to IT department mission
-  steps:
-    - intent: ask_it_mission
-    - action: utter_it_mission
-
-- rule: Respond to Civil Engineering queries
-  steps:
-      - intent: ask_civil_engineering
-      - action: utter_civil_engineering_info
-
-- rule: Respond to Civil Engineering vision
-  steps:
-    - intent: ask_civil_vision
-    - action: utter_civil_vision
-
-- rule: Respond to Civil Engineering mission
-  steps:
-    - intent: ask_civil_mission
-    - action: utter_civil_mission
-
-- rule: Provide PEO-PO-PSO of Civil Engineering
-  steps:
-    - intent: ask_peo_po_pso_civil
-    - action: utter_peo_po_pso_civil
-
-- rule: Provide Course Outcome of Civil Engineering
-  steps:
-    - intent: ask_course_outcome_civil
-    - action: utter_course_outcome_civil
-
-- rule: Provide Faculty Details of Civil Engineering
-  steps:
-    - intent: ask_faculty_civil
-    - action: utter_faculty_civil
-
-- rule: Provide Technical Support Information of Civil Engineering
-  steps:
-    - intent: ask_technical_support_civil
-    - action: utter_technical_support_civil
-
-- rule: Provide Placement Information of Civil Engineering
-  steps:
-    - intent: ask_placement_civil
-    - action: utter_placement_civil
-
-- rule: Provide Department Activities of Civil Engineering
-  steps:
-    - intent: ask_department_activities_civil
-    - action: utter_department_activities_civil
-
-- rule: Provide Student Activities of Civil Engineering
-  steps:
-    - intent: ask_student_activities_civil
-    - action: utter_student_activities_civil
-
-- rule: Provide Professional Bodies Information of Civil Engineering
-  steps:
-    - intent: ask_professional_bodies_civil
-    - action: utter_professional_bodies_civil
-
-- rule: Provide Research Information of Civil Engineering
-  steps:
-    - intent: ask_research_civil
-    - action: utter_research_civil
-
-- rule: Provide Value Added Course Details of Civil Engineering
-  steps:
-    - intent: ask_value_added_course_civil
-    - action: utter_value_added_course_civil
-
-- rule: Provide Internship Information of Civil Engineering
-  steps:
-    - intent: ask_internship_civil
-    - action: utter_internship_civil
-
-- rule: Provide Newsletter of Civil Engineering
-  steps:
-    - intent: ask_news_letter_civil
-    - action: utter_news_letter_civil
-
-- rule: Provide MOU Information of Civil Engineering
-  steps:
-    - intent: ask_mou_civil
-    - action: utter_mou_civil
-
-- rule: Provide Contact Information of Civil Engineering
-  steps:
-    - intent: ask_contact_civil
-    - action: utter_contact_civil
-
-- rule: Respond to ECE department details
-  steps:
-    - intent: ask_about_ece
-    - action: utter_about_ece
-
-- rule: Respond to ECE department vision
-  steps:
-    - intent: ask_vision_ece
-    - action: utter_vision_ece
-
-- rule: Respond to ECE department mission
-  steps:
-    - intent: ask_mission_ece
-    - action: utter_mission_ece
-
-- rule: Respond to PEO-PO-PSO details for ECE
-  steps:
-    - intent: ask_peo_po_pso_ece
-    - action: utter_peo_po_pso_ece
-
-- rule: Respond to Course Outcomes for ECE
-  steps:
-    - intent: ask_course_outcomes_ece
-    - action: utter_course_outcomes_ece
-
-- rule: Respond to Faculty details for ECE
-  steps:
-    - intent: ask_faculty_ece
-    - action: utter_faculty_ece
-
-- rule: Respond to Technical Support for ECE
-  steps:
-    - intent: ask_technical_support_ece
-    - action: utter_technical_support_ece
-
-- rule: Respond to Placement details for ECE
-  steps:
-    - intent: ask_placement_ece
-    - action: utter_placement_ece
-
-- rule: Respond to Department Activities for ECE
-  steps:
-    - intent: ask_department_activities_ece
-    - action: utter_department_activities_ece
-
-- rule: Respond to Facilities for ECE
-  steps:
-    - intent: ask_facilities_ece
-    - action: utter_facilities_ece
-
-- rule: Respond to Faculty Activities for ECE
-  steps:
-    - intent: ask_faculty_activities_ece
-    - action: utter_faculty_activities_ece
-
-- rule: Respond to Student Activities in ECE
-  steps:
-    - intent: ask_student_activities_ece
-    - action: utter_student_activities_ece
-
-- rule: Respond to Professional Bodies in ECE
-  steps:
-    - intent: ask_professional_bodies_ece
-    - action: utter_professional_bodies_ece
-
-- rule: Respond to Research in ECE
-  steps:
-    - intent: ask_research_ece
-    - action: utter_research_ece
-
-- rule: Respond to Value Added Course in ECE
-  steps:
-    - intent: ask_value_added_course_ece
-    - action: utter_value_added_course_ece
-
-- rule: Respond to Newsletter of ECE
-  steps:
-    - intent: ask_newsletter_ece
-    - action: utter_newsletter_ece
-
-- rule: Respond to Internship details of ECE
-  steps:
-    - intent: ask_internship_ece
-    - action: utter_internship_ece
-
-- rule: Respond to MOU details of ECE
-  steps:
-    - intent: ask_mou_ece
-    - action: utter_mou_ece
-
-- rule: Respond to Contact details of ECE
-  steps:
-    - intent: ask_contact_ece
-    - action: utter_contact_ece
-
-- rule: Respond to EEE department about queries
-  steps:
-    - intent: eee_dept_about
-    - action: utter_eee_dept_about
-
-- rule: Respond to EEE department vision queries
-  steps:
-    - intent: eee_dept_vision
-    - action: utter_eee_dept_vision
-
-- rule: Respond to EEE department mission queries
-  steps:
-    - intent: eee_dept_mission
-    - action: utter_eee_dept_mission
-
-- rule: Respond to EEE department PEO-PO-PSO
-  steps:
-  - intent: eee_dept_peo_po_pso
-  - action: utter_eee_dept_peo_po_pso
-
-- rule: Respond to EEE department Course Outcomes
-  steps:
-  - intent: eee_dept_course_outcomes
-  - action: utter_eee_dept_course_outcomes
-
-- rule: Respond to EEE department Faculty
-  steps:
-  - intent: eee_dept_faculty
-  - action: utter_eee_dept_faculty
-
-- rule: Respond to EEE department Technical Support
-  steps:
-  - intent: eee_dept_technical_support
-  - action: utter_eee_dept_technical_support
-
-- rule: Respond to EEE department Placement
-  steps:
-  - intent: eee_dept_placement
-  - action: utter_eee_dept_placement
-
-- rule: Respond to EEE department Activities
-  steps:
-  - intent: eee_dept_department_activities
-  - action: utter_eee_dept_department_activities
-
-- rule: Respond to EEE department Faculty Activities
-  steps:
-  - intent: eee_dept_faculty_activities
-  - action: utter_eee_dept_faculty_activities
-
-- rule: Respond to EEE department Student Activities
-  steps:
-  - intent: eee_dept_student_activities
-  - action: utter_eee_dept_student_activities
-
-- rule: Respond to EEE department Professional Bodies
-  steps:
-  - intent: eee_dept_professional_bodies
-  - action: utter_eee_dept_professional_bodies
-
-- rule: Respond to EEE department Research
-  steps:
-  - intent: eee_dept_research
-  - action: utter_eee_dept_research
-
-- rule: Respond to EEE department Value Added Course
-  steps:
-  - intent: eee_dept_value_added_course
-  - action: utter_eee_dept_value_added_course
-
-- rule: Respond to EEE department News Letter
-  steps:
-  - intent: eee_dept_news_letter
-  - action: utter_eee_dept_news_letter
-
-- rule: Respond to EEE department Internship
-  steps:
-  - intent: eee_dept_internship
-  - action: utter_eee_dept_internship
-
-- rule: Respond to EEE department MoU
-  steps:
-  - intent: eee_dept_mou
-  - action: utter_eee_dept_mou
-
-- rule: Respond to EEE department Contact
-  steps:
-  - intent: eee_dept_contact
-  - action: utter_eee_dept_contact
-
-- rule: Provide MECH department about information
-  steps:
-    - intent: mech_dept_about
-    - action: utter_mech_dept_about
-
-- rule: Provide MECH department vision
-  steps:
-  - intent: mech_dept_vision
-  - action: utter_mech_dept_vision
-
-- rule: Provide MECH department mission
-  steps:
-  - intent: mech_dept_mission
-  - action: utter_mech_dept_mission
-
-- rule: Respond to MECH PEO-PO-PSO
-  steps:
-  - intent: mech_dept_peo_po_pso
-  - action: utter_mech_dept_peo_po_pso
-
-- rule: Respond to MECH Course Outcomes
-  steps:
-  - intent: mech_dept_course_outcomes
-  - action: utter_mech_dept_course_outcomes
-
-- rule: Respond to MECH Faculty
-  steps:
-  - intent: mech_dept_faculty
-  - action: utter_mech_dept_faculty
-
-- rule: Respond to MECH Technical Support
-  steps:
-  - intent: mech_dept_technical_support
-  - action: utter_mech_dept_technical_support
-
-- rule: Respond to MECH Placement
-  steps:
-  - intent: mech_dept_placement
-  - action: utter_mech_dept_placement
-
-- rule: Respond to MECH Department Activities
-  steps:
-  - intent: mech_dept_department_activities
-  - action: utter_mech_dept_department_activities
-
-- rule: Respond to MECH Faculty Activities
-  steps:
-  - intent: mech_dept_faculty_activities
-  - action: utter_mech_dept_faculty_activities
-
-- rule: Respond to MECH Student Activities
-  steps:
-  - intent: mech_dept_student_activities
-  - action: utter_mech_dept_student_activities
-
-- rule: Respond to MECH Professional Bodies
-  steps:
-  - intent: mech_dept_professional_bodies
-  - action: utter_mech_dept_professional_bodies
-
-- rule: Respond to MECH Research
-  steps:
-  - intent: mech_dept_research
-  - action: utter_mech_dept_research
-
-- rule: Respond to MECH Value Added Course
-  steps:
-  - intent: mech_dept_value_added_course
-  - action: utter_mech_dept_value_added_course
-
-- rule: Respond to MECH Facilities
-  steps:
-  - intent: mech_dept_facilities
-  - action: utter_mech_dept_facilities
-
-- rule: Respond to MECH News Letter
-  steps:
-  - intent: mech_dept_news_letter
-  - action: utter_mech_dept_news_letter
-
-- rule: Respond to MECH MOU
-  steps:
-  - intent: mech_dept_mou
-  - action: utter_mech_dept_mou
-
-- rule: Respond to MECH Contact
-  steps:
-  - intent: mech_dept_contact
-  - action: utter_mech_dept_contact
+# - rule: Respond to career opportunities in Cyber Security
+#   steps:
+#       - intent: ask_career_opportunities_cyber_security
+#       - action: utter_career_opportunities_cyber_security
+
+# - rule: Respond to user asking about PEO-PO-PSO of CSE
+#   steps:
+#     - intent: ask_peo_po_pso_cse
+#     - action: utter_peo_po_pso_cse
+
+# - rule: Respond to user asking about course outcomes of CSE
+#   steps:
+#     - intent: ask_course_outcomes_cse
+#     - action: utter_course_outcomes_cse
+
+# - rule: Respond to user asking about faculty of CSE
+#   steps:
+#     - intent: ask_faculty_cse
+#     - action: utter_faculty_cse
+
+# - rule: Respond to user asking about technical support of CSE
+#   steps:
+#     - intent: ask_technical_support_cse
+#     - action: utter_technical_support_cse
+
+# - rule: Respond to user asking about placement of CSE
+#   steps:
+#     - intent: ask_placement_cse
+#     - action: utter_placement_cse
+
+# - rule: Respond to user asking about department activities of CSE
+#   steps:
+#     - intent: ask_department_activities_cse
+#     - action: utter_department_activities_cse
+
+# - rule: Respond to user asking about faculty activities of CSE
+#   steps:
+#     - intent: ask_faculty_activities_cse
+#     - action: utter_faculty_activities_cse
+
+# - rule: Respond to user asking about student activities of CSE
+#   steps:
+#     - intent: ask_student_activities_cse
+#     - action: utter_student_activities_cse
+
+# - rule: Respond to user asking about professional bodies of CSE
+#   steps:
+#     - intent: ask_professional_bodies_cse
+#     - action: utter_professional_bodies_cse
+
+# - rule: Respond to user asking about research of CSE
+#   steps:
+#     - intent: ask_research_cse
+#     - action: utter_research_cse
+
+# - rule: Respond to user asking about value-added course of CSE
+#   steps:
+#     - intent: ask_value_added_course_cse
+#     - action: utter_value_added_course_cse
+
+# - rule: Respond to user asking about newsletter of CSE
+#   steps:
+#     - intent: ask_newsletter_cse
+#     - action: utter_newsletter_cse
+
+# - rule: Respond to user asking about MOU of CSE
+#   steps:
+#     - intent: ask_mou_cse
+#     - action: utter_mou_cse
+
+# - rule: Respond to user asking about internship of CSE
+#   steps:
+#     - intent: ask_internship_cse
+#     - action: utter_internship_cse
+
+# - rule: Respond to user asking about facilities of CSE
+#   steps:
+#     - intent: ask_facilities_cse
+#     - action: utter_facilities_cse
+
+# - rule: Respond to user asking about contact of CSE
+#   steps:
+#     - intent: ask_contact_cse
+#     - action: utter_contact_cse
+
+# - rule: Respond to B.E. CSE details query
+#   steps:
+#     - intent: ask_be_cse
+#     - action: utter_be_cse
+
+# - rule: Respond to B.E. CSE vision query
+#   steps:
+#   - intent: ask_vision_be_cse
+#   - action: utter_vision_be_cse
+
+# - rule: Respond to B.E. CSE mission query
+#   steps:
+#   - intent: ask_mission_be_cse
+#   - action: utter_mission_cse
+
+# - rule: Respond to AI&DS department query
+#   steps:
+#   - intent: about_aids_dept
+#   - action: utter_about_aids_dept
+
+# - rule: Respond to AI&DS vision query
+#   steps:
+#   - intent: aids_vision
+#   - action: utter_aids_vision
+
+# - rule: Respond to AI&DS mission query
+#   steps:
+#   - intent: aids_mission
+#   - action: utter_aids_mission
+
+# - rule: Respond to AI&DS PEO-PO-PSO query
+#   steps:
+#   - intent: aids_peo_po_pso
+#   - action: utter_aids_peo_po_pso
+
+# - rule: Respond to AI&DS faculty query
+#   steps:
+#   - intent: aids_faculty
+#   - action: utter_aids_faculty
+
+# - rule: Respond to AI&DS technical support query
+#   steps:
+#   - intent: aids_technical_support
+#   - action: utter_aids_technical_support
+
+# - rule: Respond to AI&DS facilities query
+#   steps:
+#   - intent: aids_facilities
+#   - action: utter_aids_facilities
+
+# - rule: Respond to AI&DS department activities query
+#   steps:
+#   - intent: aids_department_activities
+#   - action: utter_aids_department_activities
+
+# - rule: Respond to AI&DS faculty activities query
+#   steps:
+#   - intent: aids_faculty_activities
+#   - action: utter_aids_faculty_activities
+
+# - rule: Respond to AI&DS student activities query
+#   steps:
+#   - intent: aids_student_activities
+#   - action: utter_aids_student_activities
+
+# - rule: Respond to AI&DS research query
+#   steps:
+#   - intent: aids_research
+#   - action: utter_aids_research
+
+# - rule: Respond to AI&DS value added courses query
+#   steps:
+#   - intent: aids_value_added_courses
+#   - action: utter_aids_value_added_courses
+
+# - rule: Respond to AI&DS internship query
+#   steps:
+#   - intent: aids_internship
+#   - action: utter_aids_internship
+
+# - rule: Respond to IT department inquiry
+#   steps:
+#     - intent: ask_about_it_department
+#     - action: utter_it_department
+
+# - rule: Respond to IT department vision
+#   steps:
+#     - intent: ask_it_vision
+#     - action: utter_it_vision
+
+# - rule: Respond to IT department mission
+#   steps:
+#     - intent: ask_it_mission
+#     - action: utter_it_mission
+
+# - rule: Respond to Civil Engineering queries
+#   steps:
+#       - intent: ask_civil_engineering
+#       - action: utter_civil_engineering_info
+
+# - rule: Respond to Civil Engineering vision
+#   steps:
+#     - intent: ask_civil_vision
+#     - action: utter_civil_vision
+
+# - rule: Respond to Civil Engineering mission
+#   steps:
+#     - intent: ask_civil_mission
+#     - action: utter_civil_mission
+
+# - rule: Provide PEO-PO-PSO of Civil Engineering
+#   steps:
+#     - intent: ask_peo_po_pso_civil
+#     - action: utter_peo_po_pso_civil
+
+# - rule: Provide Course Outcome of Civil Engineering
+#   steps:
+#     - intent: ask_course_outcome_civil
+#     - action: utter_course_outcome_civil
+
+# - rule: Provide Faculty Details of Civil Engineering
+#   steps:
+#     - intent: ask_faculty_civil
+#     - action: utter_faculty_civil
+
+# - rule: Provide Technical Support Information of Civil Engineering
+#   steps:
+#     - intent: ask_technical_support_civil
+#     - action: utter_technical_support_civil
+
+# - rule: Provide Placement Information of Civil Engineering
+#   steps:
+#     - intent: ask_placement_civil
+#     - action: utter_placement_civil
+
+# - rule: Provide Department Activities of Civil Engineering
+#   steps:
+#     - intent: ask_department_activities_civil
+#     - action: utter_department_activities_civil
+
+# - rule: Provide Student Activities of Civil Engineering
+#   steps:
+#     - intent: ask_student_activities_civil
+#     - action: utter_student_activities_civil
+
+# - rule: Provide Professional Bodies Information of Civil Engineering
+#   steps:
+#     - intent: ask_professional_bodies_civil
+#     - action: utter_professional_bodies_civil
+
+# - rule: Provide Research Information of Civil Engineering
+#   steps:
+#     - intent: ask_research_civil
+#     - action: utter_research_civil
+
+# - rule: Provide Value Added Course Details of Civil Engineering
+#   steps:
+#     - intent: ask_value_added_course_civil
+#     - action: utter_value_added_course_civil
+
+# - rule: Provide Internship Information of Civil Engineering
+#   steps:
+#     - intent: ask_internship_civil
+#     - action: utter_internship_civil
+
+# - rule: Provide Newsletter of Civil Engineering
+#   steps:
+#     - intent: ask_news_letter_civil
+#     - action: utter_news_letter_civil
+
+# - rule: Provide MOU Information of Civil Engineering
+#   steps:
+#     - intent: ask_mou_civil
+#     - action: utter_mou_civil
+
+# - rule: Provide Contact Information of Civil Engineering
+#   steps:
+#     - intent: ask_contact_civil
+#     - action: utter_contact_civil
+
+# - rule: Respond to ECE department details
+#   steps:
+#     - intent: ask_about_ece
+#     - action: utter_about_ece
+
+# - rule: Respond to ECE department vision
+#   steps:
+#     - intent: ask_vision_ece
+#     - action: utter_vision_ece
+
+# - rule: Respond to ECE department mission
+#   steps:
+#     - intent: ask_mission_ece
+#     - action: utter_mission_ece
+
+# - rule: Respond to PEO-PO-PSO details for ECE
+#   steps:
+#     - intent: ask_peo_po_pso_ece
+#     - action: utter_peo_po_pso_ece
+
+# - rule: Respond to Course Outcomes for ECE
+#   steps:
+#     - intent: ask_course_outcomes_ece
+#     - action: utter_course_outcomes_ece
+
+# - rule: Respond to Faculty details for ECE
+#   steps:
+#     - intent: ask_faculty_ece
+#     - action: utter_faculty_ece
+
+# - rule: Respond to Technical Support for ECE
+#   steps:
+#     - intent: ask_technical_support_ece
+#     - action: utter_technical_support_ece
+
+# - rule: Respond to Placement details for ECE
+#   steps:
+#     - intent: ask_placement_ece
+#     - action: utter_placement_ece
+
+# - rule: Respond to Department Activities for ECE
+#   steps:
+#     - intent: ask_department_activities_ece
+#     - action: utter_department_activities_ece
+
+# - rule: Respond to Facilities for ECE
+#   steps:
+#     - intent: ask_facilities_ece
+#     - action: utter_facilities_ece
+
+# - rule: Respond to Faculty Activities for ECE
+#   steps:
+#     - intent: ask_faculty_activities_ece
+#     - action: utter_faculty_activities_ece
+
+# - rule: Respond to Student Activities in ECE
+#   steps:
+#     - intent: ask_student_activities_ece
+#     - action: utter_student_activities_ece
+
+# - rule: Respond to Professional Bodies in ECE
+#   steps:
+#     - intent: ask_professional_bodies_ece
+#     - action: utter_professional_bodies_ece
+
+# - rule: Respond to Research in ECE
+#   steps:
+#     - intent: ask_research_ece
+#     - action: utter_research_ece
+
+# - rule: Respond to Value Added Course in ECE
+#   steps:
+#     - intent: ask_value_added_course_ece
+#     - action: utter_value_added_course_ece
+
+# - rule: Respond to Newsletter of ECE
+#   steps:
+#     - intent: ask_newsletter_ece
+#     - action: utter_newsletter_ece
+
+# - rule: Respond to Internship details of ECE
+#   steps:
+#     - intent: ask_internship_ece
+#     - action: utter_internship_ece
+
+# - rule: Respond to MOU details of ECE
+#   steps:
+#     - intent: ask_mou_ece
+#     - action: utter_mou_ece
+
+# - rule: Respond to Contact details of ECE
+#   steps:
+#     - intent: ask_contact_ece
+#     - action: utter_contact_ece
+
+# - rule: Respond to EEE department about queries
+#   steps:
+#     - intent: eee_dept_about
+#     - action: utter_eee_dept_about
+
+# - rule: Respond to EEE department vision queries
+#   steps:
+#     - intent: eee_dept_vision
+#     - action: utter_eee_dept_vision
+
+# - rule: Respond to EEE department mission queries
+#   steps:
+#     - intent: eee_dept_mission
+#     - action: utter_eee_dept_mission
+
+# - rule: Respond to EEE department PEO-PO-PSO
+#   steps:
+#   - intent: eee_dept_peo_po_pso
+#   - action: utter_eee_dept_peo_po_pso
+
+# - rule: Respond to EEE department Course Outcomes
+#   steps:
+#   - intent: eee_dept_course_outcomes
+#   - action: utter_eee_dept_course_outcomes
+
+# - rule: Respond to EEE department Faculty
+#   steps:
+#   - intent: eee_dept_faculty
+#   - action: utter_eee_dept_faculty
+
+# - rule: Respond to EEE department Technical Support
+#   steps:
+#   - intent: eee_dept_technical_support
+#   - action: utter_eee_dept_technical_support
+
+# - rule: Respond to EEE department Placement
+#   steps:
+#   - intent: eee_dept_placement
+#   - action: utter_eee_dept_placement
+
+# - rule: Respond to EEE department Activities
+#   steps:
+#   - intent: eee_dept_department_activities
+#   - action: utter_eee_dept_department_activities
+
+# - rule: Respond to EEE department Faculty Activities
+#   steps:
+#   - intent: eee_dept_faculty_activities
+#   - action: utter_eee_dept_faculty_activities
+
+# - rule: Respond to EEE department Student Activities
+#   steps:
+#   - intent: eee_dept_student_activities
+#   - action: utter_eee_dept_student_activities
+
+# - rule: Respond to EEE department Professional Bodies
+#   steps:
+#   - intent: eee_dept_professional_bodies
+#   - action: utter_eee_dept_professional_bodies
+
+# - rule: Respond to EEE department Research
+#   steps:
+#   - intent: eee_dept_research
+#   - action: utter_eee_dept_research
+
+# - rule: Respond to EEE department Value Added Course
+#   steps:
+#   - intent: eee_dept_value_added_course
+#   - action: utter_eee_dept_value_added_course
+
+# - rule: Respond to EEE department News Letter
+#   steps:
+#   - intent: eee_dept_news_letter
+#   - action: utter_eee_dept_news_letter
+
+# - rule: Respond to EEE department Internship
+#   steps:
+#   - intent: eee_dept_internship
+#   - action: utter_eee_dept_internship
+
+# - rule: Respond to EEE department MoU
+#   steps:
+#   - intent: eee_dept_mou
+#   - action: utter_eee_dept_mou
+
+# - rule: Respond to EEE department Contact
+#   steps:
+#   - intent: eee_dept_contact
+#   - action: utter_eee_dept_contact
+
+# - rule: Provide MECH department about information
+#   steps:
+#     - intent: mech_dept_about
+#     - action: utter_mech_dept_about
+
+# - rule: Provide MECH department vision
+#   steps:
+#   - intent: mech_dept_vision
+#   - action: utter_mech_dept_vision
+
+# - rule: Provide MECH department mission
+#   steps:
+#   - intent: mech_dept_mission
+#   - action: utter_mech_dept_mission
+
+# - rule: Respond to MECH PEO-PO-PSO
+#   steps:
+#   - intent: mech_dept_peo_po_pso
+#   - action: utter_mech_dept_peo_po_pso
+
+# - rule: Respond to MECH Course Outcomes
+#   steps:
+#   - intent: mech_dept_course_outcomes
+#   - action: utter_mech_dept_course_outcomes
+
+# - rule: Respond to MECH Faculty
+#   steps:
+#   - intent: mech_dept_faculty
+#   - action: utter_mech_dept_faculty
+
+# - rule: Respond to MECH Technical Support
+#   steps:
+#   - intent: mech_dept_technical_support
+#   - action: utter_mech_dept_technical_support
+
+# - rule: Respond to MECH Placement
+#   steps:
+#   - intent: mech_dept_placement
+#   - action: utter_mech_dept_placement
+
+# - rule: Respond to MECH Department Activities
+#   steps:
+#   - intent: mech_dept_department_activities
+#   - action: utter_mech_dept_department_activities
+
+# - rule: Respond to MECH Faculty Activities
+#   steps:
+#   - intent: mech_dept_faculty_activities
+#   - action: utter_mech_dept_faculty_activities
+
+# - rule: Respond to MECH Student Activities
+#   steps:
+#   - intent: mech_dept_student_activities
+#   - action: utter_mech_dept_student_activities
+
+# - rule: Respond to MECH Professional Bodies
+#   steps:
+#   - intent: mech_dept_professional_bodies
+#   - action: utter_mech_dept_professional_bodies
+
+# - rule: Respond to MECH Research
+#   steps:
+#   - intent: mech_dept_research
+#   - action: utter_mech_dept_research
+
+# - rule: Respond to MECH Value Added Course
+#   steps:
+#   - intent: mech_dept_value_added_course
+#   - action: utter_mech_dept_value_added_course
+
+# - rule: Respond to MECH Facilities
+#   steps:
+#   - intent: mech_dept_facilities
+#   - action: utter_mech_dept_facilities
+
+# - rule: Respond to MECH News Letter
+#   steps:
+#   - intent: mech_dept_news_letter
+#   - action: utter_mech_dept_news_letter
+
+# - rule: Respond to MECH MOU
+#   steps:
+#   - intent: mech_dept_mou
+#   - action: utter_mech_dept_mou
+
+# - rule: Respond to MECH Contact
+#   steps:
+#   - intent: mech_dept_contact
+#   - action: utter_mech_dept_contact

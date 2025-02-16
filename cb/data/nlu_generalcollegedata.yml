@@ -293,3 +293,96 @@ nlu:
        - What is the fee for different courses?
        - Are there hostel fees included in the total cost?
        - Do I have to pay for lab equipment separately?
+
+  - intent: college_courses
+    examples:
+      - What study you have?
+      - What study for job?
+      - What all subjects here?
+      - Do you offer computer science?
+      - I want to join in this college.What can I study?
+      - Tell me what you teach?
+      - What Courses does this College Offers?
+      - What are the courses available in this college?
+      - Can you List the projects offered here.
+      - What are the degree programs are available?
+      - Tell me about degree courses available.
+      - Do you have a list of courses offered?
+      - Can you provide a list of undergraduate(ug) and postgraduate(pg) courses?
+      - Does the college offers AI and Data science courses?
+      - Can I study medical courses here.
+      - Are there any research programs ?
+      - Are there any Phd courses available.
+      - Are there any diploma courses offer?
+
+  - intent: college_ug_courses
+    examples: 
+      - What are the ug courses are available?
+      - Tell me UG courses
+      - What are the available UnderGraduate(ug) courses?
+      - List all the available UG courses
+      - Tell me B.E courses
+      - What are the BE courses available here?
+      - Tell me B.Tech courses
+      - What are the BTech courses available here?
+
+  - intent: college_pg_courses
+    examples: 
+      - What are the pg courses are available?
+      - Tell me PG courses
+      - What are the available PostGraduate(pg) courses?
+      - List all the available PG courses
+      - Tell me M.E courses
+      - What are the ME courses available here?
+    
+  - intent: college_phd_courses
+    examples: 
+      - What are the phd courses are available?
+      - Tell me PH.D courses
+      - What are the available Research(Ph.d) courses?
+      - List all the available ph.d courses
+      - Tell me Research Programs
+      - ph.d courses
+
+  - intent: college_courses_duration
+    examples:
+      - How long to finish study?
+      - How many years to complete?
+      - When can I finish the course?
+      - What is the duration of your courses?
+      - How many years does a B.E. or B.Tech take?
+      - How long is the M.E. course?
+      - What is the time period for completing a Ph.D.?
+      - What is the duration for UG, PG, and Ph.D. programs?
+      - How many semesters are there in a B.Tech program?
+      - Is the Ph.D. program full-time or part-time? What's the duration for each?
+      - Are there flexible study durations for postgraduate courses?
+
+  - intent: college_admission_form
+    examples:
+      - How to join?
+      - Where to get the joining paper or form?
+      - How to start admission?
+      - Where to sign up for college?
+      - Where can I get the admission form?
+      - How do I apply for admission?
+      - Is the application online or offline?
+      - Where can I access the online admission portal?
+      - Is there an application fee for submitting the admission form?
+      - Where is the admission form?
+
+  - intent: college_admission_eligibility
+    examples:
+      - Who can study here?
+      - Can I join the college?
+      - Do I need to pass school to get in?
+      - Can anyone apply for this college?
+      - What are the requirements for admission?
+      - What qualifications are needed for B.E./B.Tech?
+      - What is the minimum percentage needed to join?
+      - Is there any age limit for admission?
+      - What are the eligibility criteria for UG, PG, and Ph.D. programs?
+      - Does the college accept lateral entry students?
+      - Are there any reservations or quota-based admissions?
+      - What are the eligibility requirements?
+      - What is the eligibilty criteria?

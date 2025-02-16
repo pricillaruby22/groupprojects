@@ -75,8 +75,42 @@ stories:
     steps:
       - intent: college_distance_travel_time
       - action: utter_college_distance_travel_time
+      
+  - story: Provide college courses
+    steps: 
+      - intent: college_courses
+      - action: utter_college_courses 
 
   - story: Fee structure inquiry
     steps:
       - intent: fee_structure
       - action: utter_fee_structure_info
+  - story: Provide college ug courses
+    steps:
+      - intent: college_ug_courses
+      - action: utter_college_ug_courses
+
+  - story: Provide college pg courses
+    steps:
+      - intent: college_pg_courses
+      - action: utter_college_pg_courses
+  
+  - story: Provide college phd courses
+    steps:
+      - intent: college_phd_courses
+      - action: utter_college_phd_courses
+  
+  - story: Provide courses duration
+    steps:
+      - intent: college_courses_duration
+      - action: utter_college_courses_duration
+
+  - story: Provide College Admission form
+    steps:
+      - intent: college_admission_form
+      - action: utter_college_admission_form
+
+  - story: Provide College Admission Eligibilty
+    steps:
+      - intent: college_admission_eligibility
+      - action: utter_college_admission_eligibility

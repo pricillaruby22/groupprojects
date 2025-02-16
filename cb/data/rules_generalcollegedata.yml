@@ -83,3 +83,42 @@ rules:
     steps:
       - intent: fee_structure
       - action: utter_fee_structure_info
+  - rule: Respond to college location and address query
+    steps:
+      - intent: college_location_address
+      - action: utter_college_location_address
+
+  - rule: Respond to college courses
+    steps:
+      - intent: college_courses
+      - action: utter_college_courses
+
+  - rule: Respond to college ug courses
+    steps:
+      - intent: college_ug_courses
+      - action: utter_college_ug_courses
+
+  - rule: Respond to college pg courses
+    steps:
+      - intent: college_pg_courses
+      - action: utter_college_pg_courses
+  
+  - rule: Respond to college phd courses
+    steps:
+      - intent: college_phd_courses
+      - action: utter_college_phd_courses
+
+  - rule: Respond to courses duration
+    steps:
+      - intent: college_courses_duration
+      - action: utter_college_courses_duration
+
+  - rule: Respond to College Admission form
+    steps:
+      - intent: college_admission_form
+      - action: utter_college_admission_form
+
+  - rules: Respond to College Admission Eligibilty
+    steps:
+      - intent: college_admission_eligibility
+      - action: utter_college_admission_eligibility

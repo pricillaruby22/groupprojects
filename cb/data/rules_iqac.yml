@@ -1,52 +1,52 @@
-version: "3.1"
+# version: "3.1"
 
-rules:
-  - rule: Respond to IQAC objectives request
-    steps:
-      - intent: iqac_objectives
-      - action: utter_iqac_objectives
+# rules:
+#   - rule: Respond to IQAC objectives request
+#     steps:
+#       - intent: iqac_objectives
+#       - action: utter_iqac_objectives
 
-  - rule: Respond to IQAC Members request
-    steps:
-      - intent: iqac_members
-      - action: utter_iqac_members
+#   - rule: Respond to IQAC Members request
+#     steps:
+#       - intent: iqac_members
+#       - action: utter_iqac_members
 
-  - rule: Respond to Minutes of Meetings request
-    steps:
-      - intent: minutes_of_meetings
-      - action: utter_minutes_of_meetings
+#   - rule: Respond to Minutes of Meetings request
+#     steps:
+#       - intent: minutes_of_meetings
+#       - action: utter_minutes_of_meetings
 
-  - rule: Respond to NAAC request
-    steps:
-      - intent: naac
-      - action: utter_naac
+#   - rule: Respond to NAAC request
+#     steps:
+#       - intent: naac
+#       - action: utter_naac
 
-  - rule: Respond to NBA request
-    steps:
-      - intent: nba
-      - action: utter_nba
+#   - rule: Respond to NBA request
+#     steps:
+#       - intent: nba
+#       - action: utter_nba
 
-  - rule: Respond to NIRF request
-    steps:
-      - intent: nirf
-      - action: utter_nirf
+#   - rule: Respond to NIRF request
+#     steps:
+#       - intent: nirf
+#       - action: utter_nirf
 
-  - rule: Respond to RTI Declaration request
-    steps:
-      - intent: rti_declaration
-      - action: utter_rti_declaration
+#   - rule: Respond to RTI Declaration request
+#     steps:
+#       - intent: rti_declaration
+#       - action: utter_rti_declaration
 
-  - rule: Respond to AQAR request
-    steps:
-      - intent: aqar
-      - action: utter_aqar
+#   - rule: Respond to AQAR request
+#     steps:
+#       - intent: aqar
+#       - action: utter_aqar
 
-  - rule: Respond to Governing Council request
-    steps:
-      - intent: gc
-      - action: utter_gc
+#   - rule: Respond to Governing Council request
+#     steps:
+#       - intent: gc
+#       - action: utter_gc
 
-  - rule: Respond to Stakeholders Feedback request
-    steps:
-      - intent: stakeholders_feedback
-      - action: utter_stakeholders_feedback
+#   - rule: Respond to Stakeholders Feedback request
+#     steps:
+#       - intent: stakeholders_feedback
+#       - action: utter_stakeholders_feedback
