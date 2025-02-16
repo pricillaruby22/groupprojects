@@ -122,3 +122,29 @@ rules:
     steps:
       - intent: college_admission_eligibility
       - action: utter_college_admission_eligibility
+
+  - rule: Respond to internship and placement inquiries
+    steps:
+      - intent: available_internships_and_placements
+      - action: utter_available_internships_and_placements
+
+  - rule: Respond to course change inquiries
+    steps:
+      - intent: change_the_course
+      - action: utter_change_the_course
+
+  - rule: Respond to First Graduate process inquiries
+    steps:
+      - intent: First_graduate
+      - action: utter_First_graduate
+
+  - rule: Respond to additional fee inquiries
+    steps:
+      - intent: fee_payment_other_than_tutionfee
+      - action: utter_fee_payment_other_than_tutionfee
+
+  - rule: Respond to industrial visit inquiries
+    steps:
+      - intent: about_industrial_visit
+      - action: utter_about_industrial_visit
+

@@ -386,3 +386,69 @@ nlu:
       - Are there any reservations or quota-based admissions?
       - What are the eligibility requirements?
       - What is the eligibilty criteria?
+  - intent: available_internships_and_placements
+    examples: |
+      - Do you offer internships?
+      - What are the placement opportunities at your college?
+      - Does your college provide campus recruitment?
+      - How do I apply for a placement?
+      - What kind of companies come for placements?
+      - Are internships compulsory?
+      - Who do I contact for internship details?
+      - What’s the placement record of your college?
+      - Can you tell me about the job opportunities after graduation?
+      - Do students get job offers before completing their course?
+      - Is there a placement training program?
+      - Do final-year students get placement support?
+
+  - intent: change_the_course
+    examples: |
+      - Can I change my course after admission?
+      - Is course switching allowed?
+      - I want to transfer to another department. Is that possible?
+      - What’s the procedure for changing my course?
+      - Can I move to another specialization?
+      - I picked the wrong course. Can I switch?
+      - If I don’t like my current course, can I change it?
+      - Is there any fee for changing the course?
+      - Can I change from B.Sc. to B.Tech.?
+      - Is branch change possible in the second year?
+
+  - intent: First_graduate
+    examples: |
+      - What is the First Graduate scheme?
+      - Do first-generation graduates get any benefits?
+      - Who qualifies for the First Graduate concession?
+      - How can I apply for First Graduate benefits?
+      - Is there a scholarship for first graduates?
+      - What documents are needed for first graduates?
+      - Will I get a fee concession if I’m the first graduate in my family?
+      - How does the First Graduate program work?
+      - Does the government provide support for first graduates?
+      - Is the First Graduate certificate mandatory?
+
+  - intent: fee_payment_other_than_tutionfee
+    examples: |
+      - What are the extra fees apart from tuition?
+      - Are there any hidden costs?
+      - How much do I have to pay for hostel and mess?
+      - What are the other charges besides course fees?
+      - Are there any extra payments after admission?
+      - Do I need to pay lab or library fees separately?
+      - Is there an exam fee?
+      - What is the total cost including all charges?
+      - Do we have to pay for transportation separately?
+      - Can you provide a detailed fee structure?
+
+  - intent: about_industrial_visit
+    examples: |
+      - Do students get to visit industries?
+      - Are industrial visits part of the curriculum?
+      - How often do you conduct industry visits?
+      - Which companies do students visit?
+      - Is industrial training included in the course?
+      - Can students request industrial visits?
+      - How do I register for an industrial visit?
+      - Are there any extra fees for industrial visits?
+      - Are industrial visits compulsory?
+      - What’s the process to join an industrial visit?
