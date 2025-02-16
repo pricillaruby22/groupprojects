@@ -1,15 +1,12 @@
-.bgimg{
-    width: 100%;
-    height: 100%;
-    background-image: url('images/bgimg.jpg');
+body{
+    background-image: url('images/backgroundimage.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow-y: hidden;
 }
 .bar{
-    background-color: #003161;
+    background-color: #025B64;
     position: fixed;
     width: 98%;
     height: 59px;
@@ -20,7 +17,7 @@
     position: fixed;
     height: 45px;
     width: 55px;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-left: 50px;
 }
 .ttl{
@@ -43,6 +40,12 @@
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size2{
     font-size: 18px;
@@ -51,6 +54,12 @@
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.size2:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .size3{
     font-size: 18;
@@ -59,88 +68,58 @@
     border-radius: 25px;
     background-color: #FFF0D1;
     cursor: pointer;
-}/*
-.wed img{
-    height: 320px;
-    width: 320px;
-    margin-left: 1050px;
-    margin-top: 170px;
-    position: absolute;
-    clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 50% 75%, 0% 100%, 0% 35%);
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
 }
-.dance img{
-    height: 220px;
-    width: 220px;
-    margin-left: 1100px;
-    margin-top: 280px;
-    position: absolute;
-    clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 50% 75%, 0% 100%, 0% 35%);
+.size3:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
-.ps img{
-    height: 120px;
-    width: 120px;
-    margin-left: 1150px;
-    margin-top: 400px;
-    position: absolute;
-    clip-path: polygon(50% 0%, 100% 35%, 100% 100%, 50% 75%, 0% 100%, 0% 35%);
-}
-.tosee{
-    font-size: 30px;
-    position: absolute;
-    margin-top: 510px;
-    margin-left: 1065px;
-}
-.clickbtn{
-    background-color: #FFF0D1;
-    cursor: pointer;
-    color: #3B3030;
-    width: 150px;
-    height: 50px;
-    border-color: #3B3030;
-    border-radius:80px;
-    margin-left: 1125px;
-    margin-top: 550px;
-    position: absolute;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}*/
-.heading{
+.heading {
     font-size: 50px;
-    margin-top: 150px;
-    margin-left: 200px;
+    text-align: center;
+    padding-top: 80px;
+    text-decoration: underline;
+    color: #FFF0D1;
 }
 .ch2{
     font-size: 30px;
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 180px;
     word-spacing: 10px;
     font-weight: 5px;
     font-family: cursive;
+    text-align: center;
+    color: #04E2E4;
 }
 .about{
-    position: absolute;
     font-size: 30px;
-    margin-top: 120px;
-    margin-left: 50px;
-    margin-right: 650px;
+    text-align: center;
+    word-spacing: 8px;
+    padding: 0 200px;
+    color: #FFF0D1;
 }
-.eventlist{
-    position: absolute;
-    font-size: 25px;
-    margin-top: 290px;
-    margin-left: 100px;
+.signup-btn {
+    font-size: 18px;
+    height: 45px;
+    width: 120px;
+    border-radius: 25px;
+    background-color: #FFF0D1;
+    cursor: pointer;
+    margin-left: 46%;
+    border-color: #014752;
+    font-family: 'Times New Roman', Times, serif;
+}
+.signup-btn:hover {
+    background-color: #014752;
+    color: #FFF0D1;
 }
 .ch3{
-    position: absolute;
     font-size: 32px;
-    margin-top: 400px;
-    margin-left: 85px;
+    text-align: center;
+    color: #04E2E4;
 }
 .mrq{
-    position: absolute;
     font-size: 25px;
     font-family: 'Arial Narrow Bold';
-    margin-top: 506px;
-    left: 0;
+    color: #FFF0D1;
+    margin-top: 100px;
 }
