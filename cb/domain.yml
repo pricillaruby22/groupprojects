@@ -24,6 +24,11 @@ intents:
   - college_courses_duration
   - college_admission_form
   - college_admission_eligibilty
+  - available_internships_and_placements
+  - change_the_course
+  - First_graduate
+  - fee_payment_other_than_tutionfee
+  - about_industrial_visit
   - admission_deadline_lastdate
   - ssmiet_branches_campus
   - campus_college_visit
@@ -194,3 +199,42 @@ responses:
          - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
          - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
          - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
+    - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+
+  utter_available_internships_and_placements:
+    - text: "SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs
+            Placement Details
+            2018-2019(206-Students)
+            2019-2020(273-Students)
+            2020-2021(101-Students)
+            2021-2022(200-Students)
+            2022-2023(117-Students)
+            Top recruiters include TCS, Infosys, Wipro, and Cognizant. For more details, contact the placement office atFor contact us:
+            Mr.C.Silambarasan M.E.,
+            Training and Placement officer,
+            SSM Institute of Engineering and Technology,
+            Dindigul – 624 002,
+            Tamil Nadu, India
+            Phone: 7373707001
+            E-mail Id: placement.ssmiet@gmail.com"
+
+  utter_change_the_course:
+    - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance `CONTACT INFO:Phone:0451-244-8800-899` `Email:ssmietdgl@gmail.com` "
+
+  utter_First_graduate:
+    - text: "Yes,The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
+              Students of SSMIET are eligible to avail various government scholarships such as,
+              * BC /MBC Scholarship
+              * Govt. of India post metric Scholarship (SC / ST / SCA Students)
+              * Govt. of India post metric Scholarship (Converted Christian)
+              * MOMA Scholarship (BCM, Christianity)
+              * AICTE Scholarship (All category of Girl Students only)
+              * NHFDC Scholarship (All category of Differently abled Students)
+              * GQ 7.5 (6th to 12th Government School studied category)"
+
+  utter_fee_payment_other_than_tutionfee:
+    - text: "Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information"
+
+  utter_about_industrial_visit:
+    - text: "Yes,SSMIET organizes industrial visits for students to gain practical exposure.  Participation is encouraged but subject to academic performance and attendance requirements."
+

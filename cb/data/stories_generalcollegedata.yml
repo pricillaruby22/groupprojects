@@ -114,6 +114,32 @@ stories:
     steps:
       - intent: college_admission_eligibility
       - action: utter_college_admission_eligibility
+
+
+  - story: Internship and placement inquiry
+    steps:
+      - intent: available_internships_and_placements
+      - action: utter_available_internships_and_placements
+
+  - story: Course change inquiry
+    steps:
+      - intent: change_the_course
+      - action: utter_change_the_course
+
+  - story: First Graduate process inquiry
+    steps:
+      - intent: First_graduate
+      - action: utter_First_graduate
+
+  - story: Additional fee inquiry
+    steps:
+      - intent: fee_payment_other_than_tutionfee
+      - action: utter_fee_payment_other_than_tutionfee
+
+  - story: Industrial visit inquiry
+    steps:
+      - intent: about_industrial_visit
+      - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
       - intent: admission_deadline_lastdate
