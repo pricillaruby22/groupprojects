@@ -1,8 +1,45 @@
 version: "3.1"
 
-domain:
 intents:
+
+  - admission_process
+  - ask_online_courses
+  - coeducation
+  - entrance_exam
+  - uniform_dresscode
+  - book_availability
+  - student_count
+  - hostel_availability
+  - family_visit
   - college_location_address
+
 responses:
+
+  utter_admission_process:
+  - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. Dr. S. Joseph Dominic Vijayakumar,
+          Admission Cell – Coordinator,SSM Higher EducationalInstitutions Dindigul – Palani Highway, Dindigul.
+          Contact Number: 7373707002, 7373707008 If you need further assistance, contact us at 0451 244 8800.
+           Admission process
+
+          • Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.
+          • The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.
+          • The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+
+  utter_online_courses:
+  - text: "Yes, we offer online courses and distance learning options. You can take some or all of your classes remotely, depending on the program. Would you like more details on available courses?"
+  utter_coeducation:
+  - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a safe and respectful environment for all students"
+  utter_entrance_exam:
+  - text: "Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation. The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling so there is no enterance exam in our SSMIET".
+  utter_uniform_dresscode:
+  - text: " students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] . students may have specific uniform for lab practicals alone. For further details, contact the administration 0451 244 8800."
+  utter_book_availability_info:
+  - text: "The college provides necessary books through the library. Some books are available for purchase, while others can be borrowed for a semester. Please check with the library for more details."
+  utter_student_count_info:
+  - text: "The current student count is approximately 1200, with around 600 male and 600 female students. These numbers may vary slightly each year."
+  utter_hostel_availability_info:
+  - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
+  utter_family_visit_info:
+  - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
   utter_college_location_address:
     - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"

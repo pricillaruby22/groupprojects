@@ -1,36 +1,160 @@
 version: "3.1"
 
 nlu:
-- intent: college_location_address
-  examples: |
-    - Where is the college located?
-    - College place where?
-    - Institute side which area?
-    - Where to go for college?
-    - Show me where college is.
-    - What is the location of the institute?
-    - Where exactly is the college situated?
-    - Where exactly is the college located?
-    - Can you tell me the location of the institution?
-    - Can you show me the location of the college?
-    - How can I reach the college?
-    - Is the institute near any landmarks?
-    - What is the precise geographical location of the college?
-    - Can you provide the latitude and longitude of the college?
-    - Could you share the live location link of the institute?
-    - What is the official address of the college, including postal code?
-    - College address where?
-    - Tell me college place.
-    - Where is the college side?
-    - Tell me the college address.
-    - What is the full address of the college?
-    - Can you share the college location details?
-    - Give me the postal address of the college.
-    - What is the registered address of the institute?
-    - Could you give the latitude and longitude coordinates of the college?
-    - Can you provide the address along with nearby landmarks?
+  - intent: admission_process
+    examples: |
+      - How can I apply for admission to this college?
+      - What is the admission process for this college?
+      - How do I join this institution?
+      - What are the requirements for enrolling in this college?
+      - Can you guide me through the admission procedure?
+      - I want to join this college. What should I do?
+      - Tell me how to get admission here.
+      - How do I become a student at this college?
+      - Can I enroll in this college? How?
+      - What’s the process to get into this college?
+      - Hey, I’m interested in joining this college. What do I need to do?
+      - What’s the easiest way to get admission here?
+      - I’m thinking about enrolling—can you tell me the process?
+      - If I want to study here, what’s the first step?
+      - Do I need to apply online or visit the campus for admission?
+      - How to join?
+      - Admission details?
+      - Is admission open?
+      - Can I get in?
+      - Steps to join?
+    
+
+  - intent: ask_online_courses
+     examples: |
+    - Is it possible to study courses from home?
+    - Do you offer online courses?
+    - Can I complete my studies remotely?
+    - Are there distance learning options available?
+    - Does this college provide virtual classes?
+    - Can I study from home?
+    - Do you guys have online classes?
+    - Are there any fully online degree programs?
+    - Do you have a hybrid model where I can take some classes online?
+    - How do online classes work at this college?
+    - Can I take exams from home if I choose distance learning?
+    - Is there any platform where I can access study materials online?
+    - Is remote learning an option here?
+    - Can I take courses without coming to campus?
+    - Do I need to attend in person, or is online study available?
+
+  - intent: coeducation
+     examples: |
+       - Is this a co-ed college?
+       - Do boys and girls study together here?
+       - Is this an all-boys or all-girls college?
+       - Is this institution co-educational?
+       - Are both genders allowed to study here?
+       - Can girls and boys enroll in this college?
+       - Does this college admit both male and female students?
+       - Is this a mixed-gender college?
+       - Are there both male and female students here?
+       - is your college is only for girls?
+       - is this a boys college?
+       - this college is for all boys and girls?
+  - intent: entrance_exam
+     examples: |
+       - What entrance exams do I need to take for admission?
+       - Do I have to write any tests to get into this college?
+       - Is an entrance exam required to apply?
+       - How can I join without an entrance exam?
+       - What happens if I fail the entrance exam?
+       - Does this institution require JEE or NEET scores?
+       - Are there any cutoff marks for entrance exams?
+       - Do different courses have different entrance exams?
+       - Can I apply with my board exam marks instead?
+       - Does this college accept lateral entry without an entrance test?
+       - Are there any alternative entrance pathways aside from standard exams?
+       - What percentile should I aim for in competitive exams?
+       - Does this college have an in-house entrance test or interview process?
+       - Are international entrance exam scores like SAT or GMAT accepted?
+       - Is there a quota-based relaxation for entrance exam scores?
+  - intent: uniform-dresscode
+     examples: |
+       - Is there a uniform?
+       - Do students have to wear a uniform?
+       - Is a uniform mandatory?
+       - Do I need to wear a uniform?
+       - What’s the dress code?
+       - Are uniforms compulsory?
+       - Does this college have a dress code?
+       - Do we need a uniform for classes?
+       - Are there any clothing rules for students?
+       - What is the uniform policy?
+       - Can students wear casual clothes?
+       - Are there different uniforms for different courses?
+
+  - intent: book_availability
+     examples: |
+       - Will I get books from the college?
+       - Does the college provide books?
+       - Are books included in the course?
+       - Do I need to buy books, or will they be given?
+       - Are there any book facilities available?
+       - Does the library offer course books?
+       - Will books be provided for free or do we need to purchase them?
+
+  - intent: student_count
+     examples: |
+       - How many male and female students are there?
+       - What is the total number of students?
+       - Can you tell me the count of male and female students?
+       - How many boys and girls are in the college?
+       - What is the gender ratio in the college?
+       - Is there a list of student numbers by gender?
+
+  - intent: hostel_availability
+     examples: |
+       - Is there a hostel facility?
+       - Does the college provide hostel accommodation?
+       - Can students stay in a hostel?
+       - Are there separate hostels for boys and girls?
+       - What are the hostel facilities like?
+       - Do you have hostel rooms available?
+       - hostel facility is available or not?
+
+  - intent: family_visit
+     examples: |
+       - Are family visits allowed in the hostel?
+       - Can parents visit students in the hostel?
+       - What is the policy on family visits?
+       - Can my family visit me while I stay in the hostel?
+       - Are there specific timings for family visits?
+
+  - intent: college_location_address
+    examples: |
+      - Where is the college located?
+      - College place where?
+      - Institute side which area?
+      - Where to go for college?
+      - Show me where college is.
+      - What is the location of the institute?
+      - Where exactly is the college situated?
+      - Where exactly is the college located?
+      - Can you tell me the location of the institution?
+      - Can you show me the location of the college?
+      - How can I reach the college?
+      - Is the institute near any landmarks?
+      - What is the precise geographical location of the college?
+      - Can you provide the latitude and longitude of the college?
+      - Could you share the live location link of the institute?
+      - What is the official address of the college, including postal code?
+      - College address where?
+      - Tell me college place.
+      - Where is the college side?
+      - Tell me the college address.
+      - What is the full address of the college?
+      - Can you share the college location details?
+      - Give me the postal address of the college.
+      - What is the registered address of the institute?
+      - Could you give the latitude and longitude coordinates of the college?
+      - Can you provide the address along with nearby landmarks?
 
 
-actions:
-  - utter_college_location_address
+
 
