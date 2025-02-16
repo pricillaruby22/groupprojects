@@ -24,6 +24,12 @@ intents:
   - college_courses_duration
   - college_admission_form
   - college_admission_eligibilty
+  - admission_deadline_lastdate
+  - ssmiet_branches_campus
+  - campus_college_visit
+  - admission_start_date
+  - lateral_entry
+  - Sports_NCC_government_management_quota
 
 responses:
 
@@ -39,20 +45,39 @@ responses:
 
   utter_online_courses:
     - text: "No, we don't offer online courses and distance learning options. Would you like to know more details on available courses?"
+    - text: "Yes, we offer online courses and distance learning options. You can take some or all of your classes remotely, depending on the program. 
+            Would you like more details on available courses?"
+
   utter_coeducation:
-    - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a safe and respectful environment for all students"
+    - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a 
+            safe and respectful environment for all students"
+
   utter_entrance_exam:
-    - text: "Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation. The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling so there is no enterance exam in our SSMIET".
+    - text: "Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The 
+             online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation. The vacant or unclaimed 
+             seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after 
+             supplementary counselling so there is no enterance exam in our SSMIET".
+
   utter_uniform_dresscode:
-    - text: " students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] . students may have specific uniform for lab practicals alone. For further details, contact the administration 0451 244 8800."
+    - text: " students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not 
+              allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] . students may have specific uniform for lab practicals 
+              alone. For further details, contact the administration 0451 244 8800."
+
   utter_book_availability_info:
-    - text: "The college provides necessary books through the library. Some books are available for purchase, while others can be borrowed for a semester. Please check with the library for more details."
+    - text: "The college provides necessary books through the library. Some books are available for purchase, while others can be borrowed for a 
+            semester. Please check with the library for more details."
+
   utter_student_count_info:
     - text: "The current student count is approximately 1200, with around 600 male and 600 female students. These numbers may vary slightly each year."
+
   utter_hostel_availability_info:
-    - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
+    - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and 
+            security. Contact the hostel warden for details."
+
   utter_family_visit_info:
-    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for 
+            specific timings and policies."
+
   utter_college_location_address:
     - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
 
@@ -91,6 +116,27 @@ responses:
           **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**.
           **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**.
           ** Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
+    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If 
+            you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
+
+  utter_admission_deadline_lastdate:
+    - text: "This is the end date for admission, and there is no extension for the admission deadline."
+
+  utter_ssmiet_branches_campus:
+    - text: "No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul."
+
+  utter_campus_college_visit:
+    - text: "Yeah, sure! You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms."
+
+  utter_admission_start_date:
+    - text: "Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released."
+
+  utter_lateral_entry:
+    - text: "Yes, SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria."
+  
+  utter_Sports_NCC_government_management_quota:
+    - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
+
 
   utter_college_ug_courses:
     - text: |
