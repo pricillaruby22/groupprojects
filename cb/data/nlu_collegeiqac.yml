@@ -1,0 +1,77 @@
+version: "3.1"
+
+nlu:
+    - intent: iqac_objectives
+      examples: |
+        - What are the objectives of IQAC in SSMIET?
+        - Tell me the objectives of IQAC.
+        - What is the purpose of IQAC?
+        - Explain the objectives of the Internal Quality Assurance Cell.
+        - IQAC objectives in SSMIET?
+        - What does IQAC aim to achieve?
+        - Explain the main functions of IQAC.
+        - What are the quality assurance measures of IQAC?
+        - Give me details about IQAC's objectives.
+
+    - intent: iqac_members
+      examples: |
+        - Show me the IQAC members.
+        - Where can I find the list of IQAC members?
+        - Provide the link for IQAC members.
+        - IQAC members list.
+
+    - intent: minutes_of_meetings
+      examples: |
+        - Show me the minutes of meetings.
+        - Where can I find the IQAC meeting minutes?
+        - Provide the link for meeting minutes.
+        - IQAC meeting records.
+
+    - intent: naac
+      examples: |
+        - Show me the NAAC details.
+        - Where can I find the NAAC accreditation?
+        - Provide the link for NAAC.
+        - NAAC accreditation details.
+
+    - intent: nba
+      examples: |
+        - Show me the NBA details.
+        - Where can I find the NBA accreditation?
+        - Provide the link for NBA.
+        - NBA accreditation details.
+
+    - intent: nirf
+      examples: |
+        - Show me the NIRF ranking.
+        - Where can I find the NIRF details?
+        - Provide the link for NIRF.
+        - NIRF ranking information.
+
+    - intent: rti_declaration
+      examples: |
+        - Show me the RTI declaration.
+        - Where can I find the RTI information?
+        - Provide the link for RTI declaration.
+        - RTI statutory declaration.
+
+    - intent: aqar
+      examples: |
+        - Show me the AQAR details.
+        - Where can I find the AQAR report?
+        - Provide the link for AQAR.
+        - Annual Quality Assurance Report.
+
+    - intent: gc
+      examples: |
+        - Show me the Governing Council details.
+        - Where can I find the GC information?
+        - Provide the link for GC.
+        - Governing Council details.
+
+    - intent: stakeholders_feedback
+      examples: |
+        - Show me the stakeholder feedback.
+        - Where can I find the feedback reports?
+        - Provide the link for stakeholder feedback.
+        - Stakeholders' feedback information.

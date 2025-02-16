@@ -1,0 +1,280 @@
+version: "3.1"
+
+rules:
+  - rule: respond to math_club_about intent
+    steps:
+      - intent: math_club_about
+      - action: utter_math_club_about
+
+  - rule: respond to math_club_objectives intent
+    steps:
+      - intent: math_club_objectives
+      - action: utter_math_club_objectives
+
+  - rule: respond to math_club_members intent
+    steps:
+      - intent: math_club_members
+      - action: utter_math_club_members
+
+  - rule: respond to math_club_roles intent
+    steps:
+      - intent: math_club_roles
+      - action: utter_math_club_roles
+
+  - rule: respond to math_club_activities intent
+    steps:
+      - intent: math_club_activities
+      - action: utter_math_club_activities
+
+  - rule: respond to ndli_club_about intent
+    steps:
+      - intent: ndli_club_about
+      - action: utter_ndli_club_about
+
+  - rule: respond to ndli_club_faculty intent
+    steps:
+      - intent: ndli_club_faculty
+      - action: utter_ndli_club_faculty
+
+  - rule: respond to ndli_club_events_activities intent
+    steps:
+      - intent: ndli_club_events_activities
+      - action: utter_ndli_club_events_activities
+
+  - rule: respond to ndli_club_registration_certificate intent
+    steps:
+      - intent: ndli_club_registration_certificate
+      - action: utter_ndli_club_registration_certificate
+
+  - rule: Respond to Humane League Aim
+    steps:
+      - intent: humane_aim
+      - action: utter_humane_aim
+
+  - rule: Respond to Humane League Objectives
+    steps:
+      - intent: humane_objectives
+      - action: utter_humane_objectives
+
+  - rule: Respond to Humane League Faculty Incharge
+    steps:
+      - intent: humane_faculty_incharge
+      - action: utter_humane_faculty_incharge
+
+  - rule: Respond to Humane League Members
+    steps:
+      - intent: humane_members
+      - action: utter_humane_members
+
+  - rule: Respond to Humane League Activities
+    steps:
+      - intent: humane_activities
+      - action: utter_humane_activities
+
+  - rule: Respond to Humane League Rules
+    steps:
+      - intent: humane_rules
+      - action: utter_humane_rules
+
+  - rule: Respond to Humane League Events
+    steps:
+      - intent: humane_events
+      - action: utter_humane_events
+
+  - rule: Respond to Humane League Gallery
+    steps:
+      - intent: humane_gallery
+      - action: utter_humane_gallery
+
+  - rule: Respond to Rotaract Club About
+    steps:
+      - intent: rotaract_about
+      - action: utter_rotaract_about
+
+  - rule: Respond to Rotaract Club Events
+    steps:
+      - intent: rotaract_events
+      - action: utter_rotaract_events
+
+  - rule: respond to yuva_club_about intent
+    steps:
+      - intent: yuva_club_about
+      - action: utter_yuva_club_about
+
+  - rule: respond to yuva_club_objectives intent
+    steps:
+      - intent: yuva_club_objectives
+      - action: utter_yuva_club_objectives
+
+  - rule: respond to yuva_club_faculties intent
+    steps:
+      - intent: yuva_club_faculties
+      - action: utter_yuva_club_faculties
+
+  - rule: respond to yuva_club_students_incharges intent
+    steps:
+      - intent: yuva_club_students_incharges
+      - action: utter_yuva_club_students_incharges
+
+  - rule: respond to build_club_about intent
+    steps:
+      - intent: build_club_about
+      - action: utter_build_club_about
+
+  - rule: respond to build_club_vision intent
+    steps:
+      - intent: build_club_vision
+      - action: utter_build_club_vision
+
+  - rule: respond to build_club_mission intent
+    steps:
+      - intent: build_club_mission
+      - action: utter_build_club_mission
+
+  - rule: respond to build_club_objectives intent
+    steps:
+      - intent: build_club_objectives
+      - action: utter_build_club_objectives
+
+  - rule: respond to build_club_members intent
+    steps:
+      - intent: build_club_members
+      - action: utter_build_club_members
+
+  - rule: respond to build_club_activities intent
+    steps:
+      - intent: build_club_activities
+      - action: utter_build_club_activities
+
+  - rule: Respond to Alumni Vision
+    steps:
+      - intent: ask_alumni_vision
+      - action: utter_alumni_vision
+
+  - rule: Respond to Alumni Mission
+    steps:
+      - intent: ask_alumni_mission
+      - action: utter_alumni_mission
+
+  - rule: Respond to Alumni Objectives
+    steps:
+      - intent: ask_alumni_objectives
+      - action: utter_alumni_objectives
+
+  - rule: Respond to Alumni Office Bearers
+    steps:
+      - intent: ask_alumni_office_bearers
+      - action: utter_alumni_office_bearers
+
+  - rule: Respond to Alumni Faculty Members
+    steps:
+      - intent: ask_alumni_faculty_members
+      - action: utter_alumni_faculty_members
+
+  - rule: Respond to Alumni Coordinators
+    steps:
+      - intent: ask_alumni_coordinators
+      - action: utter_alumni_coordinators
+
+  - rule: Respond to Alumni Meet 2023-2024
+    steps:
+      - intent: ask_alumni_meet_2023_2024
+      - action: utter_alumni_meet_2023_2024
+
+  - rule: Respond to Alumni Meet 2018-2023
+    steps:
+      - intent: ask_alumni_meet_2018_2023
+      - action: utter_alumni_meet_2018_2023
+
+  - rule: Respond to Renowned Alumni Meet
+    steps:
+      - intent: ask_renowned_alumni_meet
+      - action: utter_renowned_alumni_meet
+
+  - rule: Respond to Alumni Gallery 2023-2024
+    steps:
+      - intent: ask_alumni_gallery_2023_2024
+      - action: utter_alumni_gallery_2023_2024
+
+  - rule: Respond to Alumni Gallery 2018-2023
+    steps:
+      - intent: ask_alumni_gallery_2018_2023
+      - action: utter_alumni_gallery_2018_2023
+
+  - rule: Respond to Alumni Registration Certificate
+    steps:
+      - intent: ask_alumni_registration_certificate
+      - action: utter_alumni_registration_certificate
+
+  - rule: Provide information about Yoga Club
+    steps:
+      - intent: inquire_yoga_about
+      - action: utter_yoga_about
+
+  - rule: Provide objectives of Yoga Club
+    steps:
+      - intent: inquire_yoga_objective
+      - action: utter_yoga_objective
+
+  - rule: Provide faculty coordinators of Yoga Club
+    steps:
+      - intent: inquire_yoga_faculty
+      - action: utter_yoga_faculty
+
+  - rule: Provide events of Yoga Club
+    steps:
+      - intent: inquire_yoga_events
+      - action: utter_yoga_events
+
+  - rule: Provide Yoga Club gallery
+    steps:
+      - intent: inquire_yoga_gallery
+      - action: utter_yoga_gallery
+
+  - rule: Respond to Life at SSM Cell
+    steps:
+    - intent: life_at_ssm_cell
+    - action: utter_life_at_ssm_cell
+
+  - rule: Respond to Life at SSM Club
+    steps:
+    - intent: life_at_ssm_club
+    - action: utter_life_at_ssm_club
+
+  - rule: Respond to Space Club about inquiry
+    steps:
+      - intent: ask_space_club_about
+      - action: utter_space_club_about
+
+
+  - rule: Respond to Space Club objectives inquiry
+    steps:
+      - intent: ask_space_club_objective
+      - action: utter_space_club_objective
+
+
+  - rule: Respond to Space Club events inquiry
+    steps:
+      - intent: ask_space_club_events
+      - action: utter_space_club_events
+
+  - rule: Respond to Tamil Mandram purpose inquiry
+    steps:
+      - intent: ask_tamil_mandram_purpose
+      - action: utter_tamil_mandram_purpose
+
+  - rule: Respond to Tamil Mandram agenda inquiry
+    steps:
+      - intent: ask_tamil_mandram_agenda
+      - action: utter_tamil_mandram_agenda
+
+  - rule: Respond to Tamil Kanavu participant list inquiry
+    steps:
+      - intent: ask_tamil_kanavu_participant_list
+      - action: utter_tamil_kanavu_participant_list
+
+  - rule: Respond to Tamil Mandram events inquiry
+    steps:
+      - intent: ask_tamil_mandram_events
+      - action: utter_tamil_mandram_events
+

@@ -1,0 +1,361 @@
+version: "3.1"
+
+nlu:
+  - intent: math_club_about
+    examples: |
+      - Tell me about the Math Club.
+      - What is the Math Club?
+      - Give me an overview of the Math Club.
+
+  - intent: math_club_objectives
+    examples: |
+      - What are the objectives of the Math Club?
+      - Tell me the objectives of the Math Club.
+      - What is the purpose of the Math Club?
+
+  - intent: math_club_members
+    examples: |
+      - Who are the members of the Math Club?
+      - Show me the Math Club members list.
+      - Provide the list of Math Club members.
+
+  - intent: math_club_roles
+    examples: |
+      - What are the roles and responsibilities of the Math Club?
+      - Tell me the roles and responsibilities in the Math Club.
+      - What do members of the Math Club do?
+
+  - intent: math_club_activities
+    examples: |
+      - What activities does the Math Club conduct?
+      - Show Math Club activities.
+
+  - intent: ndli_club_about
+    examples: |
+      - Tell me about the NDLI Club.
+      - What is the NDLI Club?
+      - Give me an overview of the NDLI Club.
+
+  - intent: ndli_club_faculty
+    examples: |
+      - Who are the faculty in charge of the NDLI Club?
+      - Show me the NDLI Club faculty.
+      - Provide the list of faculty members of the NDLI Club.
+
+  - intent: ndli_club_events_activities
+    examples: |
+      - What events and activities does the NDLI Club conduct?
+      - Show NDLI Club events and activities.
+      - Tell me about the NDLI Club activities.
+
+  - intent: ndli_club_registration_certificate
+    examples: |
+      - How can I get the NDLI Club registration certificate?
+      - Provide me the NDLI Club registration certificate.
+      - Where can I find the NDLI registration certificate?
+    
+  - intent: humane_league_aim
+    examples: |
+      - What is the aim of the Humane League?
+      - Tell me about the purpose of the Humane League.
+      - What does the Humane League aim to achieve?
+      - Explain the main goal of the Humane League.
+      - Why was the Humane League established?
+
+  - intent: humane_league_objective
+    examples: |
+      - What are the objectives of the Humane League?
+      - Tell me the goals of the Humane League.
+      - What does the Humane League focus on?
+      - Explain the objectives of the Humane League.
+      - What are the aims and objectives of the Humane League?
+
+  - intent: humane_league_faculty_incharge
+    examples: |
+      - Who are the faculty in charge of the Humane League?
+      - Give me the faculty members responsible for the Humane League.
+      - Who manages the Humane League?
+      - Where can I find the faculty details of the Humane League?
+      - Show me the faculty in charge of the Humane League.
+
+  - intent: humane_league_members
+    examples: |
+      - Who are the members of the Humane League?
+      - Give me the list of members of the Humane League.
+      - Where can I see the members of the Humane League?
+      - Show me the student members of the Humane League.
+      - How many members are in the Humane League?
+
+  - intent: humane_league_activities
+    examples: |
+      - What activities does the Humane League conduct?
+      - Tell me about the activities of the Humane League.
+      - List the events organized by the Humane League.
+      - What kind of activities are done by the Humane League?
+      - Explain the social and environmental activities of the Humane League.
+
+  - intent: humane_league_rules
+    examples: |
+      - What are the rules of the Humane League?
+      - Tell me the rules for Humane League members.
+      - What are the regulations for the Humane League?
+      - Explain the rules for executive members of the Humane League.
+      - Give me the club rules for the Humane League.
+
+  - intent: humane_league_events_gallery
+    examples: |
+      - Show me the events of the Humane League.
+      - Where can I find the gallery for the Humane League?
+      - Give me the past events conducted by the Humane League.
+      - Show me pictures of Humane League activities.
+      - What are the upcoming events of the Humane League?
+
+  - intent: rotaract_about
+    examples: |
+      - What is Rotaract Club?
+      - Tell me about the Rotaract Club.
+      - Give me information about the Rotaract Club.
+      - Explain the Rotaract Club.
+      - What does the Rotaract Club do?
+
+  - intent: rotaract_events
+    examples: |
+      - Show me Rotaract Club events.
+      - What events does the Rotaract Club organize?
+      - Give me a list of Rotaract Club events.
+      - Where can I find Rotaract Club event details?
+      - Tell me about Rotaract Club's past events.
+
+  - intent: yuva_club_about
+    examples: |
+      - Tell me about the Yuva Club.
+      - What is the Yuva Club?
+      - Give me an overview of the Yuva Club.
+
+  - intent: yuva_club_objectives
+    examples: |
+      - What are the objectives of the Yuva Club?
+      - Tell me the goals of Yi YUVA.
+      - What does Yi YUVA aim to achieve?
+
+  - intent: yuva_club_faculties
+    examples: |
+      - Who are the faculty members of the Yuva Club?
+      - Show me the faculty in charge of Yuva Club.
+      - Provide the list of faculties for Yuva Club.
+
+  - intent: yuva_club_students_incharges
+    examples: |
+      - Who are the student in-charges of Yuva Club?
+      - Show me the student in-charges of Yuva Club.
+      - Provide the list of student in-charges for Yuva Club.
+
+  - intent: build_club_about
+    examples: |
+      - Tell me about the Build Club.
+      - What is the Build Club?
+      - Give me an overview of the Build Club.
+
+  - intent: build_club_vision
+    examples: |
+      - What is the vision of the Build Club?
+      - Tell me the vision of the Build Club.
+      - What is the Build Club's vision?
+
+  - intent: build_club_mission
+    examples: |
+      - What is the mission of the Build Club?
+      - Tell me the mission of the Build Club.
+      - What are the goals of the Build Club?
+
+  - intent: build_club_objectives
+    examples: |
+      - What are the objectives of the Build Club?
+      - What does the Build Club aim to do?
+      - What are the objectives of Build Club?
+
+  - intent: build_club_members
+    examples: |
+      - Who are the members of the Build Club?
+      - Show me the Build Club members.
+      - Provide the list of Build Club members.
+
+  - intent: build_club_activities
+    examples: |
+      - What activities does the Build Club organize?
+      - Tell me about the activities of the Build Club.
+      - Show me the activities organized by the Build Club.
+
+  - intent: inquire_alumni_vision
+    examples: |
+      - What is the vision of the Alumni Association?
+      - Tell me the Alumni Association vision statement.
+
+  - intent: inquire_alumni_mission
+    examples: |
+      - What is the mission of the Alumni Association?
+      - Tell me about the mission statement of the Alumni Association.
+
+  - intent: inquire_alumni_objective
+    examples: |
+      - What are the objectives of the Alumni Association?
+      - Explain the goals of the Alumni Association.
+
+  - intent: inquire_alumni_office_bearers
+    examples: |
+      - Who are the office bearers of the Alumni Association?
+      - Show me the Alumni office bearers list.
+
+  - intent: inquire_alumni_faculty_members
+    examples: |
+      - Who are the faculty members of the Alumni Association?
+      - Show me the faculty members list for the Alumni Association.
+
+  - intent: inquire_alumni_coordinators
+    examples: |
+      - Who are the coordinators for the Alumni Association?
+      - Provide the list of Alumni coordinators.
+
+  - intent: inquire_alumni_meet_2023_2024
+    examples: |
+      - Provide details about the Alumni Meet 2023-2024.
+      - When was the last Alumni Meet held?
+
+  - intent: inquire_alumni_meet_2018_2023
+    examples: |
+      - Give me details about the Alumni Meet from 2018 to 2023.
+      - Where can I find information on past Alumni Meets?
+
+  - intent: inquire_renowned_alumni
+    examples: |
+      - Who are the renowned alumni?
+      - Show me a list of famous alumni members.
+
+  - intent: inquire_gallery_2023_2024
+    examples: |
+      - Show me the gallery for the Alumni Meet 2023-2024.
+      - Where can I see the alumni event photos for 2023-2024?
+
+  - intent: inquire_gallery_2018_2023
+    examples: |
+      - Show me the alumni gallery for 2018-2023.
+      - Where can I see the alumni photos from past years?
+
+  - intent: inquire_alumni_registration_certificate
+    examples: |
+      - Where can I find the Alumni Association Registration Certificate?
+      - Show me the Alumni Association registration details.
+
+  - intent: about_yoga_club
+    examples: |
+      - Tell me about the Yoga Club.
+      - What is the Yoga Club?
+      - Give details about the Yoga Club.
+      - Explain the Yoga Club.
+      - What does the Yoga Club do?
+
+  - intent: yoga_club_objectives
+    examples: |
+      - What are the objectives of the Yoga Club?
+      - Tell me the objectives of the Yoga Club.
+      - What is the purpose of the Yoga Club?
+      - Why was the Yoga Club established?
+      - List the goals of the Yoga Club.
+
+  - intent: yoga_faculty_coordinators
+    examples: |
+      - Who are the faculty coordinators of the Yoga Club?
+      - List the Yoga Club faculty coordinators.
+      - Give details about the Yoga Club faculty members.
+      - Who manages the Yoga Club?
+      - Faculty members responsible for the Yoga Club?
+
+  - intent: yoga_events
+    examples: |
+      - Show me the events of the Yoga Club.
+      - What events are conducted by the Yoga Club?
+      - List Yoga Club events.
+      - Where can I see Yoga Club events?
+      - Recent events organized by the Yoga Club?
+
+  - intent: yoga_gallery
+    examples: |
+      - Show me the Yoga Club gallery.
+      - Where can I find Yoga Club photos?
+      - Yoga Club event pictures?
+      - Share Yoga Club gallery.
+      - View Yoga Club images.
+
+  - intent: life_at_ssm_cell
+    examples: |
+      - What are the different cells at SSM?
+      - Tell me about the Life at SSM Cell.
+      - What cells are available at SSM?
+      - List all the cells at SSM Institute.
+      - Explain about the SSM Cells.
+
+  - intent: life_at_ssm_club
+    examples: |
+      - What are the different clubs at SSM?
+      - Tell me about Life at SSM Club.
+      - What clubs are available at SSM?
+      - List all the clubs at SSM Institute.
+      - Explain about the SSM Clubs
+
+  - intent: ask_space_club_about
+    examples: |
+      - Can you tell me about the Space Club?
+      - What is the Space Club about?
+      - What does the Space Club do?
+      - Give me information about the Space Club.
+      - Tell me about the Space Club.
+
+  - intent: ask_space_club_objective
+    examples: |
+      - Can you tell me the objective of the Space Club?
+      - What is the objective of the Space Club?
+      - What does the Space Club aim to do?
+      - Tell me the objectives of the Space Club.
+      - What are the goals of the Space Club?
+
+  - intent: ask_space_club_events
+    examples: |
+      - Can you tell me about Space Club events?
+      - What events are organized by the Space Club?
+      - Tell me about the Space Club events.
+      - What are the upcoming events of the Space Club?
+      - Where can I find information about Space Club events?
+
+  - intent: ask_tamil_mandram_purpose
+    examples: |
+      - What is the purpose of Tamil Mandram?
+      - Can you tell me the purpose of Tamil Mandram?
+      - Why was the Tamil Mandram started?
+      - What does Tamil Mandram aim to achieve?
+      - What is Tamil Mandram's objective?
+
+  - intent: ask_tamil_mandram_agenda
+    examples: |
+      - What is the agenda for Tamil Mandram?
+      - Can you show me the agenda for Tamil Mandram?
+      - Where can I find the Tamil Mandram agenda?
+      - Give me the agenda for Tamil Mandram.
+      - What is the program agenda for Tamil Mandram?
+
+  - intent: ask_tamil_kanavu_participant_list
+    examples: |
+      - What is the Tamil Kanavu participant list?
+      - Can you show me the participant list for Tamil Kanavu?
+      - Where can I find the participant list for Tamil Kanavu?
+      - Give me the Tamil Kanavu participant list.
+      - What are the participants of Tamil Kanavu?
+      - Can you show the list of Tamil Kanavu participants?
+
+  - intent: ask_tamil_mandram_events
+    examples: |
+      - What are the events in Tamil Mandram?
+      - Can you show me the Tamil Mandram events?
+      - Where can I find Tamil Mandram events?
+      - Give me the Tamil Mandram events list.
+      - What events are organized by Tamil Mandram?
+      - Can you show the events of Tamil Mandram?

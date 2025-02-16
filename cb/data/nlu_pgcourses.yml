@@ -1,0 +1,69 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_me_communication_vision
+    examples: |
+      - What is the vision of me communication engineering ?
+      - Tell me the vision of M.E communication 
+      - Can you share the vision of ME communication system ?
+      - What is the me communication engineering vision?
+
+  - intent: ask_me_communication_mission
+    examples: |
+        - What is the mission of me communication engineering ?
+        - Tell me the mission of M.E communication 
+        - Can you share the mission of ME communication system ?
+        - What is the me communication engineering mission?
+
+  - intent: inquire_me_communication_faculty
+    examples: |
+      - Where can I find details about Communication Systems faculty?
+      - Give me the link for M.E. Communication Systems faculty information.
+      - I want information about the Communication Systems faculty members.
+      - Show me the faculty details for the Communication Systems department.
+      - Where can I check the list of faculty for M.E. Communication Systems?
+
+  - intent: inquire_me_communication_research
+    examples: |
+      - Where can I find details about Communication Systems research?
+      - Give me the link for M.E. Communication Systems research information.
+      - I want information about the Communication Systems research projects.
+      - Show me the research details for the Communication Systems department.
+      - Where can I check the list of research topics for M.E. Communication Systems?
+
+  - intent: inquire_me_thermal_about
+    examples: |
+      - Tell me about the M.E. Thermal Engineering department.
+      - Give me details about the M.E. Thermal Engineering department.
+      - What is the introduction to the M.E. Thermal Engineering department?
+      - provide information about M.E. Thermal Engineering.
+
+  - intent: inquire_me_thermal_mission
+    examples: |
+      - What is the mission of the M.E. Thermal Engineering department?
+      - Tell me the mission statement of M.E. Thermal Engineering.
+      - What is the purpose of the M.E. Thermal Engineering department?
+      - Explain the mission of the PG Thermal Engineering course.
+
+  - intent: inquire_me_thermal_vision
+    examples: |
+      - What is the vision of the M.E. Thermal Engineering department?
+      - Tell me the vision statement of M.E. Thermal Engineering.
+      - What is the goal of the M.E. Thermal Engineering department?
+      - Explain the vision of the PG Thermal Engineering course.
+
+  - intent: inquire_me_thermal_faculty
+    examples: |
+      - Who are the faculty members of M.E. Thermal Engineering?
+      - Show me the faculty list for PG Thermal Engineering.
+      - Where can I find the M.E. Thermal Engineering faculty details?
+      - Provide the link to the M.E. Thermal Engineering faculty page.
+      - I want information about faculty in m.e thermal engineering
+
+  - intent: inquire_contact_thermal_department
+    examples: |
+      - How can I contact the thermal engineering department?
+      - Give me the contact details of the Thermal Engineering department
+      - What is the phone number of the thermal department?
+      - How do I email the Thermal department?
+      - thermal engineering department contact info

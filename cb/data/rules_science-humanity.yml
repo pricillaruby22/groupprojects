@@ -1,0 +1,182 @@
+version: "3.1"
+
+rules:
+    - rule: respond to science and humanities details
+      steps:
+      - intent: ask_science_humanities
+      - action: utter_science_humanities
+
+    - rule: respond to professional bodies of science and humanities
+      steps:
+      - intent: ask_sah_professional_bodies
+      - action: utter_sah_professional_bodies
+
+    - rule: respond to research of science and humanities
+      steps:
+      - intent: ask_sah_research
+      - action: utter_sah_research
+
+    - rule: respond to value added course of science and humanities
+      steps:
+      - intent: ask_sah_value_added_course
+      - action: utter_sah_value_added_course
+
+    - rule: respond to criteria, clubs, and cells of science and humanities
+      steps:
+      - intent: ask_sah_criteria_clubs_cells
+      - action: utter_sah_criteria_clubs_cells
+
+    - rule: respond to facilities of science and humanities
+      steps:
+      - intent: ask_sah_facilities
+      - action: utter_sah_facilities
+
+    - rule: Respond to Mathematics Vision
+      steps:
+          - intent: ask_maths_vision
+          - action: utter_maths_vision
+
+    - rule: Respond to Mathematics Mission
+      steps:
+        - intent: ask_maths_mission
+        - action: utter_maths_mission
+
+    - rule: Respond to Mathematics Faculty
+      steps:
+        - intent: ask_maths_faculty
+        - action: utter_maths_faculty
+
+    - rule: Respond to Mathematics Contact
+      steps:
+        - intent: ask_maths_contact
+        - action: utter_maths_contact
+
+    - rule: respond to library vision
+      steps:
+      - intent: ask_library_vision
+      - action: utter_library_vision
+
+    - rule: respond to library mission
+      steps:
+      - intent: ask_library_mission
+      - action: utter_library_mission
+
+    - rule: respond to library about
+      steps:
+      - intent: ask_library_about
+      - action: utter_library_about
+
+    - rule: respond to library faculty
+      steps:
+      - intent: ask_library_faculty
+      - action: utter_library_faculty
+
+    - rule: respond to library events
+      steps:
+      - intent: ask_library_events
+      - action: utter_library_events
+
+    - rule: Provide Physical Education faculty details
+      steps:
+      - intent: ask_faculty_physical_education
+      - action: utter_faculty_physical_education
+
+    - rule: Provide Physical Education contact details
+      steps:
+      - intent: ask_contact_physical_education
+      - action: utter_contact_physical_education
+
+    - rule: Provide Tamil faculty details
+      steps:
+      - intent: ask_faculty_tamil_department
+      - action: utter_faculty_tamil_department
+
+    - rule: Provide Tamil department contact details
+      steps:
+      - intent: ask_contact_tamil_department
+      - action: utter_contact_tamil_department
+
+    - rule: Provide English department details
+      steps:
+      - intent: ask_about_english_department
+      - action: utter_about_english_department
+
+    - rule: Provide English department contact details
+      steps:
+      - intent: ask_contact_english_department
+      - action: utter_contact_english_department
+
+    - rule: Provide faculty details
+      steps:
+      - intent: ask_english_faculty_details
+      - action: utter_english_faculty_details
+
+    - rule: Provide technical support details
+      steps:
+      - intent: ask_english_technical_support
+      - action: utter_english_technical_support
+
+    - rule: respond to department_physics_about intent
+      steps:
+        - intent: department_physics_about
+        - action: utter_department_physics_about
+
+    - rule: respond to department_physics_vision intent
+      steps:
+        - intent: department_physics_vision
+        - action: utter_department_physics_vision
+
+    - rule: respond to department_physics_mission intent
+      steps:
+        - intent: department_physics_mission
+        - action: utter_department_physics_mission
+
+    - rule: respond to department_physics_contact intent
+      steps:
+        - intent: department_physics_contact
+        - action: utter_department_physics_contact
+
+    - rule: respond to department_physics_faculty intent
+      steps:
+        - intent: department_physics_faculty
+        - action: utter_department_physics_faculty
+
+    - rule: respond to department_physics_technical_support intent
+      steps:
+        - intent: department_physics_technical_support
+        - action: utter_department_physics_technical_support
+
+    - rule: respond to department_physics_research intent
+      steps:
+        - intent: department_physics_research
+        - action: utter_department_physics_research
+
+    - rule: Provide Chemistry department vision
+      steps:
+      - intent: ask_vision_chemistry_department
+      - action: utter_chemistry_vision
+
+    - rule: Provide Chemistry department mission
+      steps:
+      - intent: ask_mission_chemistry_department
+      - action: utter_chemistry_mission
+
+    - rule: Provide Chemistry department facilities
+      steps:
+      - intent: ask_facilities_chemistry_department
+      - action: utter_chemistry_facilities
+
+    - rule: Provide Chemistry department contact details
+      steps:
+      - intent: ask_contact_chemistry_department
+      - action: utter_contact_chemistry_department
+
+    - rule: Provide Chemistry department faculty link
+      steps:
+      - intent: ask_faculty_chemistry
+      - action: utter_faculty_chemistry
+
+    - rule: Provide Chemistry department technical support link
+      steps:
+      - intent: ask_technical_support_chemistry
+      - action: utter_technical_support_chemistry

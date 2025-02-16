@@ -1,0 +1,148 @@
+version: "3.1"
+
+stories:
+- story: greet the user
+  steps:
+    - intent: greet
+    - action: utter_welcome
+    - action: utter_greet
+
+- story: provide college details
+  steps:
+    - intent: ask_college_name
+    - action: utter_college_name
+
+- story: provide to college code
+  steps:
+    - intent: ask_college_code
+    - action: utter_college_code
+
+- story: provide admissions info
+  steps:
+    - intent: ask_admissions
+    - action: utter_admissions
+
+- story: provide exam schedule
+  steps:
+    - intent: ask_exam_schedule
+    - action: utter_exam_schedule
+
+- story: provide welcome message
+  steps:
+    - intent: ask_welcome_message
+    - action: utter_welcome_message
+
+- story: provide academic calendar
+  steps:
+    - intent: ask_academic_calendar
+    - action: utter_academic_calendar
+
+- story: provide contact number
+  steps:
+    - intent: ask_contact_number
+    - action: utter_contact_number
+
+- story: provide about us
+  steps:
+    - intent: ask_about_ssmiet
+    - action: utter_about_ssmiet
+
+- story: ask about placement details
+  steps:
+    - intent: placement_details
+    - action: utter_placement_details
+
+- story: ask about top recruiters
+  steps:
+    - intent: recruiters
+    - action: utter_recruiters
+
+- story: ask about staff count
+  steps:
+    - intent: staff_count
+    - action: utter_staff_count
+
+- story: ask about internship details
+  steps:
+    - intent: internship_details
+    - action: utter_internship_details
+
+- story: User asks about all courses
+  steps:
+    - intent: inquire_courses
+    - action: utter_inquire_courses
+
+- story: User asks about undergraduate courses
+  steps:
+    - intent: inquire_ug_courses
+    - action: utter_ug_courses
+
+- story: User asks about postgraduate courses
+  steps:
+    - intent: inquire_pg_courses
+    - action: utter_pg_courses
+
+- story: User asks about Ph.D. courses
+  steps:
+    - intent: inquire_phddoctorate_courses
+    - action: utter_phddoctorate_courses
+
+- story: User asks about approvals and affiliations
+  steps:
+    - intent: inquire_approvals_affiliations
+    - action: utter_approvals_affiliations
+
+- story: provide mission of B.E. CSE
+  steps:
+    - intent: ask_mission_be_cse
+    - action: utter_mission_cse
+
+- story: provide_ssmiet_vision
+  steps:
+    - intent: ask_ssmiet_vision
+    - action: utter_ssmiet_vision
+
+- story: user asks about fees payment
+  steps:
+    - intent: fees_payment
+    - action: utter_fees_payment
+
+- story: user asks about student feedback
+  steps:
+    - intent: student_feedback
+    - action: utter_student_feedback
+
+- story: user asks about parents feedback
+  steps:
+    - intent: parents_feedback
+    - action: utter_parents_feedback
+
+- story: user asks about institution policies
+  steps:
+    - intent: institution_policies
+    - action: utter_institution_policies
+
+- story: user asks about income and expenditure
+  steps:
+    - intent: income_expenditure
+    - action: utter_income_expenditure
+
+- story: user asks about student count
+  steps:
+    - intent: student_count
+    - action: utter_student_count
+
+- story: Respond to SSMIET address
+  steps:
+    - intent: ask_address_of_SSMIET
+    - action: utter_address_of_SSMIET
+
+- story: Respond to SSMIET contact
+  steps:
+    - intent: ask_contact_of_SSMIET
+    - action: utter_contact_of_SSMIET
+
+- story: user says goodbye
+  steps:
+    - intent: goodbye
+    - action: utter_goodbye

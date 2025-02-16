@@ -1,0 +1,668 @@
+version: "3.1"
+
+stories:
+- story: user asks about AIML department
+  steps:
+  - intent: about_aiml_dept
+  - action: utter_about_aiml_dept
+
+- story: user asks about AIML vision
+  steps:
+  - intent: aiml_vision
+  - action: utter_aiml_vision
+
+- story: user asks about AIML mission
+  steps:
+  - intent: aiml_mission
+  - action: utter_aiml_mission
+
+- story: user asks about AIML faculty
+  steps:
+  - intent: faculty_aiml_info
+  - action: utter_faculty_aiml_info
+
+- story: user asks about AIML facilities
+  steps:
+  - intent: facilities_aiml_info
+  - action: utter_facilities_aiml_info
+
+- story: User asks about the CSBS department
+  steps:
+  - intent: inquire_csbs_department
+  - action: utter_csbs_department
+
+- story: User asks about the CSBS vision
+  steps:
+  - intent: inquire_csbs_vision
+  - action: utter_csbs_vision
+
+- story: User asks about the CSBS mission
+  steps:
+  - intent: inquire_csbs_mission
+  - action: utter_csbs_mission
+
+- story: User asks about CSBS PoC
+  steps:
+  - intent: inquire_csbs_poc
+  - action: utter_csbs_poc
+
+- story: User asks about CSBS Faculty
+  steps:
+  - intent: inquire_csbs_faculty
+  - action: utter_csbs_faculty
+
+- story: User asks about admissions
+  steps:
+  - intent: inquire_admissions_process
+  - action: utter_admissions_process
+
+- story: Respond to PEO-PO-PSO of Cyber Security
+  steps:
+    - intent: ask_peo_po_pso_cyber
+    - action: utter_peo_po_pso_cyber
+
+- story: Respond to Faculty of Cyber Security
+  steps:
+    - intent: ask_faculty_cyber
+    - action: utter_faculty_cyber
+
+- story: Respond to Department Activities of Cyber Security
+  steps:
+    - intent: ask_department_activities_cyber
+    - action: utter_department_activities_cyber
+
+- story: Respond to Faculty Activities of Cyber Security
+  steps:
+    - intent: ask_faculty_activities_cyber
+    - action: utter_faculty_activities_cyber
+
+- story: Respond to Student Activities of Cyber Security
+  steps:
+    - intent: ask_student_activities_cyber
+    - action: utter_student_activities_cyber
+
+- story: Respond to Value Added Course of Cyber Security
+  steps:
+    - intent: ask_value_added_course_cyber
+    - action: utter_value_added_course_cyber
+
+- story: Respond to MOU of Cyber Security
+  steps:
+    - intent: ask_mou_cyber
+    - action: utter_mou_cyber
+
+- story: Respond to Internship of Cyber Security
+  steps:
+    - intent: ask_internship_cyber
+    - action: utter_internship_cyber
+
+- story: Respond to Contact Details of Cyber Security
+  steps:
+    - intent: ask_contact_cyber
+    - action: utter_contact_cyber
+
+- story: provide_cyber_security_info
+  steps:
+    - intent: ask_about_cyber_security
+    - action: utter_about_cyber_security
+
+- story: provide_vision_cyber_security
+  steps:
+    - intent: ask_vision_cyber_security
+    - action: utter_vision_cyber_security
+
+- story: provide_mission_cyber_security
+  steps:
+    - intent: ask_mission_cyber_security
+    - action: utter_mission_cyber_security
+
+- story: provide_programme_overview_cyber_security
+  steps:
+    - intent: ask_programme_overview_cyber_security
+    - action: utter_programme_overview_cyber_security
+
+- story: provide_career_opportunities_cyber_security
+  steps:
+    - intent: ask_career_opportunities_cyber_security
+    - action: utter_career_opportunities_cyber_security
+
+- story: User asks for PEO-PO-PSO of CSE
+  steps:
+    - intent: ask_peo_po_pso_cse
+    - action: utter_peo_po_pso_cse
+
+- story: User asks for course outcomes of CSE
+  steps:
+    - intent: ask_course_outcomes_cse
+    - action: utter_course_outcomes_cse
+
+- story: User asks for faculty of CSE
+  steps:
+    - intent: ask_faculty_cse
+    - action: utter_faculty_cse
+
+- story: User asks for technical support of CSE
+  steps:
+    - intent: ask_technical_support_cse
+    - action: utter_technical_support_cse
+
+- story: User asks for placement of CSE
+  steps:
+    - intent: ask_placement_cse
+    - action: utter_placement_cse
+
+- story: User asks for department activities of CSE
+  steps:
+    - intent: ask_department_activities_cse
+    - action: utter_department_activities_cse
+
+- story: User asks for faculty activities of CSE
+  steps:
+    - intent: ask_faculty_activities_cse
+    - action: utter_faculty_activities_cse
+
+- story: User asks for student activities of CSE
+  steps:
+    - intent: ask_student_activities_cse
+    - action: utter_student_activities_cse
+
+- story: User asks for professional bodies of CSE
+  steps:
+    - intent: ask_professional_bodies_cse
+    - action: utter_professional_bodies_cse
+
+- story: User asks for research of CSE
+  steps:
+    - intent: ask_research_cse
+    - action: utter_research_cse
+
+- story: User asks for value-added course of CSE
+  steps:
+    - intent: ask_value_added_course_cse
+    - action: utter_value_added_course_cse
+
+- story: User asks for newsletter of CSE
+  steps:
+    - intent: ask_newsletter_cse
+    - action: utter_newsletter_cse
+
+- story: User asks for MOU of CSE
+  steps:
+    - intent: ask_mou_cse
+    - action: utter_mou_cse
+
+- story: User asks for internship of CSE
+  steps:
+    - intent: ask_internship_cse
+    - action: utter_internship_cse
+
+- story: User asks for facilities of CSE
+  steps:
+    - intent: ask_facilities_cse
+    - action: utter_facilities_cse
+
+- story: User asks for contact of CSE
+  steps:
+    - intent: ask_contact_cse
+    - action: utter_contact_cse
+
+- story: provide B.E. CSE details
+  steps:
+  - intent: ask_be_cse
+  - action: utter_be_cse
+
+- story: provide vision of B.E. CSE
+  steps:
+  - intent: ask_vision_be_cse
+  - action: utter_vision_be_cse
+
+- story: provise mission of B.E. CSE
+  steps:
+  - intent: ask_mission_be_cse
+  - action: utter_mission_cse
+
+- story: provide_ssmiet_mission
+  steps:
+  - intent: ask_ssmiet_mission
+  - action: utter_ssmiet_mission
+
+- story: user asks about AI&DS department
+  steps:
+  - intent: about_aids_dept
+  - action: utter_about_aids_dept
+
+- story: user asks about AI&DS vision
+  steps:
+  - intent: aids_vision
+  - action: utter_aids_vision
+
+- story: user asks about AI&DS mission
+  steps:
+  - intent: aids_mission
+  - action: utter_aids_mission
+
+- story: user asks about AI&DS PEO-PO-PSO
+  steps:
+  - intent: aids_peo_po_pso
+  - action: utter_aids_peo_po_pso
+
+- story: user asks about AI&DS faculty
+  steps:
+  - intent: aids_faculty
+  - action: utter_aids_faculty
+
+- story: user asks about AI&DS technical support
+  steps:
+  - intent: aids_technical_support
+  - action: utter_aids_technical_support
+
+- story: user asks about AI&DS facilities
+  steps:
+  - intent: aids_facilities
+  - action: utter_aids_facilities
+
+- story: user asks about AI&DS department activities
+  steps:
+  - intent: aids_department_activities
+  - action: utter_aids_department_activities
+
+- story: user asks about AI&DS faculty activities
+  steps:
+  - intent: aids_faculty_activities
+  - action: utter_aids_faculty_activities
+
+- story: user asks about AI&DS student activities
+  steps:
+  - intent: aids_student_activities
+  - action: utter_aids_student_activities
+
+- story: user asks about AI&DS research
+  steps:
+  - intent: aids_research
+  - action: utter_aids_research
+
+- story: user asks about AI&DS value added courses
+  steps:
+  - intent: aids_value_added_courses
+  - action: utter_aids_value_added_courses
+
+- story: user asks about AI&DS internship
+  steps:
+  - intent: aids_internship
+  - action: utter_aids_internship
+
+- story: User asks about IT department
+  steps:
+    - intent: ask_about_it_department
+    - action: utter_it_department
+
+- story: User asks about IT department vision
+  steps:
+    - intent: ask_it_vision
+    - action: utter_it_vision
+
+- story: User asks about IT department mission
+  steps:
+    - intent: ask_it_mission
+    - action: utter_it_mission
+
+- story: civil_engineering_about
+  steps:
+  - intent: ask_civil_engineering
+  - action: utter_civil_engineering_info
+
+- story: civil_engineering_vision
+  steps:
+  - intent: ask_civil_vision
+  - action: utter_civil_vision
+
+- story: civil_engineering_mission
+  steps:
+  - intent: ask_civil_mission
+  - action: utter_civil_mission
+
+- story: civil engineering peo-po-pso
+  steps:
+  - intent: ask_peo_po_pso_civil
+  - action: utter_peo_po_pso_civil
+
+- story: civil engineering course outcome
+  steps:
+  - intent: ask_course_outcome_civil
+  - action: utter_course_outcome_civil
+
+- story: civil engineering faculty
+  steps:
+  - intent: ask_faculty_civil
+  - action: utter_faculty_civil
+
+- story: civil engineering technical support
+  steps:
+  - intent: ask_technical_support_civil
+  - action: utter_technical_support_civil
+
+- story: civil engineering placement
+  steps:
+  - intent: ask_placement_civil
+  - action: utter_placement_civil
+
+- story: civil engineering department activities
+  steps:
+  - intent: ask_department_activities_civil
+  - action: utter_department_activities_civil
+
+- story: civil engineering student activities
+  steps:
+  - intent: ask_student_activities_civil
+  - action: utter_student_activities_civil
+
+- story: civil engineering professional bodies
+  steps:
+  - intent: ask_professional_bodies_civil
+  - action: utter_professional_bodies_civil
+
+- story: civil engineering research
+  steps:
+  - intent: ask_research_civil
+  - action: utter_research_civil
+
+- story: civil engineering value-added course
+  steps:
+  - intent: ask_value_added_course_civil
+  - action: utter_value_added_course_civil
+
+- story: civil engineering internship
+  steps:
+  - intent: ask_internship_civil
+  - action: utter_internship_civil
+
+- story: civil engineering newsletter
+  steps:
+  - intent: ask_news_letter_civil
+  - action: utter_news_letter_civil
+
+- story: civil engineering MOU
+  steps:
+  - intent: ask_mou_civil
+  - action: utter_mou_civil
+
+- story: civil engineering contact
+  steps:
+  - intent: ask_contact_civil
+  - action: utter_contact_civil
+
+- story: ece_about
+  steps:
+    - intent: ask_about_ece
+    - action: utter_about_ece
+
+- story: ece_vision
+  steps:
+    - intent: ask_vision_ece
+    - action: utter_vision_ece
+
+- story: ece_mission
+  steps:
+    - intent: ask_mission_ece
+    - action: utter_mission_ece
+
+- story: peo_po_pso_ece
+  steps:
+    - intent: ask_peo_po_pso_ece
+    - action: utter_peo_po_pso_ece
+
+- story: course_outcomes_ece
+  steps:
+    - intent: ask_course_outcomes_ece
+    - action: utter_course_outcomes_ece
+
+- story: faculty_ece
+  steps:
+    - intent: ask_faculty_ece
+    - action: utter_faculty_ece
+
+- story: technical_support_ece
+  steps:
+    - intent: ask_technical_support_ece
+    - action: utter_technical_support_ece
+
+- story: placement_ece
+  steps:
+    - intent: ask_placement_ece
+    - action: utter_placement_ece
+
+- story: department_activities_ece
+  steps:
+    - intent: ask_department_activities_ece
+    - action: utter_department_activities_ece
+
+- story: facilities_ece
+  steps:
+    - intent: ask_facilities_ece
+    - action: utter_facilities_ece
+
+- story: faculty_activities_ece
+  steps:
+    - intent: ask_faculty_activities_ece
+    - action: utter_faculty_activities_ece
+
+- story: student_activities_ece
+  steps:
+    - intent: ask_student_activities_ece
+    - action: utter_student_activities_ece
+
+- story: professional_bodies_ece
+  steps:
+    - intent: ask_professional_bodies_ece
+    - action: utter_professional_bodies_ece
+
+- story: research_ece
+  steps:
+    - intent: ask_research_ece
+    - action: utter_research_ece
+
+- story: value_added_course_ece
+  steps:
+    - intent: ask_value_added_course_ece
+    - action: utter_value_added_course_ece
+
+- story: newsletter_ece
+  steps:
+    - intent: ask_newsletter_ece
+    - action: utter_newsletter_ece
+
+- story: internship_ece
+  steps:
+    - intent: ask_internship_ece
+    - action: utter_internship_ece
+
+- story: mou_ece
+  steps:
+    - intent: ask_mou_ece
+    - action: utter_mou_ece
+
+- story: contact_ece
+  steps:
+    - intent: ask_contact_ece
+    - action: utter_contact_ece
+
+- story: User asks about the EEE department
+  steps:
+    - intent: eee_dept_about
+    - action: utter_eee_dept_about
+
+- story: User asks for the EEE department vision
+  steps:
+    - intent: eee_dept_vision
+    - action: utter_eee_dept_vision
+
+- story: User asks for the EEE department mission
+  steps:
+    - intent: eee_dept_mission
+    - action: utter_eee_dept_mission
+
+- story: eee department PEO-PO-PSO
+  steps:
+  - intent: eee_dept_peo_po_pso
+  - action: utter_eee_dept_peo_po_pso
+
+- story: eee department Course Outcomes
+  steps:
+  - intent: eee_dept_course_outcomes
+  - action: utter_eee_dept_course_outcomes
+
+- story: eee department Faculty
+  steps:
+  - intent: eee_dept_faculty
+  - action: utter_eee_dept_faculty
+
+- story: eee department Technical Support
+  steps:
+  - intent: eee_dept_technical_support
+  - action: utter_eee_dept_technical_support
+
+- story: eee department Placement
+  steps:
+  - intent: eee_dept_placement
+  - action: utter_eee_dept_placement
+
+- story: eee department Activities
+  steps:
+  - intent: eee_dept_department_activities
+  - action: utter_eee_dept_department_activities
+
+- story: eee department Faculty Activities
+  steps:
+  - intent: eee_dept_faculty_activities
+  - action: utter_eee_dept_faculty_activities
+
+- story: eee department Student Activities
+  steps:
+  - intent: eee_dept_student_activities
+  - action: utter_eee_dept_student_activities
+
+- story: eee department Professional Bodies
+  steps:
+  - intent: eee_dept_professional_bodies
+  - action: utter_eee_dept_professional_bodies
+
+- story: eee department Research
+  steps:
+  - intent: eee_dept_research
+  - action: utter_eee_dept_research
+
+- story: eee department Value Added Course
+  steps:
+  - intent: eee_dept_value_added_course
+  - action: utter_eee_dept_value_added_course
+
+- story: eee department News Letter
+  steps:
+  - intent: eee_dept_news_letter
+  - action: utter_eee_dept_news_letter
+
+- story: eee department Internship
+  steps:
+  - intent: eee_dept_internship
+  - action: utter_eee_dept_internship
+
+- story: eee department MoU
+  steps:
+  - intent: eee_dept_mou
+  - action: utter_eee_dept_mou
+
+- story: eee department Contact
+  steps:
+  - intent: eee_dept_contact
+  - action: utter_eee_dept_contact
+
+- story: Provide MECH department about information
+  steps:
+    - intent: mech_dept_about
+    - action: utter_mech_dept_about
+
+- story: Provide MECH department vision
+  steps:
+  - intent: mech_dept_vision
+  - action: utter_mech_dept_vision
+
+- story: Provide MECH department mission
+  steps:
+  - intent: mech_dept_mission
+  - action: utter_mech_dept_mission
+
+- story: Provide MECH department PEO-PO-PSO
+  steps:
+  - intent: mech_dept_peo_po_pso
+  - action: utter_mech_dept_peo_po_pso
+
+- story: Provide MECH department Course Outcomes
+  steps:
+  - intent: mech_dept_course_outcomes
+  - action: utter_mech_dept_course_outcomes
+
+- story: Provide MECH department Faculty details
+  steps:
+  - intent: mech_dept_faculty
+  - action: utter_mech_dept_faculty
+
+- story: Provide MECH department Technical Support details
+  steps:
+  - intent: mech_dept_technical_support
+  - action: utter_mech_dept_technical_support
+
+- story: Provide MECH department Placement details
+  steps:
+  - intent: mech_dept_placement
+  - action: utter_mech_dept_placement
+
+- story: Provide MECH department Activities
+  steps:
+  - intent: mech_dept_department_activities
+  - action: utter_mech_dept_department_activities
+
+- story: Provide MECH department Faculty Activities
+  steps:
+  - intent: mech_dept_faculty_activities
+  - action: utter_mech_dept_faculty_activities
+
+- story: Provide MECH department Student Activities
+  steps:
+  - intent: mech_dept_student_activities
+  - action: utter_mech_dept_student_activities
+
+- story: Provide MECH department Professional Bodies
+  steps:
+  - intent: mech_dept_professional_bodies
+  - action: utter_mech_dept_professional_bodies
+
+- story: Provide MECH department Research details
+  steps:
+  - intent: mech_dept_research
+  - action: utter_mech_dept_research
+
+- story: Provide MECH department Value Added Course details
+  steps:
+  - intent: mech_dept_value_added_course
+  - action: utter_mech_dept_value_added_course
+
+- story: Provide MECH department Facilities
+  steps:
+  - intent: mech_dept_facilities
+  - action: utter_mech_dept_facilities
+
+- story: Provide MECH department News Letter
+  steps:
+  - intent: mech_dept_news_letter
+  - action: utter_mech_dept_news_letter
+
+- story: Provide MECH department MOU details
+  steps:
+  - intent: mech_dept_mou
+  - action: utter_mech_dept_mou
+
+- story: Provide MECH department Contact details
+  steps:
+  - intent: mech_dept_contact
+  - action: utter_mech_dept_contact
+
