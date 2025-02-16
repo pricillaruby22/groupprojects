@@ -12,11 +12,16 @@ intents:
   - hostel_availability
   - family_visit
   - college_location_address
+  - college_name_private_anna_university
+  - bus_facility
+  - principal_details
+  - college_contact_email
+  - college_distance_travel_time
 
 responses:
 
   utter_admission_process:
-  - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. Dr. S. Joseph Dominic Vijayakumar,
+    - text: "You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. Dr. S. Joseph Dominic Vijayakumar,
           Admission Cell – Coordinator,SSM Higher EducationalInstitutions Dindigul – Palani Highway, Dindigul.
           Contact Number: 7373707002, 7373707008 If you need further assistance, contact us at 0451 244 8800.
            Admission process
@@ -26,20 +31,46 @@ responses:
           • The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_online_courses:
-  - text: "Yes, we offer online courses and distance learning options. You can take some or all of your classes remotely, depending on the program. Would you like more details on available courses?"
+    - text: "Yes, we offer online courses and distance learning options. You can take some or all of your classes remotely, depending on the program. Would you like more details on available courses?"
   utter_coeducation:
-  - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a safe and respectful environment for all students"
+    - text: "Yes, this is a co-educational college where both boys and girls study together. The institution follows certain protocols to ensure a safe and respectful environment for all students"
   utter_entrance_exam:
-  - text: "Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation. The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling so there is no enterance exam in our SSMIET".
+    - text: "Admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation. The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling so there is no enterance exam in our SSMIET".
   utter_uniform_dresscode:
-  - text: " students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] . students may have specific uniform for lab practicals alone. For further details, contact the administration 0451 244 8800."
+    - text: " students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] . students may have specific uniform for lab practicals alone. For further details, contact the administration 0451 244 8800."
   utter_book_availability_info:
-  - text: "The college provides necessary books through the library. Some books are available for purchase, while others can be borrowed for a semester. Please check with the library for more details."
+    - text: "The college provides necessary books through the library. Some books are available for purchase, while others can be borrowed for a semester. Please check with the library for more details."
   utter_student_count_info:
-  - text: "The current student count is approximately 1200, with around 600 male and 600 female students. These numbers may vary slightly each year."
+    - text: "The current student count is approximately 1200, with around 600 male and 600 female students. These numbers may vary slightly each year."
   utter_hostel_availability_info:
-  - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
+    - text: "Yes, the college has hostel facilities for both male and female students. The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
   utter_family_visit_info:
-  - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
   utter_college_location_address:
     - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
+
+  utter_college_name_private_anna_university:
+    - text: "SSM Institute of Engineering and Technology (SSMIET). It is a private autonomous institution. It is approved by AICTE, New Delhi, 
+            affiliated with Anna University, Chennai, and accredited by NAAC & NBA."
+
+  utter_bus_facility:
+    - text: "Our college provides bus facilities for day scholars. Once you have paid the bus fees for your location, you cannot change your bus 
+            route or stop to another location. However, you can request a route change after completing one year. Bus fees are charged separately 
+            and vary based on the distance from the college to your preferred location. You can find details about bus routes and bus numbers below."
+
+  utter_principal_details:
+    - text: "Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE) is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
+            He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
+            Bharathiar University. With over 26 years of academic and industry experience, he has served as Principal at SSMIET and RVS College of 
+            Engineering, Director of Academic Development at PEACE Group of Institutions, and Research Fellow at NUS. To learn more about principal 
+            of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
+
+  utter_college_contact_email:
+    - text: "CONTACT INFO:\nPhone: 0451-244-8800-899 (100 lines)\nEmail: ssmietdgl@ssmiet.ac.in\nEmail: ssmietdgl@gmail.com"
+
+  utter_college_distance_travel_time:
+    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
+
+
+
+

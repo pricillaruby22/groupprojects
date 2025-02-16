@@ -5,18 +5,22 @@ stories:
     steps:
       - intent: admission_process
       - action: utter_admission_process
+
   - story: User asks about online courses
     steps:
       - intent: ask_online_courses
       - action: utter_online_courses
+
   - story: Co-ed inquiry story
     steps:
       - intent: coeducation
       - action: utter_coed_info
+
   - story: Entrance exam inquiry story
     steps:
       - intent: entrance_exam
       - action: utter_entrance_exam_info
+      
   - story: Uniform inquiry story
     steps:
       - intent: uniform_dresscode
@@ -46,3 +50,29 @@ stories:
     steps:
       - intent: college_location_address
       - action: utter_college_location_address
+
+  - story: respond to college name and private , autonomous or government college query
+    steps:
+      - intent: college_name_private_anna_university
+      - action: utter_college_name_private_anna_university
+
+  - story: respond to bus facility query
+    steps:
+      - intent: bus_facility
+      - action: utter_bus_facility
+
+  - story: respond to principal details query
+    steps:
+      - intent: principal_details
+      - action: utter_principal_details
+
+  - story: respond to contact and email info query
+    steps:
+      - intent: college_contact_email
+      - action: utter_college_contact_email
+
+  - story: respond to college distance and travel time query
+    steps:
+      - intent: college_distance_travel_time
+      - action: utter_college_distance_travel_time
+
