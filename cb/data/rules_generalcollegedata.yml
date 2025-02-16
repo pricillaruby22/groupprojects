@@ -46,7 +46,6 @@ rules:
       - intent: family_visit
       - action: utter_family_visit_info
 
-
   - rule: Respond to college location and address query
     steps:
       - intent: college_location_address
@@ -106,9 +105,6 @@ rules:
     steps:
       - intent: Sports_NCC_government_management_quota
       - action: utter_Sports_NCC_government_management_quota
-
-
-
   
   - rule: Respond to fee structure inquiry
     steps:
@@ -179,3 +175,12 @@ rules:
       - intent: about_industrial_visit
       - action: utter_about_industrial_visit
 
+  - rule: Respond to placement details query
+    steps:
+      - intent: placement_details
+      - action: utter_placement_details
+
+  - rule: Respond to faculty or staff or professors experience and qualifications queries
+    steps:
+      - intent: staff_professors_faculty_qualifications_experience
+      - action: utter_staff_professors_faculty_qualifications_experience

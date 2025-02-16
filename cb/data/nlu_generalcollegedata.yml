@@ -24,7 +24,6 @@ nlu:
       - Can I get in?
       - Steps to join?
     
-
   - intent: ask_online_courses
     examples: |
     - Is it possible to study courses from home?
@@ -191,6 +190,20 @@ nlu:
       - What does SSMIET stand for?
       - Can you tell me the complete name of SSMIET?
       - What is the abbreviation of SSMIET?
+      - Is SSMIET an autonomous college?
+      - Does SSMIET have autonomous status?
+      - Is SSMIET under Anna University or autonomous?
+      - Has SSMIET been granted autonomy?
+      - Does SSMIET function independently as an autonomous college?
+      - What is the academic status of SSMIET—autonomous or non-autonomous?
+      - Is SSMIET recognized as an autonomous engineering college?
+      - Is SSMIET affiliated with Anna University?
+      - Which university is SSMIET affiliated with?
+      - Does SSMIET come under Anna University?
+      - Is SSMIET a university-affiliated college or a deemed university?
+      - What is the affiliation status of SSMIET?
+      - Is SSMIET approved by AICTE and affiliated with Anna University?
+      - Does SSMIET have university affiliation for all its courses?
 
   - intent: bus_facility
     examples: |
@@ -249,8 +262,6 @@ nlu:
       - Give details about the principal of SSMIET.
       - Provide information about the principal.
       - Share the principal’s profile.
-
-  
 
   - intent: college_contact_email
     examples: |
@@ -545,3 +556,29 @@ nlu:
       - How are seats distributed between government and management quota?
       - What is the fee structure for government quota vs. management quota?
       - Does SSMIET follow Anna University guidelines for quota admissions?
+
+  - intent: placement_details
+    examples: |
+      - Give me the placement details for past years.
+      - Can you provide the previous years' placement statistics?
+      - What are the placement records for the last five years?
+      - How many students got placed in previous years?
+      - Share the past years' placement data.
+      - What is the placement trend at SSMIET over the years?
+      - Can you provide year-wise placement details?
+      - How many students were placed in the last few years?
+      - Show me the placement statistics from 2018 to 2023.
+      - What is the yearly placement count at SSMIET?
+
+  - intent: staff_professors_faculty_qualifications_experience
+    examples: |
+      - What are the qualifications of the faculty at SSMIET?
+      - Can you provide details about the teaching staff’s qualifications?
+      - What is the educational background of the professors at SSMIET?
+      - Are the faculty members at SSMIET highly qualified?
+      - What degrees do the lecturers at SSMIET hold?
+      - Do the professors at SSMIET have PhDs?
+      - What is the minimum qualification required for faculty at SSMIET?
+      - Can you share information about the experience and qualifications of the teaching staff?
+      - How experienced are the faculty members at SSMIET?
+      - What are the academic credentials of the SSMIET faculty?
