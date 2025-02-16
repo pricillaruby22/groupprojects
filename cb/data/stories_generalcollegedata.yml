@@ -1,0 +1,7 @@
+version: "3.1"
+
+stories:
+- story: User asks for college location and address
+  steps:
+    - intent: college_location_address
+    - action: utter_college_location_address

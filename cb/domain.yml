@@ -1,0 +1,8 @@
+version: "3.1"
+
+domain:
+intents:
+  - college_location_address
+responses:
+  utter_college_location_address:
+    - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"

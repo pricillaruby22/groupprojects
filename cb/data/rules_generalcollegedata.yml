@@ -1,0 +1,8 @@
+version: "3.1"
+
+
+rules:
+- rule: Respond to college location and address query
+  steps:
+    - intent: college_location_address
+    - action: utter_college_location_address
