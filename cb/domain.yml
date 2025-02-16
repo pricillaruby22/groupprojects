@@ -12,11 +12,16 @@ intents:
   - hostel_availability
   - family_visit
   - college_location_address
+<<<<<<< Updated upstream
   - college_name_private_anna_university
   - bus_facility
   - principal_details
   - college_contact_email
   - college_distance_travel_time
+=======
+  - fee_structure
+  
+>>>>>>> Stashed changes
 
 responses:
 
@@ -48,6 +53,7 @@ responses:
     - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
   utter_college_location_address:
     - text: "Here is the address: Dindigul – Palani Highway, Dindigul -624 002.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
+<<<<<<< Updated upstream
 
   utter_college_name_private_anna_university:
     - text: "SSM Institute of Engineering and Technology (SSMIET). It is a private autonomous institution. It is approved by AICTE, New Delhi, 
@@ -74,3 +80,8 @@ responses:
 
 
 
+=======
+  
+  utter_fee_structure_info:
+      - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+>>>>>>> Stashed changes

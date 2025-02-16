@@ -51,6 +51,7 @@ rules:
     steps:
       - intent: college_location_address
       - action: utter_college_location_address
+<<<<<<< Updated upstream
 
   - rule: Answer college name and private , autonomous or government college query
     steps:
@@ -78,3 +79,10 @@ rules:
       - action: utter_college_distance_travel_time
 
 
+=======
+  
+  - rule: Respond to fee structure inquiry
+    steps:
+      - intent: fee_structure
+      - action: utter_fee_structure_info
+>>>>>>> Stashed changes

@@ -190,6 +190,7 @@ nlu:
       - Can you tell me the complete name of SSMIET?
       - What is the abbreviation of SSMIET?
 
+<<<<<<< Updated upstream
   - intent: bus_facility
     examples: |
       - Does your college have a bus facility?
@@ -247,6 +248,20 @@ nlu:
       - Give details about the principal of SSMIET.
       - Provide information about the principal.
       - Share the principal’s profile.
+=======
+  - intent: fee_structure
+    examples: |
+       - What is the fee structure?
+       - How much are the course fees?
+       - Can you tell me the tuition fees?
+       - What are the total fees for this college?
+       - How much does it cost to study here?
+       - Are there any additional charges apart from tuition?
+       - Do you have a breakdown of the fees?
+       - What is the fee for different courses?
+       - Are there hostel fees included in the total cost?
+       - Do I have to pay for lab equipment separately?
+>>>>>>> Stashed changes
 
   - intent: college_contact_email
     examples: |
