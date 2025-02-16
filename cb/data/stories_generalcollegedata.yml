@@ -170,4 +170,14 @@ stories:
       - intent: Sports_NCC_government_management_quota
       - action: utter_Sports_NCC_government_management_quota
 
+  - story: provide placement details
+    steps:
+      - intent: placement_details
+      - action: utter_placement_details
+
+  - story: Answer Faculty or staff or professors experience and qualification inquiry
+    steps:
+      - intent: staff_professors_faculty_qualifications_experience
+      - action: utter_staff_professors_faculty_qualifications_experience
+
 

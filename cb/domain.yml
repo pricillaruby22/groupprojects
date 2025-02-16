@@ -35,6 +35,8 @@ intents:
   - admission_start_date
   - lateral_entry
   - Sports_NCC_government_management_quota
+  - placement_details
+  - staff_professors_faculty_qualifications_experience
 
 responses:
 
@@ -142,7 +144,6 @@ responses:
   utter_Sports_NCC_government_management_quota:
     - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
 
-
   utter_college_ug_courses:
     - text: |
           **Undergraduate Courses(B.E & B.Tech)**:
@@ -237,4 +238,20 @@ responses:
 
   utter_about_industrial_visit:
     - text: "Yes,SSMIET organizes industrial visits for students to gain practical exposure.  Participation is encouraged but subject to academic performance and attendance requirements."
+
+  utter_placement_details:
+    - text: |
+        **Placement Details**:
+        
+        2018-2019: 206 Students
+        2019-2020: 273 Students
+        2020-2021: 101 Students
+        2021-2022: 200 Students
+        2022-2023: 117 Students
+
+  utter_staff_professors_faculty_qualifications_experience:
+    - text: "The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. 
+            The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and 
+            industry expertise. To know more about faculty qualifications and experience, visit this website [insert website link]."
+
 
