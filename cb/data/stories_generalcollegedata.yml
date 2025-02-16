@@ -76,3 +76,7 @@ stories:
       - intent: college_distance_travel_time
       - action: utter_college_distance_travel_time
 
+  - story: Fee structure inquiry
+    steps:
+      - intent: fee_structure
+      - action: utter_fee_structure_info

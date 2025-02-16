@@ -248,6 +248,8 @@ nlu:
       - Provide information about the principal.
       - Share the principal’s profile.
 
+  
+
   - intent: college_contact_email
     examples: |
       - Give me the contact number for the college.
@@ -278,3 +280,16 @@ nlu:
       - What is the estimated travel duration to SSMIET?
       - How long will it take to reach the college by car?
       - How much time does it take to travel to SSMIET from the nearest bus stand?
+  
+  - intent: fee_structure
+    examples: |
+       - What is the fee structure?
+       - How much are the course fees?
+       - Can you tell me the tuition fees?
+       - What are the total fees for this college?
+       - How much does it cost to study here?
+       - Are there any additional charges apart from tuition?
+       - Do you have a breakdown of the fees?
+       - What is the fee for different courses?
+       - Are there hostel fees included in the total cost?
+       - Do I have to pay for lab equipment separately?
