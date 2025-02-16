@@ -26,7 +26,7 @@ nlu:
     
 
   - intent: ask_online_courses
-     examples: |
+    examples: |
     - Is it possible to study courses from home?
     - Do you offer online courses?
     - Can I complete my studies remotely?
@@ -44,7 +44,7 @@ nlu:
     - Do I need to attend in person, or is online study available?
 
   - intent: coeducation
-     examples: |
+    examples: |
        - Is this a co-ed college?
        - Do boys and girls study together here?
        - Is this an all-boys or all-girls college?
@@ -58,7 +58,7 @@ nlu:
        - is this a boys college?
        - this college is for all boys and girls?
   - intent: entrance_exam
-     examples: |
+    examples: |
        - What entrance exams do I need to take for admission?
        - Do I have to write any tests to get into this college?
        - Is an entrance exam required to apply?
@@ -75,7 +75,7 @@ nlu:
        - Are international entrance exam scores like SAT or GMAT accepted?
        - Is there a quota-based relaxation for entrance exam scores?
   - intent: uniform-dresscode
-     examples: |
+    examples: |
        - Is there a uniform?
        - Do students have to wear a uniform?
        - Is a uniform mandatory?
@@ -90,7 +90,7 @@ nlu:
        - Are there different uniforms for different courses?
 
   - intent: book_availability
-     examples: |
+    examples: |
        - Will I get books from the college?
        - Does the college provide books?
        - Are books included in the course?
@@ -100,7 +100,7 @@ nlu:
        - Will books be provided for free or do we need to purchase them?
 
   - intent: student_count
-     examples: |
+    examples: |
        - How many male and female students are there?
        - What is the total number of students?
        - Can you tell me the count of male and female students?
@@ -109,7 +109,7 @@ nlu:
        - Is there a list of student numbers by gender?
 
   - intent: hostel_availability
-     examples: |
+    examples: |
        - Is there a hostel facility?
        - Does the college provide hostel accommodation?
        - Can students stay in a hostel?
@@ -119,7 +119,7 @@ nlu:
        - hostel facility is available or not?
 
   - intent: family_visit
-     examples: |
+    examples: |
        - Are family visits allowed in the hostel?
        - Can parents visit students in the hostel?
        - What is the policy on family visits?
@@ -154,7 +154,127 @@ nlu:
       - What is the registered address of the institute?
       - Could you give the latitude and longitude coordinates of the college?
       - Can you provide the address along with nearby landmarks?
+      - How can i come to this college?
+      - How can i come to this institute?
 
+  - intent: college_name_private_anna_university
+    examples: |
+      - College name what?
+      - What is this college called?
+      - Tell me college name.
+      - What is the name of this place?
+      - What is the college's full name?
+      - What is the name of the college?
+      - Can you tell me the full name of the college?
+      - What is the official name of this institution?
+      - What is the registered name of the college?
+      - What is the complete name of the institute?
+      - Can you provide the full name of the institution along with accreditation details?
+      - What is the official title of the institute as per AICTE records?
+      - Under what name is this institution recognized by Anna University?
+      - SSM government or private?
+      - SSM own college or government?
+      - Is SSMIET a government or private college?
+      - What type of institution is SSMIET?
+      - Is SSM under government control?
+      - Is SSM Institute a private or government-affiliated college?
+      - What is the governance structure of SSM Institute?
+      - Is SSM a private autonomous institution or a government-funded college?
+      - Can you provide details about SSM's affiliation and accreditation status?
+      - Is SSMIET under Anna University?
+      - Is SSM affiliated with Anna University?
+      - Is SSMIET an Anna University college?
+      - Does SSMIET come under Anna University?
+      - What is the full form of SSMIET?
+      - What does SSMIET stand for?
+      - Can you tell me the complete name of SSMIET?
+      - What is the abbreviation of SSMIET?
 
+  - intent: bus_facility
+    examples: |
+      - Does your college have a bus facility?
+      - Is there a college bus service available?
+      - Do you provide transportation for students?
+      - Does SSMIET have its own buses?
+      - Is there a transport facility in your college?
+      - Are college buses available for students?
+      - Does SSMIET offer a pickup and drop service?
+      - How can students avail the college bus service?
+      - Is there a college bus for day scholars?
+      - What are the routes covered by the college buses?
+      - Does the institute have its own transportation system?
+      - Are there private transport options near the college?
+      - Can I get details about the college bus timing?
+      - How many buses does the college have?
+      - What are the bus routes available for the college?
+      - Can you provide details of the college bus routes?
+      - Which areas are covered by the college bus service?
+      - Does the college bus go to my location?
+      - What is the nearest bus stop for the college bus?
+      - How many bus routes does the college have?
+      - Can I get a list of bus routes with timings?
+      - Are there separate buses for different locations?
+      - Where can I find the college bus route map?
+      - Does the college bus cover outstation locations?
+      - Is there a bus facility for students from rural areas?
+      - Are there any direct buses from the city to the college?
+      - What is the last stop for the college bus route?
+      - How frequently do the college buses operate?
+      - Can I change my bus route if needed?
+      - Is it possible to switch to a different bus route?
+      - How many times can I change my bus route in a semester?
+      - Is there any additional fee for changing the bus route?
 
+  - intent: principal_details
+    examples: |
+      - Head of the college?
+      - Provide the principal’s full details.
+      - Who is the principal?
+      - Tell about principal education?
+      - Can I get the principal number?
+      - Who is leading SSMIET?
+      - Tell me about principal of this college.
+      - Who is the principal of this college?
+      - Can you tell me the name of the principal?
+      - What is the highest qualification of the principal?
+      - Tell me about the principal’s experience.
+      - Can I get the contact number of the principal?
+      - Who is currently presiding over SSMIET’s academic and administrative affairs?
+      - What are the principal’s key contributions to the institution?
+      - Can you provide details about the principal’s professional memberships?
+      - What leadership initiatives has the principal introduced at SSMIET?
+      - Could you share insights into the principal’s research background and publications?
+      - Give details about the principal of SSMIET.
+      - Provide information about the principal.
+      - Share the principal’s profile.
 
+  - intent: college_contact_email
+    examples: |
+      - Give me the contact number for the college.
+      - What is the phone number of the college?
+      - Can you provide the official contact number of SSMIET?
+      - Share the college’s contact number.
+      - How can I contact the college?
+      - What is the email ID of the college?
+      - Provide the official email ID of the college.
+      - Can you share the mail ID of SSMIET?
+      - What is the college’s email address?
+      - Give me the email contact for the institution.
+      - Provide the contact and mail ID details of the college.
+      - Can you share the contact details of SSMIET?
+      - What are the official communication details of the college?
+      - Give me the phone number and email ID of the college.
+      - How can I reach SSMIET through call or email?
+
+  - intent: college_distance_travel_time
+    examples: |
+      - How long does it take to reach the college?
+      - What is the travel time to the college?
+      - How much time is needed to reach SSMIET?
+      - How far is the college from here?
+      - What is the distance and time taken to reach the college?
+      - How long does it take to get to the college from dindigul?
+      - How much time does it take to reach the college by bus?
+      - What is the estimated travel duration to SSMIET?
+      - How long will it take to reach the college by car?
+      - How much time does it take to travel to SSMIET from the nearest bus stand?

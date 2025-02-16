@@ -1,6 +1,5 @@
 version: "3.1"
 
-
 rules:
   - rule: Respond to admission queries
     steps:
@@ -16,10 +15,12 @@ rules:
     steps:
       - intent: coeducation
       - action: utter_coed_info
+
   - rule: Respond to entrance exam inquiries
     steps:
       - intent: entrance_exam
       - action: utter_entrance_exam_info
+      
   - rule: Respond to uniform inquiries
     steps:
       - intent: uniform_dresscode
@@ -50,3 +51,30 @@ rules:
     steps:
       - intent: college_location_address
       - action: utter_college_location_address
+
+  - rule: Answer college name and private , autonomous or government college query
+    steps:
+      - intent: college_name_private_anna_university
+      - action: utter_college_name_private_anna_university
+
+  - rule: Answer bus facility query
+    steps:
+      - intent: bus_facility
+      - action: utter_bus_facility
+
+  - rule: Answer principal details query
+    steps:
+      - intent: principal_details
+      - action: utter_principal_details
+
+  - rule: Answer contact and email info query
+    steps:
+      - intent: college_contact_email
+      - action: utter_college_contact_email
+
+  - rule: Answer college distance and travel time query
+    steps:
+      - intent: college_distance_travel_time
+      - action: utter_college_distance_travel_time
+
+
