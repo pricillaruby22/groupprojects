@@ -1,0 +1,41 @@
+
+  - story: Admission process inquiry
+    steps:
+      - intent: admission_process
+      - action: utter_admission_process
+  - story: User asks about online courses
+    steps:
+      - intent: ask_online_courses
+      - action: utter_online_courses
+  - story: Co-ed inquiry story
+    steps:
+      - intent: coeducation
+      - action: utter_coed_info
+  - story: Entrance exam inquiry story
+    steps:
+      - intent: entrance_exam
+      - action: utter_entrance_exam_info
+  - story: Uniform inquiry story
+    steps:
+      - intent: uniform_dresscode
+      - action: utter_uniform_dresscode_info
+
+  - story: Book availability inquiry
+    steps:
+      - intent: book_availability
+      - action: utter_book_availability_info
+
+  - story: Student count inquiry
+    steps:
+      - intent: student_count
+      - action: utter_student_count_info
+
+  - story: Hostel inquiry story
+    steps:
+      - intent: hostel_availability
+      - action: utter_hostel_availability_info
+
+  - story: Family visit inquiry
+    steps:
+      - intent: family_visit
+      - action: utter_family_visit_info

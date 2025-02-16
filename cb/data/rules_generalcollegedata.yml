@@ -1,0 +1,44 @@
+
+  - rule: Respond to admission queries
+    steps:
+      - intent: admission_process
+      - action: utter_admission_process
+
+  - rule: Respond to online course queries
+    steps:
+      - intent: ask_online_courses
+      - action: utter_online_courses
+
+  - rule: Respond to co-ed inquiries
+    steps:
+      - intent: coeducation
+      - action: utter_coed_info
+  - rule: Respond to entrance exam inquiries
+    steps:
+      - intent: entrance_exam
+      - action: utter_entrance_exam_info
+  - rule: Respond to uniform inquiries
+    steps:
+      - intent: uniform_dresscode
+      - action: utter_uniform_dresscode_info
+
+  - rule: Respond to book availability
+    steps:
+      - intent: book_availability
+      - action: utter_book_availability_info
+
+  - rule: Respond to student count inquiry
+    steps:
+      - intent: student_count
+      - action: utter_student_count_info
+
+  - rule: Respond to hostel inquiries
+    steps:
+      - intent: hostel_availability
+      - action: utter_hostel_availability_info
+
+  - rule: Respond to family visit policy
+    steps:
+      - intent: family_visit
+      - action: utter_family_visit_info
+
