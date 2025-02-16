@@ -17,6 +17,8 @@ intents:
   - principal_details
   - college_contact_email
   - college_distance_travel_time
+  - fee_structure
+  
 
 responses:
 
@@ -71,6 +73,6 @@ responses:
   utter_college_distance_travel_time:
     - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
 
-
-
-
+  
+  utter_fee_structure_info:
+      - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
