@@ -20,7 +20,7 @@ stories:
     steps:
       - intent: entrance_exam
       - action: utter_entrance_exam_info
-      
+
   - story: Uniform inquiry story
     steps:
       - intent: uniform_dresscode
@@ -140,3 +140,34 @@ stories:
     steps:
       - intent: about_industrial_visit
       - action: utter_about_industrial_visit
+  - story: respond to admission deadline and last date query
+    steps:
+      - intent: admission_deadline_lastdate
+      - action: utter_admission_deadline_lastdate
+
+  - story: respond to SSMIET branches or campus query
+    steps:
+      - intent: ssmiet_branches_campus
+      - action: utter_ssmiet_branches_campus
+
+  - story: respond to campus or college visit query
+    steps:
+      - intent: campus_college_visit
+      - action: utter_campus_college_visit
+
+  - story: respond to admission start date query
+    steps:
+      - intent: admission_start_date
+      - action: utter_admission_start_date
+
+  - story: respond to lateral entry query
+    steps:
+      - intent: lateral_entry
+      - action: utter_lateral_entry
+
+  - story: respond to sports, NCC, government and management quota admission query
+    steps:
+      - intent: Sports_NCC_government_management_quota
+      - action: utter_Sports_NCC_government_management_quota
+
+

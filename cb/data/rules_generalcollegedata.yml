@@ -77,6 +77,37 @@ rules:
       - intent: college_distance_travel_time
       - action: utter_college_distance_travel_time
 
+  - rule: Answer admission deadline and last date query
+    steps:
+      - intent: admission_deadline_lastdate
+      - action: utter_admission_deadline_lastdate
+
+  - rule: Answer SSMIET branches or campus query
+    steps:
+      - intent: ssmiet_branches_campus
+      - action: utter_ssmiet_branches_campus
+
+  - rule: Answer campus or college visit query
+    steps:
+      - intent: campus_college_visit
+      - action: utter_campus_college_visit
+
+  - rule: Answer admission start date query
+    steps:
+      - intent: admission_start_date
+      - action: utter_admission_start_date
+  
+  - rule: Answer lateral entry query
+    steps:
+      - intent: lateral_entry
+      - action: utter_lateral_entry
+
+  - rule: Answer sports, NCC, government and management quota admission query
+    steps:
+      - intent: Sports_NCC_government_management_quota
+      - action: utter_Sports_NCC_government_management_quota
+
+
 
   
   - rule: Respond to fee structure inquiry

@@ -57,6 +57,7 @@ nlu:
        - is your college is only for girls?
        - is this a boys college?
        - this college is for all boys and girls?
+
   - intent: entrance_exam
     examples: |
        - What entrance exams do I need to take for admission?
@@ -74,6 +75,7 @@ nlu:
        - Does this college have an in-house entrance test or interview process?
        - Are international entrance exam scores like SAT or GMAT accepted?
        - Is there a quota-based relaxation for entrance exam scores?
+
   - intent: uniform-dresscode
     examples: |
        - Is there a uniform?
@@ -452,3 +454,94 @@ nlu:
       - Are there any extra fees for industrial visits?
       - Are industrial visits compulsory?
       - What’s the process to join an industrial visit?
+
+  - intent: admission_deadline_lastdate
+    examples: |
+      - When is the last date to apply for admission?
+      - What is the admission closing date?
+      - Until when can I apply for admission?
+      - When does the admission process end?
+      - What is the deadline for submitting the admission form?
+      - What is the final date for admission registration?
+      - When is the cutoff date for admission applications?
+      - How long is the admission process open?
+      - By when should I complete the admission process?
+      - What is the last date to submit the admission form?
+      - Can I apply for admission after the deadline?
+      - Is there any extension for the admission deadline?
+
+  - intent: ssmiet_branches_campus
+    examples: |
+      - Does SSMIET have branches in other cities?
+      - Is there any other campus of SSMIET?
+      - Are there any other SSMIET branches outside Dindigul?
+      - Is there another SSMIET college in Tamil Nadu?
+      - Does SSMIET have an extension campus?
+      - Are there any sister institutions of SSMIET?
+      - Is there an SSMIET branch in Chennai or other cities?
+      - How many branches does SSMIET have?
+      - Is SSMIET a single-campus college or does it have other locations?
+
+  - intent: campus_college_visit
+    examples: |
+      - Can I visit the college before taking admission?
+      - Is it possible to tour the campus before admission?
+      - Can I see the college facilities before applying?
+      - Is a campus visit allowed before admission?
+      - Can I come to the college to check the infrastructure before enrolling?
+      - Does SSMIET allow prospective students to visit the campus?
+      - Is there an open house or campus tour before admission?
+      - Can I visit the classrooms and labs before joining?
+      - Do I need permission to visit the college before applying?
+      - Can I visit the admission office in person before applying?
+      - Is there a specific day for prospective students to visit the campus?
+      - Are parents allowed to visit the college before admission?
+      - Can I talk to current students and staff before enrolling?
+
+  - intent: admission_start_date
+    examples: |
+      - When does the admission process begin?
+      - What is the starting date for admissions?
+      - When can I apply for admission?
+      - From which month do admissions open?
+      - When do admissions usually start at SSMIET?
+      - What is the first date to apply for admission?
+      - When does the application process for admission begin?
+      - How early can I apply for admission?
+      - When do online and offline admissions start?
+      - In which month does the admission process typically begin?
+      - When is the admission form available?
+      - What is the official admission opening date?
+
+  - intent: lateral_entry
+    examples: |
+      - Does SSMIET allow lateral entry admissions?
+      - Can I join the college through lateral entry?
+      - Is lateral entry admission available at SSMIET?
+      - Does the college accept diploma holders for direct second-year admission?
+      - Can diploma students apply for lateral entry at SSMIET?
+      - What is the process for lateral entry admission?
+      - Does SSMIET offer direct second-year admission for lateral entry students?
+      - Are polytechnic diploma holders eligible for admission at SSMIET?
+      - What are the eligibility criteria for lateral entry at SSMIET?
+
+  - intent: Sports_NCC_government_management_quota
+    examples: |
+      - Is there a separate quota for sports or NCC students?
+      - Does SSMIET provide special admission for sports or NCC candidates?
+      - Can I get admission through a sports quota?
+      - Is there a reservation for NCC students in admissions?
+      - Does the college offer any benefits for sports or NCC students during admission?
+      - Are there special seats for students with sports achievements?
+      - What are the eligibility criteria for sports quota admission?
+      - How can NCC cadets apply for admission under a special quota?
+      - Tell me about the government quota and management quota.
+      - What is the difference between government quota and management quota admission?
+      - How many seats are available under the government quota?
+      - What is the percentage of seats allocated for management quota?
+      - How can I apply through the government quota?
+      - Is there a separate admission process for management quota?
+      - What are the eligibility criteria for management quota admission?
+      - How are seats distributed between government and management quota?
+      - What is the fee structure for government quota vs. management quota?
+      - Does SSMIET follow Anna University guidelines for quota admissions?
