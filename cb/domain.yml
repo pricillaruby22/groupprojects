@@ -255,3 +255,128 @@ responses:
             industry expertise. To know more about faculty qualifications and experience, visit this website [insert website link]."
 
 
+  - college_timing
+  - scholarship_details
+  - academic_calendar
+  - admission_document
+  - counselling_process
+  - college_benefits
+  - staff_count
+  - bank_loans
+  - cutoff_details
+
+responses:
+  utter_college_hours:
+    - text: "There are two shifts.\n\n1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.\n2nd and 3rd year college timing: 12:00 PM to 5:00 PM."
+
+  utter_scholarship_details:
+    - text: "Students of SSMIET are eligible to avail various government scholarships such as:\n\n
+            • BC / MBC Scholarship\n
+            • Govt. of India post-metric Scholarship (SC / ST / SCA Students)\n
+            • Govt. of India post-metric Scholarship (Converted Christian)\n
+            • MOMA Scholarship (BCM, Christianity)\n
+            • AICTE Scholarship (All categories of Girl Students only)\n
+            • NHFDC Scholarship (All categories of Differently-abled Students)\n
+            • GQ 7.5 (For students who studied 6th to 12th in Government Schools)"
+
+  utter_academic_calendar:
+    - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
+   
+  utter_admission_documents:
+    - text: "The documents required for admission are:\n\n
+            1. Allotment Order\n
+            2. Community Certificate\n
+            3. HSC Mark Sheet\n
+            4. SSLC Mark Sheet\n
+            5. Transfer and Conduct Certificate\n
+            6. Aadhar Card\n
+            7. Nativity Certificate (Optional)\n
+            8. First Graduate Certificate (If Required)\n
+            9. Joint Declaration Form (Optional)\n
+            10. Passport Size Photos (2 Copies)\n
+            11. Medical Fitness Certificate (Optional)\n
+            12. Income Certificate\n
+            📌 Both original and xerox copies are required."
+
+  utter_counselling_process:
+    - text: "The counselling process at SSMIET is as follows:\n\n
+            1. Registration: Candidates must register online for counselling.\n
+            2. Choice Filling: Select your preferred courses and colleges.\n
+            3. Document Verification: Ensure you have all required documents.\n
+            4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
+            5. Fee Payment: Pay the admission fees to confirm your seat.\n
+            6. Reporting to College: Report to SSMIET with all required documents.\n\n
+            📞 For more details, contact admission office -  7373707002, 7373707008 "
+  
+  utter_college_benefits:
+    - text: |
+           🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
+              Your Future Begins Here! 🚀
+
+              ✅ **1. Excellence in Education**
+
+              Affiliated with Anna University & Approved by AICTE
+              Industry-focused curriculum with latest technologies
+              Highly qualified Ph.D. & experienced faculty
+              University Rank Holders & Gold Medalists every year
+              
+              ✅ **2. World-Class Infrastructure**
+
+              Smart Classrooms with Digital Learning Facilities
+              Advanced Laboratories with AI, IoT, and Robotics setups
+              Comprehensive Library with 10,000+ books & e-resources
+              Hostel & Transport facilities for student convenience
+             
+              ✅ **3. 100% Placement & Career Support**
+
+              Strong Industry Tie-ups with MNCs & Core Companies
+              Guaranteed Internships & Industrial Training
+              Dedicated Placement Cell to boost your career
+              Top recruiters include TCS, Infosys, Wipro, HCL & more!
+              
+              ✅ **4. Scholarships & Financial Support**
+
+              Government & Private Scholarships available
+              Special Fee Concessions for Merit Students
+              100% tuition fee waiver for high achievers
+             
+              ✅ **5. Student Life & Extracurriculars**
+
+              Technical Clubs, Hackathons, and Innovation Labs
+              National & International Conferences & Workshops
+              Annual Cultural Fest & Sports Events for overall development
+              
+              ✅ **6. Research & Entrepreneurship Opportunities**
+
+              Start-up Incubation Center for young entrepreneurs
+              MOUs with top research organizations & industries
+              Funded Research & Innovation Projects
+              🚀 Be a Part of Our Success Story!
+              👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
+              👉 Apply Now & Shape Your Future!
+
+  utter_staff_count:
+    - text: |
+        SSMIET currently has the following staff strength:  
+        👨‍🏫 **Teaching Staff:** 120+  
+        🏫 **Non-Teaching Staff:** 60+  
+        📚 **Total Staff:** 180+  
+        The institution maintains a well-balanced student-to-faculty ratio to ensure quality education.
+        Refer accurate staff count - https://ssmiet.ac.in/staffscount.html  
+
+  utter_bank_loans:
+    - text: |
+        Yes, SSMIET supports students in availing **bank loans** for their education.  
+        📌 We assist by providing the **Bonafide Certificate**, which includes the **fee structure** and other necessary details required by banks.  
+        📌 Students can approach the **college administration office** to obtain the required documents.  
+        📌 Most nationalized and private banks accept this certificate for processing **educational loans**.  
+        For further details, students are advised to contact their respective banks.  
+
+  utter_cutoff_details:
+    - text: |
+        The cutoff details for admission are as follows:
+        - General Category: 170+
+        - OBC Category: 160+
+        - SC/ST Category: 140+
+        - Management Quota: No specific cutoff, direct admission available.
+        
