@@ -582,3 +582,157 @@ nlu:
       - Can you share information about the experience and qualifications of the teaching staff?
       - How experienced are the faculty members at SSMIET?
       - What are the academic credentials of the SSMIET faculty?
+  - intent: college_timing
+    examples: |
+      - What are the college working hours?
+      - When does the college open and close?
+      - Can you tell me the working hours of the college?
+      - What time do classes start and end?
+      - Is there a morning and afternoon shift?
+      - Morning college time?
+      - Afternoon college time?
+      - When should I come to college?
+      - College timing tell me.
+      - What are the scheduled shifts for students?
+      - Is the college open in the morning and afternoon?
+      - Can you confirm the timings for both shifts in the college?
+
+  - intent: scholarship_details
+    examples: |
+      - What scholarships are available in SSMIET?
+      - Is there any government scholarship for students?
+      - How can I apply for a scholarship?
+      - Which students can get a scholarship?
+      - Tell me about financial help for students.
+      - Is there any special scholarship for girls?
+      - Are SC/ST students eligible for scholarships?
+      - Could you provide details about the scholarships available for SSMIET students?
+      - What are the eligibility criteria for government scholarships at SSMIET?
+      - Is there any financial assistance available for differently-abled students?
+      - Does the institute offer AICTE or NHFDC scholarships?
+      - Are there any specific scholarships for students from government schools?
+      - What are the steps to apply for post-matric scholarships?
+      - What is scholarship?
+      - How to get money for study?
+      - Who give free study help?
+      - Any free money for students?
+      - How to apply for free study?
+      - Government give money for students?
+
+  - intent: academic_calendar
+    examples: |
+      - What are the working hours and holiday details?
+      - When does the college open and close daily?
+      - Can you share the academic calendar?
+      - Where can I check the holiday list?
+      - What are the working days for students?
+      - Is there any leave this week?
+      - What are the semester holidays?
+      - Could you provide details on the working hours and academic holidays at SSMIET?
+      - Where can I access the official academic calendar for the current year?
+      - What are the working days and official holidays for students?
+      - Does the college follow a fixed holiday schedule every year?
+      - Are there any special holidays in this semester’s academic calendar?
+      - Can you provide the link to the official holiday and academic schedule?
+      - When is college open?
+      - College open or closed today?
+      - What time college start and end?
+      - Which days no class?
+      - Give holiday list.
+      - Tell me college time and holiday.
+      - Any leave this month?
+
+  - intent: admission_documents
+    examples: |
+      - What paper need for joining?
+      - What documents bring for admission?
+      - What certificate give for college?
+      - What is needed for admission?
+      - Tell me documents for joining college.
+      - What are the required documents for admission?
+      - Which certificates should I submit for college admission?
+      - Do I need to bring original certificates for admission?
+      - What documents are required to get admission into SSMIET?
+      - Do I need an Aadhar card for admission?
+      - Is an income certificate required?
+      - Could you provide a list of required documents for the admission process at SSMIET?
+      - What are the mandatory and optional documents for college enrollment?
+      - Are both original and photocopies needed for admission documentation?
+      - Are there any specific document requirements for first-generation graduates?
+      - Can you confirm whether a medical fitness certificate is necessary for admission?
+
+  - intent: counselling_process
+    examples: |
+      - How to join the college?
+      - What should I do to get admission?
+      - When should I come for admission?
+      - What to do after passing school?
+      - How can I apply for counselling at SSMIET?
+      - What are the steps in the counselling process?
+      - What documents are required for counselling?
+      - What is the counselling process at SSMIET?
+      - How does seat allotment work in counselling?
+      - Is there any online registration required for counselling?
+      - When will the counselling process start?
+      - What is the last date for counselling registration?
+      - How do I confirm my admission after counselling?
+      - Can I change my course after seat allotment?
+      - Tell me how to get a seat in the college.
+      - What is the procedure for online registration for counselling?
+
+  - intent: college_benefits
+    examples: |
+      - What is good about this college?
+      - Why should I join this college?
+      - What are the advantages of studying here?
+      - What are the benefits of studying at SSMIET?
+      - How is the placement at your college?
+      - Does this college provide scholarships?
+      - What facilities are available in the college?
+      - What makes SSMIET a top engineering college?
+      - How does SSMIET support research and innovation?
+      - What are the career opportunities after studying at SSMIET?
+      - Does SSMIET have collaborations with industries?
+
+  - intent: staff_count
+    examples: |
+      - How many teachers are there in this college?
+      - How many staff members work here?
+      - Are there enough teachers in this college?
+      - What is the total staff count of SSMIET?
+      - How many faculty members are there at SSMIET?
+      - What is the number of teaching and non-teaching staff?
+      - Can you provide the exact number of teaching and non-teaching staff in SSMIET?
+      - How many professors, assistant professors, and lecturers are there in each department?
+      - What is the student-to-teacher ratio at SSMIET?
+
+  - intent: bank_loans
+    examples: |
+      - Can I get a loan to study here?
+      - Will the college help with bank loans?
+      - What is needed for a bank loan?
+      - Does SSMIET accept bank loans for education?
+      - What documents do I need to apply for an education loan?
+      - Do I need a bonafide certificate for a student loan?
+      - Can I get a fee structure document for a bank loan?
+      - What is the procedure for applying for an educational loan through SSMIET?
+      - Does SSMIET provide any support in securing bank loans?
+      - What are the eligibility criteria for availing an education loan?
+      - Does SSMIET have tie-ups with specific banks for student loans?
+
+  - intent: cutoff_details
+    examples: | 
+      - What is the minimum mark to join?
+      - How much mark do I need to study here?
+      - Can I get admission if my marks are low?
+      - Will I get a seat with my 12th marks?  
+      - What is the cutoff mark required for admission?
+      - How is the cutoff calculated for this college?
+      - Is the cutoff different for each category?
+      - If my cutoff is low, can I get admission?
+      - Is there a separate cutoff for management quota?
+      - What was the previous year's cutoff for each branch?
+      - How does the TNEA ranking affect the cutoff for this college?
+      - Does the cutoff vary for different courses?
+      - Is the cutoff the same for both online and offline admissions?
+      - If I don’t meet the cutoff, can I apply through management quota?

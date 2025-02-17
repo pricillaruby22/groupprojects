@@ -181,3 +181,47 @@ stories:
       - action: utter_staff_professors_faculty_qualifications_experience
 
 
+   - story: User asks about college working hours
+     steps:
+        - intent: college_timing
+        - action: utter_college_timing
+
+   - story: User asks about scholarship details
+     steps:
+        - intent: scholarship_details
+        - action: utter_scholarship_details
+
+   - story: User asks about academic calendar
+     steps:
+        - intent: academic_calendar
+        - action: utter_academic_calendar
+
+   - story: User asks about admission documents
+     steps:
+        - intent: admission_documents
+        - action: utter_admission_documents
+  
+   - story: User asks about counselling process
+     steps:
+        - intent: counselling_process
+        - action: utter_counselling_process
+
+   - story: User asks about college benefits
+     steps:
+        - intent: college_benefits
+        - action: utter_college_benefits
+
+   - story: User asks about staff count
+     steps:
+        - intent: staff_count
+        - action: utter_staff_count
+
+   - story: User asks about bank loans
+     steps:
+        - intent: bank_loans
+        - action: utter_bank_loans
+
+   - story: User asks for cutoff details
+     steps:
+        - intent: cutoff_details
+        - action: utter_cutoff_details

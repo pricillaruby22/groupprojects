@@ -184,3 +184,48 @@ rules:
     steps:
       - intent: staff_professors_faculty_qualifications_experience
       - action: utter_staff_professors_faculty_qualifications_experience
+  - rule: Respond to college timing
+    steps:
+      - intent: college_timing
+      - action: utter_college_timing
+
+  - rule: Respond to scholarship details
+    steps:
+      - intent: scholarship_details
+      - action: utter_scholarship_details
+
+  - rule: Respond to academic calendar
+    steps:
+      - intent: academic_calendar
+      - action: utter_academic_calendar
+
+  - rule: Respond to admission documents
+    steps:
+      - intent: admission_documents
+      - action: utter_admission_documents
+
+  - rule: Respond to counselling process
+    steps:
+      - intent: counselling_process
+      - action: utter_counselling_process 
+
+  - rule: Provide college benefits when asked
+    steps:
+      - intent: college_benefits
+      - action: utter_college_benefits 
+
+  - rule: Provide staff count when asked
+    steps:
+      - intent: staff_count
+      - action: utter_staff_count
+
+  - rule: Provide bank loan details when asked
+    steps:
+      - intent: bank_loans
+      - action: utter_bank_loans
+
+  - rule: Provide cutoff details
+    steps:
+      - intent: cutoff_details
+      - action: utter_cutoff_details
+
