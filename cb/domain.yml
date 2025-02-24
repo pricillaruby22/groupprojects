@@ -37,6 +37,20 @@ intents:
   - Sports_NCC_government_management_quota
   - placement_details
   - staff_professors_faculty_qualifications_experience
+  - cse_hod_details
+  - cse_faculty_details
+  - peo_cse_department
+  - po_cse_department
+  - pso_cse_department
+  - college_timing
+  - scholarship_details
+  - academic_calendar
+  - admission_document
+  - counselling_process
+  - college_benefits
+  - staff_count
+  - bank_loans
+  - cutoff_details
 
 responses:
 
@@ -255,15 +269,7 @@ responses:
             industry expertise. To know more about faculty qualifications and experience, visit this website [insert website link]."
 
 
-  - college_timing
-  - scholarship_details
-  - academic_calendar
-  - admission_document
-  - counselling_process
-  - college_benefits
-  - staff_count
-  - bank_loans
-  - cutoff_details
+
 
 responses:
   utter_college_hours:
@@ -379,4 +385,82 @@ responses:
         - OBC Category: 160+
         - SC/ST Category: 140+
         - Management Quota: No specific cutoff, direct admission available.
+      
+
+responses:
+  utter_hod_details:
+    - text: 🔹 Name: Dr. C. Sujatha
+            🔹 Position: Head of the Department (HOD), CSE, SSMIET
+            🔹 Years of Experience: 21+ years in teaching & research
+            🔹 Qualification: 🎓 Ph.D, M.E, B.E
+
+responses:
+  utter_cse_faculty:
+    - text: |
+        Here are the faculty members of the CSE department:
+        1. Dr. C. Sujatha - M.E., Ph.D. (Professor and Head)
+        2. Dr. G. Prabu - M.E., Ph.D. (Associate Professor)
+        3. Dr. S. Sudhakar - M.E., Ph.D. (Associate Professor)
+        4. Mrs. M. Mookambikai - M.E., (Ph.D.) (Assistant Professor)
+        5. Dr. A. Aldo Tenis - M.E., Ph.D. (Associate Professor)
+        6. Mrs. N. J. Divya - M.E., (Ph.D.) (Assistant Professor)
+        7. Mrs. K. Sureka - M.E., (Ph.D.) (Assistant Professor)
+        8. Mrs. S. Suganya - M.E., (Ph.D.) (Assistant Professor)
+        9. Mrs. J. Dhanalakshmi - M.E., (Ph.D.) (Assistant Professor)
+        10. Mrs. A. Padma Priya - M.E. (Assistant Professor)
+        11. Mrs. T. Rani Mangammal - M.E., (Ph.D.) (Assistant Professor)
+        12. Mr. P. V. Samuel Devakumar - M.E. (Assistant Professor)
+        13. Ms. V. Sudharsana - M.E. (Assistant Professor)
+        14. Mrs. D. Rekha - M.E. (Assistant Professor)
+        15. Dr. M. Nanmalar - M.E., Ph.D. (Assistant Professor)
+
+  utter_peo_cse_department:
+    - text: |
+        Program Educational Objectives (PEOs) in the Computer Science and Engineering (CSE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
         
+        **PEO1**: Graduates will be recognized for their ability to apply advanced technological skills with a passion for learning, empowering them to tackle emerging challenges and drive meaningful societal progress.
+        
+        **PEO2**: Graduates will excel in their professional careers by utilizing the essential skills and knowledge acquired through collaborative industry initiatives, equipping them to solve real-world challenges effectively.
+        
+        **PEO3**: Graduates will demonstrate ethical and moral integrity in their professional practice, creating positive contributions to society by applying their knowledge and skills to address real-world challenges.
+        
+        PEOs play a crucial role in shaping the career of CSE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
+
+  utter_po_cse_department:
+    - text: |
+        Program Outcomes (POs) define the competencies that graduates of the Computer Science and Engineering program are expected to acquire:
+        
+        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+        
+        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+        
+        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+        
+        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+        
+        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+        
+        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+        
+        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
+        
+        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+        
+        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+        
+        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+        
+        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+        
+        **PO12**: Life-Long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_cse_department:
+    - text: |
+        Program Specific Outcomes (PSOs) define the specific skills and knowledge that graduates of the Computer Science and Engineering program will attain:
+        
+        **PSO1**: Understand the principles of basic engineering and acquire the hardware and software aspects of computer science and engineering.
+        
+        **PSO2**: Design and develop applications or products using various programming languages.
+
+
+ 

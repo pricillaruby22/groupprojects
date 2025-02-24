@@ -1,0 +1,57 @@
+version: "3.1"
+
+nlu:
+    - intent: 
+      examples: |
+        - Who is the Head of the Computer Science and Engineering Department at SSMIET?
+        - Can you provide the qualifications and experience details of the CSE HOD?
+        - What are the research areas of the HOD of CSE?
+        - Who is the CSE department head at this college?
+        - What is the experience of the CSE HOD?
+        - Can you tell me about the background of the HOD?
+        - Who is in charge of the CSE department?
+        - How long has the HOD been working?
+        - Is the head of CSE experienced?
+
+    - intent: peo_cse_department
+      examples: |
+        - What does PEO stand for in the CSE department?
+        - What is the peo of CSE department?
+        - Tell me about PEO of Computer Science and Engineering.
+        - What are the PEOs in CSE department?
+        - Why are Program Educational Objectives (PEOs) important for students?
+        - How do PEOs help in shaping the career of a Computer Science and Engineering graduate?
+        - What are the key components of a typical CSE department PEO?
+        - What are the key goals of PEOs in Computer Science and Engineering?
+        - Why are Program Educational Objectives (PEOs) important for Computer Science and Engineering students?
+        - How do Program Educational Objectives (PEOs) help in shaping a CSE graduate’s career?
+        - What are the key components of Program Educational Objectives (PEOs) in a CSE program?
+
+    - intent: po_cse_department
+      examples: |
+        - What does PO stand for in the CSE department?
+        - What is the PO of the CSE department?
+        - Tell me about PO of Computer Science and Engineering.
+        - What are the POs in the CSE department?
+        - Why are Program Outcomes (POs) important for students?
+        - How do POs help in shaping the career of a Computer Science and Engineering graduate?
+        - What are the key components of a typical CSE department PO?
+        - What are the key goals of POs in Computer Science and Engineering?
+        - Why are Program Outcomes (POs) important for Computer Science and Engineering students?
+        - How do Program Outcomes (POs) help in shaping a CSE graduate’s career?
+        - What are the key components of Program Outcomes (POs) in a CSE program?
+
+    - intent: pso_cse_department
+      examples: |
+        - What does PSO stand for in the CSE department?
+        - What is the PSO of the CSE department?
+        - Tell me about PSO of Computer Science and Engineering.
+        - What are the PSOs in the CSE department?
+        - Why are Program Specific Outcomes (PSOs) important for students?
+        - How do PSOs help in shaping the career of a Computer Science and Engineering graduate?
+        - What are the key components of a typical CSE department PSO?
+        - What are the key goals of PSOs in Computer Science and Engineering?
+        - Why are Program Specific Outcomes (PSOs) important for Computer Science and Engineering students?
+        - How do Program Specific Outcomes (PSOs) help in shaping a CSE graduate’s career?
+        - What are the key components of Program Specific Outcomes (PSOs) in a CSE program?
+

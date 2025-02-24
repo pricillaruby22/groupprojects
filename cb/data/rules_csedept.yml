@@ -1,0 +1,30 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: cse_hod_details
+      - action: utter_cse_hod_details
+
+  - rule: Respond to CSE faculty queries
+    steps:
+      - intent: cse_faculty_details
+      - action: utter_cse_faculty_details
+
+  - rule: Provide PEO information of CSE department
+    steps:
+      - intent: peo_cse_department
+      - action: utter_peo_cse_department
+
+  - rule: Provide PO information of CSE department
+    steps:
+      - intent: po_cse_department
+      - action: utter_po_cse_department
+
+  - rule: Provide PSO information of CSE department
+    steps:
+      - intent: pso_cse_department
+      - action: utter_pso_cse_department
+
+
+
