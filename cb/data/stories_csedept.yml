@@ -1,0 +1,28 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of CSE
+    steps:
+      - intent: cse_hod_details
+      - action: utter_cse_hod_details
+
+  - story: Respond to CSE faculty queries
+    steps:
+      - intent: cse_faculty_details
+      - action: utter_cse_faculty_details
+
+  - story: answer_peo_cse_department
+    steps:
+      - intent: peo_cse_department
+      - action: utter_peo_cse_department
+
+  - story: answer_po_cse_department
+    steps:
+      - intent: po_cse_department
+      - action: utter_po_cse_department
+
+  - story: answer_pso_cse_department
+    steps:
+      - intent: pso_cse_department
+      - action: utter_pso_cse_department
+
