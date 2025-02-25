@@ -518,15 +518,7 @@ responses:
   utter_cse_newsletter:
     - text: 
         "You can find details about the CSE department newsletter at the following link: https://ssmiet.ac.in/cse%20news%20letter.html"
-
-
-
-
-
-
-
-
-
+        
  
   utter_goodbye:
     - text: "Good Bye!..."
