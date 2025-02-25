@@ -11,18 +11,59 @@ stories:
       - intent: cse_faculty_details
       - action: utter_cse_faculty_details
 
-  - story: answer_peo_cse_department
+  - story: answer peo of cse department
     steps:
       - intent: peo_cse_department
       - action: utter_peo_cse_department
 
-  - story: answer_po_cse_department
+  - story: answer po of cse department
     steps:
       - intent: po_cse_department
       - action: utter_po_cse_department
 
-  - story: answer_pso_cse_department
+  - story: answer pso of cse department
     steps:
       - intent: pso_cse_department
       - action: utter_pso_cse_department
+
+  - story: answer cse course outcomes 
+    steps:
+      - intent: cse_course_outcomes
+      - action: utter_cse_course_outcomes
+
+  - story: cse department info or about story
+    steps:
+      - intent: cse_department_info_about
+      - action: utter_cse_department_info_about
+
+  - story: cse department vision story
+    steps:
+      - intent: cse_department_vision
+      - action: utter_cse_department_vision
+
+  - story: cse department mission story
+    steps:
+      - intent: cse_department_mission
+      - action: utter_cse_department_mission
+
+  - story: cse total students story
+    steps:
+      - intent: cse_total_students
+      - action: utter_cse_total_students
+
+  - story: cse female or girls students story
+    steps:
+      - intent: cse_female_girls_students
+      - action: utter_cse_female_girls_students
+
+  - story: cse male or boys students story
+    steps:
+      - intent: cse_male_boys_students
+      - action: utter_cse_male_boys_students
+
+  - story: answer to cse lab facilities 
+    steps:
+      - intent: cse_lab_facilities
+      - action: utter_cse_lab_facilities
+
 

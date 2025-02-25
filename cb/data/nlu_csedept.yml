@@ -55,3 +55,107 @@ nlu:
         - How do Program Specific Outcomes (PSOs) help in shaping a CSE graduate’s career?
         - What are the key components of Program Specific Outcomes (PSOs) in a CSE program?
 
+    - intent: cse_course_outcomes
+      examples: |
+        - Where can I find the syllabus for CSE?
+        - Show me the subjects covered in CSE.
+        - Show me the core subjects in CSE.
+        - What are the specialization areas in CSE?
+        - Provide details about the elective courses in CSE.
+        - Where can I find study materials for CSE subjects?
+        - What are the key skills gained in a CSE degree?
+        - Which programming languages are covered in CSE?
+        - Give me details about the lab courses in CSE.
+        - What skills will I gain from a CSE degree?
+        - What are the learning outcomes of a CSE course?
+        - What knowledge will I acquire after completing CSE?
+        - What are the course outcomes of CSE?
+
+    - intent: cse_department_info_about
+      examples: |
+        - When was the CSE department established?
+        - Is the CSE department approved by AICTE?
+        - Tell me about Computer science and engineering.
+        - Which university is the CSE department affiliated with?
+        - How does the CSE department support student learning?
+        - How does the department help students achieve academic and career goals?
+        - How does the department emphasize co-curricular and extracurricular activities?
+        - Tell me about CSE department.
+        - What is the about of CSE department?
+
+    - intent: cse_department_vision
+      examples: |
+        - What is the vision of the CSE department?
+        - What are the key goals of the CSE department’s vision?
+        - How does the CSE department work towards achieving its vision?
+        - How does the vision of the CSE department benefit students?
+        - What impact does the CSE department’s vision have on technical education?
+        - Does the vision of the CSE department focus on industry readiness?
+        - How does the CSE department’s vision align with modern technology trends?
+        - What initiatives are taken to fulfill the CSE department’s vision?
+        - How does research and innovation contribute to the CSE department’s vision?
+        - Does the vision of the CSE department include global technological advancements?
+        - Tell me about vision of CSE department.
+
+    - intent: cse_department_mission
+      examples: |
+        - What is the mission of the CSE department?
+        - What are the key goals of the CSE department’s mission?
+        - How does the CSE department work towards achieving its mission?
+        - How does the mission of the CSE department benefit students?
+        - What impact does the CSE department’s mission have on technical education?
+        - Does the mission of the CSE department focus on industry readiness?
+        - How does the CSE department’s mission align with modern technology trends?
+        - What initiatives are taken to fulfill the CSE department’s mission?
+        - How does research and innovation contribute to the CSE department’s mission?
+        - Does the mission of the CSE department include global technological advancements?
+        - Tell me about mission of CSE department.
+
+    - intent: cse_total_students
+      examples: |
+        - What is the total student count in the CSE department?
+        - What is the total number of students currently enrolled in the CSE department?
+        - How many students are studying in the CSE department this academic year?
+        - What is the total student strength of the CSE department?
+        - How many students have been admitted to the CSE department this year?
+        - What is the total student intake capacity for the CSE department?
+        - How many students are in each year of the CSE department?
+        - What is the total number of students in the undergraduate CSE program?
+        - How many students are currently pursuing B.E. CSE?
+        - How many students graduate from the CSE department each year?
+        - How many students are currently in their final year in CSE?
+
+    - intent: cse_female_girls_students
+      examples: |
+        - How many girls are there in the CSE department?
+        - What is the total number of female students in the CSE department?
+        - How many girls are currently enrolled in the CSE department?
+        - What percentage of CSE students are girls?
+        - How many female students joined the CSE department this year?
+        - How many girls are in each year of the CSE department?
+        - Has the number of girls in the CSE department increased over the years?
+        - How many female students have graduated from the CSE department so far?
+        - What is the trend of female student enrollment in the CSE department?
+
+    - intent: cse_male_boys_students
+      examples: |
+        - How many boys are there in the CSE department?
+        - What is the total number of male students in the CSE department?
+        - How many boys are currently enrolled in the CSE department?
+        - What percentage of CSE students are boys?
+        - How many male students joined the CSE department this year?
+        - How many boys are in each year of the CSE department?
+        - Has the number of boys in the CSE department increased over the years?
+        - How many male students have graduated from the CSE department so far?
+        - What is the trend of male student enrollment in the CSE department?
+
+    - intent: cse_lab_facilities
+      examples: |
+        - What are the lab facilities available in the CSE department?
+        - How many computer labs are there in the CSE department?
+        - What software and tools are available in the CSE labs?
+        - What is the configuration of the computers in the CSE labs?
+        - Are the lab facilities updated with the latest technology?
+        - Does the CSE department provide high-speed internet in the labs?
+        - Are the CSE labs accessible to students outside class hours?
+        - What kind of research work is conducted in the CSE labs?
