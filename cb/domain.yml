@@ -54,6 +54,7 @@ intents:
   - cutoff_details
   - college_admission_eligibility
   - college_qualification
+  - technical_faculty_cse
   - goodbye
   - cse_course_outcomes
   - cse_department_info_about
@@ -519,6 +520,43 @@ responses:
     - text: 
         "You can find details about the CSE department newsletter at the following link: https://ssmiet.ac.in/cse%20news%20letter.html"
         
+
+  utter_technical_faculty_cse:
+    - text: |
+        The technical faculty in the CSE department are:
+          - Mr. E. Prakash (Technical Assistant)
+          - Mr. S. Ram Vignesh (Technical Assistant)
+          - Mr. T. Naveen Kumar (Technical Assistant)
+          - Mrs. I. Renuka Eswari (Technical Assistant)
+          - Mr. V. Isac Devaraj (Technical Assistant)
+
+  utter_placement_cse:
+    - text: |
+        Year-wise placement details for the CSE department:
+          - 2018-2019: 30 students
+          - 2019-2020: 41 students
+          - 2020-2021: 19 students
+          - 2021-2022: 36 students
+          - 2022-2023: 16 students
+        
+  utter_extra_courses_dept:
+    - text: |
+        Here are the value-added courses offered by the CSE department:
+          1. Open Source App Development using Flutter
+          2. Selenium Testing
+          3. Web Designing using REACT
+          4. Applications of JAVA programming
+          5. Graphical Design and Animation
+          6. Web Development
+          7. Data Science using Python
+          8. Web Technology
+          9. Problem Solving with C Programming
+          10. MongoDB
+          11. Advanced Java Programming
+          12. Python with Advanced Concepts
+          13. Automated Software Testing using Selenium Web Driver
+          14. Solving Problems using Python Programming
+          15. Core Java Training      
  
   utter_goodbye:
     - text: "Good Bye!..."

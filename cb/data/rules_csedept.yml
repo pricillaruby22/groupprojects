@@ -30,6 +30,15 @@ rules:
     steps:
     - intent: cse_course_outcomes
     - action: utter_cse_course_outcomes
+  - rule: Respond to technical faculty in CSE
+    steps:
+      - intent: technical_faculty_cse
+      - action: utter_technical_faculty_cse
+
+  - rule: Respond to placement details in CSE
+    steps:
+      - intent: placement_cse
+      - action: utter_placement_cse    
 
   - rule: Respond to CSE department info or about
     steps:
@@ -110,4 +119,10 @@ rules:
     steps:
       - intent: cse_contact
       - action: utter_cse_contact
+
+  - rule: Respond to extra courses in CSE
+    steps:
+      - intent: extra_courses_dept
+      - action: utter_extra_courses_dept    
+
 

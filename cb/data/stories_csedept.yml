@@ -110,3 +110,17 @@ stories:
       - intent: cse_contact
       - action: utter_cse_contact
 
+  - story: Provide technical faculty details for CSE
+    steps:
+      - intent: technical_faculty_cse
+      - action: utter_technical_faculty_cse
+
+  - story: Provide CSE placement details
+    steps:
+      - intent: placement_cse
+      - action: utter_placement_cse    
+
+  - story: Provide extra courses details for CSE
+    steps:
+      - intent: extra_courses_dept
+      - action: utter_extra_courses_dept    

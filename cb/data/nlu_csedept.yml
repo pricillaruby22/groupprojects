@@ -60,7 +60,7 @@ nlu:
         - Why are Program Outcomes (POs) important for Computer Science and Engineering students?
         - How do Program Outcomes (POs) help in shaping a CSE graduate’s career?
         - What are the key components of Program Outcomes (POs) in a CSE program?
-
+    
     - intent: pso_cse_department
       examples: |
         - What does PSO stand for in the CSE department?
@@ -74,6 +74,30 @@ nlu:
         - Why are Program Specific Outcomes (PSOs) important for Computer Science and Engineering students?
         - How do Program Specific Outcomes (PSOs) help in shaping a CSE graduate’s career?
         - What are the key components of Program Specific Outcomes (PSOs) in a CSE program?
+    
+    - intent: technical_faculty_cse
+      examples: |
+      - Tell me about the technical staff in the CSE department
+      - Who are the technical faculty in CSE?
+      - List the technical assistants in the CSE department
+      - CSE department technical staff details
+
+    - intent: placement_cse
+      examples: |
+      - Tell me about the placement details in CSE department
+      - How many students got placed in CSE?
+      - CSE department placement statistics
+      - Year-wise placement count in CSE  
+      - Tell me about the placement statistics in the CSE department
+      - How successful is the CSE department in placements?
+      - What is the placement rate for CSE students?
+      - Can you provide the CSE placement report?
+      - How many CSE students were placed last year?
+      - What's the highest placement count for CSE?
+      - Which companies hired CSE students?
+      - How has CSE placement performance changed over the years?
+      - Do CSE students get good placements?
+      - Share the year-wise placement details for CSE.
 
     - intent: cse_course_outcomes
       examples: |
@@ -295,4 +319,12 @@ nlu:
         - CSE contact details
 
 
+
+    - intent: extra_courses_dept
+      examples: |
+      - Tell me about the value-added courses in CSE department
+      - What are the additional courses offered by CSE?
+      - Extra courses provided by CSE department
+      - List the value-added courses for CSE students
+      - Do CSE students have any extra learning opportunities?    
 
