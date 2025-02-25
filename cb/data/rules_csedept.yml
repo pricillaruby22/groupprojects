@@ -123,6 +123,11 @@ rules:
   - rule: Respond to extra courses in CSE
     steps:
       - intent: extra_courses_dept
-      - action: utter_extra_courses_dept    
+      - action: utter_extra_courses_dept  
+
+  - rule: Respond to placement company names in CSE
+    steps:
+      - intent: placement_company_names
+      - action: utter_placement_company_names      
 
 

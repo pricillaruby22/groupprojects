@@ -123,4 +123,10 @@ stories:
   - story: Provide extra courses details for CSE
     steps:
       - intent: extra_courses_dept
-      - action: utter_extra_courses_dept    
+      - action: utter_extra_courses_dept   
+
+  - story: Provide CSE placement company names
+    steps:
+      - intent: placement_company_names
+      - action: utter_placement_company_names     
+  

@@ -326,5 +326,16 @@ nlu:
       - What are the additional courses offered by CSE?
       - Extra courses provided by CSE department
       - List the value-added courses for CSE students
-      - Do CSE students have any extra learning opportunities?    
+      - Do CSE students have any extra learning opportunities? 
+
+    - intent: placement_company_names
+      examples: |
+      - Which companies come for placements in CSE?
+      - What are the company names for CSE placements?
+      - List the companies recruiting CSE students
+      - Can you provide the names of placement companies for CSE?
+      - Which companies hire from the CSE department?
+      - Who are the recruiters for CSE students?
+      - Which companies visit for CSE placements?
+      - Give me the names of companies for CSE placements     
 

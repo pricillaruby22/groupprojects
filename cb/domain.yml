@@ -537,7 +537,8 @@ responses:
           - 2019-2020: 41 students
           - 2020-2021: 19 students
           - 2021-2022: 36 students
-          - 2022-2023: 16 students
+          - 2022-2023: 35 students
+          - 2023-2024: 41 students
         
   utter_extra_courses_dept:
     - text: |
@@ -610,3 +611,30 @@ responses:
         🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
         📞 Phone: 0451 – 2448843
         ✉️ Email: hodcsessmiet@gmail.com
+
+  utter_placement_company_names:
+    - text: |
+        Companies recruiting CSE students categorized by tier levels:
+          - Tier 1:
+            - Tata Consultancy Services (TCS)
+            - Infosys
+            - Wipro
+            - HCL Technologies
+            - Capgemini
+            - Hexaware Technologies
+          - Tier 2:
+            - Zoho Corp
+            - 4i Apps Solutions Pvt Ltd
+            - Accenture
+            - Atos Syntel
+            - Revature
+          - Tier 3:
+            - Venture Tools
+            - Vintorix Solutions
+            - Slusby Technologies
+            - Mechpro Technologies
+            - Spotlight Technologies
+            - Svasti Technology Solutions
+            - Pirai Infotech Pvt Ltd
+            - ThinkBig Infotech Pvt Ltd
+            - Net Tel Solutions India Pvt Ltd      
