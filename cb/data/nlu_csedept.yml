@@ -1,7 +1,7 @@
 version: "3.1"
 
 nlu:
-    - intent: 
+    - intent: cse_hod_details
       examples: |
         - Who is the Head of the Computer Science and Engineering Department at SSMIET?
         - Can you provide the qualifications and experience details of the CSE HOD?
@@ -12,6 +12,26 @@ nlu:
         - Who is in charge of the CSE department?
         - How long has the HOD been working?
         - Is the head of CSE experienced?
+    
+    - intent: cse_faculty_details
+      examples: |
+        - Who are the faculty members of the CSE department?
+        - Can you list the CSE department faculty?
+        - Tell me about the educators in the CSE department.
+        - Provide details on CSE department professors.
+        - Give me a list of CSE department staff.
+        - I am not familiar with the faculty. Can you help?
+        - Who teaches in the CSE department?
+        - I am uneducated about the staff in CSE. Can you list them?
+        - Tell me who the CSE professors are.
+        - I don't know the educators. Can you inform me
+        - Can you give me some information about the CSE faculty?
+        - I know some professors, but can you list all?
+        - Who are the key faculty members in CSE?
+        - I have some idea about the staff. Can you provide full details?
+        - Give me more details about the educators in CSE.
+        - list out the CSE teaching madam
+
 
     - intent: peo_cse_department
       examples: |
@@ -230,4 +250,49 @@ nlu:
         - Are student achievements highlighted in the CSE department newsletter?
         - How does the CSE department newsletter help in knowledge sharing?
         - Where can I find previous editions of the CSE department newsletter?
+    - intent: mou_sign_company
+      examples: |
+        - Which companies have signed an MOU with the institution?
+        - Can you provide details on MOU-signed companies?
+        - Tell me about the industry collaborations.
+        - Which organizations have partnered with us?
+        - List the companies that have signed an MOU.
+        - What is an MOU?
+        - Can you explain what MOU means?
+        - I don’t understand MOU. Can you help?
+        - What does it mean when a company signs an MOU?
+        - Explain MOU in simple terms.
+        - Can you give me a list of MOU-signed companies?
+        - Which companies have recently signed an MOU?
+        - How does an MOU benefit students?
+        - Tell me about the latest MOU collaborations.
+        - Give me details on MOU partners and their dates.
+
+    - intent: intern_company
+      examples: |
+         - Which companies provide internships?
+         - What are the companies that offer internships?
+         - Can you list some companies that provide internship opportunities?
+         - Tell me about companies that offer internships.
+         - Can you name some companies that offer student internships?
+         - How many students got internships?
+         - Give me the year-wise placed students' internship count.
+         - Can you provide the number of students who did internships each year?
+         - Tell me how many students did internships in previous years.
+         - What is the yearly count of students who got internships?
+         - List the number of students who got internships year by year.
+         - How many students secured internships each academic year?
+
+    - intent: cse_contact
+      examples: |
+        - Give me the contact details of the Computer Science department.
+        - How can I contact the HOD of CSE department?
+        - Provide the email ID for the CSE department.
+        - What is the phone number of the CSE department at SSMIET?
+        - Who should I contact for internship-related queries?
+        - Give me the address of the CSE department at SSM Institute of Engineering and Technology.
+        - Can you provide the department's contact information?
+        - CSE contact details
+
+
 

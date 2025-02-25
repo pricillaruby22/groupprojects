@@ -95,4 +95,18 @@ stories:
     steps:
       - intent: cse_newsletter
       - action: utter_cse_newsletter
+  - story:  asks about MOU companies
+    steps:
+      - intent: mou_sign_company
+      - action: utter_mou_sign_company
+  
+  - story: asks about internship companies
+    steps:
+      - intent: intern_company
+      - action: utter_intern_company
+
+  - story:  asks for cse dept contact details
+    steps:
+      - intent: cse_contact
+      - action: utter_cse_contact
 
