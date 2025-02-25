@@ -159,3 +159,75 @@ nlu:
         - Does the CSE department provide high-speed internet in the labs?
         - Are the CSE labs accessible to students outside class hours?
         - What kind of research work is conducted in the CSE labs?
+
+    - intent: cse_department_activities
+      examples: |
+        - What are the department activities conducted by the CSE department?
+        - How often does the CSE department organize technical events?
+        - What workshops are conducted by the CSE department?
+        - What extracurricular activities are available in the CSE department?
+        - Tell me about department activities.
+        - Give me the department activities of CSE
+        - Where can I find the department activities of CSE?
+        - Show me the department activities of CSE
+
+    - intent: cse_student_activities
+      examples: |
+        - What are the student activities conducted by the CSE department?
+        - How often are student events organized in the CSE department?
+        - Tell me about student activities.
+        - Give me the student activities of CSE.
+        - Where can I find the student activities of CSE?
+        - Show me the student activities of CSE.
+
+    - intent: cse_faculty_activities
+      examples: |
+        - Give me the faculty activities of CSE.
+        - Where can I find the faculty activities of CSE?
+        - Show me the faculty activities of CSE.
+        - What are the faculty activities conducted by the CSE department?
+        - How does the CSE department support faculty development?
+        - What research activities are carried out by the faculty in the CSE department?
+        - Are faculty members involved in industry collaborations?
+        - Do faculty members participate in technical conferences and seminars?
+        - Are faculty members involved in curriculum development and innovation?
+
+    - intent: cse_professional_bodies
+      examples: |
+        - What are the professional bodies associated with the CSE department?
+        - Does the CSE department have memberships in any professional organizations?
+        - Which professional societies can CSE students join?
+        - How do professional bodies benefit CSE students?
+        - Are there any student chapters of professional organizations in the CSE department?
+        - What kind of activities do professional bodies conduct for CSE students?
+        - Does the CSE department collaborate with IEEE, ACM, or other professional bodies?
+        - How can students become members of professional organizations in the CSE department?
+        - Are there any certifications provided through professional bodies in the CSE department?
+        - Do professional bodies offer internship or research opportunities for CSE students?
+
+    - intent: cse_research_activities
+      examples: |
+        - What research activities are conducted in the CSE department?
+        - What are the major research areas in the CSE department?
+        - Are there any research labs available in the CSE department?
+        - How do students participate in research projects in the CSE department?
+        - Do faculty members in the CSE department publish research papers?
+        - Are there any funded research projects in the CSE department?
+        - Does the CSE department collaborate with industries for research?
+        - Are students encouraged to publish research papers in the CSE department?
+        - What research opportunities are available for undergraduate students in CSE?
+        - Are there any research conferences organized by the CSE department?
+
+    - intent: cse_newsletter
+      examples: |
+        - Does the CSE department have a newsletter?
+        - What is the name of the CSE department’s newsletter?
+        - How often is the CSE department newsletter published?
+        - What kind of information is included in the CSE department newsletter?
+        - Who can contribute articles to the CSE department newsletter?
+        - How can students access the CSE department newsletter?
+        - Does the newsletter cover research and innovation updates from the CSE department?
+        - Are student achievements highlighted in the CSE department newsletter?
+        - How does the CSE department newsletter help in knowledge sharing?
+        - Where can I find previous editions of the CSE department newsletter?
+
