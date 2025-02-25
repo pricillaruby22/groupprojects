@@ -1,6 +1,11 @@
 version: "3.1"
 
 stories:
+  - story: Respond to greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
+      
   - story: Admission process inquiry
     steps:
       - intent: admission_process
@@ -85,6 +90,7 @@ stories:
     steps:
       - intent: fee_structure
       - action: utter_fee_structure_info
+
   - story: Provide college ug courses
     steps:
       - intent: college_ug_courses
@@ -114,8 +120,7 @@ stories:
     steps:
       - intent: college_admission_eligibility
       - action: utter_college_admission_eligibility
-
-
+      
   - story: Internship and placement inquiry
     steps:
       - intent: available_internships_and_placements
@@ -179,49 +184,57 @@ stories:
     steps:
       - intent: staff_professors_faculty_qualifications_experience
       - action: utter_staff_professors_faculty_qualifications_experience
+      
+  - story: User asks about college working hours
+    steps:
+      - intent: college_timing
+      - action: utter_college_timing
 
+  - story: User asks about scholarship details
+    steps:
+      - intent: scholarship_details
+      - action: utter_scholarship_details
 
-   - story: User asks about college working hours
-     steps:
-        - intent: college_timing
-        - action: utter_college_timing
+  - story: User asks about academic calendar
+    steps:
+      - intent: academic_calendar
+      - action: utter_academic_calendar
 
-   - story: User asks about scholarship details
-     steps:
-        - intent: scholarship_details
-        - action: utter_scholarship_details
+  - story: User asks about admission documents
+    steps:
+      - intent: admission_documents
+      - action: utter_admission_documents
 
-   - story: User asks about academic calendar
-     steps:
-        - intent: academic_calendar
-        - action: utter_academic_calendar
+  - story: User asks about counselling process
+    steps:
+      - intent: counselling_process
+      - action: utter_counselling_process
 
-   - story: User asks about admission documents
-     steps:
-        - intent: admission_documents
-        - action: utter_admission_documents
-  
-   - story: User asks about counselling process
-     steps:
-        - intent: counselling_process
-        - action: utter_counselling_process
+  - story: User asks about college benefits
+    steps:
+      - intent: college_benefits
+      - action: utter_college_benefits
 
-   - story: User asks about college benefits
-     steps:
-        - intent: college_benefits
-        - action: utter_college_benefits
+  - story: User asks about staff count
+    steps:
+      - intent: staff_count
+      - action: utter_staff_count
 
-   - story: User asks about staff count
-     steps:
-        - intent: staff_count
-        - action: utter_staff_count
+  - story: User asks about bank loans
+    steps:
+      - intent: bank_loans
+      - action: utter_bank_loans
 
-   - story: User asks about bank loans
-     steps:
-        - intent: bank_loans
-        - action: utter_bank_loans
-
-   - story: User asks for cutoff details
-     steps:
-        - intent: cutoff_details
-        - action: utter_cutoff_details
+  - story: User asks for cutoff details
+    steps:
+      - intent: cutoff_details
+      - action: utter_cutoff_details
+  - story: Provide college qualification
+    steps:
+      - intent: college_qualification
+      - action: utter_college_qualification
+      
+  - story: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

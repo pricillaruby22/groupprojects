@@ -1,6 +1,10 @@
 version: "3.1"
 
 rules:
+  - rule: Respond to greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
   - rule: Respond to admission queries
     steps:
       - intent: admission_process
@@ -145,7 +149,7 @@ rules:
       - intent: college_admission_form
       - action: utter_college_admission_form
 
-  - rules: Respond to College Admission Eligibilty
+  - rule: Respond to College Admission Eligibilty
     steps:
       - intent: college_admission_eligibility
       - action: utter_college_admission_eligibility
@@ -184,6 +188,7 @@ rules:
     steps:
       - intent: staff_professors_faculty_qualifications_experience
       - action: utter_staff_professors_faculty_qualifications_experience
+      
   - rule: Respond to college timing
     steps:
       - intent: college_timing
@@ -229,3 +234,13 @@ rules:
       - intent: cutoff_details
       - action: utter_cutoff_details
 
+      
+  - rule: Provide college qualification
+    steps:
+      - intent: college_qualification
+      - action: utter_college_qualification
+
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

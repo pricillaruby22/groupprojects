@@ -1,6 +1,14 @@
 version: "3.1"
 
 nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Hey
+      - Good morning
+      - Good evening
+
   - intent: admission_process
     examples: |
       - How can I apply for admission to this college?
@@ -26,21 +34,21 @@ nlu:
     
   - intent: ask_online_courses
     examples: |
-    - Is it possible to study courses from home?
-    - Do you offer online courses?
-    - Can I complete my studies remotely?
-    - Are there distance learning options available?
-    - Does this college provide virtual classes?
-    - Can I study from home?
-    - Do you guys have online classes?
-    - Are there any fully online degree programs?
-    - Do you have a hybrid model where I can take some classes online?
-    - How do online classes work at this college?
-    - Can I take exams from home if I choose distance learning?
-    - Is there any platform where I can access study materials online?
-    - Is remote learning an option here?
-    - Can I take courses without coming to campus?
-    - Do I need to attend in person, or is online study available?
+      - Is it possible to study courses from home?
+      - Do you offer online courses?
+      - Can I complete my studies remotely?
+      - Are there distance learning options available?
+      - Does this college provide virtual classes?
+      - Can I study from home?
+      - Do you guys have online classes?
+      - Are there any fully online degree programs?
+      - Do you have a hybrid model where I can take some classes online?
+      - How do online classes work at this college?
+      - Can I take exams from home if I choose distance learning?
+      - Is there any platform where I can access study materials online?
+      - Is remote learning an option here?
+      - Can I take courses without coming to campus?
+      - Do I need to attend in person, or is online study available?
 
   - intent: coeducation
     examples: |
@@ -75,7 +83,7 @@ nlu:
        - Are international entrance exam scores like SAT or GMAT accepted?
        - Is there a quota-based relaxation for entrance exam scores?
 
-  - intent: uniform-dresscode
+  - intent: uniform_dresscode
     examples: |
        - Is there a uniform?
        - Do students have to wear a uniform?
@@ -296,19 +304,19 @@ nlu:
   
   - intent: fee_structure
     examples: |
-       - What is the fee structure?
-       - How much are the course fees?
-       - Can you tell me the tuition fees?
-       - What are the total fees for this college?
-       - How much does it cost to study here?
-       - Are there any additional charges apart from tuition?
-       - Do you have a breakdown of the fees?
-       - What is the fee for different courses?
-       - Are there hostel fees included in the total cost?
-       - Do I have to pay for lab equipment separately?
+      - What is the fee structure?
+      - How much are the course fees?
+      - Can you tell me the tuition fees?
+      - What are the total fees for this college?
+      - How much does it cost to study here?
+      - Are there any additional charges apart from tuition?
+      - Do you have a breakdown of the fees?
+      - What is the fee for different courses?
+      - Are there hostel fees included in the total cost?
+      - Do I have to pay for lab equipment separately?
 
   - intent: college_courses
-    examples:
+    examples: |
       - What study you have?
       - What study for job?
       - What all subjects here?
@@ -329,7 +337,7 @@ nlu:
       - Are there any diploma courses offer?
 
   - intent: college_ug_courses
-    examples: 
+    examples: |
       - What are the ug courses are available?
       - Tell me UG courses
       - What are the available UnderGraduate(ug) courses?
@@ -340,7 +348,7 @@ nlu:
       - What are the BTech courses available here?
 
   - intent: college_pg_courses
-    examples: 
+    examples: |
       - What are the pg courses are available?
       - Tell me PG courses
       - What are the available PostGraduate(pg) courses?
@@ -349,7 +357,7 @@ nlu:
       - What are the ME courses available here?
     
   - intent: college_phd_courses
-    examples: 
+    examples: |
       - What are the phd courses are available?
       - Tell me PH.D courses
       - What are the available Research(Ph.d) courses?
@@ -358,7 +366,7 @@ nlu:
       - ph.d courses
 
   - intent: college_courses_duration
-    examples:
+    examples: |
       - How long to finish study?
       - How many years to complete?
       - When can I finish the course?
@@ -372,8 +380,8 @@ nlu:
       - Are there flexible study durations for postgraduate courses?
 
   - intent: college_admission_form
-    examples:
-      - How to join?
+    examples: |
+      - How to join in ssmiet?
       - Where to get the joining paper or form?
       - How to start admission?
       - Where to sign up for college?
@@ -385,9 +393,9 @@ nlu:
       - Where is the admission form?
 
   - intent: college_admission_eligibility
-    examples:
+    examples: |
       - Who can study here?
-      - Can I join the college?
+      - Can I join the ssmiet college?
       - Do I need to pass school to get in?
       - Can anyone apply for this college?
       - What are the requirements for admission?
@@ -395,7 +403,7 @@ nlu:
       - What is the minimum percentage needed to join?
       - Is there any age limit for admission?
       - What are the eligibility criteria for UG, PG, and Ph.D. programs?
-      - Does the college accept lateral entry students?
+      - Does the ssmiet college accept lateral entry students?
       - Are there any reservations or quota-based admissions?
       - What are the eligibility requirements?
       - What is the eligibilty criteria?
@@ -426,6 +434,8 @@ nlu:
       - Is there any fee for changing the course?
       - Can I change from B.Sc. to B.Tech.?
       - Is branch change possible in the second year?
+      - can i swap the courses?
+      - I am belong to one particular department.So,Can I switch to other courses after joining?
 
   - intent: First_graduate
     examples: |
@@ -452,19 +462,21 @@ nlu:
       - What is the total cost including all charges?
       - Do we have to pay for transportation separately?
       - Can you provide a detailed fee structure?
+      - Is there any fees apart from tutition fees
 
   - intent: about_industrial_visit
     examples: |
       - Do students get to visit industries?
       - Are industrial visits part of the curriculum?
-      - How often do you conduct industry visits?
+      - How often do you conduct IV?
       - Which companies do students visit?
       - Is industrial training included in the course?
-      - Can students request industrial visits?
+      - Can students request iv?
       - How do I register for an industrial visit?
       - Are there any extra fees for industrial visits?
-      - Are industrial visits compulsory?
+      - Are industrial visits(IV) compulsory?
       - What’s the process to join an industrial visit?
+      - IV is available or not?
 
   - intent: admission_deadline_lastdate
     examples: |
@@ -535,6 +547,7 @@ nlu:
       - Does SSMIET offer direct second-year admission for lateral entry students?
       - Are polytechnic diploma holders eligible for admission at SSMIET?
       - What are the eligibility criteria for lateral entry at SSMIET?
+      - I am finished diploma.can i join this college now?
 
   - intent: Sports_NCC_government_management_quota
     examples: |
@@ -582,6 +595,7 @@ nlu:
       - Can you share information about the experience and qualifications of the teaching staff?
       - How experienced are the faculty members at SSMIET?
       - What are the academic credentials of the SSMIET faculty?
+      
   - intent: college_timing
     examples: |
       - What are the college working hours?
@@ -736,3 +750,23 @@ nlu:
       - Does the cutoff vary for different courses?
       - Is the cutoff the same for both online and offline admissions?
       - If I don’t meet the cutoff, can I apply through management quota?
+      
+  - intent: college_qualification
+    examples: |
+      - Is this ssmiet college approved?
+      - Is this ssmiet college good?
+      - Can I get a valid degree from here?
+      - Is this college recognized by the government?
+      - Is AICTE approval required for this college?
+      - Does this college have NBA and NAAC accreditation?
+      - Is the degree valid for jobs and higher studies?
+      - Is this institution accredited by AICTE, NBA, and NAAC?
+      - What is the NAAC accreditation grade of the college?
+      - Does the college have program-wise NBA accreditation?
+      - Are all courses AICTE-approved, or only specific programs?
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - See you later
+      - Goodbye
