@@ -66,4 +66,33 @@ stories:
       - intent: cse_lab_facilities
       - action: utter_cse_lab_facilities
 
+  - story: cse department activities story
+    steps:
+      - intent: cse_department_activities
+      - action: utter_cse_department_activities
+
+  - story: cse student activities story
+    steps:
+      - intent: cse_student_activities
+      - action: utter_cse_student_activities
+
+  - story: cse faculty activities story
+    steps:
+      - intent: cse_faculty_activities
+      - action: utter_cse_faculty_activities
+
+  - story: cse professional bodies story
+    steps:
+      - intent: cse_professional_bodies
+      - action: utter_cse_professional_bodies
+
+  - story: cse research activities story
+    steps:
+      - intent: cse_research_activities
+      - action: utter_cse_research_activities
+
+  - story: cse newsletter story
+    steps:
+      - intent: cse_newsletter
+      - action: utter_cse_newsletter
 
