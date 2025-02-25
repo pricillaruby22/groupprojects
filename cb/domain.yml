@@ -55,6 +55,12 @@ intents:
   - college_admission_eligibility
   - college_qualification
   - goodbye
+  - cse_course_outcomes
+  - cse_department_info_about
+  - cse_total_students
+  - cse_female_girls_students
+  - cse_male_boys_students
+  - cse_lab_facilities
 
 responses:
   utter_greet:
@@ -116,6 +122,9 @@ responses:
   utter_fee_structure_info:
       - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
 
+  utter_college_location_address:
+    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the Location of our college: https://ssmiet.ac.in/contact-us.html"
+  
   utter_college_courses:
     - text: |
           Our College Offers Various Courses:\n
@@ -373,10 +382,11 @@ responses:
       
 
   utter_hod_details:
-    - text: 🔹 Name: Dr. C. Sujatha
-            🔹 Position: Head of the Department (HOD), CSE, SSMIET
-            🔹 Years of Experience: 21+ years in teaching & research
-            🔹 Qualification: 🎓 Ph.D, M.E, B.E
+    - text: |
+       🔹 Name: Dr. C. Sujatha
+       🔹 Position: Head of the Department (HOD), CSE, SSMIET
+       🔹 Years of Experience: 21+ years in teaching & research
+       🔹 Qualification: 🎓 Ph.D, M.E, B.E
 
 
   utter_cse_faculty:
@@ -445,6 +455,39 @@ responses:
         **PSO1**: Understand the principles of basic engineering and acquire the hardware and software aspects of computer science and engineering.
         
         **PSO2**: Design and develop applications or products using various programming languages.
+
+  utter_cse_course_outcomes:
+    - text: |
+        "You can find the course outcomes for the CSE department at SSMIET in the following PDF: https://ssmiet.ac.in/CSE/CO%20NEW.pdf"
+
+  utter_cse_department_info_about:
+    - text: |
+        "Our department was established in 2011. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs and facilitates in-plant training, industrial visits, and internships. Our students are placed in top companies like Infosys, Wipro, TCS, HCL, Accenture, and more."
+
+  utter_cse_department_vision:
+    - text: |
+        "**Vision**: To establish as an eminent department by imparting strong knowledge in computer science and engineering, fostering a dynamic learning environment that cultivates practical skills in software development, computing technologies, and ethical principles to meet industrial needs and societal expectations."
+  
+  utter_cse_department_mission:
+    - text: |
+        "**Mission**: \n • To upskill knowledge among students through the latest technologies\n • To empower students with the essential skills required to excel in their field through collaborative initiatives with industries.\n • To inculcate a sense of responsibility towards society with ethical values."
+
+  utter_cse_total_students:
+    - text: 
+        "The total student count in the CSE department varies each academic year."
+  
+  utter_cse_female_girls_students:
+    - text: 
+        "The number of female students in the CSE department varies."
+  
+  utter_cse_male_boys_students:
+    - text: 
+        "The number of male students in the CSE department varies."
+
+  utter_cse_lab_facilities:
+    - text: 
+        "You can find details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
+
 
 
  

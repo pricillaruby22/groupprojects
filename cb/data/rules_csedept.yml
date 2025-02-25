@@ -26,5 +26,44 @@ rules:
       - intent: pso_cse_department
       - action: utter_pso_cse_department
 
+  - rule: Respond to CSE course outcomes
+    steps:
+    - intent: cse_course_outcomes
+    - action: utter_cse_course_outcomes
+
+  - rule: Respond to CSE department info or about
+    steps:
+      - intent: cse_department_info_about
+      - action: utter_cse_department_info_about
+
+  - rule: Respond to CSE department vision
+    steps:
+      - intent: cse_department_vision
+      - action: utter_cse_department_vision
+
+  - rule: Respond to CSE department mission
+    steps:
+      - intent: cse_department_mission
+      - action: utter_cse_department_mission
+
+  - rule: Respond to CSE total students count
+    steps:
+      - intent: cse_total_students
+      - action: utter_cse_total_students
+
+  - rule: Respond to CSE female or girls students count
+    steps:
+      - intent: cse_female_girls_students
+      - action: utter_cse_female_girls_students
+
+  - rule: Respond to CSE male or boys students count
+    steps:
+      - intent: cse_male_boys_students
+      - action: utter_cse_male_boys_students
+
+  - rule: Respond to CSE lab facilities
+    steps:
+      - intent: cse_lab_facilities
+      - action: utter_cse_lab_facilities
 
 
