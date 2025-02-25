@@ -95,4 +95,19 @@ rules:
     steps:
       - intent: cse_newsletter
       - action: utter_cse_newsletter
+  
+  - rule: Respond to MOU inquiry
+    steps:
+      - intent: mou_sign_company
+      - action: utter_mou_sign_company
+    
+  - rule: Respond to internship companies
+    steps:
+      - intent: intern_company
+      - action: utter_intern_company
+  
+  - rule: Provide cse contact details
+    steps:
+      - intent: cse_contact
+      - action: utter_cse_contact
 

@@ -387,6 +387,7 @@ responses:
         - Management Quota: No specific cutoff, direct admission available.
       
 
+    
   utter_hod_details:
     - text: |
        🔹 Name: Dr. C. Sujatha
@@ -529,3 +530,53 @@ responses:
  
   utter_goodbye:
     - text: "Good Bye!..."
+  utter_mou_sign_company:
+    - text: "Here are the companies that have signed an MOU with our institution: 
+              1. Code Tantra 
+              2. Edunet Foundation
+              3. Vinculo
+              4. Svasti Technology Solutions
+              5. Accent Techno Soft (ATS)
+              6. Maxelerator Foundation
+              7. Spotlight Technology
+              8. Tarcin Robotics
+              9. Pirai Infotech Private Limited
+              10. Red Hat India Private Limited
+              11. Airmate Technologies
+              12. Silicon Software Services
+              13. Elysium Academy Private Limited
+              14. Cloud Systems\n15. NIIT - Dindigul
+              16. Gateway Software Solutions
+              17. Micro Genesis Tech Soft Private Limited"
+   
+  utter_intern_company:
+    - text: |
+             Here are top companies to get the internship
+              ✅ Pirai Infotech Pvt Ltd, Pollachi
+              ✅ 4i Apps Solutions Pvt Ltd, Chennai
+              ✅ Tech Volt Software
+              ✅ QSpiders
+              ✅ Maxelerator Foundation
+              ✅ PHP Master Minds
+              ✅ Secure Binary
+              ✅ Augray
+              ✅ Practical Black
+              ✅ Code Bind
+
+              📊 Year-wise internship count:
+              🔹 2023-2024 => 17 students
+              🔹 2022-2023 => 18 students
+              🔹 2021-2022 => 8 students
+              🔹 2020-2021 => 1 student
+              🔹 2019-2020 => 11 students
+              🔹 2018-2019 => 24 students
+
+
+
+  utter_contact_info:
+    - text: |
+        📌 The Head of the Department,
+        🏛️ Department of Computer Science and Engineering,
+        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
+        📞 Phone: 0451 – 2448843
+        ✉️ Email: hodcsessmiet@gmail.com
