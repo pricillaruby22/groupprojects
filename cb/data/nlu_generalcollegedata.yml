@@ -832,7 +832,15 @@ nlu:
       - What trends have been observed in department-wise placements over the past five years?
       - How does the placement cell support departments with lower placement rates?
       - What initiatives are taken to improve placement numbers for underrepresented departments?
-
+  - intent: ssmiet_college_ranking
+    examples: |
+      - What is the ranking of SSM Institute of Engineering and Technology?
+      - how much rank does ssmiet has?
+      - what is the rank of SSMIET?
+      - How is SSMIET ranked in Tamil Nadu?
+      - SSMIET ranking in 2024,2025?
+      - What is the position of SSM Institute in Anna University rankings?
+      - Where does SSM Institute of Engineering and Technology stand in Tamil Nadu rankings?
   - intent: goodbye
     examples: |
       - Bye
