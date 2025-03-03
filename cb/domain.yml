@@ -76,7 +76,7 @@ intents:
   - cse_cse_accreditation
   - curriculum_relevance_industry
   - ssmiet_college_ranking
-  - curriculum_relevance_industry
+  - ssmiet_organization_clubs
 
 responses:
   utter_greet:
@@ -672,6 +672,16 @@ responses:
 
   utter_ssmiet_college_ranking:
     - text: "SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024."
+  utter_ssmiet_organization_clubs:
+    - text: "Yes! SSMIET offers various student clubs, including:\n
+        - Rotaract Club\n
+        - Young Innovators Club\n
+        - Math Club\n
+        - NDLI Club\n
+        - Yuva Club\n
+        - Build Club\n
+        - Space Club\n
+        These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
 
 
 

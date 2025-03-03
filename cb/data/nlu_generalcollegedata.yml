@@ -841,6 +841,14 @@ nlu:
       - SSMIET ranking in 2024,2025?
       - What is the position of SSM Institute in Anna University rankings?
       - Where does SSM Institute of Engineering and Technology stand in Tamil Nadu rankings?
+  - intent: ssmiet_orgaization_clubs
+    examples: |
+      - Are there any clubs in this college/organisation?
+      - What clubs are available in this college/organization?
+      - Do you have student clubs?
+      - Tell me about the clubs in your college.
+      - Does your college have any clubs for students?
+      - What kind of clubs do students participate in?
   - intent: goodbye
     examples: |
       - Bye
