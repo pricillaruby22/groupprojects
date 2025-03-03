@@ -274,6 +274,7 @@ nlu:
         - Are student achievements highlighted in the CSE department newsletter?
         - How does the CSE department newsletter help in knowledge sharing?
         - Where can I find previous editions of the CSE department newsletter?
+
     - intent: mou_sign_company
       examples: |
         - Which companies have signed an MOU with the institution?
@@ -325,7 +326,7 @@ nlu:
       - Extra courses provided by CSE department
       - List the value-added courses for CSE students
       - Do CSE students have any extra learning opportunities? 
-
+                      
     - intent: placement_company_names
       examples: |
       - Which companies come for placements in CSE?
@@ -350,7 +351,7 @@ nlu:
       - Give me the names of companies for CSE placements   
       
     - intent: curriculum_relevance_industry
-       examples: |
+      examples: |
       - How does my course content align with current industry standards?
       - Is my curriculum updated based on industry trends?
       - does this college have the curriculum updated to the industrial needs
@@ -366,5 +367,54 @@ nlu:
       - Do we incorporate industry certifications and real-world projects in the syllabus?
       - how the ssmietcollege manage in keeping the curriculum relevant?
 
-  
+    - intent: cse_yearwise_student_count
+      examples: |
+        - What is the year-wise student count for the CSE department since the college started?
+        - Can you provide the student intake count for the CSE department for each academic year since inception?
+        - How many students were admitted to the CSE department each year from the beginning?
+        - What is the total number of students enrolled in the CSE department for every academic year since the college started?
+        - How has the student strength of the CSE department varied year by year since the first batch?
+        - What are the year-wise student counts for the CSE department?
+        - Can you provide the student count for each year in the CSE department?
+        - What is the breakdown of students by year in the CSE department?
+        - How many students are there in each academic year of the CSE department?
+        - What is the total number of students per year in the CSE department?
+
+    - intent: cse_event_conducted_photos
+      examples: |
+        - Can you provide photos of events conducted by the CSE department?  
+        - Where can I find images of past CSE department events?  
+        - Do you have a gallery of CSE department event photos?  
+        - Can you share pictures from recent CSE department activities?  
+        - Are there any photos available from CSE department symposiums and workshops?  
+        - How can I access images of hackathons and technical events hosted by the CSE department?  
+        - Do you have any pictures from cultural events organized by the CSE department?  
+        - Can I see photos of guest lectures and seminars conducted by the CSE department?  
+        - Are there any images of student project presentations in the CSE department?  
+        - Where can I view photos from annual CSE department functions and celebrations?
+        - What are the events conducted by the CSE department?
+        - Can you provide a list of events organized by the CSE department?
+        - What technical events does the CSE department host?
+        - What cultural programs are conducted by the CSE department?
+        - Does the CSE department organize hackathons or coding competitions?
+        - What annual events are held by the CSE department?
+        - Are there any workshops or seminars conducted by the CSE department?
+        - Does the CSE department conduct any inter-college competitions?
+
+    - intent: cse_faculty_experience_knowledge
+      examples: |
+        - What is the average teaching experience of CSE faculty at SSMIET?
+        - How many years of experience do the CSE faculty members have on average?
+        - What is the average industry experience of CSE faculty at SSMIET?
+        - How many faculty members in the CSE department have more than 10 years of experience?
+        - What is the experience range of professors in the CSE department?
+        - How many faculty members in CSE have prior industry knowledge?
+        - What percentage of CSE faculty have Ph.D. qualifications?
+        - How often do CSE faculty members update their knowledge with training or certifications?
+        - What is the total teaching experience of the senior-most faculty in the CSE department?
+        - How many CSE faculty members have more than five years of teaching experience?
+        - What is the minimum teaching experience required for CSE faculty at SSMIET?
+        - How many CSE faculty members have both academic and industry experience?
+        - What is the average number of years faculty members have worked at SSMIET?
+        - How many faculty members in the CSE department hold postgraduate degrees?
 

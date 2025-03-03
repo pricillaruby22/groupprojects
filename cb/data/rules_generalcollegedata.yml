@@ -245,10 +245,10 @@ rules:
       - intent: job_interview_preparation
       - action: utterjob__interview_preparation
 
-  - rule: Respond to smart classroom queries
+  - rule: Respond to smart classroom with projector queries
     steps:
-      - intent: smart_classrooms
-      - action: utter_smart_classrooms
+      - intent: smart_classrooms_projector
+      - action: utter_smart_classrooms_projector
 
   - rule: Respond to most or highest placement department queries
     steps:

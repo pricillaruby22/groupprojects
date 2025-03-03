@@ -796,6 +796,16 @@ nlu:
       - How often is the smart classroom technology updated?
       - Do faculty members receive training to use smart classroom features effectively?
       - Can students access recorded lectures from smart classrooms?
+      - Is there a projector available in the labs at SSMIET?
+      - How many projectors are there in SSMIET classrooms and labs?
+      - Are projectors used for teaching in the labs?
+      - What type of projectors are installed in the labs at SSMIET?
+      - Can students use projectors for presentations?
+      - Are projectors available in all classrooms at SSMIET?
+      - Do the projectors support HDMI and VGA connections?
+      - Is there a smart classroom with a projector at SSMIET?
+      - How can faculty or students request a projector for use?
+      - Are projectors regularly maintained and upgraded at SSMIET?
 
   - intent: most_highest_placement_department
     examples: |

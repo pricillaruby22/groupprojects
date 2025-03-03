@@ -77,6 +77,12 @@ intents:
   - curriculum_relevance_industry
   - ssmiet_college_ranking
   - ssmiet_organization_clubs
+  - cse_yearwise_student_count
+  - cse_event_conducted_photos
+  - cse_faculty_experience_knowledge
+  - cse_yearwise_student_count
+  - cse_event_conducted_photos
+  - cse_faculty_experience_knowledge
 
 responses:
   utter_greet:
@@ -649,7 +655,7 @@ responses:
     - text: |
         "We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance."
 
-  utter_smart_classrooms:
+  utter_smart_classrooms_projector:
     - text: |
         "Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons."
 
@@ -668,7 +674,8 @@ responses:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
   utter_curriculum_relevance_industry:
-    - text: "Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations."
+    - text: |
+        "Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations."
 
   utter_ssmiet_college_ranking:
     - text: "SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024."
@@ -683,6 +690,29 @@ responses:
         - Space Club\n
         These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
 
+  utter_cse_yearwise_student_count:
+    - text: |
+        "Yearwise student count in CSE department"
+
+  utter_cse_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_cse_faculty_experience_knowledge:
+    - text: |
+        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+  utter_cse_yearwise_student_count:
+    - text: |
+        "Yearwise student count in CSE department"
+
+  utter_cse_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_cse_faculty_experience_knowledge:
+    - text: |
+        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
 
   
