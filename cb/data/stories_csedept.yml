@@ -130,3 +130,7 @@ stories:
       - intent: placement_company_names
       - action: utter_placement_company_names     
   
+  - story: Accreditation inquiry
+    steps:
+      - intent: cse_accreditation
+      - action: utter_cse_accreditation

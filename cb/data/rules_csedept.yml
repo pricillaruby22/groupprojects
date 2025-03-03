@@ -131,3 +131,8 @@ rules:
       - action: utter_placement_company_names      
 
 
+ 
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_cse_accreditation
+      - action: utter_cse_accreditation

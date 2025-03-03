@@ -73,6 +73,7 @@ intents:
   - most_highest_placement_department
   - eligible_student_placement_opportunities
   - each_all_department_get_placed
+  - cse_cse_accreditation
 
 responses:
   utter_greet:
@@ -660,3 +661,5 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
+  utter_accreditation:
+    - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
