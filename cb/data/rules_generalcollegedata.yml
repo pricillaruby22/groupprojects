@@ -268,7 +268,10 @@ rules:
     steps:
       - intent: ssmiet_college_ranking
       - action: utter_ssmiet_college_ranking
-
+  - rule: Respond to organization clubs query
+    steps:
+      - intent: ssmiet_organization_clubs
+      - action: utter_ssmiet_organization_clubs
 
   - rule: Say goodbye anytime the user says goodbye
     steps:

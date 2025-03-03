@@ -309,6 +309,10 @@ stories:
     steps:
       - intent: ssmiet_college_ranking
       - action: utter_ssmiet_college_ranking
+  - story: User asks about student clubs
+    steps:
+      - intent: ssmiet_organization_clubs
+      - action: utter_ssmiet_organization_clubs
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
