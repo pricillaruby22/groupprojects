@@ -73,6 +73,7 @@ intents:
   - most_highest_placement_department
   - eligible_student_placement_opportunities
   - each_all_department_get_placed
+  - curriculum_relevance_industry
 
 responses:
   utter_greet:
@@ -660,3 +661,10 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
+ 
+  utter_curriculum_relevance_industry:
+    - text: "Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations."
+
+
+
+  

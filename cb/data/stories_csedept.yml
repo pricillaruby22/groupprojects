@@ -128,5 +128,11 @@ stories:
   - story: Provide CSE placement company names
     steps:
       - intent: placement_company_names
-      - action: utter_placement_company_names     
+      - action: utter_placement_company_names
+  - story: User asks about curriculum relevance
+    steps:
+      - intent: curriculum_relevance_industry
+      - action: utter_curriculum_relevance_industry
+      - intent: thank_you
+      - action: utter_you_are_welcome     
   
