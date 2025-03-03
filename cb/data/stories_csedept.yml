@@ -134,3 +134,11 @@ stories:
     steps:
       - intent: cse_accreditation
       - action: utter_cse_accreditation
+      - action: utter_placement_company_names
+  - story: User asks about curriculum relevance
+    steps:
+      - intent: curriculum_relevance_industry
+      - action: utter_curriculum_relevance_industry
+      - intent: thank_you
+      - action: utter_you_are_welcome     
+  

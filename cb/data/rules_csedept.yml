@@ -136,3 +136,7 @@ rules:
     steps:
       - intent: ask_cse_accreditation
       - action: utter_cse_accreditation
+  - rule: Respond to curriculum relevance query
+    steps:
+      - intent: curriculum_relevance_industry
+      - action: utter_curriculum_relevance_industry
