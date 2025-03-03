@@ -335,6 +335,18 @@ nlu:
       - Which companies hire from the CSE department?
       - Who are the recruiters for CSE students?
       - Which companies visit for CSE placements?
+      - Give me the names of companies for CSE placements     
+    - intent: cse_accreditation
+      examples: |
+        - What are the accreditations and affiliations of the CSE department?
+        - Is the CSE department accredited by NAAC and AICTE?
+        - Under which university is the CSE department affiliated?
+        - Is the CSE department approved by the government?
+        - Does the CSE department have AICTE and NAAC approval?
+        - Which university is the CSE department connected with?
+        - Is the CSE department good?
+        - Is this college’s CSE department recognized by the government?
+        - Is the CSE course valid for jobs?
       - Give me the names of companies for CSE placements   
       
     - intent: curriculum_relevance_industry
