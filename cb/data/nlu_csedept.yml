@@ -335,5 +335,24 @@ nlu:
       - Which companies hire from the CSE department?
       - Who are the recruiters for CSE students?
       - Which companies visit for CSE placements?
-      - Give me the names of companies for CSE placements     
+      - Give me the names of companies for CSE placements   
+      
+    - intent: curriculum_relevance_industry
+       examples: |
+      - How does my course content align with current industry standards?
+      - Is my curriculum updated based on industry trends?
+      - does this college have the curriculum updated to the industrial needs
+      - Are we learning skills that companies are looking for right now?
+      - Does the university update subjects to match job market requirements?
+      - How do the syllabus matches with the industry needs?
+      - How does this curriculum ensure graduates meet industry needs?
+      - Are students trained in the latest technologies we use in our company?
+      - Does the institution collaborate with companies to update coursework?
+      - is the syllabus related to the curriculum?
+      - How do you incorporate real-world skills into the academic program?
+      - How do we revise the curriculum based on industry trends?
+      - Do we incorporate industry certifications and real-world projects in the syllabus?
+      - how the ssmietcollege manage in keeping the curriculum relevant?
+
+  
 
