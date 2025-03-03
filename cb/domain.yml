@@ -36,7 +36,7 @@ intents:
   - admission_start_date
   - lateral_entry
   - Sports_NCC_government_management_quota
-  - placement_details
+  - placement_details_campus
   - staff_professors_faculty_qualifications_experience
   - cse_hod_details
   - cse_faculty_details
@@ -68,6 +68,11 @@ intents:
   - cse_professional_bodies
   - cse_research_activities
   - cse_newsletter
+  - job_interview_preparation
+  - smart_classrooms
+  - most_highest_placement_department
+  - eligible_student_placement_opportunities
+  - each_all_department_get_placed
 
 responses:
   utter_greet:
@@ -254,7 +259,7 @@ responses:
   utter_about_industrial_visit:
     - text: "Yes,SSMIET organizes industrial visits for students to gain practical exposure.  Participation is encouraged but subject to academic performance and attendance requirements."
 
-  utter_placement_details:
+  utter_placement_details_campus:
     - text: |
         **Placement Details**:
         
@@ -602,8 +607,6 @@ responses:
               🔹 2019-2020 => 11 students
               🔹 2018-2019 => 24 students
 
-
-
   utter_contact_info:
     - text: |
         📌 The Head of the Department,
@@ -638,3 +641,22 @@ responses:
             - Pirai Infotech Pvt Ltd
             - ThinkBig Infotech Pvt Ltd
             - Net Tel Solutions India Pvt Ltd      
+  utter_job_interview_preparation:
+    - text: |
+        "We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance."
+
+  utter_smart_classrooms:
+    - text: |
+        "Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons."
+
+  utter_most_highest_placement_department:
+    - text: |
+        "The departments with the highest placement rates are Computer Science, Information Technology, and Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives."
+  
+  utter_eligible_student_placement_opportunities:
+    - text: |
+        "All eligible students get placement opportunities. The college organizes multiple campus drives, inviting various companies to ensure that students from different departments have job opportunities. Training sessions and mock interviews are also conducted to help students prepare."
+  
+  utter_each_all_department_get_placed:
+    - text: |
+        "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
