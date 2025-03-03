@@ -130,14 +130,11 @@ rules:
       - intent: placement_company_names
       - action: utter_placement_company_names      
 
-<<<<<<< Updated upstream
   - rule: Respond to accreditation queries
     steps:
       - intent: ask_cse_accreditation
       - action: utter_cse_accreditation
 
-=======
->>>>>>> Stashed changes
   - rule: Respond to curriculum relevance query
     steps:
       - intent: curriculum_relevance_industry

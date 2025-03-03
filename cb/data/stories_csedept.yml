@@ -159,9 +159,6 @@ stories:
   - story: CSE faculty experience knowledge inquiries
     steps:
       - intent: cse_faculty_experience_knowledge
-<<<<<<< Updated upstream
       - action: utter_cse_faculty_experience_knowledge
 
-=======
       - action: utter_cse_faculty_experience_knowledge
->>>>>>> Stashed changes
