@@ -264,6 +264,11 @@ rules:
     steps:
       - intent: each_all_department_get_placed
       - action: utter_each_all_department_get_placed
+  - rule: Respond to SSMIET college ranking query
+    steps:
+      - intent: ssmiet_college_ranking
+      - action: utter_ssmiet_college_ranking
+
 
   - rule: Say goodbye anytime the user says goodbye
     steps:

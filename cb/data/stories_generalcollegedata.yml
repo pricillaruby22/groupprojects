@@ -304,7 +304,10 @@ stories:
     steps:
       - intent: each_all_department_get_placed
       - action: utter_each_all_department_get_placed
-      
+  - story: User asks about SSMIET ranking
+    steps:
+      - intent: ssmiet_college_ranking
+      - action: utter_ssmiet_college_ranking
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
