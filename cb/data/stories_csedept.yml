@@ -135,10 +135,33 @@ stories:
       - intent: cse_accreditation
       - action: utter_cse_accreditation
       - action: utter_placement_company_names
+
   - story: User asks about curriculum relevance
     steps:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry
+
+  - story: Thank you response 
+    steps:
       - intent: thank_you
       - action: utter_you_are_welcome     
+
+  - story: CSE year-wise student count inquiries
+    steps:
+      - intent: cse_yearwise_student_count
+      - action: utter_cse_yearwise_student_count
+
+  - story: CSE event conducted photo inquiries
+    steps:
+      - intent: cse_event_conducted_photos
+      - action: utter_cse_event_photos
   
+  - story: CSE faculty experience knowledge inquiries
+    steps:
+      - intent: cse_faculty_experience_knowledge
+<<<<<<< Updated upstream
+      - action: utter_cse_faculty_experience_knowledge
+
+=======
+      - action: utter_cse_faculty_experience_knowledge
+>>>>>>> Stashed changes

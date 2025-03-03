@@ -130,13 +130,30 @@ rules:
       - intent: placement_company_names
       - action: utter_placement_company_names      
 
-
- 
+<<<<<<< Updated upstream
   - rule: Respond to accreditation queries
     steps:
       - intent: ask_cse_accreditation
       - action: utter_cse_accreditation
+
+=======
+>>>>>>> Stashed changes
   - rule: Respond to curriculum relevance query
     steps:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry
+
+  - rule: Respond to CSE year-wise student count queries
+    steps:
+      - intent: cse_yearwise_student_count
+      - action: utter_cse_yearwise_student_count
+
+  - rule: Respond to CSE event conducted photo queries
+    steps:
+      - intent: cse_event_conducted_photos
+      - action: utter_cse_event_conducted_photos
+
+  - rule: Respond to CSE faculty experience knowledge queries
+    steps:
+      - intent: cse_faculty_experience_knowledge
+      - action: utter_cse_faculty_experience_knowledge

@@ -286,10 +286,10 @@ stories:
       - intent: job_interview_preparation
       - action: utter_job_interview_preparation
 
-  - story: Smart classrooms inquiries
+  - story: Smart classrooms with projector inquiries
     steps:
-      - intent: smart_classrooms
-      - action: utter_smart_classrooms
+      - intent: smart_classrooms_projector
+      - action: utter_smart_classrooms_projector
 
   - story: most or highest placement department inquiries
     steps:
