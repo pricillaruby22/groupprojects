@@ -318,8 +318,6 @@ nlu:
         - Can you provide the department's contact information?
         - CSE contact details
 
-
-
     - intent: extra_courses_dept
       examples: |
       - Tell me about the value-added courses in CSE department

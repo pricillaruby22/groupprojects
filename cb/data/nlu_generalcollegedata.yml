@@ -570,7 +570,7 @@ nlu:
       - What is the fee structure for government quota vs. management quota?
       - Does SSMIET follow Anna University guidelines for quota admissions?
 
-  - intent: placement_details
+  - intent: placement_details_campus
     examples: |
       - Give me the placement details for past years.
       - Can you provide the previous years' placement statistics?
@@ -582,6 +582,13 @@ nlu:
       - How many students were placed in the last few years?
       - Show me the placement statistics from 2018 to 2023.
       - What is the yearly placement count at SSMIET?
+      - How many students get placed through campus interviews each year?
+      - What is the placement percentage of the college?
+      - How many students receive job offers through campus recruitment?
+      - How many final-year students participate in campus placements?
+      - How many students get placed in core companies?
+      - How many students secure jobs through campus drives?
+
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
@@ -764,6 +771,67 @@ nlu:
       - What is the NAAC accreditation grade of the college?
       - Does the college have program-wise NBA accreditation?
       - Are all courses AICTE-approved, or only specific programs?
+
+  - intent: job_interview_preparation
+    examples: |
+      - What strategies do you use to prepare students for job interviews?
+      - How do you help students improve their technical skills for technical rounds?
+      - Do you conduct mock interviews or practice sessions?
+      - How do you tailor interview preparation for different industries?
+      - What resources do you provide to help students with interview preparation?
+      - How do you help students build confidence for interviews?
+      - How do you train students for behavioral and HR interviews?
+      - Do you provide mentorship or one-on-one coaching for interview preparation?
+      - How does the college support students in securing placements?
+    
+  - intent: smart_classrooms
+    examples: |
+      - Does the college have smart classrooms?
+      - How many smart classrooms are available on campus?
+      - What technologies are equipped in the smart classrooms?
+      - Are all classrooms upgraded to smart classrooms?
+      - How do smart classrooms enhance the learning experience?
+      - Do students have access to digital learning tools in classrooms?
+      - Are smart classrooms used for all subjects or specific courses?
+      - How often is the smart classroom technology updated?
+      - Do faculty members receive training to use smart classroom features effectively?
+      - Can students access recorded lectures from smart classrooms?
+
+  - intent: most_highest_placement_department
+    examples: |
+      - Which department has the most students placed?
+      - Do all departments have good placement opportunities?
+      - Are placement rates different for each department?
+      - Which department consistently has the highest placement rate?
+      - How do placement rates vary across engineering and non-engineering departments?
+      - Are there departments where placements are lower compared to others?
+      - What factors contribute to higher placement rates in certain departments?
+      - How do industry trends affect placement rates across different departments?
+      - Has the placement rate for any department improved significantly over the years?
+
+  - intent: eligible_student_placement_opportunities
+    examples: |
+      - Does every student get a chance to attend campus interviews?
+      - Are there placement opportunities for students from all courses?
+      - What is the eligibility criteria for campus placements?
+      - How does the college ensure that all eligible students get placement opportunities?
+      - What percentage of eligible students secure jobs through campus recruitment?
+      - Are there any students who don’t get placed despite meeting the eligibility criteria?
+      - What measures does the college take to improve placement opportunities for all eligible students?
+      - How do students who don’t get placed through campus drives find jobs?
+      - What strategies are used to increase placement opportunities for students in low-demand fields?
+
+  - intent: each_all_department_get_placed
+    examples: |
+      - How many students from each department get placed every year?
+      - Do some departments have higher placement numbers than others?
+      - Is placement available for students in all departments?
+      - What is the average number of students placed in each department annually?
+      - How do placement numbers vary between technical and non-technical departments?
+      - Are placement numbers consistent across all academic years?
+      - What trends have been observed in department-wise placements over the past five years?
+      - How does the placement cell support departments with lower placement rates?
+      - What initiatives are taken to improve placement numbers for underrepresented departments?
 
   - intent: goodbye
     examples: |

@@ -175,10 +175,10 @@ stories:
       - intent: Sports_NCC_government_management_quota
       - action: utter_Sports_NCC_government_management_quota
 
-  - story: provide placement details
+  - story: provide placement details campus
     steps:
-      - intent: placement_details
-      - action: utter_placement_details
+      - intent: placement_details_campus
+      - action: utter_placement_details_campus
 
   - story: Answer Faculty or staff or professors experience and qualification inquiry
     steps:
@@ -225,6 +225,52 @@ stories:
       - intent: bank_loans
       - action: utter_bank_loans
 
+  - story: Answer Faculty or staff or professors experience and qualification inquiry
+    steps:
+      - intent: staff_professors_faculty_qualifications_experience
+      - action: utter_staff_professors_faculty_qualifications_experience
+
+
+  - story: User asks about college working hours
+    steps:
+      - intent: college_timing
+      - action: utter_college_timing
+
+  - story: User asks about scholarship details
+    steps:
+      - intent: scholarship_details
+      - action: utter_scholarship_details
+
+  - story: User asks about academic calendar
+    steps:
+      - intent: academic_calendar
+      - action: utter_academic_calendar
+
+  - story: User asks about admission documents
+    steps:
+      - intent: admission_documents
+      - action: utter_admission_documents
+  
+  - story: User asks about counselling process
+    steps:
+      - intent: counselling_process
+      - action: utter_counselling_process
+
+  - story: User asks about college benefits
+    steps:
+      - intent: college_benefits
+      - action: utter_college_benefits
+
+  - story: User asks about staff count
+    steps:
+      - intent: staff_count
+      - action: utter_staff_count
+
+  - story: User asks about bank loans
+    steps:
+      - intent: bank_loans
+      - action: utter_bank_loans
+
   - story: User asks for cutoff details
     steps:
       - intent: cutoff_details
@@ -233,6 +279,31 @@ stories:
     steps:
       - intent: college_qualification
       - action: utter_college_qualification
+    
+  - story: Job interview preparation inquiries
+    steps:
+      - intent: job_interview_preparation
+      - action: utter_job_interview_preparation
+
+  - story: Smart classrooms inquiries
+    steps:
+      - intent: smart_classrooms
+      - action: utter_smart_classrooms
+
+  - story: most or highest placement department inquiries
+    steps:
+      - intent: most_highest_placement_department
+      - action: utter_most_highest_placement_department
+        
+  - story: Eligible student placement opportunities inquiries
+    steps:
+      - intent: eligible_student_placement_opportunities
+      - action: utter_eligible_student_placement_opportunities
+
+  - story: Each department placement numbers inquiries
+    steps:
+      - intent: each_all_department_get_placed
+      - action: utter_each_all_department_get_placed
       
   - story: Say goodbye anytime the user says goodbye
     steps:

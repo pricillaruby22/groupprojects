@@ -179,10 +179,10 @@ rules:
       - intent: about_industrial_visit
       - action: utter_about_industrial_visit
 
-  - rule: Respond to placement details query
+  - rule: Respond to placement details campus query
     steps:
-      - intent: placement_details
-      - action: utter_placement_details
+      - intent: placement_details_campus
+      - action: utter_placement_details_campus
 
   - rule: Respond to faculty or staff or professors experience and qualifications queries
     steps:
@@ -239,6 +239,31 @@ rules:
     steps:
       - intent: college_qualification
       - action: utter_college_qualification
+
+  - rule: Respond to job interview preparation queries
+    steps:
+      - intent: job_interview_preparation
+      - action: utterjob__interview_preparation
+
+  - rule: Respond to smart classroom queries
+    steps:
+      - intent: smart_classrooms
+      - action: utter_smart_classrooms
+
+  - rule: Respond to most or highest placement department queries
+    steps:
+      - intent: most_highest_placement_department
+      - action: utter_most_highest_placement_department
+
+  - rule: Respond to eligible student placement opportunities queries
+    steps:
+      - intent: eligible_student_placement_opportunities
+      - action: utter_eligible_student_placement_opportunities
+        
+  - rule: Respond to each or all department placement numbers queries
+    steps:
+      - intent: each_all_department_get_placed
+      - action: utter_each_all_department_get_placed
 
   - rule: Say goodbye anytime the user says goodbye
     steps:
