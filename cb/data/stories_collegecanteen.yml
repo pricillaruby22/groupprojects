@@ -1,0 +1,14 @@
+- story: User asks about canteen availability
+  steps:
+  - intent: ask_canteen_facility
+  - action: utter_canteen_availability
+
+- story: User asks about food options in the canteen
+  steps:
+  - intent: ask_canteen_facility
+  - action: utter_canteen_food_options
+
+- story: User asks about canteen timings and facilities
+  steps:
+  - intent: ask_canteen_facility
+  - action: utter_canteen_timings

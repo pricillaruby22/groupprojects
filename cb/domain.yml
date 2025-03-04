@@ -80,6 +80,7 @@ intents:
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
+<<<<<<< Updated upstream
   - college_events_annual_symposium
   - first_year_1st_students_count
   - second_year_2nd_students_count
@@ -89,6 +90,16 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
+=======
+  - cse_yearwise_student_count
+  - cse_event_conducted_photos
+  - cse_faculty_experience_knowledge
+  - ask_ragging
+  - ask_bus_seat
+  - ask_campus_photos
+  - ask_bus_facility
+  - ask_canteen_facility
+>>>>>>> Stashed changes
 
 responses:
   utter_greet:
@@ -758,5 +769,105 @@ responses:
     - text: |
         "The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation."
 
+  utter_ragging_no_ragging:
+    - text: "Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students."
 
+  utter_ragging_prevention:
+    - text: "To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues."
+
+  utter_ragging_helpline:
+    - text: "If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured."
+
+  utter_ragging_punishment:
+    - text: "Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college."
+
+  utter_ragging_awareness:
+    - text: "Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment."
+
+  utter_bus_seat_fcfs:
+    - text: "Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat."
+
+  utter_bus_seat_full:
+    - text: "If the bus is full, students may have to stand during the journey. There are no extra buses provided."
+
+  utter_bus_seat_no_reservation:
+    - text: "Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure."
+
+  utter_bus_seat_advice:
+    - text: "If you often face seating issues, consider taking an earlier bus or planning your schedule accordingly."
+
+  utter_campus_general_photos:
+    - text: |
+        Here are some images of our college campus:
+
+        ![Campus View 1](https://example.com/campus1.jpg)
+        ![Campus View 2](https://example.com/campus2.jpg)
+        ![Campus View 3](https://example.com/campus3.jpg)
+
+  utter_campus_auditorium_photos:
+    - text: |
+        Here are some images of the college auditorium:
+
+        ![Auditorium 1](https://example.com/auditorium1.jpg)
+        ![Auditorium 2](https://example.com/auditorium2.jpg)
+
+  utter_campus_canteen_photos:
+    - text: |
+        Here are some images of the college canteen:
+
+        ![Canteen 1](https://example.com/canteen1.jpg)
+        ![Canteen 2](https://example.com/canteen2.jpg)
+
+  utter_campus_library_photos:
+    - text: |
+        Here are some images of the library:
+
+        ![Library 1](https://example.com/library1.jpg)
+        ![Library 2](https://example.com/library2.jpg)
+
+  utter_campus_hostel_photos:
+    - text: |
+        Here are some images of the hostel:
+
+        ![Hostel 1](https://example.com/hostel1.jpg)
+        ![Hostel 2](https://example.com/hostel2.jpg)
+
+  utter_campus_playground_photos:
+    - text: |
+        Here are some images of the playground:
+
+        ![Playground 1](https://example.com/playground1.jpg)
+        ![Playground 2](https://example.com/playground2.jpg)
+
+  utter_bus_facility_details:
+    - text: |
+        Our college provides a well-organized bus facility for students and staff. Here are the key details:
+        
+        - Buses cover multiple routes and ensure accessibility to different areas.
+        - Seating is based on a first-come, first-served (FCFS) system.
+        - If the bus is full, students may have to stand as no extra buses are available.
+        - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
+        - There is no seat reservation system; seating depends on availability.
+        - The bus service is available for both students and staff.
+        - A helpline is provided for any bus-related issues. Contact: [To be added]
+        
+        For more details, you can contact the transport department.      
+
+  utter_canteen_availability:
+    - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
   
+  utter_canteen_food_options:
+    - text: |
+        The canteen offers both vegetarian and non-vegetarian food options, including:
+        - Dosa
+        - Fried Rice
+        - Noodles
+        - Parotta
+        - Sambar Sadham
+        - Snacks and beverages are also available.
+  
+  utter_canteen_timings:
+    - text: |
+        The canteen operates from 8:30 AM to 5:00 PM. Seating arrangements are available for 200-300 students. Digital payments are accepted, and prices are affordable.
+        Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
+        For more details, you can contact the canteen management.
