@@ -314,6 +314,11 @@ rules:
       - intent: yearwise_student_count_ssmiet
       - action: utter_yearwise_student_count_ssmiet
 
+  - rule: Respond to placement training inquiries
+    steps:
+    - intent: placement_training
+    - action: utter_placement_training
+
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
