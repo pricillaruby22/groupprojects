@@ -89,6 +89,18 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
+  - lab_hardware_college
+  - student_feedback
+  - water_facilities
+  - recruiters_college_for_placements
+  - sports_achievements
+  - software_lab_details
+  - ask_lab_hardware
+  - staff_professor_count
+
+
+
+
 
 responses:
   utter_greet:
@@ -703,6 +715,8 @@ responses:
         - Build Club\n
         - Space Club\n
         These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
+  utter_lab_hardware_info:
+    - text: "SSMIET provides well-equipped computer labs with updated systems. The lab configurations include modern processors, sufficient RAM, and networking infrastructure. For specific details, please check the official SSMIET website or contact the administration."
 
   utter_cse_yearwise_student_count:
     - text: |
@@ -758,5 +772,48 @@ responses:
     - text: |
         "The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation."
 
-
+  utter_student_feedback:
+    - text: "You can submit your feedback only if you are an student/professor of our college using this link: [Feedback Form for studens] (https://ssmiet.ac.in/feedback.html) [feedback form for teachers] (https://ssmiet.ac.in/NAAC/C1/Teachers%20Feedback.pdf) "
+  utter_water_facilities:
+    - text: "Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users"
+  utter_recruiters_college_for_placements:
+    - text: "The list of recruiters visiting the college are Megaeon
+              - BSA
+              - DOMEX
+              - Data Patterns Ltd.
+              - PASMIN
+              - Hanureta
+              - Blstocss
+              - Tata Elevating India
+              - Revature
+              - Tech Mahindra
+              - Ashok Leyland
+              - Hexaware
+              - HCL Technologies
+              - Govern Adan Systems
+              - Valeo
+              - For  more details =>contact us:
+              - Mr.C.Silambarasan M.E.,
+              - Phone: 7373707001
+              - E-mail Id: placement.ssmiet@gmail.com"
+  utter_sports_achievements:
+    - text: "Our college has won multiple sports tournaments this year! Check out the details on our sports board "
+  utter_software_lab_details:
+    - text: "The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code,Android studio,UBUNTU,Eclipse, and more."
+  utter_ask_lab_hardware :
+    - text: |
+        The lab is equipped with:
+        - Processor: INTEL i7
+        - RAM: 16GB
+        - HDD: 500GB
+        - System Type: 64-bit OS
+        - OS: Windows 10, Ubuntu
+        - Display: 18.5" LCD
+        - Peripherals: Lenovo standard keyboard and optical mouse.
+  utter_staff_professor_count:
+    - text: "Teaching and non-teaching staff count over the years:
+      - 2024-2025: 96 Teaching, 33 Non-teaching
+      - 2023-2024: 78 Teaching, 34 Non-teaching
+      - 2022-2023: 70 Teaching, 29 Non-teaching
+      - 2021-2022: 95 Teaching, 38 Non-teaching"
   

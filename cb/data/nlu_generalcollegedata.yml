@@ -1021,6 +1021,160 @@ nlu:
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
     
+  - intent: lab_hardware_college
+    examples: |
+    - What are the hardware specifications of the computer labs in SSMIET?
+    - How many computers are available in the CSE department labs at SSMIET?
+    - What is the processor and RAM configuration of lab systems in SSMIET?
+    - Does SSMIET provide high-performance computing facilities in its labs?
+    - Are there dedicated servers for lab usage in SSMIET?
+    - What networking infrastructure is available in the CSE labs at SSMIET?
+    - Do the labs in SSMIET have GPU-enabled systems for AI/ML projects?
+    - What additional lab equipment is available in SSMIET’s CSE department?
+    - Are the lab systems in SSMIET regularly upgraded with the latest hardware?
+    - Does SSMIET provide specialized hardware for research projects in CSE?
+  
+  - intent: student_feedback
+    examples: |
+    - How can I give feedback?
+    - Where can I submit my feedback about the college?
+    - I want to share my opinion about my courses.
+    - Student feedback form link?
+    - How do I provide feedback on my professors?
+    - Can I review my professor's teaching?
+    - Is there a way to rate the faculty?
+    - Feedback for college infrastructure?
+    - I want to complain about a course.
+    - How to give suggestions to improve the college?
+    - What is the student feedback system?
+    - Can I submit an anonymous feedback?
+    - Where can I review my academic experience?
+    - Share link for feedback?
+    - How to submit a complaint about faculty?
+
+  - intent: water_facilities
+    examples: |
+    - What are the drinking water facilities available?
+    - Are there enough water coolers on campus?
+    - Is there clean drinking water in our college?
+    - Where can I find water coolers?
+    - Drinking purified water available in this SSMIET college?
+    - Does the college provide purified water?
+    - Is there a problem with drinking water?
+    - I need drinking water near my classroom.
+    - Are the water dispensers working?
+    - Is the water filter properly maintained?
+    - Can I get bottled water on campus?
+    - Any water shortage issues in college?
+    - Where are the water refill stations?
+    - Is the drinking water tested regularly?
+    - Can I bring my own water bottle?
+
+  - intent: recruiters_college_for_placements
+    examples: |
+    - What are the placement companies coming for hiring?
+    - Who are all the recruiters of this college?
+    - Which companies visit for hiring this college?
+    - Does this college have campus recruitment?
+    - Which companies visit the college for placements?
+    - Can you tell me about job opportunities?
+    - Are there any recruiters coming this year?
+    - Does the college have a placement cell?
+    - Can I get placed through college?
+    - What are the placements provided in this college?
+    - How many companies visited last year?
+    - Do startups also recruit/hire from this college?
+    - Where can I see the recruitment schedule?
+    - Are placements guaranteed for all students?
+    - How many recruiters are there in this college?
+
+  - intent: sports_achievements
+    examples: |
+    - What are all the sports available in this college?
+    - Tell me about the sports achievements?
+    - Is this college (SSMIET) good enough in sports/athletes?
+    - Sports achievement details?
+    - What are the sports achievements of this year?
+    - Can you tell me about the sports events?
+    - Which sports competitions were won by students?
+    - Has our college won any sports trophies?
+    - How did our sports teams perform this year?
+    - List the recent sports awards won.
+    - Which sports does our college excel in?
+    - Did we win any inter-college tournaments?
+    - Can I join a sports team?
+    - Where can I check the sports achievements?
+  - intent: software_lab_details
+    examples: |
+    - What are the software available in labs?
+    - Which programming software are used in college?
+    - Is Turbo C available in labs?
+    - Can I use Python IDLE in labs?
+    - Do labs have updated software?
+    - What IDEs are available in the college labs?
+    - Is VS Code installed in labs?
+    - Do labs provide Eclipse for Java programming?
+    - Does lab software change every semester?
+    - What are the latest updates in lab software?
+  - intent: ask_lab_hardware
+    examples: |
+    - Tell me about your lab components
+    - What hardware is available in the lab?
+    - Can you describe the lab setup?
+    - What computers do you have in the lab?
+    - What is the system configuration in your lab?
+    - Tell me the hardware details of your lab
+    - What are the specs of the lab computers?
+    - What are the hardware details of the lab? (Professor)
+    - Tell me about the lab setup for research
+    - What computing resources are available for faculty?
+    - What hardware does the lab have for students?
+    - What are the system specs in the student lab?
+    - Can I use Ubuntu in the lab?
+    - What hardware inventory does the lab have?
+    - How many systems are available in the lab?
+  - intent: staff_professor_count
+    examples: |
+    - How many professors are there in the college?
+    - What is the count of teaching staff?
+    - How many non-teaching staff are in the college?
+    - Staff count details for 2024?
+    - Professor count over the last few years?
+    - How many faculty members are there?
+    - What is the teaching and non-teaching staff count?
+    - Staff statistics for past years?
+    
+synonyms:
+  - synonym: recruitment
+    examples: |
+      - hiring
+      - job placements
+      - careers
+      - employment opportunities
+      - job openings
+
+  - synonym: water_facilities
+    examples: |
+      - drinking water
+      - water supply
+      - water dispensers
+
+  - synonym: student_feedback
+    examples: |
+      - review system
+      - complaints
+      - feedback form
+      - course review
+      - faculty feedback
+
+  - synonym: sports_achievements
+    examples: |
+      - sports awards
+      - athletic performance
+      - tournament results
+      - sports competitions
+      - college sports records
+
   - intent: goodbye
     examples: |
       - Bye

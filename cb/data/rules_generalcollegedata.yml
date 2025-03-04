@@ -319,6 +319,38 @@ rules:
     - intent: placement_training
     - action: utter_placement_training
 
+  - rule: Respond to student feedback queries
+    steps:
+      - intent: student_feedback
+      - action: utter_student_feedback
+
+  - rule: Respond to water facilities queries
+    steps:
+      - intent: water_facilities
+      - action: utter_water_facilities
+
+  - rule: Respond to recruiter queries
+    steps:
+      - intent: recruiters_college_for_placements
+      - action: utter_recruiters_college_for_placements
+
+  - rule: Respond to sports achievements queries
+    steps:
+      - intent: sports_achievements
+      - action: utter_sports_achievements
+  - rule: Respond to software lab details queries
+    steps:
+      - intent: software_lab_details
+      - action: utter_software_lab_details
+
+  - rule: Respond to staff count queries
+    steps:
+      - intent: staff_professor_count
+      - action: utter_staff_professor_count
+  - rule: Provide lab hardware details
+    steps:
+      - intent: ask_lab_hardware
+      - action: action_provide_lab_hardware
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
