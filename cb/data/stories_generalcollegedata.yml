@@ -36,10 +36,10 @@ stories:
       - intent: book_availability
       - action: utter_book_availability_info
 
-  - story: Student count inquiry
+  - story: Student total count inquiry
     steps:
-      - intent: student_count
-      - action: utter_student_count_info
+      - intent: student_total_count
+      - action: utter_student_total_count
 
   - story: Hostel inquiry story
     steps:
@@ -231,7 +231,6 @@ stories:
       - intent: staff_professors_faculty_qualifications_experience
       - action: utter_staff_professors_faculty_qualifications_experience
 
-
   - story: User asks about college working hours
     steps:
       - intent: college_timing
@@ -305,14 +304,57 @@ stories:
     steps:
       - intent: each_all_department_get_placed
       - action: utter_each_all_department_get_placed
+
   - story: User asks about SSMIET ranking
     steps:
       - intent: ssmiet_college_ranking
       - action: utter_ssmiet_college_ranking
+
   - story: User asks about student clubs
     steps:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
+
+  - story: College events or annual day or sumposium or college day inquiries
+    steps:
+      - intent: college_events_annual_symposium
+      - action: utter_college_events_annual_symposium
+
+  - story: First year students count query
+    steps:
+      - intent: first_year_1st_students_count
+      - action: utter_first_year_1st_students_count
+
+  - story: Second year students count query
+    steps:
+      - intent: second_year_2nd_students_count
+      - action: utter_second_year_2nd_students_count
+
+  - story: Third year students count query
+    steps:
+      - intent: third_year_3rd_students_count
+      - action: utter_third_year_3rd_students_count
+
+  - story: Final year students count query
+    steps:
+      - intent: final_year_4th_students_count
+      - action: utter_final_year_4th_students_count
+
+  - story: SSMIET history or about inquiry
+    steps:
+      - intent: ssmiet_history_about_college
+      - action: utter_ssmiet_history_about_college
+
+  - story: Provide average campus placement details
+    steps:
+      - intent: average_campus_placement
+      - action: utter_average_campus_placement
+
+  - story: yearwise student count of ssmiet or college query
+    steps:
+      - intent: yearwise_student_count_ssmiet
+      - action: utter_yearwise_student_count_ssmiet
+
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
