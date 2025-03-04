@@ -997,6 +997,29 @@ nlu:
       - What is the breakdown of students by year in SSMIET?
       - How many students are there in each academic year of SSMIET?
       - What is the total number of students per year in SSMIET?
+
+  - intent: placement_training
+    examples: |
+      - Is there any training before campus placements?
+      - Does the college provide placement coaching?
+      - Are students trained before attending placement interviews?
+      - Is there a separate training program for placements?
+      - Do final-year students get any special training for placements?
+      - Are there any classes for job interview preparation?
+      - Does the college give training for aptitude tests?
+      - Are students taught how to answer interview questions?
+      - Is there any practice for group discussions?
+      - Do teachers help students prepare for placements?
+      - Is there a placement training schedule for students?
+      - Are mock interviews conducted in the college?
+      - Is soft skills training given before placements?
+      - Are students given guidance on how to write resumes?
+      - Does the college provide technical training for placements?
+      - Is placement training compulsory for students?
+      - How long does the placement training last?
+      - Are there any special coaching classes for weak students?
+      - Do companies visit the campus to give training?
+      - Is placement training free or do students have to pay for it?
     
   - intent: goodbye
     examples: |

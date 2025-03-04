@@ -292,6 +292,7 @@ nlu:
         - How does an MOU benefit students?
         - Tell me about the latest MOU collaborations.
         - Give me details on MOU partners and their dates.
+        - Give me the details about tie up companies
 
     - intent: intern_company
       examples: |
@@ -336,8 +337,10 @@ nlu:
       - Which companies hire from the CSE department?
       - Who are the recruiters for CSE students?
       - Which companies visit for CSE placements?
-      - Give me the names of companies for CSE placements   
-        
+      - Give me the names of companies for CSE placements  
+      - What are the companies are coming and hiring for final year placements?
+      - Is there any top companies for placement? 
+
     - intent: cse_accreditation
       examples: |
         - What are the accreditations and affiliations of the CSE department?
@@ -349,7 +352,7 @@ nlu:
         - Is the CSE department good?
         - Is this college’s CSE department recognized by the government?
         - Is the CSE course valid for jobs?
-      - Give me the names of companies for CSE placements   
+        - Give me the names of companies for CSE placements   
       
     - intent: curriculum_relevance_industry
       examples: |
