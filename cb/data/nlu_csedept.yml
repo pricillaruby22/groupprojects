@@ -336,7 +336,8 @@ nlu:
       - Which companies hire from the CSE department?
       - Who are the recruiters for CSE students?
       - Which companies visit for CSE placements?
-      - Give me the names of companies for CSE placements     
+      - Give me the names of companies for CSE placements   
+        
     - intent: cse_accreditation
       examples: |
         - What are the accreditations and affiliations of the CSE department?

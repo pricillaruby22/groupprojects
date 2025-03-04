@@ -8,7 +8,7 @@ intents:
   - entrance_exam
   - uniform_dresscode
   - book_availability
-  - student_count
+  - student_total_count
   - hostel_availability
   - family_visit
   - college_location_address
@@ -80,13 +80,19 @@ intents:
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
-  - cse_yearwise_student_count
-  - cse_event_conducted_photos
-  - cse_faculty_experience_knowledge
+  - college_events_annual_symposium
+  - first_year_1st_students_count
+  - second_year_2nd_students_count
+  - third_year_3rd_students_count
+  - final_year_4th_students_count
+  - ssmiet_history_about_college
+  - average_campus_placement
+  - yearwise_student_count_ssmiet
 
 responses:
   utter_greet:
      - text: "Welcome to SSMIET Website.Hello! How can I assist you today?"
+
   utter_admission_process:
     - text: |
           You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. \n
@@ -102,20 +108,28 @@ responses:
 
   utter_online_courses:
     - text: "No, we **don't offer online courses** and distance learning options.\n Would you like to know more details on available courses?"
+  
   utter_coed_info:
     - text: "Yes, this is a **co-educational college** where both boys and girls study together.\n The institution follows certain protocols to ensure a safe and respectful environment for all students"
+  
   utter_entrance_exam_info:
     - text: "There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process"
+  
   utter_uniform_dresscode_info:
     - text: " Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone. \nFor further details, contact the administration 0451 244 8800."
+  
   utter_book_availability_info:
     - text: "The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details."
-  utter_student_count_info:
-    - text: "The current student count is approximately 1200, with around 600 male and 600 female students.\n These numbers may vary slightly each year."
+  
+  utter_student_total_count:
+    - text: "The current student count is 1567, with around 700 male and 800 female students.\n These numbers may vary slightly each year."
+  
   utter_hostel_availability_info:
     - text: "Yes, the college has hostel facilities for both male and female students.\n The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
+  
   utter_family_visit_info:
     - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. \nPlease check with the hostel administration for specific timings and policies."
+  
   utter_college_location_address:
     - text: "Here is the address:\n **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
 
@@ -401,16 +415,13 @@ responses:
         - OBC Category: 160+
         - SC/ST Category: 140+
         - Management Quota: No specific cutoff, direct admission available.
-      
-
-    
+         
   utter_hod_details:
     - text: |
        🔹 Name: Dr. C. Sujatha
        🔹 Position: Head of the Department (HOD), CSE, SSMIET
        🔹 Years of Experience: 21+ years in teaching & research
        🔹 Qualification: 🎓 Ph.D, M.E, B.E
-
 
   utter_cse_faculty:
     - text: |
@@ -679,6 +690,7 @@ responses:
 
   utter_ssmiet_college_ranking:
     - text: "SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024."
+  
   utter_ssmiet_organization_clubs:
     - text: "Yes! SSMIET offers various student clubs, including:\n
         - Rotaract Club\n
@@ -702,17 +714,42 @@ responses:
     - text: |
         "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
-  utter_cse_yearwise_student_count:
+  utter_college_events_annual_symposium:
     - text: |
-        "Yearwise student count in CSE department"
-
-  utter_cse_event_conducted_photos:
+        "The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities."
+      
+  utter_first_year_1st_students_count:
     - text: |
-        "Event photos"
+        "The total number of first-year students is X. The department-wise count is available in the records."
 
-  utter_cse_faculty_experience_knowledge:
+  utter_second_year_2nd_students_count:
     - text: |
-        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        "The second-year student strength is Y. Department-wise details can be provided upon request."
 
+  utter_third_year_3rd_students_count:
+    - text: |
+        "The total number of third-year students is Z. Many students are actively involved in projects and internships."
+
+  utter_final_year_4th_students_count:
+    - text: |
+        "The final-year students count is W. A significant number have already secured placements."
+
+  utter_ssmiet_history_about_college:
+      - text: |
+          "SSM Institute of Engineering and Technology (SSMIET) was established in the academic year 2011-2012 by the SSM Group, which has over 30 years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
+          Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
+          The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
+          SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges."
+  
+  utter_average_campus_placement:
+      - text: "The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%."
+  
+  utter_yearwise_student_count_ssmiet:
+      - text: |
+          "Here is the year-wise total student count in SSMIET:
+          - 2024 - 2025: 1567 students
+          - 2023 - 2024: 1330 students
+          - 2022 - 2023: 1137 students
+          - 2021 - 2022: 1133 students"
 
   
