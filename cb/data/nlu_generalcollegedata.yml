@@ -108,14 +108,20 @@ nlu:
        - Does the library offer course books?
        - Will books be provided for free or do we need to purchase them?
 
-  - intent: student_count
+  - intent: student_total_count
     examples: |
-       - How many male and female students are there?
-       - What is the total number of students?
-       - Can you tell me the count of male and female students?
-       - How many boys and girls are in the college?
-       - What is the gender ratio in the college?
-       - Is there a list of student numbers by gender?
+      - What is the total student strength of SSMIET?
+      - How many students are currently enrolled in SSMIET?
+      - What is the total number of students studying in the college?
+      - How many students are admitted to SSMIET each year?
+      - What is the total intake capacity of SSMIET?
+      - How many male and female students are there?
+      - What is the total number of students?
+      - Can you tell me the count of male and female students?
+      - How many boys and girls are in the college?
+      - What is the gender ratio in the college?
+      - Is there a list of student numbers by gender?
+      - How many students graduate from SSMIET every year?
 
   - intent: hostel_availability
     examples: |
@@ -842,6 +848,7 @@ nlu:
       - What trends have been observed in department-wise placements over the past five years?
       - How does the placement cell support departments with lower placement rates?
       - What initiatives are taken to improve placement numbers for underrepresented departments?
+
   - intent: ssmiet_college_ranking
     examples: |
       - What is the ranking of SSM Institute of Engineering and Technology?
@@ -851,6 +858,7 @@ nlu:
       - SSMIET ranking in 2024,2025?
       - What is the position of SSM Institute in Anna University rankings?
       - Where does SSM Institute of Engineering and Technology stand in Tamil Nadu rankings?
+
   - intent: ssmiet_orgaization_clubs
     examples: |
       - Are there any clubs in this college/organisation?
@@ -859,6 +867,137 @@ nlu:
       - Tell me about the clubs in your college.
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
+
+  - intent: college_events_annual_symposium
+    examples: |
+      - What special functions are conducted in the college?
+      - When is the annual day celebration held at the college?
+      - What events are organized during the college day?
+      - Does the college conduct a symposium for students?
+      - When is the next cultural event scheduled in the college?
+      - What are the major celebrations conducted by the college?
+      - Are there any technical events or fests organized by the college?
+      - How can students participate in symposiums and cultural programs?
+      - What competitions are held during the annual day function?
+      - Does the college celebrate national festivals and special occasions?
+      - Are there inter-college events or fests hosted by the college?
+      - What types of performances are included in college cultural events?
+      - How often does the college organize extracurricular activities?
+      - Are there any special guest lectures or keynote sessions during these events?
+      - What are the highlights of past college functions and celebrations?
+      - Is there any symposium conducted in the college?
+      - When is the next symposium scheduled at the college?
+      - Is there any celebration planned in the college this year?
+      - When is the college day celebrated?
+      - Is there any annual day function in the college?
+      - Are cultural events conducted every year in the college?
+      - Is there any technical fest organized by the college?
+      - Does the college conduct inter-college symposiums or competitions?
+      - Is there any fest or celebration open to students from other colleges?
+      - Are there any upcoming celebrations or special functions in the college?
+      - Is there any alumni meet or reunion event planned?
+      - Does the college organize any sports day or athletic meet?
+      - Is there a graduation day ceremony for final-year students?
+      - Is there any department-wise celebration or special event?
+      - Does the college conduct fresher’s day for new students?
+
+  - intent: first_year_1st_students_count
+    examples: |
+      - What is the total number of first-year students in SSMIET?
+      - How many students are currently enrolled in the first year?
+      - What is the intake capacity for first-year students at SSMIET?
+      - How many first-year students joined this academic year?
+      - What is the department-wise student count for first-year students?
+      - How many male and female students are in the first year?
+      - How many sections are there for first-year students in SSMIET?
+      - What is the student-teacher ratio for first-year students?
+      - How many first-year students have hostel accommodation?
+      - What is the total number of students who dropped out from the first year?
+
+  - intent: second_year_2nd_students_count
+    examples: |
+      - What is the total student strength in the second year at SSMIET?
+      - How many second-year students are currently studying in the college?
+      - How many students progressed from first year to second year?
+      - What is the department-wise student count in the second year?
+      - How many students were newly admitted in the second year through lateral entry?
+      - How many male and female students are there in the second year?
+      - What is the number of students in each section of the second year?
+      - How many second-year students are staying in the hostel?
+      - How many students discontinued after completing the first year?
+      - What is the attendance percentage of second-year students?
+
+  - intent: third_year_3rd_students_count
+    examples: |
+      - What is the total number of third-year students in SSMIET?
+      - How many students are studying in the third year across all departments?
+      - How many students progressed from second year to third year?
+      - What is the department-wise count of third-year students?
+      - How many male and female students are currently in the third year?
+      - How many third-year students are staying in the hostel?
+      - What is the total number of students in each section of the third year?
+      - How many third-year students participate in extracurricular activities?
+      - How many students from the third year have taken industry internships?
+      - How many students from the third year have dropped out or discontinued?
+
+  - intent: final_year_4th_students_count
+    examples: |
+      - What is the total number of final-year students in SSMIET?
+      - How many students are currently in their last year of study?
+      - How many students progressed from third year to final year?
+      - What is the department-wise count of final-year students?
+      - How many male and female students are in the final year?
+      - How many final-year students are staying in the hostel?
+      - What is the total number of final-year students in each section?
+      - How many final-year students are working on major projects?
+      - How many students are placed in companies from the final year?
+      - How many students from the final year have applied for higher studies?
+
+  - intent: ssmiet_history_about_college
+    examples: |
+      - When was SSMIET established?
+      - What is the history of SSMIET?
+      - How has SSMIET evolved since its inception?
+      - What are the key milestones in SSMIET’s journey?
+      - What major expansions have taken place in SSMIET?
+      - What are some of the notable achievements of SSMIET?
+      - How has SSMIET improved its infrastructure over time?
+      - Tell me about SSMIET.
+      - Tell me about your college.
+      - What was the main objective behind starting SSMIET?
+      - How has the academic curriculum changed over the years at SSMIET?
+      - What major events have shaped the history of SSMIET?
+      - How has faculty strength grown since the establishment of SSMIET?
+      - What were the initial challenges faced by SSMIET?
+      - How has SSMIET contributed to student career development over the years?
+      - Tell me about the journey of SSMIET.
+
+  - intent: average_campus_placement
+    examples: |
+      - What is the average number of students placed through campus each year?
+      - How many students are placed on average through campus recruitment?
+      - What is the average placement rate over the past five years?
+      - How has the average campus placement trend changed over the years?
+      - What is the highest and lowest average placement count in recent years?
+      - How is the average placement percentage calculated for campus recruitment?
+      - What factors influence the average student placement through campus?
+      - How does SSMIET ensure a consistent average placement rate?
+      - What initiatives have helped improve the average student placement?
+      - How does the current year’s placement compare to the average placement of previous years?
+
+  - intent: yearwise_student_count_ssmiet
+    examples: |
+      - What is the year-wise student count for SSMIET since the college started?
+      - Can you provide the student intake count for SSMIET for each academic year since inception?
+      - How many students were admitted to SSMIET each year from the beginning?
+      - What is the total number of students enrolled in SSMIET for every academic year since the college started?
+      - How has the student strength of SSMIET varied year by year since the first batch?
+      - What are the year-wise student counts for SSMIET?
+      - Can you provide the student count for each year in SSMIET?
+      - What is the breakdown of students by year in SSMIET?
+      - How many students are there in each academic year of SSMIET?
+      - What is the total number of students per year in SSMIET?
+    
   - intent: goodbye
     examples: |
       - Bye

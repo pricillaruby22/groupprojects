@@ -35,10 +35,10 @@ rules:
       - intent: book_availability
       - action: utter_book_availability_info
 
-  - rule: Respond to student count inquiry
+  - rule: Respond to student total count inquiry
     steps:
-      - intent: student_count
-      - action: utter_student_count_info
+      - intent: student_total_count
+      - action: utter_student_total_count
 
   - rule: Respond to hostel inquiries
     steps:
@@ -234,7 +234,6 @@ rules:
       - intent: cutoff_details
       - action: utter_cutoff_details
 
-      
   - rule: Provide college qualification
     steps:
       - intent: college_qualification
@@ -264,14 +263,56 @@ rules:
     steps:
       - intent: each_all_department_get_placed
       - action: utter_each_all_department_get_placed
+
   - rule: Respond to SSMIET college ranking query
     steps:
       - intent: ssmiet_college_ranking
       - action: utter_ssmiet_college_ranking
+
   - rule: Respond to organization clubs query
     steps:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
+
+  - rule: Respond to college events or annual day or sumposium or college day queries
+    steps:
+      - intent: college_events_annual_symposium
+      - action: utter_college_events_annual_symposium
+ 
+  - rule: Respond to first-year students count queries
+    steps:
+      - intent: first_year_1st_students_count
+      - action: utter_first_year_1st_students_count
+
+  - rule: Respond to second-year students count queries
+    steps:
+      - intent: second_year_2nd_students_count
+      - action: utter_second_year_2nd_students_count
+
+  - rule: Respond to third-year students count queries
+    steps:
+      - intent: third_year_3rd_students_count
+      - action: utter_third_year_3rd_students_count
+
+  - rule: Respond to final-year students count queries
+    steps:
+      - intent: final_year_4th_students_count
+      - action: utter_final_year_4th_students_count
+  
+  - rule: Respond to SSMIET history or about queries
+    steps:
+      - intent: ssmiet_history_about_college
+      - action: utter_ssmiet_history_about_college
+
+  - rule: Respond to average campus placement inquiries
+    steps:
+      - intent: average_campus_placement
+      - action: utter_average_campus_placement
+
+  - rule: Respond to year-wise student count of ssmiet or college queries
+    steps:
+      - intent: yearwise_student_count_ssmiet
+      - action: utter_yearwise_student_count_ssmiet
 
   - rule: Say goodbye anytime the user says goodbye
     steps:
