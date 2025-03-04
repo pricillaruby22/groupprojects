@@ -73,7 +73,7 @@ intents:
   - most_highest_placement_department
   - eligible_student_placement_opportunities
   - each_all_department_get_placed
-  - cse_cse_accreditation
+  - cse_accreditation
   - curriculum_relevance_industry
   - ssmiet_college_ranking
   - ssmiet_organization_clubs
@@ -88,6 +88,7 @@ intents:
   - ssmiet_history_about_college
   - average_campus_placement
   - yearwise_student_count_ssmiet
+  - placement_training
 
 responses:
   utter_greet:
@@ -681,7 +682,8 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
-  utter_accreditation:
+  
+  utter_cse_accreditation:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
   utter_curriculum_relevance_industry:
@@ -751,5 +753,10 @@ responses:
           - 2023 - 2024: 1330 students
           - 2022 - 2023: 1137 students
           - 2021 - 2022: 1133 students"
+
+  utter_placement_training:
+    - text: |
+        "The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation."
+
 
   

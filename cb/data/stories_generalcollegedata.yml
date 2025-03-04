@@ -355,6 +355,11 @@ stories:
       - intent: yearwise_student_count_ssmiet
       - action: utter_yearwise_student_count_ssmiet
 
+  - story: User asks about placement training
+    steps:
+    - intent: placement_training
+    - action: utter_placement_training
+
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
