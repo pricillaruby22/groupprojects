@@ -203,6 +203,10 @@ nlu:
         - Does the CSE department provide high-speed internet in the labs?
         - Are the CSE labs accessible to students outside class hours?
         - What kind of research work is conducted in the CSE labs?
+        - What technologies are used in the project?
+        - How to set up the project environment?
+        - What tools are required for the project?
+
 
     - intent: cse_department_activities
       examples: |
@@ -421,4 +425,5 @@ nlu:
         - How many CSE faculty members have both academic and industry experience?
         - What is the average number of years faculty members have worked at SSMIET?
         - How many faculty members in the CSE department hold postgraduate degrees?
+
 

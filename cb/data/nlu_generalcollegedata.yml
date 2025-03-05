@@ -867,7 +867,6 @@ nlu:
       - Tell me about the clubs in your college.
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
-<<<<<<< Updated upstream
 
   - intent: college_events_annual_symposium
     examples: |
@@ -1022,7 +1021,6 @@ nlu:
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
     
-=======
   - intent: ask_ragging
     examples: |
       - Is there ragging in this college?
@@ -1098,9 +1096,91 @@ nlu:
       - Is there a helpline for bus-related issues?           
     
 
->>>>>>> Stashed changes
   - intent: goodbye
     examples: |
       - Bye
       - See you later
       - Goodbye
+
+  - intent: sem_exam_result
+    examples: |
+      - Can you provide the semester exam result link?
+      - Where can I check my semester exam results?
+      - What is the official website for semester exam results?
+      - Please share the link for checking semester results.
+      - How do I access my semester exam results online?
+      - Semester exam result link?
+      - Where to check my semester result?
+      - How to see semester exam marks online?
+      - Give me the website for semester results.
+      - Semester result checking link? 
+      - Where semester result link?
+      - Semester marks where?
+      - How see semester result?
+      - Give me semester result website?
+      - Where see semester exam number?
+  
+  - intent: extracurricular_activites
+    examples: |
+        - What extracurricular activities are available?
+        - Are there any sports or cultural clubs?
+        - What kind of activities can students participate in?
+        - Tell me about the cultural and sports events at the hostel.
+        - What non-academic programs are organized?
+        - What games in hostel?
+        - Any sports in hostel?
+        - Hostel have activities?
+        - What events in hostel?
+        - Cultural programs happen in hostel?
+        - Hostel play what?
+        - Games in hostel?
+        - What all fun in hostel?
+        - Events have hostel?
+        - Sports hostel give?
+
+  - intent: fee_payment
+    examples: |
+      - What is the bank name for fee payment?
+      - Which bank is used for fee transactions at SSMIET?
+      - What is the account name for fee payment?
+      - Under which name should the fee payment be made?
+      - What is the account number for SSMIET fee payment?
+      - Where can I find the account number for paying college fees?
+      - What is the IFSC code for fee transactions?
+      - Which IFSC code should be used for online fee payment?
+      - How can I transfer fees to the SSMIET account?
+      - Which branch of SBI handles the fee payments for SSMIET?
+      - What are the available payment methods for paying fees?
+      - Can fees be paid through UPI or net banking?
+      - Is there an online portal for fee payment?
+
+  - intent: inquire_gate_coaching
+    examples: |
+      - Is GATE coaching available in the college?
+      - Does the college provide GATE tutorials for students?
+      - Are there any special classes for GATE preparation in the college?
+      - Does the college offer free GATE coaching for students?
+      - Are faculty members conducting GATE training sessions?
+      - Is there a dedicated GATE preparation center in the college?
+      - Does the college provide study materials for GATE?
+      - Are there any online or offline GATE tutorial sessions available?
+      - Is GATE coaching included in the regular curriculum?
+      - Are external coaching centers partnered with the college for GATE training?
+
+  - intent: sports_equipment
+    examples: | 
+      - What sports equipment is available?
+      - Can you list the sports facilities provided?
+      - What kind of sports gear does the hostel offer?
+      - Tell me about the sports infrastructure at the hostel.
+      - What sports items can students access?
+      - What sports things in hostel?
+      - What games equipment is there?
+      - Hostel have football and cricket?
+      - What all sports we can play?
+      - What sports things hostel give?
+      - Sports things what?
+      - What play things hostel have?
+      - Football cricket have?
+      - What hostel give for play?
+      - Hostel have play items?

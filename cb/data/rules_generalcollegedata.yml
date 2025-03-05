@@ -274,7 +274,6 @@ rules:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
 
-<<<<<<< Updated upstream
   - rule: Respond to college events or annual day or sumposium or college day queries
     steps:
       - intent: college_events_annual_symposium
@@ -320,7 +319,6 @@ rules:
     - intent: placement_training
     - action: utter_placement_training
 
-=======
   - rule: Respond with general ragging policy
     steps:
     - intent: ask_ragging
@@ -402,9 +400,35 @@ rules:
       - action: utter_bus_facility_details  
   
     
->>>>>>> Stashed changes
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
+
+  - rule: Exam result
+    steps:
+      - intent: sem_exam_result
+      - action: utter_sem_exam_result
+
+  - rule: extra_activities
+    steps:
+      - intent: extracurricular_activites
+      - action: utter_extracurricular_activites
+
+  - rule: Respond to fee payment inquiries
+    steps:
+      - intent: fee_payment
+      - action: utter_fee_payment
+
+  - rule: Respond to GATE coaching inquiries
+    steps:
+      - intent: gate_coaching
+      - action: utter_gate_coaching
+
+  - rule: Respond to sports equipment
+    steps:
+      - intent: sports_equipment
+      - action: utter_sports_equipment
+
+      
       

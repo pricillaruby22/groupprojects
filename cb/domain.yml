@@ -80,7 +80,6 @@ intents:
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
-<<<<<<< Updated upstream
   - college_events_annual_symposium
   - first_year_1st_students_count
   - second_year_2nd_students_count
@@ -90,16 +89,21 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
-=======
-  - cse_yearwise_student_count
-  - cse_event_conducted_photos
-  - cse_faculty_experience_knowledge
+  - hostel_wifi
+  - hostel_room_sharing
+  - hostel_food_routine
+  - hostel_restroom_facilities
+  - hostel_fee
+  - overall_hostel_details
+  - sem_exam_result
+  - extracurricular_activites
+  - fee_payment
+  - gate_coaching
   - ask_ragging
   - ask_bus_seat
   - ask_campus_photos
   - ask_bus_facility
   - ask_canteen_facility
->>>>>>> Stashed changes
 
 responses:
   utter_greet:
@@ -693,7 +697,7 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
-  
+
   utter_cse_accreditation:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
@@ -769,6 +773,55 @@ responses:
     - text: |
         "The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation."
 
+  utter_hostel_wifi:
+    - text: "SSMIET provides WiFi access in the hostel and common areas."
+
+  utter_hostel_room_sharing:
+    - text: "Rooms are shared by 4 members"
+
+  utter_hostel_food_routine:
+    - text: "weekly once non-veg"
+
+  utter_hostel_restroom_facilities:
+    - text: "hotwater, how many bathrooms in a flooor, clean"
+
+  utter_hostel_fee:
+    - text: "hostel fee details"
+
+  utter_overall_hostel_details:
+    - text: "full hostel details"
+
+  utter_sem_exam_result:
+    - text: "exam link"
+
+  utter_extracurricular_activites:
+    - text: |
+          Technical events
+          Symposium
+          Workshops
+  utter_fee_payment:
+    - text: |
+        Bank Name: State Bank Of India, Dindigul.
+        Account Name: SSM Institute of Engineering and Technology
+        Account Number: 00000032684732711
+        IFSC Code: SBIN0012758
+
+  utter_gate_coaching:
+    - text: |
+        The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
+
+  utter_sports_equipment:
+    - text: |
+        - 🏈 Football – Ground (College Kit), Footballs
+        - 🏀 Basketball – Basketball Court, Basketballs
+        - 🏓 Table Tennis – 2 Tables, Racquets, Balls
+        - 🏏 Cricket – Bat, Mat, Balls, Kitbag
+        - 🏃 Athletics – 400m & 200m Track, Cones, Track & Field Event Equipment
+        - 🏐 Volleyball – Court, Nets, Volleyballs
+        - 🏸 Badminton – Indoor Stadium, Racquets, Nets
+        - 🎾 Tennis – Court, Nets, Racquets
+        - 🏸 Ball Badminton – Racquets, Balls
+          
   utter_ragging_no_ragging:
     - text: "Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students."
 
