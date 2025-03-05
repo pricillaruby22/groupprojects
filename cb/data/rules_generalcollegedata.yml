@@ -319,6 +319,87 @@ rules:
     - intent: placement_training
     - action: utter_placement_training
 
+  - rule: Respond with general ragging policy
+    steps:
+    - intent: ask_ragging
+    - action: utter_ragging_no_ragging
+
+  - rule: Respond with ragging prevention measures
+    steps:
+    - intent: ask_ragging
+    - action: utter_ragging_prevention
+
+  - rule: Provide helpline details for ragging-related issues
+    steps:
+    - intent: ask_ragging
+    - action: utter_ragging_helpline
+
+  - rule: Inform about ragging punishment
+    steps:
+    - intent: ask_ragging
+    - action: utter_ragging_punishment
+
+  - rule: Respond with details about awareness programs
+    steps:
+    - intent: ask_ragging
+    - action: utter_ragging_awareness
+
+  - rule: Explain the bus seating policy (FCFS)
+    steps:
+    - intent: ask_bus_seat
+    - action: utter_bus_seat_fcfs
+
+  - rule: Inform user that full buses require standing
+    steps:
+    - intent: ask_bus_seat
+    - action: utter_bus_seat_full
+
+  - rule: Respond to seat reservation requests
+    steps:
+    - intent: ask_bus_seat
+    - action: utter_bus_seat_no_reservation
+
+  - rule: Give advice on securing a seat
+    steps:
+    - intent: ask_bus_seat
+    - action: utter_bus_seat_advice
+
+  - rule: Show general campus photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_general_photos
+
+  - rule: Show auditorium photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_auditorium_photos
+
+  - rule: Show canteen photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_canteen_photos
+
+  - rule: Show library photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_library_photos
+
+  - rule: Show hostel photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_hostel_photos
+
+  - rule: Show playground photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_playground_photos  
+
+  - rule: Provide bus facility details
+    steps:
+      - intent: ask_bus_facility
+      - action: utter_bus_facility_details  
+  
+    
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye

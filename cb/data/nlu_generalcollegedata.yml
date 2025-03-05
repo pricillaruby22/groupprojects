@@ -1021,6 +1021,81 @@ nlu:
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
     
+  - intent: ask_ragging
+    examples: |
+      - Is there ragging in this college?
+      - Does ragging happen here?
+      - Is ragging allowed in this institution?
+      - What are the anti-ragging rules in place?
+      - How does the college prevent ragging?
+      - Have there been any ragging cases in this college?
+      - Do seniors rag juniors in this college?
+      - What should I do if someone tries to rag me?
+      - What actions are taken if someone is caught ragging?
+      - How does the college ensure a ragging-free environment?
+      - Is there an anti-ragging committee in this college?
+      - Can I report ragging anonymously?
+      - Are there awareness programs about ragging in the college?
+      - What are the punishments for ragging?
+      - Who should I contact if I face any issues related to ragging?
+      - How does the college handle false complaints about ragging?
+
+  - intent: ask_bus_seat
+    examples: |
+      - Does everyone get a separate seat on the bus?
+      - Will I have my own seat in the college bus?
+      - Is the bus seating guaranteed for each student?
+      - Do all students get individual seats on the bus?
+      - Will I have to share my seat with someone?
+      - Are there enough seats for all students in the college bus?
+      - What happens if the bus is full?
+      - Can I reserve a seat in advance?
+      - Is the seating based on first-come, first-served?
+      - Do we have to stand if the bus is full?
+
+  - intent: ask_campus_photos
+    examples: |
+      - Can I see photos of the college campus?
+      - Do you have pictures of the college?
+      - Show me some images of the campus.
+      - Where can I find photos of the college?
+      - Do you have any photos of the classrooms and buildings?
+      - I want to see how the college looks.
+      - Are there any pictures of the college library and labs?
+      - Can you share campus photos?
+      - Show me the auditorium photos.
+      - Do you have photos of the canteen?
+      - Can I see the hostel?
+      - Show me pictures of the playground.
+      - Where can I find photos of the library?
+      - Do you have any campus tour images?
+      - Is there a virtual tour of the college?
+      - Can I get a view of the main areas of the campus? 
+
+  - intent: ask_bus_facility
+    examples: |
+      - What are the bus facilities available at the college?
+      - Is there a college bus service?
+      - How do students travel to college?
+      - Are there separate buses for different routes?
+      - Does the college provide transportation?
+      - What are the departure timings of the buses?
+      - How is bus seating arranged?
+      - Do students get separate seats on the bus?
+      - What happens if the bus is full?
+      - Is there an extra bus if the main bus is full?
+      - Can students reserve their bus seats in advance?
+      - Is the bus facility available for all students?
+      - Are there specific bus stops for pickup and drop?
+      - How can I find my designated bus route?
+      - Is the bus service available for both students and staff?
+      - How do I apply for a bus pass?
+      - What is the fare for the college bus service?
+      - Are the buses air-conditioned?
+      - What should I do if I miss my bus?
+      - Is there a helpline for bus-related issues?           
+    
+
   - intent: goodbye
     examples: |
       - Bye
