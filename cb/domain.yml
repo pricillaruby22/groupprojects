@@ -89,7 +89,6 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
-  - lab_hardware_college
   - student_feedback
   - water_facilities
   - recruiters_college_for_placements

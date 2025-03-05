@@ -869,6 +869,7 @@ nlu:
       - What kind of clubs do students participate in?
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - intent: college_events_annual_symposium
     examples: |
       - What special functions are conducted in the college?
@@ -1024,6 +1025,8 @@ nlu:
     
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   - intent: lab_hardware_college
     examples: |
       - What are the hardware specifications of the computer labs in SSMIET?
@@ -1039,6 +1042,7 @@ nlu:
   
   - intent: student_feedback
     examples: |
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
       - How can I give feedback?
       - Where can I submit my feedback about the college?
@@ -1092,6 +1096,8 @@ nlu:
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
 =======
+=======
+>>>>>>> Stashed changes
     - How can I give feedback?
     - Where can I submit my feedback about the college?
     - I want to share my opinion about my courses.
@@ -1143,6 +1149,9 @@ nlu:
     - Where can I see the recruitment schedule?
     - Are placements guaranteed for all students?
     - How many recruiters are there in this college?
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
   - intent: sports_achievements
