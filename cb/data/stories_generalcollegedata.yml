@@ -275,6 +275,7 @@ stories:
     steps:
       - intent: cutoff_details
       - action: utter_cutoff_details
+
   - story: Provide college qualification
     steps:
       - intent: college_qualification
@@ -364,4 +365,28 @@ stories:
     steps:
       - intent: goodbye
       - action: utter_goodbye
-  
+
+  - story: semester exam results
+    steps:
+      - intent: sem_exam_result
+      - action: utter_sem_exam_result
+
+  - story: extracurricular_activites
+    steps:
+      - intent: extracurricular_activites
+      - action: utter_extracurricular_activites
+
+  - story: User asks about fee payment details
+    steps:
+      - intent: fee_payment
+      - action: utter_fee_payment
+
+  - story: User asks about GATE coaching
+    steps:
+      - intent: gate_coaching
+      - action: utter_gate_coaching
+      
+  - story: User asks about sports equipment
+    steps:
+      - intent: sports_equipment
+      - action: utter_sports_equipment
