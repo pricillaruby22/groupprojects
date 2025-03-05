@@ -868,6 +868,7 @@ nlu:
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
 
+<<<<<<< Updated upstream
   - intent: college_events_annual_symposium
     examples: |
       - What special functions are conducted in the college?
@@ -1021,21 +1022,76 @@ nlu:
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
     
+=======
+>>>>>>> Stashed changes
   - intent: lab_hardware_college
     examples: |
-    - What are the hardware specifications of the computer labs in SSMIET?
-    - How many computers are available in the CSE department labs at SSMIET?
-    - What is the processor and RAM configuration of lab systems in SSMIET?
-    - Does SSMIET provide high-performance computing facilities in its labs?
-    - Are there dedicated servers for lab usage in SSMIET?
-    - What networking infrastructure is available in the CSE labs at SSMIET?
-    - Do the labs in SSMIET have GPU-enabled systems for AI/ML projects?
-    - What additional lab equipment is available in SSMIET’s CSE department?
-    - Are the lab systems in SSMIET regularly upgraded with the latest hardware?
-    - Does SSMIET provide specialized hardware for research projects in CSE?
+      - What are the hardware specifications of the computer labs in SSMIET?
+      - How many computers are available in the CSE department labs at SSMIET?
+      - What is the processor and RAM configuration of lab systems in SSMIET?
+      - Does SSMIET provide high-performance computing facilities in its labs?
+      - Are there dedicated servers for lab usage in SSMIET?
+      - What networking infrastructure is available in the CSE labs at SSMIET?
+      - Do the labs in SSMIET have GPU-enabled systems for AI/ML projects?
+      - What additional lab equipment is available in SSMIET’s CSE department?
+      - Are the lab systems in SSMIET regularly upgraded with the latest hardware?
+      - Does SSMIET provide specialized hardware for research projects in CSE?
   
   - intent: student_feedback
     examples: |
+<<<<<<< Updated upstream
+      - How can I give feedback?
+      - Where can I submit my feedback about the college?
+      - I want to share my opinion about my courses.
+      - Student feedback form link?
+      - How do I provide feedback on my professors?
+      - Can I review my professor's teaching?
+      - Is there a way to rate the faculty?
+      - Feedback for college infrastructure?
+      - I want to complain about a course.
+      - How to give suggestions to improve the college?
+      - What is the student feedback system?
+      - Can I submit an anonymous feedback?
+      - Where can I review my academic experience?
+      - Share link for feedback?
+      - How to submit a complaint about faculty?
+
+  - intent: water_facilities
+    examples: |
+      - What are the drinking water facilities available?
+      - Are there enough water coolers on campus?
+      - Is there clean drinking water in our college?
+      - Where can I find water coolers?
+      - Drinking purified water available in this SSMIET college?
+      - Does the college provide purified water?
+      - Is there a problem with drinking water?
+      - I need drinking water near my classroom.
+      - Are the water dispensers working?
+      - Is the water filter properly maintained?
+      - Can I get bottled water on campus?
+      - Any water shortage issues in college?
+      - Where are the water refill stations?
+      - Is the drinking water tested regularly?
+      - Can I bring my own water bottle?
+
+  - intent: recruiters_college_for_placements
+    examples: |
+      - What are the placement companies coming for hiring?
+      - Who are all the recruiters of this college?
+      - Which companies visit for hiring this college?
+      - Does this college have campus recruitment?
+      - Which companies visit the college for placements?
+      - Can you tell me about job opportunities?
+      - Are there any recruiters coming this year?
+      - Does the college have a placement cell?
+      - Can I get placed through college?
+      - What are the placements provided in this college?
+      - How many companies visited last year?
+      - Do startups also recruit/hire from this college?
+      - Where can I see the recruitment schedule?
+      - Are placements guaranteed for all students?
+      - How many recruiters are there in this college?
+=======
     - How can I give feedback?
     - Where can I submit my feedback about the college?
     - I want to share my opinion about my courses.
@@ -1087,6 +1143,7 @@ nlu:
     - Where can I see the recruitment schedule?
     - Are placements guaranteed for all students?
     - How many recruiters are there in this college?
+>>>>>>> Stashed changes
 
   - intent: sports_achievements
     examples: |

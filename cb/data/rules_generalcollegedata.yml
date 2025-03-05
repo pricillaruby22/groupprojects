@@ -273,7 +273,10 @@ rules:
     steps:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
+      
+  
 
+<<<<<<< Updated upstream
   - rule: Respond to college events or annual day or sumposium or college day queries
     steps:
       - intent: college_events_annual_symposium
@@ -319,6 +322,8 @@ rules:
     - intent: placement_training
     - action: utter_placement_training
 
+=======
+>>>>>>> Stashed changes
   - rule: Respond to student feedback queries
     steps:
       - intent: student_feedback

@@ -314,6 +314,7 @@ stories:
     steps:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
+<<<<<<< Updated upstream
 
   - story: College events or annual day or sumposium or college day inquiries
     steps:
@@ -360,6 +361,8 @@ stories:
       - intent: placement_training
       - action: utter_placement_training
 
+=======
+>>>>>>> Stashed changes
  
   - story: Student feedback inquiry
     steps:
