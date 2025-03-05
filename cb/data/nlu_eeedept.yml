@@ -1,0 +1,336 @@
+version: "3.1"
+
+nlu:
+
+    - intent: eee_hod_details
+      examples: |
+        - Who is the Head of the Electrical and Electronics Engineering Department at SSMIET?
+        - Can you provide the qualifications and experience details of the EEE HOD?
+        - What are the research areas of the HOD of EEE?
+        - Who is the EEE department head at this college?
+        - What is the experience of the EEE HOD?
+        - Can you tell me about the background of the HOD of EEE?
+        - Who is in charge of the EEE department?
+        - How long has the HOD of EEE been working?
+        - Is the head of EEE experienced?
+
+    - intent: eee_faculty_details
+      examples: |
+        - Who are the faculty members of the EEE department?
+        - Can you list the EEE department faculty?
+        - Tell me about the educators in the EEE department.
+        - Provide details on Electrical and Electronics Engineering department professors.
+        - Give me a list of EEE department staff.
+        - Who teaches in the EEE department?
+        - I am uneducated about the staff in EEE. Can you list them?
+        - Tell me who the EEE professors are.
+        - Can you give me some information about the EEE faculty?
+        - Who are the key faculty members in EEE?
+        - Give me more details about the educators in EEE.
+        - list out the EEE teaching madam.
+
+
+    - intent: peo_eee_department
+      examples: |
+        - What does PEO stand for in the EEE department?
+        - What is the peo of EEE department?
+        - Tell me about PEO of Electrical and Electronics Engineering.
+        - What are the PEOs in EEE department?
+        - How do PEOs help in shaping the career of a Electrical and Electronics Engineering graduate?
+        - What are the key components of a typical EEE department PEO?
+        - What are the key goals of PEOs in Electrical and Electronics Engineering?
+        - Why are Program Educational Objectives (PEOs) important for Electrical and Electronics Engineering students?
+        - How do Program Educational Objectives (PEOs) help in shaping a EEE graduate’s career?
+        - What are the key components of Program Educational Objectives (PEOs) in a EEE program?
+
+    - intent: po_eee_department
+      examples: |
+        - What does PO stand for in the EEE department?
+        - What is the PO of the EEE department?
+        - Tell me about PO of Electrical and Electronics Engineering.
+        - What are the POs in the EEE department?
+        - How do POs help in shaping the career of a Electrical and Electronics Engineering graduate?
+        - What are the key components of a typical EEE department PO?
+        - What are the key goals of POs in Electrical and Electronics Engineering?
+        - Why are Program Outcomes (POs) important for Electrical and Electronics Engineering students?
+        - How do Program Outcomes (POs) help in shaping a EEE graduate’s career?
+        - What are the key components of Program Outcomes (POs) in a EEE program?
+    
+    - intent: pso_eee_department
+      examples: |
+        - What does PSO stand for in the EEE department?
+        - What is the PSO of the EEE department?
+        - Tell me about PSO of Electrical and Electronics Engineering.
+        - What are the PSOs in the EEE department?
+        - How do PSOs help in shaping the career of a Electrical and Electronics Engineering graduate?
+        - What are the key components of a typical EEE department PSO?
+        - What are the key goals of PSOs in Electrical and Electronics Engineering?
+        - Why are Program Specific Outcomes (PSOs) important for Electrical and Electronics Engineering students?
+        - How do Program Specific Outcomes (PSOs) help in shaping a EEE graduate’s career?
+        - What are the key components of Program Specific Outcomes (PSOs) in a EEE program?
+    
+    - intent: technical_faculty_eee
+      examples: |
+      - Tell me about the technical staff in the EEE department
+      - Who are the technical faculty in EEE?
+      - List the technical assistants in the EEE department
+      - EEE department technical staff details
+
+    - intent: placement_eee
+      examples: |
+      - Tell me about the placement details in EEE department
+      - How many students got placed in EEE?
+      - EEE department placement statistics
+      - Year-wise placement count in EEE  
+      - Tell me about the placement statistics in the EEE department
+      - How successful is the EEE department in placements?
+      - What is the placement rate for EEE students?
+      - Can you provide the EEE placement report?
+      - How many EEE students were placed last year?
+      - What's the highest placement count for EEE?
+      - Which companies hired EEE students?
+      - How has EEE placement performance changed over the years?
+      - Do EEE students get good placements?
+      - Share the year-wise placement details for EEE.
+
+    - intent: eee_course_outcomes
+      examples: |
+        - Where can I find the syllabus for EEE?
+        - Show me the subjects covered in EEE.
+        - Show me the core subjects in EEE.
+        - What are the specialization areas in EEE?
+        - Provide details about the elective courses in EEE.
+        - Where can I find study materials for EEE subjects?
+        - What are the key skills gained in a EEE degree?
+        - Which programming languages are covered in EEE?
+        - Give me details about the lab courses in EEE.
+        - What skills will I gain from a EEE degree?
+        - What are the learning outcomes of a EEE course?
+        - What knowledge will I acquire after completing EEE?
+        - What are the course outcomes of EEE?
+
+    - intent: eee_department_info_about
+      examples: |
+        - When was the EEE department established?
+        - Is the EEE department approved by AICTE?
+        - Tell me about Electronics and Electrical Engineering.
+        - Which university is the EEE department affiliated with?
+        - How does the EEE department support student learning?
+        - How does the Electronics and Electrical Engineering department help students achieve academic and career goals?
+        - How does the Electronics and Electrical Engineering department emphasize co-curricular and extracurricular activities?
+        - Tell me about EEE department.
+        - What is the about of EEE department?
+
+    - intent: eee_department_vision
+      examples: |
+        - What is the vision of the EEE department?
+        - What are the key goals of the EEE department’s vision?
+        - How does the EEE department work towards achieving its vision?
+        - How does the vision of the EEE department benefit students?
+        - What impact does the EEE department’s vision have on technical education?
+        - Does the vision of the EEE department focus on industry readiness?
+        - How does the EEE department’s vision align with modern technology trends?
+        - What initiatives are taken to fulfill the EEE department’s vision?
+        - How does research and innovation contribute to the EEE department’s vision?
+        - Does the vision of the EEE department include global technological advancements?
+        - Tell me about vision of EEE department.
+
+    - intent: eee_department_mission
+      examples: |
+        - What is the mission of the EEE department?
+        - What are the key goals of the EEE department’s mission?
+        - How does the EEE department work towards achieving its mission?
+        - How does the mission of the EEE department benefit students?
+        - What impact does the EEE department’s mission have on technical education?
+        - Does the mission of the EEE department focus on industry readiness?
+        - How does the EEE department’s mission align with modern technology trends?
+        - What initiatives are taken to fulfill the EEE department’s mission?
+        - How does research and innovation contribute to the EEE department’s mission?
+        - Does the mission of the EEE department include global technological advancements?
+        - Tell me about mission of EEE department.
+
+    - intent: eee_total_students
+      examples: |
+        - What is the total student count in the EEE department?
+        - What is the total number of students currently enrolled in the EEE department?
+        - How many students are studying in the EEE department this academic year?
+        - What is the total student strength of the EEE department?
+        - How many students have been admitted to the EEE department this year?
+        - What is the total student intake capacity for the EEE department?
+        - How many students are in each year of the EEE department?
+        - What is the total number of students in the undergraduate EEE program?
+        - How many students are currently pursuing B.E. EEE?
+        - How many students graduate from the EEE department each year?
+        - How many students are currently in their final year in EEE?
+
+    - intent: eee_female_girls_students
+      examples: |
+        - How many girls are there in the EEE department?
+        - What is the total number of female students in the EEE department?
+        - How many girls are currently enrolled in the EEE department?
+        - What percentage of EEE students are girls?
+        - How many female students joined the EEE department this year?
+        - How many girls are in each year of the EEE department?
+        - Has the number of girls in the EEE department increased over the years?
+        - How many female students have graduated from the EEE department so far?
+        - What is the trend of female student enrollment in the EEE department?
+
+    - intent: eee_male_boys_students
+      examples: |
+        - How many boys are there in the EEE department?
+        - What is the total number of male students in the EEE department?
+        - How many boys are currently enrolled in the EEE department?
+        - What percentage of EEE students are boys?
+        - How many male students joined the EEE department this year?
+        - How many boys are in each year of the EEE department?
+        - Has the number of boys in the EEE department increased over the years?
+        - How many male students have graduated from the EEE department so far?
+        - What is the trend of male student enrollment in the EEE department?
+
+    - intent: eee_lab_facilities
+      examples: |
+        - What are the lab facilities available in the EEE department?
+        - How many computer labs are there in the EEE department?
+        - What software and tools are available in the EEE labs?
+        - What is the configuration of the computers in the EEE labs?
+        - Are the lab facilities updated with the latest technology in EEE department?
+        - Does the EEE department provide high-speed internet in the labs?
+        - Are the EEE labs accessible to students outside class hours?
+        - What kind of research work is conducted in the EEE labs?
+
+    - intent: eee_department_activities
+      examples: |
+        - What are the department activities conducted by the EEE department?
+        - How often does the EEE department organize technical events?
+        - What workshops are conducted by the EEE department?
+        - What extracurricular activities are available in the EEE department?
+        - Tell me about EEE department activities.
+        - Give me the department activities of EEE
+        - Where can I find the department activities of EEE?
+        - Show me the department activities of EEE
+
+    - intent: eee_student_activities
+      examples: |
+        - What are the student activities conducted by the EEE department?
+        - How often are student events organized in the EEE department?
+        - Tell me about EEE student activities.
+        - Give me the student activities of EEE.
+        - Where can I find the student activities of EEE?
+        - Show me the student activities of EEE.
+
+    - intent: eee_faculty_activities
+      examples: |
+        - Give me the faculty activities of EEE.
+        - Where can I find the faculty activities of EEE?
+        - Show me the faculty activities of EEE.
+        - What are the faculty activities conducted by the EEE department?
+        - How does the EEE department support faculty development?
+        - What research activities are carried out by the faculty in the EEE department?
+        - Are EEE faculty members involved in industry collaborations?
+        - Do EEE faculty members participate in technical conferences and seminars?
+        - Are EEE faculty members involved in curriculum development and innovation?
+
+    - intent: eee_professional_bodies
+      examples: |
+        - What are the professional bodies associated with the EEE department?
+        - Does the EEE department have memberships in any professional organizations?
+        - Which professional societies can EEE students join?
+        - How do professional bodies benefit EEE students?
+        - Are there any student chapters of professional organizations in the EEE department?
+        - What kind of activities do professional bodies conduct for EEE students?
+        - Does the EEE department collaborate with IEEE, ACM, or other professional bodies?
+        - How can students become members of professional organizations in the EEE department?
+        - Are there any certifications provided through professional bodies in the EEE department?
+        - Do professional bodies offer internship or research opportunities for EEE students?
+
+    - intent: eee_research_activities
+      examples: |
+        - What research activities are conducted in the EEE department?
+        - What are the major research areas in the EEE department?
+        - Are there any research labs available in the EEE department?
+        - How do students participate in research projects in the EEE department?
+        - Do faculty members in the EEE department publish research papers?
+        - Are there any funded research projects in the EEE department?
+        - Does the EEE department collaborate with industries for research?
+        - Are students encouraged to publish research papers in the EEE department?
+        - What research opportunities are available for undergraduate students in EEE?
+        - Are there any research conferences organized by the EEE department?
+
+    - intent: eee_newsletter
+      examples: |
+        - Does the EEE department have a newsletter?
+        - What is the name of the EEE department’s newsletter?
+        - How often is the EEE department newsletter published?
+        - What kind of information is included in the EEE department newsletter?
+        - Who can contribute articles to the EEE department newsletter?
+        - How can students access the EEE department newsletter?
+        - Does the newsletter cover research and innovation updates from the EEE department?
+        - Are student achievements highlighted in the EEE department newsletter?
+        - How does the EEE department newsletter help in knowledge sharing?
+        - Where can I find previous editions of the EEE department newsletter?
+
+    - intent: mou_sign_company_eee
+      examples: |
+        - Which companies have signed an MOU with the EEE department?
+        - Can you provide details on MOU-signed companies for EEE?
+        - Tell me about the industry collaborations for EEE.
+        - Which organizations have partnered with the EEE department?
+        - List the companies that have signed an MOU with EEE.
+        - What is an MOU?
+        - Can you explain what MOU means?
+        - I don’t understand MOU. Can you help?
+        - What does it mean when a company signs an MOU?
+        - Explain MOU in simple terms.
+        - Can you give me a list of MOU-signed companies for EEE?
+        - Which companies have recently signed an MOU with EEE?
+        - How does an MOU benefit EEE students?
+        - Tell me about the latest MOU collaborations for EEE.
+        - Give me details on MOU partners and their dates for EEE.
+        - Give me the details about tie-up companies for EEE.
+
+    - intent: intern_company_eee
+      examples: |
+         - Which companies provide internships for EEE students?
+         - What are the companies that offer internships for EEE?
+         - Can you list some companies that provide internship opportunities for EEE students?
+         - Tell me about companies that offer internships for EEE.
+         - Can you name some companies that offer student internships in EEE?
+         - How many EEE students got internships?
+         - Give me the year-wise placed EEE students' internship count.
+         - Can you provide the number of EEE students who did internships each year?
+         - Tell me how many EEE students did internships in previous years.
+         - What is the yearly count of EEE students who got internships?
+         - List the number of EEE students who got internships year by year.
+         - How many EEE students secured internships each academic year?
+
+    - intent: eee_contact
+      examples: |
+        - Give me the contact details of the Electrical and Electronics Engineering department.
+        - How can I contact the HOD of EEE department?
+        - Provide the email ID for the EEE department.
+        - What is the phone number of the EEE department at SSMIET?
+        - Who should I contact for internship-related queries about EEE?
+        - Give me the address of the EEE department at SSM Institute of Engineering and Technology.
+        - Can you provide the EEE department's contact information?
+        - EEE contact details
+
+    - intent: extra_courses_eee
+      examples: |
+      - Tell me about the value-added courses in Electrical and Electronics Engineering department
+      - What are the additional courses offered by EEE?
+      - Extra courses provided by EEE department
+      - List the value-added courses for EEE students
+      - Do EEE students have any extra learning opportunities? 
+                      
+    - intent: placement_company_names_eee
+      examples: |
+      - Which companies come for placements in EEE?
+      - What are the company names for EEE placements?
+      - List the companies recruiting EEE students
+      - Can you provide the names of placement companies for EEE?
+      - Which companies hire from the EEE department?
+      - Who are the recruiters for EEE students?
+      - Which companies visit for EEE placements?
+      - Give me the names of companies for EEE placements  
+      - What are the companies hiring for EEE final year placements?
+      - Are there any top companies for placement in EEE?

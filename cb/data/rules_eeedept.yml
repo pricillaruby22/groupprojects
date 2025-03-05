@@ -1,0 +1,152 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: eee_hod_details
+      - action: utter_eee_hod_details
+
+  - rule: Respond to EEE faculty queries
+    steps:
+      - intent: eee_faculty_details
+      - action: utter_eee_faculty_details
+
+  - rule: Provide PEO information of EEE department
+    steps:
+      - intent: peo_eee_department
+      - action: utter_peo_eee_department
+
+  - rule: Provide PO information of EEE department
+    steps:
+      - intent: po_eee_department
+      - action: utter_po_eee_department
+
+  - rule: Provide PSO information of EEE department
+    steps:
+      - intent: pso_eee_department
+      - action: utter_pso_eee_department
+
+  - rule: Respond to EEE course outcomes
+    steps:
+      - intent: eee_course_outcomes
+      - action: utter_eee_course_outcomes
+
+  - rule: Respond to technical faculty in EEE
+    steps:
+      - intent: technical_faculty_eee
+      - action: utter_technical_faculty_eee
+
+  - rule: Respond to placement details in EEE
+    steps:
+      - intent: placement_eee
+      - action: utter_placement_eee    
+
+  - rule: Respond to EEE department info or about
+    steps:
+      - intent: eee_department_info_about
+      - action: utter_eee_department_info_about
+
+  - rule: Respond to EEE department vision
+    steps:
+      - intent: eee_department_vision
+      - action: utter_eee_department_vision
+
+  - rule: Respond to EEE department mission
+    steps:
+      - intent: eee_department_mission
+      - action: utter_eee_department_mission
+
+  - rule: Respond to EEE total students count
+    steps:
+      - intent: eee_total_students
+      - action: utter_eee_total_students
+
+  - rule: Respond to EEE female or girls students count
+    steps:
+      - intent: eee_female_girls_students
+      - action: utter_eee_female_girls_students
+
+  - rule: Respond to EEE male or boys students count
+    steps:
+      - intent: eee_male_boys_students
+      - action: utter_eee_male_boys_students
+
+  - rule: Respond to EEE lab facilities
+    steps:
+      - intent: eee_lab_facilities
+      - action: utter_eee_lab_facilities
+
+  - rule: Respond to EEE department activities
+    steps:
+      - intent: eee_department_activities
+      - action: utter_eee_department_activities
+
+  - rule: Respond to EEE student activities
+    steps:
+      - intent: eee_student_activities
+      - action: utter_eee_student_activities
+
+  - rule: Respond to EEE faculty activities
+    steps:
+      - intent: eee_faculty_activities
+      - action: utter_eee_faculty_activities
+
+  - rule: Respond to EEE professional bodies
+    steps:
+      - intent: eee_professional_bodies
+      - action: utter_eee_professional_bodies
+
+  - rule: Respond to EEE research activities
+    steps:
+      - intent: eee_research_activities
+      - action: utter_eee_research_activities
+
+  - rule: Respond to EEE newsletter
+    steps:
+      - intent: eee_newsletter
+      - action: utter_eee_newsletter
+  
+  - rule: Respond to EEE MOU inquiry 
+    steps:
+      - intent: mou_sign_company_eee 
+      - action: utter_mou_sign_company_eee 
+    
+  - rule: Respond to EEE internship companies 
+    steps:
+      - intent: intern_company_eee 
+      - action: utter_intern_company_eee 
+  
+  - rule: Provide EEE contact details
+    steps:
+      - intent: eee_contact
+      - action: utter_eee_contact
+
+  - rule: Respond to extra courses in EEE
+    steps:
+      - intent: extra_courses_eee 
+      - action: utter_extra_courses_eee  
+
+  - rule: Respond to placement company names in EEE
+    steps:
+      - intent: placement_company_names_eee 
+      - action: utter_placement_company_names_eee     
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_eee_accreditation
+      - action: utter_eee_accreditation
+
+  - rule: Respond to EEE year-wise student count queries
+    steps:
+      - intent: eee_yearwise_student_count
+      - action: utter_eee_yearwise_student_count
+
+  - rule: Respond to EEE event conducted photo queries
+    steps:
+      - intent: eee_event_conducted_photos
+      - action: utter_eee_event_conducted_photos
+
+  - rule: Respond to EEE faculty experience knowledge queries
+    steps:
+      - intent: eee_faculty_experience_knowledge
+      - action: utter_eee_faculty_experience_knowledge
