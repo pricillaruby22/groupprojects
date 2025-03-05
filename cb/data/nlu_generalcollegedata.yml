@@ -868,8 +868,6 @@ nlu:
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   - intent: college_events_annual_symposium
     examples: |
       - What special functions are conducted in the college?
@@ -1022,11 +1020,7 @@ nlu:
       - Are there any special coaching classes for weak students?
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
-    
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
   - intent: lab_hardware_college
     examples: |
       - What are the hardware specifications of the computer labs in SSMIET?
@@ -1042,8 +1036,7 @@ nlu:
   
   - intent: student_feedback
     examples: |
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
       - How can I give feedback?
       - Where can I submit my feedback about the college?
       - I want to share my opinion about my courses.
@@ -1095,24 +1088,23 @@ nlu:
       - Where can I see the recruitment schedule?
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
-=======
-=======
->>>>>>> Stashed changes
-    - How can I give feedback?
-    - Where can I submit my feedback about the college?
-    - I want to share my opinion about my courses.
-    - Student feedback form link?
-    - How do I provide feedback on my professors?
-    - Can I review my professor's teaching?
-    - Is there a way to rate the faculty?
-    - Feedback for college infrastructure?
-    - I want to complain about a course.
-    - How to give suggestions to improve the college?
-    - What is the student feedback system?
-    - Can I submit an anonymous feedback?
-    - Where can I review my academic experience?
-    - Share link for feedback?
-    - How to submit a complaint about faculty?
+  - intent : student_feedback
+    examples: |
+      - How can I give feedback?
+      - Where can I submit my feedback about the college?
+      - I want to share my opinion about my courses.
+      - Student feedback form link?
+      - How do I provide feedback on my professors?
+      - Can I review my professor's teaching?
+      - Is there a way to rate the faculty?
+      - Feedback for college infrastructure?
+      - I want to complain about a course.
+      - How to give suggestions to improve the college?
+      - What is the student feedback system?
+      - Can I submit an anonymous feedback?
+      - Where can I review my academic experience?
+      - Share link for feedback?
+      - How to submit a complaint about faculty?
 
   - intent: water_facilities
     examples: |
@@ -1149,10 +1141,6 @@ nlu:
     - Where can I see the recruitment schedule?
     - Are placements guaranteed for all students?
     - How many recruiters are there in this college?
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 
   - intent: sports_achievements
     examples: |
