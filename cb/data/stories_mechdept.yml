@@ -1,0 +1,147 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of Mechanical
+    steps:
+      - intent: mech_hod_details
+      - action: utter_mech_hod_details
+
+  - story: Respond to Mechanical faculty queries
+    steps:
+      - intent: mech_faculty_details
+      - action: utter_mech_faculty_details
+
+  - story: Answer PEO of Mechanical department
+    steps:
+      - intent: peo_mech_department
+      - action: utter_peo_mech_department
+
+  - story: Answer PO of Mechanical department
+    steps:
+      - intent: po_mech_department
+      - action: utter_po_mech_department
+
+  - story: Answer PSO of Mechanical department
+    steps:
+      - intent: pso_mech_department
+      - action: utter_pso_mech_department
+
+  - story: Answer Mechanical course outcomes 
+    steps:
+      - intent: mech_course_outcomes
+      - action: utter_mech_course_outcomes
+
+  - story: Mechanical department info or about story
+    steps:
+      - intent: mech_department_info_about
+      - action: utter_mech_department_info_about
+
+  - story: Mechanical department vision story
+    steps:
+      - intent: mech_department_vision
+      - action: utter_mech_department_vision
+
+  - story: Mechanical department mission story
+    steps:
+      - intent: mech_department_mission
+      - action: utter_mech_department_mission
+
+  - story: Mechanical total students story
+    steps:
+      - intent: mech_total_students
+      - action: utter_mech_total_students
+
+  - story: Mechanical female or girls students story
+    steps:
+      - intent: mech_female_girls_students
+      - action: utter_mech_female_girls_students
+
+  - story: Mechanical male or boys students story
+    steps:
+      - intent: mech_male_boys_students
+      - action: utter_mech_male_boys_students
+
+  - story: Answer to Mechanical lab facilities 
+    steps:
+      - intent: mech_lab_facilities
+      - action: utter_mech_lab_facilities
+
+  - story: Mechanical department activities story
+    steps:
+      - intent: mech_department_activities
+      - action: utter_mech_department_activities
+
+  - story: Mechanical student activities story
+    steps:
+      - intent: mech_student_activities
+      - action: utter_mech_student_activities
+
+  - story: Mechanical faculty activities story
+    steps:
+      - intent: mech_faculty_activities
+      - action: utter_mech_faculty_activities
+
+  - story: Mechanical professional bodies story
+    steps:
+      - intent: mech_professional_bodies
+      - action: utter_mech_professional_bodies
+
+  - story: Mechanical research activities story
+    steps:
+      - intent: mech_research_activities
+      - action: utter_mech_research_activities
+
+  - story: Mechanical newsletter story
+    steps:
+      - intent: mech_newsletter
+      - action: utter_mech_newsletter
+
+  - story: Ask about MOU companies
+    steps:
+      - intent: mou_sign_company_mech
+      - action: utter_mou_sign_company_mech
+
+  - story: Ask for Mechanical dept contact details
+    steps:
+      - intent: mech_contact
+      - action: utter_mech_contact
+
+  - story: Provide technical faculty details for Mechanical
+    steps:
+      - intent: technical_faculty_mech
+      - action: utter_technical_faculty_mech
+
+  - story: Provide Mechanical placement details
+    steps:
+      - intent: placement_mech
+      - action: utter_placement_mech    
+
+  - story: Provide extra courses details for Mechanical
+    steps:
+      - intent: extra_courses_mech
+      - action: utter_extra_courses_mech   
+
+  - story: Provide Mechanical placement company names
+    steps:
+      - intent: placement_company_names_mech
+      - action: utter_placement_company_names_mech     
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: mech_accreditation
+      - action: utter_mech_accreditation
+
+  - story: Mechanical year-wise student count inquiries
+    steps:
+      - intent: mech_yearwise_student_count
+      - action: utter_mech_yearwise_student_count
+
+  - story: Mechanical event conducted photo inquiries
+    steps:
+      - intent: mech_event_conducted_photos
+      - action: utter_mech_event_photos
+  
+  - story: Mechanical faculty experience knowledge inquiries
+    steps:
+      - intent: mech_faculty_experience_knowledge
+      - action: utter_mech_faculty_experience_knowledge
