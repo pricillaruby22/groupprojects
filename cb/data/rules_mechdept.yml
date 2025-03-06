@@ -1,0 +1,157 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: mech_hod_details
+      - action: utter_mech_hod_details
+
+  - rule: Respond to Mechanical faculty queries
+    steps:
+      - intent: mech_faculty_details
+      - action: utter_mech_faculty_details
+
+  - rule: Provide PEO information of Mechanical department
+    steps:
+      - intent: peo_mech_department
+      - action: utter_peo_mech_department
+
+  - rule: Provide PO information of Mechanical department
+    steps:
+      - intent: po_mech_department
+      - action: utter_po_mech_department
+
+  - rule: Provide PSO information of Mechanical department
+    steps:
+      - intent: pso_mech_department
+      - action: utter_pso_mech_department
+
+  - rule: Respond to Mechanical course outcomes
+    steps:
+      - intent: mech_course_outcomes
+      - action: utter_mech_course_outcomes
+
+  - rule: Respond to technical faculty in Mechanical
+    steps:
+      - intent: technical_faculty_mech
+      - action: utter_technical_faculty_mech
+
+  - rule: Respond to placement details in Mechanical
+    steps:
+      - intent: placement_mech
+      - action: utter_placement_mech    
+
+  - rule: Respond to Mechanical department info or about
+    steps:
+      - intent: mech_department_info_about
+      - action: utter_mech_department_info_about
+
+  - rule: Respond to Mechanical department vision
+    steps:
+      - intent: mech_department_vision
+      - action: utter_mech_department_vision
+
+  - rule: Respond to Mechanical department mission
+    steps:
+      - intent: mech_department_mission
+      - action: utter_mech_department_mission
+
+  - rule: Respond to Mechanical total students count
+    steps:
+      - intent: mech_total_students
+      - action: utter_mech_total_students
+
+  - rule: Respond to Mechanical female or girls students count
+    steps:
+      - intent: mech_female_girls_students
+      - action: utter_mech_female_girls_students
+
+  - rule: Respond to Mechanical male or boys students count
+    steps:
+      - intent: mech_male_boys_students
+      - action: utter_mech_male_boys_students
+
+  - rule: Respond to Mechanical lab facilities
+    steps:
+      - intent: mech_lab_facilities
+      - action: utter_mech_lab_facilities
+
+  - rule: Respond to Mechanical department activities
+    steps:
+      - intent: mech_department_activities
+      - action: utter_mech_department_activities
+
+  - rule: Respond to Mechanical student activities
+    steps:
+      - intent: mech_student_activities
+      - action: utter_mech_student_activities
+
+  - rule: Respond to Mechanical faculty activities
+    steps:
+      - intent: mech_faculty_activities
+      - action: utter_mech_faculty_activities
+
+  - rule: Respond to Mechanical professional bodies
+    steps:
+      - intent: mech_professional_bodies
+      - action: utter_mech_professional_bodies
+
+  - rule: Respond to Mechanical research activities
+    steps:
+      - intent: mech_research_activities
+      - action: utter_mech_research_activities
+
+  - rule: Respond to Mechanical newsletter
+    steps:
+      - intent: mech_newsletter
+      - action: utter_mech_newsletter
+  
+  - rule: Respond to Mechanical MOU inquiry 
+    steps:
+      - intent: mou_sign_company_mech 
+      - action: utter_mou_sign_company_mech 
+
+  - rule: Provide Mechanical contact details
+    steps:
+      - intent: mech_contact
+      - action: utter_mech_contact
+
+  - rule: Respond to extra courses in Mechanical
+    steps:
+      - intent: extra_courses_mech 
+      - action: utter_extra_courses_mech  
+
+  - rule: Respond to placement company names in Mechanical
+    steps:
+      - intent: placement_company_names_mech 
+      - action: utter_placement_company_names_mech     
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_mech_accreditation
+      - action: utter_mech_accreditation
+
+  - rule: Respond to Mechanical year-wise student count queries
+    steps:
+      - intent: mech_yearwise_student_count
+      - action: utter_mech_yearwise_student_count
+
+  - rule: Respond to Mechanical event conducted photo queries
+    steps:
+      - intent: mech_event_conducted_photos
+      - action: utter_mech_event_conducted_photos
+
+  - rule: Respond to Mechanical faculty experience knowledge queries
+    steps:
+      - intent: mech_faculty_experience_knowledge
+      - action: utter_mech_faculty_experience_knowledge
+
+
+
+
+
+
+
+
+
+

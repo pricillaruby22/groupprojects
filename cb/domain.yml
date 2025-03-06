@@ -77,7 +77,6 @@ intents:
   - curriculum_relevance_industry
   - ssmiet_college_ranking
   - ssmiet_organization_clubs
-
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
@@ -90,7 +89,6 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
-<<<<<<< Updated upstream
   - student_feedback
   - water_facilities
   - recruiters_college_for_placements
@@ -108,17 +106,14 @@ intents:
   - extracurricular_activites
   - fee_payment
   - gate_coaching
-=======
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
->>>>>>> Stashed changes
   - ask_ragging
   - ask_bus_seat
   - ask_campus_photos
   - ask_bus_facility
   - ask_canteen_facility
-<<<<<<< Updated upstream
   - ece_hod_details
   - ece_faculty_details
   - peo_ece_department
@@ -166,8 +161,6 @@ intents:
   - it_yearwise_student_count
   - it_event_conducted_photos
   - it_faculty_experience_knowledge
-
-=======
   - eee_hod_details
   - eee_faculty_details
   - peo_eee_department
@@ -198,7 +191,36 @@ intents:
   - eee_yearwise_student_count
   - eee_event_conducted_photos
   - eee_faculty_experience_knowledge
->>>>>>> Stashed changes
+  - mech_hod_details
+  - mech_faculty_details
+  - peo_mech_department
+  - po_mech_department
+  - pso_mech_department
+  - mech_course_outcomes
+  - mech_department_info_about
+  - mech_department_vision
+  - mech_department_mission
+  - mech_total_students
+  - mech_female_girls_students
+  - mech_male_boys_students
+  - mech_lab_facilities
+  - mech_department_activities
+  - mech_student_activities
+  - mech_faculty_activities
+  - mech_professional_bodies
+  - mech_research_activities
+  - mech_newsletter
+  - technical_faculty_mech
+  - placement_mech
+  - extra_courses_mech
+  - mou_sign_company_mech
+  - mech_contact
+  - placement_company_names_mech
+  - mech_accreditation
+  - mech_yearwise_student_count
+  - mech_event_conducted_photos
+  - mech_faculty_experience_knowledge
+
 
 responses:
   utter_greet:
@@ -1067,7 +1089,6 @@ responses:
         Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
         For more details, you can contact the canteen management.
 
-<<<<<<< Updated upstream
   utter_ece_hod_details:
     - text: |
         🔹 Name: Dr. S. Karthigailakshmi 
@@ -1337,7 +1358,7 @@ responses:
         Here are the faculty members of the IT department:
         1. Dr. G. Prabu - M.E., Ph.D. (Professor and Head)
         2. Mrs. D. Devishree - M.E., Ph.D. (Assistant Professor)
-        3. Mrs. B. Ponvizhy swathy - M.E., Ph.D. (Assistant Professor)
+        3. Mrs. B. Ponvizhy swathy - M.E. (Assistant Professor)
         4. Mrs. G. Durga devi - M.E., Ph.D. (Assistant Professor)
 
   utter_peo_it_department:
@@ -1395,10 +1416,10 @@ responses:
     - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, features excellent infrastructure and a dedicated faculty. \nCommitted to quality education, the department aims to enhance the teaching-learning process and develop into a Center of Excellence. \nIts ultimate goal is to create excellent career pathways for students through placements, entrepreneurship, or higher studies."
 
   utter_it_department_vision:
-    - text: "**Vision**: To be an outstanding center for IT education and research for betterment of society."
+    - text: "**Vision**: \nTo be an outstanding center for IT education and research for betterment of society."
 
   utter_it_department_mission:
-    - text: "**Mission**: Impart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
+    - text: "**Mission**: \nImpart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
 
   utter_it_total_students:
     - text: "The total student count in the IT department varies each academic year."
@@ -1473,7 +1494,6 @@ responses:
     - text: |
         "The IT faculty at SSMIET has an average teaching experience of around 11 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
-=======
   utter_eee_hod_details:
     - text: |
        🔹 Name: Dr. R.M. Sekar  
@@ -1709,6 +1729,231 @@ responses:
   utter_eee_accreditation:
     - text: |
        "Our EEE department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and NBA, and affiliated to Anna University, Chennai."
+  
+  utter_mech_hod_details:
+    - text: |
+        🔹 Name:  Dr.G. Sankaranarayanan  
+        🔹 Position: Head of the Department (HOD), Mech, SSMIET
+        🔹 Years of Experience: 15+ years in teaching
+        🔹 Qualification: 🎓 Ph.D, M.E, B.E
+         \nTo learn more about HOD of Mech of SSMIET, please visit this website https://ssmiet.ac.in/MECH/2024/2.%20Dr.G.%20SANKARANARAYANAN.pdf"
+
+  utter_mech_faculty_details:
+    - text: |
+        Here are the faculty members of the Mech department:
+        1. Dr.G. Sankaranarayanan - M.E., Ph.D. (Professor and Head)
+        2. Dr. S. Joseph dominic vijayakumar - M.E., Ph.D. (Professor)
+        3. Dr. M. Sabareeswaran - M.E., Ph.D. (Assistant Professor)
+        4. Mr. C. Silambarasan - M.E., Ph.D. (Associate Professor)
+        5. Mr. M. Prabhakaran - M.E., Ph.D. (Assistant Professor)
+        6. Mr. P. Deenathayalan - M.E., Ph.D. (Assistant Professor)
+        7. Mr. U. Karthick - M.E., Ph.D. (Assistant Professor)
+        8. Mr. M. Selwin - M.E., Ph.D. (Assistant Professor)
+        9. Mr. P. Shankar kannan - M.E., Ph.D. (Assistant Professor)
+        10. Mr. R. Sanjeevi - M.E., Ph.D. (Assistant Professor)
+        
+  utter_peo_mech_department:
+    - text: |
+        Programme Educational Objectives (PEOs) of Mechanical department:
+
+        **PEO1** Domain Knowledge - Prepare graduates to excel in their professional career by acquiring knowledge in Mathematics, Science, Engineering principles through theory, laboratory classes and to formulate, solve, address problems in the mechanical engineering domains.
+
+        **PEO2** Professional Employment - Prepare graduates to have a strong core and technical knowledge in Mechanical Engineering, allied disciplines contributing to society through interdisciplinary skills, entrepreneurial skills and leadership qualities with a global outlook.
+
+        **PEO3** Higher Studies - Impart critical thinking skills, to develop initiatives and innovative ideas to pursue higher studies, R&D and industrial requirements.
+
+        **PEO4** Engineering Citizenship - Implant professional attitude, management principles with an ability to relate engineering issues to the broader social and national context.
+
+        **PEO5** Life-long Learning - Inculcate teamwork, communication, interpersonal skills, ethical approach adapting to changing environments of engineering and technology by engaging in life-long learning.
+
+  utter_po_mech_department:
+    - text: |
+        Program Outcomes (POs) of Mechanical department:
+
+        **PO1** Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+
+        **PO2** Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+
+        **PO3** Design solutions for the complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+
+        **PO4** Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+
+        **PO5** Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+
+        **PO6** Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+
+        **PO7** Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+
+        **PO8** Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+
+        **PO9** Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+
+        **PO10** Communicate effectively on complex engineering activities with the Engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+
+        **PO11** Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+
+        **PO12** Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_mech_department:
+    - text: |
+        Programme Specific Outcomes (PSO) of Mechanical department:
+
+        **PSO1** Research oriented: Comprehend journal literature, do research on new mechanical engineering problems and publish the results through patents, journals, conferences and symposium.
+
+        **PSO2** Industry oriented: Realize professional experience through industry-interaction activities, internships, and in-plant training.
+
+        **PSO3** Start-up & Entrepreneur oriented: Recognize and implement new ideas on new product design and development with the help of modern engineering tools, while ensuring the best manufacturing practices.
+
+  utter_mech_course_outcomes:
+    - text: "You can find the course outcomes for the Mechanical department at SSMIET in the following PDF:  https://ssmiet.ac.in/MECH/2024/Course%20Outcomes%20R2017.pdf"
+
+  utter_mech_department_info_about:
+    - text: "Mechanical Engineering is one of the oldest and broadest disciplines, applying energy, materials, and mechanics to drive technology and industry. With flexibility and diverse career paths, mechanical engineers can become entrepreneurs, consultants, or industry professionals. The department has 12 faculty members, including an IIT doctorate and three pursuing PhDs. It follows modern teaching methods, including presentations, seminars, industrial visits, and guest lectures."
+
+  utter_mech_department_vision:
+    - text: "**Vision**: \nTo contribute to the National economy by imparting a high quality engineering education and research leading to well-qualified mechanical engineers with innovative, entrepreneurial mindset along with social concerns."
+
+  utter_mech_department_mission:
+    - text: "**Mission**: \nInstituting an environment with a value-based education system sustained by quality resources and teaching, learning processes to nurture the student’s knowledge and skill in the faculty of mechanical engineering. \nProgressing interactions with the members concerned to ensure continuous improvement in the academic processes to congregate the fast changing requirements. \nEstablishing centers of excellence in the domain of mechanical engineering to endorse academic augmentation, to engender knowledge and entrepreneurial talents to meet the current challenging requirements by the industry. \nPromoting co-curricular and extra-curricular activities to develop the life skills of graduating mechanical engineering students."
+
+  utter_mech_total_students:
+    - text: "The total student count in the Mechanical department varies each academic year."
+
+  utter_mech_female_girls_students:
+    - text: 
+        "The number of female students in the Mechanical department varies."
+  
+  utter_mech_male_boys_students:
+    - text: 
+        "The number of male students in the Mechanical department varies."
+
+  utter_mech_lab_facilities:
+    - text: 
+        "You can find details about the lab facilities available in the Mechanical department at the following link: https://ssmiet.ac.in/mechfacilities.html"
+
+  utter_mech_department_activities:
+    - text: 
+        "You can find details about the department activities at the following link: https://ssmiet.ac.in/mech%20department%20activity.html"
+  
+  utter_mech_student_activities:
+    - text: 
+        "You can find details about the student activities at the following link: https://ssmiet.ac.in/stud_act_mech.html"
+
+  utter_mech_faculty_activities:
+    - text: 
+        "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/fac_act_mech.html"
+
+  utter_mech_professional_bodies:
+    - text: 
+        "You can find details about the professional bodies associated with the Mechanical department at the following link: https://ssmiet.ac.in/mechanical%20professional%20bodies.html"
+  
+  utter_mech_research_activities:
+    - text: 
+        "You can find details about the research activities in the Mechanical department at the following link: https://ssmiet.ac.in/MECHANICAL%20RESEARCH.html"
+  
+  utter_mech_newsletter:
+    - text: 
+        "You can find details about the Mechanical department newsletter at the following link: https://ssmiet.ac.in/mech%20news%20letter.html"
+        
+  utter_technical_faculty_mech:
+    - text: |
+        The technical faculty in the Mechanical department are:
+          - Mr.S.Sivachandran D.M.E.,B.E., (Technical Assistant)
+          - Mr.P.Kaliappan DME.,B.E.,M.E., (Technical Assistant)
+          - Mr.M.Mayilvaganam DME., (Technical Assistant)
+          - Mr.J.Gopinath D.M.E, B.A., (Technical Assistant)
+          - Mr. P. Ilayaraja (DME)  (Technical Assistant)
+         
+  utter_placement_mech:
+    - text: |
+        Year-wise placement details for the Mechanical department:
+          - 2018-2019: 66 students
+          - 2019-2020: 62 students
+          - 2020-2021: 96 students
+          - 2021-2022: 54 students
+          - 2022-2023: 31 students
+          - 2023-2024: 35 students
+        
+  utter_extra_courses_mech:
+    - text: |
+        Here are the value-added courses offered by the Mechanical department:
+          1. Technology Training on CATIA 
+          2. Technology Training on 3D Printing
+          3. Technology Training on CREO 
+          4. Technology Training on PYTHON
+          5. Hands on Training on Heat transfer Equipments
+          6. Machine Drawing
+          7. Refrigeration and Air Conditioning(R&AC)
+          8. Cad Modelling in Industrial Applications
+
+  utter_mou_sign_company_mech:
+    - text: "Here are the companies that have signed an MOU with our institution: 
+              1. A PLUS NDT Services, Coimbatore 
+              2. Sri Sai NDT Services, Pondicherry 
+              3. UNIQUE MEP Engineering Pvt Ltd, Chennai 
+              4. Supreme EDM Tools, Coimbatore  
+              5. SPOTLITE Technology, Dindigul 
+              6. Prajith Engineering Technologies, Coimbatore. 
+              7. Ford Motors India Limited, Chennai. 
+              8. CIPET, Madurai 
+              9. Senthil Kumaran Engineering and Contractors, Dindigul
+              10. Tirupathi E Power Motors, Dindigul 
+              11. Southern Railway, Perambalur.  
+              12. southern Railway, Ponmalai
+              13. Madura Steel Industries Ltd, Dindigul
+              14. PCRA
+              15. SPD & Sons, Dindigul
+              16. Interfit India Limited, Dindigul 
+              17. Nalvetha Castings Limited, Dindigul
+              18. Mr. A. Annadurai, Jt. Secretary, DRTEC, DIC, Dindigul 
+              19. Siva Balaji Press tools, Dindigul 
+
+  utter_mech_contact:
+    - text: |
+        📌 The Head of the Department,
+        🏛️ Department of Mechanical Engineering,
+        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
+        📞 Phone: 0451 – 2448830
+        ✉️ Email: hodmechanicalssmiet@gmail.com
+  
+  utter_placement_company_names_mech:
+    - text: |
+        Companies recruiting Mechanical Engineering students categorized by tier levels:
+          - Tier 1 Companies:
+            - Tata Motors
+            - Tata Steel
+            - Tata Consultancy Services (TCS)
+            - Larsen & Toubro (L&T)
+            - Mahindra & Mahindra
+            - Bharat Heavy Electricals Limited (BHEL)
+          - Tier 2 Companies:
+            - Hindustan Aeronautics Limited (HAL)
+            - Siemens India
+            - Godrej & Boyce
+            - Thermax
+          - Tier 3 Companies:
+            - Ashok Leyland
+            - Kirloskar Group
+            - Jindal Steel & Power
+            - Hindustan Petroleum Corporation Limited (HPCL)
+
+  utter_mech_accreditation:
+    - text: |
+        "The Mechanical Engineering (ME) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. \nThe institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. \nAdditionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC)."
+
+  utter_mech_yearwise_student_count:
+    - text: |
+        "Yearwise student count in Mechanical department"
+
+  utter_mech_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_mech_faculty_experience_knowledge:
+    - text: |
+        "The Mechanical Engineering faculty at SSMIET has an average teaching experience of around 12 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+
+                
  
           
->>>>>>> Stashed changes

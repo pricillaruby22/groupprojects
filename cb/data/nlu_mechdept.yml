@@ -1,0 +1,360 @@
+version: "3.1"
+
+nlu:
+  - intent: mech_hod_details
+    examples: |
+      - Who is the Head of the Mechanical Engineering Department at SSMIET?
+      - Can you provide the qualifications and experience details of the MECH HOD?
+      - What are the research areas of the HOD of Mechanical?
+      - Who is the Mechanical department head at this college?
+      - What is the experience of the Mechanical HOD?
+      - Can you tell me about the background of the HOD of Mechanical?
+      - Who is in charge of the Mechanical department?
+      - How long has the HOD of Mechanical been working?
+      - Is the head of Mechanical experienced?
+
+  - intent: mech_faculty_details
+    examples: |
+      - Who are the faculty members of the Mechanical department?
+      - Can you list the Mechanical department faculty?
+      - Tell me about the educators in the Mechanical department.
+      - Provide details on Mechanical Engineering department professors.
+      - Give me a list of Mechanical department staff.
+      - Who teaches in the Mechanical department?
+      - I am uneducated about the staff in Mechanical. Can you list them?
+      - Tell me who the Mechanical professors are.
+      - Can you give me some information about the Mechanical faculty?
+      - Who are the key faculty members in Mechanical?
+      - Give me more details about the educators in Mechanical.
+      - List out the Mechanical teaching madam.
+
+  - intent: peo_mech_department
+    examples: |
+      - What does PEO stand for in the Mechanical department?
+      - What is the PEO of the Mechanical department?
+      - Tell me about PEO of Mechanical Engineering.
+      - What are the PEOs in the Mechanical department?
+      - How do PEOs help in shaping the career of a Mechanical graduate?
+      - What are the key components of a typical Mechanical department PEO?
+      - What are the key goals of PEOs in Mechanical Engineering?
+      - Why are Program Educational Objectives (PEOs) important for Mechanical students?
+      - How do Program Educational Objectives (PEOs) help in shaping a Mechanical graduate’s career?
+      - What are the key components of Program Educational Objectives (PEOs) in a Mechanical program?
+
+  - intent: po_mech_department
+    examples: |
+      - What does PO stand for in the Mechanical department?
+      - What is the PO of the Mechanical department?
+      - Tell me about PO of Mechanical Engineering.
+      - What are the POs in the Mechanical department?
+      - How do POs help in shaping the career of a Mechanical graduate?
+      - What are the key components of a typical Mechanical department PO?
+      - What are the key goals of POs in Mechanical Engineering?
+      - Why are Program Outcomes (POs) important for Mechanical students?
+      - How do Program Outcomes (POs) help in shaping a Mechanical graduate’s career?
+      - What are the key components of Program Outcomes (POs) in a Mechanical program?
+
+  - intent: pso_mech_department
+    examples: |
+      - What does PSO stand for in the Mechanical department?
+      - What is the PSO of the Mechanical department?
+      - Tell me about PSO of Mechanical Engineering.
+      - What are the PSOs in the Mechanical department?
+      - How do PSOs help in shaping the career of a Mechanical graduate?
+      - What are the key components of a typical Mechanical department PSO?
+      - What are the key goals of PSOs in Mechanical Engineering?
+      - Why are Program Specific Outcomes (PSOs) important for Mechanical students?
+      - How do Program Specific Outcomes (PSOs) help in shaping a Mechanical graduate’s career?
+      - What are the key components of Program Specific Outcomes (PSOs) in a Mechanical program?
+
+  - intent: technical_faculty_mech
+    examples: |
+      - Tell me about the technical staff in the Mechanical department
+      - Who are the technical faculty in Mechanical?
+      - List the technical assistants in the Mechanical department
+      - Mechanical department technical staff details
+
+  - intent: placement_mech
+    examples: |
+      - Tell me about the placement details in Mechanical department
+      - How many students got placed in Mechanical?
+      - Mechanical department placement statistics
+      - Year-wise placement count in Mechanical  
+      - Tell me about the placement statistics in the Mechanical department
+      - How successful is the Mechanical department in placements?
+      - What is the placement rate for Mechanical students?
+      - Can you provide the Mechanical placement report?
+      - How many Mechanical students were placed last year?
+      - What's the highest placement count for Mechanical?
+      - Which companies hired Mechanical students?
+      - How has Mechanical placement performance changed over the years?
+      - Do Mechanical students get good placements?
+      - Share the year-wise placement details for Mechanical.
+
+  - intent: mech_course_outcomes
+    examples: |
+      - Where can I find the syllabus for Mechanical?
+      - Show me the subjects covered in Mechanical.
+      - Show me the core subjects in Mechanical.
+      - What are the specialization areas in Mechanical?
+      - Provide details about the elective courses in Mechanical.
+      - Where can I find study materials for Mechanical subjects?
+      - What are the key skills gained in a Mechanical degree?
+      - Which programming languages are covered in Mechanical?
+      - Give me details about the lab courses in Mechanical.
+      - What skills will I gain from a Mechanical degree?
+      - What are the learning outcomes of a Mechanical course?
+      - What knowledge will I acquire after completing Mechanical?
+      - What are the course outcomes of Mechanical?
+
+  - intent: mech_department_info_about
+    examples: |
+      - When was the Mechanical department established?
+      - Is the Mechanical department approved by AICTE?
+      - Tell me about Mechanical Engineering.
+      - Which university is the Mechanical department affiliated with?
+      - How does the Mechanical department support student learning?
+      - How does the Mechanical department help students achieve academic and career goals?
+      - How does the Mechanical department emphasize co-curricular and extracurricular activities?
+      - Tell me about Mechanical department.
+      - What is the about of Mechanical department?
+
+  - intent: mech_department_vision
+    examples: |
+      - What is the vision of the Mechanical department?
+      - What are the key goals of the Mechanical department’s vision?
+      - How does the Mechanical department work towards achieving its vision?
+      - How does the vision of the Mechanical department benefit students?
+      - What impact does the Mechanical department’s vision have on technical education?
+      - Does the vision of the Mechanical department focus on industry readiness?
+      - How does the Mechanical department’s vision align with modern technology trends?
+      - What initiatives are taken to fulfill the Mechanical department’s vision?
+      - How does research and innovation contribute to the Mechanical department’s vision?
+      - Does the vision of the Mechanical department include global technological advancements?
+      - Tell me about the vision of the Mechanical department.
+
+  - intent: mech_department_mission
+    examples: |
+      - What is the mission of the Mechanical department?
+      - What are the key goals of the Mechanical department’s mission?
+      - How does the Mechanical department work towards achieving its mission?
+      - How does the mission of the Mechanical department benefit students?
+      - What impact does the Mechanical department’s mission have on technical education?
+      - Does the mission of the Mechanical department focus on industry readiness?
+      - How does the Mechanical department’s mission align with modern technology trends?
+      - What initiatives are taken to fulfill the Mechanical department’s mission?
+      - How does research and innovation contribute to the Mechanical department’s mission?
+      - Does the mission of the Mechanical department include global technological advancements?
+      - Tell me about the mission of the Mechanical department.
+
+  - intent: mech_total_students
+    examples: |
+      - What is the total student count in the Mechanical department?
+      - What is the total number of students currently enrolled in the Mechanical department?
+      - How many students are studying in the Mechanical department this academic year?
+      - What is the total student strength of the Mechanical department?
+      - How many students have been admitted to the Mechanical department this year?
+      - What is the total student intake capacity for the Mechanical department?
+      - How many students are in each year of the Mechanical department?
+      - What is the total number of students in the undergraduate Mechanical program?
+      - How many students are currently pursuing B.E. Mechanical?
+      - How many students graduate from the Mechanical department each year?
+      - How many students are currently in their final year in Mechanical?
+
+  - intent: mech_female_girls_students
+    examples: |
+      - How many girls are there in the Mechanical department?
+      - What is the total number of female students in the Mechanical department?
+      - How many girls are currently enrolled in the Mechanical department?
+      - What percentage of Mechanical students are girls?
+      - How many female students joined the Mechanical department this year?
+      - How many girls are in each year of the Mechanical department?
+      - Has the number of girls in the Mechanical department increased over the years?
+      - How many female students have graduated from the Mechanical department so far?
+      - What is the trend of female student enrollment in the Mechanical department?
+
+  - intent: mech_male_boys_students
+    examples: |
+      - How many boys are there in the Mechanical department?
+      - What is the total number of male students in the Mechanical department?
+      - How many boys are currently enrolled in the Mechanical department?
+      - What percentage of Mechanical students are boys?
+      - How many male students joined the Mechanical department this year?
+      - How many boys are in each year of the Mechanical department?
+      - Has the number of boys in the Mechanical department increased over the years?
+      - How many male students have graduated from the Mechanical department so far?
+      - What is the trend of male student enrollment in the Mechanical department?
+
+  - intent: mech_lab_facilities
+    examples: |
+      - What are the lab facilities available in the Mechanical department?
+      - How many computer labs are there in the Mechanical department?
+      - What software and tools are available in the Mechanical labs?
+      - What is the configuration of the computers in the Mechanical labs?
+      - Are the lab facilities updated with the latest technology in the Mechanical department?
+      - Does the Mechanical department provide high-speed internet in the labs?
+      - Are the Mechanical labs accessible to students outside class hours?
+      - What kind of research work is conducted in the Mechanical labs?
+
+  - intent: mech_department_activities
+    examples: |
+      - What are the department activities conducted by the Mechanical department?
+      - How often does the Mechanical department organize technical events?
+      - What workshops are conducted by the Mechanical department?
+      - What extracurricular activities are available in the Mechanical department?
+      - Tell me about Mechanical department activities.
+      - Give me the department activities of Mechanical.
+      - Where can I find the department activities of Mechanical?
+      - Show me the department activities of Mechanical.
+
+  - intent: mech_student_activities
+    examples: |
+      - What are the student activities conducted by the Mechanical department?
+      - How often are student events organized in the Mechanical department?
+      - Tell me about Mechanical student activities.
+      - Give me the student activities of Mechanical.
+      - Where can I find the student activities of Mechanical?
+      - Show me the student activities of Mechanical.
+
+  - intent: mech_faculty_activities
+    examples: |
+      - Give me the faculty activities of Mechanical.
+      - Where can I find the faculty activities of Mechanical?
+      - Show me the faculty activities of Mechanical.
+      - What are the faculty activities conducted by the Mechanical department?
+      - How does the Mechanical department support faculty development?
+      - What research activities are carried out by the faculty in the Mechanical department?
+      - Are Mechanical faculty members involved in industry collaborations?
+      - Do Mechanical faculty members participate in technical conferences and seminars?
+      - Are Mechanical faculty members involved in curriculum development and innovation?
+
+  - intent: mech_professional_bodies
+    examples: |
+      - What are the professional bodies associated with the Mechanical department?
+      - Does the Mechanical department have memberships in any professional organizations?
+      - Which professional societies can Mechanical students join?
+      - How do professional bodies benefit Mechanical students?
+      - Are there any student chapters of professional organizations in the Mechanical department?
+      - What kind of activities do professional bodies conduct for Mechanical students?
+      - Does the Mechanical department collaborate with IEEE, ASME, or other professional bodies?
+      - How can students become members of professional organizations in the Mechanical department?
+      - Are there any certifications provided through professional bodies in the Mechanical department?
+      - Do professional bodies offer internship or research opportunities for Mechanical students?
+
+  - intent: mech_research_activities
+    examples: |
+      - What research activities are conducted in the Mechanical department?
+      - What are the major research areas in the Mechanical department?
+      - Are there any research labs available in the Mechanical department?
+      - How do students participate in research projects in the Mechanical department?
+      - Do faculty members in the Mechanical department publish research papers?
+      - Are there any funded research projects in the Mechanical department?
+      - Does the Mechanical department collaborate with industries for research?
+      - Are students encouraged to publish research papers in the Mechanical department?
+      - What research opportunities are available for undergraduate students in Mechanical?
+      - Are there any research conferences organized by the Mechanical department?
+
+  - intent: mech_newsletter
+    examples: |
+      - Does the Mechanical department have a newsletter?
+      - What is the name of the Mechanical department’s newsletter?
+      - How often is the Mechanical department newsletter published?
+      - What kind of information is included in the Mechanical department newsletter?
+      - Who can contribute articles to the Mechanical department newsletter?
+      - How can students access the Mechanical department newsletter?
+      - Does the newsletter cover research and innovation updates from the Mechanical department?
+      - Are student achievements highlighted in the Mechanical department newsletter?
+      - How does the Mechanical department newsletter help in knowledge sharing?
+      - Where can I find previous editions of the Mechanical department newsletter?
+
+  - intent: mou_sign_company_mech
+    examples: |
+      - Which companies have signed an MOU with the Mechanical department?
+      - Can you provide details on MOU-signed companies for Mechanical?
+      - Tell me about the industry collaborations for Mechanical.
+      - Which organizations have partnered with the Mechanical department?
+      - List the companies that have signed an MOU with Mechanical.
+      - What is an MOU?
+      - Can you explain what MOU means?
+      - I don’t understand MOU. Can you help?
+      - What does it mean when a company signs an MOU?
+      - Explain MOU in simple terms.
+      - Can you give me a list of MOU-signed companies for Mechanical?
+      - Which companies have recently signed an MOU with Mechanical?
+      - How does an MOU benefit Mechanical students?
+      - Tell me about the latest MOU collaborations for Mechanical.
+      - Give me details on MOU partners and their dates for Mechanical.
+      - Give me the details about tie-up companies for Mechanical.
+
+  - intent: mech_contact
+    examples: |
+      - Give me the contact details of the Mechanical Engineering department.
+      - How can I contact the HOD of Mechanical department?
+      - Provide the email ID for the Mechanical department.
+      - What is the phone number of the Mechanical department at SSMIET?
+      - Who should I contact for internship-related queries about Mechanical?
+      - Give me the address of the Mechanical department at SSM Institute of Engineering and Technology.
+      - Can you provide the Mechanical department's contact information?
+      - Mechanical contact details
+
+  - intent: extra_courses_mech
+    examples: |
+      - Tell me about the value-added courses in Mechanical Engineering department
+      - What are the additional courses offered by Mechanical?
+      - Extra courses provided by Mechanical department
+      - List the value-added courses for Mechanical students
+      - Do Mechanical students have any extra learning opportunities?
+
+  - intent: placement_company_names_mech
+    examples: |
+      - Which companies come for placements in Mechanical?
+      - What are the company names for Mechanical placements?
+      - List the companies recruiting Mechanical students
+      - Can you provide the names of placement companies for Mechanical?
+      - Which companies hire from the Mechanical department?
+      - Who are the recruiters for Mechanical students?
+      - Which companies visit for Mechanical placements?
+      - Give me the names of companies for Mechanical placements  
+      - What are the companies coming and hiring for Mechanical final year placements?
+      - Are there any top companies for placement in Mechanical?
+
+  - intent: mech_event_conducted_photos
+    examples: |
+      - Can you provide photos of events conducted by the Mechanical department?  
+      - Where can I find images of past Mechanical department events?  
+      - Do you have a gallery of Mechanical department event photos?  
+      - Can you share pictures from recent Mechanical department activities?  
+      - Are there any photos available from Mechanical department symposiums and workshops?  
+      - How can I access images of hackathons and technical events hosted by the Mechanical department?  
+      - Do you have any pictures from cultural events organized by the Mechanical department?  
+      - Can I see photos of guest lectures and seminars conducted by the Mechanical department?  
+      - Are there any images of student project presentations in the Mechanical department?  
+      - Where can I view photos from annual Mechanical department functions and celebrations?
+      - What are the events conducted by the Mechanical department?
+      - Can you provide a list of events organized by the Mechanical department?
+      - What technical events does the Mechanical department host?
+      - What cultural programs are conducted by the Mechanical department?
+      - Does the Mechanical department organize hackathons or coding competitions?
+      - What annual events are held by the Mechanical department?
+      - Are there any workshops or seminars conducted by the Mechanical department?
+      - Does the Mechanical department conduct any inter-college competitions?
+
+  - intent: mech_faculty_experience_knowledge
+    examples: |
+      - What is the average teaching experience of Mechanical faculty at SSMIET?
+      - How many years of experience do the Mechanical faculty members have on average?
+      - What is the average industry experience of Mechanical faculty at SSMIET?
+      - How many faculty members in the Mechanical department have more than 10 years of experience?
+      - What is the experience range of professors in the Mechanical department?
+      - How many faculty members in Mechanical have prior industry knowledge?
+      - What percentage of Mechanical faculty have Ph.D. qualifications?
+      - How often do Mechanical faculty members update their knowledge with training or certifications?
+      - What is the total teaching experience of the senior-most faculty in the Mechanical department?
+      - How many Mechanical faculty members have more than five years of teaching experience?
+      - What is the minimum teaching experience required for Mechanical faculty at SSMIET?
+      - How many Mechanical faculty members have both academic and industry experience?
+      - What is the average number of years Mechanical faculty members have worked at SSMIET?
+      - How many faculty members in the Mechanical department hold postgraduate degrees?
+
+
+
