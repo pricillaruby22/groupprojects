@@ -1,0 +1,109 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of CSBS
+    steps:
+      - intent: csbs_hod_details
+      - action: utter_csbs_hod_details
+
+  - story: Respond to CSBS faculty queries
+    steps:
+      - intent: csbs_faculty_details
+      - action: utter_csbs_faculty_details
+
+  - story: answer peo of CSBS department
+    steps:
+      - intent: peo_csbs_department
+      - action: utter_peo_csbs_department
+
+  - story: answer po of CSBS department
+    steps:
+      - intent: po_csbs_department
+      - action: utter_po_csbs_department
+
+  - story: answer pso of CSBS department
+    steps:
+      - intent: pso_csbs_department
+      - action: utter_pso_csbs_department
+
+
+  - story: CSBS department info or about story
+    steps:
+      - intent: csbs_department_info_about
+      - action: utter_csbs_department_info_about
+
+  - story: CSBS department vision story
+    steps:
+      - intent: csbs_department_vision
+      - action: utter_csbs_department_vision
+
+  - story: CSBS department mission story
+    steps:
+      - intent: csbs_department_mission
+      - action: utter_csbs_department_mission
+
+  - story: CSBS total students story
+    steps:
+      - intent: csbs_total_students
+      - action: utter_csbs_total_students
+
+  - story: CSBS female or girls students story
+    steps:
+      - intent: csbs_female_girls_students
+      - action: utter_csbs_female_girls_students
+
+  - story: CSBS male or boys students story
+    steps:
+      - intent: csbs_male_boys_students
+      - action: utter_csbs_male_boys_students
+
+  - story: answer to CSBS lab facilities 
+    steps:
+      - intent: csbs_lab_facilities
+      - action: utter_csbs_lab_facilities
+
+  
+  - story: asks about MOU companies
+    steps:
+      - intent: mou_sign_company_csbs
+      - action: utter_mou_sign_company_csbs
+  
+  - story: asks about internship companies
+    steps:
+      - intent: intern_company_csbs
+      - action: utter_intern_company_csbs
+
+
+  - story: Provide technical faculty details for CSBS
+    steps:
+      - intent: technical_faculty_csbs
+      - action: utter_technical_faculty_csbs
+
+
+  - story: Provide extra courses details for CSBS
+    steps:
+      - intent: extra_courses_csbs
+      - action: utter_extra_courses_csbs  
+
+  - story: Provide CSBS placement company names
+    steps:
+      - intent: placement_company_names_csbs
+      - action: utter_placement_company_names_csbs   
+  
+  - story: Accreditation inquiry
+    steps:
+      - intent: csbs_accreditation
+      - action: utter_csbs_accreditation
+     
+
+  - story: CSBS year-wise student count inquiries
+    steps:
+      - intent: csbs_yearwise_student_count
+      - action: utter_csbs_yearwise_student_count
+
+  
+  - story: CSBS faculty experience knowledge inquiries
+    steps:
+      - intent: csbs_faculty_experience_knowledge
+      - action: utter_csbs_faculty_experience_knowledge
+

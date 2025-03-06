@@ -1,0 +1,113 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: csbs_hod_details
+      - action: utter_csbs_hod_details
+
+  - rule: Respond to CSBS faculty queries
+    steps:
+      - intent: csbs_faculty_details
+      - action: utter_csbs_faculty_details
+
+  - rule: Provide PEO information of CSBS department
+    steps:
+      - intent: peo_csbs_department
+      - action: utter_peo_csbs_department
+
+  - rule: Provide PO information of CSBS department
+    steps:
+      - intent: po_csbs_department
+      - action: utter_po_csbs_department
+
+  - rule: Provide PSO information of CSBS department
+    steps:
+      - intent: pso_csbs_department
+      - action: utter_pso_csbs_department
+
+
+  - rule: Respond to technical faculty in CSBS
+    steps:
+      - intent: technical_faculty_csbs
+      - action: utter_technical_faculty_csbs
+   
+
+  - rule: Respond to CSBS department info or about
+    steps:
+      - intent: csbs_department_info_about
+      - action: utter_csbs_department_info_about
+
+  - rule: Respond to CSBS department vision
+    steps:
+      - intent: csbs_department_vision
+      - action: utter_csbs_department_vision
+
+  - rule: Respond to CSBS department mission
+    steps:
+      - intent: csbs_department_mission
+      - action: utter_csbs_department_mission
+
+  - rule: Respond to CSBS total students count
+    steps:
+      - intent: csbs_total_students
+      - action: utter_csbs_total_students
+
+  - rule: Respond to CSBS female or girls students count
+    steps:
+      - intent: csbs_female_girls_students
+      - action: utter_csbs_female_girls_students
+
+  - rule: Respond to CSBS male or boys students count
+    steps:
+      - intent: csbs_male_boys_students
+      - action: utter_csbs_male_boys_students
+
+  - rule: Respond to CSBS lab facilities
+    steps:
+      - intent: csbs_lab_facilities
+      - action: utter_csbs_lab_facilities
+
+  
+  - rule: Respond to MOU inquiry
+    steps:
+      - intent: mou_sign_company_csbs
+      - action: utter_mou_sign_company
+    
+  - rule: Respond to internship companies
+    steps:
+      - intent: intern_company_csbs
+      - action: utter_intern_company
+  
+
+  - rule: Respond to extra courses in CSBS
+    steps:
+      - intent: extra_courses_csbs
+      - action: utter_extra_courses_dept  
+
+  - rule: Respond to placement company names in CSBS
+    steps:
+      - intent: placement_company_names
+      - action: utter_placement_company_names      
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_csbs_accreditation
+      - action: utter_csbs_accreditation
+
+
+  - rule: Respond to CSBS year-wise student count queries
+    steps:
+      - intent: csbs_yearwise_student_count
+      - action: utter_csbs_yearwise_student_count
+
+
+  - rule: Respond to CSBS faculty experience knowledge queries
+    steps:
+      - intent: csbs_faculty_experience_knowledge
+      - action: utter_csbs_faculty_experience_knowledge
+
+
+
+
+

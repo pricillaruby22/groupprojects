@@ -221,6 +221,33 @@ intents:
   - mech_event_conducted_photos
   - mech_faculty_experience_knowledge
 
+  #csbs_dept
+
+  - csbs_hod_details  
+  - csbs_faculty_details  
+  - peo_csbs_department  
+  - po_csbs_department  
+  - pso_csbs_department   
+  - csbs_department_info_about  
+  - csbs_department_vision  
+  - csbs_department_mission  
+  - csbs_total_students  
+  - csbs_female_girls_students  
+  - csbs_male_boys_students  
+  - csbs_lab_facilities   
+  - mou_sign_company_csbs  
+  - intern_company_csbs  
+  - technical_faculty_csbs  
+  - extra_courses_csbs  
+  - placement_company_names_csbs  
+  - csbs_accreditation  
+  - csbs_yearwise_student_count    
+  - csbs_faculty_experience_knowledge  
+
+
+
+
+
 
 responses:
   utter_greet:
@@ -267,7 +294,7 @@ responses:
     - text: "Here is the address:\n **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
 
   utter_college_name_private_anna_university:
-    - text: "**SSM Institute of Engineering and Technology (SSMIET)**. \nIt is a private autonomous institution.\n It is approved by AICTE, New Delhi, 
+    - text: "**SSM Institute of Engineering and Technology (SSMIET)**.It is a private autonomous institution. It is approved by AICTE, New Delhi, 
             affiliated with Anna University, Chennai, and accredited by NAAC & NBA."
 
   utter_bus_facility:
@@ -1957,3 +1984,140 @@ responses:
                 
  
           
+
+          #csbs
+
+  utter_csbs_hod_details:
+     - text: |
+        **Head of the CSBS Department: Dr. M. Jeyalakshmi**
+
+        - **Qualification**: Ph.D. in Nanotechnology
+        - **Areas of Interest**: Nanotechnology, VLSI Design, Artificial Intelligence
+        - **Years of Experience**: Over 10 years at SSM Institute of Engineering and Technology, with prior experience at other institutions
+        - **Contact Information**:
+          - Email: jeyaecessm@gmail.com
+          - Phone: +91 97916 76097, +91 80989 90817
+  utter_csbs_faculty_details:
+    - text: |
+        Here is the faculty information for the CSBS department:
+        - **Dr. M. Jeyalakshmi**: Professor and Head
+        - **Mrs. B. Mohana Nagalakshmi**: Assistant Professor, M.E
+        - **Mrs. S. Suguna**: Assistant Professor, M.E
+        - **Mr. M. Gowtham Prabu**: Assistant Professor, M.E
+  utter_peo_csbs_department:
+    - text: |
+        - PEO1	To ensure graduates will be proficient in utilizing the fundamental knowledge of basic sciences, mathematics, Computer Science and Business systems for the applications relevant to various streams of Engineering and Technology.
+        - PEO2	To enrich graduates with the core competencies necessary for applying knowledge of computer science and Data analytics tools to store, retrieve, implement and analyse data in the context of business enterprise in order to empower entrepreneurial skills
+        - PEO3	To enable graduates through comprehensive technology training to gain employment in organizations and establish themselves as professionals by applying their technical skills and leadership qualities to solve societal problems and meet the diversified needs of industry, academia and research.
+    
+  utter_po_csbs_department:
+    - text: |
+        "Here are the Program Outcomes (PO) of the CSBS department."
+        **PO1 - Engineering Knowledge:**
+        - Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
+
+        **PO2 - Problem Analysis:**
+        - Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+
+        **PO3 - Design/Development of Solutions:**
+        - Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, as well as cultural, societal, and environmental considerations.
+
+        **PO4 - Conduct Investigations of Complex Problems:**
+        - Use research-based knowledge and research methods, including design of experiments, analysis and interpretation of data, and synthesis of information, to provide valid conclusions.
+
+        **PO5 - Modern Tool Usage:**
+        - Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex engineering activities with an understanding of the limitations.
+
+        **PO6 - The Engineer and Society:**
+        - Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+
+        **PO7 - Environment and Sustainability:**
+        - Understand the impact of professional engineering solutions in societal and environmental contexts and demonstrate knowledge of, and need for, sustainable development.
+
+        **PO8 - Ethics:**
+        - Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.
+
+        **PO9 - Individual and Team Work:**
+        - Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+
+        **PO10 - Communication:**
+        - Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+
+        **PO11 - Project Management and Finance:**
+        - Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+
+        **PO12 - Life-long Learning:**
+        - Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_csbs_department:
+    - text: |
+        - "Here are the Program Specific Outcomes (PSO) of the CSBS department."
+        **PSO1:**
+        - Apply the knowledge of mathematics, computer science, and business systems to develop solutions for real-world problems.
+
+        **PSO2:**
+        - Utilize data analytics tools and techniques to analyze and interpret data for effective decision-making in business contexts.
+
+        **PSO3:**
+        - Demonstrate the ability to adapt to emerging
+  
+  utter_csbs_department_info_about:
+    - text: "The CSBS department was established in 2022, approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. It fosters effective learning with experienced faculty, guiding students toward academic and career success. Special lectures and modern teaching methods enhance education quality, while co-curricular and extracurricular activities develop well-rounded individuals. The department also features state-of-the-art computer labs with advanced software and hardware to support student learning."
+
+  utter_csbs_department_vision:
+    - text: "The vision of the CSBS department is 
+            - To lead the way in interdisciplinary education, shaping the next generation of technology-driven business leaders by seamlessly integrating computer science and business principles, to empower students to address societal challenges through innovation and entrepreneurial skills"
+  utter_csbs_department_mission:
+    - text: "The mission of the CSBS department is 
+             - 1. Provide holistic education that bridges the gap between the fields of computer science and business systems, empowering students with a solid foundation in various domains and promoting innovative methods in research and academics.
+
+             - 2. Establish strong partnerships with industries to provide conceptual knowledge that enables experiential learning for students in the ever-changing industry landscape.
+
+             - 3. Offer comprehensive technology training to ensure that students are proficient in the latest tools and methodologies crucial for success in the fields of computer science and business systems."
+  utter_csbs_total_students:
+    - text: "The total number of students in the CSBS department is  40."
+  
+  utter_csbs_female_girls_students:
+    - text: "The number of female students in the CSBS department is 22"
+ 
+  utter_csbs_male_boys_students:
+    - text: "The number of male students in the CSBS department is 18"
+  
+  utter_csbs_lab_facilities:
+    - text: "The CSBS department has the following lab facilities: [Click here] https://ssmiet.ac.in/CSBS/LAB%20DETAILS%20CS&BS.pdf "
+  
+  utter_mou_sign_company_csbs:
+    - text: "The CSBS department has signed MOUs with these companies: [Click here] https://ssmiet.ac.in/CSBS/2024%20Mousignning.pdf"
+
+  utter_intern_company_csbs:
+    - text: "Students intern at the following companies:
+      - KEVELL CORP
+      - Mita IT Automation Pvt. Ltd.
+      - HYPERTICK Software Solutions
+      - Green Soft Technologies
+      - Contriver"
+
+  utter_technical_faculty_csbs:
+    - text: "Here are the details of technical faculty in CSBS is 
+              - Mr. V. ISAC DEVARAJ
+              - TECHNICAL ASSISTANT"
+
+  utter_extra_courses_csbs:
+    - text: "Extra courses offered by the CSBS department is core JAVA, you can find more details in the below link: [Click here] https://ssmiet.ac.in/CSBS/vac%20program.pdf"
+
+  utter_csbs_accreditation:
+    - text: "The CSBS department is established in the year 2022. It is approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai"
+  
+  utter_csbs_yearwise_student_count:
+    - text: "Here is the year-wise student count for CSBS is 40[2023 to 2024]"
+  
+  utter_placement_company_names_csbs:
+  - text: "Our students are placed in:
+          - Mindtree
+          - Infosys
+          - Wipro
+          - Accenture
+          - and many more corporates every year."
+
+  utter_csbs_faculty_experience_knowledge:
+    - text: "Our faculty members in CSBS department have experience of 7.25 years"
