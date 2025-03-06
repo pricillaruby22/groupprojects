@@ -1,0 +1,37 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: aiml_hod_details
+      - action: utter_aiml_hod_details
+
+  - rule: Respond to AIML faculty queries
+    steps:
+      - intent: aiml_faculty_details
+      - action: utter_aiml_faculty_details
+
+  - rule: Respond to AIML department info or about
+    steps:
+      - intent: aiml_department_info_about
+      - action: utter_aiml_department_info_about
+
+  - rule: Respond to AIML department vision
+    steps:
+      - intent: aiml_department_vision
+      - action: utter_aiml_department_vision
+
+  - rule: Respond to AIML department mission
+    steps:
+      - intent: aiml_department_mission
+      - action: utter_aiml_department_mission
+
+  - rule: Respond to AIML total students count
+    steps:
+      - intent: aiml_total_students
+      - action: utter_aiml_total_students
+
+  - rule: Respond to AIML faculty experience knowledge queries
+    steps:
+      - intent: aiml_faculty_experience_knowledge
+      - action: utter_aiml_faculty_experience_knowledge
