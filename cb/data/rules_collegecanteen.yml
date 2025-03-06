@@ -1,14 +1,17 @@
-- rule: Provide canteen availability
-  steps:
-  - intent: ask_canteen_facility
-  - action: utter_canteen_availability
+version: "3.1"
 
-- rule: Provide canteen food options
-  steps:
-  - intent: ask_canteen_facility
-  - action: utter_canteen_food_options
+rules:
+  - rule: Provide canteen availability
+    steps:
+      - intent: ask_canteen_facility
+      - action: utter_canteen_availability
 
-- rule: Provide canteen timings and facilities
-  steps:
-  - intent: ask_canteen_facility
-  - action: utter_canteen_timings
+  - rule: Provide canteen food options
+    steps:
+      - intent: ask_canteen_facility
+      - action: utter_canteen_food_options
+
+  - rule: Provide canteen timings and facilities
+    steps:
+      - intent: ask_canteen_facility
+      - action: utter_canteen_timings
