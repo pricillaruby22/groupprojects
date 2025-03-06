@@ -1,0 +1,144 @@
+version: "3.1"
+
+nlu:
+  - intent: thermal_faculty_details
+    examples: |
+      - Who are the faculty members of the Thermal Engineering department?
+      - Can you list the Thermal Engineering faculty?
+      - Tell me about the educators in the Thermal Engineering department.
+      - Provide details on Thermal Engineering department professors.
+      - Give me a list of Thermal Engineering department staff.
+      - Who teaches in the Thermal Engineering department?
+      - I am uneducated about the staff in Thermal Engineering. Can you list them?
+      - Tell me who the Thermal Engineering professors are.
+      - Can you give me some information about the Thermal Engineering faculty?
+      - Who are the key faculty members in Thermal Engineering?
+      - Give me more details about the educators in Thermal Engineering.
+      - List out the Thermal Engineering teaching staff.
+
+  - intent: thermal_department_info_about
+    examples: |
+      - When was the Thermal Engineering department established?
+      - Is the Thermal Engineering department approved by AICTE?
+      - Tell me about Thermal Engineering.
+      - Which university is the Thermal Engineering department affiliated with?
+      - How does the Thermal Engineering department support student learning?
+      - How does the Thermal Engineering department help students achieve academic and career goals?
+      - How does the Thermal Engineering department emphasize co-curricular and extracurricular activities?
+      - Tell me about Thermal Engineering department.
+      - What is the about of Thermal Engineering department?
+
+  - intent: thermal_department_vision
+    examples: |
+      - What is the vision of the Thermal Engineering department?
+      - What are the key goals of the Thermal Engineering department’s vision?
+      - How does the Thermal Engineering department work towards achieving its vision?
+      - How does the vision of the Thermal Engineering department benefit students?
+      - What impact does the Thermal Engineering department’s vision have on technical education?
+      - Does the vision of the Thermal Engineering department focus on industry readiness?
+      - How does the Thermal Engineering department’s vision align with modern technology trends?
+      - What initiatives are taken to fulfill the Thermal Engineering department’s vision?
+      - How does research and innovation contribute to the Thermal Engineering department’s vision?
+      - Does the vision of the Thermal Engineering department include global technological advancements?
+      - Tell me about vision of Thermal Engineering department.
+
+  - intent: thermal_department_mission
+    examples: |
+      - What is the mission of the Thermal Engineering department?
+      - What are the key goals of the Thermal Engineering department’s mission?
+      - How does the Thermal Engineering department work towards achieving its mission?
+      - How does the mission of the Thermal Engineering department benefit students?
+      - What impact does the Thermal Engineering department’s mission have on technical education?
+      - Does the mission of the Thermal Engineering department focus on industry readiness?
+      - How does the Thermal Engineering department’s mission align with modern technology trends?
+      - What initiatives are taken to fulfill the Thermal Engineering department’s mission?
+      - How does research and innovation contribute to the Thermal Engineering department’s mission?
+      - Does the mission of the Thermal Engineering department include global technological advancements?
+      - Tell me about mission of Thermal Engineering department.
+
+  - intent: thermal_contact
+    examples: |
+      - Give me the contact details of the Thermal Engineering department.
+      - How can I contact the HOD of Thermal Engineering department?
+      - Provide the email ID for the Thermal Engineering department.
+      - What is the phone number of the Thermal Engineering department at SSMIET?
+      - Who should I contact for internship-related queries about Thermal Engineering?
+      - Give me the address of the Thermal Engineering department at SSM Institute of Engineering and Technology.
+      - Can you provide the Thermal Engineering department's contact information?
+      - Thermal Engineering contact details.
+
+  - intent: thermal_faculty_experience_knowledge
+    examples: |
+      - What is the average teaching experience of Thermal Engineering faculty at SSMIET?
+      - How many years of experience do the Thermal Engineering faculty members have on average?
+      - What is the average industry experience of Thermal Engineering faculty at SSMIET?
+      - How many faculty members in the Thermal Engineering department have more than 10 years of experience?
+      - What is the experience range of professors in the Thermal Engineering department?
+      - How many faculty members in Thermal Engineering have prior industry knowledge?
+      - What percentage of Thermal Engineering faculty have Ph.D. qualifications?
+      - How often do Thermal Engineering faculty members update their knowledge with training or certifications?
+      - What is the total teaching experience of the senior-most faculty in the Thermal Engineering department?
+      - How many Thermal Engineering faculty members have more than five years of teaching experience?
+      - What is the minimum teaching experience required for Thermal Engineering faculty at SSMIET?
+      - How many Thermal Engineering faculty members have both academic and industry experience?
+      - What is the average number of years Thermal Engineering faculty members have worked at SSMIET?
+      - How many faculty members in the Thermal Engineering department hold postgraduate degrees?
+
+  - intent: thermal_yearwise_student_count
+    examples: |
+      - What is the year-wise student count for the Thermal Engineering department since the college started?
+      - Can you provide the student intake count for the Thermal Engineering department for each academic year since inception?
+      - How many students were admitted to the Thermal Engineering department each year from the beginning?
+      - What is the total number of students enrolled in the Thermal Engineering department for every academic year since the college started?
+      - How has the student strength of the Thermal Engineering department varied year by year since the first batch?
+      - What are the year-wise student counts for the Thermal Engineering department?
+      - Can you provide the student count for each year in the Thermal Engineering department?
+      - What is the breakdown of students by year in the Thermal Engineering department?
+      - How many students are there in each academic year of the Thermal Engineering department?
+      - What is the total number of students per year in the Thermal Engineering department?
+
+  - intent: thermal_total_students
+    examples: |
+      - What is the total student count in the Thermal Engineering department?
+      - What is the total number of students currently enrolled in the Thermal Engineering department?
+      - How many students are studying in the Thermal Engineering department this academic year?
+      - What is the total student strength of the Thermal Engineering department?
+      - How many students have been admitted to the Thermal Engineering department this year?
+      - What is the total student intake capacity for the Thermal Engineering department?
+      - How many students are in each year of the Thermal Engineering department?
+      - What is the total number of students in the undergraduate Thermal Engineering program?
+      - How many students are currently pursuing B.E. Thermal Engineering?
+      - How many students graduate from the Thermal Engineering department each year?
+      - How many students are currently in their final year in Thermal Engineering?
+
+  - intent: thermal_female_girls_students
+    examples: |
+      - How many girls are there in the Thermal Engineering department?
+      - What is the total number of female students in the Thermal Engineering department?
+      - How many girls are currently enrolled in the Thermal Engineering department?
+      - What percentage of Thermal Engineering students are girls?
+      - How many female students joined the Thermal Engineering department this year?
+      - How many girls are in each year of the Thermal Engineering department?
+      - Has the number of girls in the Thermal Engineering department increased over the years?
+      - How many female students have graduated from the Thermal Engineering department so far?
+      - What is the trend of female student enrollment in the Thermal Engineering department?
+
+  - intent: thermal_male_boys_students
+    examples: |
+      - How many boys are there in the Thermal Engineering department?
+      - What is the total number of male students in the Thermal Engineering department?
+      - How many boys are currently enrolled in the Thermal Engineering department?
+      - What percentage of Thermal Engineering students are boys?
+      - How many male students joined the Thermal Engineering department this year?
+      - How many boys are in each year of the Thermal Engineering department?
+      - Has the number of boys in the Thermal Engineering department increased over the years?
+      - How many male students have graduated from the Thermal Engineering department so far?
+      - What is the trend of male student enrollment in the Thermal Engineering department?
+
+
+
+
+
+
+
+
