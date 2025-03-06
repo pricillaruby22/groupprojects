@@ -1,0 +1,61 @@
+version: "3.1"
+
+rules:
+  - rule: Provide faculty details of Communication System department
+    steps:
+      - intent: communication_system_faculty_details
+      - action: utter_communication_system_faculty_details
+
+  - rule: Provide general information about Communication System department
+    steps:
+      - intent: communication_system_department_info_about
+      - action: utter_communication_system_department_info_about
+
+  - rule: Provide vision of Communication System department
+    steps:
+      - intent: communication_system_department_vision
+      - action: utter_communication_system_department_vision
+
+  - rule: Provide mission of Communication System department
+    steps:
+      - intent: communication_system_department_mission
+      - action: utter_communication_system_department_mission
+
+  - rule: Provide research activities in Communication System department
+    steps:
+      - intent: communication_system_research_activities
+      - action: utter_communication_system_research_activities
+
+  - rule: Provide faculty experience and knowledge details for Communication System department
+    steps:
+      - intent: communication_system_faculty_experience_knowledge
+      - action: utter_communication_system_faculty_experience_knowledge
+
+  - rule: Respond to year-wise student count for Communication System
+    steps:
+      - intent: communication_system_yearwise_student_count
+      - action: utter_communication_system_yearwise_student_count
+
+  - rule: Respond to total student count for Communication System
+    steps:
+      - intent: communication_system_total_students
+      - action: utter_communication_system_total_students
+
+  - rule: Respond to female student count for Communication System
+    steps:
+      - intent: communication_system_female_students
+      - action: utter_communication_system_female_students
+
+  - rule: Respond to male student count for Communication System
+    steps:
+      - intent: communication_system_male_students
+      - action: utter_communication_system_male_students
+
+
+
+
+
+
+
+
+

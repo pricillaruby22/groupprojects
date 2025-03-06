@@ -1,0 +1,55 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to Thermal Engineering faculty details
+    steps:
+      - intent: thermal_faculty_details
+      - action: utter_thermal_faculty_details
+
+  - rule: Respond to Thermal Engineering department information
+    steps:
+      - intent: thermal_department_info_about
+      - action: utter_thermal_department_info_about
+
+  - rule: Respond to Thermal Engineering department vision
+    steps:
+      - intent: thermal_department_vision
+      - action: utter_thermal_department_vision
+
+  - rule: Respond to Thermal Engineering department mission
+    steps:
+      - intent: thermal_department_mission
+      - action: utter_thermal_department_mission
+
+  - rule: Respond to Thermal Engineering department contact details
+    steps:
+      - intent: thermal_contact
+      - action: utter_thermal_contact
+
+  - rule: Respond to Thermal Engineering faculty experience and knowledge
+    steps:
+      - intent: thermal_faculty_experience_knowledge
+      - action: utter_thermal_faculty_experience_knowledge
+
+  - rule: Respond to year-wise student count for Thermal Engineering
+    steps:
+      - intent: thermal_engineering_yearwise_student_count
+      - action: utter_thermal_engineering_yearwise_student_count
+
+  - rule: Respond to total student count for Thermal Engineering
+    steps:
+      - intent: thermal_engineering_total_students
+      - action: utter_thermal_engineering_total_students
+
+  - rule: Respond to female student count for Thermal Engineering
+    steps:
+      - intent: thermal_engineering_female_students
+      - action: utter_thermal_engineering_female_students
+
+  - rule: Respond to male student count for Thermal Engineering
+    steps:
+      - intent: thermal_engineering_male_students
+      - action: utter_thermal_engineering_male_students
+
+
+
