@@ -1,0 +1,107 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: it_hod_details
+      - action: utter_it_hod_details
+
+  - rule: Respond to IT faculty queries
+    steps:
+      - intent: it_faculty_details
+      - action: utter_it_faculty_details
+
+  - rule: Provide PEO information of IT department
+    steps:
+      - intent: peo_it_department
+      - action: utter_peo_it_department
+
+  - rule: Provide PO information of IT department
+    steps:
+      - intent: po_it_department
+      - action: utter_po_it_department
+
+  - rule: Provide PSO information of IT department
+    steps:
+      - intent: pso_it_department
+      - action: utter_pso_it_department 
+
+  - rule: Respond to IT department info or about
+    steps:
+      - intent: it_department_info_about
+      - action: utter_it_department_info_about
+
+  - rule: Respond to IT department vision
+    steps:
+      - intent: it_department_vision
+      - action: utter_it_department_vision
+
+  - rule: Respond to IT department mission
+    steps:
+      - intent: it_department_mission
+      - action: utter_it_department_mission
+
+  - rule: Respond to IT total students count
+    steps:
+      - intent: it_total_students
+      - action: utter_it_total_students
+
+  - rule: Respond to IT female or girls students count
+    steps:
+      - intent: it_female_girls_students
+      - action: utter_it_female_girls_students
+
+  - rule: Respond to IT male or boys students count
+    steps:
+      - intent: it_male_boys_students
+      - action: utter_it_male_boys_students
+  
+  - rule: Respond to IT MOU inquiry 
+    steps:
+      - intent: mou_sign_company_it 
+      - action: utter_mou_sign_company_it 
+
+  - rule: Respond to placement company names in IT
+    steps:
+      - intent: placement_company_names_it 
+      - action: utter_placement_company_names_it     
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_it_accreditation
+      - action: utter_it_accreditation
+
+  - rule: Respond to IT year-wise student count queries
+    steps:
+      - intent: it_yearwise_student_count
+      - action: utter_it_yearwise_student_count
+
+  - rule: Respond to IT event conducted photo queries
+    steps:
+      - intent: it_event_conducted_photos
+      - action: utter_it_event_conducted_photos
+
+  - rule: Respond to IT faculty experience knowledge queries
+    steps:
+      - intent: it_faculty_experience_knowledge
+      - action: utter_it_faculty_experience_knowledge
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

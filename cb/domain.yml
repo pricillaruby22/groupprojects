@@ -104,6 +104,54 @@ intents:
   - ask_campus_photos
   - ask_bus_facility
   - ask_canteen_facility
+  - ece_hod_details
+  - ece_faculty_details
+  - peo_ece_department
+  - po_ece_department
+  - pso_ece_departmentabout
+  - ece_course_outcomes
+  - ece_department_info_about
+  - ece_department_vision
+  - ece_department_mission
+  - ece_total_students
+  - ece_female_girls_students
+  - ece_male_boys_students
+  - ece_lab_facilities
+  - ece_department_activities
+  - ece_student_activities
+  - ece_faculty_activities
+  - ece_professional_bodies
+  - ece_research_activities
+  - ece_newsletter
+  - technical_faculty_ece
+  - placement_ece
+  - extra_courses_ece
+  - mou_sign_company_ece
+  - intern_company_ece
+  - ece_contact
+  - placement_company_names_ece
+  - ece_accreditation
+  - ece_yearwise_student_count
+  - ece_event_conducted_photos
+  - ece_faculty_experience_knowledge
+  - it_hod_details
+  - it_faculty_details
+  - peo_it_department
+  - po_it_department
+  - pso_it_department
+  - it_department_info_about
+  - it_department_vision
+  - it_department_mission
+  - it_total_students
+  - it_female_girls_students
+  - it_male_boys_students
+  - mou_sign_company_it
+  - placement_company_names_it
+  - it_accreditation
+  - it_yearwise_student_count
+  - it_event_conducted_photos
+  - it_faculty_experience_knowledge
+
 
 responses:
   utter_greet:
@@ -924,3 +972,428 @@ responses:
         The canteen operates from 8:30 AM to 5:00 PM. Seating arrangements are available for 200-300 students. Digital payments are accepted, and prices are affordable.
         Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
         For more details, you can contact the canteen management.
+
+  utter_ece_hod_details:
+    - text: |
+        🔹 Name: Dr. S. Karthigailakshmi 
+        🔹 Position: Head of the Department (HOD), ECE, SSMIET
+        🔹 Years of Experience: 24+ years in teaching
+        🔹 Qualification: 🎓 Ph.D, M.E, B.E
+         \nTo learn more about HOD of ECE of SSMIET, please visit this website https://ssmiet.ac.in/pdf/ece/1.KARTHIGAILAKSHMI%20,%20HoD.pdf"
+
+  utter_ece_faculty_details:
+    - text: |
+        Here are the faculty members of the ECE department:
+        1. Dr. S. Karthigailakshmi - M.E., Ph.D. (Professor and Head)
+        2. Dr. M. Premkumar - M.E., Ph.D. (Professor)
+        3. Dr. K. Ganapriya - M.E., Ph.D. (Assistant Professor)
+        4. Dr. S. Jayakumar - M.E., Ph.D. (Associate Professor)
+        5. Dr. M. Manikandan - M.E., Ph.D. (Associate Professor)
+        6. Dr. R. Carol praveen - M.E., Ph.D. (Associate Professor)
+        7. Mrs. A. Geetha - M.E., Ph.D. (Assistant Professor)
+        8. Mr. V.P. Jay Fantin - M.E., Ph.D. (Assistant Professor)
+        9. Mr. R. Senthil kumar - M.E., Ph.D. (Assistant Professor)
+        10. Mr. K.S. Arun kumar - M.E., Ph.D. (Assistant Professor)
+        11. Mr. J. Vetri mani kumar - M.E., Ph.D. (Assistant Professor)
+        12. Mrs. G. Saranya - M.E., Ph.D. (Assistant Professor)
+        13. Mrs. K. Divya - M.E., Ph.D. (Assistant Professor)
+        14. Mrs. G. Rajarajeshwari - M.E., Ph.D. (Assistant Professor)
+        15. Mrs. S. Keerthana - M.E., Ph.D. (Assistant Professor)
+        16. Mrs. P. Karthika - M.E., Ph.D. (Assistant Professor)
+        17. Mrs. K. Moniga - M.E., Ph.D. (Assistant Professor)
+        18. Mrs. R. Sudha - M.E., Ph.D. (Assistant Professor)
+        19. Mrs. E. Thangadeepiga - M.E., Ph.D. (Assistant Professor)
+        20. Mrs. A. Arockia helen sushma - M.E., Ph.D. (Assistant Professor)
+        21. Mrs. S. Sathya shiva ranjani - M.E. (Assistant Professor)
+
+  utter_peo_ece_department:
+    - text: |
+        Program Educational Objectives (PEOs) of ECE department:
+        **PEO1**   Graduates will be successful as Professionals, Researchers or Entrepreneurs in Electronics and Communication Engineering disciplines with strong fundamental concepts and the latest technologies.
+        **PEO2**   Graduates will continuously be updated with state-of-the-art technology and develop innovative and research-oriented methodologies to provide sustainable solutions.
+        **PEO3**   Graduates will demonstrate ethical and social responsibilities as an individual and in a team of diverse culture.
+        **PEO4**   To prepare students to critically analyze existing literature in an area of specialization and ethically develop innovative and research oriented methodologies to solve the problems identified.
+        **PEO5**   To inculcate in the students a professional and ethical attitude and an ability to visualize the engineering issues in a broader social context.
+
+  utter_po_ece_department:
+    - text: |
+        Program Outcomes (POs) of ECE department:
+        **PO1**   Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+        **PO2**   Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+        **PO3**   Design/development of solutions: Design solutions for the complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+        **PO4**   Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+        **PO5**   Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+        **PO6**   The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+        **PO7**   Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+        **PO8**   Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+        **PO9**   Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+        **PO10**  Communication: Communicate effectively on complex engineering activities with the Engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+        **PO11**  Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+        **PO12**  Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_ece_department:
+    - text: |
+        Program Specific Outcomes (PSOs) of ECE department: 
+        **PSO1**   Design, develop and analyze electronic systems through application of relevant electronics, mathematics and engineering principles.
+        **PSO2**   Design, develop and analyze communication systems through application of fundamentals from communication principles, signal processing, and RF System Design & Electromagnetics.
+        **PSO3**   Adapt to emerging electronics and communication technologies and develop innovative solutions for existing and newer problem.
+
+  utter_ece_course_outcomes:
+    - text: "You can find the course outcomes for the ECE department at SSMIET in the following PDF:  https://ssmiet.ac.in/ECE/Course%20Outcomes%202024.pdf"
+
+  utter_ece_department_info_about:
+    - text: "Electronics and Communication Engineering (ECE) is a hastily advancing field with spurring innovations made now and then. From dawn to dusk, we use various electronic gadgets for which Electronics and Communication Engineering plays a vital role. It is also evident that the technological developments of several countries across the globe are directly related to their strengths in electronics design, manufacture, products and services. The department nurtures students for careers in this constantly evolving discipline."
+
+  utter_ece_department_vision:
+    - text: "**Vision**: To empower students with essential skills in engineering by imparting in-depth conceptual knowledge in Electronics and Communication Engineering domain to meet technological excellence, professional commitment, and social responsibility."
+
+  utter_ece_department_mission:
+    - text: "**Mission**: \n-- To equip students with current trends and latest technologies in the field of Electronics and Communication Engineering through innovation in learning, research, and state of the art laboratories.\n-- To establish a conducive environment for the students to develop professionalism, leadership qualities, and entrepreneurial skills with high ethical standards for self and social development.\n-- To equip students to provide appropriate solutions with their conceptual knowledge to address societal needs."
+
+  utter_ece_total_students:
+    - text: "The total student count in the ECE department varies each academic year."
+
+  utter_ece_female_girls_students:
+    - text: 
+        "The number of female students in the ECE department varies."
+  
+  utter_ece_male_boys_students:
+    - text: 
+        "The number of male students in the ECE department varies."
+
+  utter_ece_lab_facilities:
+    - text: 
+        "You can find details about the lab facilities available in the ECE department at the following link: https://ssmiet.ac.in/ece%20facilities.html"
+
+  utter_ece_department_activities:
+    - text: 
+        "You can find details about the department activities at the following link: https://ssmiet.ac.in/ece%20department%20activity.html"
+  
+  utter_ece_student_activities:
+    - text: 
+        "You can find details about the student activities at the following link: https://ssmiet.ac.in/ece%20student%20activities.html"
+
+  utter_ece_faculty_activities:
+    - text: 
+        "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/ece%20facultyactivity.html"
+
+  utter_ece_professional_bodies:
+    - text: 
+        "You can find details about the professional bodies associated with the ECE department at the following link: https://ssmiet.ac.in/ece%20professional%20bodies.html"
+  
+  utter_ece_research_activities:
+    - text: 
+        "You can find details about the research activities in the ECE department at the following link: https://ssmiet.ac.in/eceresearch.html"
+  
+  utter_ece_newsletter:
+    - text: 
+        "You can find details about the ECE department newsletter at the following link: https://ssmiet.ac.in/ece%20news%20letter.html"
+        
+  utter_technical_faculty_ece:
+    - text: |
+        The technical faculty in the CSE department are:
+          - Mr. A. Issack (Technical Assistant)
+          - Mr. R. John Baskaran (Technical Assistant)
+          - Mrs. Soundara pandiammal (Technical Assistant)
+          - Mr. S. Vairamani (Technical Assistant)
+          - Mr. Balachandran  (Technical Assistant)
+          - Mr. K. Seenivasa perumal (Technical Assistant)
+
+  utter_placement_ece:
+    - text: |
+        Year-wise placement details for the ECE department:
+          - 2018-2019: 63 students
+          - 2019-2020: 80 students
+          - 2020-2021: 29 students
+          - 2021-2022: 63 students
+          - 2022-2023: 34 students
+          - 2023-2024: 55 students
+        
+  utter_extra_courses_ece:
+    - text: |
+        Here are the value-added courses offered by the ECE department:
+          1. Digital twin 
+          2. IoT Foundation course 
+          3. Advanced PCB Design and Prototyping 
+          4. Artificial Intelligence with Internet of Things 
+          5. Cyber Security 
+          6. IoT Foundation, IoT architecture and security Threat Management and soft skills
+          7. Programming on C And C++
+          8. Technology teaching on  “Embedded system” 
+          9. Verilog and VHDL
+          10. C Programming
+          11. Basics of Embedded system 
+          12. Python Programming
+          13. Technology teaching on “Java programming” 
+          14. Technology teaching on  “Labview and its applications” 
+          15. Technology training on “Robotics,IoT,Drones” 
+          16. Technology training  on “Embedded IoT” 
+          17. Technology training  on “Cloud computing –AZ900 microsoft Azure Fundamentals”     
+
+  utter_mou_sign_company_ece:
+    - text: "Here are the companies that have signed an MOU with our institution: 
+              1. PRAYA LABS, Tiruvannamalai  
+              2. SkillsDA- INGU’S Knowledge Academy Pvt Ltd, Chennai
+              3. Village technology school, Chennai 
+              4. Pantech E learning, Chennai 
+              5. Pirai Infotech Pvt Ltd,Coimbatore 
+              6. Gemicates Lab Pvt Ltd, Chennai
+              7. Arulmigu  Palaniandavar Arts college for women, Palani 
+              8. Livewire Technologies, Chennai
+              9. Base Equipment’s, Coimbatore 
+              10. Breathe Electronics,  Chennai 
+              11. VI Microsystems Pvt Ltd, Chennai
+                
+  utter_intern_company_ece:
+    - text: |
+             Here are top companies to get the internship
+              ✅ SLUSBY TECHNOLOGIES PRIVATE LIMITED
+              ✅ Cognizant
+              ✅ Tech Mahindra
+              ✅ Titan Company
+              ✅ Pirai Infotech Pvt Ltd 
+              ✅ Rail Infotech services
+              ✅ Phoenix Softech              
+              ✅ NSIC
+              ✅ BSNL, Madurai
+              ✅ SARVA VIDHYA SOLUTIONS
+              ✅ TAP ACADEMY 
+              ✅ Zidio Development 
+              ✅ Maxmoc Motor Works India Pvt Ltd
+              ✅ Frutrurik Technologies
+              ✅ LITZ Technologies
+              ✅ Air Port Authority of india
+              ✅ Marcello Technologies
+              ✅ Pasumai FM (90.4)
+              ✅ BSA Corporation, Chennai 
+              ✅ All India Radio Trichirappalli
+              ✅ International Airport Madurai 
+              ✅ All India Radio kodaikanal 
+              ✅ AltSense Trichirappalli 
+              ✅ Galwin Technology Chennai 
+              ✅ Silicon Software Solution 
+   
+
+              📊 Year-wise internship count:
+              🔹 2024-2025 => 13 students
+              🔹 2023-2024 => 109 students
+              🔹 2022-2023 => 18 students
+              🔹 2021-2022 => 13 students
+              🔹 2020-2021 => 20 student
+              🔹 2019-2020 => 125 students
+              🔹 2018-2019 => 21 students 
+  
+  utter_ece_contact:
+    - text: |
+        📌 The Head of the Department,
+        🏛️ Department of Electronics and Communication Engineering,
+        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
+        📞 Phone: 0451 – 2448828
+        ✉️ Email: hodecessmiet@gmail.com
+  
+  utter_placement_company_names_ece:
+    - text: |
+        Companies recruiting ECE students categorized by tier levels:
+          - Tier 1:
+            - Tata Consultancy Services (TCS)
+            - Infosys
+            - Wipro
+          - Tier 2:
+            - Zoho Corp
+            - Capgemini
+            - Accenture
+          - Tier 3:
+            - Venture Tools
+            - Vintorix Solutions
+            - Slusby Technologies
+            - Mechpro Technologies
+            - Spotlight Technologies
+            - Svasti Technology Solutions
+            - Pirai Infotech Pvt Ltd
+            - ThinkBig Infotech Pvt Ltd
+            - Net Tel Solutions India Pvt Ltd  
+
+  utter_ece_accreditation:
+    - text: |
+        "The Electronics and Communication Engineering (ECE) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. The institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. Additionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC)."
+
+  utter_ece_yearwise_student_count:
+    - text: |
+        "Yearwise student count in ECE department"
+
+  utter_ece_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_ece_faculty_experience_knowledge:
+    - text: |
+        "The ECE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+  utter_it_hod_details:
+    - text: |
+        🔹 Name:  Dr. G. Prabu 
+        🔹 Position: Head of the Department (HOD), IT, SSMIET
+        🔹 Years of Experience: 22+ years in teaching 
+        🔹 Qualification: 🎓 Ph.D, M.E, B.E
+         \nTo learn more about HOD of IT of SSMIET, please visit this website https://ssmiet.ac.in/pdf/cse/prabhu.pdf"
+
+  utter_it_faculty_details:
+    - text: |
+        Here are the faculty members of the IT department:
+        1. Dr. G. Prabu - M.E., Ph.D. (Professor and Head)
+        2. Mrs. D. Devishree - M.E., Ph.D. (Assistant Professor)
+        3. Mrs. B. Ponvizhy swathy - M.E., Ph.D. (Assistant Professor)
+        4. Mrs. G. Durga devi - M.E., Ph.D. (Assistant Professor)
+
+  utter_peo_it_department:
+    - text: |
+        Program Educational Objectives (PEOs) of IT department:
+        
+        **PEO1** - Technical Proficiency: Demonstrate technical competence with analytical and critical thinking to understand and meet the diversified requirements of industry, academia, and research.
+        
+        **PEO2** - Continuous Educational Growth: Exhibit technical leadership, team skills, and entrepreneurship skills to provide business solutions to real-world problems.
+        
+        **PEO3** - Managerial Skills: Work in multi-disciplinary industries with social and environmental responsibility, work ethics, and adaptability to address complex engineering and social problems.
+        
+        **PEO4** - Service to the Society: Pursue lifelong learning, use cutting-edge technologies, and engage in applied research to design optimal solutions.
+
+  utter_po_it_department:
+    - text: |
+        Program Outcomes (POs) of IT department:
+        
+        **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
+        
+        **PO2** - Problem Analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+        
+        **PO3** - Design/Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+        
+        **PO4** - Conduct Investigations of Complex Problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+        
+        **PO5** - Modern Tool Usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+        
+        **PO6** - The Engineer and Society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+        
+        **PO7** - Environment and Sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+        
+        **PO8** - Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+        
+        **PO9** - Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+        
+        **PO10** - Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+        
+        **PO11** - Project Management and Finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects, and in multidisciplinary environments.
+        
+        **PO12** - Life-Long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_it_department:
+    - text: |
+        Program Specific Outcomes (PSOs) of IT department:
+        
+        **PSO1**: Have proficiency in programming skills to design, develop, and apply appropriate techniques to solve complex engineering problems.
+        
+        **PSO2**: Have knowledge to build, automate, and manage business solutions using cutting-edge technologies.
+        
+        **PSO3**: Have excitement towards research in applied computer technologies.
+       
+
+  utter_it_department_info_about:
+    - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, features excellent infrastructure and a dedicated faculty. \nCommitted to quality education, the department aims to enhance the teaching-learning process and develop into a Center of Excellence. \nIts ultimate goal is to create excellent career pathways for students through placements, entrepreneurship, or higher studies."
+
+  utter_it_department_vision:
+    - text: "**Vision**: To be an outstanding center for IT education and research for betterment of society."
+
+  utter_it_department_mission:
+    - text: "**Mission**: Impart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
+
+  utter_it_total_students:
+    - text: "The total student count in the IT department varies each academic year."
+
+  utter_it_female_girls_students:
+    - text: 
+        "The number of female students in the IT department varies."
+  
+  utter_it_male_boys_students:
+    - text: 
+        "The number of male students in the IT department varies."
+
+  utter_mou_sign_company_it:
+    - text: "Here are the companies that have signed an MOU with our institution: 
+              1. Code Tantra 
+              2. Edunet Foundation
+              3. Vinculo
+              4. Svasti Technology Solutions
+              5. Accent Techno Soft (ATS)
+              6. Maxelerator Foundation
+              7. Spotlight Technology
+              8. Tarcin Robotics
+              9. Pirai Infotech Private Limited
+              10. Red Hat India Private Limited
+              11. Airmate Technologies
+              12. Silicon Software Services
+              13. Elysium Academy Private Limited
+              14. Cloud Systems\n15. NIIT - Dindigul
+              16. Gateway Software Solutions
+              17. Micro Genesis Tech Soft Private Limited"
+
+  utter_placement_company_names_it:
+    - text: |
+        Companies recruiting IT students categorized by tier levels:
+          - Tier 1:
+            - Tata Consultancy Services (TCS)
+            - Infosys
+            - Wipro
+            - HCL Technologies
+            - Capgemini
+            - Hexaware Technologies
+          - Tier 2:
+            - Zoho Corp
+            - 4i Apps Solutions Pvt Ltd
+            - Accenture
+            - Atos Syntel
+            - Revature
+          - Tier 3:
+            - Venture Tools
+            - Vintorix Solutions
+            - Slusby Technologies
+            - Mechpro Technologies
+            - Spotlight Technologies
+            - Svasti Technology Solutions
+            - Pirai Infotech Pvt Ltd
+            - ThinkBig Infotech Pvt Ltd
+            - Net Tel Solutions India Pvt Ltd    
+
+  utter_it_accreditation:
+    - text: |
+        "The Department of Information Technology, established in 2023 with an intake of 60 students, offers excellent infrastructure and a committed faculty. Focused on quality education, it aims to enhance learning and become a Center of Excellence. The department strives to create career pathways through placements, entrepreneurship, or higher studies. Currently, it is not accredited."
+
+  utter_it_yearwise_student_count:
+    - text: |
+        "Yearwise student count in IT department"
+
+  utter_it_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_it_faculty_experience_knowledge:
+    - text: |
+        "The IT faculty at SSMIET has an average teaching experience of around 11 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
