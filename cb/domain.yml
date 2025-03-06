@@ -90,6 +90,7 @@ intents:
   - average_campus_placement
   - yearwise_student_count_ssmiet
   - placement_training
+<<<<<<< Updated upstream
   - student_feedback
   - water_facilities
   - recruiters_college_for_placements
@@ -107,11 +108,17 @@ intents:
   - extracurricular_activites
   - fee_payment
   - gate_coaching
+=======
+  - cse_yearwise_student_count
+  - cse_event_conducted_photos
+  - cse_faculty_experience_knowledge
+>>>>>>> Stashed changes
   - ask_ragging
   - ask_bus_seat
   - ask_campus_photos
   - ask_bus_facility
   - ask_canteen_facility
+<<<<<<< Updated upstream
   - ece_hod_details
   - ece_faculty_details
   - peo_ece_department
@@ -160,6 +167,38 @@ intents:
   - it_event_conducted_photos
   - it_faculty_experience_knowledge
 
+=======
+  - eee_hod_details
+  - eee_faculty_details
+  - peo_eee_department
+  - po_eee_department
+  - pso_eee_department
+  - eee_course_outcomes
+  - eee_department_info_about
+  - eee_department_vision
+  - eee_department_mission
+  - eee_total_students
+  - eee_female_girls_students
+  - eee_male_boys_students
+  - eee_lab_facilities
+  - eee_department_activities
+  - eee_student_activities
+  - eee_faculty_activities
+  - eee_professional_bodies
+  - eee_research_activities
+  - eee_newsletter
+  - mou_sign_company_eee
+  - intern_company_eee
+  - eee_contact
+  - technical_faculty_eee
+  - placement_eee
+  - extra_courses_eee
+  - placement_company_names_eee
+  - eee_accreditation
+  - eee_yearwise_student_count
+  - eee_event_conducted_photos
+  - eee_faculty_experience_knowledge
+>>>>>>> Stashed changes
 
 responses:
   utter_greet:
@@ -1028,6 +1067,7 @@ responses:
         Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
         For more details, you can contact the canteen management.
 
+<<<<<<< Updated upstream
   utter_ece_hod_details:
     - text: |
         🔹 Name: Dr. S. Karthigailakshmi 
@@ -1433,3 +1473,242 @@ responses:
     - text: |
         "The IT faculty at SSMIET has an average teaching experience of around 11 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
+=======
+  utter_eee_hod_details:
+    - text: |
+       🔹 Name: Dr. R.M. Sekar  
+       🔹 Position: Head of the Department (HOD), EEE, SSMIET  
+       🔹 Years of Experience: 22+ years in teaching & research  
+       🔹 Qualification: 🎓 Ph.D. (Electrical Engineering), M.Tech. (Power Electronics and Drives), B.E. (Electrical and Electronics Engineering)  
+       🔹 More Details: https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
+
+  utter_eee_faculty_details:
+  - text: |
+      Here are the faculty members of the EEE department:
+      1. Dr. R.M. Sekar - B.E., M.Tech., Ph.D. (Professor and Head)
+      2. Mr. D. Manoj - B.E., M.Tech., Ph.D. (Associate Professor)
+      3. Mr. G. Satheesh Kumar - B.E., M.E., Ph.D. (Assistant Professor)
+      4. Mr. M. Kalidasan - B.E., M.E., Ph.D. (Assistant Professor)
+      5. Mr. P. Siva Subramanian - B.E., M.E., Ph.D. (Associate Professor)
+      6. Mrs. R. Ramya - B.E., M.E. (Assistant Professor)
+      7. Mrs. K. Uma Maheswari - B.E., M.E. (Assistant Professor)
+      8. Mr. N. Manikandan - B.E., M.E., Ph.D. (Assistant Professor)
+      9. Ms. S. Geethanjali - B.E., M.E. (Assistant Professor)
+      10. Dr. V. Sivakumar - B.E., M.E., Ph.D. (Associate Professor and Head)
+      11. Dr. T. Arulkumar - B.E., M.E., Ph.D. (Assistant Professor)
+      12. Mrs. P. Mohana Karthiga - B.E., M.E. (Assistant Professor)
+     
+  utter_peo_eee_department:
+    - text: |
+        Program Educational Objectives (PEOs) in the Electrical and Electronics Engineering (EEE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
+
+        **PEO1**: Graduates will succeed in their professional careers by utilizing fundamental knowledge of basic sciences and mathematics in Electrical and Electronics Engineering.
+
+        **PEO2**: Graduates will design, analyze, simulate, and develop Electrical and Electronic products that are reliable, cost-effective, and safe to face industrial challenges around the globe.
+
+        **PEO3**: Graduates will demonstrate communication skills, teamwork, ethics, and codes of professional practice, along with an aptitude for continuous learning, creating a new perspective for sustainable economic development.
+
+        PEOs play a crucial role in shaping the career of EEE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
+    
+  utter_po_eee_department:
+    - text: |
+        Program Outcomes (POs) define the competencies that graduates of the Electrical and Electronics Engineering program are expected to acquire:
+
+        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to solve complex engineering problems.
+
+        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+
+        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+
+        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions.
+
+        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex engineering activities with an understanding of the limitations.
+
+        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and responsibilities relevant to professional engineering practice.
+
+        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
+
+        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+
+        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+
+        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+
+        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+
+        **PO12**: Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_eee_department:
+    - text: |
+        Program Specific Outcomes (PSOs) define the specialized skills and knowledge that graduates of the Electrical and Electronics Engineering program will attain:
+
+        **PSO1**: Foundation of Electrical Engineering: Ability to understand the principles and working of electrical components, circuits, systems, and control, forming a part of power generation, transmission, distribution, utilization, conservation, and energy saving. Students can assess power management, auditing, crisis, and energy-saving aspects.
+
+        **PSO2**: Foundation of Mathematical Concepts: Ability to apply mathematical methodologies to solve problems related to electrical engineering using appropriate engineering tools and algorithms.
+
+        **PSO3**: Computing and Research Ability: Ability to use knowledge in various domains to identify research gaps and provide solutions that lead to new ideas and innovations.
+
+  utter_eee_course_outcomes:
+    - text: |
+        "You can find the course outcomes for the EEE department at SSMIET in the following PDF: https://ssmiet.ac.in/EEE/New%20CO%20EEE%20-%202021.pdf"      
+
+  utter_eee_department_info_about:
+    - text: |
+        "Established in 2013, the EEE department offers quality education with experienced faculty and well-equipped labs. It organizes seminars, workshops, and industrial visits to enhance learning. The department collaborates with the placement cell for career opportunities in core and software fields. Students engage in co-curricular activities through clubs like the EEE Association and ISTE. Modern labs and simulation tools support hands-on learning and research."
+
+  utter_eee_department_vision:
+    - text: |
+        "To transform young minds into globally competent electrical engineers and entrepreneurs, meeting the technological needs of society."
+       
+  utter_eee_department_mission:
+    - text: |
+        "✔ Equipping students with advanced knowledge in Electrical and Electronics Engineering and professional skills to face future challenges.  
+         ✔ Enhancing students' interest in research by introducing cutting-edge technologies."
+
+  utter_eee_total_students:
+    - text: 
+        "The total student count in the EEE department varies each academic year."
+  
+  utter_eee_female_girls_students:
+    - text: 
+        "The number of female students in the EEE department varies."
+  
+  utter_eee_male_boys_students:
+    - text: 
+        "The number of male students in the EEE department varies."       
+
+  utter_eee_department_activities:
+    - text: 
+        "You can find details about the department activities at the following link: https://ssmiet.ac.in/EEE/DEPT.%20ACTIVITY-EEE.pdf"
+  
+  utter_eee_student_activities:
+    - text: 
+        "You can find details about the student activities at the following link: https://ssmiet.ac.in/eee%20student%20activities.html"
+  
+  utter_eee_faculty_activities:
+    - text: 
+        "You can find details about the faculty activities at the following link:https://ssmiet.ac.in/eee_faculty_activity.html"
+
+  utter_eee_professional_bodies:
+    - text: 
+        "You can find details about the professional bodies associated with the EEE department at the following link: https://ssmiet.ac.in/eeeprofessionalbodies.html"
+  
+  utter_eee_research_activities:
+    - text: 
+        "You can find details about the research activities in the EEE department at the following link: https://ssmiet.ac.in/eee%20research.html"
+  
+  utter_eee_newsletter:
+    - text: 
+        "You can find details about the EEE department newsletter at the following link:https://ssmiet.ac.in/eee%20news%20letter.html"
+              
+  utter_extra_courses_eee:
+    - text: |
+        "Here are the value-added courses offered by the EEE department:  
+        ✔ Industrial Robotics  
+        ✔ Training on Industrial Automation using PLC/SCADA  
+        ✔ Product Design and Manufacturing using Microcontroller  
+        ✔ Embedded Systems  
+        ✔ AutoCAD Electrical  
+        ✔ Industrial Automation"
+
+  utter_intern_company_eee:
+    - text: 
+        Here are top companies to get the internship
+              ✔️ TANTRANSCO Limited
+              ✔️ Sarayu Engineering
+              ✔️ LITZ TECH
+              ✔️ Associated Transformers Pvt. Ltd.
+              ✔️ Spot Light Institute
+              ✔️ Emglitz Technologies
+              ✔️ Pantech ProEd Pvt. Ltd.
+              ✔️ MAS Solar Systems Pvt. Ltd.
+              ✔️ Hindustan Automation Solutions
+              ✔️ Insource Technologies
+        
+              📊 Year-wise internship count:
+              🔹 2022-2023 => 29 students
+              🔹 2021-2022 => 56 students
+              🔹 2020-2021 => 2 students
+              🔹 2019-2020 => 67 students
+              🔹 2018-2019 => 33 students
+                
+  utter_mou_sign_company_eee:
+    - text: |
+        "Here are the MoU partners of the EEE department:  
+        ✅ Purdue University, USA  
+        ✅ VI Micro Systems Pvt. Ltd., Chennai  
+        ✅ Pantech Solutions Pvt. Ltd., Chennai  
+        ✅ ABE Semiconductor Designs, Chennai  
+        ✅ Bluetronics-R&D, Bangalore  
+        ✅ KL University, Andhra Pradesh  
+        ✅ Prolific Systems and Technologies Pvt. Ltd., Coimbatore  
+        ✅ Sarayu Engineering, Dindigul  
+        ✅ STEPS Knowledge Services Pvt. Ltd., Coimbatore  
+        ✅ Shree Technologies, Coimbatore  
+        ✅ Sunshiv Electronic Solutions, Coimbatore  
+        ✅ Spotlight Technology, Dindigul  
+        ✅ TOMGO Agro Machines Pvt. Ltd., Dindigul"
+  
+  utter_eee_contact:
+    - text: |
+        "For any inquiries, you can contact the EEE department:  
+        
+        📌 **The Head of the Department**  
+        📍 Department of Electrical and Electronics Engineering  
+        🏛️ SSM Institute of Engineering and Technology  
+        📍 Dindigul – 624 002, Tamil Nadu, India  
+        📞 Phone: 0451 – 2448846  
+        📧 E-mail: hodeeessmiet@gmail.com "
+
+  utter_placement_eee:
+    - text: |
+        Year-wise placement details for the EEE department:
+          - 2018-2019: 39 students
+          - 2019-2020: 29 students
+          - 2020-2021: 17 students
+          - 2021-2022: 19 students
+          - 2022-2023: 7 students
+
+  utter_placement_company_names_eee:
+    - text: |
+        Companies recruiting EEE students categorized by tier levels:
+            🟢 Tier 1 
+              ✔️ TCS (Tata Consultancy Services)
+              ✔️ Capgemini
+              ✔️ Infosys
+              ✔️ Accenture
+
+            🟡 Tier 2 
+              ✔️ Tessolve Semiconductor
+              ✔️ Aptiv Components India Pvt Ltd
+              ✔️ Vishay Precision Transducers India Pvt Ltd
+              ✔️ Everup Battery India Pvt Ltd
+              ✔️ iConT Technologies
+
+            🔴 Tier 3 
+            ✔️ BSA Corporation Ltd.
+            ✔️ Face Prep
+            ✔️ LECL
+            ✔️ 5K CAR CARE
+            ✔️ Go Speedy Go
+            ✔️ Jayasree Reva Phoenix Metrology
+            ✔️ Ramsays (Electrical Maintenance)
+
+  utter_eee_yearwise_student_count:
+    - text: |
+        "Yearwise student count in CSE department"
+
+  utter_eee_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_eee_faculty_experience_knowledge:
+    - text: |
+        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+                    
+  utter_eee_accreditation:
+    - text: |
+       "Our EEE department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and NBA, and affiliated to Anna University, Chennai."
+ 
+          
+>>>>>>> Stashed changes

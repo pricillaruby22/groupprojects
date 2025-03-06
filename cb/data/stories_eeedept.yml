@@ -1,0 +1,152 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of EEE
+    steps:
+      - intent: eee_hod_details
+      - action: utter_eee_hod_details
+
+  - story: Respond to EEE faculty queries
+    steps:
+      - intent: eee_faculty_details
+      - action: utter_eee_faculty_details
+
+  - story: Answer PEO of EEE department
+    steps:
+      - intent: peo_eee_department
+      - action: utter_peo_eee_department
+
+  - story: Answer PO of EEE department
+    steps:
+      - intent: po_eee_department
+      - action: utter_po_eee_department
+
+  - story: Answer PSO of EEE department
+    steps:
+      - intent: pso_eee_department
+      - action: utter_pso_eee_department
+
+  - story: Answer EEE course outcomes 
+    steps:
+      - intent: eee_course_outcomes
+      - action: utter_eee_course_outcomes
+
+  - story: EEE department info or about story
+    steps:
+      - intent: eee_department_info_about
+      - action: utter_eee_department_info_about
+
+  - story: EEE department vision story
+    steps:
+      - intent: eee_department_vision
+      - action: utter_eee_department_vision
+
+  - story: EEE department mission story
+    steps:
+      - intent: eee_department_mission
+      - action: utter_eee_department_mission
+
+  - story: EEE total students story
+    steps:
+      - intent: eee_total_students
+      - action: utter_eee_total_students
+
+  - story: EEE female or girls students story
+    steps:
+      - intent: eee_female_girls_students
+      - action: utter_eee_female_girls_students
+
+  - story: EEE male or boys students story
+    steps:
+      - intent: eee_male_boys_students
+      - action: utter_eee_male_boys_students
+
+  - story: Answer to EEE lab facilities 
+    steps:
+      - intent: eee_lab_facilities
+      - action: utter_eee_lab_facilities
+
+  - story: EEE department activities story
+    steps:
+      - intent: eee_department_activities
+      - action: utter_eee_department_activities
+
+  - story: EEE student activities story
+    steps:
+      - intent: eee_student_activities
+      - action: utter_eee_student_activities
+
+  - story: EEE faculty activities story
+    steps:
+      - intent: eee_faculty_activities
+      - action: utter_eee_faculty_activities
+
+  - story: EEE professional bodies story
+    steps:
+      - intent: eee_professional_bodies
+      - action: utter_eee_professional_bodies
+
+  - story: EEE research activities story
+    steps:
+      - intent: eee_research_activities
+      - action: utter_eee_research_activities
+
+  - story: EEE newsletter story
+    steps:
+      - intent: eee_newsletter
+      - action: utter_eee_newsletter
+
+  - story: Ask about MOU companies
+    steps:
+      - intent: mou_sign_company_eee
+      - action: utter_mou_sign_company_eee
+  
+  - story: Ask about internship companies
+    steps:
+      - intent: intern_company_eee
+      - action: utter_intern_company_eee
+
+  - story: Ask for EEE dept contact details
+    steps:
+      - intent: eee_contact
+      - action: utter_eee_contact
+
+  - story: Provide technical faculty details for EEE
+    steps:
+      - intent: technical_faculty_eee
+      - action: utter_technical_faculty_eee
+
+  - story: Provide EEE placement details
+    steps:
+      - intent: placement_eee
+      - action: utter_placement_eee    
+
+  - story: Provide extra courses details for EEE
+    steps:
+      - intent: extra_courses_eee
+      - action: utter_extra_courses_eee   
+
+  - story: Provide EEE placement company names
+    steps:
+      - intent: placement_company_names_eee
+      - action: utter_placement_company_names_eee     
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: eee_accreditation
+      - action: utter_eee_accreditation
+
+  - story: EEE year-wise student count inquiries
+    steps:
+      - intent: eee_yearwise_student_count
+      - action: utter_eee_yearwise_student_count
+
+  - story: EEE event conducted photo inquiries
+    steps:
+      - intent: eee_event_conducted_photos
+      - action: utter_eee_event_photos
+  
+  - story: EEE faculty experience knowledge inquiries
+    steps:
+      - intent: eee_faculty_experience_knowledge
+      - action: utter_eee_faculty_experience_knowledge
