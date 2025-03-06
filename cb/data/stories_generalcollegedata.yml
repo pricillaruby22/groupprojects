@@ -316,6 +316,7 @@ stories:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
 
+
   - story: College events or annual day or sumposium or college day inquiries
     steps:
       - intent: college_events_annual_symposium
@@ -358,8 +359,43 @@ stories:
 
   - story: User asks about placement training
     steps:
-    - intent: placement_training
-    - action: utter_placement_training
+      - intent: placement_training
+      - action: utter_placement_training
+
+  - story: Student feedback inquiry
+    steps:
+      - intent: student_feedback
+      - action: utter_student_feedback
+
+  - story: Water facilities inquiry
+    steps:
+      - intent: water_facilities
+      - action: utter_water_facilities
+
+  - story: Recruiters inquiry for placements
+    steps:
+      - intent: recruiters_college_for_placements
+      - action: utter_recruiters_college_for_placements
+
+  - story: Sports achievements inquiry
+    steps:
+      - intent: sports_achievements
+      - action: utter_sports_achievements
+
+  - story: Software lab details inquiry
+    steps:
+      - intent: software_lab_details
+      - action: utter_software_lab_details
+
+  - story: Staff and professor count inquiry
+    steps:
+      - intent: staff_professor_count
+      - action: utter_staff_professor_count
+
+  - story: Provide hardware details based on role
+    steps:
+      - intent: ask_lab_hardware
+      - action: action_provide_lab_hardware
 
   - story: User asks if ragging exists
     steps:
