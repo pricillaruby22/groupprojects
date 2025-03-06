@@ -1242,7 +1242,7 @@ responses:
         Here are the faculty members of the IT department:
         1. Dr. G. Prabu - M.E., Ph.D. (Professor and Head)
         2. Mrs. D. Devishree - M.E., Ph.D. (Assistant Professor)
-        3. Mrs. B. Ponvizhy swathy - M.E., Ph.D. (Assistant Professor)
+        3. Mrs. B. Ponvizhy swathy - M.E. (Assistant Professor)
         4. Mrs. G. Durga devi - M.E., Ph.D. (Assistant Professor)
 
   utter_peo_it_department:
@@ -1300,10 +1300,10 @@ responses:
     - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, features excellent infrastructure and a dedicated faculty. \nCommitted to quality education, the department aims to enhance the teaching-learning process and develop into a Center of Excellence. \nIts ultimate goal is to create excellent career pathways for students through placements, entrepreneurship, or higher studies."
 
   utter_it_department_vision:
-    - text: "**Vision**: To be an outstanding center for IT education and research for betterment of society."
+    - text: "**Vision**: \nTo be an outstanding center for IT education and research for betterment of society."
 
   utter_it_department_mission:
-    - text: "**Mission**: Impart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
+    - text: "**Mission**: \nImpart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
 
   utter_it_total_students:
     - text: "The total student count in the IT department varies each academic year."
