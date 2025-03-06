@@ -97,10 +97,21 @@ intents:
   - software_lab_details
   - ask_lab_hardware
   - staff_professor_count
-
-
-
-
+  - hostel_wifi
+  - hostel_room_sharing
+  - hostel_food_routine
+  - hostel_restroom_facilities
+  - hostel_fee
+  - overall_hostel_details
+  - sem_exam_result
+  - extracurricular_activites
+  - fee_payment
+  - gate_coaching
+  - ask_ragging
+  - ask_bus_seat
+  - ask_campus_photos
+  - ask_bus_facility
+  - ask_canteen_facility
 
 responses:
   utter_greet:
@@ -694,7 +705,7 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
-  
+
   utter_cse_accreditation:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
@@ -816,4 +827,156 @@ responses:
       - 2023-2024: 78 Teaching, 34 Non-teaching
       - 2022-2023: 70 Teaching, 29 Non-teaching
       - 2021-2022: 95 Teaching, 38 Non-teaching"
+      
+  utter_hostel_wifi:
+    - text: "SSMIET provides WiFi access in the hostel and common areas."
+
+  utter_hostel_room_sharing:
+    - text: "Rooms are shared by 4 members"
+
+  utter_hostel_food_routine:
+    - text: "weekly once non-veg"
+
+  utter_hostel_restroom_facilities:
+    - text: "hotwater, how many bathrooms in a flooor, clean"
+
+  utter_hostel_fee:
+    - text: "hostel fee details"
+
+  utter_overall_hostel_details:
+    - text: "full hostel details"
+
+  utter_sem_exam_result:
+    - text: "exam link"
+
+  utter_extracurricular_activites:
+    - text: |
+          Technical events
+          Symposium
+          Workshops
+  utter_fee_payment:
+    - text: |
+        Bank Name: State Bank Of India, Dindigul.
+        Account Name: SSM Institute of Engineering and Technology
+        Account Number: 00000032684732711
+        IFSC Code: SBIN0012758
+
+  utter_gate_coaching:
+    - text: |
+        The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
+
+  utter_sports_equipment:
+    - text: |
+        - 🏈 Football – Ground (College Kit), Footballs
+        - 🏀 Basketball – Basketball Court, Basketballs
+        - 🏓 Table Tennis – 2 Tables, Racquets, Balls
+        - 🏏 Cricket – Bat, Mat, Balls, Kitbag
+        - 🏃 Athletics – 400m & 200m Track, Cones, Track & Field Event Equipment
+        - 🏐 Volleyball – Court, Nets, Volleyballs
+        - 🏸 Badminton – Indoor Stadium, Racquets, Nets
+        - 🎾 Tennis – Court, Nets, Racquets
+        - 🏸 Ball Badminton – Racquets, Balls
+          
+  utter_ragging_no_ragging:
+    - text: "Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students."
+
+  utter_ragging_prevention:
+    - text: "To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues."
+
+  utter_ragging_helpline:
+    - text: "If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured."
+
+  utter_ragging_punishment:
+    - text: "Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college."
+
+  utter_ragging_awareness:
+    - text: "Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment."
+
+  utter_bus_seat_fcfs:
+    - text: "Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat."
+
+  utter_bus_seat_full:
+    - text: "If the bus is full, students may have to stand during the journey. There are no extra buses provided."
+
+  utter_bus_seat_no_reservation:
+    - text: "Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure."
+
+  utter_bus_seat_advice:
+    - text: "If you often face seating issues, consider taking an earlier bus or planning your schedule accordingly."
+
+  utter_campus_general_photos:
+    - text: |
+        Here are some images of our college campus:
+
+        ![Campus View 1](https://example.com/campus1.jpg)
+        ![Campus View 2](https://example.com/campus2.jpg)
+        ![Campus View 3](https://example.com/campus3.jpg)
+
+  utter_campus_auditorium_photos:
+    - text: |
+        Here are some images of the college auditorium:
+
+        ![Auditorium 1](https://example.com/auditorium1.jpg)
+        ![Auditorium 2](https://example.com/auditorium2.jpg)
+
+  utter_campus_canteen_photos:
+    - text: |
+        Here are some images of the college canteen:
+
+        ![Canteen 1](https://example.com/canteen1.jpg)
+        ![Canteen 2](https://example.com/canteen2.jpg)
+
+  utter_campus_library_photos:
+    - text: |
+        Here are some images of the library:
+
+        ![Library 1](https://example.com/library1.jpg)
+        ![Library 2](https://example.com/library2.jpg)
+
+  utter_campus_hostel_photos:
+    - text: |
+        Here are some images of the hostel:
+
+        ![Hostel 1](https://example.com/hostel1.jpg)
+        ![Hostel 2](https://example.com/hostel2.jpg)
+
+  utter_campus_playground_photos:
+    - text: |
+        Here are some images of the playground:
+
+        ![Playground 1](https://example.com/playground1.jpg)
+        ![Playground 2](https://example.com/playground2.jpg)
+
+  utter_bus_facility_details:
+    - text: |
+        Our college provides a well-organized bus facility for students and staff. Here are the key details:
+        
+        - Buses cover multiple routes and ensure accessibility to different areas.
+        - Seating is based on a first-come, first-served (FCFS) system.
+        - If the bus is full, students may have to stand as no extra buses are available.
+        - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
+        - There is no seat reservation system; seating depends on availability.
+        - The bus service is available for both students and staff.
+        - A helpline is provided for any bus-related issues. Contact: [To be added]
+        
+        For more details, you can contact the transport department.      
+
+  utter_canteen_availability:
+    - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
   
+  utter_canteen_food_options:
+    - text: |
+        The canteen offers both vegetarian and non-vegetarian food options, including:
+        - Dosa
+        - Fried Rice
+        - Noodles
+        - Parotta
+        - Sambar Sadham
+        - Snacks and beverages are also available.
+  
+  utter_canteen_timings:
+    - text: |
+        The canteen operates from 8:30 AM to 5:00 PM. Seating arrangements are available for 200-300 students. Digital payments are accepted, and prices are affordable.
+        Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
+        For more details, you can contact the canteen management.
+

@@ -275,6 +275,7 @@ stories:
     steps:
       - intent: cutoff_details
       - action: utter_cutoff_details
+
   - story: Provide college qualification
     steps:
       - intent: college_qualification
@@ -395,9 +396,122 @@ stories:
     steps:
       - intent: ask_lab_hardware
       - action: action_provide_lab_hardware
+
+  - story: User asks if ragging exists
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_no_ragging
+
+  - story: User asks about ragging prevention measures
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_prevention
+
+  - story: User asks about reporting ragging
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_helpline
+
+  - story: User asks about punishments for ragging
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_punishment
+
+  - story: User asks about ragging awareness programs
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_awareness
+
+  - story: User asks multiple ragging-related questions
+    steps:
+      - intent: ask_ragging
+      - action: utter_ragging_no_ragging
+      - action: utter_ragging_prevention
+      - action: utter_ragging_helpline
+      - action: utter_ragging_punishment
+      - action: utter_ragging_awareness    
+
+  - story: User asks about bus seating (FCFS system)
+    steps:
+      - intent: ask_bus_seat
+      - action: utter_bus_seat_fcfs
+
+  - story: User asks if they will get a seat
+    steps:
+      - intent: ask_bus_seat
+      - action: utter_bus_seat_full
+
+  - story: User asks about seat reservations
+    steps:
+      - intent: ask_bus_seat
+      - action: utter_bus_seat_no_reservation
+
+  - story: User asks for advice on seating issues
+    steps:
+      - intent: ask_bus_seat
+      - action: utter_bus_seat_advice
+
+  - story: User asks for general campus photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_general_photos
+
+  - story: User asks for auditorium photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_auditorium_photos
+
+  - story: User asks for canteen photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_canteen_photos
+
+  - story: User asks for library photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_library_photos
+
+  - story: User asks for hostel photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_hostel_photos
+
+  - story: User asks for playground photos
+    steps:
+      - intent: ask_campus_photos
+      - action: utter_campus_playground_photos
+      
+  - story: User asks about bus facility
+    steps:
+      - intent: ask_bus_facility
+      - action: utter_bus_facility_details    
       
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
-  
+
+  - story: semester exam results
+    steps:
+      - intent: sem_exam_result
+      - action: utter_sem_exam_result
+
+  - story: extracurricular_activites
+    steps:
+      - intent: extracurricular_activites
+      - action: utter_extracurricular_activites
+
+  - story: User asks about fee payment details
+    steps:
+      - intent: fee_payment
+      - action: utter_fee_payment
+
+  - story: User asks about GATE coaching
+    steps:
+      - intent: gate_coaching
+      - action: utter_gate_coaching
+      
+  - story: User asks about sports equipment
+    steps:
+      - intent: sports_equipment
+      - action: utter_sports_equipment
