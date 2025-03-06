@@ -1,0 +1,284 @@
+version: "3.1"
+
+nlu:
+    - intent: csbs_hod_details
+      examples: |
+        - Who is the Head of the Computer Science and Business System Department at SSMIET?
+        - Can you provide the qualifications and experience details of the CSBS HOD?
+        - What are the research areas of the HOD of CSBS?
+        - Who is the CSBS department head at this college?
+        - What is the experience of the CSBS HOD?
+        - Can you tell me about the background of CSBS HOD?
+        - Who is in charge of the CSBS department?
+        - How much qualification does the CSBS HOD have?
+        - Is the head of CSBS experienced?
+        - What is the qualification of the HOD of the CSBS department? 
+    
+    - intent: csbs_faculty_details
+      examples: |
+        - Who are the faculty members of the CSBS department?
+        - Can you list the CSBS department faculty?
+        - Tell me about the educators in the CSBS department.
+        - Provide details on CSBS department professors.
+        - Give me a list of CSBS department staff.
+        - Give me the staff details of Computer Science and Business System Department.
+        - I am not familiar with the faculty of the CSBS dept. Can you help?
+        - Who teaches for the CSBS department?
+        - I am uneducated about the staff in CSBS. Can you list them?
+        - Tell me who the CSBS professors are.
+        - I don't know the educators. Can you inform me?
+        - Can you give me some information about the CSBS faculty?
+        - I know some professors, but can you list all?
+        - Who are the key faculty members in CSBS?
+        - I have some idea about the staff. Can you provide full details?
+        - Give me more details about the educators in CSBS.
+        - List out the CSBS teaching madam.
+
+    - intent: peo_csbs_department
+      examples: |
+        - What does PEO stand for in the CSBS department?
+        - What is the PEO of the CSBS department?
+        - Tell me about PEO of Computer Science and Business System.
+        - What are the PEOs in the CSBS department?
+        - Why are Program Educational Objectives (PEOs) important for students?
+        - How do PEOs help in shaping the career of a CSBS graduate?
+        - What are the key components of a typical CSBS department PEO?
+        - What are the key goals of PEOs in Computer Science and Business System?
+
+    - intent: po_csbs_department
+      examples: |
+        - What does PO stand for in the CSBS department?
+        - What is the PO of the CSBS department?
+        - Tell me about PO of Computer Science and Business System.
+        - What are the POs in the CSBS department?
+        - Why are Program Outcomes (POs) important for students?
+        - How do POs help in shaping the career of a CSBS graduate?
+        - What are the key components of a typical CSBS department PO?
+        - What are the key goals of POs in Computer Science and Business System?
+
+    - intent: pso_csbs_department
+      examples: |
+        - What does PSO stand for in the CSBS department?
+        - What is the PSO of the CSBS department?
+        - Tell me about PSO of Computer Science and Business System.
+        - What are the PSOs in the CSBS department?
+        - Why are Program Specific Outcomes (PSOs) important for students?
+        - How do PSOs help in shaping the career of a CSBS graduate?
+        - What are the key components of a typical CSBS department PSO?
+        - What are the key goals of PSOs in Computer Science and Business System?
+
+    - intent: technical_faculty_csbs
+      examples: |
+        - Tell me about the technical staff in the CSBS department.
+        - Who are the technical faculty in CSBS?
+        - List the technical assistants in the CSBS department.
+        - CSBS department technical staff details.
+
+
+    - intent: csbs_department_info_about
+      examples: |
+        - When was the CSBS department established?
+        - Is the CSBS department approved by AICTE?
+        - Tell me about Computer Science and Business System.
+        - Which university is the CSBS department affiliated with?
+        - How does the CSBS department support student learning?
+        - How does the department help students achieve academic and career goals?
+        - How does the department emphasize co-curricular and extracurricular activities?
+        - Tell me about the CSBS department.
+
+    - intent: csbs_department_vision
+      examples: |
+        - What is the vision of the CSBS department?
+        - What are the key goals of the CSBS department’s vision?
+        - How does the CSBS department work towards achieving its vision?
+        - How does the vision of the CSBS department benefit students?
+        - What impact does the CSBS department’s vision have on technical education?
+        - Does the vision of the CSBS department focus on industry readiness?
+        - How does the CSBS department’s vision align with modern technology trends?
+        - What initiatives are taken to fulfill the CSBS department’s vision?
+        - How does research and innovation contribute to the CSBS department’s vision?
+        - Does the vision of the CSBS department include global technological advancements?
+
+
+    - intent: csbs_department_mission
+      examples: |
+        - What is the mission of the CSBS department?
+        - What are the key goals of the CSBS department’s mission?
+        - How does the CSBS department work towards achieving its mission?
+        - How does the mission of the CSBS department benefit students?
+        - What impact does the CSBS department’s mission have on technical education?
+        - Does the mission of the CSBS department focus on industry readiness?
+        - How does the CSBS department’s mission align with modern technology trends?
+        - What initiatives are taken to fulfill the CSBS department’s mission?
+        - How does research and innovation contribute to the CSBS department’s mission?
+        - Does the mission of the CSBS department include global technological advancements?
+        - Tell me about the mission of the CSBS department.
+
+    - intent: csbs_total_students
+      examples: |
+        - What is the total student count in the CSBS department?
+        - What is the total number of students currently enrolled in the CSBS department?
+        - How many students are studying in the CSBS department this academic year?
+        - What is the total student strength of the CSBS department?
+        - How many students have been admitted to the CSBS department this year?
+        - What is the total student intake capacity for the CSBS department?
+        - How many students are in each year of the CSBS department?
+        - What is the total number of students in the undergraduate CSBS program?
+        - How many students are currently pursuing B.E. CSBS?
+        - How many students graduate from the CSBS department each year?
+        - How many students are currently in their final year in CSBS?
+
+    - intent: csbs_female_girls_students
+      examples: |
+        - How many girls are there in the CSBS department?
+        - What is the total number of female students in the CSBS department?
+        - How many girls are currently enrolled in the CSBS department?
+        - What percentage of CSBS students are girls?
+        - How many female students joined the CSBS department this year?
+        - How many girls are in each year of the CSBS department?
+        - Has the number of girls in the CSBS department increased over the years?
+        - How many female students have graduated from the CSBS department so far?
+        - What is the trend of female student enrollment in the CSBS department?
+
+    - intent: csbs_male_boys_students
+      examples: |
+        - How many boys are there in the CSBS department?
+        - What is the total number of male students in the CSBS department?
+        - How many boys are currently enrolled in the CSBS department?
+        - What percentage of CSBS students are boys?
+        - How many male students joined the CSBS department this year?
+        - How many boys are in each year of the CSBS department?
+        - Has the number of boys in the CSBS department increased over the years?
+        - How many male students have graduated from the CSBS department so far?
+        - What is the trend of male student enrollment in the CSBS department?
+
+    - intent: csbs_lab_facilities
+      examples: |
+        - What are the lab facilities available in the CSBS department?
+        - How many computer labs are there in the CSBS department?
+        - What software and tools are available in the CSBS labs?
+        - What is the configuration of the computers in the CSBS labs?
+        - Are the lab facilities updated with the latest technology?
+        - Does the CSBS department provide high-speed internet in the labs?
+        - Are the CSBS labs accessible to students outside class hours?
+        - What kind of research work is conducted in the CSBS labs?
+
+  
+
+
+    - intent: mou_sign_company_csbs
+      examples: |
+        - Which companies have signed an MOU with the institution?
+        - Can you provide details on MOU-signed companies?
+        - Tell me about the industry collaborations.
+        - Which organizations have partnered with us?
+        - List the companies that have signed an MOU.
+        - What is an MOU?
+        - Can you explain what MOU means?
+        - I don’t understand MOU. Can you help?
+        - What does it mean when a company signs an MOU?
+        - Explain MOU in simple terms.
+        - Can you give me a list of MOU-signed companies?
+        - Which companies have recently signed an MOU?
+        - How does an MOU benefit students?
+        - Tell me about the latest MOU collaborations.
+        - Give me details on MOU partners and their dates.
+        - Give me the details about tie-up companies.
+
+    - intent: intern_company_csbs
+      examples: |
+        - Which companies provide internships?
+        - What are the companies that offer internships?
+        - Can you list some companies that provide internship opportunities?
+        - Tell me about companies that offer internships.
+        - Can you name some companies that offer student internships?
+        - How many students got internships?
+        - Give me the year-wise placed students' internship count.
+        - Can you provide the number of students who did internships each year?
+        - Tell me how many students did internships in previous years.
+        - What is the yearly count of students who got internships?
+        - List the number of students who got internships year by year.
+        - How many students secured internships each academic year?
+
+  
+
+    - intent: extra_courses_csbs
+      examples: |
+        - Tell me about the value-added courses in CSBS department.
+        - What are the additional courses offered by CSBS?
+        - Extra courses provided by CSBS department.
+        - List the value-added courses for CSBS students.
+        - Do CSBS students have any extra learning opportunities? 
+
+    - intent: placement_company_names_csbs
+      examples: |
+        - Which companies come for placements in CSBS?
+        - What are the company names for CSBS placements?
+        - List the companies recruiting CSBS students.
+        - Can you provide the names of placement companies for CSBS?
+        - Which companies hire from the CSBS department?
+        - Who are the recruiters for CSBS students?
+        - Which companies visit for CSBS placements?
+        - Give me the names of companies for CSBS placements.  
+        - What are the companies hiring for final year placements?
+        - Are there any top companies for placement?
+        - Tell me about the placement details in the CSBS department.
+        - How many students got placed in CSBS?
+        - CSBS department placement statistics.
+        - Year-wise placement count in CSBS.  
+        - Tell me about the placement statistics in the CSBS department.
+        - How successful is the CSBS department in placements?
+        - What is the placement rate for CSBS students?
+        - Can you provide the CSBS placement report?
+        - How many CSBS students were placed last year?
+        - What's the highest placement count for CSBS?
+        - Which companies hired CSBS students?
+        - How has CSBS placement performance changed over the years?
+        - Do CSBS students get good placements?
+        - Share the year-wise placement details for CSBS. 
+
+    - intent: csbs_accreditation
+      examples: |
+        - What are the accreditations and affiliations of the CSBS department?
+        - Is the CSBS department accredited by NAAC and AICTE?
+        - Under which university is the CSBS department affiliated?
+        - Is the CSBS department approved by the government?
+        - Does the CSBS department have AICTE and NAAC approval?
+        - Which university is the CSBS department connected with?
+        - Is the CSBS department good?
+        - Is this college’s CSBS department recognized by the government?
+        - Is the CSBS course valid for jobs?
+
+    
+    - intent: csbs_yearwise_student_count
+      examples: |
+        - What is the year-wise student count for the CSBS department since the college started?
+        - Can you provide the student intake count for the CSBS department for each academic year since inception?
+        - How many students were admitted to the CSBS department each year from the beginning?
+        - What is the total number of students enrolled in the CSBS department for every academic year since the college started?
+        - How has the student strength of the CSBS department varied year by year since the first batch?
+        - What are the year-wise student counts for the CSBS department?
+        - Can you provide the student count for each year in the CSBS department?
+        - What is the breakdown of students by year in the CSBS department?
+        - How many students are there in each academic year of the CSBS department?
+        - What is the total number of students per year in the CSBS department?
+
+
+    - intent: csbs_faculty_experience_knowledge
+      examples: |
+        - What is the average teaching experience of CSBS faculty at SSMIET?
+        - How many years of experience do the CSBS faculty members have on average?
+        - What is the average industry experience of CSBS faculty at SSMIET?
+        - How many faculty members in the CSBS department have more than 10 years of experience?
+        - What is the experience range of professors in the CSBS department?
+        - How many faculty members in CSBS have prior industry knowledge?
+        - What percentage of CSBS faculty have Ph.D. qualifications?
+        - How often do CSBS faculty members update their knowledge with training or certifications?
+        - What is the total teaching experience of the senior-most faculty in the CSBS department?
+        - How many CSBS faculty members have more than five years of teaching experience?
+        - What is the minimum teaching experience required for CSBS faculty at SSMIET?
+        - How many CSBS faculty members have both academic and industry experience?
+        - What is the average number of years faculty members have worked at SSMIET?
+        - How many faculty members in the CSBS department hold postgraduate degrees?
+
+
