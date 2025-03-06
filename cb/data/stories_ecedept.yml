@@ -1,0 +1,160 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of ECE
+    steps:
+      - intent: ece_hod_details
+      - action: utter_ece_hod_details
+
+  - story: Respond to ECE faculty queries
+    steps:
+      - intent: ece_faculty_details
+      - action: utter_ece_faculty_details
+
+  - story: Answer PEO of ECE department
+    steps:
+      - intent: peo_ece_department
+      - action: utter_peo_ece_department
+
+  - story: Answer PO of ECE department
+    steps:
+      - intent: po_ece_department
+      - action: utter_po_ece_department
+
+  - story: Answer PSO of ECE department
+    steps:
+      - intent: pso_ece_department
+      - action: utter_pso_ece_department
+
+  - story: Answer ECE course outcomes 
+    steps:
+      - intent: ece_course_outcomes
+      - action: utter_ece_course_outcomes
+
+  - story: ECE department info or about story
+    steps:
+      - intent: ece_department_info_about
+      - action: utter_ece_department_info_about
+
+  - story: ECE department vision story
+    steps:
+      - intent: ece_department_vision
+      - action: utter_ece_department_vision
+
+  - story: ECE department mission story
+    steps:
+      - intent: ece_department_mission
+      - action: utter_ece_department_mission
+
+  - story: ECE total students story
+    steps:
+      - intent: ece_total_students
+      - action: utter_ece_total_students
+
+  - story: ECE female or girls students story
+    steps:
+      - intent: ece_female_girls_students
+      - action: utter_ece_female_girls_students
+
+  - story: ECE male or boys students story
+    steps:
+      - intent: ece_male_boys_students
+      - action: utter_ece_male_boys_students
+
+  - story: Answer to ECE lab facilities 
+    steps:
+      - intent: ece_lab_facilities
+      - action: utter_ece_lab_facilities
+
+  - story: ECE department activities story
+    steps:
+      - intent: ece_department_activities
+      - action: utter_ece_department_activities
+
+  - story: ECE student activities story
+    steps:
+      - intent: ece_student_activities
+      - action: utter_ece_student_activities
+
+  - story: ECE faculty activities story
+    steps:
+      - intent: ece_faculty_activities
+      - action: utter_ece_faculty_activities
+
+  - story: ECE professional bodies story
+    steps:
+      - intent: ece_professional_bodies
+      - action: utter_ece_professional_bodies
+
+  - story: ECE research activities story
+    steps:
+      - intent: ece_research_activities
+      - action: utter_ece_research_activities
+
+  - story: ECE newsletter story
+    steps:
+      - intent: ece_newsletter
+      - action: utter_ece_newsletter
+
+  - story: Ask about MOU companies
+    steps:
+      - intent: mou_sign_company_ece
+      - action: utter_mou_sign_company_ece
+  
+  - story: Ask about internship companies
+    steps:
+      - intent: intern_company_ece
+      - action: utter_intern_company_ece
+
+  - story: Ask for ECE dept contact details
+    steps:
+      - intent: ece_contact
+      - action: utter_ece_contact
+
+  - story: Provide technical faculty details for ECE
+    steps:
+      - intent: technical_faculty_ece
+      - action: utter_technical_faculty_ece
+
+  - story: Provide ECE placement details
+    steps:
+      - intent: placement_ece
+      - action: utter_placement_ece    
+
+  - story: Provide extra courses details for ECE
+    steps:
+      - intent: extra_courses_ece
+      - action: utter_extra_courses_ece   
+
+  - story: Provide ECE placement company names
+    steps:
+      - intent: placement_company_names_ece
+      - action: utter_placement_company_names_ece     
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: ece_accreditation
+      - action: utter_ece_accreditation
+
+  - story: ECE year-wise student count inquiries
+    steps:
+      - intent: ece_yearwise_student_count
+      - action: utter_ece_yearwise_student_count
+
+  - story: ECE event conducted photo inquiries
+    steps:
+      - intent: ece_event_conducted_photos
+      - action: utter_ece_event_photos
+  
+  - story: ECE faculty experience knowledge inquiries
+    steps:
+      - intent: ece_faculty_experience_knowledge
+      - action: utter_ece_faculty_experience_knowledge
+
+
+
+
+
+
+
+

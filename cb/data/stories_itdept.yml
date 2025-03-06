@@ -1,0 +1,95 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of IT
+    steps:
+      - intent: it_hod_details
+      - action: utter_it_hod_details
+
+  - story: Respond to IT faculty queries
+    steps:
+      - intent: it_faculty_details
+      - action: utter_it_faculty_details
+
+  - story: Answer PEO of IT department
+    steps:
+      - intent: peo_it_department
+      - action: utter_peo_it_department
+
+  - story: Answer PO of IT department
+    steps:
+      - intent: po_it_department
+      - action: utter_po_it_department
+
+  - story: Answer PSO of IT department
+    steps:
+      - intent: pso_it_department
+      - action: utter_pso_it_department
+
+  - story: IT department info or about story
+    steps:
+      - intent: it_department_info_about
+      - action: utter_it_department_info_about
+
+  - story: IT department vision story
+    steps:
+      - intent: it_department_vision
+      - action: utter_it_department_vision
+
+  - story: IT department mission story
+    steps:
+      - intent: it_department_mission
+      - action: utter_it_department_mission
+
+  - story: IT total students story
+    steps:
+      - intent: it_total_students
+      - action: utter_it_total_students
+
+  - story: IT female or girls students story
+    steps:
+      - intent: it_female_girls_students
+      - action: utter_it_female_girls_students
+
+  - story: IT male or boys students story
+    steps:
+      - intent: it_male_boys_students
+      - action: utter_it_male_boys_students
+
+  - story: Ask about MOU companies
+    steps:
+      - intent: mou_sign_company_it
+      - action: utter_mou_sign_company_it
+  
+  - story: Provide IT placement company names
+    steps:
+      - intent: placement_company_names_it
+      - action: utter_placement_company_names_it     
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: it_accreditation
+      - action: utter_it_accreditation
+
+  - story: IT year-wise student count inquiries
+    steps:
+      - intent: it_yearwise_student_count
+      - action: utter_it_yearwise_student_count
+
+  - story: IT event conducted photo inquiries
+    steps:
+      - intent: it_event_conducted_photos
+      - action: utter_it_event_photos
+  
+  - story: IT faculty experience knowledge inquiries
+    steps:
+      - intent: it_faculty_experience_knowledge
+      - action: utter_it_faculty_experience_knowledge
+
+
+
+
+
+
+
+

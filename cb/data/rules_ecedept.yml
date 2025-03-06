@@ -1,0 +1,158 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: ece_hod_details
+      - action: utter_ece_hod_details
+
+  - rule: Respond to ECE faculty queries
+    steps:
+      - intent: ece_faculty_details
+      - action: utter_ece_faculty_details
+
+  - rule: Provide PEO information of ECE department
+    steps:
+      - intent: peo_ece_department
+      - action: utter_peo_ece_department
+
+  - rule: Provide PO information of ECE department
+    steps:
+      - intent: po_ece_department
+      - action: utter_po_ece_department
+
+  - rule: Provide PSO information of ECE department
+    steps:
+      - intent: pso_ece_department
+      - action: utter_pso_ece_department
+
+  - rule: Respond to ECE course outcomes
+    steps:
+      - intent: ece_course_outcomes
+      - action: utter_ece_course_outcomes
+
+  - rule: Respond to technical faculty in ECE
+    steps:
+      - intent: technical_faculty_ece
+      - action: utter_technical_faculty_ece
+
+  - rule: Respond to placement details in ECE
+    steps:
+      - intent: placement_ece
+      - action: utter_placement_ece    
+
+  - rule: Respond to ECE department info or about
+    steps:
+      - intent: ece_department_info_about
+      - action: utter_ece_department_info_about
+
+  - rule: Respond to ECE department vision
+    steps:
+      - intent: ece_department_vision
+      - action: utter_ece_department_vision
+
+  - rule: Respond to ECE department mission
+    steps:
+      - intent: ece_department_mission
+      - action: utter_ece_department_mission
+
+  - rule: Respond to ECE total students count
+    steps:
+      - intent: ece_total_students
+      - action: utter_ece_total_students
+
+  - rule: Respond to ECE female or girls students count
+    steps:
+      - intent: ece_female_girls_students
+      - action: utter_ece_female_girls_students
+
+  - rule: Respond to ECE male or boys students count
+    steps:
+      - intent: ece_male_boys_students
+      - action: utter_ece_male_boys_students
+
+  - rule: Respond to ECE lab facilities
+    steps:
+      - intent: ece_lab_facilities
+      - action: utter_ece_lab_facilities
+
+  - rule: Respond to ECE department activities
+    steps:
+      - intent: ece_department_activities
+      - action: utter_ece_department_activities
+
+  - rule: Respond to ECE student activities
+    steps:
+      - intent: ece_student_activities
+      - action: utter_ece_student_activities
+
+  - rule: Respond to ECE faculty activities
+    steps:
+      - intent: ece_faculty_activities
+      - action: utter_ece_faculty_activities
+
+  - rule: Respond to ECE professional bodies
+    steps:
+      - intent: ece_professional_bodies
+      - action: utter_ece_professional_bodies
+
+  - rule: Respond to ECE research activities
+    steps:
+      - intent: ece_research_activities
+      - action: utter_ece_research_activities
+
+  - rule: Respond to ECE newsletter
+    steps:
+      - intent: ece_newsletter
+      - action: utter_ece_newsletter
+  
+  - rule: Respond to ECE MOU inquiry 
+    steps:
+      - intent: mou_sign_company_ece 
+      - action: utter_mou_sign_company_ece 
+    
+  - rule: Respond to ECE internship companies 
+    steps:
+      - intent: intern_company_ece 
+      - action: utter_intern_company_ece 
+  
+  - rule: Provide ECE contact details
+    steps:
+      - intent: ece_contact
+      - action: utter_ece_contact
+
+  - rule: Respond to extra courses in ECE
+    steps:
+      - intent: extra_courses_ece 
+      - action: utter_extra_courses_ece  
+
+  - rule: Respond to placement company names in ECE
+    steps:
+      - intent: placement_company_names_ece 
+      - action: utter_placement_company_names_ece     
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_ece_accreditation
+      - action: utter_ece_accreditation
+
+  - rule: Respond to ECE year-wise student count queries
+    steps:
+      - intent: ece_yearwise_student_count
+      - action: utter_ece_yearwise_student_count
+
+  - rule: Respond to ECE event conducted photo queries
+    steps:
+      - intent: ece_event_conducted_photos
+      - action: utter_ece_event_conducted_photos
+
+  - rule: Respond to ECE faculty experience knowledge queries
+    steps:
+      - intent: ece_faculty_experience_knowledge
+      - action: utter_ece_faculty_experience_knowledge
+
+
+
+
+
+
