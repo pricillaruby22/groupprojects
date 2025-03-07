@@ -31,11 +31,6 @@ stories:
       - intent: thermal_faculty_experience_knowledge
       - action: utter_thermal_faculty_experience_knowledge
 
-  - story: Year-wise student count for Thermal Engineering
-    steps:
-      - intent: thermal_engineering_yearwise_student_count
-      - action: utter_thermal_engineering_yearwise_student_count
-
   - story: Total student count for Thermal Engineering
     steps:
       - intent: thermal_engineering_total_students

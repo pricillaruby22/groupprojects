@@ -31,11 +31,6 @@ rules:
       - intent: communication_system_faculty_experience_knowledge
       - action: utter_communication_system_faculty_experience_knowledge
 
-  - rule: Respond to year-wise student count for Communication System
-    steps:
-      - intent: communication_system_yearwise_student_count
-      - action: utter_communication_system_yearwise_student_count
-
   - rule: Respond to total student count for Communication System
     steps:
       - intent: communication_system_total_students

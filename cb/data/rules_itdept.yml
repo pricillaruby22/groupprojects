@@ -71,11 +71,6 @@ rules:
       - intent: ask_it_accreditation
       - action: utter_it_accreditation
 
-  - rule: Respond to IT year-wise student count queries
-    steps:
-      - intent: it_yearwise_student_count
-      - action: utter_it_yearwise_student_count
-
   - rule: Respond to IT event conducted photo queries
     steps:
       - intent: it_event_conducted_photos

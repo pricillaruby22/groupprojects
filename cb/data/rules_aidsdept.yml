@@ -1,0 +1,123 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to HOD queries
+    steps:
+      - intent: aids_hod_details
+      - action: utter_aids_hod_details
+
+  - rule: Respond to AIDS faculty queries
+    steps:
+      - intent: aids_faculty_details
+      - action: utter_aids_faculty_details
+
+  - rule: Provide PEO information of AIDS department
+    steps:
+      - intent: peo_aids_department
+      - action: utter_peo_aids_department
+
+  - rule: Provide PO information of AIDS department
+    steps:
+      - intent: po_aids_department
+      - action: utter_po_aids_department
+
+  - rule: Provide PSO information of AIDS department
+    steps:
+      - intent: pso_aids_department
+      - action: utter_pso_aids_department
+
+  - rule: Respond to technical faculty in AIDS
+    steps:
+      - intent: technical_faculty_aids
+      - action: utter_technical_faculty_aids
+
+  - rule: Respond to placement details in AIDS
+    steps:
+      - intent: placement_aids
+      - action: utter_placement_aids    
+
+  - rule: Respond to AIDS department info or about
+    steps:
+      - intent: aids_department_info_about
+      - action: utter_aids_department_info_about
+
+  - rule: Respond to AIDS department vision
+    steps:
+      - intent: aids_department_vision
+      - action: utter_aids_department_vision
+
+  - rule: Respond to AIDS department mission
+    steps:
+      - intent: aids_department_mission
+      - action: utter_aids_department_mission
+
+  - rule: Respond to AIDS total students count
+    steps:
+      - intent: aids_total_students
+      - action: utter_aids_total_students
+
+  - rule: Respond to AIDS female or girls students count
+    steps:
+      - intent: aids_female_girls_students
+      - action: utter_aids_female_girls_students
+
+  - rule: Respond to AIDS male or boys students count
+    steps:
+      - intent: aids_male_boys_students
+      - action: utter_aids_male_boys_students
+
+  - rule: Respond to AIDS lab facilities
+    steps:
+      - intent: aids_lab_facilities
+      - action: utter_aids_lab_facilities
+
+  - rule: Respond to AIDS department activities
+    steps:
+      - intent: aids_department_activities
+      - action: utter_aids_department_activities
+
+  - rule: Respond to AIDS student activities
+    steps:
+      - intent: aids_student_activities
+      - action: utter_aids_student_activities
+
+  - rule: Respond to AIDS faculty activities
+    steps:
+      - intent: aids_faculty_activities
+      - action: utter_aids_faculty_activities
+
+
+  - rule: Respond to AIDS research activities
+    steps:
+      - intent: aids_research_activities
+      - action: utter_aids_research_activities
+    
+  - rule: Respond to AIDS internship companies 
+    steps:
+      - intent: intern_company_aids 
+      - action: utter_intern_company_aids 
+
+  - rule: Respond to extra courses in AIDS
+    steps:
+      - intent: extra_courses_aids 
+      - action: utter_extra_courses_aids  
+
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: ask_aids_accreditation
+      - action: utter_aids_accreditation
+
+  - rule: Respond to AIDS year-wise student count queries
+    steps:
+      - intent: aids_yearwise_student_count
+      - action: utter_aids_yearwise_student_count
+
+  - rule: Respond to AIDS event conducted photo queries
+    steps:
+      - intent: aids_event_conducted_photos
+      - action: utter_aids_event_conducted_photos
+
+  - rule: Respond to AIDS faculty experience knowledge queries
+    steps:
+      - intent: aids_faculty_experience_knowledge
+      - action: utter_aids_faculty_experience_knowledge

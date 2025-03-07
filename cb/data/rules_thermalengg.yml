@@ -31,11 +31,6 @@ rules:
       - intent: thermal_faculty_experience_knowledge
       - action: utter_thermal_faculty_experience_knowledge
 
-  - rule: Respond to year-wise student count for Thermal Engineering
-    steps:
-      - intent: thermal_engineering_yearwise_student_count
-      - action: utter_thermal_engineering_yearwise_student_count
-
   - rule: Respond to total student count for Thermal Engineering
     steps:
       - intent: thermal_engineering_total_students
