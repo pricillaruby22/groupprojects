@@ -262,8 +262,57 @@ intents:
   - thermal_department_mission
   - thermal_contact
   - thermal_faculty_experience_knowledge
+ 
+   #aids_dept
+  - aids_hod_details
+  - aids_faculty_details
+  - peo_aids_department
+  - po_aids_department
+  - pso_aids_department
+  - aids_course_outcomes
+  - aids_department_info_about
+  - aids_department_vision
+  - aids_department_mission
+  - aids_total_students
+  - aids_female_girls_students
+  - aids_male_boys_students
+  - aids_lab_facilities
+  - aids_department_activities
+  - aids_student_activities
+  - aids_faculty_activities
+  - aids_professional_bodies
+  - aids_research_activities
+  - aids_newsletter
+  - mou_sign_company_aids
+  - intern_company_aids
+  - aids_contact
+  - technical_faculty_aids
+  - placement_aids
+  - extra_courses_aids
+  - placement_company_names_aids
+  - aids_accreditation
+  - aids_yearwise_student_count
+  - aids_event_conducted_photos
+  - aids_faculty_experience_knowledge
 
-
+  #cybersecurity
+  - cybersecurity_hod_details
+  - cybersecurity_faculty_details
+  - peo_cybersecurity_department
+  - po_cybersecurity_department
+  - pso_cybersecurity_department
+  - cybersecurity_department_info_about
+  - cybersecurity_department_vision
+  - cybersecurity_department_mission
+  - cybersecurity_total_students
+  - cybersecurity_female_girls_students
+  - cybersecurity_male_boys_students
+  -  cybersecurity_department_activities
+  -  cybersecurity_student_activities
+  -  cybersecurity_faculty_activities
+  - extra_courses_cybersecurity
+  - cybersecurity_event_conducted_photos
+  - cybersecurity_faculty_experience_knowledge
 
 
 
