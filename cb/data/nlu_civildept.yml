@@ -1,0 +1,243 @@
+nlu:
+- intent: civil_hod_details
+  examples: |
+    - Who is the HOD or hod of the Civil Engineering department?
+    - What is the name of the head or hod of the Civil Engineering department?
+    - Can you tell me about the Civil Engineering department head?
+    - Who leads the Civil Engineering department?
+    - Name of the Civil Engineering HOD?
+    - Who is the current HOD of Civil Engineering?
+    - Who is the head of the Civil department?
+    - Who is the head of Civil Engineering at SSMIET?
+    - Who is the current HOD of Civil Engineering at SSMIET?
+    - Who is the current head of the Civil Engineering department at SSMIET?
+    - What are the qualifications of the HOD of Civil Engineering?
+    
+- intent: civil_faculty_details
+  examples: |
+    - Who are the faculty members of the Civil Engineering department?
+    - Can you provide details about the Civil Engineering faculty?
+    - List the professors in the Civil Engineering department.
+    - Tell me about the Civil Engineering department staff.
+    - Who teaches in the Civil Engineering department?
+
+- intent: peo_civil_department
+  examples: |
+    - What are the Program Educational Objectives (PEO) of the Civil Engineering department?
+    - Tell me about the PEOs of the Civil department.
+    - List the Civil Engineering PEOs.
+    - What are the educational objectives of the Civil dept program?
+    - What long-term goals does the Civil Engineering program aim to achieve?
+    - Can you explain the purpose or aim or objective of the Civil Engineering curriculum?
+- intent: po_civil_department
+  examples: |
+    - What are the Program Outcomes (PO) of the Civil Engineering department?
+    - Can you provide the POs for the Civil department?
+    - What are the Civil Engineering program outcomes?
+    - List the POs of Civil Engineering dept.
+    - what are po's or PO'S of civil department?
+- intent: pso_civil_department
+  examples: |
+    - What are the Program Specific Outcomes (PSO) of the Civil Engineering department?
+    - Tell me the PSOs of the Civil department.
+    - List the Civil Engineering PSOs.
+    - What are the specific outcomes of the Civil Engineering program?
+- intent: civil_course_outcomes
+  examples: |
+    - What are the course outcomes in Civil Engineering dept/department?
+    - Can you list the Civil Engineering course outcomes?
+    - What are the expected results of the Civil Engineering course?
+    - What are the learning outcomes for Civil Engineering students?
+    - What will I achieve after completing a Civil Engineering degree?
+    - What knowledge and skills will I gain from this Civil Engineering program?
+    - What are the key objectives of the Civil Engineering curriculum?
+    - Can you provide the course outcomes for the Civil Engineering department?
+    - What skills do students develop in the course of Civil Engineering?
+
+- intent: technical_faculty_civil
+  examples: |
+    - Tell me about the technical faculty in the civil department
+    - Who are the technical faculty members in civil?
+    - Give details of the technical faculty in civil
+    - List the civil department's technical faculty
+    - Provide information about the technical faculty of civil engineering?
+    - give me the staff details of civil department?
+    - who are all the profeessors in civil dept?
+    - what are all the qualifications of staffs /teachers in civil dept?
+
+- intent: civil_department_info_about
+  examples: |
+    - Tell me about the Civil Engineering Department.
+    - Give me an overview of the Civil Department.
+    - What is the Civil Engineering Department about?
+    - Provide information about the Civil Department.
+
+- intent: civil_department_vision
+  examples: |
+    - What is the vision of the Civil Engineering Department?
+    - Tell me the vision statement of the Civil Department.
+    - What does the Civil Department aspire to achieve?
+    - Give me the vision of the Civil Department.
+
+- intent: civil_department_mission
+  examples: |
+    - What is the mission of the Civil Engineering Department?
+    - Tell me the mission statement of the Civil Department.
+    - What are the goals of the Civil Department?
+    - What is the Civil Department's mission?
+
+- intent: placement_company_names_civil
+  examples: |
+    - Which companies come for placements in Civil?
+    - What are the company names for Civil placements?
+    - List the companies recruiting Civil students
+    - Can you provide the names of placement companies for Civil?
+    - Which companies hire from the Civil department?
+    - Who are the recruiters for Civil students?
+    - Which companies visit for Civil placements?
+    - Give me the names of companies for Civil placements  
+    - What are the companies coming and hiring for final year Civil placements?
+    - Are there any top companies for Civil placements?
+
+- intent: civil_department_activities
+  examples: |
+    - What are the department activities conducted by the Civil department?
+    - How often does the Civil department organize technical events?
+    - What workshops are conducted by the Civil department?
+    - What extracurricular activities are available in the Civil department?
+    - Tell me about department activities in Civil Engineering.
+    - Give me the department activities of Civil Engineering.
+    - Where can I find the department activities of Civil?
+    - Show me the department activities of Civil Engineering.
+
+- intent: civil_student_activities
+  examples: |
+    - What are the student activities conducted by the Civil department?
+    - How often are student events organized in the Civil department?
+    - Tell me about student activities in Civil Engineering.
+    - Give me the student activities of Civil.
+    - Where can I find the student activities of Civil?
+    - Show me the student activities of Civil Engineering.
+
+- intent: civil_total_students
+  examples: |
+    - What is the total student count in the Civil department?
+    - What is the total number of students currently enrolled in the Civil department?
+    - How many students are studying in the Civil department this academic year?
+    - What is the total student strength of the Civil department?
+    - How many students have been admitted to the Civil department this year?
+    - What is the total student intake capacity for the Civil department?
+    - How many students are in each year of the Civil department?
+    - What is the total number of students in the undergraduate Civil Engineering program?
+    - How many students are currently pursuing B.E. Civil Engineering?
+    - How many students graduate from the Civil department each year?
+    - How many students are currently in their final year in Civil Engineering?
+
+- intent: civil_female_girls_students
+  examples: |
+    - How many girls are there in the Civil department?
+    - What is the total number of female students in the Civil department?
+    - How many girls are currently enrolled in the Civil department?
+    - What percentage of Civil students are girls?
+    - How many female students joined the Civil department this year?
+    - How many girls are in each year of the Civil department?
+    - Has the number of girls in the Civil department increased over the years?
+    - How many female students have graduated from the Civil department so far?
+    - What is the trend of female student enrollment in the Civil department?
+
+- intent: civil_male_boys_students
+  examples: |
+    - How many boys are there in the Civil department?
+    - What is the total number of male students in the Civil department?
+    - How many boys are currently enrolled in the Civil department?
+    - What percentage of Civil students are boys?
+    - How many male students joined the Civil department this year?
+    - How many boys are in each year of the Civil department?
+    - Has the number of boys in the Civil department increased over the years?
+    - How many male students have graduated from the Civil department so far?
+    - What is the trend of male student enrollment in the Civil department?
+- intent: civil_research_activities
+  examples: |
+    - What research activities are conducted in the Civil department?
+    - What are the major research areas in the Civil department?
+    - Are there any research labs available in the Civil department?
+    - How do students participate in research projects in the Civil department?
+    - Do faculty members in the Civil department publish research papers?
+    - Are there any funded research projects in the Civil department?
+    - Does the Civil department collaborate with industries for research?
+    - Are students encouraged to publish research papers in the Civil department?
+    - What research opportunities are available for undergraduate students in Civil?
+    - Are there any research conferences organized by the Civil department?
+
+- intent: extra_courses_civil
+  examples: |
+    - What are the extra courses available for Civil Engineering students?
+    - List the value-added courses offered by the Civil department.
+    - Does the Civil department provide additional certification courses?
+    - Tell me about the supplementary courses in Civil Engineering.
+    - Are there any special training programs for Civil students?
+    - What additional skill-based courses are available for Civil Engineering?
+    - Can you provide details on Civil value-added courses?
+
+- intent: intern_company_civil
+  examples: |
+    - Which companies provide internships for Civil Engineering students?
+    - What are the companies that offer internships in the Civil Engineering department?
+    - Can you list some companies that provide internship opportunities for civil students?
+    - Tell me about companies that offer internships for Civil Engineering students.
+    - Can you name some companies that offer student internships in Civil Engineering?
+    - How many Civil Engineering students got internships?
+    - Give me the year-wise placed Civil Engineering students' internship count.
+    - Can you provide the number of Civil Engineering students who did internships each year?
+    - Tell me how many Civil Engineering students did internships in previous years.
+    - What is the yearly count of Civil Engineering students who got internships?
+    - List the number of Civil Engineering students who got internships year by year.
+    - How many Civil Engineering students secured internships each academic year?
+
+- intent: mou_sign_company_civil
+  examples: |
+    - Which companies have signed an MOU with the Civil Engineering department?
+    - Can you provide details on MOU-signed companies in the Civil department?
+    - Tell me about the industry collaborations in Civil Engineering.
+    - Which organizations have partnered with the Civil department?
+    - List the companies that have signed an MOU with Civil Engineering.
+    - What is an MOU in the context of Civil Engineering?
+    - Can you explain what MOU means for Civil department students?
+    - I don’t understand MOU. Can you help?
+    - What does it mean when a company signs an MOU with Civil Engineering?
+    - Explain MOU in simple terms related to Civil Engineering.
+    - Can you give me a list of MOU-signed companies for Civil?
+    - Which companies have recently signed an MOU with Civil Engineering?
+    - How does an MOU benefit Civil Engineering students?
+    - Tell me about the latest MOU collaborations for Civil Engineering.
+    - Give me details on MOU partners and their dates for the Civil department.
+    - Give me the details about tie-up companies in Civil Engineering.
+
+- intent: civil_contact
+  examples: |
+    - Give me the contact details of the Civil Engineering department.
+    - How can I contact the HOD of the Civil department?
+    - Provide the email ID for the Civil department.
+    - What is the phone number of the Civil department at SSMIET?
+    - Who should I contact for internship-related queries in the Civil department?
+    - Give me the address of the Civil department at SSM Institute of Engineering and Technology.
+    - Can you provide the department's contact information?
+    - Civil Engineering contact details
+    
+- intent: civil_faculty_experience_knowledge
+  examples: |
+    - What is the average teaching experience of Civil faculty at SSMIET?
+    - How many years of experience do the Civil faculty members have on average?
+    - What is the average industry experience of Civil faculty at SSMIET?
+    - How many faculty members in the Civil department have more than 10 years of experience?
+    - What is the experience range of professors in the Civil department?
+    - How many faculty members in Civil have prior industry knowledge?
+    - What percentage of Civil faculty have Ph.D. qualifications?
+    - How often do Civil faculty members update their knowledge with training or certifications?
+    - What is the total teaching experience of the senior-most faculty in the Civil department?
+    - How many Civil faculty members have more than five years of teaching experience?
+    - What is the minimum teaching experience required for Civil faculty at SSMIET?
+    - How many Civil faculty members have both academic and industry experience?
+    - What is the average number of years faculty members have worked at SSMIET?
+    - How many faculty members in the Civil department hold postgraduate degrees?
+
