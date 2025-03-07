@@ -1229,7 +1229,7 @@ synonyms:
       - sports competitions
       - college sports records
 
-- intent: ask_ragging
+  - intent: ask_ragging
     examples: |
       - Is there ragging in this college?
       - Does ragging happen here?

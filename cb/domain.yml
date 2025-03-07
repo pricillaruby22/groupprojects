@@ -161,6 +161,7 @@ intents:
   - it_yearwise_student_count
   - it_event_conducted_photos
   - it_faculty_experience_knowledge
+
   - eee_hod_details
   - eee_faculty_details
   - peo_eee_department
@@ -317,6 +318,14 @@ intents:
 
 
 
+
+  - aiml_hod_details
+  - aiml_faculty_details
+  - aiml_department_info_about
+  - aiml_department_vision
+  - aiml_department_mission
+  - aiml_total_students
+  - aiml_faculty_experience_knowledge
 
 responses:
   utter_greet:
@@ -2523,3 +2532,37 @@ responses:
     text: |
        Here are the value-added courses offered by the CyberSecurity department:
           1. CORE JAVA
+
+
+  utter_aiml_hod_details:
+    - text: |
+        🔹 Name: Dr. K. Vinoth.
+        🔹 Position: Head of the Department (HOD), AIML, SSMIET.
+        🔹 Qualification: 🎓 Ph.D, M.E, B.E.
+
+  utter_aiml_faculty_details:
+    - text: |
+        Here are the faculty members of the AIML department:
+        1. Dr. K. Vinoth Kumar - M.E., Ph.D. (Professor and Head).
+
+  utter_aiml_department_info_about:
+    - text: |
+        "Our department was established in 2024. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs with the latest configurations, operating systems, and development platforms. We encourage students to achieve university results, undergo in-plant training, participate in industrial visits, and secure internships in multinational companies. Our students are placed in top companies like Mindtree, Infosys, Wipro, Accenture, and many more."  
+
+  utter_aiml_department_vision:
+    - text: |
+        "To grow as an eminent department with excellence in computing and research by integrating computer and information technology to develop products and services for the benefit of society with ethical values."
+
+  utter_aiml_department_mission:
+    - text: |
+        "Our mission is to provide quality education, foster creativity and research, inspire innovation in intelligent systems, and instill ethical values to serve society."
+
+  utter_aiml_total_students:
+    - text: "The total student count in the AIML department varies each academic year."
+
+  utter_aiml_faculty_experience_knowledge:
+    - text: |
+        "The AIML faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+
+        

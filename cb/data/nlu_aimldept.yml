@@ -1,0 +1,104 @@
+version: "3.1"
+
+nlu:
+
+    - intent: aiml_hod_details
+      examples: |
+        - Who is the Head of the Artificial Intelligence and Machine Learning Department at SSMIET?
+        - Can you provide the qualifications and experience details of the AIML HOD?
+        - What are the research areas of the HOD of Artificial Intelligence & Machine Learning?
+        - Who is the AIML department head at this college?
+        - What is the experience of the Artificial Intelligence & Machine Learning HOD?
+        - Can you tell me about the background of the HOD of AIML?
+        - Who is in charge of the Artificial Intelligence & Machine Learning department?
+        - How long has the HOD of AIML been working?
+        - Is the head of Artificial Intelligence & Machine Learning experienced?
+
+    - intent: aiml_faculty_details
+      examples: |
+        - Who are the faculty members of the AIML department?
+        - Can you list the Artificial Intelligence & Machine Learning department faculty?
+        - Tell me about the educators in the AIML department.
+        - Provide details on Artificial Intelligence and Machine Learning department professors.
+        - Give me a list of AIML department staff.
+        - Who teaches in the Artificial Intelligence & Machine Learning department?
+        - I am uneducated about the staff in AIML. Can you list them?
+        - Tell me who the Artificial Intelligence & Machine Learning professors are.
+        - Can you give me some information about the AIML faculty?
+        - Who are the key faculty members in Artificial Intelligence & Machine Learning?
+        - Give me more details about the educators in AIML.
+        - list out the Artificial Intelligence & Machine Learning teaching madam.
+
+    - intent: aiml_department_info_about
+      examples: |
+        - When was the AIML department established?
+        - Is the AIML department approved by AICTE?
+        - Tell me about Artificial Intelligence and Machine Learning.
+        - Which university is the AIML department affiliated with?
+        - How does the AIML department support student learning?
+        - How does the Artificial Intelligence and Machine Learning department help students achieve academic and career goals?
+        - How does the Artificial Intelligence and Machine Learning department emphasize co-curricular and extracurricular activities?
+        - Tell me about AIML department.
+        - What is the about of AIML department?
+
+    - intent: aiml_department_vision
+      examples: |
+        - What is the vision of the AIML department?
+        - What are the key goals of the Artificial Intelligence & Machine Learning department’s vision?
+        - How does the AIML department work towards achieving its vision?
+        - How does the vision of the Artificial Intelligence & Machine Learning department benefit students?
+        - What impact does the AIML department’s vision have on technical education?
+        - Does the vision of the Artificial Intelligence & Machine Learning department focus on industry readiness?
+        - How does the AIML department’s vision align with modern technology trends?
+        - What initiatives are taken to fulfill the Artificial Intelligence & Machine Learning department’s vision?
+        - How does research and innovation contribute to the AIML department’s vision?
+        - Does the vision of the Artificial Intelligence & Machine Learning department include global technological advancements?
+        - Tell me about vision of AIML department.
+
+    - intent: aiml_department_mission
+      examples: |
+        - What is the mission of the AIML department?
+        - What are the key goals of the Artificial Intelligence & Machine Learning department’s mission?
+        - How does the AIML department work towards achieving its mission?
+        - How does the mission of the Artificial Intelligence & Machine Learning department benefit students?
+        - What impact does the AIML department’s mission have on technical education?
+        - Does the mission of the Artificial Intelligence & Machine Learning department focus on industry readiness?
+        - How does the AIML department’s mission align with modern technology trends?
+        - What initiatives are taken to fulfill the Artificial Intelligence & Machine Learning department’s mission?
+        - How does research and innovation contribute to the AIML department’s mission?
+        - Does the mission of the Artificial Intelligence & Machine Learning department include global technological advancements?
+        - Tell me about mission of AIML department.
+
+    - intent: aiml_total_students
+      examples: |
+        - What is the total student count in the AIML department?
+        - What is the total number of students currently enrolled in the Artificial Intelligence & Machine Learning department?
+        - How many students are studying in the AIML department this academic year?
+        - What is the total student strength of the Artificial Intelligence & Machine Learning department?
+        - How many students have been admitted to the AIML department this year?
+        - What is the total student intake capacity for the Artificial Intelligence & Machine Learning department?
+        - How many students are in each year of the AIML department?
+        - What is the total number of students in the undergraduate Artificial Intelligence & Machine Learning program?
+        - How many students are currently pursuing B.E. AIML?
+        - How many students graduate from the Artificial Intelligence & Machine Learning department each year?
+        - How many students are currently in their final year in AIML?
+
+    - intent: aiml_faculty_experience_knowledge
+      examples: |
+          - What is the average teaching experience of AIML faculty at SSMIET?
+          - How many years of experience do the Artificial Intelligence & Machine Learning faculty members have on average?
+          - What is the average industry experience of AIML faculty at SSMIET?
+          - How many faculty members in the Artificial Intelligence & Machine Learning department have more than 10 years of experience?
+          - What is the experience range of professors in the AIML department?
+          - How many faculty members in Artificial Intelligence & Machine Learning have prior industry knowledge?
+          - What percentage of AIML faculty have Ph.D. qualifications?
+          - How often do Artificial Intelligence & Machine Learning faculty members update their knowledge with training or certifications?
+          - What is the total teaching experience of the senior-most faculty in the AIML department?
+          - How many Artificial Intelligence & Machine Learning faculty members have more than five years of teaching experience?
+          - What is the minimum teaching experience required for AIML faculty at SSMIET?
+          - How many Artificial Intelligence & Machine Learning faculty members have both academic and industry experience?
+          - What is the average number of years AIML faculty members have worked at SSMIET?
+          - How many faculty members in the Artificial Intelligence & Machine Learning department hold postgraduate degrees?    
+
+
+    
