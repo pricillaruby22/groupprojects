@@ -4,23 +4,23 @@ nlu:
   - intent: cybersecurity_hod_details
     examples: |
         - Who is the Head of the CyberSecurity Department at SSMIET?
-        - Can you provide the qualifications and experience details of the CyberSecurity HOD?
+        - Can you provide the qualifications and experience details of the Cyber HOD?
         - What are the research areas of the HOD of CyberSecurity?
-        - Who is the CyberSecurity department head at this college?
+        - Who is the Cyber department head at this college?
         - What is the experience of the CyberSecurity HOD?
         - Can you tell me about the background of the HOD of CyberSecurity?
-        - Who is in charge of the CyberSecurity department?
+        - Who is in charge of the Cyber department?
         - How long has the HOD of CyberSecurity been working?
-        - Is the head of cybersecurity experienced?
+        - Is the head of cyber experienced?
 
   - intent: cybersecurity_faculty_details
     examples: |
-      - Who are the faculty members of the Cybersecurity department?
+      - Who are the faculty members of the Cyber department?
       - Can you list the Cybersecurity department faculty?
       - Tell me about the educators in the ECE department.
-      - Provide details on Artificial Intelligence and Data Science department professors.
+      - Provide details on cybersecurity professors.
       -  Give me a list of Cybersecurity department staff.
-      -  Who teaches in the Cybersecurity department?
+      -  Who teaches in the Cyber department?
       -  I am uneducated about the staff in Cybersecurity. Can you list them?
       -  Tell me who the Cybersecurity professors are.
       -  Can you give me some information about the Cybersecurity faculty?
@@ -31,13 +31,13 @@ nlu:
   - intent: peo_cybersecurity_department
     examples: |
         - What does PEO stand for in the Cybersecurity department?
-        - What is the PEO of the Cybersecurity department?
-        - Tell me about PEO of Artificial Intelligence and Data Science.
+        - What is the PEO of the Cyber department?
+        - Tell me about PEO of Cybersecurity.
         - What are the PEOs in the Cybersecurity department?
-        - How do PEOs help in shaping the career of an Artificial Intelligence and Data Science graduate?
+        - How do PEOs help in shaping the career of an cybersecurity graduate?
         - What are the key components of a typical Cybersecurity department PEO?
-        - What are the key goals of PEOs in Artificial Intelligence and Data Science?
-        - Why are Program Educational Objectives (PEOs) important for Artificial Intelligence and Data Science students?
+        - What are the key goals of PEOs in cyber?
+        - Why are Program Educational Objectives (PEOs) important for cybersecurity students?
         - How do Program Educational Objectives (PEOs) help in shaping a Cybersecurity graduate’s career?
         - What are the key components of Program Educational Objectives (PEOs) in a Cybersecurity program?
 
@@ -45,25 +45,25 @@ nlu:
     examples: |
         - What does PO stand for in the Cybersecurity department?
         - What is the PO of the Cybersecurity department?
-        - Tell me about PO of Artificial Intelligence and Data Science.
+        - Tell me about PO of cybersecurity.
         - What are the POs in the Cybersecurity department?
-        - How do POs help in shaping the career of an Artificial Intelligence and Data Science graduate?
+        - How do POs help in shaping the career of an cyber graduate?
         - What are the key components of a typical Cybersecurity department PO?
-        - What are the key goals of POs in Artificial Intelligence and Data Science?
-        - Why are Program Outcomes (POs) important for Artificial Intelligence and Data Science students?
-        - How do Program Outcomes (POs) help in shaping an ECE graduate’s career?
+        - What are the key goals of POs in cybersecurity?
+        - Why are Program Outcomes (POs) important for cybersecurity?
+        - How do Program Outcomes (POs) help in shaping cyber graduate’s career?
         - What are the key components of Program Outcomes (POs) in a Cybersecurity program?
 
   - intent: pso_cybersecurity_department
     examples: |
         - What does PSO stand for in the Cybersecurity department?
         - What is the PSO of the Cybersecurity department?
-        - Tell me about PSO of Artificial Intelligence and Data Science.
+        - Tell me about PSO of cybersecurity.
         - What are the PSOs in the Cybersecurity department?
-        - How do PSOs help in shaping the career of an Artificial Intelligence and Data Science graduate?
+        - How do PSOs help in shaping the career of an cyber graduate?
         - What are the key components of a typical Cybersecurity department PSO?
         - What are the key goals of PSOs in Artificial Intelligence and Data Science?
-        - Why are Program Specific Outcomes (PSOs) important for Artificial Intelligence and Data Science students?
+        - Why are Program Specific Outcomes (PSOs) important for cybersecurity students?
         - How do Program Specific Outcomes (PSOs) help in shaping a Cybersecurity graduate’s career?
         - What are the key components of Program Specific Outcomes (PSOs) in a Cybersecurity program?
 
@@ -71,37 +71,37 @@ nlu:
     examples: |
       - When was the Cybersecurity department established?
       - Is the Cybersecurity department approved by AICTE?
-      - Tell me about Artificial Intelligence and Data Science.
+      - Tell me about cyber.
       - Which university is the Cybersecurity department affiliated with?
       - How does the Cybersecurity department support student learning?
-      - How does the Artificial Intelligence and Data Science department help students achieve academic and career goals?
-      - How does the Artificial Intelligence and Data Science department emphasize co-curricular and extracurricular activities?
+      - How does the cybersecurity department help students achieve academic and career goals?
+      - How does the cybersecurity department emphasize co-curricular and extracurricular activities?
       - Tell me about the Cybersecurity department.
       - What is the about of the Cybersecurity department?
 
   - intent: cybersecurity_department_vision
     examples: |
-      - What is the vision of the Cybersecurity department?
+      - What is the vision of the Cyber department?
       - What are the key goals of the Cybersecurity department’s vision?
       - How does the Cybersecurity department work towards achieving its vision?
       - How does the vision of the Cybersecurity department benefit students?
       - What impact does the Cybersecurity department’s vision have on technical education?
       - Does the vision of the Cybersecurity department focus on industry readiness?
-      - How does the Cybersecurity department’s vision align with modern technology trends?
+      - How does the Cyber department’s vision align with modern technology trends?
       - What initiatives are taken to fulfill the Cybersecurity department’s vision?
       - How does research and innovation contribute to the Cybersecurity department’s vision?
       - Does the vision of the Cybersecurity department include global technological advancements?
-      - Tell me about the vision of the Cybersecurity department.
+      - Tell me about the vision of the Cyber department.
 
   - intent: cybersecurity_department_mission
     examples: |
-      - What is the mission of the Cybersecurity department?
+      - What is the mission of the cyber department?
       - What are the key goals of the Cybersecurity department’s mission?
       - How does the Cybersecurity department work towards achieving its mission?
-      - How does the mission of the Cybersecurity department benefit students?
+      - How does the mission of the Cyber department benefit students?
       - What impact does the Cybersecurity department’s mission have on technical education?
-      - Does the mission of the Cybersecurity department focus on industry readiness?
-      - How does the Cybersecurity department’s mission align with modern technology trends?
+      - Does the mission of the Cyber department focus on industry readiness?
+      - How does the Cyber department’s mission align with modern technology trends?
       - What initiatives are taken to fulfill the Cybersecurity department’s mission?
       - How does research and innovation contribute to the Cybersecurity department’s mission?
       - Does the mission of the Cybersecurity department include global technological advancements?
@@ -109,50 +109,50 @@ nlu:
 
   - intent: cybersecurity_total_students
     examples: |
-      - What is the total student count in the Cybersecurity department?
+      - What is the total student count in the Cyber department?
       - What is the total number of students currently enrolled in the Cybersecurity department?
       - How many students are studying in the Cybersecurity department this academic year?
       - What is the total student strength of the Cybersecurity department?
-      - How many students have been admitted to the Cybersecurity department this year?
+      - How many students have been admitted to the Cyber department this year?
       - What is the total student intake capacity for the Cybersecurity department?
-      - How many students are in each year of the Cybersecurity department?
+      - How many students are in each year of the Cyber department?
       - What is the total number of students in the undergraduate Cybersecurity program?
       - How many students are currently pursuing B.E. Cybersecurity?
       - How many students graduate from the Cybersecurity department each year?
-      - How many students are currently in their final year in Cybersecurity?
+      - How many students are currently in their final year in Cyber?
 
   - intent: cybersecurity_female_girls_students
     examples: |
-      - How many girls are there in the Cybersecurity department?
+      - How many girls are there in the Cyber department?
       - What is the total number of female students in the Cybersecurity department?
       - How many girls are currently enrolled in the Cybersecurity department?
       - What percentage of Cybersecurity students are girls?
-      - How many female students joined the Cybersecurity department this year?
+      - How many female students joined the Cyber department this year?
       - How many girls are in each year of the Cybersecurity department?
       - Has the number of girls in the Cybersecurity department increased over the years?
       - How many female students have graduated from the Cybersecurity department so far?
-      - What is the trend of female student enrollment in the Cybersecurity department?
+      - What is the trend of female student enrollment in the Cyber department?
 
 
   - intent: cybersecurity_male_boys_students
     examples: |
-      - How many boys are there in the Cybersecurity department?
+      - How many boys are there in the Cyber department?
       - What is the total number of male students in the Cybersecurity department?
       - How many boys are currently enrolled in the Cybersecurity department?
       - What percentage of Cybersecurity students are boys?
       - How many male students joined the Cybersecurity department this year?
       - How many boys are in each year of the Cybersecurity department?
       - Has the number of boys in the Cybersecurity department increased over the years?
-      - How many male students have graduated from the Cybersecurity department so far?
+      - How many male students have graduated from the Cyber department so far?
       - What is the trend of male student enrollment in the Cybersecurity department?
 
   - intent: cybersecurity_department_activities
     examples: |
-      - What are the department activities conducted by the Cybersecurity department?
+      - What are the department activities conducted by the Cyber department?
       - How often does the Cybersecurity department organize technical events?
       - What workshops are conducted by the Cybersecurity department?
       - What extracurricular activities are available in the Cybersecurity department?
-      - Tell me about Cybersecurity department activities.
+      - Tell me about Cyber department activities.
       - Give me the department activities of Cybersecurity.
       - Where can I find the department activities of Cybersecurity?
       - Show me the department activities of Cybersecurity.
@@ -163,34 +163,34 @@ nlu:
       - What are the student activities conducted by the Cybersecurity department?
       - How often are student events organized in the Cybersecurity department?
       - Tell me about Cybersecurity student activities.
-      - Give me the student activities of Cybersecurity.
+      - Give me the student activities of Cyber.
       - Where can I find the student activities of Cybersecurity?
-      - Show me the student activities of Cybersecurity.
+      - Show me the student activities of Cyber.
 
   - intent: cybersecurity_faculty_activities
     examples: |
       - Give me the faculty activities of Cybersecurity.
-      - Where can I find the faculty activities of Cybersecurity?
+      - Where can I find the faculty activities of cyber?
       - Show me the faculty activities of Cybersecurity.
       - What are the faculty activities conducted by the Cybersecurity department?
       - How does the Cybersecurity department support faculty development?
       - What research activities are carried out by the faculty in the Cybersecurity department?
-      - Are Cybersecurity faculty members involved in industry collaborations?
+      - Are Cyber faculty members involved in industry collaborations?
       - Do Cybersecurity faculty members participate in technical conferences and seminars?
       - Are Cybersecurity faculty members involved in curriculum development and innovation?
 
   - intent: extra_courses_cybersecurity
     examples: |
       - Tell me about the value-added courses in the Cybersecurity department.
-      - What are the additional courses offered by Cybersecurity?
+      - What are the additional courses offered by Cyber?
       - Extra courses provided by the Cybersecurity department.
-      - List the value-added courses for Cybersecurity students.
+      - List the value-added courses for Cyber students.
       - Do Cybersecurity students have any extra learning opportunities?
 
   - intent: cybersecurity_event_conducted_photos
     examples: |
       - Can you provide photos of events conducted by the Cybersecurity department?
-      - Where can I find images of past Cybersecurity department events?
+      - Where can I find images of past Cyber department events?
       - Do you have a gallery of Cybersecurity department event photos?
       - Can you share pictures from recent Cybersecurity department activities?
       - Are there any photos available from Cybersecurity department symposiums and workshops?
@@ -198,14 +198,14 @@ nlu:
       - Do you have any pictures from cultural events organized by the Cybersecurity department?
       - Can I see photos of guest lectures and seminars conducted by the Cybersecurity department?
       - Are there any images of student project presentations in the Cybersecurity department?
-      - Where can I view photos from annual Cybersecurity department functions and celebrations?
+      - Where can I view photos from annual Cyber department functions and celebrations?
       - What are the events conducted by the Cybersecurity department?
       - Can you provide a list of events organized by the Cybersecurity department?
       - What technical events does the Cybersecurity department host?
       - What cultural programs are conducted by the Cybersecurity department?
       - Does the Cybersecurity department organize hackathons or coding competitions?
       - What annual events are held by the Cybersecurity department?
-      - Are there any workshops or seminars conducted by the Cybersecurity department?
+      - Are there any workshops or seminars conducted by the Cyber department?
       - Does the Cybersecurity department conduct any inter-college competitions?
 
   - intent: cybersecurity_faculty_experience_knowledge
@@ -213,16 +213,16 @@ nlu:
       - What is the average teaching experience of Cybersecurity faculty at SSMIET?
       - How many years of experience do the Cybersecurity faculty members have on average?
       - What is the average industry experience of Cybersecurity faculty at SSMIET?
-      - How many faculty members in the Cybersecurity department have more than 10 years of experience?
+      - How many faculty members in the cyber department have more than 10 years of experience?
       - What is the experience range of professors in the Cybersecurity department?
       - How many faculty members in Cybersecurity have prior industry knowledge?
-      - What percentage of Cybersecurity faculty have Ph.D. qualifications?
+      - What percentage of Cyber faculty have Ph.D. qualifications?
       - How often do Cybersecurity faculty members update their knowledge with training or certifications?
       - What is the total teaching experience of the senior-most faculty in the Cybersecurity department?
       - How many Cybersecurity faculty members have more than five years of teaching experience?
       - What is the minimum teaching experience required for Cybersecurity faculty at SSMIET?
       - How many Cybersecurity faculty members have both academic and industry experience?
       - What is the average number of years Cybersecurity faculty members have worked at SSMIET?
-      - How many faculty members in the Cybersecurity department hold postgraduate degrees?
+      - How many faculty members in the cyber department hold postgraduate degrees?
 
 
