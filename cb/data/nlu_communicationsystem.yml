@@ -88,19 +88,6 @@ nlu:
         - What is the average number of years Communication System faculty members have worked at SSMIET?
         - How many faculty members in the Communication System department hold postgraduate degrees?
 
-    - intent: communication_system_yearwise_student_count
-      examples: |
-        - What is the year-wise student count for the Communication System department since the college started?
-        - Can you provide the student intake count for the Communication System department for each academic year since inception?
-        - How many students were admitted to the Communication System department each year from the beginning?
-        - What is the total number of students enrolled in the Communication System department for every academic year since the college started?
-        - How has the student strength of the Communication System department varied year by year since the first batch?
-        - What are the year-wise student counts for the Communication System department?
-        - Can you provide the student count for each year in the Communication System department?
-        - What is the breakdown of students by year in the Communication System department?
-        - How many students are there in each academic year of the Communication System department?
-        - What is the total number of students per year in the Communication System department?
-
     - intent: communication_system_total_students
       examples: |
         - What is the total student count in the Communication System department?

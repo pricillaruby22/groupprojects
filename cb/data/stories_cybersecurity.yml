@@ -1,0 +1,87 @@
+version: "3.1"
+
+stories:
+  - story: Respond to HOD queries
+    steps:
+      - intent: cybersecurity_hod_details
+      - action: utter_cybersecurity_hod_details
+
+  - story: Respond to Cybersecurity faculty queries
+    steps:
+      - intent: cybersecurity_faculty_details
+      - action: utter_cybersecurity_faculty_details
+
+  - story: Provide PEO information of Cybersecurity department
+    steps:
+      - intent: peo_cybersecurity_department
+      - action: utter_peo_cybersecurity_department
+
+  - story: Provide PO information of Cybersecurity department
+    steps:
+      - intent: po_cybersecurity_department
+      - action: utter_po_cybersecurity_department
+
+  - story: Provide PSO information of Cybersecurity department
+    steps:
+      - intent: pso_cybersecurity_department
+      - action: utter_pso_cybersecurity_department
+
+  - story: Respond to Cybersecurity department info or about
+    steps:
+      - intent: cybersecurity_department_info_about
+      - action: utter_cybersecurity_department_info_about
+
+  - story: Respond to Cybersecurity department vision
+    steps:
+      - intent: cybersecurity_department_vision
+      - action: utter_cybersecurity_department_vision
+
+  - story: Respond to Cybersecurity department mission
+    steps:
+      - intent: cybersecurity_department_mission
+      - action: utter_cybersecurity_department_mission
+
+  - story: Respond to Cybersecurity total students count
+    steps:
+      - intent: cybersecurity_total_students
+      - action: utter_cybersecurity_total_students
+
+  - story: Respond to Cybersecurity female or girls students count
+    steps:
+      - intent: cybersecurity_female_girls_students
+      - action: utter_cybersecurity_female_girls_students
+
+  - story: Respond to Cybersecurity male or boys students count
+    steps:
+      - intent: cybersecurity_male_boys_students
+      - action: utter_cybersecurity_male_boys_students
+
+  - story: Respond to Cybersecurity department activities
+    steps:
+      - intent: cybersecurity_department_activities
+      - action: utter_cybersecurity_department_activities
+
+  - story: Respond to Cybersecurity student activities
+    steps:
+      - intent: cybersecurity_student_activities
+      - action: utter_cybersecurity_student_activities
+
+  - story: Respond to Cybersecurity faculty activities
+    steps:
+      - intent: cybersecurity_faculty_activities
+      - action: utter_cybersecurity_faculty_activities
+
+  - story: Respond to extra courses in Cybersecurity
+    steps:
+      - intent: extra_courses_cybersecurity
+      - action: utter_extra_courses_cybersecurity
+
+  - story: Respond to Cybersecurity event conducted photo queries
+    steps:
+      - intent: cybersecurity_event_conducted_photos
+      - action: utter_cybersecurity_event_conducted_photos
+
+  - story: Respond to Cybersecurity faculty experience knowledge queries
+    steps:
+      - intent: cybersecurity_faculty_experience_knowledge
+      - action: utter_cybersecurity_faculty_experience_knowledge

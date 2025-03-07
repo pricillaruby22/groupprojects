@@ -32,11 +32,6 @@ stories:
       - intent: communication_system_faculty_experience_knowledge
       - action: utter_communication_system_faculty_experience_knowledge
 
-  - story: Year-wise student count for Communication System
-    steps:
-      - intent: communication_system_yearwise_student_count
-      - action: utter_communication_system_yearwise_student_count
-
   - story: Total student count for Communication System
     steps:
       - intent: communication_system_total_students

@@ -1529,10 +1529,6 @@ responses:
     - text: |
         "The Department of Information Technology, established in 2023 with an intake of 60 students, offers excellent infrastructure and a committed faculty. Focused on quality education, it aims to enhance learning and become a Center of Excellence. The department strives to create career pathways through placements, entrepreneurship, or higher studies. Currently, it is not accredited."
 
-  utter_it_yearwise_student_count:
-    - text: |
-        "Yearwise student count in IT department"
-
   utter_it_event_conducted_photos:
     - text: |
         "Event photos"
@@ -2200,10 +2196,6 @@ responses:
     - text: |
         "The Thermal Engineering faculty at SSMIET has an average of 10 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
 
-  utter_thermal_engineering_yearwise_student_count:
-    - text: |
-        "The year-wise student count for the Thermal Engineering department is currently unavailable. Please contact the department for details."
-
   utter_thermal_engineering_total_students:
     - text: |
         "The total number of students in the Thermal Engineering department is not available at the moment. Please reach out to the administration."
@@ -2215,10 +2207,6 @@ responses:
   utter_thermal_engineering_male_students:
     - text: |
         "The number of male students in the Thermal Engineering department is not available. Please check with the department for more details."
-
-  utter_communication_system_yearwise_student_count:
-    - text: |
-        "The year-wise student count for the Communication System department is not currently accessible. Contact the department for specific numbers."
 
   utter_communication_system_total_students:
     - text: |
@@ -2233,38 +2221,256 @@ responses:
         "The number of male students in the Communication System department is not currently available. Please contact the department for more information."
 
 
+  utter_aids_faculty_details:
+    - text: |
+         Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
 
+          1. Mrs. M. Backialakshmi - M.E. (Assistant Professor)
+          2. Mrs. M. Suganya - M.E. (Assistant Professor)
+          3. Mrs. S. Sangeetha Mary - M.E. (Assistant Professor)
+          4. Mrs. M. Dhivya - M.E. (Assistant Professor)
 
+  utter_peo_aids_department: 
+    - text: |
+        Program Educational Objectives (PEOs) in the Artificial Intelligence and Data Science (AI&DS) department outline the long-term achievements that graduates are expected to accomplish. These objectives are designed to equip students with the necessary skills and knowledge to excel in their careers and contribute responsibly to society. Here are the key PEOs:
 
+        **PEO1:** Graduates will leverage their expertise in Artificial Intelligence and Data Science to develop innovative solutions for real-world challenges, driving technological advancements across various industries.
 
+        **PEO2:** Graduates will engage in lifelong learning and research, keeping pace with evolving technologies in AI and Data Science to remain competitive and industry-ready.
 
+        **PEO3:** Graduates will demonstrate professional ethics, teamwork, and leadership while contributing to sustainable and impactful AI-driven solutions that benefit society.
 
+        PEOs play a vital role in shaping AI&DS graduates by fostering technical proficiency, problem-solving abilities, ethical responsibility, and continuous learning.
 
+  utter_po_aids_department:
+    - text: |
+         Program Outcomes (POs) in the Artificial Intelligence and Data Science (AI&DS) department define the key competencies that graduates will develop during their academic journey. These outcomes align with industry and societal needs, ensuring that students are well-prepared for professional success. Here are the key POs:
 
+         **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, and engineering fundamentals to solve complex problems in Artificial Intelligence and Data Science.
 
+         **PO2** - Problem Analysis: Identify, formulate, and analyze real-world problems using AI and Data Science techniques, leading to data-driven solutions.
 
+         **PO3** - Design and Development: Design and develop intelligent systems and applications that address societal and industrial challenges while ensuring sustainability and efficiency.
 
+         **PO4** - Conduct Investigations: Apply research-based knowledge and innovative methodologies to analyze data and derive meaningful insights for decision-making.
 
+         **PO5** - Modern Tool Usage: Utilize modern computing tools, programming languages, and AI frameworks to design, implement, and evaluate intelligent systems.
 
+         **PO6** - The Engineer and Society: Apply ethical principles and responsibilities in AI and Data Science to address societal and global challenges.
 
+         **PO7** - Environment and Sustainability: Develop AI solutions that promote environmental sustainability and resource efficiency.
 
+         **PO8** - Ethics: Adhere to professional ethics, ensuring responsible and unbiased AI solutions that contribute positively to society.
 
+         **PO9** - Individual and Team Work: Function effectively as an individual and as a member or leader in diverse teams across multidisciplinary settings.
 
+         **PO10** - Communication: Communicate effectively with the AI and Data Science community and society through reports, documentation, and presentations.
 
+         **PO11** - Project Management and Finance: Demonstrate knowledge of project management, finance, and entrepreneurship to lead AI-driven innovations successfully.
 
+         **PO12** - Lifelong Learning: Engage in continuous learning and research to stay updated with advancements in AI and Data Science for personal and professional growth.
+  utter_pso_aids_department:
+    text: |
+      **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
 
+      **PSO2:** Apply AI and data analytics to extract insights from data, create disruptive solutions, and address complex societal, environmental, and engineering challenges using cutting-edge technologies.
 
+      **PSO3:** Develop skills in data analytics, knowledge engineering, and visualization to manage complex projects, collaborate in multidisciplinary teams, and continuously contribute to economic and societal progress through innovative solutions.
 
+      These PSOs aim to equip graduates with the necessary skills to excel in the evolving fields of Artificial Intelligence and Data Science.
+ 
+  utter_aids_department_info_about:
+    - text: |
+        The AI&DS program, approved by AICTE and affiliated with Anna University, Chennai, equips students with skills in Data Science, Machine Learning, Deep Learning, and IoT. It prepares them for careers in AI-driven industries like Healthcare, Banking, and Robotics, meeting the demand for AI professionals in the digital era.
 
+  utter_aids_department_vision:
+    - text: |
+        To lead the way in advancing the domains of Artificial Intelligence and Data Sciences, empowering students as future ready leaders equipped with innovation, to address societal issues, and create a meaningful global impact.
 
+  utter_aids_department_mission:
+    - text: |
+         1. To empower students by imparting a comprehensive education in the field of Artificial Intelligence and Data Sciences, cultivating a profound grasp of fundamental principles and methodologies in cutting-edge technologies.
 
+         2. To cultivate a strong connection with industries to encourage partnerships in technology training, facilitate internships, and prepare students to become industry-ready professionals.
 
+         3. To encourage and endorse students' involvement in research and entrepreneurship with an innovative approach that effectively tackles real-world challenges.
 
+  utter_aids_total_students:
+    - text: |
+         The total student count in the AIDS department varies each academic year.
 
+  utter_aids_female_girls_students:
+    - text: |
+          The number of female students in the AIDS department varies.
+  
+  utter_aids_male_boys_students:
+    - text: |
+          The number of male students in the AIDS department varies.
+  
+  utter_aids_lab_facilities:
+    - text: 
+         "You can find details about the lab facilities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/lab%20facilities.pdf"
+         
+  utter_aids_department_activities:
+    - text: 
+         "You can find details about the Department activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsdepactivity.html"
 
+  utter_aids_student_activities:
+    - text: 
+         "You can find details about the student activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsstudentsactivity.html"
+        
+  utter_aids_faculty_activities:
+    - text:
+         "You can find details about the faculty activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/activities/AIDS%20Faculty%20activities%202024-2025.pdf"
 
+  utter_aids_research_activities:
+    - text: 
+         "You can find details about the Research activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids-Research.html"
 
+  utter_intern_company_aids:
+    - text: |
 
+        Here are top companies to get the internship
+          ✅Kevell Global Solution   
+          ✅ Titan Company 
+          ✅ MAHO JASE IT 
+          ✅ BLACKBUCK 
+          ✅ YBI Foundation 
+          ✅ BHEL  
+          ✅  CODSOFT
+          ✅  Infosys Pvt Ltd
+                    
+          📊 Year-wise internship count:
+          🔹 2024-2025 => 37 students
 
+  utter_technical_faculty_aids:
+    text: |
+          The technical faculty in the CSE department are:
+          - Mr. V. ISAC DEVARAJ (Technical Assistant)
 
+  utter_extra_courses_aids:
+    text: |
+       Here are the value-added courses offered by the AIDS department:
+           1. Java
+           2. Cloud Computing
+           3. Core Java
+           4. Code Tantra
+           5. Ethical Hacking
+           6. Software Testing Tool - Selenium
+           7. Machine Learning
 
+  utter_aids_accreditation:
+    text: |
+      Artificial Intelligence and Data Science (AI&DS) a new program is being introduced and approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai.
+
+  utter_aids_yearwise_student_count:
+    text: |
+       refer ssmiet website 
+
+  utter_cybersecurity_hod_details:
+    text: |
+       refer ssmiet website 
+
+  utter_cybersecurity_faculty_details:
+    text: |
+        Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
+
+          1. Mrs. P. Jeyapriya - M.E. (Assistant Professor)
+          2. Mrs. C. Premalatha - M.E. (Assistant Professor) 
+  
+  utter_peo_cybersecurity_department:
+    text: |
+       Program Educational Objectives (PEOs) in the Cybersecurity department outline the long-term achievements that graduates are expected to accomplish. These objectives are designed to equip students with the necessary skills and knowledge to excel in their careers and contribute responsibly to society. Here are the key PEOs:
+
+        **PEO1:** Graduates can apply their technical competence in computer science to solve real-world problems, demonstrating leadership in both technical and interpersonal domains.
+
+        **PEO2:** Graduates conduct cutting-edge research and develop solutions addressing problems of social relevance.
+
+        **PEO3:** Graduates work effectively in business environments, exhibiting teamwork skills, strong work ethics, adaptability, and a commitment to lifelong learning.
+
+        These PEOs play a vital role in shaping Cybersecurity graduates by fostering technical proficiency, problem-solving abilities, ethical responsibility, and continuous learning. 
+
+  utter_po_cybersecurity_department:
+    text: |
+      Program Outcomes (POs) of the Cybersecurity Department define the core competencies that graduates will achieve by the time they complete their degree. These outcomes align with industry standards and academic excellence to ensure students are well-prepared for their careers in cybersecurity. Here are the key POs:
+
+        **PO1:** Engineering Knowledge – Apply the knowledge of mathematics, science, and cybersecurity fundamentals to solve complex problems in computing and information security.
+
+        **PO2:** Problem Analysis – Identify, analyze, and provide solutions to cybersecurity threats and vulnerabilities by applying foundational principles of security and risk assessment.
+
+        **PO3:** Design & Development of Solutions – Design, implement, and evaluate secure computing systems and solutions to protect data and infrastructure while considering safety and legal constraints.
+
+        **PO4:** Investigation of Complex Problems – Conduct research and apply modern tools and techniques to investigate and mitigate security risks in complex systems.
+
+        **PO5:** Modern Tool Usage – Utilize appropriate cybersecurity tools, technologies, and best practices to detect, prevent, and respond to security incidents.
+
+        **PO6:** The Engineer & Society – Assess the societal, health, safety, and legal issues relevant to cybersecurity, ensuring compliance with ethical and professional standards.
+
+        **PO7:** Environment & Sustainability – Understand the impact of cybersecurity solutions on environmental sustainability and contribute to developing energy-efficient and secure systems.
+
+        **PO8:** Ethics – Apply ethical principles and professional responsibilities to ensure the integrity and confidentiality of information systems.
+
+        **PO9:** Individual & Teamwork – Function effectively as an individual, member, or leader in multidisciplinary teams to address cybersecurity challenges collaboratively.
+
+        **PO10:** Communication – Communicate effectively in professional settings, documenting security policies, and presenting technical solutions clearly to diverse audiences.
+
+        **PO11:** Project Management & Finance – Apply cybersecurity concepts in project management, entrepreneurship, and financial decision-making for secure software development and network security.
+
+        **PO12:** Lifelong Learning – Engage in lifelong learning and professional development to adapt to evolving cybersecurity threats, technologies, and industry trends.
+
+        These Program Outcomes (POs) ensure that graduates from the Cybersecurity Department develop the technical, analytical, and ethical expertise needed to excel in their careers while making meaningful contributions to the field of cybersecurity.     
+
+  utter_pso_cybersecurity_department:
+    text: |
+        **PSO1:** Exhibit design and programming skills to build and automate business solutions using cutting-edge technologies.
+
+        **PSO2:** Possess a strong theoretical foundation leading to excellence and enthusiasm for research, enabling the provision of elegant solutions to complex problems.
+
+        **PSO3:** Demonstrate the ability to work effectively with various engineering fields as a team to design, build, and develop system applications.
+
+  utter_cybersecurity_department_info_about:
+    text: |
+       The Department of Computer Science and Engineering (Cyber Security) was established in 2023 with an intake of 60 students. The B.E. CSE (Cyber Security) program addresses the growing demand for cybersecurity professionals across various sectors, including data security, network security, and cloud security. It combines core computer science subjects with specialized cybersecurity courses, covering cryptography, network security, secure programming, and ethical hacking. The four-year program provides a strong foundation in fundamental sciences, mathematics, and cybersecurity, equipping students with the skills to analyze threats, respond to cyber-attacks, and develop security policies.      
+
+  utter_cybersecurity_department_vision:
+    text: |
+      To develop skilled cyber security professionals equipped to secure digital landscapes, address emerging cyber challenges, and contribute to society with strong technical expertise, entrepreneurial skills, and ethical values.
+
+  utter_cybersecurity_department_mission:
+    text: |
+      Foster self-discipline and critical thinking in students through robust teaching and learning.
+
+      Empower students to become proficient cyber security professionals and responsible citizens.
+
+      Strengthen industry partnerships by establishing specialized centres for advanced skill development and practical exposure.
+
+      Deliver knowledge for secure and innovative solutions, contributing to sustainable and ethical technology advancement.
+
+  utter_cybersecurity_total_students:
+    text: |
+      The total student count in the CyberSecurity department varies each academic year.
+
+  utter_cybersecurity_female_girls_students:
+    text: |
+       The number of female students in the CyberSecurity department varies.
+  
+  utter_cybersecurity_male_boys_students:
+    text: |
+        The number of male students in the CyberSecurity department varies.
+
+  utter_cybersecurity_department_activities:
+    text: |
+      "You can find details about the Department activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20department%20activity.html"
+   
+  utter_cybersecurity_student_activities:
+    text: |
+      "You can find details about the Student activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20security/New%20folder/cyber%20student%20activities%202024-2025.pdf"
+
+  utter_cybersecurity_faculty_activities:
+    text: |
+        "You can find details about the Faculty activities available in the AIDS department at the following link: https://ssmiet.ac.in/cyber%20security/New%20folder/cyber%20Faculty%20activities%202024-2025.pdf"
+
+  utter_extra_courses_cybersecurity:
+    text: |
+       Here are the value-added courses offered by the CyberSecurity department:
+          1. CORE JAVA

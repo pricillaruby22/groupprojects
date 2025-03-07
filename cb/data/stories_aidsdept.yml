@@ -1,0 +1,117 @@
+version: "3.1"
+
+stories:
+  - story: User asks about HOD of AIDS
+    steps:
+      - intent: aids_hod_details
+      - action: utter_aids_hod_details
+
+  - story: Respond to AIDS faculty queries
+    steps:
+      - intent: aids_faculty_details
+      - action: utter_aids_faculty_details
+
+  - story: Answer PEO of AIDS department
+    steps:
+      - intent: peo_aids_department
+      - action: utter_peo_aids_department
+
+  - story: Answer PO of AIDS department
+    steps:
+      - intent: po_aids_department
+      - action: utter_po_aids_department
+
+  - story: Answer PSO of AIDS department
+    steps:
+      - intent: pso_aids_department
+      - action: utter_pso_aids_department
+
+  - story: AIDS department info or about story
+    steps:
+      - intent: aids_department_info_about
+      - action: utter_aids_department_info_about
+
+  - story: AIDS department vision story
+    steps:
+      - intent: aids_department_vision
+      - action: utter_aids_department_vision
+
+  - story: AIDS department mission story
+    steps:
+      - intent: aids_department_mission
+      - action: utter_aids_department_mission
+
+  - story: AIDS total students story
+    steps:
+      - intent: aids_total_students
+      - action: utter_aids_total_students
+
+  - story: AIDS female or girls students story
+    steps:
+      - intent: aids_female_girls_students
+      - action: utter_aids_female_girls_students
+
+  - story: AIDS male or boys students story
+    steps:
+      - intent: aids_male_boys_students
+      - action: utter_aids_male_boys_students
+
+  - story: Answer to AIDS lab facilities 
+    steps:
+      - intent: aids_lab_facilities
+      - action: utter_aids_lab_facilities
+
+  - story: AIDS department activities story
+    steps:
+      - intent: aids_department_activities
+      - action: utter_aids_department_activities
+
+  - story: AIDS student activities story
+    steps:
+      - intent: aids_student_activities
+      - action: utter_aids_student_activities
+
+  - story: AIDS faculty activities story
+    steps:
+      - intent: aids_faculty_activities
+      - action: utter_aids_faculty_activities
+
+  - story: AIDS research activities story
+    steps:
+      - intent: aids_research_activities
+      - action: utter_aids_research_activities
+  
+  - story: Ask about internship companies
+    steps:
+      - intent: intern_company_aids
+      - action: utter_intern_company_aids
+
+  - story: Provide technical faculty details for AIDS
+    steps:
+      - intent: technical_faculty_aids
+      - action: utter_technical_faculty_aids   
+
+  - story: Provide extra courses details for AIDS
+    steps:
+      - intent: extra_courses_aids
+      - action: utter_extra_courses_aids   
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: aids_accreditation
+      - action: utter_aids_accreditation
+
+  - story: AIDS year-wise student count inquiries
+    steps:
+      - intent: aids_yearwise_student_count
+      - action: utter_aids_yearwise_student_count
+
+  - story: AIDS event conducted photo inquiries
+    steps:
+      - intent: aids_event_conducted_photos
+      - action: utter_aids_event_photos
+  
+  - story: AIDS faculty experience knowledge inquiries
+    steps:
+      - intent: aids_faculty_experience_knowledge
+      - action: utter_aids_faculty_experience_knowledge

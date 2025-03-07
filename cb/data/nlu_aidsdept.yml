@@ -1,0 +1,362 @@
+version: "3.1"
+
+nlu:
+  - intent: aids_hod_details
+    examples: |
+        - Who is the Head of the Aritifical Intelligence and DataScience Department at SSMIET?
+        - Can you provide the qualifications and experience details of the AIDS HOD?
+        - What are the research areas of the HOD of AIDS?
+        - Who is the AIDS department head at this college?
+        - What is the experience of the AIDS HOD?
+        - Can you tell me about the background of the HOD of AIDS?
+        - Who is in charge of the AIDS department?
+        - How long has the HOD of AIDS been working?
+        - Is the head of AIDS experienced?
+
+  - intent: aids_faculty_details
+    examples: |
+        - Who are the faculty members of the AIDS department?
+        - Can you list the AIDS department faculty?
+        - Tell me about the educators in the ECE department.
+        - Provide details on Artifical Intelligence and DataScience department professors.
+        - Give me a list of AIDS department staff.
+        - Who teaches in the AIDS department?
+        - I am uneducated about the staff in AIDS. Can you list them?
+        - Tell me who the AIDS professors are.
+        - Can you give me some information about the AIDS faculty?
+        - Who are the key faculty members in AIDS?
+        - Give me more details about the educators in AIDS.
+        - list out the AIDS teaching madam.
+
+  - intent: peo_aids_department
+    examples: |
+        - What does PEO stand for in the AIDS department?
+        - What is the peo of AIDS department?
+        - Tell me about PEO of Artifical Intelligence and Data Science.
+        - What are the PEOs in AIDS department?
+        - How do PEOs help in shaping the career of a Artifical Intelligence and Data Science graduate?
+        - What are the key components of a typical AIDS department PEO?
+        - What are the key goals of PEOs in Artifical Intelligence and Datascience?
+        - Why are Program Educational Objectives (PEOs) important for Artifical Intelligence and DataScience students?
+        - How do Program Educational Objectives (PEOs) help in shaping a AIDS graduate’s career?
+        - What are the key components of Program Educational Objectives (PEOs) in a AIDS program?
+
+  - intent: po_aids_department
+    examples: |
+        - What does PO stand for in the AIDS department?
+        - What is the PO of the AIDS department?
+        - Tell me about PO of Artifical Intelligence and Data Science.
+        - What are the POs in the AIDS department?
+        - How do POs help in shaping the career of a Artifical Intelligence and Data Science graduate?
+        - What are the key components of a typical AIDS department PO?
+        - What are the key goals of POs in Artifical Intelligence and Data Science?
+        - Why are Program Outcomes (POs) important for Artifical Intelligence and Data Science students?
+        - How do Program Outcomes (POs) help in shaping a ECE graduate’s career?
+        - What are the key components of Program Outcomes (POs) in a AIDS program?
+    
+  - intent: pso_aids_department
+    examples: |
+        - What does PSO stand for in the AIDS department?
+        - What is the PSO of the AIDS department?
+        - Tell me about PSO of Artifical Intelligence and Data Science.
+        - What are the PSOs in the AIDS department?
+        - How do PSOs help in shaping the career of a Artifical Intelligence and Data Science graduate?
+        - What are the key components of a typical AIDS department PSO?
+        - What are the key goals of PSOs in Artifical Intelligence and Data Science?
+        - Why are Program Specific Outcomes (PSOs) important for Artifical Intelligence and Data Science students?
+        - How do Program Specific Outcomes (PSOs) help in shaping a AIDS graduate’s career?
+        - What are the key components of Program Specific Outcomes (PSOs) in a AIDS program?
+
+  - intent: aids_department_info_about
+    examples: |
+      - When was the AIDS department established?
+      - Is the AIDS department approved by AICTE?
+      - Tell me about Artificial Intelligence and Data Science.
+      - Which university is the AIDS department affiliated with?
+      - How does the AIDS department support student learning?
+      - How does the Artificial Intelligence and Data Science department help students achieve academic and career goals?
+      - How does the Artificial Intelligence and Data Science department emphasize co-curricular and extracurricular activities?
+      - Tell me about AIDS department.
+      - What is the about of AIDS department?
+
+  - intent: aids_department_vision
+    examples: |
+      - What is the vision of the AIDS department?
+      - What are the key goals of the AIDS department’s vision?
+      - How does the AIDS department work towards achieving its vision?
+      - How does the vision of the AIDS department benefit students?
+      - What impact does the AIDS department’s vision have on technical education?
+      - Does the vision of the AIDS department focus on industry readiness?
+      - How does the AIDS department’s vision align with modern technology trends?
+      - What initiatives are taken to fulfill the AIDS department’s vision?
+      - How does research and innovation contribute to the AIDS department’s vision?
+      - Does the vision of the AIDS department include global technological advancements?
+      - Tell me about the vision of the AIDS department.
+
+
+  - intent: aids_department_mission
+    examples: |
+      - What is the mission of the AIDS department?
+      - What are the key goals of the AIDS department’s mission?
+      - How does the AIDS department work towards achieving its mission?
+      - How does the mission of the AIDS department benefit students?
+      - What impact does the AIDS department’s mission have on technical education?
+      - Does the mission of the AIDS department focus on industry readiness?
+      - How does the AIDS department’s mission align with modern technology trends?
+      - What initiatives are taken to fulfill the AIDS department’s mission?
+      - How does research and innovation contribute to the AIDS department’s mission?
+      - Does the mission of the AIDS department include global technological advancements?
+      - Tell me about the mission of the AIDS department.
+
+
+  - intent: aids_total_students
+    examples: |
+      - What is the total student count in the AIDS department?
+      - What is the total number of students currently enrolled in the AIDS department?
+      - How many students are studying in the AIDS department this academic year?
+      - What is the total student strength of the AIDS department?
+      - How many students have been admitted to the AIDS department this year?
+      - What is the total student intake capacity for the AIDS department?
+      - How many students are in each year of the AIDS department?
+      - What is the total number of students in the undergraduate AIDS program?
+      - How many students are currently pursuing B.E. AIDS?
+      - How many students graduate from the AIDS department each year?
+      - How many students are currently in their final year in AIDS?
+
+
+  - intent: aids_female_girls_students
+    examples: |
+      - How many girls are there in the AIDS department?
+      - What is the total number of female students in the AIDS department?
+      - How many girls are currently enrolled in the AIDS department?
+      - What percentage of AIDS students are girls?
+      - How many female students joined the AIDS department this year?
+      - How many girls are in each year of the AIDS department?
+      - Has the number of girls in the AIDS department increased over the years?
+      - How many female students have graduated from the AIDS department so far?
+      - What is the trend of female student enrollment in the AIDS department?
+
+  - intent: aids_male_boys_students
+    examples: |
+      - How many boys are there in the AIDS department?
+      - What is the total number of male students in the AIDS department?
+      - How many boys are currently enrolled in the AIDS department?
+      - What percentage of AIDS students are boys?
+      - How many male students joined the AIDS department this year?
+      - How many boys are in each year of the AIDS department?
+      - Has the number of boys in the AIDS department increased over the years?
+      - How many male students have graduated from the AIDS department so far?
+      - What is the trend of male student enrollment in the AIDS department?
+
+  - intent: aids_lab_facilities
+    examples: |
+      - What are the lab facilities available in the AIDS department?
+      - How many computer labs are there in the AIDS department?
+      - What software and tools are available in the AIDS labs?
+      - What is the configuration of the computers in the AIDS labs?
+      - Are the lab facilities updated with the latest technology in AIDS department?
+      - Does the AIDS department provide high-speed internet in the labs?
+      - Are the AIDS labs accessible to students outside class hours?
+      - What kind of research work is conducted in the AIDS labs?
+
+  - intent: aids_department_activities
+    examples: |
+      - What are the department activities conducted by the AIDS department?
+      - How often does the AIDS department organize technical events?
+      - What workshops are conducted by the AIDS department?
+      - What extracurricular activities are available in the AIDS department?
+      - Tell me about AIDS department activities.
+      - Give me the department activities of AIDS.
+      - Where can I find the department activities of AIDS?
+      - Show me the department activities of AIDS.
+
+  - intent: aids_student_activities
+    examples: |
+      - What are the student activities conducted by the AIDS department?
+      - How often are student events organized in the AIDS department?
+      - Tell me about AIDS student activities.
+      - Give me the student activities of AIDS.
+      - Where can I find the student activities of AIDS?
+      - Show me the student activities of AIDS.
+
+
+  - intent: aids_faculty_activities
+    examples: |
+      - Give me the faculty activities of AIDS.
+      - Where can I find the faculty activities of AIDS?
+      - Show me the faculty activities of AIDS.
+      - What are the faculty activities conducted by the AIDS department?
+      - How does the AIDS department support faculty development?
+      - What research activities are carried out by the faculty in the AIDS department?
+      - Are AIDS faculty members involved in industry collaborations?
+      - Do AIDS faculty members participate in technical conferences and seminars?
+      - Are AIDS faculty members involved in curriculum development and innovation?
+
+  - intent: aids_research_activities
+    examples: |
+        - What research activities are conducted in the AIDS department?
+        - What are the major research areas in the AIDS department?
+        - Are there any research labs available in the AIDS department?
+        - How do students participate in research projects in the AIDS department?
+        - Do faculty members in the AIDS department publish research papers?
+        - Are there any funded research projects in the AIDS department?
+        - Does the AIDS department collaborate with industries for research?
+        - Are students encouraged to publish research papers in the AIDS department?
+        - What research opportunities are available for undergraduate students in AIDS?
+        - Are there any research conferences organized by the AIDS department?
+
+  - intent: intern_company_aids
+    examples: |
+      - Which companies provide internships for AIDS students?
+      - What are the companies that offer internships for AIDS?
+      - Can you list some companies that provide internship opportunities for AIDS students?
+      - Tell me about companies that offer internships for AIDS.
+      - Can you name some companies that offer student internships in AIDS?
+      - How many AIDS students got internships?
+      - Give me the year-wise placed AIDS students' internship count.
+      - Can you provide the number of AIDS students who did internships each year?
+      - Tell me how many AIDS students did internships in previous years.
+      - What is the yearly count of AIDS students who got internships?
+      - List the number of AIDS students who got internships year by year.
+      - How many AIDS students secured internships each academic year?
+
+
+  - intent: technical_faculty_aids
+    examples: |
+      - Tell me about the technical staff in the AIDS department
+      - Who are the technical faculty in AIDS?
+      - List the technical assistants in the AIDS department
+      - AIDS department technical staff details
+
+
+  - intent: extra_courses_aids
+    examples: |
+      - Tell me about the value-added courses in Aritifical Intelligence and Data Science  department
+      - What are the additional courses offered by AIDS?
+      - Extra courses provided by AIDS department
+      - List the value-added courses for AIDS students
+      - Do AIDS students have any extra learning opportunities? 
+
+  
+  - intent: aids_accreditation
+    examples: |
+      - What are the accreditations and affiliations of the AIDS department?
+      - Is the AIDS department accredited by NAAC and AICTE?
+      - Under which university is the AIDS department affiliated?
+      - Is the AIDS department approved by the government?
+      - Does the AIDS department have AICTE and NAAC approval?
+      - Which university is the AIDS department connected with?
+      - Is the AIDS department good?
+      - Is this college’s AIDS department recognized by the government?
+      - Is the AIDS course valid for jobs?
+      - Give me the names of companies for AIDS placements?
+
+  - intent: aids_yearwise_student_count
+    examples: |
+        - What is the year-wise student count for the AIDS department since the college started?
+        - Can you provide the student intake count for the AIDS department for each academic year since inception?
+        - How many students were admitted to the AIDS department each year from the beginning?
+        - What is the total number of students enrolled in the AIDS department for every academic year since the college started?
+        - How has the student strength of the AIDS department varied year by year since the first batch?
+        - What are the year-wise student counts for the AIDS department?
+        - Can you provide the student count for each year in the AIDS department?
+        - What is the breakdown of students by year in the AIDS department?
+        - How many students are there in each academic year of the AIDS department?
+        - What is the total number of students per year in the AIDS department?
+
+  - intent: aids_event_conducted_photos
+    examples: |
+      - Can you provide photos of events conducted by the AIDS department?
+      - Where can I find images of past AIDS department events?
+      - Do you have a gallery of AIDS department event photos?
+      - Can you share pictures from recent AIDS department activities?
+      - Are there any photos available from AIDS department symposiums and workshops?
+      - How can I access images of hackathons and technical events hosted by the AIDS department?
+      - Do you have any pictures from cultural events organized by the AIDS department?
+      - Can I see photos of guest lectures and seminars conducted by the AIDS department?
+      - Are there any images of student project presentations in the AIDS department?
+      - Where can I view photos from annual AIDS department functions and celebrations?
+      - What are the events conducted by the AIDS department?
+      - Can you provide a list of events organized by the AIDS department?
+      - What technical events does the AIDS department host?
+      - What cultural programs are conducted by the AIDS department?
+      - Does the AIDS department organize hackathons or coding competitions?
+      - What annual events are held by the AIDS department?
+      - Are there any workshops or seminars conducted by the AIDS department?
+      - Does the AIDS department conduct any inter-college competitions?
+
+
+  - intent: aids_faculty_experience_knowledge
+    examples: |
+        - What is the average teaching experience of AIDS faculty at SSMIET?
+        - How many years of experience do the AIDS faculty members have on average?
+        - What is the average industry experience of AIDS faculty at SSMIET?
+        - How many faculty members in the AIDS department have more than 10 years of experience?
+        - What is the experience range of professors in the AIDS department?
+        - How many faculty members in AIDS have prior industry knowledge?
+        - What percentage of AIDS faculty have Ph.D. qualifications?
+        - How often do AIDS faculty members update their knowledge with training or certifications?
+        - What is the total teaching experience of the senior-most faculty in the AIDS department?
+        - How many AIDS faculty members have more than five years of teaching experience?
+        - What is the minimum teaching experience required for AIDS faculty at SSMIET?
+        - How many AIDS faculty members have both academic and industry experience?
+        - What is the average number of years AIDS faculty members have worked at SSMIET?
+        - How many faculty members in the AIDS department hold postgraduate degrees?
+
+  - intent: cybersecurity_event_conducted_photos
+    examples: |
+    - Can you provide photos of events conducted by the Cybersecurity department?
+    - Where can I find images of past Cybersecurity department events?
+    - Do you have a gallery of Cybersecurity department event photos?
+    - Can you share pictures from recent Cybersecurity department activities?
+    - Are there any photos available from Cybersecurity department symposiums and workshops?
+    - How can I access images of hackathons and technical events hosted by the Cybersecurity department?
+    - Do you have any pictures from cultural events organized by the Cybersecurity department?
+    - Can I see photos of guest lectures and seminars conducted by the Cybersecurity department?
+    - Are there any images of student project presentations in the Cybersecurity department?
+    - Where can I view photos from annual Cybersecurity department functions and celebrations?
+    - What are the events conducted by the Cybersecurity department?
+    - Can you provide a list of events organized by the Cybersecurity department?
+    - What technical events does the Cybersecurity department host?
+    - What cultural programs are conducted by the Cybersecurity department?
+    - Does the Cybersecurity department organize hackathons or coding competitions?
+    - What annual events are held by the Cybersecurity department?
+    - Are there any workshops or seminars conducted by the Cybersecurity department?
+    - Does the Cybersecurity department conduct any inter-college competitions?
+
+  - intent: cybersecurity_faculty_experience_knowledge
+    examples: |
+    - What is the average teaching experience of Cybersecurity faculty at SSMIET?
+    - How many years of experience do the Cybersecurity faculty members have on average?
+    - What is the average industry experience of Cybersecurity faculty at SSMIET?
+    - How many faculty members in the Cybersecurity department have more than 10 years of experience?
+    - What is the experience range of professors in the Cybersecurity department?
+    - How many faculty members in Cybersecurity have prior industry knowledge?
+    - What percentage of Cybersecurity faculty have Ph.D. qualifications?
+    - How often do Cybersecurity faculty members update their knowledge with training or certifications?
+    - What is the total teaching experience of the senior-most faculty in the Cybersecurity department?
+    - How many Cybersecurity faculty members have more than five years of teaching experience?
+    - What is the minimum teaching experience required for Cybersecurity faculty at SSMIET?
+    - How many Cybersecurity faculty members have both academic and industry experience?
+    - What is the average number of years Cybersecurity faculty members have worked at SSMIET?
+    - How many faculty members in the Cybersecurity department hold postgraduate degrees?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

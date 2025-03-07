@@ -71,11 +71,6 @@ stories:
       - intent: it_accreditation
       - action: utter_it_accreditation
 
-  - story: IT year-wise student count inquiries
-    steps:
-      - intent: it_yearwise_student_count
-      - action: utter_it_yearwise_student_count
-
   - story: IT event conducted photo inquiries
     steps:
       - intent: it_event_conducted_photos
