@@ -1,0 +1,104 @@
+rules:
+  - rule: Respond to Civil HOD Details
+    steps:
+      - intent: civil_hod_details
+      - action: utter_civil_hod_details
+
+  - rule: Respond to Civil Faculty Details
+    steps:
+      - intent: civil_faculty_details
+      - action: utter_civil_faculty_details
+
+  - rule: Respond to Civil Engineering PEO query
+    steps:
+      - intent: peo_civil_department
+      - action: utter_peo_civil_department
+
+  - rule: Respond to Civil Engineering PO query
+    steps:
+      - intent: po_civil_department
+      - action: utter_po_civil_department
+
+  - rule: Respond to Civil Engineering PSO query
+    steps:
+      - intent: pso_civil_department
+      - action: utter_pso_civil_department
+
+  - rule: Respond to technical faculty civil query
+    steps:
+      - intent: technical_faculty_civil
+      - action: utter_technical_faculty_civil
+
+  - rule: Respond to Civil Department information query
+    steps:
+      - intent: civil_department_info_about
+      - action: utter_civil_department_info_about
+
+  - rule: Respond to Civil Department vision query
+    steps:
+      - intent: civil_department_vision
+      - action: utter_civil_department_vision
+
+  - rule: Respond to Civil Department mission query
+    steps:
+      - intent: civil_department_mission
+      - action: utter_civil_department_mission
+ 
+  - rule: Respond to placement company names for civil engineering
+    steps:
+      - intent: placement_company_names_civil
+      - action: utter_placement_company_names_civil
+
+  - rule: Respond to civil department activities inquiry
+    steps:
+      - intent: civil_department_activities
+      - action: utter_civil_department_activities
+
+  - rule: Respond to civil student activities inquiry
+    steps:
+      - intent: civil_student_activities
+      - action: utter_civil_student_activities
+
+  - rule: Respond to total students in Civil department
+    steps:
+      - intent: civil_total_students
+      - action: utter_civil_total_students
+
+  - rule: Respond to female students in Civil department
+    steps:
+      - intent: civil_female_girls_students
+      - action: utter_civil_female_girls_students
+
+  - rule: Respond to male students in Civil department
+    steps:
+      - intent: civil_male_boys_students
+      - action: utter_civil_male_boys_students
+
+  - rule: Respond to civil research activities inquiry
+    steps:
+      - intent: civil_research_activities
+      - action: utter_civil_research_activities
+
+  - rule: Respond to queries about extra courses in civil Engineering
+    steps:
+      - intent: extra_courses_civil
+      - action: utter_extra_courses_civil
+
+  - rule: Respond to civil internship company inquiry
+    steps:
+      - intent: intern_company_civil
+      - action: utter_intern_company_civil
+
+  - rule: Respond to MoU signed companies inquiry for Civil
+    steps:
+      - intent: mou_sign_company_civil
+      - action: utter_mou_sign_company_civil
+
+  - rule: Respond to Civil Department Contact Inquiry
+    steps:
+      - intent: civil_contact
+      - action: utter_civil_contact
+  - rule: Respond to Civil faculty experience and knowledge inquiry
+    steps:
+      - intent: civil_faculty_experience_knowledge
+      - action: utter_civil_faculty_experience_knowledge
