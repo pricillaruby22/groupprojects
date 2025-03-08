@@ -28,6 +28,11 @@ rules:
     steps:
       - intent: technical_faculty_civil
       - action: utter_technical_faculty_civil
+      
+  - rule: Respond to civil course outcomes query
+    steps:
+      - intent: civil_course_outcomes
+      - action: utter_civil_course_outcomes
 
   - rule: Respond to Civil Department information query
     steps:

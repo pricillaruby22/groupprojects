@@ -28,6 +28,7 @@ stories:
     steps:
       - intent: civil_course_outcomes
       - action: utter_civil_course_outcomes
+      
   - story: Get technical faculty of civil
     steps:
       - intent: technical_faculty_civil
