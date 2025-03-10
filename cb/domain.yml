@@ -598,90 +598,93 @@ responses:
           - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
 
   utter_scholarship_details:
-    - text: "Students of SSMIET are eligible to avail various government scholarships such as:
-            - BC / MBC Scholarship
-            - Govt. of India post-metric Scholarship (SC / ST / SCA Students)
-            - Govt. of India post-metric Scholarship (Converted Christian)
-            - MOMA Scholarship (BCM, Christianity)
-            - AICTE Scholarship (All categories of Girl Students only)
-            - NHFDC Scholarship (All categories of Differently-abled Students)
-            - GQ 7.5 (For students who studied 6th to 12th in Government Schools)"
+    - text: |
+        Students of SSMIET are eligible to avail various government scholarships such as:
+        - BC / MBC Scholarship
+        - Govt. of India post-metric Scholarship (SC / ST / SCA Students)
+        - Govt. of India post-metric Scholarship (Converted Christian)
+        - MOMA Scholarship (BCM, Christianity)
+        - AICTE Scholarship (All categories of Girl Students only)
+        - NHFDC Scholarship (All categories of Differently-abled Students)
+        - GQ 7.5 (For students who studied 6th to 12th in Government Schools)
 
   utter_academic_calendar:
     - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
    
   utter_admission_documents:
-    - text: "The documents required for admission are:\n\n
-                - Allotment Order
-                - Community Certificate
-                - HSC Mark Sheet
-                - SSLC Mark Sheet
-                - Transfer and Conduct Certificate
-                - Aadhar Card
-                - Nativity Certificate (Optional)
-                - First Graduate Certificate (If Required)
-                - Joint Declaration Form (Optional)
-                - Passport Size Photos (2 Copies)
-                - Medical Fitness Certificate (Optional)
-                - Income Certificate
-                📌 Both original and xerox copies are required."
+    - text: |
+        The documents required for admission are:\n\n
+        - Allotment Order
+        - Community Certificate
+        - HSC Mark Sheet
+        - SSLC Mark Sheet
+        - Transfer and Conduct Certificate
+        - Aadhar Card
+        - Nativity Certificate (Optional)
+        - First Graduate Certificate (If Required)
+        - Joint Declaration Form (Optional)
+        - Passport Size Photos (2 Copies)
+        - Medical Fitness Certificate (Optional)
+        - Income Certificate
+        📌 Both original and xerox copies are required.
 
   utter_counselling_process:
-    - text: "The counselling process at SSMIET is as follows:\n\n
-            1. Registration: Candidates must register online for counselling.\n
-            2. Choice Filling: Select your preferred courses and colleges.\n
-            3. Document Verification: Ensure you have all required documents.\n
-            4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
-            5. Fee Payment: Pay the admission fees to confirm your seat.\n
-            6. Reporting to College: Report to SSMIET with all required documents.\n\n
-            📞 For more details, contact admission office -  7373707002, 7373707008 "
+    - text: |
+        The counselling process at SSMIET is as follows:\n\n
+        1. Registration: Candidates must register online for counselling.\n
+        2. Choice Filling: Select your preferred courses and colleges.\n
+        3. Document Verification: Ensure you have all required documents.\n
+        4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
+        5. Fee Payment: Pay the admission fees to confirm your seat.\n
+        6. Reporting to College: Report to SSMIET with all required documents.\n\n
+        📞 For more details, contact admission office -  7373707002, 7373707008.
   
   utter_college_benefits:
     - text: |
-           🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
-              Your Future Begins Here! 🚀
+        🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
+        Your Future Begins Here! 🚀
 
-              ✅ **1. Excellence in Education**
+        ✅ **1. Excellence in Education**
 
-              Affiliated with Anna University & Approved by AICTE
-              Industry-focused curriculum with latest technologies
-              Highly qualified Ph.D. & experienced faculty
-              University Rank Holders & Gold Medalists every year
+        Affiliated with Anna University & Approved by AICTE
+        Industry-focused curriculum with latest technologies
+        Highly qualified Ph.D. & experienced faculty
+        University Rank Holders & Gold Medalists every year
               
-              ✅ **2. World-Class Infrastructure**
+        ✅ **2. World-Class Infrastructure**
 
-              Smart Classrooms with Digital Learning Facilities
-              Advanced Laboratories with AI, IoT, and Robotics setups
-              Comprehensive Library with 10,000+ books & e-resources
-              Hostel & Transport facilities for student convenience
+        Smart Classrooms with Digital Learning Facilities
+        Advanced Laboratories with AI, IoT, and Robotics setups
+        Comprehensive Library with 10,000+ books & e-resources
+        Hostel & Transport facilities for student convenience
              
-              ✅ **3. 100% Placement & Career Support**
+        ✅ **3. 100% Placement & Career Support**
 
-              Strong Industry Tie-ups with MNCs & Core Companies
-              Guaranteed Internships & Industrial Training
-              Dedicated Placement Cell to boost your career
-              Top recruiters include TCS, Infosys, Wipro, HCL & more!
+        Strong Industry Tie-ups with MNCs & Core Companies
+        Guaranteed Internships & Industrial Training
+        Dedicated Placement Cell to boost your career
+        Top recruiters include TCS, Infosys, Wipro, HCL & more!
               
-              ✅ **4. Scholarships & Financial Support**
+        ✅ **4. Scholarships & Financial Support**
 
-              Government & Private Scholarships available
-              Special Fee Concessions for Merit Students
-              100% tuition fee waiver for high achievers
+        Government & Private Scholarships available
+        Special Fee Concessions for Merit Students
+        100% tuition fee waiver for high achievers
              
-              ✅ **5. Student Life & Extracurriculars**
+        ✅ **5. Student Life & Extracurriculars**
 
-              Technical Clubs, Hackathons, and Innovation Labs
-              National & International Conferences & Workshops
-              Annual Cultural Fest & Sports Events for overall development
+        Technical Clubs, Hackathons, and Innovation Labs
+        National & International Conferences & Workshops
+        Annual Cultural Fest & Sports Events for overall development
               
-              ✅ **6. Research & Entrepreneurship Opportunities**
+        ✅ **6. Research & Entrepreneurship Opportunities**
 
-              Start-up Incubation Center for young entrepreneurs
-              MOUs with top research organizations & industries
-              Funded Research & Innovation Projects
-              🚀 Be a Part of Our Success Story!
-              👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
-              👉 Apply Now & Shape Your Future!
+        Start-up Incubation Center for young entrepreneurs
+        MOUs with top research organizations & industries
+        Funded Research & Innovation Projects
+        🚀 Be a Part of Our Success Story!
+        👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
+        👉 Apply Now & Shape Your Future!
 
   utter_staff_count:
     - text: |
@@ -710,8 +713,12 @@ responses:
   
   utter_college_qualification:
     - text: |
-        **SSM Institute of Engineering and Technology** (An Autonomous Institution) Approved by AICTE, New Delhi \n Affiliated to Anna University, Chennai Accredited by NAAC & NBA
-    
+        **SSM Institute of Engineering and Technology**  
+        *(An Autonomous Institution)*  
+        - Approved by AICTE, New Delhi  
+        - Affiliated to Anna University, Chennai  
+        - Accredited by NAAC & NBA 
+
   utter_job_interview_preparation:
     - text: |
         "We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance."

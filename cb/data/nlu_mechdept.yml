@@ -68,10 +68,20 @@ nlu:
 
   - intent: technical_faculty_mech
     examples: |
-      - Tell me about the technical staff in the Mechanical department
+      - Tell me about the technical staff in the Mechanical department.
       - Who are the technical faculty in Mechanical?
-      - List the technical assistants in the Mechanical department
-      - Mechanical department technical staff details
+      - List the technical assistants in the Mechanical department.
+      - Mechanical department technical staff details.
+      - Who are the non-teaching faculty in the Mechanical department?
+      - Provide details of the non-teaching staff in Mechanical.
+      - How many non-teaching staff members are there in the Mechanical department?
+      - What roles do non-teaching faculty play in Mechanical?
+      - List the lab assistants in the Mechanical department.
+      - Are there technical assistants in the Mechanical department?
+      - What is the role of non-teaching staff in the Mechanical department?
+      - Who are the supporting staff in the Mechanical department?
+      - Give me a list of administrative and technical staff in Mechanical.
+      - Are there lab instructors in the Mechanical department?
 
   - intent: placement_mech
     examples: |

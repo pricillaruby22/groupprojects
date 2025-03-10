@@ -72,6 +72,16 @@ nlu:
       - Who are the technical faculty in CSBS?
       - List the technical assistants in the CSBS department.
       - CSBS department technical staff details.
+      - Who are the non-teaching faculty in the CSBS department?
+      - Provide details of the non-teaching staff in CSBS.
+      - How many non-teaching staff members are there in the CSBS department?
+      - What roles do non-teaching faculty play in CSBS?
+      - List the lab assistants in the CSBS department.
+      - Are there technical assistants in the CSBS department?
+      - What is the role of non-teaching staff in the CSBS department?
+      - Who are the supporting staff in the CSBS department?
+      - Give me a list of administrative and technical staff in CSBS.
+      - Are there lab instructors in the CSBS department?
 
   - intent: csbs_department_info_about
     examples: |

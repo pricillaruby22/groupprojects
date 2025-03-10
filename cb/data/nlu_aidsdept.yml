@@ -227,7 +227,16 @@ nlu:
       - Who are the technical faculty in AIDS?
       - List the technical assistants in the AIDS department
       - AIDS department technical staff details
-
+      - Who are the non-teaching faculty in the AIDS department?
+      - Provide details of the non-teaching staff in AIDS.
+      - How many non-teaching staff members are there in the AIDS department?
+      - What roles do non-teaching faculty play in AIDS?
+      - List the lab assistants in the AIDS department.
+      - Are there technical assistants in the AIDS department?
+      - What is the role of non-teaching staff in Artificial Intelligence and Data Science departments?
+      - Who are the supporting staff in the AIDS department?
+      - Give me a list of administrative and technical staff in AIDS.
+      - Are there lab instructors in the AIDS department?
 
   - intent: extra_courses_aids
     examples: |

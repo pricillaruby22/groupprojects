@@ -787,6 +787,15 @@ nlu:
       - What is the NAAC accreditation grade of the college?
       - Does the college have program-wise NBA accreditation?
       - Are all courses AICTE-approved, or only specific programs?
+      - What are the qualifications of this college?
+      - What approvals and accreditations does SSMIET have?
+      - Is SSMIET an autonomous institution?
+      - What university is SSMIET affiliated with?
+      - Does SSMIET have government recognition?
+      - Are the engineering programs accredited?
+      - Is the college degree accepted worldwide?
+      - How is the academic reputation of SSMIET?
+      - What makes SSMIET a qualified institution?
 
   - intent: job_interview_preparation
     examples: |

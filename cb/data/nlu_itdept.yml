@@ -213,19 +213,6 @@ nlu:
       - How many students are there in each academic year of the B.Tech IT department?
       - What is the total number of students per year in the B.Tech IT department?
 
-  - intent: it_event_conducted_photos
-    examples: |
-      - Can you provide photos of events conducted by the B.Tech IT department?  
-      - Where can I find images of past B.Tech IT department events?  
-      - Do you have a gallery of B.Tech IT department event photos?  
-      - Can you share pictures from recent B.Tech IT department activities?  
-      - Are there any photos available from B.Tech IT department symposiums and workshops?  
-      - How can I access images of hackathons and technical events hosted by the B.Tech IT department?  
-      - Do you have any pictures from cultural events organized by the B.Tech IT department?  
-      - Can I see photos of guest lectures and seminars conducted by the B.Tech IT department?  
-      - Are there any images of student project presentations in the B.Tech IT department?  
-      - Where can I view photos from annual B.Tech IT department functions and celebrations?
-
   - intent: it_faculty_experience_knowledge
     examples: |
       - What is the average teaching experience of B.Tech IT faculty at SSMIET?

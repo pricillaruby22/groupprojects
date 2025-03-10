@@ -60,10 +60,20 @@ nlu:
     - Who are the technical faculty members in civil?
     - Give details of the technical faculty in civil
     - List the civil department's technical faculty
-    - Provide information about the technical faculty of civil engineering?
-    - give me the staff details of civil department?
-    - who are all the profeessors in civil dept?
-    - what are all the qualifications of staffs /teachers in civil dept?
+    - Provide information about the technical faculty of civil engineering
+    - Give me the staff details of the civil department
+    - Who are all the professors in the civil department?
+    - What are the qualifications of staff/teachers in the civil department?
+    - Who are the non-teaching faculty in the civil department?
+    - Provide details of the non-teaching staff in civil.
+    - How many non-teaching staff members are there in the civil department?
+    - What roles do non-teaching faculty play in the civil department?
+    - List the lab assistants in the civil engineering department.
+    - Are there technical assistants in the civil department?
+    - What is the role of non-teaching staff in the civil department?
+    - Who are the supporting staff in the civil engineering department?
+    - Give me a list of administrative and technical staff in civil.
+    - Are there lab instructors in the civil department?
 
 - intent: civil_department_info_about
   examples: |
