@@ -49,7 +49,6 @@ nlu:
       - What food is given in the hostel?
       - When is breakfast, lunch, and dinner served?
       - Do you serve vegetarian and non-vegetarian meals?
-      - How many members in one room?
       - Mess food good?
       - Food give hostel?
       - When eat food?
@@ -59,15 +58,15 @@ nlu:
   - intent: hostel_restroom_facilities
     examples: |
       - What are the bathroom facilities in the hostel?
-      - Are bathrooms attached to the rooms?
+      - Are restrooms attached to the rooms?
       - How many restroom are there per floor?
       - Is hot water available in the hostel bathrooms?
       - Is there an attached bathroom in hostel rooms?
-      - How many students share a bathroom?
+      - How many students share a restrooms?
       - Are bathrooms clean and maintained?
       - Does the hostel provide hot water?
       - Bathroom have room?
-      - How many bathroom?
+      - How many restroom?
       - Water hot give?
       - Bathroom clean?
     

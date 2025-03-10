@@ -208,44 +208,6 @@ nlu:
       - Is SSMIET approved by AICTE and affiliated with Anna University?
       - Does SSMIET have university affiliation for all its courses?
 
-  - intent: bus_facility
-    examples: |
-      - Does your college have a bus facility?
-      - Is there a college bus service available?
-      - Do you provide transportation for students?
-      - Does SSMIET have its own buses?
-      - Is the Buses are available in all routes?
-      - Is there a transport facility in your college?
-      - Are college buses available for students?
-      - Does SSMIET offer a pickup and drop service?
-      - How can students avail the college bus service?
-      - Is there a college bus for day scholars?
-      - What are the routes covered by the college buses?
-      - Does the institute have its own transportation system?
-      - Are there private transport options near the college?
-      - Can I get details about the college bus timing?
-      - How many buses does the college have?
-      - What are the bus routes available for the college?
-      - Can you provide details of the college bus routes?
-      - Which areas are covered by the college bus service?
-      - Does the college bus go to my location?
-      - What is the nearest bus stop for the college bus?
-      - How many bus routes does the college have?
-      - Can I get a list of bus routes with timings?
-      - Are there separate buses for different locations?
-      - Where can I find the college bus route map?
-      - Does the college bus cover outstation locations?
-      - Is there a bus facility for students from rural areas?
-      - Are there any direct buses from the city to the college?
-      - What is the last stop for the college bus route?
-      - How frequently do the college buses operate?
-      - Can I change my bus route if needed?
-      - Is it possible to switch to a different bus route?
-      - How many times can I change my bus route in a semester?
-      - Is there any additional fee for changing the bus route?
-      - Is there any buses for remote location?
-      - How many buses are available for particular stop
-
   - intent: principal_details
     examples: |
       - Head of the college?
@@ -1203,6 +1165,15 @@ synonyms:
       - Who should I contact if I face any issues related to ragging?
       - How does the college handle false complaints about ragging?
 
+  - intent: bus_facility
+    examples: |
+      - Does the college provide a bus facility?
+      - What are the bus facilities available at the college?
+      - From which locations do the college buses operate?
+      - How many buses are available for students?
+      - Can I change my bus route after paying the fees?
+      - Is there only one bus per stop?
+
   - intent: ask_bus_seat_fcfs
     examples: |
       - Is the bus seating on a first-come, first-served basis?
@@ -1236,6 +1207,17 @@ synonyms:
       - How are bus seats assigned? Is it by reservation?
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
+
+  - intent: bus_facility_details
+    examples: |
+      - Can you provide detailed information about the bus facility?
+      - How does the seating arrangement work on the buses?
+      - What happens if the bus is full?
+      - Are there specific timings for different bus routes?
+      - Is there a seat reservation system for buses?
+      - Do staff members also have access to the bus facility?
+      - Is there a helpline for bus-related issues?
+      - Who should I contact for more details about the transport facility?
 
   - intent: ask_campus_general_photos
     examples: |
