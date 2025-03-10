@@ -383,16 +383,22 @@ nlu:
 
   - intent: college_admission_form
     examples: |
-      - How to join in ssmiet?
-      - Where to get the joining paper or form?
-      - How to start admission?
-      - Where to sign up for college?
-      - Where can I get the admission form?
-      - How do I apply for admission?
-      - Is the application online or offline?
-      - Where can I access the online admission portal?
-      - Is there an application fee for submitting the admission form?
-      - Where is the admission form?
+     - Can I apply for admission online?
+     - Is there an online application process for admission?
+     - How can I submit my admission form online?
+     - Can I fill out the admission form online?
+     - Is the admission process available online?
+     - Do I need to visit the college, or can I apply online?
+     - Is there a website where I can submit my admission form?
+     - Can I complete the entire admission process online?
+     - Is online application available, or is it only offline?
+     - Where can I find the online admission form?  
+     - What are the steps to apply for admission online?
+     - How do I start the online application process for admission?
+     - Do I need to register anywhere to apply online?
+     - Is there an online portal for submitting admission forms?
+     - Do I need to pay an application fee when applying online?
+     - Is there any charge for submitting the online admission form ?
 
   - intent: college_admission_eligibility
     examples: |
@@ -608,13 +614,12 @@ nlu:
       - Are the faculty members at SSMIET highly qualified?
       - What degrees do the lecturers at SSMIET hold?
       - Do the professors at SSMIET have PhDs?
-      - What is the minimum qualification required for faculty at SSMIET?
       - Can you share information about the experience and qualifications of the teaching staff?
       - How experienced are the faculty members at SSMIET?
       - What are the academic credentials of the SSMIET faculty?
-      - Is the professors are well-scholared?
-      - Is the faculty are well-scholared?
-      - Is the staffs are well-scholared?
+      - Is the professors and staffs of ths college are well qualfied?
+      - what is the overall qualification of teachers or staffs or faculty or professors in this college? 
+   
       
   - intent: college_timing
     examples: |

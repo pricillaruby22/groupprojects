@@ -8,11 +8,11 @@ intents:
   - entrance_exam
   - uniform_dresscode
   - book_availability
-  - student_total_count
-  - family_visit
-  - college_location_address
+  - studen_location_address
   - college_name_private_anna_university
-  - principal_details
+  - principat_total_count
+  - family_visit
+  - collegel_details
   - college_contact_email
   - college_distance_travel_time
   - fee_structure
@@ -431,9 +431,9 @@ responses:
   utter_college_courses:
     - text: |
           Our College Offers Various Courses:     
-            - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**.\n
-            - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**.\n
-            - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**.\n
+            - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
+            - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
+            - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
             - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
 
   utter_college_ug_courses:
@@ -485,12 +485,12 @@ responses:
 
   utter_college_admission_eligibility:
     - text: |
-         **Admission eligibility depends on the course you choose**:\n
+         **Admission eligibility depends on the course you choose**:
 
-         - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.\n
-         - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage.\n
-         - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.\n
-         - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.\n
+         - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
+         - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage
+         - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
+         - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
          - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
 
   utter_available_internships_and_placements:
@@ -589,7 +589,7 @@ responses:
   utter_staff_professors_faculty_qualifications_experience:
     - text: "The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. 
             The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and 
-            industry expertise. To know more about faculty qualifications and experience, visit this website [insert website link]."
+            industry expertise. To know more about faculty qualifications and experience, visit this website "
 
   utter_college_timing:
     - text: | 
@@ -748,14 +748,14 @@ responses:
         SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024.
   
   utter_ssmiet_organization_clubs:
-    - text: "Yes! SSMIET offers various student clubs, including:\n
-        - Rotaract Club\n
-        - Young Innovators Club\n
-        - Math Club\n
-        - NDLI Club\n
-        - Yuva Club\n
-        - Build Club\n
-        - Space Club\n
+    - text: "Yes! SSMIET offers various student clubs, including:
+        - Rotaract Club
+        - Young Innovators Club
+        - Math Club
+        - NDLI Club
+        - Yuva Club
+        - Build Club
+        - Space Club
         These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
 
   utter_college_events_annual_symposium:
@@ -858,7 +858,7 @@ responses:
     - text: |
         Bank Name: State Bank Of India, Dindigul.
         Account Name: SSM Institute of Engineering and Technology
-        Account Number: 00000032684732711
+        Account Number: 32684732711
         IFSC Code: SBIN0012758
 
   utter_gate_coaching:
@@ -1219,9 +1219,10 @@ responses:
         - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
         - There is no seat reservation system; seating depends on availability.
         - The bus service is available for both students and staff.
-        - A helpline is provided for any bus-related issues. Contact: [To be added]
+        - A helpline is provided for any bus-related issues.
         
-        For more details, you can contact the transport department.      
+        
+        For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link      
 
   utter_canteen_availability:
     - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
