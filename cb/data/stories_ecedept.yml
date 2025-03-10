@@ -1,5 +1,4 @@
 version: "3.1"
-
 stories:
   - story: User asks about HOD of ECE
     steps:
@@ -144,7 +143,7 @@ stories:
   - story: ECE event conducted photo inquiries
     steps:
       - intent: ece_event_conducted_photos
-      - action: utter_ece_event_photos
+      - action: utter_ece_event_conducted_photos
   
   - story: ECE faculty experience knowledge inquiries
     steps:

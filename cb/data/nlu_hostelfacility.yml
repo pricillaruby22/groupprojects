@@ -1,95 +1,106 @@
+version: "3.1"
 nlu:
-- intent: hostel_wifi_details
-  examples: |
-     - Is WiFi available in the hostel?
-     - Do you provide internet access?
-     - Can I use WiFi in my room?
-     - Does the hostel have free WiFi?
-     - What are the internet facilities in the hostel?
-     - Is there WiFi in the hostel?
-     - Can I connect my phone to the hostel internet?
-     - Do I need a password for hostel WiFi?
-     - Is hostel WiFi fast?
-     - Wifi have hostel?
-     - You give net?
-     - Where internet?
-     - My phone connect net?
+  - intent: hostel_availability
+    examples: |
+       - Is there a hostel facility?
+       - Does the college provide hostel accommodation?
+       - Can students stay in a hostel?
+       - Are there separate hostels for boys and girls?
+       - What are the hostel facilities like?
+       - Do you have hostel rooms available?
+       - hostel facility is available or not?
 
-- intent: hostel_room_sharing
-  examples: |
-    - How many members share a room in the hostel?
-    - What is the occupancy per room?
-    - How many people stay in one room?
-    - What is the room-sharing arrangement?
-    - How many people in one hostel room?
-    - Room sharing how many members?
-    - Hostel room for how many students?
-    - How many persons in one room?
-    - How much people in room?
-    - Room have how many?
-    - How many stay one room?
-    - Hostel room share how many?
+  - intent: hostel_wifi_details
+    examples: |
+      - Is WiFi available in the hostel?
+      - Do you provide internet access?
+      - Can I use WiFi in my room?
+      - Does the hostel have free WiFi?
+      - What are the internet facilities in the hostel?
+      - Is there WiFi in the hostel?
+      - Can I connect my phone to the hostel internet?
+      - Do I need a password for hostel WiFi?
+      - Is hostel WiFi fast?
+      - Wifi have hostel?
+      - You give net?
+      - Where internet?
+      - My phone connect net?
 
-- intent: hostel_food_routine
-  examples: |
-    - What is the food routine in the hostel?
-    - Can you provide details about the mess facilities?
-    - What type of food is served? 
-    - What food is given in the hostel?
-    - When is breakfast, lunch, and dinner served?
-    - Do you serve vegetarian and non-vegetarian meals?
-    - How many members in one room?
-    - Mess food good?
-    - Food give hostel?
-    - When eat food?
-    - What food hostel have?
-    - Mess food what?
+  - intent: hostel_room_sharing
+    examples: |
+      - How many members share a room in the hostel?
+      - What is the occupancy per room?
+      - How many people stay in one room?
+      - What is the room-sharing arrangement?
+      - How many people in one hostel room?
+      - Room sharing how many members?
+      - Hostel room for how many students?
+      - How many persons in one room?
+      - How much people in room?
+      - Room have how many?
+      - How many stay one room?
+      - Hostel room share how many?
 
-- intent: hostel_restroom_facilities
-  examples: |
-    - What are the bathroom facilities in the hostel?
-    - Are bathrooms attached to the rooms?
-    - How many restroom are there per floor?
-    - Is hot water available in the hostel bathrooms?
-    - Is there an attached bathroom in hostel rooms?
-    - How many students share a bathroom?
-    - Are bathrooms clean and maintained?
-    - Does the hostel provide hot water?
-    - Bathroom have room?
-    - How many bathroom?
-    - Water hot give?
-    - Bathroom clean?
-  
-- intent: hostel_fee
-  examples: | 
-    - What is the hostel fee for one year?
-    - How much does the hostel cost annually?
-    - What are the hostel charges per year?
-    - Can you provide details about hostel fees?
-    - What is the yearly fee for the hostel?
-    - How much for one year in the hostel?
-    - Hostel charge for one year?
-    - What is the hostel price?
-    - Hostel money one year?
-    - How much hostel?
-    - Fee hostel what?
-    - Hostel pay how much?
+  - intent: hostel_food_routine
+    examples: |
+      - What is the food routine in the hostel?
+      - Can you provide details about the mess facilities?
+      - What type of food is served? 
+      - What food is given in the hostel?
+      - When is breakfast, lunch, and dinner served?
+      - Do you serve vegetarian and non-vegetarian meals?
+      - How many members in one room?
+      - Mess food good?
+      - Food give hostel?
+      - When eat food?
+      - What food hostel have?
+      - Mess food what?
 
-- intent: overall_hostel_details
-  examples: |
-    - Can you provide complete details about the hostel facilities?
-    - What are the amenities available in the hostel?
-    - Give me full information about hostel accommodations.
-    - What does the hostel offer in terms of living facilities?
-    - Tell me about the hostel facilities, food, and charges.
-    - What facilities are in the hostel?
-    - Tell me all about the hostel.
-    - Hostel details give me.
-    - What do we get in the hostel?
-    - What is provided in the hostel?
-    - Hostel have what?
-    - You tell hostel all?
-    - Hostel give what things?
-    - What in hostel?
-    - Hostel full detail give?
+  - intent: hostel_restroom_facilities
+    examples: |
+      - What are the bathroom facilities in the hostel?
+      - Are bathrooms attached to the rooms?
+      - How many restroom are there per floor?
+      - Is hot water available in the hostel bathrooms?
+      - Is there an attached bathroom in hostel rooms?
+      - How many students share a bathroom?
+      - Are bathrooms clean and maintained?
+      - Does the hostel provide hot water?
+      - Bathroom have room?
+      - How many bathroom?
+      - Water hot give?
+      - Bathroom clean?
+    
+  - intent: hostel_fee
+    examples: | 
+      - What is the hostel fee for one year?
+      - How much does the hostel cost annually?
+      - What are the hostel charges per year?
+      - Can you provide details about hostel fees?
+      - What is the yearly fee for the hostel?
+      - How much for one year in the hostel?
+      - Hostel charge for one year?
+      - What is the hostel price?
+      - Hostel money one year?
+      - How much hostel?
+      - Fee hostel what?
+      - Hostel pay how much?
+
+  - intent: overall_hostel_details
+    examples: |
+      - Can you provide complete details about the hostel facilities?
+      - What are the amenities available in the hostel?
+      - Give me full information about hostel accommodations.
+      - What does the hostel offer in terms of living facilities?
+      - Tell me about the hostel facilities, food, and charges.
+      - What facilities are in the hostel?
+      - Tell me all about the hostel.
+      - Hostel details give me.
+      - What do we get in the hostel?
+      - What is provided in the hostel?
+      - Hostel have what?
+      - You tell hostel all?
+      - Hostel give what things?
+      - What in hostel?
+      - Hostel full detail give?
 

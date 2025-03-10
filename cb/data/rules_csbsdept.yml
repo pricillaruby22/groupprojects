@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -26,13 +25,11 @@ rules:
       - intent: pso_csbs_department
       - action: utter_pso_csbs_department
 
-
   - rule: Respond to technical faculty in CSBS
     steps:
       - intent: technical_faculty_csbs
       - action: utter_technical_faculty_csbs
    
-
   - rule: Respond to CSBS department info or about
     steps:
       - intent: csbs_department_info_about
@@ -68,22 +65,21 @@ rules:
       - intent: csbs_lab_facilities
       - action: utter_csbs_lab_facilities
 
-  
   - rule: Respond to MOU inquiry
     steps:
       - intent: mou_sign_company_csbs
-      - action: utter_mou_sign_company
+      - action: utter_mou_sign_company_csbs
     
   - rule: Respond to internship companies
     steps:
       - intent: intern_company_csbs
-      - action: utter_intern_company
+      - action: utter_intern_company_csbs
   
 
   - rule: Respond to extra courses in CSBS
     steps:
       - intent: extra_courses_csbs
-      - action: utter_extra_courses_dept  
+      - action: utter_extra_courses_csbs 
 
   - rule: Respond to placement company names in CSBS
     steps:

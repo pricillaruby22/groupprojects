@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
   - intent: mech_hod_details
     examples: |

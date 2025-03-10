@@ -1,29 +1,36 @@
-- rule: hostel_wifi
-  steps:
-    - intent: hostel_wifi_details
-    - action: utter_hostel_wifi_details
+version: "3.1"
+rules:
+  - rule: Respond to hostel inquiries
+    steps:
+      - intent: hostel_availability
+      - action: utter_hostel_availability_info
+      
+  - rule: hostel_wifi
+    steps:
+      - intent: hostel_wifi_details
+      - action: utter_hostel_wifi_details
 
-- rule: hostel_room_sharing
-  steps:
-    - intent: hostel_room_sharing
-    - action: utter_hostel_room_sharing
+  - rule: hostel_room_sharing
+    steps:
+      - intent: hostel_room_sharing
+      - action: utter_hostel_room_sharing
 
-- rule: hostel_food_routing
-  steps:
-    - intent: hostel_food_routing
-    - action: utter_hostel_food_routine
+  - rule: hostel_food_routing
+    steps:
+      - intent: hostel_food_routing
+      - action: utter_hostel_food_routine
 
-- rule: bathroom_facility
-  steps:
-    - intent: hostel_restroom_facilities
-    - action: utter_hostel_restroom_facilities
+  - rule: bathroom_facility
+    steps:
+      - intent: hostel_restroom_facilities
+      - action: utter_hostel_restroom_facilities
 
-- rule: hostel_fees
-  steps:
-    - intent: hostel_fee
-    - action: utter_hostel_fee
-  
-- rule: hostel_details
-  steps:
-    - intent: overall_hostel_details
-    - action: utter_overall_hostel_details
+  - rule: hostel_fees
+    steps:
+      - intent: hostel_fee
+      - action: utter_hostel_fee
+    
+  - rule: hostel_details
+    steps:
+      - intent: overall_hostel_details
+      - action: utter_overall_hostel_details

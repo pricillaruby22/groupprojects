@@ -1,5 +1,4 @@
 version: "3.1"
-
 stories:
   - story: User asks about HOD of EEE
     steps:
@@ -144,7 +143,7 @@ stories:
   - story: EEE event conducted photo inquiries
     steps:
       - intent: eee_event_conducted_photos
-      - action: utter_eee_event_photos
+      - action: utter_eee_event_conducted_photos
   
   - story: EEE faculty experience knowledge inquiries
     steps:

@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -28,8 +27,8 @@ rules:
 
   - rule: Respond to CSE course outcomes
     steps:
-    - intent: cse_course_outcomes
-    - action: utter_cse_course_outcomes
+      - intent: cse_course_outcomes
+      - action: utter_cse_course_outcomes
   - rule: Respond to technical faculty in CSE
     steps:
       - intent: technical_faculty_cse
@@ -122,8 +121,8 @@ rules:
 
   - rule: Respond to extra courses in CSE
     steps:
-      - intent: extra_courses_dept
-      - action: utter_extra_courses_dept  
+      - intent: extra_courses_cse_dept
+      - action: utter_extra_courses_cse_dept  
 
   - rule: Respond to placement company names in CSE
     steps:
@@ -134,11 +133,6 @@ rules:
     steps:
       - intent: ask_cse_accreditation
       - action: utter_cse_accreditation
-
-  - rule: Respond to curriculum relevance query
-    steps:
-      - intent: curriculum_relevance_industry
-      - action: utter_curriculum_relevance_industry
 
   - rule: Respond to CSE year-wise student count queries
     steps:
@@ -154,3 +148,14 @@ rules:
     steps:
       - intent: cse_faculty_experience_knowledge
       - action: utter_cse_faculty_experience_knowledge
+  - rule: Respond to cse staff count
+    steps:
+      - intent: cse_staff_count
+      - action: utter_cse_staff_count
+
+  - rule: Respond to CSE department photo requests
+    steps:
+      - intent: photos_cse_dept
+      - action: utter_photos_cse_dept
+
+  

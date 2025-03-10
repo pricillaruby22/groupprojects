@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -68,7 +67,7 @@ rules:
 
   - rule: Respond to accreditation queries
     steps:
-      - intent: ask_it_accreditation
+      - intent: it_accreditation
       - action: utter_it_accreditation
 
   - rule: Respond to IT event conducted photo queries

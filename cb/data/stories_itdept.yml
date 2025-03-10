@@ -1,5 +1,4 @@
 version: "3.1"
-
 stories:
   - story: User asks about HOD of IT
     steps:
@@ -74,7 +73,7 @@ stories:
   - story: IT event conducted photo inquiries
     steps:
       - intent: it_event_conducted_photos
-      - action: utter_it_event_photos
+      - action: utter_it_event_conducted_photos
   
   - story: IT faculty experience knowledge inquiries
     steps:

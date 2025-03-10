@@ -1,10 +1,10 @@
 version: "3.1"
-
 rules:
   - rule: Respond to greetings
     steps:
       - intent: greet
       - action: utter_greet
+      
   - rule: Respond to admission queries
     steps:
       - intent: admission_process
@@ -39,11 +39,6 @@ rules:
     steps:
       - intent: student_total_count
       - action: utter_student_total_count
-
-  - rule: Respond to hostel inquiries
-    steps:
-      - intent: hostel_availability
-      - action: utter_hostel_availability_info
 
   - rule: Respond to family visit policy
     steps:
@@ -242,7 +237,7 @@ rules:
   - rule: Respond to job interview preparation queries
     steps:
       - intent: job_interview_preparation
-      - action: utterjob__interview_preparation
+      - action: utter_job_interview_preparation
 
   - rule: Respond to smart classroom with projector queries
     steps:
@@ -351,92 +346,62 @@ rules:
   - rule: Provide lab hardware details
     steps:
       - intent: ask_lab_hardware
-      - action: action_provide_lab_hardware
+      - action: utter_ask_lab_hardware
 
   - rule: Respond with general ragging policy
     steps:
     - intent: ask_ragging
-    - action: utter_ragging_no_ragging
-
-  - rule: Respond with ragging prevention measures
-    steps:
-    - intent: ask_ragging
-    - action: utter_ragging_prevention
-
-  - rule: Provide helpline details for ragging-related issues
-    steps:
-    - intent: ask_ragging
-    - action: utter_ragging_helpline
-
-  - rule: Inform about ragging punishment
-    steps:
-    - intent: ask_ragging
-    - action: utter_ragging_punishment
-
-  - rule: Respond with details about awareness programs
-    steps:
-    - intent: ask_ragging
-    - action: utter_ragging_awareness
+    - action: utter_ragging
 
   - rule: Explain the bus seating policy (FCFS)
     steps:
-    - intent: ask_bus_seat
+    - intent: ask_bus_seat_fcfs
     - action: utter_bus_seat_fcfs
 
   - rule: Inform user that full buses require standing
     steps:
-    - intent: ask_bus_seat
+    - intent: ask_bus_seat_full
     - action: utter_bus_seat_full
 
   - rule: Respond to seat reservation requests
     steps:
-    - intent: ask_bus_seat
+    - intent: ask_bus_seat_no_reservation
     - action: utter_bus_seat_no_reservation
-
-  - rule: Give advice on securing a seat
-    steps:
-    - intent: ask_bus_seat
-    - action: utter_bus_seat_advice
 
   - rule: Show general campus photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_general_photos
       - action: utter_campus_general_photos
 
   - rule: Show auditorium photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_auditorium_photos
       - action: utter_campus_auditorium_photos
 
   - rule: Show canteen photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_canteen_photos
       - action: utter_campus_canteen_photos
 
   - rule: Show library photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_library_photos
       - action: utter_campus_library_photos
 
   - rule: Show hostel photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_hostel_photos
       - action: utter_campus_hostel_photos
 
   - rule: Show playground photos
     steps:
-      - intent: ask_campus_photos
+      - intent: ask_campus_playground_photos
       - action: utter_campus_playground_photos  
 
   - rule: Provide bus facility details
     steps:
-      - intent: ask_bus_facility
+      - intent: ask_bus_facility_details
       - action: utter_bus_facility_details  
-  
-  - rule: Say goodbye anytime the user says goodbye
-    steps:
-      - intent: goodbye
-      - action: utter_goodbye
 
   - rule: Exam result
     steps:
@@ -463,5 +428,12 @@ rules:
       - intent: sports_equipment
       - action: utter_sports_equipment
 
-      
-      
+  - rule: Respond to curriculum relevance query
+    steps:
+      - intent: curriculum_relevance_industry
+      - action: utter_curriculum_relevance_industry
+
+  - rule: Say goodbye anytime the user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye

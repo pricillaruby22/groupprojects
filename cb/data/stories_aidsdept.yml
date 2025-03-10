@@ -109,7 +109,7 @@ stories:
   - story: AIDS event conducted photo inquiries
     steps:
       - intent: aids_event_conducted_photos
-      - action: utter_aids_event_photos
+      - action: utter_aids_event_conducted_photos
   
   - story: AIDS faculty experience knowledge inquiries
     steps:

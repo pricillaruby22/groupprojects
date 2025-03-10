@@ -1,25 +1,38 @@
 version: "3.1"
-
 nlu:
-    - intent: ask_canteen_facility
-      examples: |
-        - What are the canteen facilities available at the college?
-        - Is there a canteen in the college?
-        - What food options are available in the canteen?
-        - Does the canteen provide vegetarian and non-vegetarian food?
-        - Are there different meal options available?
-        - What are the canteen timings?
-        - Is the canteen affordable for students?
-        - Can we get snacks and beverages in the canteen?
-        - Is there a separate dining area in the canteen?
-        - How is the hygiene maintained in the canteen?
-        - Does the canteen provide special food during festivals?
-        - Can students bring their own food to the canteen?
-        - Is there a self-service system in the canteen?
-        - Are food prices regulated by the college?
-        - Does the canteen accept digital payments?
-        - Can staff also use the canteen facilities?
-        - How often is the food menu updated?
-        - Is there a feedback system for the canteen?
-        - Does the canteen provide packed food?
-        - Are there any combo meal offers available?
+  - intent: ask_canteen_availability
+    examples: |
+      - Is there a canteen in the college?
+      - Does the college have a canteen?
+      - Is a canteen available on campus?
+      - Do students have access to a canteen?
+      - Is there a cafeteria in the college?
+      - Does the campus provide a canteen facility?
+      - Is food available in the college canteen?
+      - Do you have a canteen in the college?
+
+  - intent: ask_canteen_food_options
+    examples: |
+      - What food options are available in the canteen?
+      - What kind of food does the canteen serve?
+      - Can you tell me the menu of the canteen?
+      - What dishes are available in the college canteen?
+      - Does the canteen serve vegetarian food?
+      - Are there any non-vegetarian options in the canteen?
+      - Do you have snacks in the college canteen?
+      - What are the meal options in the canteen?
+      - Can I get fast food in the college canteen?
+      - Is there a variety of food available in the canteen?
+
+  - intent: ask_canteen_timings
+    examples: |
+      - What are the canteen timings?
+      - When does the canteen open and close?
+      - What is the opening time of the canteen?
+      - What time does the canteen close?
+      - Can you tell me the working hours of the canteen?
+      - Is the canteen open all day?
+      - When is the canteen available for students?
+      - What are the lunch hours in the canteen?
+      - Does the canteen operate on weekends?
+      - At what time can I get food from the canteen?

@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
   - intent: thermal_faculty_details
     examples: |
@@ -84,7 +83,20 @@ nlu:
       - What is the average number of years Thermal Engineering faculty members have worked at SSMIET?
       - How many faculty members in the Thermal Engineering department hold postgraduate degrees?
 
-  - intent: thermal_total_students
+  - intent: thermal_engineering_yearwise_student_count
+    examples: |
+      - What is the year-wise student count for the Thermal Engineering department since the college started?
+      - Can you provide the student intake count for the Thermal Engineering department for each academic year since inception?
+      - How many students were admitted to the Thermal Engineering department each year from the beginning?
+      - What is the total number of students enrolled in the Thermal Engineering department for every academic year since the college started?
+      - How has the student strength of the Thermal Engineering department varied year by year since the first batch?
+      - What are the year-wise student counts for the Thermal Engineering department?
+      - Can you provide the student count for each year in the Thermal Engineering department?
+      - What is the breakdown of students by year in the Thermal Engineering department?
+      - How many students are there in each academic year of the Thermal Engineering department?
+      - What is the total number of students per year in the Thermal Engineering department?
+
+  - intent: thermal_engineering_total_students
     examples: |
       - What is the total student count in the Thermal Engineering department?
       - What is the total number of students currently enrolled in the Thermal Engineering department?
@@ -98,7 +110,7 @@ nlu:
       - How many students graduate from the Thermal Engineering department each year?
       - How many students are currently in their final year in Thermal Engineering?
 
-  - intent: thermal_female_girls_students
+  - intent: thermal_engineering_female_students
     examples: |
       - How many girls are there in the Thermal Engineering department?
       - What is the total number of female students in the Thermal Engineering department?
@@ -110,7 +122,7 @@ nlu:
       - How many female students have graduated from the Thermal Engineering department so far?
       - What is the trend of female student enrollment in the Thermal Engineering department?
 
-  - intent: thermal_male_boys_students
+  - intent: thermal_engineering_male_students
     examples: |
       - How many boys are there in the Thermal Engineering department?
       - What is the total number of male students in the Thermal Engineering department?

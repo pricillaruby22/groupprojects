@@ -1,5 +1,4 @@
 version: "3.1"
-
 stories:
   - story: User asks about HOD of CSE
     steps:
@@ -122,8 +121,8 @@ stories:
 
   - story: Provide extra courses details for CSE
     steps:
-      - intent: extra_courses_dept
-      - action: utter_extra_courses_dept   
+      - intent: extra_courses_cse_dept
+      - action: utter_extra_courses_cse_dept   
 
   - story: Provide CSE placement company names
     steps:
@@ -133,18 +132,7 @@ stories:
   - story: Accreditation inquiry
     steps:
       - intent: cse_accreditation
-      - action: utter_cse_accreditation
-      - action: utter_placement_company_names
-
-  - story: User asks about curriculum relevance
-    steps:
-      - intent: curriculum_relevance_industry
-      - action: utter_curriculum_relevance_industry
-
-  - story: Thank you response 
-    steps:
-      - intent: thank_you
-      - action: utter_you_are_welcome     
+      - action: utter_cse_accreditation 
 
   - story: CSE year-wise student count inquiries
     steps:
@@ -154,11 +142,20 @@ stories:
   - story: CSE event conducted photo inquiries
     steps:
       - intent: cse_event_conducted_photos
-      - action: utter_cse_event_photos
+      - action: utter_cse_event_conducted_photos
   
   - story: CSE faculty experience knowledge inquiries
     steps:
       - intent: cse_faculty_experience_knowledge
       - action: utter_cse_faculty_experience_knowledge
 
-      - action: utter_cse_faculty_experience_knowledge
+  - story: Provide cse staff count
+    steps:
+      - intent: cse_staff_count
+      - action: utter_cse_staff_count
+
+  - story: User asks for CSE department photos
+    steps:
+      - intent: photos_cse_dept
+      - action: utter_photos_cse_dept
+  

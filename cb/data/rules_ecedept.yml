@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -133,7 +132,7 @@ rules:
 
   - rule: Respond to accreditation queries
     steps:
-      - intent: ask_ece_accreditation
+      - intent: ece_accreditation
       - action: utter_ece_accreditation
 
   - rule: Respond to ECE year-wise student count queries

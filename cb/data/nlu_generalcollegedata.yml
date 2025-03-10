@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
   - intent: greet
     examples: |
@@ -123,16 +122,6 @@ nlu:
       - Is there a list of student numbers by gender?
       - How many students graduate from SSMIET every year?
 
-  - intent: hostel_availability
-    examples: |
-       - Is there a hostel facility?
-       - Does the college provide hostel accommodation?
-       - Can students stay in a hostel?
-       - Are there separate hostels for boys and girls?
-       - What are the hostel facilities like?
-       - Do you have hostel rooms available?
-       - hostel facility is available or not?
-
   - intent: family_visit
     examples: |
        - Are family visits allowed in the hostel?
@@ -225,6 +214,7 @@ nlu:
       - Is there a college bus service available?
       - Do you provide transportation for students?
       - Does SSMIET have its own buses?
+      - Is the Buses are available in all routes?
       - Is there a transport facility in your college?
       - Are college buses available for students?
       - Does SSMIET offer a pickup and drop service?
@@ -253,6 +243,8 @@ nlu:
       - Is it possible to switch to a different bus route?
       - How many times can I change my bus route in a semester?
       - Is there any additional fee for changing the bus route?
+      - Is there any buses for remote location?
+      - How many buses are available for particular stop
 
   - intent: principal_details
     examples: |
@@ -320,6 +312,9 @@ nlu:
       - What is the fee for different courses?
       - Are there hostel fees included in the total cost?
       - Do I have to pay for lab equipment separately?
+      - Give fees structures for the each courses?
+      - fees for ug courses
+      - can you provide the fee structure for all departments and all years?
 
   - intent: college_courses
     examples: |
@@ -338,9 +333,8 @@ nlu:
       - Can you provide a list of undergraduate(ug) and postgraduate(pg) courses?
       - Does the college offers AI and Data science courses?
       - Can I study medical courses here.
-      - Are there any research programs ?
-      - Are there any Phd courses available.
       - Are there any diploma courses offer?
+      - How many ug and pg courses are available in SSMIET?
 
   - intent: college_ug_courses
     examples: |
@@ -370,6 +364,8 @@ nlu:
       - List all the available ph.d courses
       - Tell me Research Programs
       - ph.d courses
+      - Are there any Phd courses available.
+      - Are there any research programs ?
 
   - intent: college_courses_duration
     examples: |
@@ -413,6 +409,7 @@ nlu:
       - Are there any reservations or quota-based admissions?
       - What are the eligibility requirements?
       - What is the eligibilty criteria?
+
   - intent: available_internships_and_placements
     examples: |
       - Do you offer internships?
@@ -427,6 +424,10 @@ nlu:
       - Do students get job offers before completing their course?
       - Is there a placement training program?
       - Do final-year students get placement support?
+      - Is the placement good in our college?
+      - MNC or startups
+      - Is the placement based on MNC [Multi National Company] or startups in the college?
+      - If SSMIET Students placed in any MNC Companies in ssmiet?
 
   - intent: change_the_course
     examples: |
@@ -554,6 +555,9 @@ nlu:
       - Are polytechnic diploma holders eligible for admission at SSMIET?
       - What are the eligibility criteria for lateral entry at SSMIET?
       - I am finished diploma.can i join this college now?
+      - Can diploma holders apply for lateral entry into engineering programs?
+      - Can diploma students study engineering?
+      - Can I join engineering after a diploma?
 
   - intent: Sports_NCC_government_management_quota
     examples: |
@@ -582,7 +586,7 @@ nlu:
       - Can you provide the previous years' placement statistics?
       - What are the placement records for the last five years?
       - How many students got placed in previous years?
-      - Share the past years' placement data.
+      - Share the past years placement data.
       - What is the placement trend at SSMIET over the years?
       - Can you provide year-wise placement details?
       - How many students were placed in the last few years?
@@ -594,13 +598,13 @@ nlu:
       - How many final-year students participate in campus placements?
       - How many students get placed in core companies?
       - How many students secure jobs through campus drives?
-
+      - Give me entire college placement details.
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
       - What are the qualifications of the faculty at SSMIET?
       - Can you provide details about the teaching staff’s qualifications?
-      - What is the educational background of the professors at SSMIET?
+      - What is the educational background of the staffs at SSMIET?
       - Are the faculty members at SSMIET highly qualified?
       - What degrees do the lecturers at SSMIET hold?
       - Do the professors at SSMIET have PhDs?
@@ -608,6 +612,9 @@ nlu:
       - Can you share information about the experience and qualifications of the teaching staff?
       - How experienced are the faculty members at SSMIET?
       - What are the academic credentials of the SSMIET faculty?
+      - Is the professors are well-scholared?
+      - Is the faculty are well-scholared?
+      - Is the staffs are well-scholared?
       
   - intent: college_timing
     examples: |
@@ -720,6 +727,9 @@ nlu:
       - How does SSMIET support research and innovation?
       - What are the career opportunities after studying at SSMIET?
       - Does SSMIET have collaborations with industries?
+      - Tell me some reason Why I choose your college
+      - reason for college to be best.
+      - Why I choose this college?what are the advantage or benefits or reason of this college
 
   - intent: staff_count
     examples: |
@@ -790,7 +800,7 @@ nlu:
       - Do you provide mentorship or one-on-one coaching for interview preparation?
       - How does the college support students in securing placements?
     
-  - intent: smart_classrooms
+  - intent: smart_classrooms_projector
     examples: |
       - Does the college have smart classrooms?
       - How many smart classrooms are available on campus?
@@ -900,6 +910,7 @@ nlu:
       - Is there a graduation day ceremony for final-year students?
       - Is there any department-wise celebration or special event?
       - Does the college conduct fresher’s day for new students?
+      - Is there any cultural festivals and other festival celebrations ?
 
   - intent: first_year_1st_students_count
     examples: |
@@ -971,6 +982,7 @@ nlu:
       - What were the initial challenges faced by SSMIET?
       - How has SSMIET contributed to student career development over the years?
       - Tell me about the journey of SSMIET.
+      - college history
 
   - intent: average_campus_placement
     examples: |
@@ -1021,22 +1033,8 @@ nlu:
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
 
-  - intent: lab_hardware_college
-    examples: |
-      - What are the hardware specifications of the computer labs in SSMIET?
-      - How many computers are available in the CSE department labs at SSMIET?
-      - What is the processor and RAM configuration of lab systems in SSMIET?
-      - Does SSMIET provide high-performance computing facilities in its labs?
-      - Are there dedicated servers for lab usage in SSMIET?
-      - What networking infrastructure is available in the CSE labs at SSMIET?
-      - Do the labs in SSMIET have GPU-enabled systems for AI/ML projects?
-      - What additional lab equipment is available in SSMIET’s CSE department?
-      - Are the lab systems in SSMIET regularly upgraded with the latest hardware?
-      - Does SSMIET provide specialized hardware for research projects in CSE?
-  
   - intent: student_feedback
     examples: |
-
       - How can I give feedback?
       - Where can I submit my feedback about the college?
       - I want to share my opinion about my courses.
@@ -1088,115 +1086,63 @@ nlu:
       - Where can I see the recruitment schedule?
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
-  - intent : student_feedback
-    examples: |
-      - How can I give feedback?
-      - Where can I submit my feedback about the college?
-      - I want to share my opinion about my courses.
-      - Student feedback form link?
-      - How do I provide feedback on my professors?
-      - Can I review my professor's teaching?
-      - Is there a way to rate the faculty?
-      - Feedback for college infrastructure?
-      - I want to complain about a course.
-      - How to give suggestions to improve the college?
-      - What is the student feedback system?
-      - Can I submit an anonymous feedback?
-      - Where can I review my academic experience?
-      - Share link for feedback?
-      - How to submit a complaint about faculty?
-
-  - intent: water_facilities
-    examples: |
-    - What are the drinking water facilities available?
-    - Are there enough water coolers on campus?
-    - Is there clean drinking water in our college?
-    - Where can I find water coolers?
-    - Drinking purified water available in this SSMIET college?
-    - Does the college provide purified water?
-    - Is there a problem with drinking water?
-    - I need drinking water near my classroom.
-    - Are the water dispensers working?
-    - Is the water filter properly maintained?
-    - Can I get bottled water on campus?
-    - Any water shortage issues in college?
-    - Where are the water refill stations?
-    - Is the drinking water tested regularly?
-    - Can I bring my own water bottle?
-
-  - intent: recruiters_college_for_placements
-    examples: |
-    - What are the placement companies coming for hiring?
-    - Who are all the recruiters of this college?
-    - Which companies visit for hiring this college?
-    - Does this college have campus recruitment?
-    - Which companies visit the college for placements?
-    - Can you tell me about job opportunities?
-    - Are there any recruiters coming this year?
-    - Does the college have a placement cell?
-    - Can I get placed through college?
-    - What are the placements provided in this college?
-    - How many companies visited last year?
-    - Do startups also recruit/hire from this college?
-    - Where can I see the recruitment schedule?
-    - Are placements guaranteed for all students?
-    - How many recruiters are there in this college?
-
+      
   - intent: sports_achievements
     examples: |
-    - What are all the sports available in this college?
-    - Tell me about the sports achievements?
-    - Is this college (SSMIET) good enough in sports/athletes?
-    - Sports achievement details?
-    - What are the sports achievements of this year?
-    - Can you tell me about the sports events?
-    - Which sports competitions were won by students?
-    - Has our college won any sports trophies?
-    - How did our sports teams perform this year?
-    - List the recent sports awards won.
-    - Which sports does our college excel in?
-    - Did we win any inter-college tournaments?
-    - Can I join a sports team?
-    - Where can I check the sports achievements?
+      - What are all the sports available in this college?
+      - Tell me about the sports achievements?
+      - Is this college (SSMIET) good enough in sports/athletes?
+      - Sports achievement details?
+      - What are the sports achievements of this year?
+      - Can you tell me about the sports events?
+      - Which sports competitions were won by students?
+      - Has our college won any sports trophies?
+      - How did our sports teams perform this year?
+      - List the recent sports awards won.
+      - Which sports does our college excel in?
+      - Did we win any inter-college tournaments?
+      - Can I join a sports team?
+      - Where can I check the sports achievements?
   - intent: software_lab_details
     examples: |
-    - What are the software available in labs?
-    - Which programming software are used in college?
-    - Is Turbo C available in labs?
-    - Can I use Python IDLE in labs?
-    - Do labs have updated software?
-    - What IDEs are available in the college labs?
-    - Is VS Code installed in labs?
-    - Do labs provide Eclipse for Java programming?
-    - Does lab software change every semester?
-    - What are the latest updates in lab software?
+      - What are the software available in labs?
+      - Which programming software are used in college?
+      - Is Turbo C available in labs?
+      - Can I use Python IDLE in labs?
+      - Do labs have updated software?
+      - What IDEs are available in the college labs?
+      - Is VS Code installed in labs?
+      - Do labs provide Eclipse for Java programming?
+      - Does lab software change every semester?
+      - What are the latest updates in lab software?
   - intent: ask_lab_hardware
     examples: |
-    - Tell me about your lab components
-    - What hardware is available in the lab?
-    - Can you describe the lab setup?
-    - What computers do you have in the lab?
-    - What is the system configuration in your lab?
-    - Tell me the hardware details of your lab
-    - What are the specs of the lab computers?
-    - What are the hardware details of the lab? (Professor)
-    - Tell me about the lab setup for research
-    - What computing resources are available for faculty?
-    - What hardware does the lab have for students?
-    - What are the system specs in the student lab?
-    - Can I use Ubuntu in the lab?
-    - What hardware inventory does the lab have?
-    - How many systems are available in the lab?
+      - Tell me about your lab components
+      - What hardware is available in the lab?
+      - Can you describe the lab setup?
+      - What computers do you have in the lab?
+      - What is the system configuration in your lab?
+      - Tell me the hardware details of your lab
+      - What are the specs of the lab computers?
+      - What are the hardware details of the lab? (Professor)
+      - Tell me about the lab setup for research
+      - What computing resources are available for faculty?
+      - What hardware does the lab have for students?
+      - What are the system specs in the student lab?
+      - Can I use Ubuntu in the lab?
+      - What hardware inventory does the lab have?
+      - How many systems are available in the lab?
+
   - intent: staff_professor_count
     examples: |
-    - How many professors are there in the college?
-    - What is the count of teaching staff?
-    - How many non-teaching staff are in the college?
-    - Staff count details for 2024?
-    - Professor count over the last few years?
-    - How many faculty members are there?
-    - What is the teaching and non-teaching staff count?
-    - Staff statistics for past years?
+      - How many professors are there in the college?
+      - What is the count of teaching staff?
+      - How many non-teaching staff are in the college?
+      - Staff count details for 2024?
+      - Professor count over the last few years?
+      - How many faculty members are there?
+      - What is the teaching and non-teaching staff count?
+      - Staff statistics for past years?
     
 synonyms:
   - synonym: recruitment
@@ -1248,39 +1194,121 @@ synonyms:
       - Who should I contact if I face any issues related to ragging?
       - How does the college handle false complaints about ragging?
 
-  - intent: ask_bus_seat
+  - intent: ask_bus_seat_fcfs
     examples: |
-      - Does everyone get a separate seat on the bus?
-      - Will I have my own seat in the college bus?
-      - Is the bus seating guaranteed for each student?
-      - Do all students get individual seats on the bus?
-      - Will I have to share my seat with someone?
-      - Are there enough seats for all students in the college bus?
-      - What happens if the bus is full?
-      - Can I reserve a seat in advance?
-      - Is the seating based on first-come, first-served?
-      - Do we have to stand if the bus is full?
+      - Is the bus seating on a first-come, first-served basis?
+      - How are bus seats allocated in the college?
+      - Do students get seats on a first-come basis in the bus?
+      - Is there a fixed seating arrangement on the bus?
+      - Are bus seats reserved or first-come, first-served?
+      - Do I have to arrive early to get a bus seat?
+      - How does the seating system work in college buses?
+      - If the bus is full, do students have to stand?
+      - Are bus seats assigned, or do we take any available seat?
+      - What happens if there are no seats left on the bus?
 
-  - intent: ask_campus_photos
+  - intent: ask_bus_seat_full
+    examples: |
+      - What happens if the bus is full?
+      - Do students have to stand if the bus is full?
+      - Is there any extra bus if the seats are full?
+      - What should I do if I don't get a seat on the bus?
+      - Are additional buses provided when the bus is full?
+
+  - intent: ask_bus_seat_no_reservation
+    examples: |
+      - Are bus seats reserved in advance?
+      - Is there any seat reservation system for the college bus?
+      - Do students get assigned seats on the bus?
+      - Can I book a bus seat beforehand?
+      - Are bus seats allocated based on reservation?
+      - Is there a pre-booking system for bus seats?
+      - Do I need to reserve a seat before traveling on the bus?
+      - How are bus seats assigned? Is it by reservation?
+      - Are students given fixed seats on the bus?
+      - Does the college allow seat reservations for buses?
+
+  - intent: ask_campus_general_photos
     examples: |
       - Can I see photos of the college campus?
-      - Do you have pictures of the college?
-      - Show me some images of the campus.
-      - Where can I find photos of the college?
-      - Do you have any photos of the classrooms and buildings?
+      - Do you have pictures of the campus?
+      - Show me some images of the college.
+      - Where can I find college campus photos?
       - I want to see how the college looks.
-      - Are there any pictures of the college library and labs?
-      - Can you share campus photos?
-      - Show me the auditorium photos.
-      - Do you have photos of the canteen?
-      - Can I see the hostel?
-      - Show me pictures of the playground.
-      - Where can I find photos of the library?
-      - Do you have any campus tour images?
-      - Is there a virtual tour of the college?
-      - Can I get a view of the main areas of the campus? 
+      - Can you provide some general images of the college?
+      - Do you have any photos of the college facilities?
+      - Show me some images of the college environment.
+      - Do you have pictures of different areas of the campus?
+      - Can you show me images of the college entrance?
+      - Where can I find pictures of the main building?
+      - Are there any photos of the college auditorium?
 
-  - intent: ask_bus_facility
+  - intent: ask_campus_auditorium_photos
+    examples: |
+      - Can I see photos of the college auditorium?
+      - Do you have any images of the auditorium?
+      - Show me pictures of the auditorium.
+      - Where can I find auditorium photos?
+      - I want to see how the auditorium looks.
+      - Can you provide some images of the auditorium?
+      - Do you have any photos of the auditorium facilities?
+      - Show me some images of the college auditorium.
+      - Do you have pictures of events held in the auditorium?
+      - Are there any photos of the auditorium seating arrangement?
+
+  - intent: ask_campus_canteen_photos
+    examples: |
+      - Can I see photos of the college canteen?
+      - Do you have any images of the canteen?
+      - Show me pictures of the canteen.
+      - Where can I find canteen photos?
+      - I want to see how the canteen looks.
+      - Can you provide some images of the canteen?
+      - Do you have any photos of the canteen facilities?
+      - Show me some images of the college canteen.
+      - Do you have pictures of the seating area in the canteen?
+      - Are there any photos of the food served in the canteen?
+
+  - intent: ask_campus_hostel_photos
+    examples: |
+      - Can I see a photo of the hostel?
+      - Show me a picture of the college hostel.
+      - Do you have any images of the hostel?
+      - I want to see how the hostel looks.
+      - Hostel photos, please.
+      - Can you provide a hostel image?
+      - What does the hostel look like?
+      - Give me a picture of the hostel.
+      - Show hostel images.
+      - Provide a photo of the hostel building.
+
+  - intent: ask_campus_library_photos
+    examples: |
+      - Can I see photos of the college library?
+      - Do you have any images of the library?
+      - Show me pictures of the library.
+      - Where can I find library photos?
+      - I want to see how the library looks.
+      - Can you provide some images of the library?
+      - Do you have any photos of the library facilities?
+      - Show me some images of the college library.
+      - Do you have pictures of the reading area in the library?
+      - Are there any photos of the bookshelves in the library?
+
+  - intent: ask_campus_playground_photos
+    examples: |
+      - Can I see a photo of the playground?
+      - Show me a picture of the college playground.
+      - Do you have any images of the playground?
+      - I want to see how the playground looks.
+      - Playground photos, please.
+      - Can you provide a playground image?
+      - What does the playground look like?
+      - Give me a picture of the playground.
+      - Show playground images.
+      - Provide a photo of the college sports ground.
+
+  - intent: ask_bus_facility_details
     examples: |
       - What are the bus facilities available at the college?
       - Is there a college bus service?
@@ -1302,12 +1330,6 @@ synonyms:
       - Are the buses air-conditioned?
       - What should I do if I miss my bus?
       - Is there a helpline for bus-related issues?           
-
-  - intent: goodbye
-    examples: |
-      - Bye
-      - See you later
-      - Goodbye
 
   - intent: sem_exam_result
     examples: |
@@ -1361,7 +1383,7 @@ synonyms:
       - Can fees be paid through UPI or net banking?
       - Is there an online portal for fee payment?
 
-  - intent: inquire_gate_coaching
+  - intent: gate_coaching
     examples: |
       - Is GATE coaching available in the college?
       - Does the college provide GATE tutorials for students?
@@ -1391,3 +1413,26 @@ synonyms:
       - Football cricket have?
       - What hostel give for play?
       - Hostel have play items?
+
+  - intent: curriculum_relevance_industry
+    examples: |
+      - How does my course content align with current industry standards?
+      - Is my curriculum updated based on industry trends?
+      - does this college have the curriculum updated to the industrial needs
+      - Are we learning skills that companies are looking for right now?
+      - Does the university update subjects to match job market requirements?
+      - How do the syllabus matches with the industry needs?
+      - How does this curriculum ensure graduates meet industry needs?
+      - Are students trained in the latest technologies we use in our company?
+      - Does the institution collaborate with companies to update coursework?
+      - is the syllabus related to the curriculum?
+      - How do you incorporate real-world skills into the academic program?
+      - How do we revise the curriculum based on industry trends?
+      - Do we incorporate industry certifications and real-world projects in the syllabus?
+      - how the ssmietcollege manage in keeping the curriculum relevant?
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - See you later
+      - Goodbye

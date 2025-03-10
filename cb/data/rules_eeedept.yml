@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -133,7 +132,7 @@ rules:
 
   - rule: Respond to accreditation queries
     steps:
-      - intent: ask_eee_accreditation
+      - intent: eee_accreditation
       - action: utter_eee_accreditation
 
   - rule: Respond to EEE year-wise student count queries

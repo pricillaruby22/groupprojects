@@ -1,5 +1,4 @@
 version: "3.1"
-
 rules:
   - rule: Respond to HOD queries
     steps:
@@ -128,7 +127,7 @@ rules:
 
   - rule: Respond to accreditation queries
     steps:
-      - intent: ask_mech_accreditation
+      - intent: mech_accreditation
       - action: utter_mech_accreditation
 
   - rule: Respond to Mechanical year-wise student count queries

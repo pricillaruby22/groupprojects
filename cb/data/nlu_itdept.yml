@@ -1,169 +1,168 @@
 version: "3.1"
-
 nlu:
-    - intent: it_hod_details
-      examples: |
-        - Who is the Head of the Information Technology Department at SSMIET?
-        - Can you provide the qualifications and experience details of the IT HOD?
-        - What are the research areas of the HOD of IT?
-        - Who is the IT department head at this college?
-        - What is the experience of the IT HOD?
-        - Can you tell me about the background of the HOD of IT?
-        - Who is in charge of the IT department?
-        - How long has the HOD of IT been working?
-        - Is the head of IT experienced?
+  - intent: it_hod_details
+    examples: |
+      - Who is the Head of the Information Technology Department at SSMIET?
+      - Can you provide the qualifications and experience details of the IT HOD?
+      - What are the research areas of the HOD of IT?
+      - Who is the IT department head at this college?
+      - What is the experience of the IT HOD?
+      - Can you tell me about the background of the HOD of IT?
+      - Who is in charge of the IT department?
+      - How long has the HOD of IT been working?
+      - Is the head of IT experienced?
 
-    - intent: it_faculty_details
-      examples: |
-        - Who are the faculty members of the IT department?
-        - Can you list the IT department faculty?
-        - Tell me about the educators in the IT department.
-        - Provide details on Information Technology department professors.
-        - Give me a list of IT department staff.
-        - Who teaches in the IT department?
-        - I am uneducated about the staff in IT. Can you list them?
-        - Tell me who the IT professors are.
-        - Can you give me some information about the IT faculty?
-        - Who are the key faculty members in IT?
-        - Give me more details about the educators in IT.
-        - List out the IT teaching faculty.
+  - intent: it_faculty_details
+    examples: |
+      - Who are the faculty members of the IT department?
+      - Can you list the IT department faculty?
+      - Tell me about the educators in the IT department.
+      - Provide details on Information Technology department professors.
+      - Give me a list of IT department staff.
+      - Who teaches in the IT department?
+      - I am uneducated about the staff in IT. Can you list them?
+      - Tell me who the IT professors are.
+      - Can you give me some information about the IT faculty?
+      - Who are the key faculty members in IT?
+      - Give me more details about the educators in IT.
+      - List out the IT teaching faculty.
 
-    - intent: peo_it_department
-      examples: |
-        - What does PEO stand for in the IT department?
-        - What is the PEO of IT department?
-        - Tell me about PEO of Information Technology.
-        - What are the PEOs in IT department?
-        - How do PEOs help in shaping the career of an Information Technology graduate?
-        - What are the key components of a typical IT department PEO?
-        - What are the key goals of PEOs in Information Technology?
-        - Why are Program Educational Objectives (PEOs) important for Information Technology students?
-        - How do Program Educational Objectives (PEOs) help in shaping an IT graduate’s career?
-        - What are the key components of Program Educational Objectives (PEOs) in an IT program?
+  - intent: peo_it_department
+    examples: |
+      - What does PEO stand for in the IT department?
+      - What is the PEO of IT department?
+      - Tell me about PEO of Information Technology.
+      - What are the PEOs in IT department?
+      - How do PEOs help in shaping the career of an Information Technology graduate?
+      - What are the key components of a typical IT department PEO?
+      - What are the key goals of PEOs in Information Technology?
+      - Why are Program Educational Objectives (PEOs) important for Information Technology students?
+      - How do Program Educational Objectives (PEOs) help in shaping an IT graduate’s career?
+      - What are the key components of Program Educational Objectives (PEOs) in an IT program?
 
-    - intent: po_it_department
-      examples: |
-        - What does PO stand for in the IT department?
-        - What is the PO of the IT department?
-        - Tell me about PO of Information Technology.
-        - What are the POs in the IT department?
-        - How do POs help in shaping the career of an Information Technology graduate?
-        - What are the key components of a typical IT department PO?
-        - What are the key goals of POs in Information Technology?
-        - Why are Program Outcomes (POs) important for Information Technology students?
-        - How do Program Outcomes (POs) help in shaping an IT graduate’s career?
-        - What are the key components of Program Outcomes (POs) in an IT program?
+  - intent: po_it_department
+    examples: |
+      - What does PO stand for in the IT department?
+      - What is the PO of the IT department?
+      - Tell me about PO of Information Technology.
+      - What are the POs in the IT department?
+      - How do POs help in shaping the career of an Information Technology graduate?
+      - What are the key components of a typical IT department PO?
+      - What are the key goals of POs in Information Technology?
+      - Why are Program Outcomes (POs) important for Information Technology students?
+      - How do Program Outcomes (POs) help in shaping an IT graduate’s career?
+      - What are the key components of Program Outcomes (POs) in an IT program?
 
-    - intent: pso_it_department
-      examples: |
-        - What does PSO stand for in the IT department?
-        - What is the PSO of the IT department?
-        - Tell me about PSO of Information Technology.
-        - What are the PSOs in the IT department?
-        - How do PSOs help in shaping the career of an Information Technology graduate?
-        - What are the key components of a typical IT department PSO?
-        - What are the key goals of PSOs in Information Technology?
-        - Why are Program Specific Outcomes (PSOs) important for Information Technology students?
-        - How do Program Specific Outcomes (PSOs) help in shaping an IT graduate’s career?
-        - What are the key components of Program Specific Outcomes (PSOs) in an IT program?
+  - intent: pso_it_department
+    examples: |
+      - What does PSO stand for in the IT department?
+      - What is the PSO of the IT department?
+      - Tell me about PSO of Information Technology.
+      - What are the PSOs in the IT department?
+      - How do PSOs help in shaping the career of an Information Technology graduate?
+      - What are the key components of a typical IT department PSO?
+      - What are the key goals of PSOs in Information Technology?
+      - Why are Program Specific Outcomes (PSOs) important for Information Technology students?
+      - How do Program Specific Outcomes (PSOs) help in shaping an IT graduate’s career?
+      - What are the key components of Program Specific Outcomes (PSOs) in an IT program?
 
-    - intent: it_department_info_about
-      examples: |
-        - When was the IT department established?
-        - Is the IT department approved by AICTE?
-        - Tell me about Information Technology.
-        - Which university is the IT department affiliated with?
-        - How does the IT department support student learning?
-        - How does the Information Technology department help students achieve academic and career goals?
-        - How does the Information Technology department emphasize co-curricular and extracurricular activities?
-        - Tell me about IT department.
-        - What is the about of IT department?
+  - intent: it_department_info_about
+    examples: |
+      - When was the IT department established?
+      - Is the IT department approved by AICTE?
+      - Tell me about Information Technology.
+      - Which university is the IT department affiliated with?
+      - How does the IT department support student learning?
+      - How does the Information Technology department help students achieve academic and career goals?
+      - How does the Information Technology department emphasize co-curricular and extracurricular activities?
+      - Tell me about IT department.
+      - What is the about of IT department?
 
-    - intent: it_department_vision
-      examples: |
-        - What is the vision of the IT department?
-        - What are the key goals of the IT department’s vision?
-        - How does the IT department work towards achieving its vision?
-        - How does the vision of the IT department benefit students?
-        - What impact does the IT department’s vision have on technical education?
-        - Does the vision of the IT department focus on industry readiness?
-        - How does the IT department’s vision align with modern technology trends?
-        - What initiatives are taken to fulfill the IT department’s vision?
-        - How does research and innovation contribute to the IT department’s vision?
-        - Does the vision of the IT department include global technological advancements?
-        - Tell me about vision of IT department.
+  - intent: it_department_vision
+    examples: |
+      - What is the vision of the IT department?
+      - What are the key goals of the IT department’s vision?
+      - How does the IT department work towards achieving its vision?
+      - How does the vision of the IT department benefit students?
+      - What impact does the IT department’s vision have on technical education?
+      - Does the vision of the IT department focus on industry readiness?
+      - How does the IT department’s vision align with modern technology trends?
+      - What initiatives are taken to fulfill the IT department’s vision?
+      - How does research and innovation contribute to the IT department’s vision?
+      - Does the vision of the IT department include global technological advancements?
+      - Tell me about vision of IT department.
 
-    - intent: it_department_mission
-      examples: |
-        - What is the mission of the IT department?
-        - What are the key goals of the IT department’s mission?
-        - How does the IT department work towards achieving its mission?
-        - How does the mission of the IT department benefit students?
-        - What impact does the IT department’s mission have on technical education?
-        - Does the mission of the IT department focus on industry readiness?
-        - How does the IT department’s mission align with modern technology trends?
-        - What initiatives are taken to fulfill the IT department’s mission?
-        - Tell me about mission of IT department.
+  - intent: it_department_mission
+    examples: |
+      - What is the mission of the IT department?
+      - What are the key goals of the IT department’s mission?
+      - How does the IT department work towards achieving its mission?
+      - How does the mission of the IT department benefit students?
+      - What impact does the IT department’s mission have on technical education?
+      - Does the mission of the IT department focus on industry readiness?
+      - How does the IT department’s mission align with modern technology trends?
+      - What initiatives are taken to fulfill the IT department’s mission?
+      - Tell me about mission of IT department.
 
-    - intent: it_total_students
-      examples: |
-        - What is the total student count in the IT department?
-        - What is the total number of students currently enrolled in the IT department?
-        - How many students are studying in the IT department this academic year?
-        - What is the total student strength of the IT department?
-        - How many students have been admitted to the IT department this year?
-        - What is the total student intake capacity for the IT department?
-        - How many students are in each year of the IT department?
-        - What is the total number of students in the undergraduate IT program?
-        - How many students are currently pursuing B.Tech IT?
-        - How many students graduate from the IT department each year?
-        - How many students are currently in their final year in IT?
+  - intent: it_total_students
+    examples: |
+      - What is the total student count in the IT department?
+      - What is the total number of students currently enrolled in the IT department?
+      - How many students are studying in the IT department this academic year?
+      - What is the total student strength of the IT department?
+      - How many students have been admitted to the IT department this year?
+      - What is the total student intake capacity for the IT department?
+      - How many students are in each year of the IT department?
+      - What is the total number of students in the undergraduate IT program?
+      - How many students are currently pursuing B.Tech IT?
+      - How many students graduate from the IT department each year?
+      - How many students are currently in their final year in IT?
 
-    - intent: it_female_girls_students
-      examples: |
-        - How many girls are there in the IT department?
-        - What is the total number of female students in the IT department?
-        - How many girls are currently enrolled in the IT department?
-        - What percentage of IT students are girls?
-        - How many female students joined the IT department this year?
-        - How many girls are in each year of the IT department?
-        - Has the number of girls in the IT department increased over the years?
-        - How many female students have graduated from the IT department so far?
-        - What is the trend of female student enrollment in the IT department?
+  - intent: it_female_girls_students
+    examples: |
+      - How many girls are there in the IT department?
+      - What is the total number of female students in the IT department?
+      - How many girls are currently enrolled in the IT department?
+      - What percentage of IT students are girls?
+      - How many female students joined the IT department this year?
+      - How many girls are in each year of the IT department?
+      - Has the number of girls in the IT department increased over the years?
+      - How many female students have graduated from the IT department so far?
+      - What is the trend of female student enrollment in the IT department?
 
-    - intent: it_male_boys_students
-      examples: |
-        - How many boys are there in the IT department?
-        - What is the total number of male students in the IT department?
-        - How many boys are currently enrolled in the IT department?
-        - What percentage of IT students are boys?
-        - How many male students joined the IT department this year?
-        - How many boys are in each year of the IT department?
-        - Has the number of boys in the IT department increased over the years?
-        - How many male students have graduated from the IT department so far?
-        - What is the trend of male student enrollment in the IT department?
-  
-    - intent: mou_sign_company_it
-      examples: |
-        - Which companies have signed an MOU with the B.Tech IT department?
-        - Can you provide details on MOU-signed companies for B.Tech IT?
-        - Tell me about the industry collaborations for B.Tech IT.
-        - Which organizations have partnered with the B.Tech IT department?
-        - List the companies that have signed an MOU with B.Tech IT.
-        - What is an MOU?
-        - Can you explain what MOU means?
-        - I don’t understand MOU. Can you help?
-        - What does it mean when a company signs an MOU?
-        - Explain MOU in simple terms.
-        - Can you give me a list of MOU-signed companies for B.Tech IT?
-        - Which companies have recently signed an MOU with B.Tech IT?
-        - How does an MOU benefit B.Tech IT students?
-        - Tell me about the latest MOU collaborations for B.Tech IT.
-        - Give me details on MOU partners and their dates for B.Tech IT.
-        - Give me the details about tie-up companies for B.Tech IT.
-                      
-    - intent: placement_company_names_it
-      examples: |
+  - intent: it_male_boys_students
+    examples: |
+      - How many boys are there in the IT department?
+      - What is the total number of male students in the IT department?
+      - How many boys are currently enrolled in the IT department?
+      - What percentage of IT students are boys?
+      - How many male students joined the IT department this year?
+      - How many boys are in each year of the IT department?
+      - Has the number of boys in the IT department increased over the years?
+      - How many male students have graduated from the IT department so far?
+      - What is the trend of male student enrollment in the IT department?
+
+  - intent: mou_sign_company_it
+    examples: |
+      - Which companies have signed an MOU with the B.Tech IT department?
+      - Can you provide details on MOU-signed companies for B.Tech IT?
+      - Tell me about the industry collaborations for B.Tech IT.
+      - Which organizations have partnered with the B.Tech IT department?
+      - List the companies that have signed an MOU with B.Tech IT.
+      - What is an MOU?
+      - Can you explain what MOU means?
+      - I don’t understand MOU. Can you help?
+      - What does it mean when a company signs an MOU?
+      - Explain MOU in simple terms.
+      - Can you give me a list of MOU-signed companies for B.Tech IT?
+      - Which companies have recently signed an MOU with B.Tech IT?
+      - How does an MOU benefit B.Tech IT students?
+      - Tell me about the latest MOU collaborations for B.Tech IT.
+      - Give me details on MOU partners and their dates for B.Tech IT.
+      - Give me the details about tie-up companies for B.Tech IT.
+                    
+  - intent: placement_company_names_it
+    examples: |
       - Which companies come for placements in B.Tech IT?
       - What are the company names for B.Tech IT placements?
       - List the companies recruiting B.Tech IT students
@@ -175,44 +174,70 @@ nlu:
       - What are the companies are coming and hiring for B.Tech IT final year placements?
       - Is there any top companies for placement in B.Tech IT? 
 
-    - intent: it_accreditation
-      examples: |
-        - What are the accreditations and affiliations of the B.Tech IT department?
-        - Is the B.Tech IT department accredited by NAAC and AICTE?
-        - Under which university is the B.Tech IT department affiliated?
-        - Is the B.Tech IT department approved by the government?
-        - Does the B.Tech IT department have AICTE and NAAC approval?
-        - Which university is the B.Tech IT department connected with?
-        - Is the B.Tech IT department good?
-        - Is this college’s B.Tech IT department recognized by the government?
-        - Is the B.Tech IT course valid for jobs?
-        - Give me the names of companies for B.Tech IT placements   
+  - intent: it_accreditation
+    examples: |
+      - What are the accreditations and affiliations of the B.Tech IT department?
+      - Is the B.Tech IT department accredited by NAAC and AICTE?
+      - Under which university is the B.Tech IT department affiliated?
+      - Is the B.Tech IT department approved by the government?
+      - Does the B.Tech IT department have AICTE and NAAC approval?
+      - Which university is the B.Tech IT department connected with?
+      - Is the B.Tech IT department good?
+      - Is this college’s B.Tech IT department recognized by the government?
+      - Is the B.Tech IT course valid for jobs?
+      - Give me the names of companies for B.Tech IT placements   
 
-    - intent: it_event_conducted_photos
-      examples: |
-        - Can you provide photos of events conducted by the B.Tech IT department?  
-        - Where can I find images of past B.Tech IT department events?  
-        - Do you have a gallery of B.Tech IT department event photos?  
-        - Can you share pictures from recent B.Tech IT department activities?  
-        - Are there any photos available from B.Tech IT department symposiums and workshops?  
-        - How can I access images of hackathons and technical events hosted by the B.Tech IT department?  
-        - Do you have any pictures from cultural events organized by the B.Tech IT department?  
-        - Can I see photos of guest lectures and seminars conducted by the B.Tech IT department?  
-        - Are there any images of student project presentations in the B.Tech IT department?  
-        - Where can I view photos from annual B.Tech IT department functions and celebrations?
+  - intent: it_event_conducted_photos
+    examples: |
+      - Can you provide photos of events conducted by the B.Tech IT department?  
+      - Where can I find images of past B.Tech IT department events?  
+      - Do you have a gallery of B.Tech IT department event photos?  
+      - Can you share pictures from recent B.Tech IT department activities?  
+      - Are there any photos available from B.Tech IT department symposiums and workshops?  
+      - How can I access images of hackathons and technical events hosted by the B.Tech IT department?  
+      - Do you have any pictures from cultural events organized by the B.Tech IT department?  
+      - Can I see photos of guest lectures and seminars conducted by the B.Tech IT department?  
+      - Are there any images of student project presentations in the B.Tech IT department?  
+      - Where can I view photos from annual B.Tech IT department functions and celebrations?
+      
+  - intent: it_yearwise_student_count
+    examples: |
+      - What is the year-wise student count for the B.Tech IT department since the college started?
+      - Can you provide the student intake count for the B.Tech IT department for each academic year since inception?
+      - How many students were admitted to the B.Tech IT department each year from the beginning?
+      - What is the total number of students enrolled in the B.Tech IT department for every academic year since the college started?
+      - How has the student strength of the B.Tech IT department varied year by year since the first batch?
+      - What are the year-wise student counts for the B.Tech IT department?
+      - Can you provide the student count for each year in the B.Tech IT department?
+      - What is the breakdown of students by year in the B.Tech IT department?
+      - How many students are there in each academic year of the B.Tech IT department?
+      - What is the total number of students per year in the B.Tech IT department?
 
-    - intent: it_faculty_experience_knowledge
-      examples: |
-        - What is the average teaching experience of B.Tech IT faculty at SSMIET?
-        - How many years of experience do the B.Tech IT faculty members have on average?
-        - What is the average industry experience of B.Tech IT faculty at SSMIET?
-        - How many faculty members in the B.Tech IT department have more than 10 years of experience?
-        - What is the experience range of professors in the B.Tech IT department?
-        - How many faculty members in B.Tech IT have prior industry knowledge?
-        - What percentage of B.Tech IT faculty have Ph.D. qualifications?
-        - How often do B.Tech IT faculty members update their knowledge with training or certifications?
-        - What is the total teaching experience of the senior-most faculty in the B.Tech IT department?
-        - How many B.Tech IT faculty members have more than five years of teaching experience?
+  - intent: it_event_conducted_photos
+    examples: |
+      - Can you provide photos of events conducted by the B.Tech IT department?  
+      - Where can I find images of past B.Tech IT department events?  
+      - Do you have a gallery of B.Tech IT department event photos?  
+      - Can you share pictures from recent B.Tech IT department activities?  
+      - Are there any photos available from B.Tech IT department symposiums and workshops?  
+      - How can I access images of hackathons and technical events hosted by the B.Tech IT department?  
+      - Do you have any pictures from cultural events organized by the B.Tech IT department?  
+      - Can I see photos of guest lectures and seminars conducted by the B.Tech IT department?  
+      - Are there any images of student project presentations in the B.Tech IT department?  
+      - Where can I view photos from annual B.Tech IT department functions and celebrations?
+
+  - intent: it_faculty_experience_knowledge
+    examples: |
+      - What is the average teaching experience of B.Tech IT faculty at SSMIET?
+      - How many years of experience do the B.Tech IT faculty members have on average?
+      - What is the average industry experience of B.Tech IT faculty at SSMIET?
+      - How many faculty members in the B.Tech IT department have more than 10 years of experience?
+      - What is the experience range of professors in the B.Tech IT department?
+      - How many faculty members in B.Tech IT have prior industry knowledge?
+      - What percentage of B.Tech IT faculty have Ph.D. qualifications?
+      - How often do B.Tech IT faculty members update their knowledge with training or certifications?
+      - What is the total teaching experience of the senior-most faculty in the B.Tech IT department?
+      - How many B.Tech IT faculty members have more than five years of teaching experience?
 
 
 

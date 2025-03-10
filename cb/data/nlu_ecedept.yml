@@ -1,82 +1,81 @@
 version: "3.1"
-
 nlu:
-      - intent: ece_hod_details
-        examples: |
-          - Who is the Head of the Electronics and Communication Engineering Department at SSMIET?
-          - Can you provide the qualifications and experience details of the ECE HOD?
-          - What are the research areas of the HOD of ECE?
-          - Who is the ECE department head at this college?
-          - What is the experience of the ECE HOD?
-          - Can you tell me about the background of the HOD of ECE?
-          - Who is in charge of the ECE department?
-          - How long has the HOD of ECE been working?
-          - Is the head of ECE experienced?
+    - intent: ece_hod_details
+      examples: |
+        - Who is the Head of the Electronics and Communication Engineering Department at SSMIET?
+        - Can you provide the qualifications and experience details of the ECE HOD?
+        - What are the research areas of the HOD of ECE?
+        - Who is the ECE department head at this college?
+        - What is the experience of the ECE HOD?
+        - Can you tell me about the background of the HOD of ECE?
+        - Who is in charge of the ECE department?
+        - How long has the HOD of ECE been working?
+        - Is the head of ECE experienced?
 
-      - intent: ece_faculty_details
-        examples: |
-          - Who are the faculty members of the ECE department?
-          - Can you list the ECE department faculty?
-          - Tell me about the educators in the ECE department.
-          - Provide details on Electronics and Communication Engineering department professors.
-          - Give me a list of ECE department staff.
-          - Who teaches in the ECE department?
-          - I am uneducated about the staff in ECE. Can you list them?
-          - Tell me who the ECE professors are.
-          - Can you give me some information about the ECE faculty?
-          - Who are the key faculty members in ECE?
-          - Give me more details about the educators in ECE.
-          - list out the ECE teaching madam.
+    - intent: ece_faculty_details
+      examples: |
+        - Who are the faculty members of the ECE department?
+        - Can you list the ECE department faculty?
+        - Tell me about the educators in the ECE department.
+        - Provide details on Electronics and Communication Engineering department professors.
+        - Give me a list of ECE department staff.
+        - Who teaches in the ECE department?
+        - I am uneducated about the staff in ECE. Can you list them?
+        - Tell me who the ECE professors are.
+        - Can you give me some information about the ECE faculty?
+        - Who are the key faculty members in ECE?
+        - Give me more details about the educators in ECE.
+        - list out the ECE teaching madam.
 
 
-      - intent: peo_ece_department
-        examples: |
-          - What does PEO stand for in the ECE department?
-          - What is the peo of ECE department?
-          - Tell me about PEO of Electronics and Communication Engineering.
-          - What are the PEOs in ECE department?
-          - How do PEOs help in shaping the career of a Electronics and Communication Engineering graduate?
-          - What are the key components of a typical ECE department PEO?
-          - What are the key goals of PEOs in Electronics and Communication Engineering?
-          - Why are Program Educational Objectives (PEOs) important for Electronics and Communication Engineering students?
-          - How do Program Educational Objectives (PEOs) help in shaping a ECE graduate’s career?
-          - What are the key components of Program Educational Objectives (PEOs) in a ECE program?
+    - intent: peo_ece_department
+      examples: |
+        - What does PEO stand for in the ECE department?
+        - What is the peo of ECE department?
+        - Tell me about PEO of Electronics and Communication Engineering.
+        - What are the PEOs in ECE department?
+        - How do PEOs help in shaping the career of a Electronics and Communication Engineering graduate?
+        - What are the key components of a typical ECE department PEO?
+        - What are the key goals of PEOs in Electronics and Communication Engineering?
+        - Why are Program Educational Objectives (PEOs) important for Electronics and Communication Engineering students?
+        - How do Program Educational Objectives (PEOs) help in shaping a ECE graduate’s career?
+        - What are the key components of Program Educational Objectives (PEOs) in a ECE program?
 
-      - intent: po_ece_department
-        examples: |
-          - What does PO stand for in the ECE department?
-          - What is the PO of the ECE department?
-          - Tell me about PO of Electronics and Communication Engineering.
-          - What are the POs in the ECE department?
-          - How do POs help in shaping the career of a Electronics and Communication Engineering graduate?
-          - What are the key components of a typical ECE department PO?
-          - What are the key goals of POs in Electronics and Communication Engineering?
-          - Why are Program Outcomes (POs) important for Electronics and Communication Engineering students?
-          - How do Program Outcomes (POs) help in shaping a ECE graduate’s career?
-          - What are the key components of Program Outcomes (POs) in a ECE program?
-      
-      - intent: pso_ece_department
-        examples: |
-          - What does PSO stand for in the ECE department?
-          - What is the PSO of the ECE department?
-          - Tell me about PSO of Electronics and Communication Engineering.
-          - What are the PSOs in the ECE department?
-          - How do PSOs help in shaping the career of a Electronics and Communication Engineering graduate?
-          - What are the key components of a typical ECE department PSO?
-          - What are the key goals of PSOs in Electronics and Communication Engineering?
-          - Why are Program Specific Outcomes (PSOs) important for Electronics and Communication Engineering students?
-          - How do Program Specific Outcomes (PSOs) help in shaping a ECE graduate’s career?
-          - What are the key components of Program Specific Outcomes (PSOs) in a ECE program?
-      
-      - intent: technical_faculty_ece
-        examples: |
+    - intent: po_ece_department
+      examples: |
+        - What does PO stand for in the ECE department?
+        - What is the PO of the ECE department?
+        - Tell me about PO of Electronics and Communication Engineering.
+        - What are the POs in the ECE department?
+        - How do POs help in shaping the career of a Electronics and Communication Engineering graduate?
+        - What are the key components of a typical ECE department PO?
+        - What are the key goals of POs in Electronics and Communication Engineering?
+        - Why are Program Outcomes (POs) important for Electronics and Communication Engineering students?
+        - How do Program Outcomes (POs) help in shaping a ECE graduate’s career?
+        - What are the key components of Program Outcomes (POs) in a ECE program?
+    
+    - intent: pso_ece_department
+      examples: |
+        - What does PSO stand for in the ECE department?
+        - What is the PSO of the ECE department?
+        - Tell me about PSO of Electronics and Communication Engineering.
+        - What are the PSOs in the ECE department?
+        - How do PSOs help in shaping the career of a Electronics and Communication Engineering graduate?
+        - What are the key components of a typical ECE department PSO?
+        - What are the key goals of PSOs in Electronics and Communication Engineering?
+        - Why are Program Specific Outcomes (PSOs) important for Electronics and Communication Engineering students?
+        - How do Program Specific Outcomes (PSOs) help in shaping a ECE graduate’s career?
+        - What are the key components of Program Specific Outcomes (PSOs) in a ECE program?
+    
+    - intent: technical_faculty_ece
+      examples: |
         - Tell me about the technical staff in the ECE department
         - Who are the technical faculty in ECE?
         - List the technical assistants in the ECE department
         - ECE department technical staff details
 
-      - intent: placement_ece
-        examples: |
+    - intent: placement_ece
+      examples: |
         - Tell me about the placement details in ECE department
         - How many students got placed in ECE?
         - ECE department placement statistics
@@ -92,237 +91,237 @@ nlu:
         - Do ECE students get good placements?
         - Share the year-wise placement details for ECE.
 
-      - intent: ece_course_outcomes
-        examples: |
-          - Where can I find the syllabus for ECE?
-          - Show me the subjects covered in ECE.
-          - Show me the core subjects in ECE.
-          - What are the specialization areas in ECE?
-          - Provide details about the elective courses in ECE.
-          - Where can I find study materials for ECE subjects?
-          - What are the key skills gained in a ECE degree?
-          - Which programming languages are covered in ECE?
-          - Give me details about the lab courses in ECE.
-          - What skills will I gain from a ECE degree?
-          - What are the learning outcomes of a ECE course?
-          - What knowledge will I acquire after completing ECE?
-          - What are the course outcomes of ECE?
+    - intent: ece_course_outcomes
+      examples: |
+        - Where can I find the syllabus for ECE?
+        - Show me the subjects covered in ECE.
+        - Show me the core subjects in ECE.
+        - What are the specialization areas in ECE?
+        - Provide details about the elective courses in ECE.
+        - Where can I find study materials for ECE subjects?
+        - What are the key skills gained in a ECE degree?
+        - Which programming languages are covered in ECE?
+        - Give me details about the lab courses in ECE.
+        - What skills will I gain from a ECE degree?
+        - What are the learning outcomes of a ECE course?
+        - What knowledge will I acquire after completing ECE?
+        - What are the course outcomes of ECE?
 
-      - intent: ece_department_info_about
-        examples: |
-          - When was the ECE department established?
-          - Is the ECE department approved by AICTE?
-          - Tell me about Electronics and Communication Engineering.
-          - Which university is the ECE department affiliated with?
-          - How does the ECE department support student learning?
-          - How does the Electronics and Communication Engineering department help students achieve academic and career goals?
-          - How does the Electronics and Communication Engineering department emphasize co-curricular and extracurricular activities?
-          - Tell me about ECE department.
-          - What is the about of ECE department?
+    - intent: ece_department_info_about
+      examples: |
+        - When was the ECE department established?
+        - Is the ECE department approved by AICTE?
+        - Tell me about Electronics and Communication Engineering.
+        - Which university is the ECE department affiliated with?
+        - How does the ECE department support student learning?
+        - How does the Electronics and Communication Engineering department help students achieve academic and career goals?
+        - How does the Electronics and Communication Engineering department emphasize co-curricular and extracurricular activities?
+        - Tell me about ECE department.
+        - What is the about of ECE department?
 
-      - intent: ece_department_vision
-        examples: |
-          - What is the vision of the ECE department?
-          - What are the key goals of the ECE department’s vision?
-          - How does the ECE department work towards achieving its vision?
-          - How does the vision of the ECE department benefit students?
-          - What impact does the ECE department’s vision have on technical education?
-          - Does the vision of the ECE department focus on industry readiness?
-          - How does the ECE department’s vision align with modern technology trends?
-          - What initiatives are taken to fulfill the ECE department’s vision?
-          - How does research and innovation contribute to the ECE department’s vision?
-          - Does the vision of the ECE department include global technological advancements?
-          - Tell me about vision of ECE department.
+    - intent: ece_department_vision
+      examples: |
+        - What is the vision of the ECE department?
+        - What are the key goals of the ECE department’s vision?
+        - How does the ECE department work towards achieving its vision?
+        - How does the vision of the ECE department benefit students?
+        - What impact does the ECE department’s vision have on technical education?
+        - Does the vision of the ECE department focus on industry readiness?
+        - How does the ECE department’s vision align with modern technology trends?
+        - What initiatives are taken to fulfill the ECE department’s vision?
+        - How does research and innovation contribute to the ECE department’s vision?
+        - Does the vision of the ECE department include global technological advancements?
+        - Tell me about vision of ECE department.
 
-      - intent: ece_department_mission
-        examples: |
-          - What is the mission of the ECE department?
-          - What are the key goals of the ECE department’s mission?
-          - How does the ECE department work towards achieving its mission?
-          - How does the mission of the ECE department benefit students?
-          - What impact does the ECE department’s mission have on technical education?
-          - Does the mission of the ECE department focus on industry readiness?
-          - How does the ECE department’s mission align with modern technology trends?
-          - What initiatives are taken to fulfill the ECE department’s mission?
-          - How does research and innovation contribute to the ECE department’s mission?
-          - Does the mission of the ECE department include global technological advancements?
-          - Tell me about mission of ECE department.
+    - intent: ece_department_mission
+      examples: |
+        - What is the mission of the ECE department?
+        - What are the key goals of the ECE department’s mission?
+        - How does the ECE department work towards achieving its mission?
+        - How does the mission of the ECE department benefit students?
+        - What impact does the ECE department’s mission have on technical education?
+        - Does the mission of the ECE department focus on industry readiness?
+        - How does the ECE department’s mission align with modern technology trends?
+        - What initiatives are taken to fulfill the ECE department’s mission?
+        - How does research and innovation contribute to the ECE department’s mission?
+        - Does the mission of the ECE department include global technological advancements?
+        - Tell me about mission of ECE department.
 
-      - intent: ece_total_students
-        examples: |
-          - What is the total student count in the ECE department?
-          - What is the total number of students currently enrolled in the ECE department?
-          - How many students are studying in the ECE department this academic year?
-          - What is the total student strength of the ECE department?
-          - How many students have been admitted to the ECE department this year?
-          - What is the total student intake capacity for the ECE department?
-          - How many students are in each year of the ECE department?
-          - What is the total number of students in the undergraduate ECE program?
-          - How many students are currently pursuing B.E. ECE?
-          - How many students graduate from the ECE department each year?
-          - How many students are currently in their final year in ECE?
+    - intent: ece_total_students
+      examples: |
+        - What is the total student count in the ECE department?
+        - What is the total number of students currently enrolled in the ECE department?
+        - How many students are studying in the ECE department this academic year?
+        - What is the total student strength of the ECE department?
+        - How many students have been admitted to the ECE department this year?
+        - What is the total student intake capacity for the ECE department?
+        - How many students are in each year of the ECE department?
+        - What is the total number of students in the undergraduate ECE program?
+        - How many students are currently pursuing B.E. ECE?
+        - How many students graduate from the ECE department each year?
+        - How many students are currently in their final year in ECE?
 
-      - intent: ece_female_girls_students
-        examples: |
-          - How many girls are there in the ECE department?
-          - What is the total number of female students in the ECE department?
-          - How many girls are currently enrolled in the ECE department?
-          - What percentage of ECE students are girls?
-          - How many female students joined the ECE department this year?
-          - How many girls are in each year of the ECE department?
-          - Has the number of girls in the ECE department increased over the years?
-          - How many female students have graduated from the ECE department so far?
-          - What is the trend of female student enrollment in the ECE department?
+    - intent: ece_female_girls_students
+      examples: |
+        - How many girls are there in the ECE department?
+        - What is the total number of female students in the ECE department?
+        - How many girls are currently enrolled in the ECE department?
+        - What percentage of ECE students are girls?
+        - How many female students joined the ECE department this year?
+        - How many girls are in each year of the ECE department?
+        - Has the number of girls in the ECE department increased over the years?
+        - How many female students have graduated from the ECE department so far?
+        - What is the trend of female student enrollment in the ECE department?
 
-      - intent: ece_male_boys_students
-        examples: |
-          - How many boys are there in the ECE department?
-          - What is the total number of male students in the ECE department?
-          - How many boys are currently enrolled in the ECE department?
-          - What percentage of ECE students are boys?
-          - How many male students joined the ECE department this year?
-          - How many boys are in each year of the ECE department?
-          - Has the number of boys in the ECE department increased over the years?
-          - How many male students have graduated from the ECE department so far?
-          - What is the trend of male student enrollment in the ECE department?
+    - intent: ece_male_boys_students
+      examples: |
+        - How many boys are there in the ECE department?
+        - What is the total number of male students in the ECE department?
+        - How many boys are currently enrolled in the ECE department?
+        - What percentage of ECE students are boys?
+        - How many male students joined the ECE department this year?
+        - How many boys are in each year of the ECE department?
+        - Has the number of boys in the ECE department increased over the years?
+        - How many male students have graduated from the ECE department so far?
+        - What is the trend of male student enrollment in the ECE department?
 
-      - intent: ece_lab_facilities
-        examples: |
-          - What are the lab facilities available in the ECE department?
-          - How many computer labs are there in the ECE department?
-          - What software and tools are available in the ECE labs?
-          - What is the configuration of the computers in the ECE labs?
-          - Are the lab facilities updated with the latest technology in ECE department?
-          - Does the ECE department provide high-speed internet in the labs?
-          - Are the ECE labs accessible to students outside class hours?
-          - What kind of research work is conducted in the ECE labs?
+    - intent: ece_lab_facilities
+      examples: |
+        - What are the lab facilities available in the ECE department?
+        - How many computer labs are there in the ECE department?
+        - What software and tools are available in the ECE labs?
+        - What is the configuration of the computers in the ECE labs?
+        - Are the lab facilities updated with the latest technology in ECE department?
+        - Does the ECE department provide high-speed internet in the labs?
+        - Are the ECE labs accessible to students outside class hours?
+        - What kind of research work is conducted in the ECE labs?
 
-      - intent: ece_department_activities
-        examples: |
-          - What are the department activities conducted by the ECE department?
-          - How often does the ECE department organize technical events?
-          - What workshops are conducted by the ECE department?
-          - What extracurricular activities are available in the ECE department?
-          - Tell me about ECE department activities.
-          - Give me the department activities of ECE
-          - Where can I find the department activities of ECE?
-          - Show me the department activities of ECE
+    - intent: ece_department_activities
+      examples: |
+        - What are the department activities conducted by the ECE department?
+        - How often does the ECE department organize technical events?
+        - What workshops are conducted by the ECE department?
+        - What extracurricular activities are available in the ECE department?
+        - Tell me about ECE department activities.
+        - Give me the department activities of ECE
+        - Where can I find the department activities of ECE?
+        - Show me the department activities of ECE
 
-      - intent: ece_student_activities
-        examples: |
-          - What are the student activities conducted by the ECE department?
-          - How often are student events organized in the ECE department?
-          - Tell me about ECE student activities.
-          - Give me the student activities of ECE.
-          - Where can I find the student activities of ECE?
-          - Show me the student activities of ECE.
+    - intent: ece_student_activities
+      examples: |
+        - What are the student activities conducted by the ECE department?
+        - How often are student events organized in the ECE department?
+        - Tell me about ECE student activities.
+        - Give me the student activities of ECE.
+        - Where can I find the student activities of ECE?
+        - Show me the student activities of ECE.
 
-      - intent: ece_faculty_activities
-        examples: |
-          - Give me the faculty activities of ECE.
-          - Where can I find the faculty activities of ECE?
-          - Show me the faculty activities of ECE.
-          - What are the faculty activities conducted by the ECE department?
-          - How does the ECE department support faculty development?
-          - What research activities are carried out by the faculty in the ECE department?
-          - Are ECE faculty members involved in industry collaborations?
-          - Do ECE faculty members participate in technical conferences and seminars?
-          - Are ECE faculty members involved in curriculum development and innovation?
+    - intent: ece_faculty_activities
+      examples: |
+        - Give me the faculty activities of ECE.
+        - Where can I find the faculty activities of ECE?
+        - Show me the faculty activities of ECE.
+        - What are the faculty activities conducted by the ECE department?
+        - How does the ECE department support faculty development?
+        - What research activities are carried out by the faculty in the ECE department?
+        - Are ECE faculty members involved in industry collaborations?
+        - Do ECE faculty members participate in technical conferences and seminars?
+        - Are ECE faculty members involved in curriculum development and innovation?
 
-      - intent: ece_professional_bodies
-        examples: |
-          - What are the professional bodies associated with the ECE department?
-          - Does the ECE department have memberships in any professional organizations?
-          - Which professional societies can ECE students join?
-          - How do professional bodies benefit ECE students?
-          - Are there any student chapters of professional organizations in the ECE department?
-          - What kind of activities do professional bodies conduct for ECE students?
-          - Does the ECE department collaborate with IEEE, ACM, or other professional bodies?
-          - How can students become members of professional organizations in the ECE department?
-          - Are there any certifications provided through professional bodies in the ECE department?
-          - Do professional bodies offer internship or research opportunities for ECE students?
+    - intent: ece_professional_bodies
+      examples: |
+        - What are the professional bodies associated with the ECE department?
+        - Does the ECE department have memberships in any professional organizations?
+        - Which professional societies can ECE students join?
+        - How do professional bodies benefit ECE students?
+        - Are there any student chapters of professional organizations in the ECE department?
+        - What kind of activities do professional bodies conduct for ECE students?
+        - Does the ECE department collaborate with IEEE, ACM, or other professional bodies?
+        - How can students become members of professional organizations in the ECE department?
+        - Are there any certifications provided through professional bodies in the ECE department?
+        - Do professional bodies offer internship or research opportunities for ECE students?
 
-      - intent: ece_research_activities
-        examples: |
-          - What research activities are conducted in the ECE department?
-          - What are the major research areas in the ECE department?
-          - Are there any research labs available in the ECE department?
-          - How do students participate in research projects in the ECE department?
-          - Do faculty members in the ECE department publish research papers?
-          - Are there any funded research projects in the ECE department?
-          - Does the ECE department collaborate with industries for research?
-          - Are students encouraged to publish research papers in the ECE department?
-          - What research opportunities are available for undergraduate students in ECE?
-          - Are there any research conferences organized by the ECE department?
+    - intent: ece_research_activities
+      examples: |
+        - What research activities are conducted in the ECE department?
+        - What are the major research areas in the ECE department?
+        - Are there any research labs available in the ECE department?
+        - How do students participate in research projects in the ECE department?
+        - Do faculty members in the ECE department publish research papers?
+        - Are there any funded research projects in the ECE department?
+        - Does the ECE department collaborate with industries for research?
+        - Are students encouraged to publish research papers in the ECE department?
+        - What research opportunities are available for undergraduate students in ECE?
+        - Are there any research conferences organized by the ECE department?
 
-      - intent: ece_newsletter
-        examples: |
-          - Does the ECE department have a newsletter?
-          - What is the name of the ECE department’s newsletter?
-          - How often is the ECE department newsletter published?
-          - What kind of information is included in the ECE department newsletter?
-          - Who can contribute articles to the ECE department newsletter?
-          - How can students access the ECE department newsletter?
-          - Does the newsletter cover research and innovation updates from the ECE department?
-          - Are student achievements highlighted in the ECE department newsletter?
-          - How does the ECE department newsletter help in knowledge sharing?
-          - Where can I find previous editions of the ECE department newsletter?
+    - intent: ece_newsletter
+      examples: |
+        - Does the ECE department have a newsletter?
+        - What is the name of the ECE department’s newsletter?
+        - How often is the ECE department newsletter published?
+        - What kind of information is included in the ECE department newsletter?
+        - Who can contribute articles to the ECE department newsletter?
+        - How can students access the ECE department newsletter?
+        - Does the newsletter cover research and innovation updates from the ECE department?
+        - Are student achievements highlighted in the ECE department newsletter?
+        - How does the ECE department newsletter help in knowledge sharing?
+        - Where can I find previous editions of the ECE department newsletter?
 
-      - intent: mou_sign_company_ece
-        examples: |
-          - Which companies have signed an MOU with the ECE department?
-          - Can you provide details on MOU-signed companies for ECE?
-          - Tell me about the industry collaborations for ECE.
-          - Which organizations have partnered with the ECE department?
-          - List the companies that have signed an MOU with ECE.
-          - What is an MOU?
-          - Can you explain what MOU means?
-          - I don’t understand MOU. Can you help?
-          - What does it mean when a company signs an MOU?
-          - Explain MOU in simple terms.
-          - Can you give me a list of MOU-signed companies for ECE?
-          - Which companies have recently signed an MOU with ECE?
-          - How does an MOU benefit ECE students?
-          - Tell me about the latest MOU collaborations for ECE.
-          - Give me details on MOU partners and their dates for ECE.
-          - Give me the details about tie-up companies for ECE.
+    - intent: mou_sign_company_ece
+      examples: |
+        - Which companies have signed an MOU with the ECE department?
+        - Can you provide details on MOU-signed companies for ECE?
+        - Tell me about the industry collaborations for ECE.
+        - Which organizations have partnered with the ECE department?
+        - List the companies that have signed an MOU with ECE.
+        - What is an MOU?
+        - Can you explain what MOU means?
+        - I don’t understand MOU. Can you help?
+        - What does it mean when a company signs an MOU?
+        - Explain MOU in simple terms.
+        - Can you give me a list of MOU-signed companies for ECE?
+        - Which companies have recently signed an MOU with ECE?
+        - How does an MOU benefit ECE students?
+        - Tell me about the latest MOU collaborations for ECE.
+        - Give me details on MOU partners and their dates for ECE.
+        - Give me the details about tie-up companies for ECE.
 
-      - intent: intern_company_ece
-        examples: |
-          - Which companies provide internships for ECE students?
-          - What are the companies that offer internships for ECE?
-          - Can you list some companies that provide internship opportunities for ECE students?
-          - Tell me about companies that offer internships for ECE.
-          - Can you name some companies that offer student internships in ECE?
-          - How many ECE students got internships?
-          - Give me the year-wise placed ECE students' internship count.
-          - Can you provide the number of ECE students who did internships each year?
-          - Tell me how many ECE students did internships in previous years.
-          - What is the yearly count of ECE students who got internships?
-          - List the number of ECE students who got internships year by year.
-          - How many ECE students secured internships each academic year?
+    - intent: intern_company_ece
+      examples: |
+        - Which companies provide internships for ECE students?
+        - What are the companies that offer internships for ECE?
+        - Can you list some companies that provide internship opportunities for ECE students?
+        - Tell me about companies that offer internships for ECE.
+        - Can you name some companies that offer student internships in ECE?
+        - How many ECE students got internships?
+        - Give me the year-wise placed ECE students' internship count.
+        - Can you provide the number of ECE students who did internships each year?
+        - Tell me how many ECE students did internships in previous years.
+        - What is the yearly count of ECE students who got internships?
+        - List the number of ECE students who got internships year by year.
+        - How many ECE students secured internships each academic year?
 
-      - intent: ece_contact
-        examples: |
-          - Give me the contact details of the Electronics and Communication Engineering department.
-          - How can I contact the HOD of ECE department?
-          - Provide the email ID for the ECE department.
-          - What is the phone number of the ECE department at SSMIET?
-          - Who should I contact for internship-related queries about ECE?
-          - Give me the address of the ECE department at SSM Institute of Engineering and Technology.
-          - Can you provide the ECE department's contact information?
-          - ECE contact details
+    - intent: ece_contact
+      examples: |
+        - Give me the contact details of the Electronics and Communication Engineering department.
+        - How can I contact the HOD of ECE department?
+        - Provide the email ID for the ECE department.
+        - What is the phone number of the ECE department at SSMIET?
+        - Who should I contact for internship-related queries about ECE?
+        - Give me the address of the ECE department at SSM Institute of Engineering and Technology.
+        - Can you provide the ECE department's contact information?
+        - ECE contact details
 
-      - intent: extra_courses_ece
-        examples: |
+    - intent: extra_courses_ece
+      examples: |
         - Tell me about the value-added courses in Electronics and Communication Engineering department
         - What are the additional courses offered by ECE?
         - Extra courses provided by ECE department
         - List the value-added courses for ECE students
         - Do ECE students have any extra learning opportunities? 
-                        
-      - intent: placement_company_names_ece
-        examples: |
+                      
+    - intent: placement_company_names_ece
+      examples: |
         - Which companies come for placements in ECE?
         - What are the company names for ECE placements?
         - List the companies recruiting ECE students
@@ -334,69 +333,69 @@ nlu:
         - What are the companies are coming and hiring for ECE final year placements?
         - Is there any top companies for placement in ECE? 
 
-      - intent: ece_accreditation
-        examples: |
-          - What are the accreditations and affiliations of the ECE department?
-          - Is the ECE department accredited by NAAC and AICTE?
-          - Under which university is the ECE department affiliated?
-          - Is the ECE department approved by the government?
-          - Does the ECE department have AICTE and NAAC approval?
-          - Which university is the ECE department connected with?
-          - Is the ECE department good?
-          - Is this college’s ECE department recognized by the government?
-          - Is the ECE course valid for jobs?
-          - Give me the names of companies for ECE placements   
+    - intent: ece_accreditation
+      examples: |
+        - What are the accreditations and affiliations of the ECE department?
+        - Is the ECE department accredited by NAAC and AICTE?
+        - Under which university is the ECE department affiliated?
+        - Is the ECE department approved by the government?
+        - Does the ECE department have AICTE and NAAC approval?
+        - Which university is the ECE department connected with?
+        - Is the ECE department good?
+        - Is this college’s ECE department recognized by the government?
+        - Is the ECE course valid for jobs?
+        - Give me the names of companies for ECE placements   
 
-      - intent: ece_yearwise_student_count
-        examples: |
-          - What is the year-wise student count for the ECE department since the college started?
-          - Can you provide the student intake count for the ECE department for each academic year since inception?
-          - How many students were admitted to the ECE department each year from the beginning?
-          - What is the total number of students enrolled in the ECE department for every academic year since the college started?
-          - How has the student strength of the ECE department varied year by year since the first batch?
-          - What are the year-wise student counts for the ECE department?
-          - Can you provide the student count for each year in the ECE department?
-          - What is the breakdown of students by year in the ECE department?
-          - How many students are there in each academic year of the ECE department?
-          - What is the total number of students per year in the ECE department?
+    - intent: ece_yearwise_student_count
+      examples: |
+        - What is the year-wise student count for the ECE department since the college started?
+        - Can you provide the student intake count for the ECE department for each academic year since inception?
+        - How many students were admitted to the ECE department each year from the beginning?
+        - What is the total number of students enrolled in the ECE department for every academic year since the college started?
+        - How has the student strength of the ECE department varied year by year since the first batch?
+        - What are the year-wise student counts for the ECE department?
+        - Can you provide the student count for each year in the ECE department?
+        - What is the breakdown of students by year in the ECE department?
+        - How many students are there in each academic year of the ECE department?
+        - What is the total number of students per year in the ECE department?
 
-      - intent: ece_event_conducted_photos
-        examples: |
-          - Can you provide photos of events conducted by the ECE department?  
-          - Where can I find images of past ECE department events?  
-          - Do you have a gallery of ECE department event photos?  
-          - Can you share pictures from recent ECE department activities?  
-          - Are there any photos available from ECE department symposiums and workshops?  
-          - How can I access images of hackathons and technical events hosted by the ECE department?  
-          - Do you have any pictures from cultural events organized by the ECE department?  
-          - Can I see photos of guest lectures and seminars conducted by the ECE department?  
-          - Are there any images of student project presentations in the ECE department?  
-          - Where can I view photos from annual ECE department functions and celebrations?
-          - What are the events conducted by the ECE department?
-          - Can you provide a list of events organized by the ECE department?
-          - What technical events does the ECE department host?
-          - What cultural programs are conducted by the ECE department?
-          - Does the ECE department organize hackathons or coding competitions?
-          - What annual events are held by the ECE department?
-          - Are there any workshops or seminars conducted by the ECE department?
-          - Does the ECE department conduct any inter-college competitions?
+    - intent: ece_event_conducted_photos
+      examples: |
+        - Can you provide photos of events conducted by the ECE department?  
+        - Where can I find images of past ECE department events?  
+        - Do you have a gallery of ECE department event photos?  
+        - Can you share pictures from recent ECE department activities?  
+        - Are there any photos available from ECE department symposiums and workshops?  
+        - How can I access images of hackathons and technical events hosted by the ECE department?  
+        - Do you have any pictures from cultural events organized by the ECE department?  
+        - Can I see photos of guest lectures and seminars conducted by the ECE department?  
+        - Are there any images of student project presentations in the ECE department?  
+        - Where can I view photos from annual ECE department functions and celebrations?
+        - What are the events conducted by the ECE department?
+        - Can you provide a list of events organized by the ECE department?
+        - What technical events does the ECE department host?
+        - What cultural programs are conducted by the ECE department?
+        - Does the ECE department organize hackathons or coding competitions?
+        - What annual events are held by the ECE department?
+        - Are there any workshops or seminars conducted by the ECE department?
+        - Does the ECE department conduct any inter-college competitions?
 
-      - intent: ece_faculty_experience_knowledge
-        examples: |
-          - What is the average teaching experience of ECE faculty at SSMIET?
-          - How many years of experience do the ECE faculty members have on average?
-          - What is the average industry experience of ECE faculty at SSMIET?
-          - How many faculty members in the ECE department have more than 10 years of experience?
-          - What is the experience range of professors in the ECE department?
-          - How many faculty members in ECE have prior industry knowledge?
-          - What percentage of ECE faculty have Ph.D. qualifications?
-          - How often do ECE faculty members update their knowledge with training or certifications?
-          - What is the total teaching experience of the senior-most faculty in the ECE department?
-          - How many ECE faculty members have more than five years of teaching experience?
-          - What is the minimum teaching experience required for ECE faculty at SSMIET?
-          - How many ECE faculty members have both academic and industry experience?
-          - What is the average number of years ECE faculty members have worked at SSMIET?
-          - How many faculty members in the ECE department hold postgraduate degrees?
+    - intent: ece_faculty_experience_knowledge
+      examples: |
+        - What is the average teaching experience of ECE faculty at SSMIET?
+        - How many years of experience do the ECE faculty members have on average?
+        - What is the average industry experience of ECE faculty at SSMIET?
+        - How many faculty members in the ECE department have more than 10 years of experience?
+        - What is the experience range of professors in the ECE department?
+        - How many faculty members in ECE have prior industry knowledge?
+        - What percentage of ECE faculty have Ph.D. qualifications?
+        - How often do ECE faculty members update their knowledge with training or certifications?
+        - What is the total teaching experience of the senior-most faculty in the ECE department?
+        - How many ECE faculty members have more than five years of teaching experience?
+        - What is the minimum teaching experience required for ECE faculty at SSMIET?
+        - How many ECE faculty members have both academic and industry experience?
+        - What is the average number of years ECE faculty members have worked at SSMIET?
+        - How many faculty members in the ECE department hold postgraduate degrees?
 
 
 

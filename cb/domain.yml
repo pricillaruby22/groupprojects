@@ -9,11 +9,9 @@ intents:
   - uniform_dresscode
   - book_availability
   - student_total_count
-  - hostel_availability
   - family_visit
   - college_location_address
   - college_name_private_anna_university
-  - bus_facility
   - principal_details
   - college_contact_email
   - college_distance_travel_time
@@ -38,48 +36,24 @@ intents:
   - Sports_NCC_government_management_quota
   - placement_details_campus
   - staff_professors_faculty_qualifications_experience
-  - cse_hod_details
-  - cse_faculty_details
-  - peo_cse_department
-  - po_cse_department
-  - pso_cse_department
   - college_timing
   - scholarship_details
   - academic_calendar
-  - admission_document
+  - admission_documents
   - counselling_process
   - college_benefits
   - staff_count
   - bank_loans
   - cutoff_details
-  - college_admission_eligibility
   - college_qualification
-  - technical_faculty_cse
-  - goodbye
-  - cse_course_outcomes
-  - cse_department_info_about
-  - cse_total_students
-  - cse_female_girls_students
-  - cse_male_boys_students
-  - cse_lab_facilities
-  - cse_department_activities
-  - cse_student_activities
-  - cse_faculty_activities
-  - cse_professional_bodies
-  - cse_research_activities
-  - cse_newsletter
   - job_interview_preparation
-  - smart_classrooms
+  - smart_classrooms_projector
   - most_highest_placement_department
   - eligible_student_placement_opportunities
   - each_all_department_get_placed
-  - cse_accreditation
   - curriculum_relevance_industry
   - ssmiet_college_ranking
   - ssmiet_organization_clubs
-  - cse_yearwise_student_count
-  - cse_event_conducted_photos
-  - cse_faculty_experience_knowledge
   - college_events_annual_symposium
   - first_year_1st_students_count
   - second_year_2nd_students_count
@@ -96,29 +70,61 @@ intents:
   - software_lab_details
   - ask_lab_hardware
   - staff_professor_count
-  - hostel_wifi
+  - sem_exam_result
+  - extracurricular_activites
+  - fee_payment
+  - gate_coaching
+  - ask_campus_general_photos
+  - cse_hod_details
+  - cse_faculty_details
+  - peo_cse_department
+  - po_cse_department
+  - pso_cse_department
+  - technical_faculty_cse
+  - cse_contact
+  - cse_course_outcomes
+  - cse_department_info_about
+  - cse_total_students
+  - cse_female_girls_students
+  - cse_male_boys_students
+  - cse_lab_facilities
+  - cse_department_activities
+  - cse_student_activities
+  - cse_faculty_activities
+  - cse_professional_bodies
+  - cse_research_activities
+  - cse_newsletter
+  - cse_accreditation
+  - cse_yearwise_student_count
+  - cse_event_conducted_photos
+  - cse_faculty_experience_knowledge
+  - placement_company_names
+  - mou_sign_company
+  - placement_cse
+  - extra_courses_cse_dept
+  - cse_department_mission
+  - cse_department_vision
+  - intern_company
+  - cse_staff_count
+  - photos_cse_dept
+  - hostel_availability
+  - hostel_wifi_details
   - hostel_room_sharing
   - hostel_food_routine
   - hostel_restroom_facilities
   - hostel_fee
   - overall_hostel_details
-  - sem_exam_result
-  - extracurricular_activites
-  - fee_payment
-  - gate_coaching
-  - cse_yearwise_student_count
-  - cse_event_conducted_photos
-  - cse_faculty_experience_knowledge
   - ask_ragging
+  - bus_facility
   - ask_bus_seat
-  - ask_campus_photos
-  - ask_bus_facility
-  - ask_canteen_facility
+  - ask_bus_seat_fcfs
+  - ask_bus_seat_full
+  - ask_bus_seat_no_reservation
   - ece_hod_details
   - ece_faculty_details
   - peo_ece_department
   - po_ece_department
-  - pso_ece_departmentabout
+  - pso_ece_department
   - ece_course_outcomes
   - ece_department_info_about
   - ece_department_vision
@@ -246,14 +252,11 @@ intents:
   - communication_system_department_vision
   - communication_system_department_mission
   - communication_system_research_activities
-  - thermal_engineering_yearwise_student_count
-  - thermal_engineering_total_students
-  - thermal_engineering_female_students
-  - thermal_engineering_male_students
+  - communication_system_faculty_experience_knowledge
   - communication_system_yearwise_student_count
   - communication_system_total_students
-  - communication_system_female_students
-  - communication_system_male_students
+  - communication_system_female_girls_students
+  - communication_system_male_boys_students
   - thermal_faculty_details
   - thermal_department_info_about
   - thermal_department_vision
@@ -307,7 +310,6 @@ intents:
   - extra_courses_cybersecurity
   - cybersecurity_event_conducted_photos
   - cybersecurity_faculty_experience_knowledge
- 
   - civil_hod_details
   - civil_faculty_details
   - peo_civil_department
@@ -337,30 +339,53 @@ intents:
   - aiml_department_mission
   - aiml_total_students
   - aiml_faculty_experience_knowledge
+  - thermal_engineering_yearwise_student_count
+  - thermal_engineering_total_students
+  - thermal_engineering_female_students
+  - thermal_engineering_male_students
+  - ask_campus_auditorium_photos
+  - ask_campus_canteen_photos
+  - ask_campus_library_photos
+  - ask_campus_hostel_photos
+  - ask_campus_playground_photos
+  - ask_bus_facility_details
+  - ask_canteen_availability
+  - ask_canteen_food_options
+  - ask_canteen_timings
+  - sports_equipment
+  - goodbye
 
 responses:
   utter_greet:
-     - text: "Welcome to SSMIET Website.Hello! How can I assist you today?"
-
+    - text: "Welcome to SSMIET Chatbot.Hello! How can I assist you today?"
   utter_admission_process:
     - text: |
-          You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions. \n
-           **Dr. S. Joseph Dominic Vijayakumar**,\n
-           **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.\n
-           **Contact Number**: 7373707002, 7373707008 .If you need further assistance, contact us at 0451 244 8800.\n |
-            <br></br>
-           **Admission process**:
+          Admission Process can be done in both offline and online 
+          \nFor Offline:
+          You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
+           - **Dr. S. Joseph Dominic Vijayakumar**,
+           - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
+           - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
+          \nFor Online:
+              - The form is available online. Click the link to access it.
+              - Fill in the required details and submit it.
+              - If you need help, contact the admission office.
+              - Make sure to check deadlines and required documents before submission.
+              **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
 
-            • Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.\n
-            • The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.\n
-            • The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+           - **Admission process**:
+            - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
+            - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
+            - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_online_courses:
     - text: "No, we **don't offer online courses** and distance learning options.\n Would you like to know more details on available courses?"
   
   utter_coed_info:
-    - text: "Yes, this is a **co-educational college** where both boys and girls study together.\n The institution follows certain protocols to ensure a safe and respectful environment for all students"
-  
+    - text: | 
+        Yes, this is a **co-educational college** where both boys and girls study together.
+        The institution follows certain protocols to ensure a safe and respectful environment for all students
+
   utter_entrance_exam_info:
     - text: "There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process"
   
@@ -372,70 +397,44 @@ responses:
   
   utter_student_total_count:
     - text: "The current student count is 1567, with around 700 male and 800 female students.\n These numbers may vary slightly each year."
-  
-  utter_hostel_availability_info:
-    - text: "Yes, the college has hostel facilities for both male and female students.\n The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
-  
+
   utter_family_visit_info:
-    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. \nPlease check with the hostel administration for specific timings and policies."
-  
+    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+
   utter_college_location_address:
-    - text: "Here is the address:\n **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the location website of our college: https://ssmiet.ac.in/contact-us.html"
-
+    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.- Here is the Location of our college: https://ssmiet.ac.in/contact-us.html"
+  
   utter_college_name_private_anna_university:
-    - text: "**SSM Institute of Engineering and Technology (SSMIET)**.It is a private autonomous institution. It is approved by AICTE, New Delhi, 
-            affiliated with Anna University, Chennai, and accredited by NAAC & NBA."
-
-  utter_bus_facility:
-    - text: "Our college provides bus facilities for day scholars. Once you have paid the bus fees for your location, you cannot change your bus 
-            route or stop to another location. However, you can request a route change after completing one year.\n Bus fees are charged separately 
-            and vary based on the distance from the college to your preferred location. You can find details about bus routes and bus numbers below."
-
+    - text: |
+            **SSM Institute of Engineering and Technology (SSMIET)**. 
+            It is an autonomous institution.It is approved by AICTE, New Delhi, 
+            affiliated with Anna University, Chennai, and accredited by NAAC & NBA.
+          
   utter_principal_details:
-    - text: "**Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
-            \nHe holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
-            Bharathiar University. With over 26 years of academic and industry experience, he has served as Principal at SSMIET and RVS College of 
-            Engineering, Director of Academic Development at PEACE Group of Institutions, and Research Fellow at NUS. \nTo learn more about principal 
-            of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
+    - text: |
+            **Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
+                - He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
+                  Bharathiar University.
+                - With over 26 years of academic and industry experience, he has served as Principal at SSMIET and RVS College of 
+                  Engineering, Director of Academic Development at PEACE Group of Institutions, and Research Fellow at NUS. 
+                - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
 
   utter_college_contact_email:
-    - text: "**Contact Info**:\n Phone: 0451-244-8800-899 (100 lines) \n Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com"
+    - text: "**Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com"
 
   utter_college_distance_travel_time:
     - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
   
   utter_fee_structure_info:
-      - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
-
-  utter_college_location_address:
-    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.\nHere is the Location of our college: https://ssmiet.ac.in/contact-us.html"
-  
+    - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+ 
   utter_college_courses:
     - text: |
-          Our College Offers Various Courses:\n
-          
-          **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**.\n
-          **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**.\n
-          **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**.\n
-          ** Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
-
-  utter_admission_deadline_lastdate:
-    - text: "This is the end date for admission, and there is no extension for the admission deadline."
-
-  utter_ssmiet_branches_campus:
-    - text: "No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul."
-
-  utter_campus_college_visit:
-    - text: "Yeah, sure! You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms."
-
-  utter_admission_start_date:
-    - text: "Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released."
-
-  utter_lateral_entry:
-    - text: "Yes, SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria."
-  
-  utter_Sports_NCC_government_management_quota:
-    - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
+          Our College Offers Various Courses:     
+            - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**.\n
+            - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**.\n
+            - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**.\n
+            - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
 
   utter_college_ug_courses:
     - text: |
@@ -471,16 +470,16 @@ responses:
   utter_college_courses_duration:
     - text: |
           **The Duration of the Courses**:
-            Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
-            Postgraduate (M.E.) - 2 years (4 semesters)
-            Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
+            - Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
+            - Postgraduate (M.E.) - 2 years (4 semesters)
+            - Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
 
   utter_college_admission_form:
     - text: |
-          - The form is available online. Click the link to access it.\n
-          - Fill in the required details and submit it.\n
-          - If you need help, contact the admission office.\n
-          - Make sure to check deadlines and required documents before submission.\n
+          - The form is available online. Click the link to access it.
+          - Fill in the required details and submit it.
+          - If you need help, contact the admission office.
+          - Make sure to check deadlines and required documents before submission.
 
           **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
 
@@ -493,30 +492,57 @@ responses:
          - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.\n
          - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.\n
          - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
-    - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
 
   utter_available_internships_and_placements:
-    - text: "SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs
-            Placement Details
-            2018-2019(206-Students)
-            2019-2020(273-Students)
-            2020-2021(101-Students)
-            2021-2022(200-Students)
-            2022-2023(117-Students)
-            Top recruiters include TCS, Infosys, Wipro, and Cognizant. For more details, contact the placement office atFor contact us:
-            Mr.C.Silambarasan M.E.,
-            Training and Placement officer,
-            SSM Institute of Engineering and Technology,
-            Dindigul – 624 002,
-            Tamil Nadu, India
-            Phone: 7373707001
-            E-mail Id: placement.ssmiet@gmail.com"
+    - text: |
+             SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs
+             Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
+             Placement Details
+               - 2018-2019(206-Students)
+               - 2019-2020(273-Students)
+               - 2020-2021(101-Students)
+               - 2021-2022(200-Students)
+               - 2022-2023(117-Students)
+             Top recruiters include 
+              ✅ 5K Car Care
+              🏭 ABI-SHOWATECH
+              🚛 ASHOK LEYLAND
+              🚲 BSA
+              💼 CAPGEMINI
+              🖥 CRAYONTE
+              🏠 DOMEX
+              🔬 embien
+              💻 HCL
+              📊 HEXAWARE
+              🖥 IBM
+              🚀 jGoLD Technologies
+              🌐 Infosys
+              🎵 JASMIN INFOTECH
+              🏗 KAMAI ELEVATORS
+              📡 MANUREVA Digital Solutions
+              🔧 Piral Infotech
+              🛠 REVATURE
+              💡 STOICS-IT
+              📉 ATOS SYNTEL
+              🏢 TCS
+              🦄 ZOHO
+              🌍 WIPRO
+              🚗 Valeo
+              🤖 UNIVERSAL Automation Systems
+             For more details, contact the placement office atFor contact us:
+             - Mr.C.Silambarasan M.E.,
+                  Training and Placement officer,
+                  SSM Institute of Engineering and Technology,
+                  Dindigul - 624 002,
+                  Tamil Nadu, India
+                  Phone: 7373707001
+                  E-mail Id: placement.ssmiet@gmail.com"
 
   utter_change_the_course:
     - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance `CONTACT INFO:Phone:0451-244-8800-899` `Email:ssmietdgl@gmail.com` "
 
   utter_First_graduate:
-    - text: "Yes,The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
+    - text: "The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
               Students of SSMIET are eligible to avail various government scholarships such as,
               * BC /MBC Scholarship
               * Govt. of India post metric Scholarship (SC / ST / SCA Students)
@@ -532,8 +558,26 @@ responses:
   utter_about_industrial_visit:
     - text: "Yes,SSMIET organizes industrial visits for students to gain practical exposure.  Participation is encouraged but subject to academic performance and attendance requirements."
 
+  utter_admission_deadline_lastdate:
+    - text: "This is the end date for admission, and there is no extension for the admission deadline."
+
+  utter_ssmiet_branches_campus:
+    - text: "No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul."
+
+  utter_campus_college_visit:
+    - text: "Yeah, sure! You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms."
+
+  utter_admission_start_date:
+    - text: "Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released."
+
+  utter_lateral_entry:
+    - text: "Yes, SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria."
+  
+  utter_Sports_NCC_government_management_quota:
+    - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
+
   utter_placement_details_campus:
-    - text: |
+    - text: | 
         **Placement Details**:
         
         2018-2019: 206 Students
@@ -547,41 +591,40 @@ responses:
             The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and 
             industry expertise. To know more about faculty qualifications and experience, visit this website [insert website link]."
 
-  utter_college_qualification:
-    - text: |
-        **SSM Institute of Engineering and Technology** (An Autonomous Institution) Approved by AICTE, New Delhi \n Affiliated to Anna University, Chennai Accredited by NAAC & NBA
-
-  utter_college_hours:
-    - text: "There are two shifts.\n\n1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.\n2nd and 3rd year college timing: 12:00 PM to 5:00 PM."
+  utter_college_timing:
+    - text: | 
+          There are two shifts:
+          - 1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.
+          - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
 
   utter_scholarship_details:
-    - text: "Students of SSMIET are eligible to avail various government scholarships such as:\n\n
-            • BC / MBC Scholarship\n
-            • Govt. of India post-metric Scholarship (SC / ST / SCA Students)\n
-            • Govt. of India post-metric Scholarship (Converted Christian)\n
-            • MOMA Scholarship (BCM, Christianity)\n
-            • AICTE Scholarship (All categories of Girl Students only)\n
-            • NHFDC Scholarship (All categories of Differently-abled Students)\n
-            • GQ 7.5 (For students who studied 6th to 12th in Government Schools)"
+    - text: "Students of SSMIET are eligible to avail various government scholarships such as:
+            - BC / MBC Scholarship
+            - Govt. of India post-metric Scholarship (SC / ST / SCA Students)
+            - Govt. of India post-metric Scholarship (Converted Christian)
+            - MOMA Scholarship (BCM, Christianity)
+            - AICTE Scholarship (All categories of Girl Students only)
+            - NHFDC Scholarship (All categories of Differently-abled Students)
+            - GQ 7.5 (For students who studied 6th to 12th in Government Schools)"
 
   utter_academic_calendar:
     - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
    
   utter_admission_documents:
     - text: "The documents required for admission are:\n\n
-            1. Allotment Order\n
-            2. Community Certificate\n
-            3. HSC Mark Sheet\n
-            4. SSLC Mark Sheet\n
-            5. Transfer and Conduct Certificate\n
-            6. Aadhar Card\n
-            7. Nativity Certificate (Optional)\n
-            8. First Graduate Certificate (If Required)\n
-            9. Joint Declaration Form (Optional)\n
-            10. Passport Size Photos (2 Copies)\n
-            11. Medical Fitness Certificate (Optional)\n
-            12. Income Certificate\n
-            📌 Both original and xerox copies are required."
+                - Allotment Order
+                - Community Certificate
+                - HSC Mark Sheet
+                - SSLC Mark Sheet
+                - Transfer and Conduct Certificate
+                - Aadhar Card
+                - Nativity Certificate (Optional)
+                - First Graduate Certificate (If Required)
+                - Joint Declaration Form (Optional)
+                - Passport Size Photos (2 Copies)
+                - Medical Fitness Certificate (Optional)
+                - Income Certificate
+                📌 Both original and xerox copies are required."
 
   utter_counselling_process:
     - text: "The counselling process at SSMIET is as follows:\n\n
@@ -664,253 +707,11 @@ responses:
         - OBC Category: 160+
         - SC/ST Category: 140+
         - Management Quota: No specific cutoff, direct admission available.
-         
-  utter_hod_details:
-    - text: |
-       🔹 Name: Dr. C. Sujatha
-       🔹 Position: Head of the Department (HOD), CSE, SSMIET
-       🔹 Years of Experience: 21+ years in teaching & research
-       🔹 Qualification: 🎓 Ph.D, M.E, B.E
-
-  utter_cse_faculty:
-    - text: |
-        Here are the faculty members of the CSE department:
-        1. Dr. C. Sujatha - M.E., Ph.D. (Professor and Head)
-        2. Dr. G. Prabu - M.E., Ph.D. (Associate Professor)
-        3. Dr. S. Sudhakar - M.E., Ph.D. (Associate Professor)
-        4. Mrs. M. Mookambikai - M.E., (Ph.D.) (Assistant Professor)
-        5. Dr. A. Aldo Tenis - M.E., Ph.D. (Associate Professor)
-        6. Mrs. N. J. Divya - M.E., (Ph.D.) (Assistant Professor)
-        7. Mrs. K. Sureka - M.E., (Ph.D.) (Assistant Professor)
-        8. Mrs. S. Suganya - M.E., (Ph.D.) (Assistant Professor)
-        9. Mrs. J. Dhanalakshmi - M.E., (Ph.D.) (Assistant Professor)
-        10. Mrs. A. Padma Priya - M.E. (Assistant Professor)
-        11. Mrs. T. Rani Mangammal - M.E., (Ph.D.) (Assistant Professor)
-        12. Mr. P. V. Samuel Devakumar - M.E. (Assistant Professor)
-        13. Ms. V. Sudharsana - M.E. (Assistant Professor)
-        14. Mrs. D. Rekha - M.E. (Assistant Professor)
-        15. Dr. M. Nanmalar - M.E., Ph.D. (Assistant Professor)
-
-  utter_peo_cse_department:
-    - text: |
-        Program Educational Objectives (PEOs) in the Computer Science and Engineering (CSE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
-        
-        **PEO1**: Graduates will be recognized for their ability to apply advanced technological skills with a passion for learning, empowering them to tackle emerging challenges and drive meaningful societal progress.
-        
-        **PEO2**: Graduates will excel in their professional careers by utilizing the essential skills and knowledge acquired through collaborative industry initiatives, equipping them to solve real-world challenges effectively.
-        
-        **PEO3**: Graduates will demonstrate ethical and moral integrity in their professional practice, creating positive contributions to society by applying their knowledge and skills to address real-world challenges.
-        
-        PEOs play a crucial role in shaping the career of CSE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
-
-  utter_po_cse_department:
-    - text: |
-        Program Outcomes (POs) define the competencies that graduates of the Computer Science and Engineering program are expected to acquire:
-        
-        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
-        
-        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
-        
-        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
-        
-        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
-        
-        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
-        
-        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
-        
-        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
-        
-        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
-        
-        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
-        
-        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
-        
-        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
-        
-        **PO12**: Life-Long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
-
-  utter_pso_cse_department:
-    - text: |
-        Program Specific Outcomes (PSOs) define the specific skills and knowledge that graduates of the Computer Science and Engineering program will attain:
-        
-        **PSO1**: Understand the principles of basic engineering and acquire the hardware and software aspects of computer science and engineering.
-        
-        **PSO2**: Design and develop applications or products using various programming languages.
-
-  utter_cse_course_outcomes:
-    - text: |
-        "You can find the course outcomes for the CSE department at SSMIET in the following PDF: https://ssmiet.ac.in/CSE/CO%20NEW.pdf"
-
-  utter_cse_department_info_about:
-    - text: |
-        "Our department was established in 2011. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs and facilitates in-plant training, industrial visits, and internships. Our students are placed in top companies like Infosys, Wipro, TCS, HCL, Accenture, and more."
-
-  utter_cse_department_vision:
-    - text: |
-        "**Vision**: To establish as an eminent department by imparting strong knowledge in computer science and engineering, fostering a dynamic learning environment that cultivates practical skills in software development, computing technologies, and ethical principles to meet industrial needs and societal expectations."
   
-  utter_cse_department_mission:
+  utter_college_qualification:
     - text: |
-        "**Mission**: \n • To upskill knowledge among students through the latest technologies\n • To empower students with the essential skills required to excel in their field through collaborative initiatives with industries.\n • To inculcate a sense of responsibility towards society with ethical values."
-
-  utter_cse_total_students:
-    - text: 
-        "The total student count in the CSE department varies each academic year."
-  
-  utter_cse_female_girls_students:
-    - text: 
-        "The number of female students in the CSE department varies."
-  
-  utter_cse_male_boys_students:
-    - text: 
-        "The number of male students in the CSE department varies."
-
-  utter_cse_lab_facilities:
-    - text: 
-        "You can find details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
-
-  utter_cse_department_activities:
-    - text: 
-        "You can find details about the department activities at the following link: https://ssmiet.ac.in/cse%20department%20activity.html"
-  
-  utter_cse_student_activities:
-    - text: 
-        "You can find details about the student activities at the following link: https://ssmiet.ac.in/cse%20student%20activities.html"
-  
-  utter_cse_faculty_activities:
-    - text: 
-        "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/csefacultyactivity.html"
-
-  utter_cse_professional_bodies:
-    - text: 
-        "You can find details about the professional bodies associated with the CSE department at the following link: https://ssmiet.ac.in/cseprofessional%20bodies.html"
-  
-  utter_cse_research_activities:
-    - text: 
-        "You can find details about the research activities in the CSE department at the following link: https://ssmiet.ac.in/cseres1.html"
-  
-  utter_cse_newsletter:
-    - text: 
-        "You can find details about the CSE department newsletter at the following link: https://ssmiet.ac.in/cse%20news%20letter.html"
-        
-
-  utter_technical_faculty_cse:
-    - text: |
-        The technical faculty in the CSE department are:
-          - Mr. E. Prakash (Technical Assistant)
-          - Mr. S. Ram Vignesh (Technical Assistant)
-          - Mr. T. Naveen Kumar (Technical Assistant)
-          - Mrs. I. Renuka Eswari (Technical Assistant)
-          - Mr. V. Isac Devaraj (Technical Assistant)
-
-  utter_placement_cse:
-    - text: |
-        Year-wise placement details for the CSE department:
-          - 2018-2019: 30 students
-          - 2019-2020: 41 students
-          - 2020-2021: 19 students
-          - 2021-2022: 36 students
-          - 2022-2023: 35 students
-          - 2023-2024: 41 students
-        
-  utter_extra_courses_dept:
-    - text: |
-        Here are the value-added courses offered by the CSE department:
-          1. Open Source App Development using Flutter
-          2. Selenium Testing
-          3. Web Designing using REACT
-          4. Applications of JAVA programming
-          5. Graphical Design and Animation
-          6. Web Development
-          7. Data Science using Python
-          8. Web Technology
-          9. Problem Solving with C Programming
-          10. MongoDB
-          11. Advanced Java Programming
-          12. Python with Advanced Concepts
-          13. Automated Software Testing using Selenium Web Driver
-          14. Solving Problems using Python Programming
-          15. Core Java Training      
- 
-  utter_goodbye:
-    - text: "Good Bye!..."
-  utter_mou_sign_company:
-    - text: "Here are the companies that have signed an MOU with our institution: 
-              1. Code Tantra 
-              2. Edunet Foundation
-              3. Vinculo
-              4. Svasti Technology Solutions
-              5. Accent Techno Soft (ATS)
-              6. Maxelerator Foundation
-              7. Spotlight Technology
-              8. Tarcin Robotics
-              9. Pirai Infotech Private Limited
-              10. Red Hat India Private Limited
-              11. Airmate Technologies
-              12. Silicon Software Services
-              13. Elysium Academy Private Limited
-              14. Cloud Systems\n15. NIIT - Dindigul
-              16. Gateway Software Solutions
-              17. Micro Genesis Tech Soft Private Limited"
-   
-  utter_intern_company:
-    - text: |
-             Here are top companies to get the internship
-              ✅ Pirai Infotech Pvt Ltd, Pollachi
-              ✅ 4i Apps Solutions Pvt Ltd, Chennai
-              ✅ Tech Volt Software
-              ✅ QSpiders
-              ✅ Maxelerator Foundation
-              ✅ PHP Master Minds
-              ✅ Secure Binary
-              ✅ Augray
-              ✅ Practical Black
-              ✅ Code Bind
-
-              📊 Year-wise internship count:
-              🔹 2023-2024 => 17 students
-              🔹 2022-2023 => 18 students
-              🔹 2021-2022 => 8 students
-              🔹 2020-2021 => 1 student
-              🔹 2019-2020 => 11 students
-              🔹 2018-2019 => 24 students
-
-  utter_contact_info:
-    - text: |
-        📌 The Head of the Department,
-        🏛️ Department of Computer Science and Engineering,
-        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
-        📞 Phone: 0451 – 2448843
-        ✉️ Email: hodcsessmiet@gmail.com
-
-  utter_placement_company_names:
-    - text: |
-        Companies recruiting CSE students categorized by tier levels:
-          - Tier 1:
-            - Tata Consultancy Services (TCS)
-            - Infosys
-            - Wipro
-            - HCL Technologies
-            - Capgemini
-            - Hexaware Technologies
-          - Tier 2:
-            - Zoho Corp
-            - 4i Apps Solutions Pvt Ltd
-            - Accenture
-            - Atos Syntel
-            - Revature
-          - Tier 3:
-            - Venture Tools
-            - Vintorix Solutions
-            - Slusby Technologies
-            - Mechpro Technologies
-            - Spotlight Technologies
-            - Svasti Technology Solutions
-            - Pirai Infotech Pvt Ltd
-            - ThinkBig Infotech Pvt Ltd
-            - Net Tel Solutions India Pvt Ltd      
+        **SSM Institute of Engineering and Technology** (An Autonomous Institution) Approved by AICTE, New Delhi \n Affiliated to Anna University, Chennai Accredited by NAAC & NBA
+    
   utter_job_interview_preparation:
     - text: |
         "We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance."
@@ -930,10 +731,7 @@ responses:
   utter_each_all_department_get_placed:
     - text: |
         "The number of students placed varies by department. On average, a high percentage of students from Computer Science, IT, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus."
-
-  utter_cse_accreditation:
-    - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
- 
+  
   utter_curriculum_relevance_industry:
     - text: |
         "Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations."
@@ -951,20 +749,6 @@ responses:
         - Build Club\n
         - Space Club\n
         These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
-  utter_lab_hardware_info:
-    - text: "SSMIET provides well-equipped computer labs with updated systems. The lab configurations include modern processors, sufficient RAM, and networking infrastructure. For specific details, please check the official SSMIET website or contact the administration."
-
-  utter_cse_yearwise_student_count:
-    - text: |
-        "Yearwise student count in CSE department"
-
-  utter_cse_event_conducted_photos:
-    - text: |
-        "Event photos"
-
-  utter_cse_faculty_experience_knowledge:
-    - text: |
-        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
   utter_college_events_annual_symposium:
     - text: |
@@ -1032,6 +816,7 @@ responses:
               - Mr.C.Silambarasan M.E.,
               - Phone: 7373707001
               - E-mail Id: placement.ssmiet@gmail.com"
+
   utter_sports_achievements:
     - text: "Our college has won multiple sports tournaments this year! Check out the details on our sports board "
   utter_software_lab_details:
@@ -1052,24 +837,6 @@ responses:
       - 2023-2024: 78 Teaching, 34 Non-teaching
       - 2022-2023: 70 Teaching, 29 Non-teaching
       - 2021-2022: 95 Teaching, 38 Non-teaching"
-      
-  utter_hostel_wifi:
-    - text: "SSMIET provides WiFi access in the hostel and common areas."
-
-  utter_hostel_room_sharing:
-    - text: "Rooms are shared by 4 members"
-
-  utter_hostel_food_routine:
-    - text: "weekly once non-veg"
-
-  utter_hostel_restroom_facilities:
-    - text: "hotwater, how many bathrooms in a flooor, clean"
-
-  utter_hostel_fee:
-    - text: "hostel fee details"
-
-  utter_overall_hostel_details:
-    - text: "full hostel details"
 
   utter_sem_exam_result:
     - text: "exam link"
@@ -1089,33 +856,339 @@ responses:
   utter_gate_coaching:
     - text: |
         The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
-
-  utter_sports_equipment:
+  
+  utter_campus_general_photos:
     - text: |
-        - 🏈 Football – Ground (College Kit), Footballs
-        - 🏀 Basketball – Basketball Court, Basketballs
-        - 🏓 Table Tennis – 2 Tables, Racquets, Balls
-        - 🏏 Cricket – Bat, Mat, Balls, Kitbag
-        - 🏃 Athletics – 400m & 200m Track, Cones, Track & Field Event Equipment
-        - 🏐 Volleyball – Court, Nets, Volleyballs
-        - 🏸 Badminton – Indoor Stadium, Racquets, Nets
-        - 🎾 Tennis – Court, Nets, Racquets
-        - 🏸 Ball Badminton – Racquets, Balls
+        Here are some images of our college campus:
+
+        ![Campus View 1](https://example.com/campus1.jpg)
+        ![Campus View 2](https://example.com/campus2.jpg)
+        ![Campus View 3](https://example.com/campus3.jpg)
+
+  utter_cse_hod_details:
+    - text: |
+         - Dr. C. Sujatha
+         - Position: Head of the Department (HOD), CSE, SSMIET
+         - Years of Experience: 21+ years in teaching & research
+         - Qualification: Ph.D, M.E, B.E"
+          To learn more about the head of the CSE Department,please visit this https://ssmiet.ac.in/pdf/cse/sujatha.pdf
+
+  utter_cse_faculty_details :
+    - text: |
+        Here are the faculty members of the CSE department:
+        - **Dr. C. Sujatha** - M.E., Ph.D. (Professor and Head)
+        - **Dr. G. Prabu** - M.E., Ph.D. (Associate Professor)
+        - **Dr. S. Sudhakar** - M.E., Ph.D. (Associate Professor)
+        - **Mrs. M. Mookambikai** - M.E., (Ph.D.) (Assistant Professor)
+        - **Dr. A. Aldo Tenis** - M.E., Ph.D. (Associate Professor)
+        - **Mrs. N. J. Divya** - M.E., (Ph.D.) (Assistant Professor)
+        - **Mrs. K. Sureka** - M.E., (Ph.D.) (Assistant Professor)
+        - **Mrs. S. Suganya** - M.E., (Ph.D.) (Assistant Professor)
+        - **Mrs. J. Dhanalakshmi** - M.E., (Ph.D.) (Assistant Professor)
+        - **Mrs. A. Padma Priya** - M.E. (Assistant Professor)
+        - **Mrs. T. Rani Mangammal** - M.E., (Ph.D.) (Assistant Professor)
+        - **Mr. P. V. Samuel Devakumar** - M.E. (Assistant Professor)
+        - **Ms. V. Sudharsana** - M.E. (Assistant Professor)
+        - **Mrs. D. Rekha** - M.E. (Assistant Professor)
+        - **Dr. M. Nanmalar** - M.E., Ph.D. (Assistant Professor)
+
+  utter_peo_cse_department:
+    - text: |
+        Program Educational Objectives (PEOs) in the Computer Science and Engineering (CSE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
+        
+        **PEO1**: Graduates will be recognized for their ability to apply advanced technological skills with a passion for learning, empowering them to tackle emerging challenges and drive meaningful societal progress.
+        
+        **PEO2**: Graduates will excel in their professional careers by utilizing the essential skills and knowledge acquired through collaborative industry initiatives, equipping them to solve real-world challenges effectively.
+        
+        **PEO3**: Graduates will demonstrate ethical and moral integrity in their professional practice, creating positive contributions to society by applying their knowledge and skills to address real-world challenges.
+        
+        PEOs play a crucial role in shaping the career of CSE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
+
+  utter_po_cse_department:
+    - text: |
+        Program Outcomes (POs) define the competencies that graduates of the Computer Science and Engineering program are expected to acquire:
+        
+        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+        
+        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+        
+        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+        
+        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+        
+        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+        
+        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+        
+        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
+        
+        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+        
+        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+        
+        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+        
+        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+        
+        **PO12**: Life-Long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+
+  utter_pso_cse_department:
+    - text: |
+        Program Specific Outcomes (PSOs) define the specific skills and knowledge that graduates of the Computer Science and Engineering program will attain:
+        
+        **PSO1**: Understand the principles of basic engineering and acquire the hardware and software aspects of computer science and engineering.
+        
+        **PSO2**: Design and develop applications or products using various programming languages.
+
+  utter_cse_course_outcomes:
+    - text: |
+        "You can find the course outcomes for the CSE department at SSMIET in the following PDF: https://ssmiet.ac.in/CSE/CO%20NEW.pdf"
+
+  utter_cse_department_info_about:
+    - text: |
+        "Our department was established in 2011. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs and facilitates in-plant training, industrial visits, and internships. Our students are placed in top companies like Infosys, Wipro, TCS, HCL, Accenture, and more."
+
+  utter_cse_department_vision:
+    - text: |
+        "**Vision**: To establish as an eminent department by imparting strong knowledge in computer science and engineering, fostering a dynamic learning environment that cultivates practical skills in software development, computing technologies, and ethical principles to meet industrial needs and societal expectations."
+  
+  utter_cse_department_mission:
+    - text: |
+         **Mission**:
+           - To upskill knowledge among students through the latest technologies
+           - To empower students with the essential skills required to excel in their field through collaborative initiatives with industries.
+           - To inculcate a sense of responsibility towards society with ethical values.
+
+  utter_cse_total_students:
+    - text: 
+        "The total student count in the CSE department varies each academic year."
+  
+  utter_cse_female_girls_students:
+    - text: 
+        "The number of female students in the CSE department varies."
+  
+  utter_cse_male_boys_students:
+    - text: 
+        "The number of male students in the CSE department varies."
+
+  utter_cse_lab_facilities:
+    - text: |
+        Some of the image of our college Lab:
+        ![Image 1](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0001.jpg)
+        ![Image 2](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0005.jpg)
+        You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
+
+  utter_cse_department_activities:
+    - text: 
+        "You can find details about the department activities at the following link: https://ssmiet.ac.in/cse%20department%20activity.html"
+  
+  utter_cse_student_activities:
+    - text: 
+        "You can find details about the student activities at the following link: https://ssmiet.ac.in/cse%20student%20activities.html"
+  
+  utter_cse_faculty_activities:
+    - text: 
+        "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/csefacultyactivity.html"
+
+  utter_cse_professional_bodies:
+    - text: 
+        "You can find details about the professional bodies associated with the CSE department at the following link: https://ssmiet.ac.in/cseprofessional%20bodies.html"
+  
+  utter_cse_research_activities:
+    - text: 
+        "You can find details about the research activities in the CSE department at the following link: https://ssmiet.ac.in/cseres1.html"
+  
+  utter_cse_newsletter:
+    - text: 
+        "You can find details about the CSE department newsletter at the following link: https://ssmiet.ac.in/cse%20news%20letter.html"
+        
+  utter_technical_faculty_cse:
+    - text: |
+        The technical faculty in the CSE department are:
+          - **Mr. E. Prakash** (Technical Assistant)
+          - **Mr. S. Ram Vignesh** (Technical Assistant)
+          - **Mr. T. Naveen Kumar** (Technical Assistant)
+          - **Mrs. I. Renuka Eswari** (Technical Assistant)
+          - **Mr. V. Isac Devaraj** (Technical Assistant)
+
+  utter_placement_cse:
+    - text: |
+        Year-wise placement details for the CSE department:
+          - 2018-2019: 30 students
+          - 2019-2020: 41 students
+          - 2020-2021: 19 students
+          - 2021-2022: 36 students
+          - 2022-2023: 35 students
+          - 2023-2024: 41 students
+
+        For More details to know about **student details** who all are got placed,click this link https://pdf.ac/2RzZxY
+        
+  utter_extra_courses_cse_dept:
+    - text: |
+        Here are the value-added courses offered by the CSE department:
+          - Open Source App Development using Flutter
+          - Selenium Testing
+          - Web Designing using REACT
+          - Applications of JAVA programming
+          - Graphical Design and Animation
+          - Web Development
+          - Data Science using Python
+          - Web Technology
+          - Problem Solving with C Programming
+          - MongoDB
+          - Advanced Java Programming
+          - Python with Advanced Concepts
+          - Automated Software Testing using Selenium Web Driver
+          - Solving Problems using Python Programming
+          - Core Java Training      
+
+  utter_mou_sign_company:
+    - text: "Here are the companies that have signed an MOU with our institution: 
+              - Code Tantra 
+              - Edunet Foundation
+              - Vinculo
+              - Svasti Technology Solutions
+              - Accent Techno Soft (ATS)
+              - Maxelerator Foundation
+              - Spotlight Technology
+              - Tarcin Robotics
+              - Pirai Infotech Private Limited
+              - Red Hat India Private Limited
+              - Airmate Technologies
+              - Silicon Software Services
+              - Elysium Academy Private Limited
+              - Cloud Systems\n15. NIIT - Dindigul
+              - Gateway Software Solutions
+              - Micro Genesis Tech Soft Private Limited"
+   
+  utter_intern_company:
+    - text: |
+             Here are top companies to get the internship
+              - Pirai Infotech Pvt Ltd, Pollachi
+              - 4i Apps Solutions Pvt Ltd, Chennai
+              - Tech Volt Software
+              - QSpiders
+              - Maxelerator Foundation
+              - PHP Master Minds
+              - Secure Binary
+              - Augray
+              - Practical Black
+              - Code Bind
+
+              📊 Year-wise internship count:
+               - 2023-2024 => 17 students
+               - 2022-2023 => 18 students
+               - 2021-2022 => 8 students
+               - 2020-2021 => 1 student
+               - 2019-2020 => 11 students
+               - 2018-2019 => 24 students
+
+  utter_cse_contact:
+    - text: |
+        📌 The Head of the Department,\n
+        🏛️ Department of Computer Science and Engineering,\n
+        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.\n
+        📞 Phone: 0451 – 2448843\n
+        ✉️ Email: hodcsessmiet@gmail.com
+
+  utter_placement_company_names:
+    - text: |
+        Companies recruiting CSE students categorized by tier levels:
+          - Tier 1:
+            - Tata Consultancy Services (TCS)
+            - Infosys
+            - Wipro
+            - HCL Technologies
+            - Capgemini
+            - Hexaware Technologies
+          - Tier 2:
+            - Zoho Corp
+            - 4i Apps Solutions Pvt Ltd
+            - Accenture
+            - Atos Syntel
+            - Revature
+          - Tier 3:
+            - Venture Tools
+            - Vintorix Solutions
+            - Slusby Technologies
+            - Mechpro Technologies
+            - Spotlight Technologies
+            - Svasti Technology Solutions
+            - Pirai Infotech Pvt Ltd
+            - ThinkBig Infotech Pvt Ltd
+            - Net Tel Solutions India Pvt Ltd  
+
+  utter_cse_accreditation:
+    - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
+ 
+  utter_cse_yearwise_student_count:
+    - text: |
+        "Yearwise student count in CSE department"
+
+  utter_cse_event_conducted_photos:
+    - text: |
+        "Event photos"
+
+  utter_cse_faculty_experience_knowledge:
+    - text: |
+        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
+  utter_cse_staff_count:
+    - text: |
+        - Staff Counts in CSE
+            - **Teaching Staff** - 15
+            - **Non-Teaching Staff** - 5
+            - **Total Staff** - 20
+
+  utter_photos_cse_dept:
+    - text: |
+        Here are some images from the CSE department:
+
+        ![Image 1](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0001.jpg)
+
+        ![Image 2](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0005.jpg)
+
+        ![Image 3](https://ssmiet.ac.in/cse%20gallery/6.jpg)
+        ![Image 4](https://i.ibb.co/Z6Byf0Hk/IMG-20231025-142741.jpg)
+        You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
+
+  utter_hostel_availability_info:
+      - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
+  
+  utter_hostel_wifi_details:
+    - text: "SSMIET provides WiFi access in the hostel and common areas."
+
+  utter_hostel_room_sharing:
+    - text: "Rooms are shared by 4 members"
+
+  utter_hostel_food_routine:
+    - text: "weekly once non-veg"
+
+  utter_hostel_restroom_facilities:
+    - text: "hotwater, how many bathrooms in a flooor, clean"
+
+  utter_hostel_fee:
+    - text: "hostel fee details"
+
+  utter_overall_hostel_details:
+    - text: "full hostel details"
           
-  utter_ragging_no_ragging:
-    - text: "Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students."
+  utter_ragging:
+    - text: |
+          - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
+          - To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues.
+          - If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured.
+          - Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college.
+          - Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment.
 
-  utter_ragging_prevention:
-    - text: "To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues."
+  utter_bus_facility:
+      - text: |
+              Our college provides bus facilities for day scholars. Once you have paid the bus fees for your location, you cannot change your bus 
+              route or stop to another location. However, you can request a route change after completing one year.\n Bus fees are charged separately 
+              and vary based on the distance from the college to your preferred location. You can find details about bus routes and bus numbers below.
 
-  utter_ragging_helpline:
-    - text: "If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured."
-
-  utter_ragging_punishment:
-    - text: "Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college."
-
-  utter_ragging_awareness:
-    - text: "Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment."
+              - We have Buses from **Palani , Periyakulam , Vanthalagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
+              - We have totally 25+ Buses.There is only one bus per stop.
 
   utter_bus_seat_fcfs:
     - text: "Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat."
@@ -1125,52 +1198,6 @@ responses:
 
   utter_bus_seat_no_reservation:
     - text: "Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure."
-
-  utter_bus_seat_advice:
-    - text: "If you often face seating issues, consider taking an earlier bus or planning your schedule accordingly."
-
-  utter_campus_general_photos:
-    - text: |
-        Here are some images of our college campus:
-
-        ![Campus View 1](https://example.com/campus1.jpg)
-        ![Campus View 2](https://example.com/campus2.jpg)
-        ![Campus View 3](https://example.com/campus3.jpg)
-
-  utter_campus_auditorium_photos:
-    - text: |
-        Here are some images of the college auditorium:
-
-        ![Auditorium 1](https://example.com/auditorium1.jpg)
-        ![Auditorium 2](https://example.com/auditorium2.jpg)
-
-  utter_campus_canteen_photos:
-    - text: |
-        Here are some images of the college canteen:
-
-        ![Canteen 1](https://example.com/canteen1.jpg)
-        ![Canteen 2](https://example.com/canteen2.jpg)
-
-  utter_campus_library_photos:
-    - text: |
-        Here are some images of the library:
-
-        ![Library 1](https://example.com/library1.jpg)
-        ![Library 2](https://example.com/library2.jpg)
-
-  utter_campus_hostel_photos:
-    - text: |
-        Here are some images of the hostel:
-
-        ![Hostel 1](https://example.com/hostel1.jpg)
-        ![Hostel 2](https://example.com/hostel2.jpg)
-
-  utter_campus_playground_photos:
-    - text: |
-        Here are some images of the playground:
-
-        ![Playground 1](https://example.com/playground1.jpg)
-        ![Playground 2](https://example.com/playground2.jpg)
 
   utter_bus_facility_details:
     - text: |
@@ -1363,7 +1390,8 @@ responses:
           17. Technology training  on “Cloud computing –AZ900 microsoft Azure Fundamentals”     
 
   utter_mou_sign_company_ece:
-    - text: "Here are the companies that have signed an MOU with our institution: 
+    - text: |
+          Here are the companies that have signed an MOU with our institution: 
               1. PRAYA LABS, Tiruvannamalai  
               2. SkillsDA- INGU’S Knowledge Academy Pvt Ltd, Chennai
               3. Village technology school, Chennai 
@@ -1447,7 +1475,7 @@ responses:
 
   utter_ece_accreditation:
     - text: |
-        "The Electronics and Communication Engineering (ECE) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. The institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. Additionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC)."
+        The Electronics and Communication Engineering (ECE) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. The institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. Additionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC).
 
   utter_ece_yearwise_student_count:
     - text: |
@@ -1615,21 +1643,21 @@ responses:
        🔹 More Details: https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
 
   utter_eee_faculty_details:
-  - text: |
-      Here are the faculty members of the EEE department:
-      1. Dr. R.M. Sekar - B.E., M.Tech., Ph.D. (Professor and Head)
-      2. Mr. D. Manoj - B.E., M.Tech., Ph.D. (Associate Professor)
-      3. Mr. G. Satheesh Kumar - B.E., M.E., Ph.D. (Assistant Professor)
-      4. Mr. M. Kalidasan - B.E., M.E., Ph.D. (Assistant Professor)
-      5. Mr. P. Siva Subramanian - B.E., M.E., Ph.D. (Associate Professor)
-      6. Mrs. R. Ramya - B.E., M.E. (Assistant Professor)
-      7. Mrs. K. Uma Maheswari - B.E., M.E. (Assistant Professor)
-      8. Mr. N. Manikandan - B.E., M.E., Ph.D. (Assistant Professor)
-      9. Ms. S. Geethanjali - B.E., M.E. (Assistant Professor)
-      10. Dr. V. Sivakumar - B.E., M.E., Ph.D. (Associate Professor and Head)
-      11. Dr. T. Arulkumar - B.E., M.E., Ph.D. (Assistant Professor)
-      12. Mrs. P. Mohana Karthiga - B.E., M.E. (Assistant Professor)
-     
+    - text: |
+        Here are the faculty members of the EEE department:
+        1. Dr. R.M. Sekar - B.E., M.Tech., Ph.D. (Professor and Head)
+        2. Mr. D. Manoj - B.E., M.Tech., Ph.D. (Associate Professor)
+        3. Mr. G. Satheesh Kumar - B.E., M.E., Ph.D. (Assistant Professor)
+        4. Mr. M. Kalidasan - B.E., M.E., Ph.D. (Assistant Professor)
+        5. Mr. P. Siva Subramanian - B.E., M.E., Ph.D. (Associate Professor)
+        6. Mrs. R. Ramya - B.E., M.E. (Assistant Professor)
+        7. Mrs. K. Uma Maheswari - B.E., M.E. (Assistant Professor)
+        8. Mr. N. Manikandan - B.E., M.E., Ph.D. (Assistant Professor)
+        9. Ms. S. Geethanjali - B.E., M.E. (Assistant Professor)
+        10. Dr. V. Sivakumar - B.E., M.E., Ph.D. (Associate Professor and Head)
+        11. Dr. T. Arulkumar - B.E., M.E., Ph.D. (Assistant Professor)
+        12. Mrs. P. Mohana Karthiga - B.E., M.E. (Assistant Professor)
+      
   utter_peo_eee_department:
     - text: |
         Program Educational Objectives (PEOs) in the Electrical and Electronics Engineering (EEE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
@@ -1744,7 +1772,7 @@ responses:
         ✔ Industrial Automation"
 
   utter_intern_company_eee:
-    - text: 
+    - text: |
         Here are top companies to get the internship
               ✔️ TANTRANSCO Limited
               ✔️ Sarayu Engineering
@@ -1841,7 +1869,13 @@ responses:
   utter_eee_accreditation:
     - text: |
        "Our EEE department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and NBA, and affiliated to Anna University, Chennai."
-  
+
+  utter_eee_lab_facilities:
+    - text: "Add EEE lab"
+
+  utter_technical_faculty_eee:
+    - text: "Add EEE technical faculty"
+
   utter_mech_hod_details:
     - text: |
         🔹 Name:  Dr.G. Sankaranarayanan  
@@ -1999,7 +2033,8 @@ responses:
           8. Cad Modelling in Industrial Applications
 
   utter_mou_sign_company_mech:
-    - text: "Here are the companies that have signed an MOU with our institution: 
+    - text: |
+          Here are the companies that have signed an MOU with our institution: 
               1. A PLUS NDT Services, Coimbatore 
               2. Sri Sai NDT Services, Pondicherry 
               3. UNIQUE MEP Engineering Pvt Ltd, Chennai 
@@ -2051,7 +2086,7 @@ responses:
 
   utter_mech_accreditation:
     - text: |
-        "The Mechanical Engineering (ME) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. \nThe institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. \nAdditionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC)."
+        The Mechanical Engineering (ME) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. \nThe institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. \nAdditionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC).
 
   utter_mech_yearwise_student_count:
     - text: |
@@ -2063,14 +2098,7 @@ responses:
 
   utter_mech_faculty_experience_knowledge:
     - text: |
-        "The Mechanical Engineering faculty at SSMIET has an average teaching experience of around 12 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
-
-
-                
- 
-          
-
-          #csbs
+        The Mechanical Engineering faculty at SSMIET has an average teaching experience of around 12 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided.
 
   utter_csbs_hod_details:
      - text: |
@@ -2235,6 +2263,22 @@ responses:
     - text: |
         "The Communication System faculty at SSMIET has an average of 16 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
 
+  utter_communication_system_yearwise_student_count:
+    - text: |
+        "The year-wise student count for the Communication System department is not currently accessible. Contact the department for specific numbers."
+
+  utter_communication_system_total_students:
+    - text: |
+        "The total student count for the Communication System department is not available. Please consult the administration for the latest figures."
+
+  utter_communication_system_female_students:
+    - text: |
+        "The number of female students in the Communication System department is not available. Kindly check with the department for further details."
+
+  utter_communication_system_male_students:
+    - text: |
+        "The number of male students in the Communication System department is not currently available. Please contact the department for more information."
+
   utter_thermal_faculty_details:
     - text: |
         Here are the faculty members of the Thermal Engineering department.
@@ -2277,19 +2321,38 @@ responses:
     - text: |
         "The number of male students in the Thermal Engineering department is not available. Please check with the department for more details."
 
-  utter_communication_system_total_students:
+  utter_sports_equipment:
     - text: |
-        "The total student count for the Communication System department is not available. Please consult the administration for the latest figures."
+        - 🏈 Football – Ground (College Kit), Footballs
+        - 🏀 Basketball – Basketball Court, Basketballs
+        - 🏓 Table Tennis – 2 Tables, Racquets, Balls
+        - 🏏 Cricket – Bat, Mat, Balls, Kitbag
+        - 🏃 Athletics – 400m & 200m Track, Cones, Track & Field Event Equipment
+        - 🏐 Volleyball – Court, Nets, Volleyballs
+        - 🏸 Badminton – Indoor Stadium, Racquets, Nets
+        - 🎾 Tennis – Court, Nets, Racquets
+        - 🏸 Ball Badminton – Racquets, Balls
 
-  utter_communication_system_female_students:
+  utter_campus_auditorium_photos:
     - text: |
-        "The number of female students in the Communication System department is not available. Kindly check with the department for further details."
+        Here are some images of the college auditorium:
 
-  utter_communication_system_male_students:
+        ![Auditorium 1](https://example.com/auditorium1.jpg)
+        ![Auditorium 2](https://example.com/auditorium2.jpg)
+
+  utter_campus_canteen_photos:
     - text: |
-        "The number of male students in the Communication System department is not currently available. Please contact the department for more information."
+        Here are some images of the college canteen:
 
+        ![Canteen 1](https://example.com/canteen1.jpg)
+        ![Canteen 2](https://example.com/canteen2.jpg)
 
+  utter_campus_library_photos:
+    - text: |
+        "Campus library photos"
+
+  utter_aids_hod_details:
+    - text: "Add hod details"
   utter_aids_faculty_details:
     - text: |
          Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
@@ -2339,15 +2402,15 @@ responses:
 
          **PO12** - Lifelong Learning: Engage in continuous learning and research to stay updated with advancements in AI and Data Science for personal and professional growth.
   utter_pso_aids_department:
-    text: |
-      **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
+    - text: |
+        **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
 
-      **PSO2:** Apply AI and data analytics to extract insights from data, create disruptive solutions, and address complex societal, environmental, and engineering challenges using cutting-edge technologies.
+        **PSO2:** Apply AI and data analytics to extract insights from data, create disruptive solutions, and address complex societal, environmental, and engineering challenges using cutting-edge technologies.
 
-      **PSO3:** Develop skills in data analytics, knowledge engineering, and visualization to manage complex projects, collaborate in multidisciplinary teams, and continuously contribute to economic and societal progress through innovative solutions.
+        **PSO3:** Develop skills in data analytics, knowledge engineering, and visualization to manage complex projects, collaborate in multidisciplinary teams, and continuously contribute to economic and societal progress through innovative solutions.
 
-      These PSOs aim to equip graduates with the necessary skills to excel in the evolving fields of Artificial Intelligence and Data Science.
- 
+        These PSOs aim to equip graduates with the necessary skills to excel in the evolving fields of Artificial Intelligence and Data Science.
+  
   utter_aids_department_info_about:
     - text: |
         The AI&DS program, approved by AICTE and affiliated with Anna University, Chennai, equips students with skills in Data Science, Machine Learning, Deep Learning, and IoT. It prepares them for careers in AI-driven industries like Healthcare, Banking, and Robotics, meeting the demand for AI professionals in the digital era.
@@ -2413,12 +2476,12 @@ responses:
           🔹 2024-2025 => 37 students
 
   utter_technical_faculty_aids:
-    text: |
+    - text: |
           The technical faculty in the CSE department are:
           - Mr. V. ISAC DEVARAJ (Technical Assistant)
 
   utter_extra_courses_aids:
-    text: |
+    - text: |
        Here are the value-added courses offered by the AIDS department:
            1. Java
            2. Cloud Computing
@@ -2429,26 +2492,34 @@ responses:
            7. Machine Learning
 
   utter_aids_accreditation:
-    text: |
-      Artificial Intelligence and Data Science (AI&DS) a new program is being introduced and approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai.
+    - text: |
+       Artificial Intelligence and Data Science (AI&DS) a new program is being introduced and approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai.
 
   utter_aids_yearwise_student_count:
-    text: |
+    - text: |
        refer ssmiet website 
 
+  utter_aids_event_conducted_photos:
+    - text: "Aids Event conducted photos"
+
+  utter_aids_faculty_experience_knowledge:
+    - text: "Add faculty experience aids"
+  
+  utter_placement_aids:
+    - text: "Add placement aids"
   utter_cybersecurity_hod_details:
-    text: |
+    - text: |
        refer ssmiet website 
 
   utter_cybersecurity_faculty_details:
-    text: |
+    - text: |
         Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
 
           1. Mrs. P. Jeyapriya - M.E. (Assistant Professor)
           2. Mrs. C. Premalatha - M.E. (Assistant Professor) 
   
   utter_peo_cybersecurity_department:
-    text: |
+    - text: |
        Program Educational Objectives (PEOs) in the Cybersecurity department outline the long-term achievements that graduates are expected to accomplish. These objectives are designed to equip students with the necessary skills and knowledge to excel in their careers and contribute responsibly to society. Here are the key PEOs:
 
         **PEO1:** Graduates can apply their technical competence in computer science to solve real-world problems, demonstrating leadership in both technical and interpersonal domains.
@@ -2460,37 +2531,37 @@ responses:
         These PEOs play a vital role in shaping Cybersecurity graduates by fostering technical proficiency, problem-solving abilities, ethical responsibility, and continuous learning. 
 
   utter_po_cybersecurity_department:
-    text: |
-      Program Outcomes (POs) of the Cybersecurity Department define the core competencies that graduates will achieve by the time they complete their degree. These outcomes align with industry standards and academic excellence to ensure students are well-prepared for their careers in cybersecurity. Here are the key POs:
+    - text: |
+        Program Outcomes (POs) of the Cybersecurity Department define the core competencies that graduates will achieve by the time they complete their degree. These outcomes align with industry standards and academic excellence to ensure students are well-prepared for their careers in cybersecurity. Here are the key POs:
 
-        **PO1:** Engineering Knowledge – Apply the knowledge of mathematics, science, and cybersecurity fundamentals to solve complex problems in computing and information security.
+          **PO1:** Engineering Knowledge – Apply the knowledge of mathematics, science, and cybersecurity fundamentals to solve complex problems in computing and information security.
 
-        **PO2:** Problem Analysis – Identify, analyze, and provide solutions to cybersecurity threats and vulnerabilities by applying foundational principles of security and risk assessment.
+          **PO2:** Problem Analysis – Identify, analyze, and provide solutions to cybersecurity threats and vulnerabilities by applying foundational principles of security and risk assessment.
 
-        **PO3:** Design & Development of Solutions – Design, implement, and evaluate secure computing systems and solutions to protect data and infrastructure while considering safety and legal constraints.
+          **PO3:** Design & Development of Solutions – Design, implement, and evaluate secure computing systems and solutions to protect data and infrastructure while considering safety and legal constraints.
 
-        **PO4:** Investigation of Complex Problems – Conduct research and apply modern tools and techniques to investigate and mitigate security risks in complex systems.
+          **PO4:** Investigation of Complex Problems – Conduct research and apply modern tools and techniques to investigate and mitigate security risks in complex systems.
 
-        **PO5:** Modern Tool Usage – Utilize appropriate cybersecurity tools, technologies, and best practices to detect, prevent, and respond to security incidents.
+          **PO5:** Modern Tool Usage – Utilize appropriate cybersecurity tools, technologies, and best practices to detect, prevent, and respond to security incidents.
 
-        **PO6:** The Engineer & Society – Assess the societal, health, safety, and legal issues relevant to cybersecurity, ensuring compliance with ethical and professional standards.
+          **PO6:** The Engineer & Society – Assess the societal, health, safety, and legal issues relevant to cybersecurity, ensuring compliance with ethical and professional standards.
 
-        **PO7:** Environment & Sustainability – Understand the impact of cybersecurity solutions on environmental sustainability and contribute to developing energy-efficient and secure systems.
+          **PO7:** Environment & Sustainability – Understand the impact of cybersecurity solutions on environmental sustainability and contribute to developing energy-efficient and secure systems.
 
-        **PO8:** Ethics – Apply ethical principles and professional responsibilities to ensure the integrity and confidentiality of information systems.
+          **PO8:** Ethics – Apply ethical principles and professional responsibilities to ensure the integrity and confidentiality of information systems.
 
-        **PO9:** Individual & Teamwork – Function effectively as an individual, member, or leader in multidisciplinary teams to address cybersecurity challenges collaboratively.
+          **PO9:** Individual & Teamwork – Function effectively as an individual, member, or leader in multidisciplinary teams to address cybersecurity challenges collaboratively.
 
-        **PO10:** Communication – Communicate effectively in professional settings, documenting security policies, and presenting technical solutions clearly to diverse audiences.
+          **PO10:** Communication – Communicate effectively in professional settings, documenting security policies, and presenting technical solutions clearly to diverse audiences.
 
-        **PO11:** Project Management & Finance – Apply cybersecurity concepts in project management, entrepreneurship, and financial decision-making for secure software development and network security.
+          **PO11:** Project Management & Finance – Apply cybersecurity concepts in project management, entrepreneurship, and financial decision-making for secure software development and network security.
 
-        **PO12:** Lifelong Learning – Engage in lifelong learning and professional development to adapt to evolving cybersecurity threats, technologies, and industry trends.
+          **PO12:** Lifelong Learning – Engage in lifelong learning and professional development to adapt to evolving cybersecurity threats, technologies, and industry trends.
 
-        These Program Outcomes (POs) ensure that graduates from the Cybersecurity Department develop the technical, analytical, and ethical expertise needed to excel in their careers while making meaningful contributions to the field of cybersecurity.     
+          These Program Outcomes (POs) ensure that graduates from the Cybersecurity Department develop the technical, analytical, and ethical expertise needed to excel in their careers while making meaningful contributions to the field of cybersecurity.     
 
   utter_pso_cybersecurity_department:
-    text: |
+    - text: |
         **PSO1:** Exhibit design and programming skills to build and automate business solutions using cutting-edge technologies.
 
         **PSO2:** Possess a strong theoretical foundation leading to excellence and enthusiasm for research, enabling the provision of elegant solutions to complex problems.
@@ -2498,52 +2569,57 @@ responses:
         **PSO3:** Demonstrate the ability to work effectively with various engineering fields as a team to design, build, and develop system applications.
 
   utter_cybersecurity_department_info_about:
-    text: |
+    - text: |
        The Department of Computer Science and Engineering (Cyber Security) was established in 2023 with an intake of 60 students. The B.E. CSE (Cyber Security) program addresses the growing demand for cybersecurity professionals across various sectors, including data security, network security, and cloud security. It combines core computer science subjects with specialized cybersecurity courses, covering cryptography, network security, secure programming, and ethical hacking. The four-year program provides a strong foundation in fundamental sciences, mathematics, and cybersecurity, equipping students with the skills to analyze threats, respond to cyber-attacks, and develop security policies.      
 
   utter_cybersecurity_department_vision:
-    text: |
-      To develop skilled cyber security professionals equipped to secure digital landscapes, address emerging cyber challenges, and contribute to society with strong technical expertise, entrepreneurial skills, and ethical values.
+    - text: |
+       To develop skilled cyber security professionals equipped to secure digital landscapes, address emerging cyber challenges, and contribute to society with strong technical expertise, entrepreneurial skills, and ethical values.
 
   utter_cybersecurity_department_mission:
-    text: |
-      Foster self-discipline and critical thinking in students through robust teaching and learning.
+    - text: |
+        Foster self-discipline and critical thinking in students through robust teaching and learning.
 
-      Empower students to become proficient cyber security professionals and responsible citizens.
+        Empower students to become proficient cyber security professionals and responsible citizens.
 
-      Strengthen industry partnerships by establishing specialized centres for advanced skill development and practical exposure.
+        Strengthen industry partnerships by establishing specialized centres for advanced skill development and practical exposure.
 
-      Deliver knowledge for secure and innovative solutions, contributing to sustainable and ethical technology advancement.
+        Deliver knowledge for secure and innovative solutions, contributing to sustainable and ethical technology advancement.
 
   utter_cybersecurity_total_students:
-    text: |
-      The total student count in the CyberSecurity department varies each academic year.
+    - text: |
+       The total student count in the CyberSecurity department varies each academic year.
 
   utter_cybersecurity_female_girls_students:
-    text: |
+    - text: |
        The number of female students in the CyberSecurity department varies.
   
   utter_cybersecurity_male_boys_students:
-    text: |
+    - text: |
         The number of male students in the CyberSecurity department varies.
 
   utter_cybersecurity_department_activities:
-    text: |
-      "You can find details about the Department activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20department%20activity.html"
+    - text: |
+       "You can find details about the Department activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20department%20activity.html"
    
   utter_cybersecurity_student_activities:
-    text: |
-      "You can find details about the Student activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20security/New%20folder/cyber%20student%20activities%202024-2025.pdf"
+    - text: |
+       "You can find details about the Student activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20security/New%20folder/cyber%20student%20activities%202024-2025.pdf"
 
   utter_cybersecurity_faculty_activities:
-    text: |
+    - text: |
         "You can find details about the Faculty activities available in the AIDS department at the following link: https://ssmiet.ac.in/cyber%20security/New%20folder/cyber%20Faculty%20activities%202024-2025.pdf"
 
   utter_extra_courses_cybersecurity:
-    text: |
+    - text: |
        Here are the value-added courses offered by the CyberSecurity department:
           1. CORE JAVA
 
+  utter_cybersecurity_event_conducted_photos:
+    - text: "Cyber Security photos"
+
+  utter_cybersecurity_faculty_experience_knowledge:
+    - text: "Cybersecurity faculty"
 
   utter_aiml_hod_details:
     - text: |
@@ -2649,11 +2725,11 @@ responses:
             1️⃣2️⃣ **Lifelong Learning**: Engage in continuous learning to adapt to technological advancements.
   
   utter_pso_civil_department:
-        - text: |
-            **📌 Program Specific Outcomes (PSO) - Civil Engineering Department**
+      - text: |
+             **📌 Program Specific Outcomes (PSO) - Civil Engineering Department**
            
-           1️⃣**PSO1**: Enhancing the employability skills by making the students find innovative solutions for challenges and problems in various domains of Civil Engineering.
-           2️⃣ ** PSO2**Inculcating state of art technologies in students to deal with practical aspects of Civil Engineering.
+             **PSO1**: Enhancing the employability skills by making the students find innovative solutions for challenges and problems in various domains of Civil Engineering.
+             **PSO2**Inculcating state of art technologies in students to deal with practical aspects of Civil Engineering.
 
   utter_civil_course_outcomes:
         - text: |
@@ -2801,3 +2877,24 @@ responses:
   utter_civil_faculty_experience_knowledge:
     - text: |
         The CIVIL department faculty members have an average overall experience of **8.125 years**.
+        Here are some images of the library:
+
+        ![Library 1](https://example.com/library1.jpg)
+        ![Library 2](https://example.com/library2.jpg)
+
+  utter_campus_hostel_photos:
+    - text: |
+        Here are some images of the hostel:
+
+        ![Hostel 1](https://example.com/hostel1.jpg)
+        ![Hostel 2](https://example.com/hostel2.jpg)
+
+  utter_campus_playground_photos:
+    - text: |
+        Here are some images of the playground:
+
+        ![Playground 1](https://example.com/playground1.jpg)
+        ![Playground 2](https://example.com/playground2.jpg)
+
+  utter_goodbye:
+    - text: "Good Bye!..."

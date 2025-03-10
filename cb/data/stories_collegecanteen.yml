@@ -1,17 +1,16 @@
 version: "3.1"
-
 stories:
   - story: User asks about canteen availability
     steps:
-      - intent: ask_canteen_facility
+      - intent: ask_canteen_availability
       - action: utter_canteen_availability
 
   - story: User asks about food options in the canteen
     steps:
-      - intent: ask_canteen_facility
+      - intent: ask_canteen_food_options
       - action: utter_canteen_food_options
 
   - story: User asks about canteen timings and facilities
     steps:
-      - intent: ask_canteen_facility
+      - intent: ask_canteen_timings
       - action: utter_canteen_timings

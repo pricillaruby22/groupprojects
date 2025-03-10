@@ -1,29 +1,36 @@
-- story: Details of hostel_wifi
-  steps:
-    - intent: hostel_wifi
-    - action: utter_hostel_wifi
+version: "3.1"
+stories:
+  - story: Hostel inquiry story
+    steps:
+      - intent: hostel_availability
+      - action: utter_hostel_availability_info
+      
+  - story: Details of hostel_wifi
+    steps:
+      - intent: hostel_wifi_details
+      - action: utter_hostel_wifi_details
 
-- story: Details of room_sharing
-  steps:
-    - intent: hostel_room_sharing
-    - action: utter_hostel_room_sharing
+  - story: Details of room_sharing
+    steps:
+      - intent: hostel_room_sharing
+      - action: utter_hostel_room_sharing
 
-- story: Details of hostel_food
-  steps:
-    - intent: hostel_food_routine
-    - action: utter_hostel_food_routine
+  - story: Details of hostel_food
+    steps:
+      - intent: hostel_food_routine
+      - action: utter_hostel_food_routine
 
-- story: Details of restroom
-  steps:
-    - intent: hostel_restroom_facilities
-    - action: utter_hostel_restroom_facilities
+  - story: Details of restroom
+    steps:
+      - intent: hostel_restroom_facilities
+      - action: utter_hostel_restroom_facilities
 
-- story: Details of hostel_fees
-  steps:
-    - intent: hostel_fee
-    - action: utter_hostel_fee
+  - story: Details of hostel_fees
+    steps:
+      - intent: hostel_fee
+      - action: utter_hostel_fee
 
-- story: complete hostel details
-  steps:
-    - intent: overall_hostel_details
-    - action: utter_overall_hostel_details
+  - story: complete hostel details
+    steps:
+      - intent: overall_hostel_details
+      - action: utter_overall_hostel_details

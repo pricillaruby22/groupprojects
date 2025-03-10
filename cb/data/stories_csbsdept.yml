@@ -1,5 +1,4 @@
 version: "3.1"
-
 stories:
   - story: User asks about HOD of CSBS
     steps:
@@ -25,7 +24,6 @@ stories:
     steps:
       - intent: pso_csbs_department
       - action: utter_pso_csbs_department
-
 
   - story: CSBS department info or about story
     steps:
@@ -73,12 +71,10 @@ stories:
       - intent: intern_company_csbs
       - action: utter_intern_company_csbs
 
-
   - story: Provide technical faculty details for CSBS
     steps:
       - intent: technical_faculty_csbs
       - action: utter_technical_faculty_csbs
-
 
   - story: Provide extra courses details for CSBS
     steps:
@@ -95,12 +91,10 @@ stories:
       - intent: csbs_accreditation
       - action: utter_csbs_accreditation
      
-
   - story: CSBS year-wise student count inquiries
     steps:
       - intent: csbs_yearwise_student_count
       - action: utter_csbs_yearwise_student_count
-
   
   - story: CSBS faculty experience knowledge inquiries
     steps:
