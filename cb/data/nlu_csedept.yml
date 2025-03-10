@@ -115,17 +115,17 @@ nlu:
     examples: |
       - Where can I find the syllabus for CSE?
       - Show me the subjects covered in CSE.
-      - Show me the core subjects in CSE.
+      - Show me the core subjects in computer science and engineering.
       - What are the specialization areas in CSE?
       - Provide details about the elective courses in CSE.
       - Where can I find study materials for CSE subjects?
-      - What are the key skills gained in a CSE degree?
+      - What are the key skills gained in a computer science and engineering?
       - Which programming languages are covered in CSE?
       - Give me details about the lab courses in CSE.
       - What skills will I gain from a CSE degree?
       - What are the learning outcomes of a CSE course?
       - What knowledge will I acquire after completing CSE?
-      - What are the course outcomes of CSE?
+      - What are the course outcomes of computer science and engineering?
 
   - intent: cse_department_info_about
     examples: |
@@ -183,25 +183,25 @@ nlu:
 
   - intent: cse_female_girls_students
     examples: |
-      - How many girls are there in the CSE department?
+      - How many girls are there in the computer science and engineering department?
       - What is the total number of female students in the CSE department?
       - How many girls are currently enrolled in the CSE department?
       - What percentage of CSE students are girls?
       - How many female students joined the CSE department this year?
-      - How many girls are in each year of the CSE department?
+      - How many girls are in each year of the computer science and engineering department?
       - Has the number of girls in the CSE department increased over the years?
       - How many female students have graduated from the CSE department so far?
-      - What is the trend of female student enrollment in the CSE department?
+      - What is the trend of female student enrollment in the computer science and engineering department?
 
   - intent: cse_male_boys_students
     examples: |
-      - How many boys are there in the CSE department?
+      - How many boys are there in the computer science and engineering department?
       - What is the total number of male students in the CSE department?
       - How many boys are currently enrolled in the CSE department?
-      - What percentage of CSE students are boys?
+      - What percentage of computer science and engineeringstudents are boys?
       - How many male students joined the CSE department this year?
       - How many boys are in each year of the CSE department?
-      - Has the number of boys in the CSE department increased over the years?
+      - Has the number of boys in the computer science and engineeringdepartment increased over the years?
       - How many male students have graduated from the CSE department so far?
       - What is the trend of male student enrollment in the CSE department?
 
@@ -235,21 +235,21 @@ nlu:
     examples: |
       - What are the student activities conducted by the CSE department?
       - How often are student events organized in the CSE department?
-      - Tell me about student activities in CSE.
+      - Tell me about student activities in computer science and engineering.
       - Give me the student activities of CSE.
-      - Where can I find the student activities of CSE?
-      - Show me the student activities of CSE.
+      - Where can I find the student activities of computer science and engineering?
+      - Show me the student activities of computer science and engineering.
 
   - intent: cse_faculty_activities
     examples: |
-      - Give me the faculty activities of CSE.
+      - Give me the faculty activities of computer science and engineering.
       - Where can I find the faculty activities of CSE?
       - Show me the faculty activities of CSE.
       - What are the faculty activities conducted by the CSE department?
-      - How does the CSE department support faculty development?
+      - How does the computer science and engineering department support faculty development?
       - What research activities are carried out by the faculty in the CSE department?
       - Are faculty members involved in industry collaborations in CSE?
-      - Do CSE faculty members participate in technical conferences and seminars?
+      - Do computer science and engineering faculty members participate in technical conferences and seminars?
       - Are Computer Science Engineering [CSE] faculty members involved in curriculum development and innovation?
 
   - intent: cse_professional_bodies
