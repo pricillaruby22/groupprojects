@@ -78,11 +78,21 @@ nlu:
   
   - intent: technical_faculty_cse
     examples: |
-      - Tell me about the technical staff in the CSE department
+      - Tell me about the technical staff in the CSE department.
       - Who are the technical faculty in CSE?
-      - List the technical assistants in the CSE department
-      - CSE department technical staff details
-      - Tell me about Non-teaching staffs in cse
+      - List the technical assistants in the CSE department.
+      - CSE department technical staff details.
+      - Tell me about non-teaching staff in CSE.
+      - Who are the non-teaching faculty in the CSE department?
+      - Provide details of the non-teaching staff in CSE.
+      - How many non-teaching staff members are there in the CSE department?
+      - What roles do non-teaching faculty play in CSE?
+      - List the lab assistants in the CSE department.
+      - Are there technical assistants in the CSE department?
+      - What is the role of non-teaching staff in the CSE department?
+      - Who are the supporting staff in the CSE department?
+      - Give me a list of administrative and technical staff in CSE.
+      - Are there lab instructors in the CSE department?
 
   - intent: placement_cse
     examples: |

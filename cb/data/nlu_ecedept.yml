@@ -69,10 +69,20 @@ nlu:
     
     - intent: technical_faculty_ece
       examples: |
-        - Tell me about the technical staff in the ECE department
+        - Tell me about the technical staff in the ECE department.
         - Who are the technical faculty in ECE?
-        - List the technical assistants in the ECE department
-        - ECE department technical staff details
+        - List the technical assistants in the ECE department.
+        - ECE department technical staff details.
+        - Who are the non-teaching faculty in the ECE department?
+        - Provide details of the non-teaching staff in ECE.
+        - How many non-teaching staff members are there in the ECE department?
+        - What roles do non-teaching faculty play in ECE?
+        - List the lab assistants in the ECE department.
+        - Are there technical assistants in the ECE department?
+        - What is the role of non-teaching staff in the ECE department?
+        - Who are the supporting staff in the ECE department?
+        - Give me a list of administrative and technical staff in ECE.
+        - Are there lab instructors in the ECE department?
 
     - intent: placement_ece
       examples: |
