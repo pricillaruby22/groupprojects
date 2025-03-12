@@ -54,6 +54,11 @@ stories:
     steps:
       - intent: college_name_private_anna_university
       - action: utter_college_name_private_anna_university
+  
+  - story: User asks about NBA-accredited departments 
+    steps: 
+      - intent: NBA_accredited_dept 
+      - action: utter_NBA_accredited_dept
 
   - story: respond to bus facility query
     steps:

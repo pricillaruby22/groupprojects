@@ -35,6 +35,8 @@ nlu:
       - Is admission open?
       - Can I get in?
       - Steps to join?
+      - Tell about recruitment process of ssmiet
+      - admission process of ssmiet college
     
   - intent: ask_online_courses
     examples: |
@@ -53,6 +55,8 @@ nlu:
       - Is remote learning an option here?
       - Can I take courses without coming to campus?
       - Do I need to attend in person, or is online study available?
+      - Is there any available digital courses?
+      - online courses available or not
 
   - intent: coeducation
     examples: |
@@ -60,6 +64,8 @@ nlu:
        - Do boys and girls study together here?
        - Is this an all-boys or all-girls college?
        - Is this institution co-educational?
+       - Is this a coed college?
+       - This college combined education or not?
        - Are both genders allowed to study here?
        - Can girls and boys enroll in this college?
        - Does this college admit both male and female students?
@@ -68,6 +74,9 @@ nlu:
        - is your college is only for girls?
        - is this a boys college?
        - this college is for all boys and girls?
+       - coed or not
+       - co-ed or not
+       - coeducation or not
 
   - intent: entrance_exam
     examples: |
@@ -86,6 +95,10 @@ nlu:
        - Does this college have an in-house entrance test or interview process?
        - Are international entrance exam scores like SAT or GMAT accepted?
        - Is there a quota-based relaxation for entrance exam scores?
+       - Is there any eligibility test?
+       - Is there any preliminary test?
+       - Is there any selection exam available or not?
+       - entrance exam available or not?
 
   - intent: uniform_dresscode
     examples: |
@@ -101,6 +114,11 @@ nlu:
        - What is the uniform policy?
        - Can students wear casual clothes?
        - Are there different uniforms for different courses?
+       - Is there any dresscode or not
+       - Give me some appearance guidelines
+       - What is the regular outfit of the college
+       - Give me formal wear of the college
+       - dresscode
 
   - intent: book_availability
     examples: |
@@ -111,21 +129,38 @@ nlu:
        - Are there any book facilities available?
        - Does the library offer course books?
        - Will books be provided for free or do we need to purchase them?
+       - Is there any material availability
+       - book availability
 
-  - intent: student_total_count
+  - intent: current_student_total_count
     examples: |
-      - What is the total student strength of SSMIET?
-      - How many students are currently enrolled in SSMIET?
-      - What is the total number of students studying in the college?
-      - How many students are admitted to SSMIET each year?
-      - What is the total intake capacity of SSMIET?
-      - How many male and female students are there?
-      - What is the total number of students?
-      - Can you tell me the count of male and female students?
-      - How many boys and girls are in the college?
-      - What is the gender ratio in the college?
-      - Is there a list of student numbers by gender?
-      - How many students graduate from SSMIET every year?
+      - What is the current student count?
+      - How many students are there as of now?
+      - Give me the latest student count.
+      - What's the present number of students?
+      - Can you tell me the student count at this moment?
+      - How many students are enrolled currently?
+      - What's the student strength as of today?
+      - Number of students available now?
+      - Could you provide me with the latest statistics on student enrollment?
+      - What is the updated number of students currently enrolled?
+      - I would like to know the present student count.
+      - Kindly share the current student population data.
+      - What is the exact figure for student enrollment at this moment?
+      - Please provide me with the real-time student count.
+      - Tell me how many students are there now?
+      - Can you share the student count as of now?
+      - What’s the number of students at this time?
+      - Let me know the student strength currently.
+      - How many students do we have at this moment?
+      - Give me an idea of the student count as of today.
+      - How many students now?
+      - Student count now?
+      - Tell student number?
+      - How many people study now?
+      - How many in school now?
+      - What number students?
+      - total students count in ssmiet
 
   - intent: family_visit
     examples: |
@@ -134,6 +169,7 @@ nlu:
        - What is the policy on family visits?
        - Can my family visit me while I stay in the hostel?
        - Are there specific timings for family visits?
+       - Family visits is available or not for hostel students in this college
 
   - intent: college_location_address
     examples: |
@@ -165,6 +201,7 @@ nlu:
       - Can you provide the address along with nearby landmarks?
       - How can i come to this college?
       - How can i come to this institute?
+      - college location
 
   - intent: college_name_private_anna_university
     examples: |
@@ -213,43 +250,18 @@ nlu:
       - Is SSMIET approved by AICTE and affiliated with Anna University?
       - Does SSMIET have university affiliation for all its courses?
 
-  - intent: bus_facility
+  - intent: NBA_accredited_dept
     examples: |
-      - Does your college have a bus facility?
-      - Is there a college bus service available?
-      - Do you provide transportation for students?
-      - Does SSMIET have its own buses?
-      - Is the Buses are available in all routes?
-      - Is there a transport facility in your college?
-      - Are college buses available for students?
-      - Does SSMIET offer a pickup and drop service?
-      - How can students avail the college bus service?
-      - Is there a college bus for day scholars?
-      - What are the routes covered by the college buses?
-      - Does the institute have its own transportation system?
-      - Are there private transport options near the college?
-      - Can I get details about the college bus timing?
-      - How many buses does the college have?
-      - What are the bus routes available for the college?
-      - Can you provide details of the college bus routes?
-      - Which areas are covered by the college bus service?
-      - Does the college bus go to my location?
-      - What is the nearest bus stop for the college bus?
-      - How many bus routes does the college have?
-      - Can I get a list of bus routes with timings?
-      - Are there separate buses for different locations?
-      - Where can I find the college bus route map?
-      - Does the college bus cover outstation locations?
-      - Is there a bus facility for students from rural areas?
-      - Are there any direct buses from the city to the college?
-      - What is the last stop for the college bus route?
-      - How frequently do the college buses operate?
-      - Can I change my bus route if needed?
-      - Is it possible to switch to a different bus route?
-      - How many times can I change my bus route in a semester?
-      - Is there any additional fee for changing the bus route?
-      - Is there any buses for remote location?
-      - How many buses are available for particular stop
+       - Which departments in your college are NBA accredited?
+       - Is your department NBA accredited?
+       - How many departments in your college have NBA accreditation?
+       - Can you list the NBA-accredited departments in your institution?
+       - Does your college have any NBA-accredited programs?
+       - Are all departments in your college NBA accredited?
+       - Which courses in your university have NBA accreditation?
+       - Is the cse ,ece,civil,mech,it,cybersecurity,csbs,aids,aiml departments NBA accredited in your college?
+       - What is the NBA accreditation status of your college’s departments?
+       - Has your college received NBA accreditation for all engineering departments?
 
   - intent: principal_details
     examples: |
@@ -1213,6 +1225,15 @@ synonyms:
       - Who should I contact if I face any issues related to ragging?
       - How does the college handle false complaints about ragging?
 
+  - intent: bus_facility
+    examples: |
+      - Does the college provide a bus facility?
+      - What are the bus facilities available at the college?
+      - From which locations do the college buses operate?
+      - How many buses are available for students?
+      - Can I change my bus route after paying the fees?
+      - Is there only one bus per stop?
+
   - intent: ask_bus_seat_fcfs
     examples: |
       - Is the bus seating on a first-come, first-served basis?
@@ -1246,6 +1267,17 @@ synonyms:
       - How are bus seats assigned? Is it by reservation?
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
+
+  - intent: bus_facility_details
+    examples: |
+      - Can you provide detailed information about the bus facility?
+      - How does the seating arrangement work on the buses?
+      - What happens if the bus is full?
+      - Are there specific timings for different bus routes?
+      - Is there a seat reservation system for buses?
+      - Do staff members also have access to the bus facility?
+      - Is there a helpline for bus-related issues?
+      - Who should I contact for more details about the transport facility?
 
   - intent: ask_campus_general_photos
     examples: |

@@ -363,25 +363,27 @@ responses:
   utter_admission_process:
     - text: |
           Admission Process can be done in both offline and online 
-          \nFor Offline:
-          You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
-           - **Dr. S. Joseph Dominic Vijayakumar**,
-           - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
-           - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
-          \nFor Online:
+          
+          **For Offline**
+              You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
+              - **Dr. S. Joseph Dominic Vijayakumar**,
+              - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
+              - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
+
+          **For Online**
               - The form is available online. Click the link to access it.
               - Fill in the required details and submit it.
               - If you need help, contact the admission office.
               - Make sure to check deadlines and required documents before submission.
               **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
 
-           - **Admission process**:
-            - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
-            - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
-            - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+          **Admission process**:
+              - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
+              - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
+              - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_online_courses:
-    - text: "No, we **don't offer online courses** and distance learning options.\n Would you like to know more details on available courses?"
+    - text: "No, we **don't offer online courses** and distance learning options."
   
   utter_coed_info:
     - text: | 
@@ -392,33 +394,44 @@ responses:
     - text: "There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process"
   
   utter_uniform_dresscode_info:
-    - text: " Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone. \nFor further details, contact the administration 0451 244 8800."
+    - text: " Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone."
   
   utter_book_availability_info:
     - text: "The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details."
   
-  utter_student_total_count:
-    - text: "The current student count is 1567, with around 700 male and 800 female students.\n These numbers may vary slightly each year."
+  utter_current_student_total_count:
+    - text: "The current student count in our college is 1567.\n These numbers may vary slightly each year."
 
   utter_family_visit_info:
     - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
 
   utter_college_location_address:
-    - text: "Here is the address: **Dindigul - Palani Highway, Dindigul -624 002**.- Here is the Location of our college: https://ssmiet.ac.in/contact-us.html"
+    - text: |
+            Here is the address:
+              **Dindigul 
+              Palani Highway, Dindigul -624 002**.
+              Here is the Location of our college: https://ssmiet.ac.in/contact-us.html
   
   utter_college_name_private_anna_university:
     - text: |
             **SSM Institute of Engineering and Technology (SSMIET)**. 
             It is an autonomous institution.It is approved by AICTE, New Delhi, 
             affiliated with Anna University, Chennai, and accredited by NAAC & NBA.
+  
+  utter_NBA_accredited_dept: 
+  - text: |
+       The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
           
   utter_principal_details:
     - text: |
             **Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
                 - He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
                   Bharathiar University.
-                - With over 26 years of academic and industry experience, he has served as Principal at SSMIET and RVS College of 
-                  Engineering, Director of Academic Development at PEACE Group of Institutions, and Research Fellow at NUS. 
+                - With over 26 years of academic and industry experience, he has served as,
+                   - **Principal** at SSMIET and RVS College of Engineering. 
+                   - **Director of Academic Development** at PEACE Group of Institutions. 
+                   - **Research Fellow** at NUS. 
+                   
                 - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
 
   utter_college_contact_email:
@@ -1174,7 +1187,8 @@ responses:
     - text: "Rooms are shared by 4 members"
 
   utter_hostel_food_routine:
-    - text: "weekly once non-veg"
+    - text: |
+           The hostel provides vegetarian meals on all days except once a week when a non-vegetarian meal is served. The menu is designed to be nutritious, hygienic, and balanced for all residents.
 
   utter_hostel_restroom_facilities:
     - text: "hotwater, how many bathrooms in a flooor, clean"
