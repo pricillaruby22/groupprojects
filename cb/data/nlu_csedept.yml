@@ -366,14 +366,13 @@ nlu:
     examples: |
       - What are the accreditations and affiliations of the CSE department?
       - Is the CSE department accredited by NAAC and AICTE?
-      - Under which university is the CSE department affiliated?
+      - Under which university/govt body is the CSE department affiliated?
       - Is the CSE department approved by the government?
       - Does the CSE department have AICTE and NAAC approval?
-      - Which university is the CSE department connected with?
-      - Is the CSE department good?
-      - Is this college’s CSE department recognized by the government?
-      - Is the CSE course valid for jobs?
-      - Give me the names of companies for CSE placements   
+      - Is the CSE department accreditated by NAAC and NBA?
+      - Is the CSE department recognized by the government?
+      - is this cSE dept approved by any of these recognized govt agencies like NAAC and NBA?
+   
       
   - intent: cse_yearwise_student_count
     examples: |
@@ -412,25 +411,18 @@ nlu:
   - intent: cse_faculty_experience_knowledge
     examples: |
       - What is the average teaching experience of CSE faculty at SSMIET?
+      - give me the overall faculty/staffs experience of the Computer Science and Engineering department?
       - How many years of experience do the CSE faculty members have on average?
+      - tell me the professors experience in the Computer Science and Engineering department?
       - What is the average industry experience of CSE faculty at SSMIET?
-      - How many faculty members in the CSE department have more than 10 years of experience?
       - What is the experience range of professors in the CSE department?
-      - How many faculty members in CSE have prior industry knowledge?
       - What percentage of CSE faculty have Ph.D. qualifications?
-      - How often do CSE faculty members update their knowledge with training or certifications?
       - What is the total teaching experience of the senior-most faculty in the CSE department?
       - How many CSE faculty members have more than five years of teaching experience?
       - What is the minimum teaching experience required for CSE faculty at SSMIET?
       - How many CSE faculty members have both academic and industry experience?
       - What is the average number of years faculty members have worked at SSMIET?
       - How many faculty members in the CSE department hold postgraduate degrees?
-      - Tell me about the value-added courses in CSE department
-      - What are the additional courses offered by CSE?
-      - Extra courses provided by CSE department
-      - List the value-added courses for CSE students   
-      - Do CSE students have any extra learning opportunities? 
-      - Tell me about extra courses available in Cse dept?
 
   - intent: placement_company_names
     examples: |

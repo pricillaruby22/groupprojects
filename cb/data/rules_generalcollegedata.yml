@@ -55,6 +55,11 @@ rules:
       - intent: college_name_private_anna_university
       - action: utter_college_name_private_anna_university
 
+  - rule: Respond to NBA accreditation queries 
+    steps: 
+      - intent: NBA_accredited_dept 
+      - action: utter_NBA_accredited_dept
+
   - rule: Answer bus facility query
     steps:
       - intent: bus_facility

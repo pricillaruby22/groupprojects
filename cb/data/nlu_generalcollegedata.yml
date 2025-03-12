@@ -7,6 +7,11 @@ nlu:
       - Hey
       - Good morning
       - Good evening
+      - Good afternoon
+      - Hai
+      - How are you?
+      - Hlo
+      - Hiiii
 
   - intent: admission_process
     examples: |
@@ -30,6 +35,8 @@ nlu:
       - Is admission open?
       - Can I get in?
       - Steps to join?
+      - Tell about recruitment process of ssmiet
+      - admission process of ssmiet college
     
   - intent: ask_online_courses
     examples: |
@@ -48,6 +55,8 @@ nlu:
       - Is remote learning an option here?
       - Can I take courses without coming to campus?
       - Do I need to attend in person, or is online study available?
+      - Is there any available digital courses?
+      - online courses available or not
 
   - intent: coeducation
     examples: |
@@ -55,6 +64,8 @@ nlu:
        - Do boys and girls study together here?
        - Is this an all-boys or all-girls college?
        - Is this institution co-educational?
+       - Is this a coed college?
+       - This college combined education or not?
        - Are both genders allowed to study here?
        - Can girls and boys enroll in this college?
        - Does this college admit both male and female students?
@@ -63,6 +74,9 @@ nlu:
        - is your college is only for girls?
        - is this a boys college?
        - this college is for all boys and girls?
+       - coed or not
+       - co-ed or not
+       - coeducation or not
 
   - intent: entrance_exam
     examples: |
@@ -81,6 +95,10 @@ nlu:
        - Does this college have an in-house entrance test or interview process?
        - Are international entrance exam scores like SAT or GMAT accepted?
        - Is there a quota-based relaxation for entrance exam scores?
+       - Is there any eligibility test?
+       - Is there any preliminary test?
+       - Is there any selection exam available or not?
+       - entrance exam available or not?
 
   - intent: uniform_dresscode
     examples: |
@@ -96,6 +114,11 @@ nlu:
        - What is the uniform policy?
        - Can students wear casual clothes?
        - Are there different uniforms for different courses?
+       - Is there any dresscode or not
+       - Give me some appearance guidelines
+       - What is the regular outfit of the college
+       - Give me formal wear of the college
+       - dresscode
 
   - intent: book_availability
     examples: |
@@ -106,21 +129,38 @@ nlu:
        - Are there any book facilities available?
        - Does the library offer course books?
        - Will books be provided for free or do we need to purchase them?
+       - Is there any material availability
+       - book availability
 
-  - intent: student_total_count
+  - intent: current_student_total_count
     examples: |
-      - What is the total student strength of SSMIET?
-      - How many students are currently enrolled in SSMIET?
-      - What is the total number of students studying in the college?
-      - How many students are admitted to SSMIET each year?
-      - What is the total intake capacity of SSMIET?
-      - How many male and female students are there?
-      - What is the total number of students?
-      - Can you tell me the count of male and female students?
-      - How many boys and girls are in the college?
-      - What is the gender ratio in the college?
-      - Is there a list of student numbers by gender?
-      - How many students graduate from SSMIET every year?
+      - What is the current student count?
+      - How many students are there as of now?
+      - Give me the latest student count.
+      - What's the present number of students?
+      - Can you tell me the student count at this moment?
+      - How many students are enrolled currently?
+      - What's the student strength as of today?
+      - Number of students available now?
+      - Could you provide me with the latest statistics on student enrollment?
+      - What is the updated number of students currently enrolled?
+      - I would like to know the present student count.
+      - Kindly share the current student population data.
+      - What is the exact figure for student enrollment at this moment?
+      - Please provide me with the real-time student count.
+      - Tell me how many students are there now?
+      - Can you share the student count as of now?
+      - What’s the number of students at this time?
+      - Let me know the student strength currently.
+      - How many students do we have at this moment?
+      - Give me an idea of the student count as of today.
+      - How many students now?
+      - Student count now?
+      - Tell student number?
+      - How many people study now?
+      - How many in school now?
+      - What number students?
+      - total students count in ssmiet
 
   - intent: family_visit
     examples: |
@@ -129,6 +169,7 @@ nlu:
        - What is the policy on family visits?
        - Can my family visit me while I stay in the hostel?
        - Are there specific timings for family visits?
+       - Family visits is available or not for hostel students in this college
 
   - intent: college_location_address
     examples: |
@@ -160,6 +201,7 @@ nlu:
       - Can you provide the address along with nearby landmarks?
       - How can i come to this college?
       - How can i come to this institute?
+      - college location
 
   - intent: college_name_private_anna_university
     examples: |
@@ -207,6 +249,19 @@ nlu:
       - What is the affiliation status of SSMIET?
       - Is SSMIET approved by AICTE and affiliated with Anna University?
       - Does SSMIET have university affiliation for all its courses?
+
+  - intent: NBA_accredited_dept
+    examples: |
+       - Which departments in your college are NBA accredited?
+       - Is your department NBA accredited?
+       - How many departments in your college have NBA accreditation?
+       - Can you list the NBA-accredited departments in your institution?
+       - Does your college have any NBA-accredited programs?
+       - Are all departments in your college NBA accredited?
+       - Which courses in your university have NBA accreditation?
+       - Is the cse ,ece,civil,mech,it,cybersecurity,csbs,aids,aiml departments NBA accredited in your college?
+       - What is the NBA accreditation status of your college’s departments?
+       - Has your college received NBA accreditation for all engineering departments?
 
   - intent: principal_details
     examples: |
@@ -345,16 +400,22 @@ nlu:
 
   - intent: college_admission_form
     examples: |
-      - How to join in ssmiet?
-      - Where to get the joining paper or form?
-      - How to start admission?
-      - Where to sign up for college?
-      - Where can I get the admission form?
-      - How do I apply for admission?
-      - Is the application online or offline?
-      - Where can I access the online admission portal?
-      - Is there an application fee for submitting the admission form?
-      - Where is the admission form?
+     - Can I apply for admission online?
+     - Is there an online application process for admission?
+     - How can I submit my admission form online?
+     - Can I fill out the admission form online?
+     - Is the admission process available online?
+     - Do I need to visit the college, or can I apply online?
+     - Is there a website where I can submit my admission form?
+     - Can I complete the entire admission process online?
+     - Is online application available, or is it only offline?
+     - Where can I find the online admission form?  
+     - What are the steps to apply for admission online?
+     - How do I start the online application process for admission?
+     - Do I need to register anywhere to apply online?
+     - Is there an online portal for submitting admission forms?
+     - Do I need to pay an application fee when applying online?
+     - Is there any charge for submitting the online admission form ?
 
   - intent: college_admission_eligibility
     examples: |
@@ -570,13 +631,12 @@ nlu:
       - Are the faculty members at SSMIET highly qualified?
       - What degrees do the lecturers at SSMIET hold?
       - Do the professors at SSMIET have PhDs?
-      - What is the minimum qualification required for faculty at SSMIET?
       - Can you share information about the experience and qualifications of the teaching staff?
       - How experienced are the faculty members at SSMIET?
       - What are the academic credentials of the SSMIET faculty?
-      - Is the professors are well-scholared?
-      - Is the faculty are well-scholared?
-      - Is the staffs are well-scholared?
+      - Is the professors and staffs of ths college are well qualfied?
+      - what is the overall qualification of teachers or staffs or faculty or professors in this college? 
+   
       
   - intent: college_timing
     examples: |
