@@ -357,7 +357,9 @@ intents:
 
 responses:
   utter_greet:
-    - text: "Welcome to SSMIET Chatbot.Hello! How can I assist you today?"
+    - text: |
+        Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
+
   utter_admission_process:
     - text: |
           Admission Process can be done in both offline and online 
