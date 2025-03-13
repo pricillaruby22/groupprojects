@@ -416,7 +416,8 @@ responses:
     - text: |
             **SSM Institute of Engineering and Technology (SSMIET)**. 
             It is an autonomous institution.It is approved by AICTE, New Delhi, 
-            affiliated with Anna University, Chennai, and accredited by NAAC & NBA.
+            affiliated with Anna University, Chenn
+            ai, and accredited by NAAC & NBA.
   
   utter_NBA_accredited_dept: 
   - text: |
@@ -438,7 +439,7 @@ responses:
     - text: "**Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com"
 
   utter_college_distance_travel_time:
-    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, please mention your district or stop name on this website '......'."
+    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, checkout this link 'https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link'."
   
   utter_fee_structure_info:
     - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
@@ -450,6 +451,24 @@ responses:
             - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
             - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
             - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
+
+  utter_be_courses:
+    - text: |
+        The different BE courses available. They are,
+            - Civil Engineering
+            - Electronics and Communication Engineering (ECE)
+            - Electrical and Electronics Engineering (EEE)
+            - Mechanical Engineering
+            - Computer Science and Engineering (CSE)
+            - Computer Science and Engineering (Cyber Security)
+            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+
+  utter_btech_courses:
+    - text: |
+         The different BTech courses available. They are,
+            - Artificial Intelligence and Data Science
+            - Computer Science and Business System
+            - Information Technology
 
   utter_college_ug_courses:
     - text: |
