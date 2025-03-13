@@ -580,6 +580,9 @@ nlu:
       - What is the last date to submit the admission form?
       - Can I apply for admission after the deadline?
       - Is there any extension for the admission deadline?
+      - last date for apply admission
+      - lastdate for apply admission
+      - deadline for apply admission
 
   - intent: ssmiet_branches_campus
     examples: |

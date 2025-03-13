@@ -355,6 +355,7 @@ intents:
   - sports_equipment
   - goodbye
 
+
 responses:
   utter_greet:
     - text: |
