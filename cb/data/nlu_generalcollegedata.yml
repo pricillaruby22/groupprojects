@@ -285,6 +285,9 @@ nlu:
       - Give details about the principal of SSMIET.
       - Provide information about the principal.
       - Share the principal’s profile.
+      - Principal of the college
+      - Correspondent of the college
+      - Dean of the college
 
   - intent: college_contact_email
     examples: |
@@ -303,6 +306,9 @@ nlu:
       - What are the official communication details of the college?
       - Give me the phone number and email ID of the college.
       - How can I reach SSMIET through call or email?
+      - How to connect with your college
+      - How to message with your college
+      - contact of the college
 
   - intent: college_distance_travel_time
     examples: |
@@ -316,6 +322,7 @@ nlu:
       - What is the estimated travel duration to SSMIET?
       - How long will it take to reach the college by car?
       - How much time does it take to travel to SSMIET from the nearest bus stand?
+      - Distance time of the college
   
   - intent: fee_structure
     examples: |
@@ -332,6 +339,8 @@ nlu:
       - Give fees structures for the each courses?
       - fees for ug courses
       - can you provide the fee structure for all departments and all years?
+      - fees structure of the college
+      - fee structure of the college
 
   - intent: college_courses
     examples: |
@@ -352,6 +361,30 @@ nlu:
       - Can I study medical courses here.
       - Are there any diploma courses offer?
       - How many ug and pg courses are available in SSMIET?
+      - courses
+      - What are the university courses?
+      - What are the educational courses?
+      - What are the degree courses?
+      - What are the degree programs are available?
+
+  - intent: be_courses
+    examples: |
+        - What are the different BE courses available?
+        - What BE courses can I take after 12th?
+        - What are the basic BE courses available?
+        - What are BE courses offered in your college?
+        - BE courses
+        - Bachleor of Engineering
+
+  - intent: btech_courses
+    examples: |
+        - What are the different BTech courses available?
+        - What BTech courses can I take after 12th?
+        - What are the basic BTech courses available?
+        - What are Btech courses offered in your college?
+        - BTech courses
+        - What are the Btech courses available?
+        - Bachleor of Technology
 
   - intent: college_ug_courses
     examples: |
@@ -359,10 +392,10 @@ nlu:
       - Tell me UG courses
       - What are the available UnderGraduate(ug) courses?
       - List all the available UG courses
-      - Tell me B.E courses
-      - What are the BE courses available here?
-      - Tell me B.Tech courses
-      - What are the BTech courses available here?
+      - Undergraduate courses
+      - What are the BE and B.Tech courses availaable in college?
+      - ug courses
+      - under graduate courses
 
   - intent: college_pg_courses
     examples: |
@@ -372,6 +405,9 @@ nlu:
       - List all the available PG courses
       - Tell me M.E courses
       - What are the ME courses available here?
+      - postgraduate courses
+      - pg courses
+      - post graduate courses
     
   - intent: college_phd_courses
     examples: |
@@ -383,6 +419,7 @@ nlu:
       - ph.d courses
       - Are there any Phd courses available.
       - Are there any research programs ?
+      - give the Doctor of Philosophy courses
 
   - intent: college_courses_duration
     examples: |
@@ -397,6 +434,8 @@ nlu:
       - How many semesters are there in a B.Tech program?
       - Is the Ph.D. program full-time or part-time? What's the duration for each?
       - Are there flexible study durations for postgraduate courses?
+      - When will I complete this courses?
+      - When will I complete the CSE, EEE,ECE, AIDS, CSBS, MECH, CIVIL Courses ?
 
   - intent: college_admission_form
     examples: |

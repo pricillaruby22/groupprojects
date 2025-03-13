@@ -124,6 +124,16 @@ rules:
       - intent: college_courses
       - action: utter_college_courses
 
+  - rule: Provide information about BE courses
+    steps:
+      - intent: be_courses
+      - action: utter_be_courses
+    
+  - rule: Provide information about BTech courses
+    steps:
+      - intent: btech_courses
+      - action: utter_btech_courses
+
   - rule: Respond to college ug courses
     steps:
       - intent: college_ug_courses

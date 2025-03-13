@@ -90,6 +90,16 @@ stories:
       - intent: fee_structure
       - action: utter_fee_structure_info
 
+  - story: respond to be courses query
+    steps:
+      - intent: be_courses
+      - action: utter_be_courses
+
+  - story: respond to btech courses query
+    steps:
+      - intent: btech_courses
+      - action: utter_btech_courses
+
   - story: Provide college ug courses
     steps:
       - intent: college_ug_courses
