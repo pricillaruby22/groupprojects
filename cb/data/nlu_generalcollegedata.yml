@@ -455,6 +455,12 @@ nlu:
      - Is there an online portal for submitting admission forms?
      - Do I need to pay an application fee when applying online?
      - Is there any charge for submitting the online admission form ?
+     - Can I apply through online?
+     - Can I apply through online so any admission form is there in online?
+     - How to register in the college through online?
+     - Can you give me Enrollment form
+     - application form 
+     - online application form
 
   - intent: college_admission_eligibility
     examples: |
@@ -471,6 +477,10 @@ nlu:
       - Are there any reservations or quota-based admissions?
       - What are the eligibility requirements?
       - What is the eligibilty criteria?
+      - admission eligibility
+      - what are the admission qualification details?
+      - What are the admission guidelines?
+      - Give me the admission criteria.   
 
   - intent: available_internships_and_placements
     examples: |
@@ -488,14 +498,19 @@ nlu:
       - Do final-year students get placement support?
       - Is the placement good in our college?
       - MNC or startups
-      - Is the placement based on MNC [Multi National Company] or startups in the college?
+      - Is the placement based on MNC [MultiNational Company] or startups in the college?
       - If SSMIET Students placed in any MNC Companies in ssmiet?
+      - What are the available internships?
+      - internships
+      - What are the placement opportunities in ssmiet?
+      - available internships and placement in college
 
   - intent: change_the_course
     examples: |
       - Can I change my course after admission?
       - Is course switching allowed?
       - I want to transfer to another department. Is that possible?
+      - I am an ece or eee or mech or civil or it or csbs or aids or cse dept .now i want to switch or change or move to ece or eee or mech or civil or it or csbs or aids or cse any other department 
       - What’s the procedure for changing my course?
       - Can I move to another specialization?
       - I picked the wrong course. Can I switch?
@@ -505,6 +520,7 @@ nlu:
       - Is branch change possible in the second year?
       - can i swap the courses?
       - I am belong to one particular department.So,Can I switch to other courses after joining?
+      - I want change the course 
 
   - intent: First_graduate
     examples: |
@@ -518,6 +534,7 @@ nlu:
       - How does the First Graduate program work?
       - Does the government provide support for first graduates?
       - Is the First Graduate certificate mandatory?
+      - first graduate
 
   - intent: fee_payment_other_than_tutionfee
     examples: |
@@ -546,6 +563,8 @@ nlu:
       - Are industrial visits(IV) compulsory?
       - What’s the process to join an industrial visit?
       - IV is available or not?
+      - do this college has field trip or company visit or professional/educational tour or factory or site visit
+      - IV or Industrial visit
 
   - intent: admission_deadline_lastdate
     examples: |

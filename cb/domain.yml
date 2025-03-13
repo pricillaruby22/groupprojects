@@ -573,7 +573,7 @@ responses:
                   E-mail Id: placement.ssmiet@gmail.com"
 
   utter_change_the_course:
-    - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance `CONTACT INFO:Phone:0451-244-8800-899` `Email:ssmietdgl@gmail.com` "
+    - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance contact=>+Phone:0451-244-8800-899 Email:ssmietdgl@gmail.com "
 
   utter_First_graduate:
     - text: "The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
