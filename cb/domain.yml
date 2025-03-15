@@ -167,7 +167,6 @@ intents:
   - it_yearwise_student_count
   - it_event_conducted_photos
   - it_faculty_experience_knowledge
-
   - eee_hod_details
   - eee_faculty_details
   - peo_eee_department
@@ -910,6 +909,10 @@ responses:
         ![Campus View 1](https://example.com/campus1.jpg)
         ![Campus View 2](https://example.com/campus2.jpg)
         ![Campus View 3](https://example.com/campus3.jpg)
+
+  utter_erp_login:
+    - text: |
+        You can check this link as a student, parent, or faculty member to view attendance and profile: https://ssmiet.ac.in/erpnew.html.
 
   utter_cse_hod_details:
     - text: |

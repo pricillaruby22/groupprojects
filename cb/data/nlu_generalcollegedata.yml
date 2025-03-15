@@ -938,7 +938,7 @@ nlu:
   - intent: smart_classrooms_projector
     examples: |
       - Does the college have smart classrooms?
-      -        How many smart classrooms are available on campus?
+      - How many smart classrooms are available on campus?
       - What technologies are equipped in the smart classrooms?
       - Are all classrooms upgraded to smart classrooms?
       - How do smart classrooms enhance the learning experience?
@@ -1238,6 +1238,7 @@ nlu:
       - Did we win any inter-college tournaments?
       - Can I join a sports team?
       - Where can I check the sports achievements?
+
   - intent: software_lab_details
     examples: |
       - What are the software available in labs?
@@ -1549,7 +1550,11 @@ synonyms:
       - Does the college provide study materials for GATE?
       - Are there any online or offline GATE tutorial sessions available?
       - Is GATE coaching included in the regular curriculum?
+      - Gate Coaching
       - Are external coaching centers partnered with the college for GATE training?
+      - Are GATE practice tests available for students?
+      - Gate Coaching is available in your college
+      - Does the college offer counseling for GATE aspirants?
 
   - intent: sports_equipment
     examples: | 
@@ -1585,6 +1590,61 @@ synonyms:
       - How do we revise the curriculum based on industry trends?
       - Do we incorporate industry certifications and real-world projects in the syllabus?
       - how the ssmietcollege manage in keeping the curriculum relevant?
+
+  - intent: erp_login
+    examples: |
+        - How can faculty log in?
+        - Where is the faculty login page?
+        - Staff login link?
+        - Can teachers log in here?
+        - Login portal for faculty?
+        - How can students log in?
+        - Student login portal?
+        - Where do I enter student credentials?
+        - Access student dashboard?
+        - Student login details?
+        - Parent login page?
+        - How do parents log in?
+        - Where can parents check student details?
+        - Parent portal login?
+        - Parent login details?
+        - ERP login link?
+        - How do I log in to the ERP system?
+        - Access ERP portal?
+        - Where is the ERP dashboard?
+        - Login credentials for ERP?
+        - How do students log in to the ERP portal?
+        - Where can parents check student progress?
+        - How can I track my progress?
+        - Can I see my dashboard ?
+        - How can I see my personal details?
+        - Where can I find my student details?
+        - How do I check my profile in SSMIET?
+        - Show my details.
+        - I want to view my personal information.
+        - How can I check my attendance?
+        - How do I check my attendance status?
+        - How do I access my attendance details in SSMIET?
+        - Where can I find my monthly attendance?
+        - How do I check my subject-wise attendance?
+        - Can I view my total attendance percentage?
+        - Show my attendance report.
+        - How do I log in to the SSMIET student portal to check my attendance?
+        - Where can I find my attendance percentage for each subject?
+        - How do I retrieve my attendance records for the entire semester?
+        - Can I check my daily attendance and absentees list?
+        - What is the process to view my attendance report and download it?
+        - Where can I find my library card details?
+        - How can I check the lesson details
+        - Can you give me mark details or CGPA details of ssmiet
+        - When can I find the profile in ssmiet?
+        - I am studing the college ssmiet. So Give me my profile 
+        - Give me erp login link
+        - Where I find the student login or student portal?
+        - Can you give me faculty login or faculty portal
+        - attendance details
+        - give me my profile
+        - erp login
 
   - intent: goodbye
     examples: |

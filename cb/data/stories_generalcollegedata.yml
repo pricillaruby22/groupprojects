@@ -489,6 +489,11 @@ stories:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry 
 
+  - story: User asks about erp login
+    steps: 
+      - intent: erp_login
+      - action: utter_erp_login
+
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
