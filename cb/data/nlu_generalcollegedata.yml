@@ -599,7 +599,8 @@ nlu:
   - intent: campus_college_visit
     examples: |
       - Can I visit the college before taking admission?
-      - Is it possible to tour the campus before admission?
+      - Is it possible to see or visit the campus before admission?
+      - can i view or visit the college or university before admission? 
       - Can I see the college facilities before applying?
       - Is a campus visit allowed before admission?
       - Can I come to the college to check the infrastructure before enrolling?
