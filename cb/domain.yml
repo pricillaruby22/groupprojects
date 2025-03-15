@@ -632,35 +632,39 @@ responses:
           - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
 
   utter_scholarship_details:
-    - text: |
-        Students of SSMIET are eligible to avail various government scholarships such as:
-        - BC / MBC Scholarship
-        - Govt. of India post-metric Scholarship (SC / ST / SCA Students)
-        - Govt. of India post-metric Scholarship (Converted Christian)
-        - MOMA Scholarship (BCM, Christianity)
-        - AICTE Scholarship (All categories of Girl Students only)
-        - NHFDC Scholarship (All categories of Differently-abled Students)
-        - GQ 7.5 (For students who studied 6th to 12th in Government Schools)
+  - text: |
+      Students of SSMIET are eligible to avail various government scholarships such as:
+
+      - **BC / MBC Scholarship**  
+      - **Govt. of India Post-Metric Scholarship** *(SC / ST / SCA Students)*  
+      - **Govt. of India Post-Metric Scholarship** *(Converted Christian Students)*  
+      - **MOMA Scholarship** *(BCM, Christianity)*  
+      - **AICTE Scholarship** *(All categories of Girl Students only)*  
+      - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
+      - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
+
 
   utter_academic_calendar:
     - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
    
   utter_admission_documents:
     - text: |
-        The documents required for admission are:\n\n
-        - Allotment Order
-        - Community Certificate
-        - HSC Mark Sheet
-        - SSLC Mark Sheet
-        - Transfer and Conduct Certificate
-        - Aadhar Card
-        - Nativity Certificate (Optional)
-        - First Graduate Certificate (If Required)
-        - Joint Declaration Form (Optional)
-        - Passport Size Photos (2 Copies)
-        - Medical Fitness Certificate (Optional)
-        - Income Certificate
+        The documents required for admission are:
+
         📌 Both original and xerox copies are required.
+
+        - **Allotment Order**  
+        - **Community Certificate**  
+        - **HSC Mark Sheet**  
+        - **SSLC Mark Sheet**  
+        - **Transfer and Conduct Certificate**  
+        - **Aadhar Card**  
+        - **Nativity Certificate** *(Optional)*  
+        - **First Graduate Certificate** *(If Required)*  
+        - **Joint Declaration Form** *(Optional)*  
+        - **Passport Size Photos** *(2 Copies)*  
+        - **Medical Fitness Certificate** *(Optional)*  
+        - **Income Certificate** 
 
   utter_counselling_process:
     - text: |

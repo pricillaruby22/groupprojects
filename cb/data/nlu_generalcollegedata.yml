@@ -12,6 +12,7 @@ nlu:
       - How are you?
       - Hlo
       - Hiiii
+      - hai
 
   - intent: admission_process
     examples: |
@@ -521,6 +522,10 @@ nlu:
       - can i swap the courses?
       - I am belong to one particular department.So,Can I switch to other courses after joining?
       - I want change the course 
+      - how can I change the courses after joined the college?
+      - how can I change the courses after applied the college?
+      - how to change the course
+      - change the course
 
   - intent: First_graduate
     examples: |
@@ -565,6 +570,9 @@ nlu:
       - IV is available or not?
       - do this college has field trip or company visit or professional/educational tour or factory or site visit
       - IV or Industrial visit
+      - Tour is available or not?
+      - Is there any trip for students
+      - Is there any field trip is available for students
 
   - intent: admission_deadline_lastdate
     examples: |
@@ -580,6 +588,9 @@ nlu:
       - What is the last date to submit the admission form?
       - Can I apply for admission after the deadline?
       - Is there any extension for the admission deadline?
+      - Last date for apply admission
+      - End date for apply admission
+      - Deadline date for apply admission
 
   - intent: ssmiet_branches_campus
     examples: |
@@ -608,6 +619,7 @@ nlu:
       - Is there a specific day for prospective students to visit the campus?
       - Are parents allowed to visit the college before admission?
       - Can I talk to current students and staff before enrolling?
+      - Can I check your college before admission
 
   - intent: admission_start_date
     examples: |
@@ -623,6 +635,10 @@ nlu:
       - In which month does the admission process typically begin?
       - When is the admission form available?
       - What is the official admission opening date?
+      - admission starting date
+      - After public result of 12th when will the admission start
+      - After exam result when wil the admission start for 12th graduate students
+      - Before results when will admission starts
 
   - intent: lateral_entry
     examples: |
@@ -660,6 +676,8 @@ nlu:
       - How are seats distributed between government and management quota?
       - What is the fee structure for government quota vs. management quota?
       - Does SSMIET follow Anna University guidelines for quota admissions?
+      - Is there any sports quota available
+      - Tell about NCC
 
   - intent: placement_details_campus
     examples: |
@@ -680,6 +698,8 @@ nlu:
       - How many students get placed in core companies?
       - How many students secure jobs through campus drives?
       - Give me entire college placement details.
+      - I need placement details in your college
+      - Give me placements counts in your college
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
@@ -710,6 +730,8 @@ nlu:
       - What are the scheduled shifts for students?
       - Is the college open in the morning and afternoon?
       - Can you confirm the timings for both shifts in the college?
+      - college working hours
+      - Is there are two shifts in your college?
 
   - intent: scholarship_details
     examples: |
@@ -732,17 +754,26 @@ nlu:
       - Any free money for students?
       - How to apply for free study?
       - Government give money for students?
+      - BC scholarship
+      - MBC Scholarship
+      - SC Scholarship
+      - ST Scholarship
+      - SCA Scholarship
+      - MOMA Scholarship
+      - NHFDC Scholarship
+      - AICTE Scholarship
+      - Is there any post metric scholarship in your college`
 
   - intent: academic_calendar
     examples: |
-      - What are the working hours and holiday details?
+      - What are the holiday details?
       - When does the college open and close daily?
       - Can you share the academic calendar?
       - Where can I check the holiday list?
       - What are the working days for students?
       - Is there any leave this week?
       - What are the semester holidays?
-      - Could you provide details on the working hours and academic holidays at SSMIET?
+      - Could you provide details on the working days and academic holidays at SSMIET?
       - Where can I access the official academic calendar for the current year?
       - What are the working days and official holidays for students?
       - Does the college follow a fixed holiday schedule every year?
@@ -755,6 +786,9 @@ nlu:
       - Give holiday list.
       - Tell me college time and holiday.
       - Any leave this month?
+      - Give me educational calendar
+      - Give me educational schedule
+      - Give me schedule of the college
 
   - intent: admission_documents
     examples: |
@@ -793,6 +827,7 @@ nlu:
       - Can I change my course after seat allotment?
       - Tell me how to get a seat in the college.
       - What is the procedure for online registration for counselling?
+      - What I need to do after completed 12th standard
 
   - intent: college_benefits
     examples: |
@@ -810,6 +845,8 @@ nlu:
       - Tell me some reason Why I choose your college
       - reason for college to be best.
       - Why I choose this college?what are the advantage or benefits or reason of this college
+      - college benefits
+      - career opportunities
 
   - intent: staff_count
     examples: |
@@ -851,8 +888,12 @@ nlu:
       - What was the previous year's cutoff for each branch?
       - How does the TNEA ranking affect the cutoff for this college?
       - Does the cutoff vary for different courses?
-      - Is the cutoff the same for both online and offline admissions?
+      - Is the cutoff the same for both online and offline admissions? 
       - If I don’t meet the cutoff, can I apply through management quota?
+      - What is the required score for the admission
+      - cutoff details
+      - cut off details
+
       
   - intent: college_qualification
     examples: |
@@ -876,6 +917,9 @@ nlu:
       - Is the college degree accepted worldwide?
       - How is the academic reputation of SSMIET?
       - What makes SSMIET a qualified institution?
+      - Qualification of ssmiet
+      - ssmiet accreditation
+      - ssmiet affiliation
 
   - intent: job_interview_preparation
     examples: |
@@ -888,11 +932,13 @@ nlu:
       - How do you train students for behavioral and HR interviews?
       - Do you provide mentorship or one-on-one coaching for interview preparation?
       - How does the college support students in securing placements?
+      - Is there any career development program
+      - In this college, professional skills training is available or not?
     
   - intent: smart_classrooms_projector
     examples: |
       - Does the college have smart classrooms?
-      - How many smart classrooms are available on campus?
+      -        How many smart classrooms are available on campus?
       - What technologies are equipped in the smart classrooms?
       - Are all classrooms upgraded to smart classrooms?
       - How do smart classrooms enhance the learning experience?
