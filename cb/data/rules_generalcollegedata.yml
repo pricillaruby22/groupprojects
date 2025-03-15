@@ -448,6 +448,11 @@ rules:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry
 
+  - rule: Respond to erp login
+    steps:
+      - intent: erp_login
+      - action: utter_erp_login
+
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
