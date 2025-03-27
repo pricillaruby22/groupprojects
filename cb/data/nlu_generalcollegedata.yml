@@ -1251,6 +1251,7 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
+                 
   - intent: ask_lab_hardware
     examples: |
       - Tell me about your lab components

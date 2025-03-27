@@ -361,26 +361,26 @@ responses:
 
   utter_admission_process:
     - text: |
-          Admission Process can be done in both offline and online 
-          
-          **For Offline**
-              You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
-              - **Dr. S. Joseph Dominic Vijayakumar**,
-              - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
-              - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
-
-          **For Online**
-              - The form is available online. Click the link to access it.
-              - Fill in the required details and submit it.
-              - If you need help, contact the admission office.
-              - Make sure to check deadlines and required documents before submission.
-              **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
-
-          **Admission process**:
-              - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
-              - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
-              - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
-
+        Admission Process can be done in both offline and online
+        
+        **For Offline**
+        You can find detailed information about our admission process here: [Click for Admission Details](https://www.yourcollegewebsite.com/admissions).
+        - **Dr. S. Joseph Dominic Vijayakumar**
+        - **Admission Cell** - Coordinator, SSM Higher Educational Institutions, Dindigul - Palani Highway, Dindigul.
+        - **Contact Number**: 7373707002, 7373707008. If you need further assistance, contact us at 0451 244 8800.
+        
+        **For Online**
+        - The form is available online. Click the link to access it.
+        - Fill in the required details and submit it.
+        - If you need help, contact the admission office.
+        - Make sure to check deadlines and required documents before submission.
+        **To apply for admission online**, please fill out the online admission form here: [Online Admission Form](https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform).
+        
+        **Admission process**:
+        - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process, which is a single-window system.
+        - The online process followed in the TNEA includes **registration, payments, choice filling, allotment, and confirmation**.
+        - The **vacant or unclaimed seats** in the TNEA counselling process may be allotted as management seats after the completion of the entire counselling process, i.e., after supplementary counselling.
+ 
   utter_online_courses:
     - text: "No, we **don't offer online courses** and distance learning options."
   
@@ -1420,6 +1420,9 @@ responses:
           - 2021-2022: 63 students
           - 2022-2023: 34 students
           - 2023-2024: 55 students
+        You can check in this following link:
+        https://shorturl.at/GBxGB
+        https://shorturl.at/La71w
         
   utter_extra_courses_ece:
     - text: |
@@ -1681,7 +1684,7 @@ responses:
 
   utter_it_event_conducted_photos:
     - text: |
-        "Event photos"
+        Check it out further details "https://shorturl.at/7m1WF"
 
   utter_it_faculty_experience_knowledge:
     - text: |
@@ -1795,8 +1798,11 @@ responses:
         "You can find details about the department activities at the following link: https://ssmiet.ac.in/EEE/DEPT.%20ACTIVITY-EEE.pdf"
   
   utter_eee_student_activities:
-    - text: 
-        "You can find details about the student activities at the following link: https://ssmiet.ac.in/eee%20student%20activities.html"
+    - text: | 
+         You can find details about the student activities at the following link: 
+         https://ssmiet.ac.in/eee%20student%20activities.html
+         https://shorturl.at/EVX1Y
+         https://shorturl.at/LyN0T
   
   utter_eee_faculty_activities:
     - text: 
@@ -1913,7 +1919,7 @@ responses:
 
   utter_eee_event_conducted_photos:
     - text: |
-        "Event photos"
+        You can check event names in this link https://shorturl.at/hNtBE
 
   utter_eee_faculty_experience_knowledge:
     - text: |
@@ -2669,10 +2675,13 @@ responses:
           1. CORE JAVA
 
   utter_cybersecurity_event_conducted_photos:
-    - text: "Cyber Security photos"
+    - text: |
+        You can check detail in this link https://shorturl.at/NFnos
 
   utter_cybersecurity_faculty_experience_knowledge:
-    - text: "Cybersecurity faculty"
+    - text: |
+        "The Cyber security faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+
 
   utter_aiml_hod_details:
     - text: |
@@ -2934,6 +2943,11 @@ responses:
 
         ![Library 1](https://example.com/library1.jpg)
         ![Library 2](https://example.com/library2.jpg)
+
+  utter_placement_civil:
+    - text: |
+         You check the placement details in this link https://shorturl.at/y6qHS
+        
 
   utter_campus_hostel_photos:
     - text: |
