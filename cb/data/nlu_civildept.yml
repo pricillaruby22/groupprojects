@@ -208,7 +208,7 @@ nlu:
   examples: |
     - Which companies have signed an MOU with the Civil Engineering department?
     - Can you provide details on MOU-signed companies in the Civil department?
-    - Tell me about the industry collaborations in Civil Engineering.
+    - Tell me about the MOU industry collaborations in Civil Engineering.
     - Which organizations have partnered with the Civil department?
     - List the companies that have signed an MOU with Civil Engineering.
     - What is an MOU in the context of Civil Engineering?
@@ -222,6 +222,7 @@ nlu:
     - Tell me about the latest MOU collaborations for Civil Engineering.
     - Give me details on MOU partners and their dates for the Civil department.
     - Give me the details about tie-up companies in Civil Engineering.
+    - MOU of civil Engineering 
 
 - intent: civil_contact
   examples: |
@@ -251,3 +252,19 @@ nlu:
     - What is the average number of years faculty members have worked at SSMIET?
     - How many faculty members in the Civil department hold postgraduate degrees?
 
+- intent: placement_civil
+  examples: |
+      - Tell me about the placement details in Civil department
+      - How many students got placed in civil?
+      - civil department placement statistics
+      - Year-wise placement count in civil  
+      - Tell me about the placement statistics in the Civil department
+      - How successful is the civil department in placements?
+      - What is the placement rate for civil students?
+      - Can you provide the civil placement report?
+      - How many civil students were placed last year?
+      - What's the highest placement count for Civil?
+      - Which companies hired Civil students?
+      - How has civil placement performance changed over the years?
+      - Do Civil students get good placements?
+      - Share the year-wise placement details for Civil.
