@@ -113,3 +113,8 @@ stories:
     steps:
       - intent: civil_yearwise_student_count
       - action: utter_civil_yearwise_student_count
+      
+  - story: Provide placement civil details
+    steps:
+      - intent: placement_civil
+      - action: utter_placement_civil
