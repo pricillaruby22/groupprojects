@@ -96,13 +96,13 @@ stories:
       - action: utter_cse_newsletter
   - story:  asks about MOU companies
     steps:
-      - intent: mou_sign_company
-      - action: utter_mou_sign_company
+      - intent: cse_mou_sign_company
+      - action: utter_cse_mou_sign_company
   
   - story: asks about internship companies
     steps:
-      - intent: intern_company
-      - action: utter_intern_company
+      - intent: cse_intern_company
+      - action: utter_cse_intern_company
 
   - story:  asks for cse dept contact details
     steps:
@@ -131,8 +131,8 @@ stories:
   
   - story: Accreditation inquiry
     steps:
-      - intent: cse_accreditation
-      - action: utter_cse_accreditation 
+      - intent: cse_accrediation
+      - action: utter_cse_accrediation 
 
   - story: CSE year-wise student count inquiries
     steps:

@@ -37,8 +37,8 @@ stories:
 
   - story: Student total count inquiry
     steps:
-      - intent: student_total_count
-      - action: utter_student_total_count
+      - intent: current_student_total_count
+      - action: utter_current_student_total_count
 
   - story: Family visit inquiry
     steps:
@@ -156,8 +156,8 @@ stories:
       - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
-      - intent: admission_deadline_lastdate
-      - action: utter_admission_deadline_lastdate
+      - intent: admission_apply_lastdate
+      - action: utter_admission_apply_lastdate
 
   - story: respond to SSMIET branches or campus query
     steps:
@@ -476,8 +476,8 @@ stories:
 
   - story: User asks about GATE coaching
     steps:
-      - intent: gate_coaching
-      - action: utter_gate_coaching
+      - intent: gate_coaching_ques
+      - action: utter_gate_coaching_ques
       
   - story: User asks about sports equipment
     steps:

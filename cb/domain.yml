@@ -8,10 +8,11 @@ intents:
   - entrance_exam
   - uniform_dresscode
   - book_availability
-  - studen_location_address
-  - college_name_private_anna_university
-  - principat_total_count
+  - current_student_total_count
   - family_visit
+  - college_location_address
+  - college_name_private_anna_university
+  - principal_details
   - collegel_details
   - college_contact_email
   - college_distance_travel_time
@@ -22,13 +23,13 @@ intents:
   - college_phd_courses
   - college_courses_duration
   - college_admission_form
-  - college_admission_eligibilty
+  - college_admission_eligibility
   - available_internships_and_placements
   - change_the_course
   - First_graduate
   - fee_payment_other_than_tutionfee
   - about_industrial_visit
-  - admission_deadline_lastdate
+  - admission_apply_lastdate
   - ssmiet_branches_campus
   - campus_college_visit
   - admission_start_date
@@ -73,8 +74,12 @@ intents:
   - sem_exam_result
   - extracurricular_activites
   - fee_payment
-  - gate_coaching
+  - gate_coaching_ques
   - ask_campus_general_photos
+  - erp_login
+  - NBA_accredited_dept
+  - btech_courses
+  - be_courses
   - cse_hod_details
   - cse_faculty_details
   - peo_cse_department
@@ -94,17 +99,17 @@ intents:
   - cse_professional_bodies
   - cse_research_activities
   - cse_newsletter
-  - cse_accreditation
+  - cse_accrediation
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
-  - placement_company_names
-  - mou_sign_company
+  - cse_placement_company_names
+  - cse_mou_sign_company
   - placement_cse
   - extra_courses_cse_dept
   - cse_department_mission
   - cse_department_vision
-  - intern_company
+  - cse_intern_company
   - cse_staff_count
   - photos_cse_dept
   - hostel_availability
@@ -331,6 +336,7 @@ intents:
   - mou_sign_company_civil
   - civil_contact
   - civil_faculty_experience_knowledge  
+  - civil_yearwise_student_count
   - aiml_hod_details
   - aiml_faculty_details
   - aiml_department_info_about
@@ -361,25 +367,22 @@ responses:
 
   utter_admission_process:
     - text: |
-          Admission Process can be done in both offline and online 
-          
-          **For Offline**
-              You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
-              - **Dr. S. Joseph Dominic Vijayakumar**,
-              - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
-              - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
-
-          **For Online**
-              - The form is available online. Click the link to access it.
-              - Fill in the required details and submit it.
-              - If you need help, contact the admission office.
-              - Make sure to check deadlines and required documents before submission.
-              **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
-
-          **Admission process**:
-              - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
-              - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
-              - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+            Admission Process can be done in both offline and online 
+            **For Offline**:
+            You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
+                - **Dr. S. Joseph Dominic Vijayakumar**,
+                - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
+                - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
+            **For Online**:
+                - The form is available online. Click the link to access it.
+                - Fill in the required details and submit it.
+                - If you need help, contact the admission office.
+                - Make sure to check deadlines and required documents before submission.
+                **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+            **Admission process**:
+                - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
+                - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
+                - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_online_courses:
     - text: "No, we **don't offer online courses** and distance learning options."
@@ -399,7 +402,7 @@ responses:
     - text: "The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details."
   
   utter_current_student_total_count:
-    - text: "The current student count in our college is 1567.\n These numbers may vary slightly each year."
+    - text: "The current student count in our college is 1567.These numbers may vary slightly each year."
 
   utter_family_visit_info:
     - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
@@ -424,6 +427,7 @@ responses:
           
   utter_principal_details:
     - text: |
+            ![Principal Photo](https://i.ibb.co/d4dhTfFL/Dr-D-SENTHIL-KUMARAN-M-E-Ph-D-NUS-MISTE.jpg)
             **Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
                 - He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
                   Bharathiar University.
@@ -589,9 +593,15 @@ responses:
     - text: "Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information"
 
   utter_about_industrial_visit:
-    - text: "Yes,SSMIET organizes industrial visits for students to gain practical exposure.  Participation is encouraged but subject to academic performance and attendance requirements."
-
-  utter_admission_deadline_lastdate:
+    - text: |
+            Yes,SSMIET organizes industrial visits for students to gain practical exposure.
+            Participation is encouraged but subject to academic performance and attendance requirements.
+            ![IV photo 1](https://i.ibb.co/ks7nBWn7/cse5.jpg)
+            ![IV photo 2](https://i.ibb.co/9mcKfp64/4.jpg)
+            ![IV photo 3](https://i.ibb.co/4nDHJqQ9/5.jpg)
+            ![IV photo 3](https://i.ibb.co/WWM3fTp2/aids-2.jpg)
+            
+  utter_admission_apply_lastdate:
     - text: "This is the end date for admission, and there is no extension for the admission deadline."
 
   utter_ssmiet_branches_campus:
@@ -613,11 +623,11 @@ responses:
     - text: | 
         **Placement Details**:
         
-        2018-2019: 206 Students
-        2019-2020: 273 Students
-        2020-2021: 101 Students
-        2021-2022: 200 Students
-        2022-2023: 117 Students
+        - 2018-2019: 206 Students
+        - 2019-2020: 273 Students
+        - 2020-2021: 101 Students
+        - 2021-2022: 200 Students
+        - 2022-2023: 117 Students
 
   utter_staff_professors_faculty_qualifications_experience:
     - text: "The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. 
@@ -766,7 +776,7 @@ responses:
 
   utter_most_highest_placement_department:
     - text: |
-        The departments with the highest placement rates are Computer Science, Information Technology, and Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives.
+        "The departments with the highest placement rates are Computer Science,Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives."
   
   utter_eligible_student_placement_opportunities:
     - text: |
@@ -774,7 +784,7 @@ responses:
   
   utter_each_all_department_get_placed:
     - text: |
-        The number of students placed varies by department. On average, a high percentage of students from Computer Science, and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, also have placement opportunities, depending on the companies visiting the campus.
+            The number of students placed varies by department. On average, a high percentage of students from Computer Science and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical,IT,CSBS,AIML,AIDS.Cyber Security also have placement opportunities, depending on the companies visiting the campus.
   
   utter_curriculum_relevance_industry:
     - text: |
@@ -797,7 +807,7 @@ responses:
 
   utter_college_events_annual_symposium:
     - text: |
-        "The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities."
+        The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities.
       
   utter_first_year_1st_students_count:
     - text: |
@@ -817,28 +827,31 @@ responses:
 
   utter_ssmiet_history_about_college:
       - text: |
-          "SSM Institute of Engineering and Technology (SSMIET) was established in the academic year 2011-2012 by the SSM Group, which has over 30 years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
+          **SSM Institute of Engineering and Technology (SSMIET)** was established in the academic year **2011-2012** by the SSM Group, which has over **30** years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
           Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
           The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
-          SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges."
+          SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges.
   
   utter_average_campus_placement:
       - text: "The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%."
   
   utter_yearwise_student_count_ssmiet:
       - text: |
-          "Here is the year-wise total student count in SSMIET:
-          - 2024 - 2025: 1567 students
-          - 2023 - 2024: 1330 students
-          - 2022 - 2023: 1137 students
-          - 2021 - 2022: 1133 students"
+              Here is the year-wise total student count in SSMIET:
+              - 2024 - 2025: 1567 students
+              - 2023 - 2024: 1330 students
+              - 2022 - 2023: 1137 students
+              - 2021 - 2022: 1133 students
 
   utter_placement_training:
     - text: |
-        "The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation."
+        The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation.
 
   utter_student_feedback:
-    - text: "You can submit your feedback only if you are an student/professor of our college using this link: [Feedback Form for studens] (https://ssmiet.ac.in/feedback.html) [feedback form for teachers] (https://ssmiet.ac.in/NAAC/C1/Teachers%20Feedback.pdf) "
+    - text: |
+            You can submit your feedback only if you are an student/professor of our college using this link:
+            - [Feedback Form for Students] (https://ssmiet.ac.in/feedback.html)
+            - [Feedback form for Faculties] (https://ssmiet.ac.in/NAAC/C1/Teachers%20Feedback.pdf) 
   utter_water_facilities:
     - text: "Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users"
   utter_recruiters_college_for_placements:
@@ -863,7 +876,7 @@ responses:
               - E-mail Id: placement.ssmiet@gmail.com"
 
   utter_sports_achievements:
-    - text: "Our college has won multiple sports tournaments this year! Check out the details on our sports board "
+    - text: "Our college has won multiple sports tournaments this year! Check out the details on this link ![Sports Achievements](https://bit.ly/4hGoQ2B) "
   utter_software_lab_details:
     - text: "The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code,Android studio,UBUNTU,Eclipse, and more."
   utter_ask_lab_hardware :
@@ -876,6 +889,7 @@ responses:
         - OS: Windows 10, Ubuntu
         - Display: 18.5" LCD
         - Peripherals: Lenovo standard keyboard and optical mouse.
+
   utter_staff_professor_count:
     - text: "Teaching and non-teaching staff count over the years:
       - 2024-2025: 96 Teaching, 33 Non-teaching
@@ -893,12 +907,12 @@ responses:
           Workshops
   utter_fee_payment:
     - text: |
-        Bank Name: State Bank Of India, Dindigul.
-        Account Name: SSM Institute of Engineering and Technology
-        Account Number: 32684732711
-        IFSC Code: SBIN0012758
+            - Bank Name: State Bank Of India, Dindigul.
+            - Account Name: SSM Institute of Engineering and Technology
+            - Account Number: 00000032684732711
+            - IFSC Code: SBIN0012758
 
-  utter_gate_coaching:
+  utter_gate_coaching_ques:
     - text: |
         The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
   
@@ -906,9 +920,9 @@ responses:
     - text: |
         Here are some images of our college campus:
 
-        ![Campus View 1](https://example.com/campus1.jpg)
-        ![Campus View 2](https://example.com/campus2.jpg)
-        ![Campus View 3](https://example.com/campus3.jpg)
+        ![Campus View 1](https://ssmiet.ac.in/images/course.jpg)
+        ![Campus View 2](https://i.ibb.co/4GP2V2J/campus1.jpg)
+        ![Campus View 3](https://i.ibb.co/C5BfKXYQ/campus3.jpg)
 
   utter_erp_login:
     - text: |
@@ -916,29 +930,46 @@ responses:
 
   utter_cse_hod_details:
     - text: |
-         - Dr. C. Sujatha
+         ![Sujatha](https://i.ibb.co/fdn8SyD7/sujatha.jpg)
+         - **Dr. C. Sujatha**
          - Position: Head of the Department (HOD), CSE, SSMIET
          - Years of Experience: 21+ years in teaching & research
-         - Qualification: Ph.D, M.E, B.E"
-          To learn more about the head of the CSE Department,please visit this https://ssmiet.ac.in/pdf/cse/sujatha.pdf
+         - Qualification: Ph.D, M.E, B.E
+           To learn more about the head of the CSE Department,please visit this https://ssmiet.ac.in/pdf/cse/sujatha.pdf
 
   utter_cse_faculty_details :
     - text: |
         Here are the faculty members of the CSE department:
+
+          ![Sujatha](https://i.ibb.co/fdn8SyD7/sujatha.jpg)
         - **Dr. C. Sujatha** - M.E., Ph.D. (Professor and Head)
+          ![Prabhu](https://i.ibb.co/zVspTzcQ/prabhu.jpg)
         - **Dr. G. Prabu** - M.E., Ph.D. (Associate Professor)
+          ![Sudhakar](https://i.ibb.co/zW8KzDPV/sudhakar.jpg)
         - **Dr. S. Sudhakar** - M.E., Ph.D. (Associate Professor)
-        - **Mrs. M. Mookambikai** - M.E., (Ph.D.) (Assistant Professor)
+          ![Moohambikai](https://i.ibb.co/BH2my03s/mookambikai.jpg)
+        - **Mrs. M. Mookambikai** - M.E., Ph.D. (Assistant Professor)
+          ![Aldo Tenis](https://i.ibb.co/LXq0dz4d/aldo.jpg)
         - **Dr. A. Aldo Tenis** - M.E., Ph.D. (Associate Professor)
-        - **Mrs. N. J. Divya** - M.E., (Ph.D.) (Assistant Professor)
-        - **Mrs. K. Sureka** - M.E., (Ph.D.) (Assistant Professor)
-        - **Mrs. S. Suganya** - M.E., (Ph.D.) (Assistant Professor)
-        - **Mrs. J. Dhanalakshmi** - M.E., (Ph.D.) (Assistant Professor)
+          ![Sureka](https://i.ibb.co/nsj8JYQz/sureka.jpg)
+        - **Mrs. K. Sureka** - M.E., Ph.D. (Assistant Professor)
+          ![Suganya](https://i.ibb.co/Y4S5ckf1/suganya.jpg)
+        - **Mrs. S. Suganya** - M.E., Ph.D. (Assistant Professor)
+          ![Dhanalakshmi](https://i.ibb.co/pjfTKZnc/dhanalakshmi.jpg)
+        - **Mrs. J. Dhanalakshmi** - M.E., Ph.D. (Assistant Professor)
+          ![PadmaPriya](https://i.ibb.co/5gCYHtjr/badmapriya.jpg)
         - **Mrs. A. Padma Priya** - M.E. (Assistant Professor)
-        - **Mrs. T. Rani Mangammal** - M.E., (Ph.D.) (Assistant Professor)
-        - **Mr. P. V. Samuel Devakumar** - M.E. (Assistant Professor)
-        - **Ms. V. Sudharsana** - M.E. (Assistant Professor)
-        - **Mrs. D. Rekha** - M.E. (Assistant Professor)
+          ![Rani Mangammal](https://i.ibb.co/C5JnDNnX/ranimangammal.png)
+        - **Mrs. T. Rani Mangammal** - M.E.,Ph.D.(Assistant Professor)
+          ![Samuel](https://i.ibb.co/qLqHBvYr/samuel.jpg)
+        - **Mr.P.V.Samuel Devakumar** - M.E.(Assistant Professor)
+          ![Sudharshana](https://i.ibb.co/ffsSSwj/sudharshana.jpg)
+        - **Ms . V . Sudharsana**  - M.E. 
+          ( Assistant Professor )
+          ![Rekha](https://i.ibb.co/9kWv257k/rekha.jpg)
+        - **Mrs . D . Rekha** -   
+          M . E .(  Assistant Professor )
+          ![NanMalar](https://i.ibb.co/0RmY3GKb/NANMALAR.jpg)
         - **Dr. M. Nanmalar** - M.E., Ph.D. (Assistant Professor)
 
   utter_peo_cse_department:
@@ -957,29 +988,29 @@ responses:
     - text: |
         Program Outcomes (POs) define the competencies that graduates of the Computer Science and Engineering program are expected to acquire:
         
-        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+        **PO1**: **Engineering knowledge**: Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
         
-        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+        **PO2**: **Problem analysis**: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
         
-        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+        **PO3**: **Design / development of solutions**: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
         
-        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+        **PO4**: **Conduct investigations of complex problems**: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
         
-        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+        **PO5**: **Modern tool usage**: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
         
-        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+        **PO6**: **The engineer and society**: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
         
-        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
+        **PO7**: **Environment and sustainability**: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
         
-        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+        **PO8**: **Ethics**: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
         
-        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+        **PO9**: **Individual and team work**: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
         
-        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+        **PO10**: **Communication**: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
         
-        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+        **PO11**: **Project management and finance**: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
         
-        **PO12**: Life-Long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+        **PO12**: **Life-Long learning**: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
 
   utter_pso_cse_department:
     - text: |
@@ -995,7 +1026,7 @@ responses:
 
   utter_cse_department_info_about:
     - text: |
-        Our department was established in 2011. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs and facilitates in-plant training, industrial visits, and internships. Our students are placed in top companies like Infosys, Wipro, TCS, HCL, Accenture, and more.
+            Our **Computer Science Engineering** department was established in 2011. It is approved by AICTE, accredited by NAAC, and affiliated with Anna University, Chennai. Our experienced faculty supports student learning and career goals through academic counseling, special lectures, and industry exposure. We emphasize co-curricular and extracurricular activities to shape well-rounded professionals. The department is equipped with state-of-the-art computer labs and facilitates in-plant training, industrial visits, and internships. Our students are placed in top companies like Infosys, Wipro, TCS, HCL, Accenture, and more.
 
   utter_cse_department_vision:
     - text: |
@@ -1070,7 +1101,7 @@ responses:
           - 2022-2023: 35 students
           - 2023-2024: 41 students
 
-        For More details to know about **student details** who all are got placed,click this link https://pdf.ac/2RzZxY
+        For More details to know about **student details** who all are got placed,click this link https://bit.ly/4kUjWSw
         
   utter_extra_courses_cse_dept:
     - text: |
@@ -1091,8 +1122,9 @@ responses:
           - Solving Problems using Python Programming
           - Core Java Training      
 
-  utter_mou_sign_company:
-    - text: "Here are the companies that have signed an MOU with our institution: 
+  utter_cse_mou_sign_company:
+    - text: |
+            Here are the companies that have signed an MOU with our institution: 
               - Code Tantra 
               - Edunet Foundation
               - Vinculo
@@ -1108,9 +1140,13 @@ responses:
               - Elysium Academy Private Limited
               - Cloud Systems\n15. NIIT - Dindigul
               - Gateway Software Solutions
-              - Micro Genesis Tech Soft Private Limited"
+              - Micro Genesis Tech Soft Private Limited
+            ![companies photo 1](https://i.ibb.co/d0nHL5rP/cse10.jpg)
+            ![companies photo 1](https://i.ibb.co/RpcRL8Jg/cse8.jpg)
+            ![companies photo 1](https://i.ibb.co/Kcbx82rw/cse7.jpg)
+            ![companies photo 1](https://i.ibb.co/DP9NbM1J/cse1.jpg)
    
-  utter_intern_company:
+  utter_cse_intern_company:
     - text: |
              Here are top companies to get the internship
               - Pirai Infotech Pvt Ltd, Pollachi
@@ -1142,7 +1178,7 @@ responses:
       📞 **Phone:** 0451 – 2448843  
       ✉️ **Email:** hodcsessmiet@gmail.com  
 
-  utter_placement_company_names:
+  utter_cse_placement_company_names:
     - text: |
         Companies recruiting CSE students categorized by tier levels:
           - Tier 1:
@@ -1169,7 +1205,7 @@ responses:
             - ThinkBig Infotech Pvt Ltd
             - Net Tel Solutions India Pvt Ltd  
 
-  utter_cse_accreditation:
+  utter_cse_accrediation:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
   utter_cse_yearwise_student_count:
@@ -1178,11 +1214,16 @@ responses:
 
   utter_cse_event_conducted_photos:
     - text: |
-        "Event photos"
+            ![CSE Event photo 1](https://i.ibb.co/2QZbcCp/cse2.jpg)
+            ![CSE Event photo 2](https://i.ibb.co/zV30yQN6/cse4.jpg)
+            ![CSE Event photo 3](https://i.ibb.co/zV30yQN6/cse4.jpg)
+            ![CSE Event photo 4](https://i.ibb.co/ks7nBWn7/cse5.jpg)
+            ![CSE Event photo 4](https://i.ibb.co/2HszxVp/cse6.jpg)
+            ![CSE Event photo 4](https://i.ibb.co/PZ0QxFJB/cse9.jpg)
 
   utter_cse_faculty_experience_knowledge:
     - text: |
-        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        "The CSE faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
   utter_cse_staff_count:
     - text: |
@@ -1193,15 +1234,13 @@ responses:
 
   utter_photos_cse_dept:
     - text: |
-        Here are some images from the CSE department:
+            Here are some images from the CSE department:
 
-        ![Image 1](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0001.jpg)
-
-        ![Image 2](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0005.jpg)
-
-        ![Image 3](https://ssmiet.ac.in/cse%20gallery/6.jpg)
-        ![Image 4](https://i.ibb.co/Z6Byf0Hk/IMG-20231025-142741.jpg)
-        You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
+            ![Image 1](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0001.jpg)
+            ![Image 2](https://ssmiet.ac.in/cse%20gallery/IMG-20231004-WA0005.jpg)
+            ![Image 3](https://ssmiet.ac.in/cse%20gallery/6.jpg)
+            ![Image 4](https://i.ibb.co/Z6Byf0Hk/IMG-20231025-142741.jpg)
+            You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
 
   utter_hostel_availability_info:
       - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
@@ -1271,52 +1310,81 @@ responses:
   
   utter_canteen_food_options:
     - text: |
-        The canteen offers both vegetarian and non-vegetarian food options, including:
-        - Dosa
-        - Fried Rice
-        - Noodles
-        - Parotta
-        - Sambar Sadham
-        - Snacks and beverages are also available.
-  
+            The canteen offers both vegetarian and non-vegetarian food options, including:
+            - Dosa
+            - Fried Rice
+            - Noodles
+            - Parotta
+            - Sambar Sadham
+            - Snacks and beverages are also available.
+      
   utter_canteen_timings:
     - text: |
-        The canteen operates from 8:30 AM to 5:00 PM. Seating arrangements are available for 200-300 students. Digital payments are accepted, and prices are affordable.
-        Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
-        For more details, you can contact the canteen management.
+          The canteen operates from 8:30 AM to 5:00 PM. Seating arrangements are available for 200-300 students. Digital payments are accepted, and prices are affordable.
+          Special food items may be available during festivals or special occasions. A feedback system is in place to improve services.
+          For more details, you can contact the canteen management.
 
   utter_ece_hod_details:
     - text: |
-        🔹 Name: Dr. S. Karthigailakshmi 
-        🔹 Position: Head of the Department (HOD), ECE, SSMIET
-        🔹 Years of Experience: 24+ years in teaching
-        🔹 Qualification: 🎓 Ph.D, M.E, B.E
-         \nTo learn more about HOD of ECE of SSMIET, please visit this website https://ssmiet.ac.in/pdf/ece/1.KARTHIGAILAKSHMI%20,%20HoD.pdf"
+          ![KarthigaiLakshmi](https://i.ibb.co/W4yyRz0h/ece2.jpg)
+          🔹 Name: Dr. S. Karthigailakshmi 
+          🔹 Position: Head of the Department (HOD), ECE, SSMIET
+          🔹 Years of Experience: 24+ years in teaching
+          🔹 Qualification: 🎓 Ph.D, M.E, B.E
+           To learn more about HOD of ECE of SSMIET, please visit this website https://ssmiet.ac.in/pdf/ece/1.KARTHIGAILAKSHMI%20,%20HoD.pdf
 
   utter_ece_faculty_details:
     - text: |
         Here are the faculty members of the ECE department:
-        1. Dr. S. Karthigailakshmi - M.E., Ph.D. (Professor and Head)
-        2. Dr. M. Premkumar - M.E., Ph.D. (Professor)
-        3. Dr. K. Ganapriya - M.E., Ph.D. (Assistant Professor)
-        4. Dr. S. Jayakumar - M.E., Ph.D. (Associate Professor)
-        5. Dr. M. Manikandan - M.E., Ph.D. (Associate Professor)
-        6. Dr. R. Carol praveen - M.E., Ph.D. (Associate Professor)
-        7. Mrs. A. Geetha - M.E., Ph.D. (Assistant Professor)
-        8. Mr. V.P. Jay Fantin - M.E., Ph.D. (Assistant Professor)
-        9. Mr. R. Senthil kumar - M.E., Ph.D. (Assistant Professor)
-        10. Mr. K.S. Arun kumar - M.E., Ph.D. (Assistant Professor)
-        11. Mr. J. Vetri mani kumar - M.E., Ph.D. (Assistant Professor)
-        12. Mrs. G. Saranya - M.E., Ph.D. (Assistant Professor)
-        13. Mrs. K. Divya - M.E., Ph.D. (Assistant Professor)
-        14. Mrs. G. Rajarajeshwari - M.E., Ph.D. (Assistant Professor)
-        15. Mrs. S. Keerthana - M.E., Ph.D. (Assistant Professor)
-        16. Mrs. P. Karthika - M.E., Ph.D. (Assistant Professor)
-        17. Mrs. K. Moniga - M.E., Ph.D. (Assistant Professor)
-        18. Mrs. R. Sudha - M.E., Ph.D. (Assistant Professor)
-        19. Mrs. E. Thangadeepiga - M.E., Ph.D. (Assistant Professor)
-        20. Mrs. A. Arockia helen sushma - M.E., Ph.D. (Assistant Professor)
-        21. Mrs. S. Sathya shiva ranjani - M.E. (Assistant Professor)
+
+           ![KarthigaiLakshmi](https://i.ibb.co/W4yyRz0h/ece2.jpg)
+         - **Dr. S. Karthigailakshmi** - M.E., Ph.D. (Professor and Head)
+           ![Rajesh](https://i.ibb.co/4g4HMJY7/ece.jpg)
+        -  **Dr.K.Rajesh** - M.E., Ph.D. (Professor)
+           ![Premkumar](https://i.ibb.co/M0xSZHh/ece3.jpg)
+         - **Dr. M. Premkumar** - M.E., Ph.D. (Professor)
+           ![Ganapriya](https://i.ibb.co/pjZSyBgd/ece4.jpg)
+         - **Dr. K. Ganapriya** - M.E., Ph.D. (Assistant Professor)
+           ![Jayakumar](https://i.ibb.co/8Lyz62cq/ece5.jpg)
+         - **Dr. S. Jayakumar** - M.E., Ph.D. (Associate Professor)
+           ![Manikandan](https://i.ibb.co/pr1W0VNm/ecefac6.jpg)
+         - **Dr. M. Manikandan** - M.E., Ph.D. (Associate Professor)
+           ![Carol Praveen](https://i.ibb.co/3tJq6xn/ecefac7.jpg)
+         - **Dr. R. Carol praveen** - M.E., Ph.D. (Associate Professor)
+           ![Geetha](https://i.ibb.co/YFCsdnnk/ecefac8.jpg)
+         - **Mrs. A. Geetha** - M.E., Ph.D. (Assistant Professor)
+           ![Jay Fantin](https://i.ibb.co/VFkD5SZ/ece8fac.jpg)
+         - **Mr. V.P. Jay Fantin** - M.E., Ph.D. (Assistant Professor)
+           ![Senthil Kumar](https://i.ibb.co/CKZXrzqQ/ece10fac.jpg)
+         - **Mr. R. Senthil kumar** - M.E., Ph.D. (Assistant Professor)
+           ![Arun Kumar](https://i.ibb.co/QvgPsPmX/ece11fac.jpg)
+         - **Mr. K.S. Arun kumar** - M.E., Ph.D. (Assistant Professor)
+           ![Vetri mani kumar](https://i.ibb.co/FTVpgg0/ece12fac.jpg)
+         - **Mr. J. Vetri mani kumar** - M.E., Ph.D. (Assistant Professor)
+           ![Saranya](https://i.ibb.co/Q7CS0GB9/ece12fax.jpg)
+         - **Mrs. G. Saranya** - M.E., Ph.D. (Assistant Professor)
+           ![Divya](https://i.ibb.co/qFJKSBYb/ece13fac.jpg)
+         - **Mrs. K. Divya** - M.E., Ph.D. (Assistant Professor)
+           ![Rajarajeshwari](https://i.ibb.co/MD58dqhR/ece14fac.jpg)
+         - **Mrs. G. Rajarajeshwari** - M.E., Ph.D. (Assistant Professor)
+           ![Keerthana](https://i.ibb.co/qzg9BgT/ece15fac.jpg)
+         - **Mrs. S. Keerthana** - M.E., Ph.D. (Assistant Professor)
+           ![Karthika](https://i.ibb.co/yFy5zNYN/ece16fac.jpg)
+         - **Mrs. P. Karthika** - M.E., Ph.D. (Assistant Professor)
+           ![Moniga](https://i.ibb.co/pjTGbwBX/ce17fac.jpg)
+         - **Mrs. K. Moniga** - M.E., Ph.D. (Assistant Professor)
+           ![Sudha](https://i.ibb.co/gMZpyDZJ/ecefac20.jpg)
+         - **Mrs. R. Sudha** - M.E., Ph.D. (Assistant Professor)
+           ![Thangadeepiga](https://i.ibb.co/GQY8ZBTs/ece21fac.jpg)
+         - **Mrs. E. Thangadeepiga** - M.E., Ph.D. (Assistant Professor)
+           ![Arockia Helen Sushma](https://i.ibb.co/Swg3r7hd/ecefac23.jpg)
+         - **Mrs. A. Arockia helen sushma** - M.E., Ph.D. (Assistant Professor)
+           ![Thirumoorthi](https://i.ibb.co/zTFqFhMt/ecefac24.jpg)
+         - **Mr.M.Thirumoorthi** - M.E., (Assistant Professor)
+           ![Dhivya](https://i.ibb.co/dwcDJcmz/ecefac27.jpg)
+         - **Mrs.M.Divya** - M.E., (Assistant Professor)
+           ![Sathya](https://i.ibb.co/WNRpNpBd/ecefac26.jpg)
+         - **Mrs. S. Sathya shiva ranjani** - M.E. (Assistant Professor)
 
   utter_peo_ece_department:
     - text: |
@@ -1374,8 +1442,12 @@ responses:
         "The number of male students in the ECE department varies."
 
   utter_ece_lab_facilities:
-    - text: 
-        "You can find details about the lab facilities available in the ECE department at the following link: https://ssmiet.ac.in/ece%20facilities.html"
+    - text: |
+            ![ECE lab photo 1](https://i.ibb.co/4RxJkmKt/20231017-144710.jpg)
+            ![ECE lab photo 2](https://i.ibb.co/FT43TVs/20231017-144734.jpg)
+            ![ECE lab photo 3](https://i.ibb.co/wrCZYcc1/20231124-130256.jpg)
+            ![ECE lab photo 4](https://i.ibb.co/gFHkxWjL/20231124-130310.jpg)
+            You can find details about the lab facilities available in the ECE department at the following link: https://ssmiet.ac.in/ece%20facilities.html"
 
   utter_ece_department_activities:
     - text: 
@@ -1540,23 +1612,29 @@ responses:
 
   utter_ece_faculty_experience_knowledge:
     - text: |
-        "The ECE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        The ECE faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided.
 
   utter_it_hod_details:
     - text: |
-        🔹 Name:  Dr. G. Prabu 
-        🔹 Position: Head of the Department (HOD), IT, SSMIET
-        🔹 Years of Experience: 22+ years in teaching 
-        🔹 Qualification: 🎓 Ph.D, M.E, B.E
-         \nTo learn more about HOD of IT of SSMIET, please visit this website https://ssmiet.ac.in/pdf/cse/prabhu.pdf"
+            ![Prabhu](https://i.ibb.co/zVspTzcQ/prabhu.jpg)
+            🔹 Name:  Dr. G. Prabu 
+            🔹 Position: Head of the Department (HOD), IT, SSMIET
+            🔹 Years of Experience: 22+ years in teaching 
+            🔹 Qualification: 🎓 Ph.D, M.E, B.E
+               To learn more about HOD of IT of SSMIET, please visit this website https://ssmiet.ac.in/pdf/cse/prabhu.pdf"
 
   utter_it_faculty_details:
     - text: |
-        Here are the faculty members of the IT department:
-        1. Dr. G. Prabu - M.E., Ph.D. (Professor and Head)
-        2. Mrs. D. Devishree - M.E., Ph.D. (Assistant Professor)
-        3. Mrs. B. Ponvizhy swathy - M.E. (Assistant Professor)
-        4. Mrs. G. Durga devi - M.E., Ph.D. (Assistant Professor)
+            Here are the faculty members of the IT department:
+
+              ![Prabhu](https://i.ibb.co/zVspTzcQ/prabhu.jpg)
+            - **Dr. G. Prabu** - M.E., Ph.D. (Professor and Head)
+              ![Devishree](https://i.ibb.co/GfKwbdnv/devishree.jpg)
+            - **Mrs. D. Devishree** - M.E., Ph.D. (Assistant Professor)
+              ![Swathy](https://i.ibb.co/Xr2dNTCs/swathy.jpg)
+            - **Mrs. B. Ponvizhy swathy** - M.E. (Assistant Professor)
+              ![Durga](https://i.ibb.co/20QxhTrg/durga.jpg)
+            - **Mrs. G. Durga devi** - M.E., Ph.D. (Assistant Professor)
 
   utter_peo_it_department:
     - text: |
@@ -1681,36 +1759,46 @@ responses:
 
   utter_it_event_conducted_photos:
     - text: |
-        "Event photos"
+            ![IT Event Photo 1](https://i.ibb.co/r2NwqB9c/it1.jpg)
+            ![IT Event Photo 2](https://i.ibb.co/ZzXWzX49/it2.jpg)
 
   utter_it_faculty_experience_knowledge:
     - text: |
-        "The IT faculty at SSMIET has an average teaching experience of around 11 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        "The IT faculty at SSMIET has an highly experienced educators and On average,faculty members have around 11 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
   utter_eee_hod_details:
     - text: |
-       🔹 Name: Dr. R.M. Sekar  
-       🔹 Position: Head of the Department (HOD), EEE, SSMIET  
-       🔹 Years of Experience: 22+ years in teaching & research  
-       🔹 Qualification: 🎓 Ph.D. (Electrical Engineering), M.Tech. (Power Electronics and Drives), B.E. (Electrical and Electronics Engineering)  
-       🔹 More Details: https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
+            ![Sekar](https://i.ibb.co/wFD9fcD6/sekar.jpg)
+            🔹 Name: Dr. R.M. Sekar  
+            🔹 Position: Head of the Department (HOD), EEE, SSMIET  
+            🔹 Years of Experience: 22+ years in teaching & research  
+            🔹 Qualification: 🎓 Ph.D. (Electrical Engineering), M.Tech. (Power Electronics and Drives), B.E. (Electrical and Electronics Engineering)  
+            🔹 More Details: https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
 
   utter_eee_faculty_details:
     - text: |
-        Here are the faculty members of the EEE department:
-        1. Dr. R.M. Sekar - B.E., M.Tech., Ph.D. (Professor and Head)
-        2. Mr. D. Manoj - B.E., M.Tech., Ph.D. (Associate Professor)
-        3. Mr. G. Satheesh Kumar - B.E., M.E., Ph.D. (Assistant Professor)
-        4. Mr. M. Kalidasan - B.E., M.E., Ph.D. (Assistant Professor)
-        5. Mr. P. Siva Subramanian - B.E., M.E., Ph.D. (Associate Professor)
-        6. Mrs. R. Ramya - B.E., M.E. (Assistant Professor)
-        7. Mrs. K. Uma Maheswari - B.E., M.E. (Assistant Professor)
-        8. Mr. N. Manikandan - B.E., M.E., Ph.D. (Assistant Professor)
-        9. Ms. S. Geethanjali - B.E., M.E. (Assistant Professor)
-        10. Dr. V. Sivakumar - B.E., M.E., Ph.D. (Associate Professor and Head)
-        11. Dr. T. Arulkumar - B.E., M.E., Ph.D. (Assistant Professor)
-        12. Mrs. P. Mohana Karthiga - B.E., M.E. (Assistant Professor)
-      
+            Here are the faculty members of the EEE department:
+              ![Sekar](https://i.ibb.co/wFD9fcD6/sekar.jpg)
+            - **Dr. R.M. Sekar** - B.E., M.Tech., Ph.D. (Professor and Head)
+              ![Manoj](https://i.ibb.co/Q3dmvz7b/monoj.jpg)
+            - **Mr. D. Manoj** - B.E., M.Tech., Ph.D. (Associate Professor)
+              ![Satheesh Kumar](https://i.ibb.co/Fkm2gdwF/ecefac28.jpg)
+            - **Mr. G. Satheesh Kumar** - B.E., M.E., Ph.D. (Assistant Professor)
+              ![Kalidasan](https://i.ibb.co/SDnP2zrX/ecefac29.jpg)
+            - **Mr. M. Kalidasan** - B.E., M.E., Ph.D. (Assistant Professor)
+              ![Siva subramanian](https://i.ibb.co/DDDrDXpr/subramani.jpg)
+            - **Mr. P. Siva Subramanian** - B.E., M.E., Ph.D. (Associate Professor)
+              ![Ramya](https://i.ibb.co/yF9HTFqw/ramya.jpg)
+            - **Mrs. R. Ramya** - B.E., M.E. (Assistant Professor)
+              ![Uma](https://i.ibb.co/214sGst1/uma.jpg)
+            - **Mrs. K. Uma Maheswari** - B.E., M.E. (Assistant Professor)
+              ![Manikandan](https://i.ibb.co/PsyHFXWS/mnikandan.jpg)
+            - **Mr. N. Manikandan** - B.E., M.E., Ph.D. (Assistant Professor)
+              ![Geethanjali](https://i.ibb.co/v4H8k69k/geethanjali.jpg)
+            - **Ms. S. Geethanjali** - B.E., M.E. (Assistant Professor)
+              ![Aishwarya](https://i.ibb.co/jkqRddTF/aishwarya.jpg)
+            - **Ms.M.Aishwarya** - B.E., M.E. (Assistant Professor) 
+ 
   utter_peo_eee_department:
     - text: |
         Program Educational Objectives (PEOs) in the Electrical and Electronics Engineering (EEE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
@@ -1917,7 +2005,7 @@ responses:
 
   utter_eee_faculty_experience_knowledge:
     - text: |
-        "The CSE faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        "The CSE faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
                     
   utter_eee_accreditation:
     - text: |
@@ -1931,25 +2019,37 @@ responses:
 
   utter_mech_hod_details:
     - text: |
-        🔹 Name:  Dr.G. Sankaranarayanan  
-        🔹 Position: Head of the Department (HOD), Mech, SSMIET
-        🔹 Years of Experience: 15+ years in teaching
-        🔹 Qualification: 🎓 Ph.D, M.E, B.E
-         \nTo learn more about HOD of Mech of SSMIET, please visit this website https://ssmiet.ac.in/MECH/2024/2.%20Dr.G.%20SANKARANARAYANAN.pdf"
+            ![Sankaranarayanan](https://i.ibb.co/zhFTwMNk/sankaranarayanan.jpg)
+            🔹 Name:  Dr.G. Sankaranarayanan  
+            🔹 Position: Head of the Department (HOD), Mech, SSMIET
+            🔹 Years of Experience: 15+ years in teaching
+            🔹 Qualification: 🎓 Ph.D, M.E, B.E
+             To learn more about HOD of Mech of SSMIET, please visit this website https://ssmiet.ac.in/MECH/2024/2.%20Dr.G.%20SANKARANARAYANAN.pdf"
 
   utter_mech_faculty_details:
     - text: |
-        Here are the faculty members of the Mech department:
-        1. Dr.G. Sankaranarayanan - M.E., Ph.D. (Professor and Head)
-        2. Dr. S. Joseph dominic vijayakumar - M.E., Ph.D. (Professor)
-        3. Dr. M. Sabareeswaran - M.E., Ph.D. (Assistant Professor)
-        4. Mr. C. Silambarasan - M.E., Ph.D. (Associate Professor)
-        5. Mr. M. Prabhakaran - M.E., Ph.D. (Assistant Professor)
-        6. Mr. P. Deenathayalan - M.E., Ph.D. (Assistant Professor)
-        7. Mr. U. Karthick - M.E., Ph.D. (Assistant Professor)
-        8. Mr. M. Selwin - M.E., Ph.D. (Assistant Professor)
-        9. Mr. P. Shankar kannan - M.E., Ph.D. (Assistant Professor)
-        10. Mr. R. Sanjeevi - M.E., Ph.D. (Assistant Professor)
+            Here are the faculty members of the Mech department:
+              
+              ![Sankaranarayanan](https://i.ibb.co/zhFTwMNk/sankaranarayanan.jpg)
+            - **Dr.G. Sankaranarayanan** - M.E., Ph.D. (Professor and Head)
+              ![Joseph](https://i.ibb.co/WWBR4xkz/dominic.jpg)
+            - **Dr. S. Joseph dominic vijayakumar** - M.E., Ph.D. (Professor)
+              ![Sabareeswaran](https://i.ibb.co/RG7t9ptw/sabaree.jpg)
+            - **Dr. M. Sabareeswaran** - M.E., Ph.D. (Assistant Professor)
+              ![Silambarasan](https://i.ibb.co/nNQJ9rkg/silambarasan.jpg)
+            - **Mr. C. Silambarasan** - M.E., Ph.D. (Associate Professor)
+              ![Prabhakaran](https://i.ibb.co/bgw0Pwm8/prabha.jpg)
+            - **Mr. M. Prabhakaran** - M.E., Ph.D. (Assistant Professor)
+              ![Deenathayalan](https://i.ibb.co/HTMKgc6j/dheenadhyalan.jpg)
+            - **Mr. P. Deenathayalan** - M.E., Ph.D. (Assistant Professor)
+              ![Karthick](https://i.ibb.co/xqD1hknF/karthik.jpg)
+            - **Mr. U. Karthick** - M.E., Ph.D. (Assistant Professor)
+              ![Selwin](https://i.ibb.co/qLpYkHRG/selvin.jpg)
+            - **Mr. M. Selwin** - M.E., Ph.D. (Assistant Professor)
+              ![Shankar](https://i.ibb.co/8LpZQ7xZ/shankar.jpg)
+            - **Mr. P. Shankar kannan** - M.E., Ph.D. (Assistant Professor)
+              ![Sanjeevi](https://i.ibb.co/3Lp4Vjr/sanjeev.jpg)
+            - **Mr. R. Sanjeevi** - M.E., Ph.D. (Assistant Professor)
         
   utter_peo_mech_department:
     - text: |
@@ -2151,30 +2251,34 @@ responses:
 
   utter_mech_faculty_experience_knowledge:
     - text: |
-        The Mechanical Engineering faculty at SSMIET has an average teaching experience of around 12 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided.
+        The Mechanical Engineering faculty at SSMIET has an highly experienced educators and On average,faculty members have around 12 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided.
 
   utter_csbs_hod_details:
      - text: |
-        **Head of the CSBS Department: Dr. M. Jeyalakshmi**
+              ![Jeyalakshmi](https://i.ibb.co/cXgfhVhg/jeyalakshmi.jpg)
+              - Name: **Dr. M. Jeyalakshmi**
+              - Position: Head of the Department (HOD),CSBS,SSMIET
+              - Qualification: Ph.D. in Nanotechnology
+              - Years of Experience: Over 10 years at SSM Institute of Engineering and Technology, with prior experience at other institutions
+                To Learn More about Head of the CSBS , Check out this link https://ssmiet.ac.in/pdf/ece/4.Dr.M.Jeyalakshmi,%20Associate%20Prof.pdf
 
-        - **Qualification**: Ph.D. in Nanotechnology
-        - **Areas of Interest**: Nanotechnology, VLSI Design, Artificial Intelligence
-        - **Years of Experience**: Over 10 years at SSM Institute of Engineering and Technology, with prior experience at other institutions
-        - **Contact Information**:
-          - Email: jeyaecessm@gmail.com
-          - Phone: +91 97916 76097, +91 80989 90817
   utter_csbs_faculty_details:
     - text: |
-        Here is the faculty information for the CSBS department:
-        - **Dr. M. Jeyalakshmi**: Professor and Head
-        - **Mrs. B. Mohana Nagalakshmi**: Assistant Professor, M.E
-        - **Mrs. S. Suguna**: Assistant Professor, M.E
-        - **Mr. M. Gowtham Prabu**: Assistant Professor, M.E
+            Here is the faculty information for the CSBS department:
+
+              ![Jeyalakshmi](https://i.ibb.co/cXgfhVhg/jeyalakshmi.jpg)
+            - **Dr. M. Jeyalakshmi**: Professor and Head
+              ![Mohana](https://i.ibb.co/zhDnZjrt/mohana.jpg)
+            - **Mrs. B. Mohana Nagalakshmi**: Assistant Professor, M.E
+              ![Suguna](https://i.ibb.co/d4CvqcV0/suguna.jpg)
+            - **Mrs. S. Suguna**: Assistant Professor, M.E
+              ![Gowtham](https://i.ibb.co/tT6rGvrD/gowtham.jpg)
+            - **Mr. M. Gowtham Prabu**: Assistant Professor, M.E
   utter_peo_csbs_department:
     - text: |
-        - PEO1	To ensure graduates will be proficient in utilizing the fundamental knowledge of basic sciences, mathematics, Computer Science and Business systems for the applications relevant to various streams of Engineering and Technology.
-        - PEO2	To enrich graduates with the core competencies necessary for applying knowledge of computer science and Data analytics tools to store, retrieve, implement and analyse data in the context of business enterprise in order to empower entrepreneurial skills
-        - PEO3	To enable graduates through comprehensive technology training to gain employment in organizations and establish themselves as professionals by applying their technical skills and leadership qualities to solve societal problems and meet the diversified needs of industry, academia and research.
+            - **PEO1** - To ensure graduates will be proficient in utilizing the fundamental knowledge of basic sciences, mathematics, Computer Science and Business systems for the applications relevant to various streams of Engineering and Technology.
+            - **PEO2** - To enrich graduates with the core competencies necessary for applying knowledge of computer science and Data analytics tools to store, retrieve, implement and analyse data in the context of business enterprise in order to empower entrepreneurial skills
+            - **PEO3** - To enable graduates through comprehensive technology training to gain employment in organizations and establish themselves as professionals by applying their technical skills and leadership qualities to solve societal problems and meet the diversified needs of industry, academia and research.
     
   utter_po_csbs_department:
     - text: |
@@ -2288,13 +2392,16 @@ responses:
   utter_csbs_faculty_experience_knowledge:
     - text: "Our faculty members in CSBS department have experience of 7.25 years"
 
-
   utter_communication_system_faculty_details:
     - text: |
-        Here are the faculty members of the Communication System department:  
-        1. Dr. K. Rajesh - M.E., Ph.D. (Associate Professor)
-        2. Mr. R. senthil kumar - M.E., Ph.D. (Assistant Professor)
-        3. Mr. J. Vetri mani kumar - M.E., Ph.D. (Assistant Professor)
+            Here are the faculty members of the Communication System department:
+              
+              ![Rajesh](https://i.ibb.co/7JBzL712/rajesh.jpg)
+            - **Dr. K. Rajesh** - M.E., Ph.D. (Associate Professor)
+              ![Senthil Kumar](https://i.ibb.co/n8Ykw2c4/senthil.jpg)
+            - **Mr. R. senthil kumar** - M.E., Ph.D. (Assistant Professor)
+              ![Vetri mani kumar](https://i.ibb.co/KxMVz1pY/vetri.jpg)
+            - **Mr. J. Vetri mani kumar** - M.E., Ph.D. (Assistant Professor)
   
   utter_communication_system_department_info_about:
     - text: |
@@ -2314,7 +2421,7 @@ responses:
 
   utter_communication_system_faculty_experience_knowledge:
     - text: |
-        "The Communication System faculty at SSMIET has an average of 16 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
+        "The Communication System faculty at SSMIET has an highly experienced educatorsand On average,faculty members have around 16 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
 
   utter_communication_system_yearwise_student_count:
     - text: |
@@ -2334,9 +2441,12 @@ responses:
 
   utter_thermal_faculty_details:
     - text: |
-        Here are the faculty members of the Thermal Engineering department.
-        1. Dr. M. Muthukannan - M.E., Ph.D. (Assistant Professor)
-        2. Mr. D. Thamarai selvan - M.E., (Assistant Professor)
+            Here are the faculty members of the Thermal Engineering department.
+
+              ![Muthukannan](https://i.ibb.co/LdttP0rN/muthukannan.jpg)
+            - **Dr. M. Muthukannan** - M.E., Ph.D. (Assistant Professor)
+              ![Thamarai selvan](https://i.ibb.co/Q7xnjHHW/thamaraiselvan.jpg)
+            - **Mr. D. Thamarai selvan** - M.E., (Assistant Professor)
   
   utter_thermal_department_info_about:
     - text: |
@@ -2360,7 +2470,7 @@ responses:
   
   utter_thermal_faculty_experience_knowledge:
     - text: |
-        "The Thermal Engineering faculty at SSMIET has an average of 10 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
+        "The Thermal Engineering faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years of teaching experience, with many holding Ph.D. and postgraduate degrees. They stay updated through training, certifications, and conferences, ensuring academic excellence."
 
   utter_thermal_engineering_total_students:
     - text: |
@@ -2390,30 +2500,43 @@ responses:
     - text: |
         Here are some images of the college auditorium:
 
-        ![Auditorium 1](https://example.com/auditorium1.jpg)
-        ![Auditorium 2](https://example.com/auditorium2.jpg)
+        ![Auditorium 1](https://i.ibb.co/fYzDFtZJ/aud-7.jpg)
+        ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
+        ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
 
   utter_campus_canteen_photos:
     - text: |
         Here are some images of the college canteen:
 
-        ![Canteen 1](https://example.com/canteen1.jpg)
-        ![Canteen 2](https://example.com/canteen2.jpg)
+        ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
+      # ![Canteen 2](https://example.com/canteen2.jpg)
 
   utter_campus_library_photos:
     - text: |
-        "Campus library photos"
+          Here are some images of the library:
+
+          ![Library 1](https://i.ibb.co/KxFwkXcP/lib1.jpg)
+          ![Library 2](https://i.ibb.co/hx3HgFjm/aud-6.jpg)
 
   utter_aids_hod_details:
-    - text: "Add hod details"
+    - text: |
+            ![Premkumar](https://i.ibb.co/rR55d30G/prem.jpg)
+            - Dr. M. Premkumar
+            - Position: Head of the Department (HOD), AIDS, SSMIET
+            - Years of Experience: 12+ years in teaching
+            - Qualification: Ph.D, M.E, B.E
+              To learn more about the head of the AIDS Department,please visit this https://ssmiet.ac.in/ECE/faculty%20details/Dr.M.Premkumar,Professor.pdf 
+
   utter_aids_faculty_details:
     - text: |
          Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
 
-          1. Mrs. M. Backialakshmi - M.E. (Assistant Professor)
-          2. Mrs. M. Suganya - M.E. (Assistant Professor)
-          3. Mrs. S. Sangeetha Mary - M.E. (Assistant Professor)
-          4. Mrs. M. Dhivya - M.E. (Assistant Professor)
+             ![Backialakshmi](https://i.ibb.co/8DK3mHfR/bhakiya.jpg)
+           - **Mrs. M. Backialakshmi** - M.E. (Assistant Professor)
+             ![Suganya](https://i.ibb.co/TxPzvXTD/suganya.jpg)
+           - **Mrs. M. Suganya** - M.E. (Assistant Professor)
+             ![Sangeetha](https://i.ibb.co/j9ZcywQG/sangeetha-mary.jpg)
+           - **Mrs. S. Sangeetha Mary** - M.E. (Assistant Professor)
 
   utter_peo_aids_department: 
     - text: |
@@ -2454,6 +2577,7 @@ responses:
          **PO11** - Project Management and Finance: Demonstrate knowledge of project management, finance, and entrepreneurship to lead AI-driven innovations successfully.
 
          **PO12** - Lifelong Learning: Engage in continuous learning and research to stay updated with advancements in AI and Data Science for personal and professional growth.
+
   utter_pso_aids_department:
     - text: |
         **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
@@ -2553,7 +2677,13 @@ responses:
        refer ssmiet website 
 
   utter_aids_event_conducted_photos:
-    - text: "Aids Event conducted photos"
+    - text: |
+            ![AIDS Event photo 1](https://i.ibb.co/rG86t8Lv/cseevents.jpg)
+            ![AIDS Event photo 2](https://i.ibb.co/tpWSx0d2/cseevents2.jpg)
+            ![AIDS Event photo 3](https://i.ibb.co/d4YPqTPS/cseevents3.jpg)
+            ![AIDS Event photo 4](https://i.ibb.co/RG4jFd2G/cseevents4.jpg)
+            ![AIDS Event photo 5](https://i.ibb.co/W4R0SwJc/aids4.jpg)
+            ![AIDS Event photo 6](https://i.ibb.co/zV7QknB8/aids3.jpg)
 
   utter_aids_faculty_experience_knowledge:
     - text: "Add faculty experience aids"
@@ -2562,14 +2692,21 @@ responses:
     - text: "Add placement aids"
   utter_cybersecurity_hod_details:
     - text: |
-       refer ssmiet website 
+            ![Rajesh](https://i.ibb.co/7JBzL712/rajesh.jpg) 
+            - Dr.K.RAJESH
+            - Position: Head of the Department (HOD), CYBERSECURITY, SSMIET
+            - Years of Experience: 15+ years in teaching experience
+            - Qualification: Ph.D, M.E, B.E"
+              To learn more about the head of the AIDS Department,please visit this  https://ssmiet.ac.in/pdf/ece/3.Dr.K.RAJESH%20,Associate%20Prof.pdf 
 
   utter_cybersecurity_faculty_details:
     - text: |
-        Here are the faculty members of the Artificial Intelligence and Data Science (AI&DS) department:
+             Here are the faculty members of the Cyber Security Department department:
 
-          1. Mrs. P. Jeyapriya - M.E. (Assistant Professor)
-          2. Mrs. C. Premalatha - M.E. (Assistant Professor) 
+               ![Jeyapriya](https://ssmiet.ac.in/CSE/2024/jeyapriya.jpeg)
+             - **Mrs. P. Jeyapriya** - M.E. (Assistant Professor)
+               ![Premalatha](https://ssmiet.ac.in/cse/2024/premalatha.jpg)
+             - **Mrs. C. Premalatha** - M.E. (Assistant Professor) 
   
   utter_peo_cybersecurity_department:
     - text: |
@@ -2623,37 +2760,40 @@ responses:
 
   utter_cybersecurity_department_info_about:
     - text: |
-       The Department of Computer Science and Engineering (Cyber Security) was established in 2023 with an intake of 60 students. The B.E. CSE (Cyber Security) program addresses the growing demand for cybersecurity professionals across various sectors, including data security, network security, and cloud security. It combines core computer science subjects with specialized cybersecurity courses, covering cryptography, network security, secure programming, and ethical hacking. The four-year program provides a strong foundation in fundamental sciences, mathematics, and cybersecurity, equipping students with the skills to analyze threats, respond to cyber-attacks, and develop security policies.      
+            The Department of Computer Science and Engineering (Cyber Security) was established in 2023 with an intake of 60 students. The B.E. CSE (Cyber Security) program addresses the growing demand for cybersecurity professionals across various sectors, including data security, network security, and cloud security. It combines core computer science subjects with specialized cybersecurity courses, covering cryptography, network security, secure programming, and ethical hacking. The four-year program provides a strong foundation in fundamental sciences, mathematics, and cybersecurity, equipping students with the skills to analyze threats, respond to cyber-attacks, and develop security policies.      
 
   utter_cybersecurity_department_vision:
     - text: |
-       To develop skilled cyber security professionals equipped to secure digital landscapes, address emerging cyber challenges, and contribute to society with strong technical expertise, entrepreneurial skills, and ethical values.
+            To develop skilled cyber security professionals equipped to secure digital landscapes, address emerging cyber challenges, and contribute to society with strong technical expertise, entrepreneurial skills, and ethical values.
 
   utter_cybersecurity_department_mission:
     - text: |
-        Foster self-discipline and critical thinking in students through robust teaching and learning.
+            Foster self-discipline and critical thinking in students through robust teaching and learning.
 
-        Empower students to become proficient cyber security professionals and responsible citizens.
+            Empower students to become proficient cyber security professionals and responsible citizens.
 
-        Strengthen industry partnerships by establishing specialized centres for advanced skill development and practical exposure.
+            Strengthen industry partnerships by establishing specialized centres for advanced skill development and practical exposure.
 
-        Deliver knowledge for secure and innovative solutions, contributing to sustainable and ethical technology advancement.
+            Deliver knowledge for secure and innovative solutions, contributing to sustainable and ethical technology advancement.
 
   utter_cybersecurity_total_students:
     - text: |
-       The total student count in the CyberSecurity department varies each academic year.
+            The total student count in the CyberSecurity department varies each academic year.
 
   utter_cybersecurity_female_girls_students:
     - text: |
-       The number of female students in the CyberSecurity department varies.
+            The number of female students in the CyberSecurity department varies.
   
   utter_cybersecurity_male_boys_students:
     - text: |
-        The number of male students in the CyberSecurity department varies.
+            The number of male students in the CyberSecurity department varies.
 
   utter_cybersecurity_department_activities:
     - text: |
-       "You can find details about the Department activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20department%20activity.html"
+            ![CyberSecurity dept photo 1](https://i.ibb.co/jk4xjT91/cysec4.jpg)
+            ![CyberSecurity dept photo 2](https://i.ibb.co/4n3LmTTj/cysec5.jpg)
+            ![CyberSecurity dept photo 3](https://i.ibb.co/9mf90MfD/cysec6.jpg)
+            You can find details about the Department activities available in the AIDS department at the following link:  https://ssmiet.ac.in/cyber%20department%20activity.html
    
   utter_cybersecurity_student_activities:
     - text: |
@@ -2665,25 +2805,29 @@ responses:
 
   utter_extra_courses_cybersecurity:
     - text: |
-       Here are the value-added courses offered by the CyberSecurity department:
-          1. CORE JAVA
+            Here are the value-added courses offered by the CyberSecurity department:
+                1. CORE JAVA
 
   utter_cybersecurity_event_conducted_photos:
-    - text: "Cyber Security photos"
+    - text: |
+            ![CyberSecurity photo 1](https://i.ibb.co/LzGr0NG6/cysec1.jpg)
+            ![CyberSecurity photo 2](https://i.ibb.co/yn7KcjDZ/csec2.jpg)
+            ![CyberSecurity photo 3](https://i.ibb.co/8DkyWy9k/cysec3.jpg)
 
   utter_cybersecurity_faculty_experience_knowledge:
     - text: "Cybersecurity faculty"
 
   utter_aiml_hod_details:
     - text: |
-        🔹 Name: Dr. K. Vinoth.
-        🔹 Position: Head of the Department (HOD), AIML, SSMIET.
-        🔹 Qualification: 🎓 Ph.D, M.E, B.E.
+            ![Vinoth](https://i.ibb.co/C3qDFZNQ/vinothe.jpg)
+            🔹 Name: Dr. K. Vinoth Kumar
+            🔹 Position: Head of the Department (HOD), AIML, SSMIET.
+            🔹 Qualification: 🎓PDF, Ph.D, M.E, B.E.
 
   utter_aiml_faculty_details:
     - text: |
-        Here are the faculty members of the AIML department:
-        1. Dr. K. Vinoth Kumar - M.E., Ph.D. (Professor and Head).
+            Here are the faculty members of the AIML department:
+            - **Dr. K. Vinoth Kumar** - M.E., Ph.D. (Professor and Head).
 
   utter_aiml_department_info_about:
     - text: |
@@ -2702,58 +2846,40 @@ responses:
 
   utter_aiml_faculty_experience_knowledge:
     - text: |
-        "The AIML faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+        "The AIML faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
         
   utter_civil_hod_details:
       - text: |
-          **👤 Head of the Civil Engineering Department: Dr. G. Selvabharathi**
+              ![Selvabharathi](https://i.ibb.co/Z1RKyFhF/selvabharathi.jpg)
+              - **Dr. G. Selvabharathi**
+              - Position: Head of the Civil Engineering Department
+              - Qualification: 🎓 Ph.D., M.E.,B.Tech.
+              - Years of Experience: Over 17+ years of experience in various institutions and industries
+              - To Learn more about the head of the civil department , check out this link https://ssmiet.ac.in/images/civil/1.-Dr.-G.-Selvabharathi.pdf
 
-          🔹 **Qualification**:
-            - 🎓 Ph.D. in Environmental Engineering from Anna University
-            - 🎓 M.E. in Environmental Engineering from College of Engineering, Guindy Campus, Chennai
-            - 🎓 B.Tech. in Chemical Engineering from Adhiyamaan College of Engineering, Hosur
-          📅 **Years of Experience**: Over 17+ years of experience in various institutions and industries
-          📞 **Contact Information**: 9962441301 & 8248623656
-  
   utter_civil_faculty_details:
       - text: |
-          **👨‍🏫 Faculty Details of the Civil Engineering Department:**
-          
-          🔹 **Dr. G. Selvabharathi**
-            - 🎓 B.Tech., M.E., Ph.D
-            - 🏷️ Professor & Head
-          
-          🔹 **Mrs. C. Merlin Rani**
-            - 🎓 B.E., M.E., (Ph.D)
-            - 🏷️ Assistant Professor
-          
-          🔹 **Mr. V. Praveen Jesuraj**
-            - 🎓 B.E., M.E.
-            - 🏷️ Assistant Professor
-          
-          🔹 **Mr. P.M. Sharan Karthick**
-            - 🎓 B.E., M.E., (Ph.D)
-            - 🏷️ Assistant Professor
-          
-          🔹 **Dr. M.P. Karthik**
-            - 🎓 M.E., Ph.D
-            - 🏷️ Associate Professor
-          
-          🔹 **Ms. J. Roy Celestina**
-            - 🎓 M.E.
-            - 🏷️ Assistant Professor
-          
-          🔹 **Mr. S. Kannan**
-            - 🎓 M.E., (Ph.D)
-            - 🏷️ Assistant Professor
-          
-          🔹 **Ms. M. Muthulakshmi**
-            - 🎓 M.E., (Ph.D)
-            - 🏷️ Assistant Professor
-          
-          🔹 **Ms. P. Rakshana**
-            - 🎓 B.E., M.E., (Ph.D)
-            - 🏷️ Assistant Professor
+              **Faculty Details of the Civil Engineering Department:**
+            
+                ![Selvabharathi](https://i.ibb.co/Z1RKyFhF/selvabharathi.jpg)
+              - **Dr. G. Selvabharathi** - B.Tech., M.E., Ph.D , (Professor & Head)
+                ![Merlin](https://i.ibb.co/7NXFp0VN/merlin.jpg)
+              - **Mrs. C. Merlin Rani** - B.E., M.E., Ph.D (Assistant Professor)
+                ![Praveen](https://i.ibb.co/Y7bSCSjf/praveen.jpg)
+              - **Mr. V. Praveen Jesuraj** - B.E., M.E. (Assistant Professor)
+                ![Sharan](https://i.ibb.co/MkPZH1QC/sharan.jpg)
+              - **Mr. P.M. Sharan Karthick** -  B.E., M.E.,Ph.D (Assistant Professor)
+                ![Karthick](https://i.ibb.co/fYmpgRgc/karthik.jpg)
+              - **Dr. M.P. Karthik** - M.E., Ph.D (Associate Professor)
+                ![Roy](https://i.ibb.co/Ps1BYzVj/roy.jpg)
+              - **Ms. J. Roy Celestina** - M.E. (Assistant Professor)
+                ![Kannan](https://i.ibb.co/vCN6n77r/kanan.jpg)
+              - **Mr. S. Kannan** - M.E., Ph.D (Assistant Professor)
+                ![Muthulakshmi](https://i.ibb.co/DfTZns3z/muthulakshmi.jpg)
+              - **Ms. M. Muthulakshmi** - M.E., Ph.D (Assistant Professor) 
+                ![Rakshana](https://i.ibb.co/2mbyDcb/rakshana.jpg)
+              - **Ms. P. Rakshana** - B.E., M.E., Ph.D (Assistant Professor)
+
   utter_peo_civil_department:
       - text: |    
             1️⃣ **Technical Competence**: Graduates will have a strong foundation in Civil Engineering and apply their knowledge effectively in solving real-world problems.
@@ -2876,13 +3002,20 @@ responses:
         You can find detailed information about ongoing projects, publications, and research initiatives at:
         [Click here] https://ssmiet.ac.in/civil%20research.html
   utter_civil_total_students:
-    - text: "The total number of students in the Civil department is  40."
-  
+    - text:  |
+            Here is the count of students for the current year civil  
+            - Current Batch -> 2024 - 2025
+            - IV Year: Girls - 4, Boys - 11, Total - 15
+            - II Year: Girls - 8, Boys - 14, Total - 22
+            - I Year: Girls - 6, Boys - 10, Total - 16
+            - Total Girls - 18, Total Boys - 35, Total Students - 53
+
   utter_civil_female_girls_students:
-    - text: "The number of female students in the Civil department is 22"
+    - text: "The number of female students in the Civil department is 18"
  
   utter_civil_male_boys_students:
-    - text: "The number of male students in the Civil department is 18"
+    - text: "The number of male students in the Civil department is 35"
+
   utter_extra_courses_civil:
     - text: |
         The Civil Engineering department offers the following value-added courses:
@@ -2929,25 +3062,46 @@ responses:
         📧 E-mail: hodcivilssmiet@gmail.com
   utter_civil_faculty_experience_knowledge:
     - text: |
-        The CIVIL department faculty members have an average overall experience of **8.125 years**.
-        Here are some images of the library:
+        The CIVIL department faculty members have an highly experienced educators and On average,faculty members have around 8.125 years experience.
 
-        ![Library 1](https://example.com/library1.jpg)
-        ![Library 2](https://example.com/library2.jpg)
+  utter_civil_yearwise_student_count:
+    - text: "Here is the students count details for the Civil Department:
+             
+             - **Batch -> 2024 - 2025**
+                  IV Year: Girls - 4, Boys - 11, Total - 15
+                  II Year: Girls - 8, Boys - 14, Total - 22
+                  I Year: Girls - 6, Boys - 10, Total - 16
+                  Total Girls - 18, Total Boys - 35, Total Students - 53
+                  
+             - **Batch -> 2023 - 2024**
+                  IV Year: Girls - 3, Boys - 19, Total - 22
+                  III Year: Girls - 4, Boys - 11, Total - 15
+                  I Year: Girls - 9, Boys - 14, Total - 23
+                  Total Girls - 16, Total Boys - 44, Total Students - 60
+             
+             - **Batch -> 2022 - 2023**
+                  IV Year: Girls - 0, Boys - 15, Total - 15
+                  III Year: Girls - 2, Boys - 19, Total - 21
+                  II Year: Girls - 4, Boys - 11, Total - 15
+                  Total Girls - 6, Total Boys - 45, Total Students - 51"
 
   utter_campus_hostel_photos:
     - text: |
         Here are some images of the hostel:
 
-        ![Hostel 1](https://example.com/hostel1.jpg)
-        ![Hostel 2](https://example.com/hostel2.jpg)
+        ![Hostel 1](https://i.ibb.co/hJ4m2RrK/hostel1.jpg)
+        ![Hostel 2](https://i.ibb.co/n8VMbX3t/hostel2.jpg)
+        ![Hostel 3](https://i.ibb.co/pjRwnGWM/hostel3.jpg)
+        ![Hostel 4](https://i.ibb.co/v6vCmHsr/hostel4.jpg)
+        ![Hostel 5](https://i.ibb.co/1GP8N5fg/hostel5.jpg)
+        ![Hostel 6](https://i.ibb.co/JWPdLn9T/hostel6.jpg)
 
   utter_campus_playground_photos:
     - text: |
         Here are some images of the playground:
 
-        ![Playground 1](https://example.com/playground1.jpg)
-        ![Playground 2](https://example.com/playground2.jpg)
+        ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
+        ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
 
   utter_goodbye:
     - text: "Good Bye!..."

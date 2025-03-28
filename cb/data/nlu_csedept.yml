@@ -13,27 +13,34 @@ nlu:
         - Who manages the CSE department?
         - Who is the director of the CSE department?
         - What is name of the CSE HOD?
+        - cse hod
+        - cse head of the department
   
   - intent: cse_faculty_details
     examples: |
       - Who are the faculty members of the CSE department?
       - Can you list the CSE department faculty?
       - Tell me about the educators in the CSE department.
-      - Provide details on CSE department professors.
+      - Provide details on Computer Science Engineering department professors.
       - Give me a list of CSE department staff.
       - I am not familiar with the faculty in CSE. Can you help?
       - Who teaches in the CSE department?
-      - I am uneducated about the staff in CSE. Can you list them?
+      - I am uneducated about the staff in Computer Science. Can you list them?
       - Tell me who the CSE professors are.
       - I don't know the educators in CSE. Can you inform me
       - Can you give me some information about the CSE faculty?
-      - I know some professors, but can you list all?
-      - Who are the key faculty members in CSE?
+      - I know some professors in CSE, but can you list all?
+      - Who are the key faculty members in Computer Science Engineering[CSE]?
       - Give me more details about the educators in CSE.
-      - list out the CSE teaching madam
+      - list out the CSE teaching staffs.
       - list out phd holders in cse
       - Who all are Associate professors in CSE?
-      - list the Assistant professors in cse.
+      - list the Assistant professors in cse(computer science engineering).
+      - faculty details in cse
+      - staffs details in cse
+      - professor details in cse
+      - staffs or faculties or professors in CSE departments
+      - faculty in computer science engineering
 
   - intent: peo_cse_department
     examples: |
@@ -47,6 +54,10 @@ nlu:
       - Why are Program Educational Objectives (PEOs) important for Computer Science and Engineering students?
       - How do Program Educational Objectives (PEOs) help in shaping a CSE graduate’s career?
       - What are the key components of Program Educational Objectives (PEOs) in a CSE program?
+      - peo of cse
+      - program educational objectives of cse
+      - peo of computer science engineering
+      - program education objectives of computer science engineering
 
   - intent: po_cse_department
     examples: |
@@ -61,6 +72,9 @@ nlu:
       - Why are Program Outcomes (POs) important for Computer Science and Engineering students?
       - How do Program Outcomes (POs) help in shaping a CSE graduate’s career?
       - What are the key components of Program Outcomes (POs) in a CSE program?
+      - Program Outcomes of CSE department
+      - program outcomes in computer science engineering
+      - po of cse
   
   - intent: pso_cse_department
     examples: |
@@ -75,6 +89,10 @@ nlu:
       - Why are Program Specific Outcomes (PSOs) important for Computer Science and Engineering students?
       - How do Program Specific Outcomes (PSOs) help in shaping a CSE graduate’s career?
       - What are the key components of Program Specific Outcomes (PSOs) in a CSE program?
+      - Program Specific Outcomes of CSE 
+      - program specific outcomes in computer science engineering
+      - pso of cse
+      - pso of computer science engineering
   
   - intent: technical_faculty_cse
     examples: |
@@ -93,6 +111,9 @@ nlu:
       - Who are the supporting staff in the CSE department?
       - Give me a list of administrative and technical staff in CSE.
       - Are there lab instructors in the CSE department?
+      - non-teaching faculty or staffs in computer science department
+      - technical faculty or staffs or assistants in cse
+      - non-teaching faculty or staffs or assistants in cse
 
   - intent: placement_cse
     examples: |
@@ -126,6 +147,9 @@ nlu:
       - What are the learning outcomes of a CSE course?
       - What knowledge will I acquire after completing CSE?
       - What are the course outcomes of computer science and engineering?
+      - What are the course outcomes of CSE?
+      - what am i going to learn in this cse department
+      - what am i going to learn in this computer science department
 
   - intent: cse_department_info_about
     examples: |
@@ -291,7 +315,7 @@ nlu:
       - How does the CSE department newsletter help in knowledge sharing?
       - Where can I find previous editions of the CSE department newsletter?
 
-  - intent: mou_sign_company
+  - intent: cse_mou_sign_company
     examples: |
       - Which companies have signed an MOU with the institution in CSE?
       - Can you provide details on MOU-signed companies with Computer Science Engineering [CSE]?
@@ -313,7 +337,7 @@ nlu:
       - Can you provide details on MOU-signed companies in CSE?
       - Tell me about the industry collaborations with Computer Science Engineering [CSE].
 
-  - intent: intern_company
+  - intent: cse_intern_company
     examples: |
         - Which companies provide internships in CSE department?
         - What are the companies that offer internships in CSE?
@@ -349,7 +373,7 @@ nlu:
       - value added courses in CSE [computer science engineering].
       - extra courses in cse department 
                     
-  - intent: placement_company_names
+  - intent: cse_placement_company_names
     examples: |
         - Which companies come for placements in CSE?
         - What are the company names for CSE placements?
@@ -362,18 +386,25 @@ nlu:
         - What are the companies are coming and hiring for final year placements in CSE?
         - Is there any top companies for placement? 
 
-  - intent: cse_accreditation
+  - intent: cse_accrediation
     examples: |
-      - What are the accreditations and affiliations of the CSE department?
+      - What are the accrediations and affiliations of the CSE department?
       - Is the CSE department accredited by NAAC and AICTE?
       - Under which university/govt body is the CSE department affiliated?
       - Is the CSE department approved by the government?
       - Does the CSE department have AICTE and NAAC approval?
       - Is the CSE department accreditated by NAAC and NBA?
       - Is the CSE department recognized by the government?
-      - is this cSE dept approved by any of these recognized govt agencies like NAAC and NBA?
-   
-      
+      - is this CSE dept approved by any of these recognized govt agencies like NAAC and NBA?
+      - Which university is the CSE department connected with?
+      - Is the CSE department good?
+      - Is this college’s CSE department recognized by the government?
+      - Is the CSE course valid for jobs?
+      - Give me the names of companies for CSE placements.
+      - What is the accrediations of cse
+      - accrediations of CSE
+      - accrediations of Computer Science Engineering
+
   - intent: cse_yearwise_student_count
     examples: |
       - What is the year-wise student count for the CSE department since the college started?
@@ -424,7 +455,7 @@ nlu:
       - What is the average number of years faculty members have worked at SSMIET?
       - How many faculty members in the CSE department hold postgraduate degrees?
 
-  - intent: placement_company_names
+  - intent: cse_placement_company_names
     examples: |
       - Which companies come for placements in CSE?
       - What are the company names for CSE placements?

@@ -574,7 +574,7 @@ nlu:
       - Is there any trip for students
       - Is there any field trip is available for students
 
-  - intent: admission_deadline_lastdate
+  - intent: admission_apply_lastdate
     examples: |
       - When is the last date to apply for admission?
       - What is the admission closing date?
@@ -700,6 +700,7 @@ nlu:
       - Give me entire college placement details.
       - I need placement details in your college
       - Give me placements counts in your college
+      - How many students from each department get placed every year?
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
@@ -969,6 +970,9 @@ nlu:
       - What factors contribute to higher placement rates in certain departments?
       - How do industry trends affect placement rates across different departments?
       - Has the placement rate for any department improved significantly over the years?
+      - which is the most demand department now?
+      - which is most trends department according to industry?
+      - most highest placement department
 
   - intent: eligible_student_placement_opportunities
     examples: |
@@ -981,10 +985,14 @@ nlu:
       - What measures does the college take to improve placement opportunities for all eligible students?
       - How do students who don’t get placed through campus drives find jobs?
       - What strategies are used to increase placement opportunities for students in low-demand fields?
+      - did all the students got placed in the campus interviews?
+      - how do you improve placement opportunities?
+      - how do you increase job or hiring or career opportunities
+      - Did college ensure that all eligible students get job opportunities?
+      - Do students from every department get placed?
 
   - intent: each_all_department_get_placed
     examples: |
-      - How many students from each department get placed every year?
       - Do some departments have higher placement numbers than others?
       - Is placement available for students in all departments?
       - What is the average number of students placed in each department annually?
@@ -993,6 +1001,7 @@ nlu:
       - What trends have been observed in department-wise placements over the past five years?
       - How does the placement cell support departments with lower placement rates?
       - What initiatives are taken to improve placement numbers for underrepresented departments?
+      - Do all the department get placements or not?
 
   - intent: ssmiet_college_ranking
     examples: |
@@ -1003,8 +1012,12 @@ nlu:
       - SSMIET ranking in 2024,2025?
       - What is the position of SSM Institute in Anna University rankings?
       - Where does SSM Institute of Engineering and Technology stand in Tamil Nadu rankings?
+      - position of SSM college in the whole colleges.
+      - Grade of the SSMIET college?
+      - what is the reputation of the SSMIET college?
+      - SSMIET Ranking
 
-  - intent: ssmiet_orgaization_clubs
+  - intent: ssmiet_organization_clubs
     examples: |
       - Are there any clubs in this college/organisation?
       - What clubs are available in this college/organization?
@@ -1012,6 +1025,7 @@ nlu:
       - Tell me about the clubs in your college.
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
+      - clubs in the SSMIET college
 
   - intent: college_events_annual_symposium
     examples: |
@@ -1046,6 +1060,8 @@ nlu:
       - Is there any department-wise celebration or special event?
       - Does the college conduct fresher’s day for new students?
       - Is there any cultural festivals and other festival celebrations ?
+      - Is there any Freshers Day in the SSMIET college?
+      - college events,symposium,events,freshers day and culturals
 
   - intent: first_year_1st_students_count
     examples: |
@@ -1117,6 +1133,9 @@ nlu:
       - What were the initial challenges faced by SSMIET?
       - How has SSMIET contributed to student career development over the years?
       - Tell me about the journey of SSMIET.
+      - Tell me about the college Background of SSMIET
+      - Overview of the college
+      - origin of the college
       - college history
 
   - intent: average_campus_placement
@@ -1131,6 +1150,7 @@ nlu:
       - How does SSMIET ensure a consistent average placement rate?
       - What initiatives have helped improve the average student placement?
       - How does the current year’s placement compare to the average placement of previous years?
+      - Average recruitment rate in the college
 
   - intent: yearwise_student_count_ssmiet
     examples: |
@@ -1144,6 +1164,14 @@ nlu:
       - What is the breakdown of students by year in SSMIET?
       - How many students are there in each academic year of SSMIET?
       - What is the total number of students per year in SSMIET?
+      - total student count for the past four years in SSMIET college
+      - total number of students for the past four years in SSMIET college
+      - year wise total students strength
+      - annual student count in SSMIET
+      - year wise students data
+      - Year wise student admission numbers
+      - yearwise total students intake in the college
+      - yearwise student statistics in ssmiet
 
   - intent: placement_training
     examples: |
@@ -1167,6 +1195,8 @@ nlu:
       - Are there any special coaching classes for weak students?
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
+      - Recruitment training is available or not
+      - placement training available or not in the ssmiet college
 
   - intent: student_feedback
     examples: |
@@ -1221,7 +1251,10 @@ nlu:
       - Where can I see the recruitment schedule?
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
-      
+      - hiring Industry of the college?
+      - Job Providers of the college
+      - Placement or Hiring Partners of the college
+
   - intent: sports_achievements
     examples: |
       - What are all the sports available in this college?
@@ -1238,6 +1271,7 @@ nlu:
       - Did we win any inter-college tournaments?
       - Can I join a sports team?
       - Where can I check the sports achievements?
+      - sports achievements
 
   - intent: software_lab_details
     examples: |
@@ -1251,6 +1285,7 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
+       
   - intent: ask_lab_hardware
     examples: |
       - Tell me about your lab components
@@ -1279,6 +1314,9 @@ nlu:
       - How many faculty members are there?
       - What is the teaching and non-teaching staff count?
       - Staff statistics for past years?
+      - Faculty count for the past four years?
+      - yearwise faculty count in the college
+      - total staffs or faculty or professor each year in the college
     
 synonyms:
   - synonym: recruitment
@@ -1504,6 +1542,7 @@ synonyms:
       - How see semester result?
       - Give me semester result website?
       - Where see semester exam number?
+      - Semester exam result links
   
   - intent: extracurricular_activites
     examples: |
@@ -1538,6 +1577,9 @@ synonyms:
       - What are the available payment methods for paying fees?
       - Can fees be paid through UPI or net banking?
       - Is there an online portal for fee payment?
+      - Give the account details for fees payment.
+      - Fee Payment Details
+      - Where to pay the fees.Is there any account details to pay?
 
   - intent: gate_coaching
     examples: |

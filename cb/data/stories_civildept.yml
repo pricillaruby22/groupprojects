@@ -1,3 +1,4 @@
+version: "3.1"
 stories:
   - story: Provide Civil HOD Details
     steps:
@@ -107,3 +108,8 @@ stories:
     steps:
       - intent: civil_faculty_experience_knowledge
       - action: utter_civil_faculty_experience_knowledge
+
+  - story: Civil year-wise student count inquiry
+    steps:
+      - intent: civil_yearwise_student_count
+      - action: utter_civil_yearwise_student_count

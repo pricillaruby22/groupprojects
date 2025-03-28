@@ -1,3 +1,4 @@
+version: "3.1"
 nlu:
 - intent: civil_hod_details
   examples: |
@@ -251,3 +252,15 @@ nlu:
     - What is the average number of years faculty members have worked at SSMIET?
     - How many faculty members in the Civil department hold postgraduate degrees?
 
+- intent: civil_yearwise_student_count
+  examples: |
+      - What is the year-wise student count for the Civil department since the college started?
+      - Can you provide the student intake count for the Civil department for each academic year since inception?
+      - How many students were admitted to the Civil department each year from the beginning?
+      - What is the total number of students enrolled in the Civil department for every academic year since the college started?
+      - How has the student strength of the Civil department varied year by year since the first batch?
+      - What are the year-wise student counts for the Civil department?
+      - Can you provide the student count for each year in the Civil department?
+      - What is the breakdown of students by year in the Civil department?
+      - How many students are there in each academic year of the Civil department?
+      - What is the total number of students per year in the Civil department?
