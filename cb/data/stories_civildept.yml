@@ -118,3 +118,18 @@ stories:
     steps:
       - intent: placement_civil
       - action: utter_placement_civil
+
+  - story: Accreditation inquiry
+    steps:
+      - intent: civil_accreditation
+      - action: utter_civil_accreditation
+
+  - story: Provide civil event photos and details
+    steps:
+      - intent: civil_event_conducted_photos
+      - action: utter_civil_event_conducted_photos
+
+  - story: Provide civil staff count
+    steps:
+      - intent: civil_staff_count
+      - action: utter_civil_staff_count

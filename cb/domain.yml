@@ -212,7 +212,6 @@ intents:
   - mech_department_vision
   - mech_department_mission
   - mech_total_students
-  - mech_female_girls_students
   - mech_male_boys_students
   - mech_lab_facilities
   - mech_department_activities
@@ -337,6 +336,10 @@ intents:
   - civil_contact
   - civil_faculty_experience_knowledge  
   - civil_yearwise_student_count
+  - placement_civil
+  - civil_accreditation
+  - civil_event_conducted_photos
+  - civil_staff_count
   - aiml_hod_details
   - aiml_faculty_details
   - aiml_department_info_about
@@ -2060,74 +2063,77 @@ responses:
         
   utter_peo_mech_department:
     - text: |
-        Programme Educational Objectives (PEOs) of Mechanical department:
+            Programme Educational Objectives (PEOs) of Mechanical department:
 
-        **PEO1** Domain Knowledge - Prepare graduates to excel in their professional career by acquiring knowledge in Mathematics, Science, Engineering principles through theory, laboratory classes and to formulate, solve, address problems in the mechanical engineering domains.
+            **PEO1** Domain Knowledge - Prepare graduates to excel in their professional career by acquiring knowledge in Mathematics, Science, Engineering principles through theory, laboratory classes and to formulate, solve, address problems in the mechanical engineering domains.
 
-        **PEO2** Professional Employment - Prepare graduates to have a strong core and technical knowledge in Mechanical Engineering, allied disciplines contributing to society through interdisciplinary skills, entrepreneurial skills and leadership qualities with a global outlook.
+            **PEO2** Professional Employment - Prepare graduates to have a strong core and technical knowledge in Mechanical Engineering, allied disciplines contributing to society through interdisciplinary skills, entrepreneurial skills and leadership qualities with a global outlook.
 
-        **PEO3** Higher Studies - Impart critical thinking skills, to develop initiatives and innovative ideas to pursue higher studies, R&D and industrial requirements.
+            **PEO3** Higher Studies - Impart critical thinking skills, to develop initiatives and innovative ideas to pursue higher studies, R&D and industrial requirements.
 
-        **PEO4** Engineering Citizenship - Implant professional attitude, management principles with an ability to relate engineering issues to the broader social and national context.
+            **PEO4** Engineering Citizenship - Implant professional attitude, management principles with an ability to relate engineering issues to the broader social and national context.
 
-        **PEO5** Life-long Learning - Inculcate teamwork, communication, interpersonal skills, ethical approach adapting to changing environments of engineering and technology by engaging in life-long learning.
+            **PEO5** Life-long Learning - Inculcate teamwork, communication, interpersonal skills, ethical approach adapting to changing environments of engineering and technology by engaging in life-long learning.
 
   utter_po_mech_department:
     - text: |
-        Program Outcomes (POs) of Mechanical department:
+            Program Outcomes (POs) of Mechanical department:
 
-        **PO1** Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
+            **PO1** Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
 
-        **PO2** Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+            **PO2** Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
 
-        **PO3** Design solutions for the complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
+            **PO3** Design solutions for the complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.
 
-        **PO4** Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+            **PO4** Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
 
-        **PO5** Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+            **PO5** Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
 
-        **PO6** Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+            **PO6** Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to professional engineering practice.
 
-        **PO7** Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+            **PO7** Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
 
-        **PO8** Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+            **PO8** Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
 
-        **PO9** Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+            **PO9** Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
 
-        **PO10** Communicate effectively on complex engineering activities with the Engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+            **PO10** Communicate effectively on complex engineering activities with the Engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
 
-        **PO11** Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+            **PO11** Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
 
-        **PO12** Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+            **PO12** Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
 
   utter_pso_mech_department:
     - text: |
-        Programme Specific Outcomes (PSO) of Mechanical department:
+            Programme Specific Outcomes (PSO) of Mechanical department:
 
-        **PSO1** Research oriented: Comprehend journal literature, do research on new mechanical engineering problems and publish the results through patents, journals, conferences and symposium.
+            **PSO1** Research oriented: Comprehend journal literature, do research on new mechanical engineering problems and publish the results through patents, journals, conferences and symposium.
 
-        **PSO2** Industry oriented: Realize professional experience through industry-interaction activities, internships, and in-plant training.
+            **PSO2** Industry oriented: Realize professional experience through industry-interaction activities, internships, and in-plant training.
 
-        **PSO3** Start-up & Entrepreneur oriented: Recognize and implement new ideas on new product design and development with the help of modern engineering tools, while ensuring the best manufacturing practices.
+            **PSO3** Start-up & Entrepreneur oriented: Recognize and implement new ideas on new product design and development with the help of modern engineering tools, while ensuring the best manufacturing practices.
 
   utter_mech_course_outcomes:
     - text: "You can find the course outcomes for the Mechanical department at SSMIET in the following PDF:  https://ssmiet.ac.in/MECH/2024/Course%20Outcomes%20R2017.pdf"
 
   utter_mech_department_info_about:
-    - text: "Mechanical Engineering is one of the oldest and broadest disciplines, applying energy, materials, and mechanics to drive technology and industry. With flexibility and diverse career paths, mechanical engineers can become entrepreneurs, consultants, or industry professionals. The department has 12 faculty members, including an IIT doctorate and three pursuing PhDs. It follows modern teaching methods, including presentations, seminars, industrial visits, and guest lectures."
+    - text: " **Mechanical Engineering** is one of the oldest and broadest disciplines, applying energy, materials, and mechanics to drive technology and industry. With flexibility and diverse career paths, mechanical engineers can become entrepreneurs, consultants, or industry professionals. The department has 12 faculty members, including an IIT doctorate and three pursuing PhDs. It follows modern teaching methods, including presentations, seminars, industrial visits, and guest lectures."
 
   utter_mech_department_vision:
-    - text: "**Vision**: \nTo contribute to the National economy by imparting a high quality engineering education and research leading to well-qualified mechanical engineers with innovative, entrepreneurial mindset along with social concerns."
+    - text: |
+            **VISION OF MECHANICAL**
+               - To contribute to the National economy by imparting a high quality engineering education and research leading to well-qualified mechanical engineers with innovative, entrepreneurial mindset along with social concerns.
 
   utter_mech_department_mission:
-    - text: "**Mission**: \nInstituting an environment with a value-based education system sustained by quality resources and teaching, learning processes to nurture the student’s knowledge and skill in the faculty of mechanical engineering. \nProgressing interactions with the members concerned to ensure continuous improvement in the academic processes to congregate the fast changing requirements. \nEstablishing centers of excellence in the domain of mechanical engineering to endorse academic augmentation, to engender knowledge and entrepreneurial talents to meet the current challenging requirements by the industry. \nPromoting co-curricular and extra-curricular activities to develop the life skills of graduating mechanical engineering students."
+    - text: |
+            **MISSION OF MECHANICAL**
+               - Instituting an environment with a value-based education system sustained by quality resources and teaching, learning processes to nurture the student’s knowledge and skill in the faculty of mechanical engineering. 
+               - Progressing interactions with the members concerned to ensure continuous improvement in the academic processes to congregate the fast changing requirements.
+               - Establishing centers of excellence in the domain of mechanical engineering to endorse academic augmentation, to engender knowledge and entrepreneurial talents to meet the current challenging requirements by the industry.
+               - Promoting co-curricular and extra-curricular activities to develop the life skills of graduating mechanical engineering students.
 
   utter_mech_total_students:
     - text: "The total student count in the Mechanical department varies each academic year."
-
-  utter_mech_female_girls_students:
-    - text: 
-        "The number of female students in the Mechanical department varies."
   
   utter_mech_male_boys_students:
     - text: 
@@ -2861,11 +2867,11 @@ responses:
   utter_civil_hod_details:
       - text: |
               ![Selvabharathi](https://i.ibb.co/Z1RKyFhF/selvabharathi.jpg)
-              - **Dr. G. Selvabharathi**
-              - Position: Head of the Civil Engineering Department
-              - Qualification: 🎓 Ph.D., M.E.,B.Tech.
-              - Years of Experience: Over 17+ years of experience in various institutions and industries
-              - To Learn more about the head of the civil department , check out this link https://ssmiet.ac.in/images/civil/1.-Dr.-G.-Selvabharathi.pdf
+              🔹**Dr. G. Selvabharathi**
+              🔹Position: Head of the Civil Engineering Department
+              🔹Qualification: 🎓 Ph.D., M.E.,B.Tech.
+              🔹Years of Experience: Over 17+ years of experience in various institutions and industries
+               To Learn more about the head of the civil department , check out this link https://ssmiet.ac.in/images/civil/1.-Dr.-G.-Selvabharathi.pdf
 
   utter_civil_faculty_details:
       - text: |
@@ -2884,7 +2890,8 @@ responses:
                 ![Roy](https://i.ibb.co/Ps1BYzVj/roy.jpg)
               - **Ms. J. Roy Celestina** - M.E. (Assistant Professor)
                 ![Kannan](https://i.ibb.co/vCN6n77r/kanan.jpg)
-              - **Mr. S. Kannan** - M.E., Ph.D (Assistant Professor)
+              - **Mr. S. Kannan** - M.E.
+                Ph.D (Assistant Professor)
                 ![Muthulakshmi](https://i.ibb.co/DfTZns3z/muthulakshmi.jpg)
               - **Ms. M. Muthulakshmi** - M.E., Ph.D (Assistant Professor) 
                 ![Rakshana](https://i.ibb.co/2mbyDcb/rakshana.jpg)
@@ -2892,127 +2899,91 @@ responses:
 
   utter_peo_civil_department:
       - text: |    
-            1️⃣ **Technical Competence**: Graduates will have a strong foundation in Civil Engineering and apply their knowledge effectively in solving real-world problems.
-            2️⃣ **Professionalism & Ethics**: Graduates will exhibit professionalism, ethical values, and teamwork in their careers.
-            3️⃣ **Lifelong Learning**: Graduates will engage in lifelong learning and adapt to evolving technologies in Civil Engineering.
-            4️⃣ **Sustainability & Social Responsibility**: Graduates will contribute to sustainable infrastructure development with environmental responsibility.
+              **PEO**  1️⃣ **Technical Competence**: Graduates will have a strong foundation in Civil Engineering and apply their knowledge effectively in solving real-world problems.
+              **PEO**  2️⃣ **Professionalism & Ethics**: Graduates will exhibit professionalism, ethical values, and teamwork in their careers.
+              **PEO**  3️⃣ **Lifelong Learning**: Graduates will engage in lifelong learning and adapt to evolving technologies in Civil Engineering.
+              **PEO**  4️⃣ **Sustainability & Social Responsibility**: Graduates will contribute to sustainable infrastructure development with environmental responsibility.
   utter_po_civil_department:
       - text: |
-            **📌 Program Outcomes (PO) - Civil Engineering Department**
+              **📌 Program Outcomes (PO) - Civil Engineering Department**
 
-            1️⃣ **Engineering Knowledge**: Apply Civil Engineering principles to solve complex problems.
-            2️⃣ **Problem Analysis**: Identify, analyze, and provide solutions for engineering challenges.
-            3️⃣ **Design & Development**: Design safe and sustainable infrastructure considering societal and environmental impacts.
-            4️⃣ **Investigations of Complex Problems**: Conduct research and experiments for better engineering solutions.
-            5️⃣ **Modern Tool Usage**: Use modern tools and software for Civil Engineering applications.
-            6️⃣ **The Engineer & Society**: Understand the social, legal, and ethical responsibilities of an engineer.
-            7️⃣ **Environment & Sustainability**: Develop solutions that consider environmental sustainability.
-            8️⃣ **Ethics**: Apply ethical principles in engineering practice.
-            9️⃣ **Individual & Team Work**: Work effectively as an individual and in multidisciplinary teams.
-            🔟 **Communication**: Communicate effectively in both technical and non-technical settings.
-            1️⃣1️⃣ **Project Management & Finance**: Demonstrate leadership and financial understanding in engineering projects.
-            1️⃣2️⃣ **Lifelong Learning**: Engage in continuous learning to adapt to technological advancements.
-  
+              **PO** 1️⃣ **Engineering Knowledge**: Apply Civil Engineering principles to solve complex problems.
+              **PO** 2️⃣ **Problem Analysis**: Identify, analyze, and provide solutions for engineering challenges.
+              **PO** 3️⃣ **Design & Development**: Design safe and sustainable infrastructure considering societal and environmental impacts.
+              **PO** 4️⃣ **Investigations of Complex Problems**: Conduct research and experiments for better engineering solutions.
+              **PO** 5️⃣ **Modern Tool Usage**: Use modern tools and software for Civil Engineering applications.
+              **PO** 6️⃣ **The Engineer & Society**: Understand the social, legal, and ethical responsibilities of an engineer.
+              **PO** 7️⃣ **Environment & Sustainability**: Develop solutions that consider environmental sustainability.
+              **PO** 8️⃣ **Ethics**: Apply ethical principles in engineering practice.
+              **PO** 9️⃣ **Individual & Team Work**: Work effectively as an individual and in multidisciplinary teams.
+              **PO** 🔟 **Communication**: Communicate effectively in both technical and non-technical settings.
+              **PO** 1️⃣1️⃣ **Project Management & Finance**: Demonstrate leadership and financial understanding in engineering projects.
+              **PO** 1️⃣2️⃣ **Lifelong Learning**: Engage in continuous learning to adapt to technological advancements.
+      
   utter_pso_civil_department:
       - text: |
-             **📌 Program Specific Outcomes (PSO) - Civil Engineering Department**
-           
-             **PSO1**: Enhancing the employability skills by making the students find innovative solutions for challenges and problems in various domains of Civil Engineering.
-             **PSO2**Inculcating state of art technologies in students to deal with practical aspects of Civil Engineering.
+              **📌 Program Specific Outcomes (PSO) - Civil Engineering Department**
+            
+              **PSO1**: Enhancing the employability skills by making the students find innovative solutions for challenges and problems in various domains of Civil Engineering.
+              **PSO2**: Inculcating state of art technologies in students to deal with practical aspects of Civil Engineering.
 
   utter_civil_course_outcomes:
         - text: |
-            **Course Outcomes - Civil Engineering Department**
-            
-            The Civil Engineering program is designed to equip students with comprehensive knowledge and practical skills essential for engineering applications. The course outcomes include:
-            
-            - Understanding fundamental civil engineering principles.
-            - Applying engineering knowledge to real-world problems.
-            - Gaining expertise in sustainable infrastructure development.
-            - Developing problem-solving and analytical skills.
-            - Enhancing teamwork and communication abilities in engineering projects.
-            - Encouraging lifelong learning and professional growth.
-            
-            For more details, please visit: [Civil Engineering Course Outcomes] https://ssmiet.ac.in/civil/2024/CO%20PO%20R%202021.pdf
-  
+                You can find the course outcomes for civil department,please visit: [Civil Engineering Course Outcomes] https://ssmiet.ac.in/civil/2024/CO%20PO%20R%202021.pdf
+      
   utter_technical_faculty_civil:
         - text: |
-            Here are the technical faculty members in the Civil Engineering Department:
-            - **Mr. R. Dinesh**, I.T.I. – Technical Assistant
-            - **Mr. Thiruppathi R.** – Technical Assistant
+                Here are the technical faculty members in the Civil Engineering Department:
+                - **Mr. R. Dinesh**, I.T.I. – Technical Assistant
+                - **Mr. Thiruppathi R.** – Technical Assistant
 
   utter_civil_department_info_about:
-    - text: |
-        The Civil Engineering Department at SSMIET focuses on planning, development, design, construction, and maintenance of physical structures and infrastructure essential for societal sustainability. Established in 2011, the department aims to accelerate the understanding of fundamental principles and nurture creative abilities to handle challenges in the field of civil engineering. It trains students to be well-acquainted with the latest technological developments and emerging trends through a unique strategy combined with practical and industrial exposure. The department boasts competent and experienced laboratories specialized in Strength of Materials, Hydraulics, Surveying, Geotechnical, AutoCAD, Environmental Engineering, and Concrete & Highway, all at par with research labs.
+    - text: "The **Civil Engineering** Department at SSMIET focuses on planning, development, design, construction, and maintenance of physical structures and infrastructure essential for societal sustainability. Established in 2011, the department aims to accelerate the understanding of fundamental principles and nurture creative abilities to handle challenges in the field of civil engineering. It trains students to be well-acquainted with the latest technological developments and emerging trends through a unique strategy combined with practical and industrial exposure. The department boasts competent and experienced laboratories specialized in Strength of Materials, Hydraulics, Surveying, Geotechnical, AutoCAD, Environmental Engineering, and Concrete & Highway, all at par with research labs."
 
   utter_civil_department_vision:
     - text: |
-        To provide technical education to all aspiring students to become Civil Engineering professionals with creativity, competency, and the skill to solve challenges with societal focus.
+            **VISION OF CIVIL**
+                  To provide technical education to all aspiring students to become Civil Engineering professionals with creativity, competency, and the skill to solve challenges with societal focus.
 
   utter_civil_department_mission:
     - text: |
-        The mission of the Civil Engineering Department is to:
-        - Transform students into self-driven individuals with outstanding technical skills and the highest ethical values to serve the community.
-        - Impart research results for national needs and preserve the environment through appropriate solutions.
-        - Serve and maintain a healthy relationship with the construction industry by providing innovative and practical insights to meet overall business needs.
-        - Provide conceptual knowledge that supports sustainable development to promote lifelong learning.
+            **MISSION OF CIVIL**
+                  - Transform students into self-driven individuals with outstanding technical skills and the highest ethical values to serve the community.
+                  - Impart research results for national needs and preserve the environment through appropriate solutions.
+                  - Serve and maintain a healthy relationship with the construction industry by providing innovative and practical insights to meet overall business needs.
+                  - Provide conceptual knowledge that supports sustainable development to promote lifelong learning.
 
   utter_placement_company_names_civil:
     - text: |
-        Here are some of the companies where our Civil Engineering students have been placed:
-        - G.V. Foundations, Chennai
-        - Visvas Promoters
-        - CADD Technologies, Coimbatore
-        - Sri Varu Classic Developers
-        - Tessolve
-        - FLEXTRONICS
-        - Mindtree
-        - Infosys
-        - Wipro
-        - Accenture
-        - TCS
-        - HCL
-        - 4i Apps
-        - Pirai Infotech
-        
-        For further details about placement, click the link below:  
-        [Civil Placement Details] https://ssmiet.ac.in/civil%20placement.html
+            Here are some of the companies where our Civil Engineering students have been placed:
+              - G.V. Foundations, Chennai
+              - Visvas Promoters
+              - CADD Technologies, Coimbatore
+              - Sri Varu Classic Developers
+              - Tessolve
+              - FLEXTRONICS
+              - Mindtree
+              - Infosys
+              - Wipro
+              - Accenture
+              - TCS
+              - HCL
+              - 4i Apps
+              - Pirai Infotech
+            
+            For further details about placement, click the link below:  
+            [Civil Placement Details] https://ssmiet.ac.in/civil%20placement.html
 
   utter_civil_department_activities:
-    - text: |
-        The Civil Engineering department organizes various activities, including:
-        - Technical workshops and seminars
-        - Industrial visits to enhance practical knowledge
-        - Guest lectures by industry experts
-        - Research projects and paper presentations
-        - Hands-on training sessions
-        - Social and environmental initiatives
-        - Student participation in national and international competitions
-
-        For more details, refer to the official placement details here: 
-        [Click here] https://ssmiet.ac.in/Civil/CIVIL%20PLACED%20STUDENT%20DETAILS%202018-19.pdf
+    - text: "You can find the details about the department activities of civil here:, [Click here] https://ssmiet.ac.in/civil/civil%20Website%2004.11.2024/Events%20Index.pdf "
 
   utter_civil_student_activities:
-    - text: |
-        The Civil Engineering department has organized various student activities in the 2023-2024 academic year, including:
-
-        - **Poster Making Competition**: Held on August 11, 2023, at SSMIET, Dindigul.
-        - **Paper Presentation Competition**: Conducted on August 11, 2023, at SSMIET, Dindigul.
-        - **Internal Hackathon**: Organized on September 15, 2023, at SSMIET, Dindigul.
-        - **National Level Technical Symposium Kallikrates'23**: Participated on October 13, 2023, at KPR Institute of Engineering and Technology, Coimbatore.
-        - **Inter Zonal Tournaments 2023-24**: Secured Second Prize on December 16-17, 2023, at Kongunadu College of Engineering & Technology.
-        - **IP Awareness/Training Program**: Attended on March 5, 2024, at NIT, Trichy.
-        - **In-house Product Development Hackathon with Flutter Activities**: Participated with Yosanaiangati - AI Private Limited.
-
-        For more details, visit: [Civil Student Activities] https://ssmiet.ac.in/civil%20student%20activities.html
+    - text: "You can find the details about the student activities of civil here: [Civil Student Activities] https://ssmiet.ac.in/civil%20student%20activities.html "
 
   utter_civil_research_activities:
-    - text: |
-        The Civil Engineering department is actively involved in various research activities,like **research details,journal publications and patents**
-        You can find detailed information about ongoing projects, publications, and research initiatives at:
-        [Click here] https://ssmiet.ac.in/civil%20research.html
+    - text: "The Civil Engineering department is actively involved in various research activities,like **research details,journal publications and patents** You can find detailed information about ongoing projects, publications, and research initiatives at: [Click here] https://ssmiet.ac.in/civil%20research.html "
   utter_civil_total_students:
-    - text:  |
+    - text: |
             Here is the count of students for the current year civil  
             - Current Batch -> 2024 - 2025
             - IV Year: Girls - 4, Boys - 11, Total - 15
@@ -3028,54 +2999,65 @@ responses:
 
   utter_extra_courses_civil:
     - text: |
-        The Civil Engineering department offers the following value-added courses:
-        - **AutoCAD for Civil Engineers**
-        - **Building Information Modelling (BIM)**
-        - **STAAD Pro for Structural Analysis**
-        - **Total Station and Surveying Techniques**
-        - **Geotechnical Investigation and Soil Testing**
-        - **Concrete Mix Design and Testing**
-        - **Revit Architecture and Structural Design**
-        - **Construction Project Management using Primavera**
-        - **Environmental Impact Assessment (EIA) Training**
-        - **Road Safety and Traffic Management**
-        
-        For more details, visit our official page:  
-        🔗 [Civil Value-Added Courses] https://ssmiet.ac.in/civil%20valueaddedcourse.html
+            The Civil Engineering department offers the following value-added courses:
+            - **AutoCAD for Civil Engineers**
+            - **Building Information Modelling (BIM)**
+            - **STAAD Pro for Structural Analysis**
+            - **Total Station and Surveying Techniques**
+            - **Geotechnical Investigation and Soil Testing**
+            - **Concrete Mix Design and Testing**
+            - **Revit Architecture and Structural Design**
+            - **Construction Project Management using Primavera**
+            - **Environmental Impact Assessment (EIA) Training**
+            - **Road Safety and Traffic Management**
+            
+            For more details, visit our official page:  
+            🔗 [Civil Value-Added Courses] https://ssmiet.ac.in/civil%20valueaddedcourse.html
   utter_intern_company_civil:
     - text: |
-        Here are some companies offering internships for Civil Engineering students:
-        - L&T Construction
-        - Shapoorji Pallonji Group
-        - Gammon India Ltd
-        - HCC (Hindustan Construction Company)
-        - Tata Projects Limited
-        - Afcons Infrastructure Limited
-        - Simplex Infrastructures Ltd
-        - Sobha Limited
+            Here are some companies offering internships for Civil Engineering students:
+
+              - L&T Construction
+              - Shapoorji Pallonji Group
+              - Gammon India Ltd
+              - HCC (Hindustan Construction Company)
+              - Tata Projects Limited
+              - Afcons Infrastructure Limited
+              - Simplex Infrastructures Ltd
+              - Sobha Limited
+              
+            For more details, visit the official page:  
+            🔗[Click here] https://ssmiet.ac.in/civil/civil%20Website%2004.11.2024/Internship%20Details%202018-2024.pdf
         
-        For more details, visit the official page:  
-        [Click here] https://ssmiet.ac.in/civil/civil%20Website%2004.11.2024/Internship%20Details%202018-2024.pdf
-    
   utter_mou_sign_company_civil:
-    - text: "You can find the list of companies that have signed MoUs with the Civil Engineering department here: [Click here] https://ssmiet.ac.in/mou.civil.html "
+    - text: |
+            You can find the list of companies that have signed MoUs with the Civil Engineering department here:
+            
+              - 1.Fedaration of All Civil Engineers Association of Tamil Nadu and Puduchery (FACEAT)
+              - 2.Civil Engineers Welfare Association (CEWA)
+              - 3.CADD Technologies School of Design Private Limited
+              - 4.CADD Technologies School of Design Private Limited
+              - 5.CADD Technologies School of Design Private Limited
+              - 6.Water, Sanitation and Hygiene Institute (WASH Institute)
+              - 7.Prince Promoters
+              - 8.Concepteurs CAD Training Centre
+           🔗[Click here] https://ssmiet.ac.in/mou.civil.html "
 
   utter_civil_contact:
     - text: |
-        The Head of the Department(contact),
-        Department of Civil Engineering,
-        SSM Institute of Engineering and Technology,
-        Dindigul – 624 002,
-        Tamil Nadu, India.
-
-        📞 Phone: 0451 – 2448827  
-        📧 E-mail: hodcivilssmiet@gmail.com
+            - The Head of the Department(contact),
+            - Department of Civil Engineering,
+            - SSM Institute of Engineering and Technology,
+            - Dindigul – 624 002,Tamil Nadu, India
+            📞 Phone: 0451 – 2448827  
+            📧 E-mail: hodcivilssmiet@gmail.com
   utter_civil_faculty_experience_knowledge:
     - text: |
-        The CIVIL department faculty members have an highly experienced educators and On average,faculty members have around 8.125 years experience.
+            "The CIVIL department faculty members have an highly experienced educators and On average,faculty members have around 8.125 years experience."
 
   utter_civil_yearwise_student_count:
-    - text: "Here is the students count details for the Civil Department:
+    - text: |
+            Here is the students count details for the Civil Department:
              
              - **Batch -> 2024 - 2025**
                   IV Year: Girls - 4, Boys - 11, Total - 15
@@ -3093,30 +3075,56 @@ responses:
                   IV Year: Girls - 0, Boys - 15, Total - 15
                   III Year: Girls - 2, Boys - 19, Total - 21
                   II Year: Girls - 4, Boys - 11, Total - 15
-                  Total Girls - 6, Total Boys - 45, Total Students - 51"
+                  Total Girls - 6, Total Boys - 45, Total Students - 51
 
   utter_placement_civil:
     - text: |
-         You check the placement details in this link https://shorturl.at/y6qHS
-        
+            Year-wise placements details of CIVIL Department:
 
-  utter_campus_hostel_photos:
+                - 2015 - 2019 - 10 Students
+                - 2016 - 2020 - 12 Students
+                - 2017 - 2021 -  2 Students
+                - 2018 - 2022 - 15 Students 
+                - 2019 - 2023 - 7 Students
+                - 2020 - 2024 - 12 Students
+                - 2021 - 2025 - 1 Students
+
+            You check the placement details in this link https://shorturl.at/y6qHS
+
+  utter_civil_accreditation:
+    - text: "Our civil department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University,Chennai, but currently civil department is not accredited by NBA"        
+  
+  utter_civil_event_conducted_photos:
     - text: |
-        Here are some images of the hostel:
-
-        ![Hostel 1](https://i.ibb.co/hJ4m2RrK/hostel1.jpg)
-        ![Hostel 2](https://i.ibb.co/n8VMbX3t/hostel2.jpg)
-        ![Hostel 3](https://i.ibb.co/pjRwnGWM/hostel3.jpg)
-        ![Hostel 4](https://i.ibb.co/v6vCmHsr/hostel4.jpg)
-        ![Hostel 5](https://i.ibb.co/1GP8N5fg/hostel5.jpg)
-        ![Hostel 6](https://i.ibb.co/JWPdLn9T/hostel6.jpg)
-
-  utter_campus_playground_photos:
+            ![Civil Event photo 1](https://i.ibb.co/TDMqPgQD/civilacti2.jpg)
+            ![Civil Event photo 2](https://i.ibb.co/N6k65ndS/civilacti5.jpg)
+            ![Civil Event photo 3](https://i.ibb.co/xK4DXvVL/civilacti7.jpg)
+            ![Civil Event photo 4](https://i.ibb.co/bgZhsQ5P/civilacti13.jpg)
+            ![Civil Event photo 5](https://i.ibb.co/6RnXr1c2/civilacti14.jpg)
+            ![Civil Event photo 6](https://i.ibb.co/C3VtS7wf/civilacti10.jpg)
+utter_civil_staff_count:
     - text: |
-        Here are some images of the playground:
+            Staff Counts in civil
+              - *Teaching Staff* - 8
+              - *Non-Teaching Staff* - 2
+              - *Total Staff* - 10
+utter_campus_hostel_photos:
+    - text: |
+            Here are some images of the hostel:
 
-        ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
-        ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
+            ![Hostel 1](https://i.ibb.co/hJ4m2RrK/hostel1.jpg)
+            ![Hostel 2](https://i.ibb.co/n8VMbX3t/hostel2.jpg)
+            ![Hostel 3](https://i.ibb.co/pjRwnGWM/hostel3.jpg)
+            ![Hostel 4](https://i.ibb.co/v6vCmHsr/hostel4.jpg)
+            ![Hostel 5](https://i.ibb.co/1GP8N5fg/hostel5.jpg)
+            ![Hostel 6](https://i.ibb.co/JWPdLn9T/hostel6.jpg)
 
-  utter_goodbye:
-    - text: "Good Bye!..."
+utter_campus_playground_photos:
+  - text: |
+      Here are some images of the playground:
+
+      ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
+      ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
+
+utter_goodbye:
+  - text: "Good Bye!..."
