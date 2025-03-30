@@ -281,3 +281,56 @@ nlu:
       - How has civil placement performance changed over the years?
       - Do Civil students get good placements?
       - Share the year-wise placement details for Civil.
+
+- intent: civil_accreditation
+  examples: |
+      - What are the accreditations and affiliations of the Civil department?
+      - Is the Civil department accredited by NAAC and AICTE?
+      - Under which university is the Civil department affiliated?
+      - Is the Civil department approved by the government?
+      - Does the Civil department have AICTE and NAAC approval?
+      - Which university is the Civil department connected with?
+      - Is the Civil department good?
+      - Is this college’s Civil department recognized by the government?
+      - Is the Civil course valid for jobs?
+
+- intent: civil_event_conducted_photos
+  examples: |
+      - Can you provide photos of events conducted by the Civil department?  
+      - Where can I find images of past Civil department events?  
+      - Do you have a gallery of Civil department event photos?  
+      - Can you share pictures from recent Civil department activities?  
+      - Are there any photos available from Civil department symposiums and workshops?  
+      - How can I access images of technical events hosted by the Civil department?  
+      - Do you have any pictures from cultural events organized by the Civil department?  
+      - Can I see photos of guest lectures and seminars conducted by the Civil department?  
+      - Are there any images of student project presentations in the Civil department?  
+      - Where can I view photos from annual Civil department functions and celebrations?  
+      - What are the events conducted by the Civil department?  
+      - Can you provide a list of events organized by the Civil department?  
+      - What technical events does the Civil department host?  
+      - What cultural programs are conducted by the Civil department?  
+      - Does the Civil department organize competitions or technical events?  
+      - What annual events are held by the Civil department?  
+      - Are there any workshops or seminars conducted by the Civil department?  
+      - Does the Civil department conduct any inter-college competitions?
+- intent: civil_staff_count
+  examples: |
+      - How many teachers are there in the Civil department?
+      - How many faculties are there in the Civil department?
+      - How many staff members are working in the Civil department?
+      - How many professors are there in the Civil department?
+      - How many lecturers are present in the Civil department?
+      - What is the total staff count in the Civil department?
+      - Can you tell me the number of faculties in Civil?
+      - How many academic staff are in the Civil department?
+      - How many teaching staff members are there in Civil?
+      - What is the number of faculty members in the Civil department?
+      - How many faculty members are currently teaching in Civil?
+      - Could you provide the count of staff in the Civil department?
+      - How many assistant professors are there in the Civil department?
+      - What is the strength of the teaching faculty in Civil?
+      - How many working staff does the Civil department have?
+      - Tell me the number of Civil department lecturers.
+      - Can you provide the staff details for the Civil department?
+      - What’s the total number of faculty in Civil?
