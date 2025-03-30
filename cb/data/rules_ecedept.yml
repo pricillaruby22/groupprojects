@@ -150,6 +150,11 @@ rules:
       - intent: ece_faculty_experience_knowledge
       - action: utter_ece_faculty_experience_knowledge
 
+  - rule: Respond to ece staff count
+    steps:
+      - intent: ece_staff_count
+      - action: utter_ece_staff_count    
+
 
 
 
