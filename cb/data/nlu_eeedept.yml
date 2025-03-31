@@ -341,3 +341,37 @@ nlu:
       - Give me the names of companies for EEE placements  
       - What are the companies hiring for EEE final year placements?
       - Are there any top companies for placement in EEE?
+
+  - intent: ece_accreditation
+    examples: |
+        - What are the accreditations and affiliations of the EEE department?
+        - Is the EEE department accredited by NAAC and AICTE?
+        - Under which university is the EEE department affiliated?
+        - Is the EEE department approved by the government?
+        - Does the EEE department have AICTE and NAAC approval?
+        - Which university is the EEE department connected with?
+        - Is the EEE department good?
+        - Is this college’s EEE department recognized by the government?
+        - Is the EEE course valid for jobs?
+        - Give me the names of companies for EEE placements   
+
+  - intent: eee_staff_count
+    examples: |
+      - How many teachers are there in the EEE department?
+      - How many faculties are there in the EEE department?
+      - How many staff members are working in the EEE department?
+      - How many professors are there in the EEE department?
+      - How many lecturers are present in the EEE department?
+      - What is the total staff count in the EEE department?
+      - Can you tell me the number of faculties in EEE?
+      - How many academic staff are in the EEE department?
+      - How many teaching staff members are there in EEE?
+      - What is the number of faculty members in the EEE department?
+      - How many faculty members are currently teaching in EEE?
+      - Could you provide the count of staff in the EEE department?
+      - How many assistant professors are there in the EEE department?
+      - What is the strength of the teaching faculty in EEE?
+      - How many working staff does the EEE department have?
+      - Tell me the number of EEE department lecturers.
+      - Can you provide the staff details for the EEE department?
+      - What’s the total number of faculty in EEE?
