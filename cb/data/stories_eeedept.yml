@@ -149,3 +149,8 @@ stories:
     steps:
       - intent: eee_faculty_experience_knowledge
       - action: utter_eee_faculty_experience_knowledge
+
+  - story: Provide eee staff count
+    steps:
+      - intent: eee_staff_count
+      - action: utter_eee_staff_count

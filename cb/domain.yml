@@ -191,6 +191,7 @@ intents:
   - eee_faculty_activities
   - eee_professional_bodies
   - eee_research_activities
+  - eee_staff_count                                    
   - eee_newsletter
   - mou_sign_company_eee
   - intern_company_eee
@@ -1784,11 +1785,11 @@ responses:
   utter_eee_hod_details:
     - text: |
             ![Sekar](https://i.ibb.co/wFD9fcD6/sekar.jpg)
-            🔹 Name: Dr. R.M. Sekar  
-            🔹 Position: Head of the Department (HOD), EEE, SSMIET  
-            🔹 Years of Experience: 22+ years in teaching & research  
-            🔹 Qualification: 🎓 Ph.D. (Electrical Engineering), M.Tech. (Power Electronics and Drives), B.E. (Electrical and Electronics Engineering)  
-            🔹 More Details: https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
+              🔹 **Dr. R.M. Sekar** 
+              🔹 Position: Head of the Department (HOD), EEE, SSMIET  
+              🔹 Years of Experience: 22+ years in teaching & research  
+              🔹 Qualification: 🎓 Ph.D. (Electrical Engineering), M.Tech. (Power Electronics and Drives), B.E. (Electrical and Electronics Engineering)  
+               To learn more about the head of the EEE Department, please visit this https://ssmiet.ac.in/EEE/faculty%20details/Dr.R.M.SEKAR-EEE.pdf  
 
   utter_eee_faculty_details:
     - text: |
@@ -1816,224 +1817,253 @@ responses:
  
   utter_peo_eee_department:
     - text: |
-        Program Educational Objectives (PEOs) in the Electrical and Electronics Engineering (EEE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
+            Program Educational Objectives (PEOs) in the Electrical and Electronics Engineering (EEE) department outline the long-term accomplishments that graduates are expected to achieve. These objectives are designed to guide students toward successful careers and responsible professional conduct. Here are the key PEOs:
 
-        **PEO1**: Graduates will succeed in their professional careers by utilizing fundamental knowledge of basic sciences and mathematics in Electrical and Electronics Engineering.
+            **PEO1**: Graduates will succeed in their professional careers by utilizing fundamental knowledge of basic sciences and mathematics in Electrical and Electronics Engineering.
 
-        **PEO2**: Graduates will design, analyze, simulate, and develop Electrical and Electronic products that are reliable, cost-effective, and safe to face industrial challenges around the globe.
+            **PEO2**: Graduates will design, analyze, simulate, and develop Electrical and Electronic products that are reliable, cost-effective, and safe to face industrial challenges around the globe.
 
-        **PEO3**: Graduates will demonstrate communication skills, teamwork, ethics, and codes of professional practice, along with an aptitude for continuous learning, creating a new perspective for sustainable economic development.
+            **PEO3**: Graduates will demonstrate communication skills, teamwork, ethics, and codes of professional practice, along with an aptitude for continuous learning, creating a new perspective for sustainable economic development.
 
-        PEOs play a crucial role in shaping the career of EEE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
+            PEOs play a crucial role in shaping the career of EEE graduates by ensuring they develop technical proficiency, industry readiness, ethical responsibility, and lifelong learning skills.
     
   utter_po_eee_department:
     - text: |
-        Program Outcomes (POs) define the competencies that graduates of the Electrical and Electronics Engineering program are expected to acquire:
+            Program Outcomes (POs) define the competencies that graduates of the Electrical and Electronics Engineering program are expected to acquire:
 
-        **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to solve complex engineering problems.
+            **PO1**: Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to solve complex engineering problems.
 
-        **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+            **PO2**: Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
 
-        **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+            **PO3**: Design / development of solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
 
-        **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions.
+            **PO4**: Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions.
 
-        **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex engineering activities with an understanding of the limitations.
+            **PO5**: Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools, including prediction and modeling, to complex engineering activities with an understanding of the limitations.
 
-        **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and responsibilities relevant to professional engineering practice.
+            **PO6**: The engineer and society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and responsibilities relevant to professional engineering practice.
 
-        **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
+            **PO7**: Environment and sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate knowledge of and need for sustainable development.
 
-        **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+            **PO8**: Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
 
-        **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+            **PO9**: Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
 
-        **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+            **PO10**: Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
 
-        **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
+            **PO11**: Project management and finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.
 
-        **PO12**: Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+            **PO12**: Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
 
   utter_pso_eee_department:
     - text: |
-        Program Specific Outcomes (PSOs) define the specialized skills and knowledge that graduates of the Electrical and Electronics Engineering program will attain:
+            Program Specific Outcomes (PSOs) define the specialized skills and knowledge that graduates of the Electrical and Electronics Engineering program will attain:
 
-        **PSO1**: Foundation of Electrical Engineering: Ability to understand the principles and working of electrical components, circuits, systems, and control, forming a part of power generation, transmission, distribution, utilization, conservation, and energy saving. Students can assess power management, auditing, crisis, and energy-saving aspects.
+            **PSO1**: Foundation of Electrical Engineering: Ability to understand the principles and working of electrical components, circuits, systems, and control, forming a part of power generation, transmission, distribution, utilization, conservation, and energy saving. Students can assess power management, auditing, crisis, and energy-saving aspects.
 
-        **PSO2**: Foundation of Mathematical Concepts: Ability to apply mathematical methodologies to solve problems related to electrical engineering using appropriate engineering tools and algorithms.
+            **PSO2**: Foundation of Mathematical Concepts: Ability to apply mathematical methodologies to solve problems related to electrical engineering using appropriate engineering tools and algorithms.
 
-        **PSO3**: Computing and Research Ability: Ability to use knowledge in various domains to identify research gaps and provide solutions that lead to new ideas and innovations.
+            **PSO3**: Computing and Research Ability: Ability to use knowledge in various domains to identify research gaps and provide solutions that lead to new ideas and innovations.
 
   utter_eee_course_outcomes:
-    - text: |
-        "You can find the course outcomes for the EEE department at SSMIET in the following PDF: https://ssmiet.ac.in/EEE/New%20CO%20EEE%20-%202021.pdf"      
+    - text: "You can find the course outcomes for the EEE department at SSMIET in the following PDF: https://ssmiet.ac.in/EEE/New%20CO%20EEE%20-%202021.pdf"      
 
   utter_eee_department_info_about:
-    - text: |
-        "Established in 2013, the EEE department offers quality education with experienced faculty and well-equipped labs. It organizes seminars, workshops, and industrial visits to enhance learning. The department collaborates with the placement cell for career opportunities in core and software fields. Students engage in co-curricular activities through clubs like the EEE Association and ISTE. Modern labs and simulation tools support hands-on learning and research."
+    - text: "Established in 2013, the **EEE department** offers quality education with experienced faculty and well-equipped labs. It organizes seminars, workshops, and industrial visits to enhance learning. The department collaborates with the placement cell for career opportunities in core and software fields. Students engage in co-curricular activities through clubs like the EEE Association and ISTE. Modern labs and simulation tools support hands-on learning and research."
 
   utter_eee_department_vision:
     - text: |
-        "To transform young minds into globally competent electrical engineers and entrepreneurs, meeting the technological needs of society."
+            **VISION OF EEE**
+                To transform young minds into globally competent electrical engineers and entrepreneurs, meeting the technological needs of society."
        
   utter_eee_department_mission:
     - text: |
-        "✔ Equipping students with advanced knowledge in Electrical and Electronics Engineering and professional skills to face future challenges.  
-         ✔ Enhancing students' interest in research by introducing cutting-edge technologies."
+            **MISSION OF EEE**
+                ✔ Equipping students with advanced knowledge in Electrical and Electronics Engineering and professional skills to face future challenges.  
+                ✔ Enhancing students' interest in research by introducing cutting-edge technologies.
 
   utter_eee_total_students:
-    - text: 
-        "The total student count in the EEE department varies each academic year."
-  
+    - text: |
+            Here is the count of students for the current year EEE  
+            - Current Batch -> 2024 - 2025
+            - IV Year: Girls - 24, Boys - 27, Total - 51
+            - III YEAR: Girls - 9, Boys - 13, Total - 22
+            - II Year: Girls - 12, Boys - 21, Total - 33
+            - Total Girls - 45, Total Boys - 61, Total Students - 106
+        
   utter_eee_female_girls_students:
-    - text: 
-        "The number of female students in the EEE department varies."
+    - text: "The number of female students in the EEE department is 45 "
   
   utter_eee_male_boys_students:
-    - text: 
-        "The number of male students in the EEE department varies."       
+    - text: "The number of male students in the EEE department is 61"       
 
   utter_eee_department_activities:
-    - text: 
-        "You can find details about the department activities at the following link: https://ssmiet.ac.in/EEE/DEPT.%20ACTIVITY-EEE.pdf"
+    - text: "You can find details about the department activities of EEE department at the following link: https://ssmiet.ac.in/EEE/DEPT.%20ACTIVITY-EEE.pdf"
   
   utter_eee_student_activities:
     - text: | 
-         You can find details about the student activities at the following link: 
+         You can find details about the student activities of EEE department at the following link: 
          https://ssmiet.ac.in/eee%20student%20activities.html
          https://shorturl.at/EVX1Y
          https://shorturl.at/LyN0T
   
   utter_eee_faculty_activities:
-    - text: 
-        "You can find details about the faculty activities at the following link:https://ssmiet.ac.in/eee_faculty_activity.html"
+    - text: "You can find details about the faculty activities of EEE department at the following link:https://ssmiet.ac.in/eee_faculty_activity.html"
 
   utter_eee_professional_bodies:
-    - text: 
-        "You can find details about the professional bodies associated with the EEE department at the following link: https://ssmiet.ac.in/eeeprofessionalbodies.html"
+    - text: "You can find details about the professional bodies associated with the EEE department at the following link: https://ssmiet.ac.in/eeeprofessionalbodies.html"
   
   utter_eee_research_activities:
-    - text: 
-        "You can find details about the research activities in the EEE department at the following link: https://ssmiet.ac.in/eee%20research.html"
+    - text: "You can find details about the research activities in the EEE department at the following link: https://ssmiet.ac.in/eee%20research.html"
   
   utter_eee_newsletter:
-    - text: 
-        "You can find details about the EEE department newsletter at the following link:https://ssmiet.ac.in/eee%20news%20letter.html"
+    - text: "You can find details about the EEE department newsletter at the following link:https://ssmiet.ac.in/eee%20news%20letter.html"
               
   utter_extra_courses_eee:
     - text: |
-        "Here are the value-added courses offered by the EEE department:  
-        ✔ Industrial Robotics  
-        ✔ Training on Industrial Automation using PLC/SCADA  
-        ✔ Product Design and Manufacturing using Microcontroller  
-        ✔ Embedded Systems  
-        ✔ AutoCAD Electrical  
-        ✔ Industrial Automation"
+            Here are the value-added courses offered by the EEE department:  
+                - Industrial Robotics  
+                - Training on Industrial Automation using PLC/SCADA  
+                - Product Design and Manufacturing using Microcontroller  
+                - Embedded Systems  
+                - AutoCAD Electrical  
+                - Industrial Automation
+
+            For more details, visit our official page:  
+            🔗 [EEE Value-Added Courses] https://ssmiet.ac.in/eee%20valueadded%20course.html
 
   utter_intern_company_eee:
     - text: |
-        Here are top companies to get the internship
-              ✔️ TANTRANSCO Limited
-              ✔️ Sarayu Engineering
-              ✔️ LITZ TECH
-              ✔️ Associated Transformers Pvt. Ltd.
-              ✔️ Spot Light Institute
-              ✔️ Emglitz Technologies
-              ✔️ Pantech ProEd Pvt. Ltd.
-              ✔️ MAS Solar Systems Pvt. Ltd.
-              ✔️ Hindustan Automation Solutions
-              ✔️ Insource Technologies
-        
-              📊 Year-wise internship count:
-              🔹 2022-2023 => 29 students
-              🔹 2021-2022 => 56 students
-              🔹 2020-2021 => 2 students
-              🔹 2019-2020 => 67 students
-              🔹 2018-2019 => 33 students
+            Here are top companies to get the internship
+                  - TANTRANSCO Limited
+                  - Sarayu Engineering
+                  - LITZ TECH
+                  - Associated Transformers Pvt. Ltd.
+                  - Spot Light Institute
+                  - Emglitz Technologies
+                  - Pantech ProEd Pvt. Ltd.
+                  - MAS Solar Systems Pvt. Ltd.
+                  - Hindustan Automation Solutions
+                  - Insource Technologies
+            
+                  📊 Year-wise internship count:
+                  🔹 2022-2023 => 29 students
+                  🔹 2021-2022 => 56 students
+                  🔹 2020-2021 => 2 students
+                  🔹 2019-2020 => 67 students
+                  🔹 2018-2019 => 33 students
                 
   utter_mou_sign_company_eee:
     - text: |
-        "Here are the MoU partners of the EEE department:  
-        ✅ Purdue University, USA  
-        ✅ VI Micro Systems Pvt. Ltd., Chennai  
-        ✅ Pantech Solutions Pvt. Ltd., Chennai  
-        ✅ ABE Semiconductor Designs, Chennai  
-        ✅ Bluetronics-R&D, Bangalore  
-        ✅ KL University, Andhra Pradesh  
-        ✅ Prolific Systems and Technologies Pvt. Ltd., Coimbatore  
-        ✅ Sarayu Engineering, Dindigul  
-        ✅ STEPS Knowledge Services Pvt. Ltd., Coimbatore  
-        ✅ Shree Technologies, Coimbatore  
-        ✅ Sunshiv Electronic Solutions, Coimbatore  
-        ✅ Spotlight Technology, Dindigul  
-        ✅ TOMGO Agro Machines Pvt. Ltd., Dindigul"
-  
+            Here are the MoU partners of the EEE department:  
+                - Purdue University, USA  
+                - VI Micro Systems Pvt. Ltd., Chennai  
+                - Pantech Solutions Pvt. Ltd., Chennai  
+                - ABE Semiconductor Designs, Chennai  
+                - Bluetronics-R&D, Bangalore  
+                - KL University, Andhra Pradesh  
+                - Prolific Systems and Technologies Pvt. Ltd., Coimbatore  
+                - Sarayu Engineering, Dindigul  
+                - STEPS Knowledge Services Pvt. Ltd., Coimbatore  
+                - Shree Technologies, Coimbatore  
+                - Sunshiv Electronic Solutions, Coimbatore  
+                - Spotlight Technology, Dindigul  
+                - TOMGO Agro Machines Pvt. Ltd., Dindigul
+
+            For more details follow this link https://ssmiet.ac.in/mou_eee.html
+      
   utter_eee_contact:
     - text: |
-        "For any inquiries, you can contact the EEE department:  
-        
-        📌 **The Head of the Department**  
-        📍 Department of Electrical and Electronics Engineering  
-        🏛️ SSM Institute of Engineering and Technology  
-        📍 Dindigul – 624 002, Tamil Nadu, India  
-        📞 Phone: 0451 – 2448846  
-        📧 E-mail: hodeeessmiet@gmail.com "
+            For any inquiries, you can contact the EEE department:  
+            
+            📌 **The Head of the Department**  
+            📍 Department of Electrical and Electronics Engineering  
+            🏛️ SSM Institute of Engineering and Technology  
+            📍 Dindigul – 624 002, Tamil Nadu, India  
+            📞 Phone: 0451 – 2448846  
+            📧 E-mail: hodeeessmiet@gmail.com 
 
   utter_placement_eee:
     - text: |
-        Year-wise placement details for the EEE department:
-          - 2018-2019: 39 students
-          - 2019-2020: 29 students
-          - 2020-2021: 17 students
-          - 2021-2022: 19 students
-          - 2022-2023: 7 students
+            Year-wise placement details for the EEE department:
+
+              - 2018-2019: 39 students
+              - 2019-2020: 29 students
+              - 2020-2021: 17 students
+              - 2021-2022: 19 students
+              - 2022-2023: 7 students
+
+            For more details visit https://ssmiet.ac.in/eee%20placement.html
 
   utter_placement_company_names_eee:
     - text: |
-        Companies recruiting EEE students categorized by tier levels:
-            🟢 Tier 1 
-              ✔️ TCS (Tata Consultancy Services)
-              ✔️ Capgemini
-              ✔️ Infosys
-              ✔️ Accenture
+            Companies recruiting EEE students categorized by tier levels:
+                🟢 Tier 1 
+                      - TCS (Tata Consultancy Services)
+                      - Capgemini
+                      - Infosys
+                      - Accenture
 
-            🟡 Tier 2 
-              ✔️ Tessolve Semiconductor
-              ✔️ Aptiv Components India Pvt Ltd
-              ✔️ Vishay Precision Transducers India Pvt Ltd
-              ✔️ Everup Battery India Pvt Ltd
-              ✔️ iConT Technologies
+                🟡 Tier 2 
+                      - Tessolve Semiconductor
+                      - Aptiv Components India Pvt Ltd
+                      - Vishay Precision Transducers India Pvt Ltd
+                      - Everup Battery India Pvt Ltd
+                      - iConT Technologies
 
-            🔴 Tier 3 
-            ✔️ BSA Corporation Ltd.
-            ✔️ Face Prep
-            ✔️ LECL
-            ✔️ 5K CAR CARE
-            ✔️ Go Speedy Go
-            ✔️ Jayasree Reva Phoenix Metrology
-            ✔️ Ramsays (Electrical Maintenance)
+                🔴 Tier 3 
+                      - BSA Corporation Ltd.
+                      - Face Prep
+                      - LECL
+                      - 5K CAR CARE
+                      - Go Speedy Go
+                      - Jayasree Reva Phoenix Metrology
+                      - Ramsays (Electrical Maintenance)
+
+            For further details about placement, click the link below:  
+            [EEE Placement Details] https://ssmiet.ac.in/eee%20placement.html
 
   utter_eee_yearwise_student_count:
     - text: |
-        "Yearwise student count in CSE department"
+            Here is the count of students for the current year EEE  
+            - Current Batch -> 2024 - 2025
+            - IV Year: Girls - 24, Boys - 27, Total - 51
+            - III YEAR: Girls - 9, Boys - 13, Total - 22
+            - II Year: Girls - 12, Boys - 21, Total - 33
+            - Total Girls - 45, Total Boys - 61, Total Students - 106
 
   utter_eee_event_conducted_photos:
     - text: |
-        You can check event names in this link https://shorturl.at/hNtBE
+            You can check event names in this link https://shorturl.at/Q3u4i
 
   utter_eee_faculty_experience_knowledge:
-    - text: |
-        "The CSE faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+    - text: "The EEE faculty at SSMIET has an highly experienced educators and On average,faculty members have around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
                     
   utter_eee_accreditation:
-    - text: |
-       "Our EEE department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and NBA, and affiliated to Anna University, Chennai."
+    - text: "Our EEE department is established in the year 2013. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC and NBA, and affiliated to Anna University, Chennai."
 
   utter_eee_lab_facilities:
-    - text: "Add EEE lab"
+    - text: |
+           ![EEE lab photo 1](https://i.ibb.co/M5WsGwsM/eeelab1.jpg)
+           ![EEE lab photo 2](https://i.ibb.co/HT366YVm/eeelab2.jpg)
+           ![EEE lab photo 3](https://i.ibb.co/S46QTb5y/eeelab3.jpg)
+           ![EEE lab photo 4](https://i.ibb.co/Rkd8LCVb/eeelab4.jpg)
+           ![EEE lab photo 5](https://i.ibb.co/vCrJS1w7/eeelab5.jpg)
+
+           you can also check the lab facilities in this link https://shorturl.at/4VtTN
 
   utter_technical_faculty_eee:
-    - text: "Add EEE technical faculty"
+    - text: |
+            The technical faculty in the CSE department are:
+              - *Mr. K.G.Murugan D.E.E.E * (Technical Assistant)
+              - *Mr. J.Christhu Raja D.E.E.E* (Technical Assistant)
+
+  utter_eee_staff_count:
+    - text: |
+            Staff Counts in EEE
+              - *Teaching Staff* - 10
+              - *Non-Teaching Staff* - 2
+              - *Total Staff* - 12
 
   utter_mech_hod_details:
     - text: |
@@ -2199,7 +2229,7 @@ responses:
         Here are the value-added courses offered by the Mechanical department:
           1. Technology Training on CATIA 
           2. Technology Training on 3D Printing
-          3. Technology Training on CREO 
+          3. Technology Training on CREO      
           4. Technology Training on PYTHON
           5. Hands on Training on Heat transfer Equipments
           6. Machine Drawing
@@ -2532,11 +2562,11 @@ responses:
   utter_aids_hod_details:
     - text: |
             ![Premkumar](https://i.ibb.co/rR55d30G/prem.jpg)
-            - Dr. M. Premkumar
-            - Position: Head of the Department (HOD), AIDS, SSMIET
-            - Years of Experience: 12+ years in teaching
-            - Qualification: Ph.D, M.E, B.E
-              To learn more about the head of the AIDS Department,please visit this https://ssmiet.ac.in/ECE/faculty%20details/Dr.M.Premkumar,Professor.pdf 
+              - **Dr. M. Premkumar**
+              - Position: Head of the Department (HOD), AIDS, SSMIET
+              - Years of Experience: 12+ years in teaching
+              - Qualification: Ph.D, M.E, B.E
+                To learn more about the head of the AIDS Department,please visit this https://ssmiet.ac.in/ECE/faculty%20details/Dr.M.Premkumar,Professor.pdf 
 
   utter_aids_faculty_details:
     - text: |
@@ -2551,141 +2581,146 @@ responses:
 
   utter_peo_aids_department: 
     - text: |
-        Program Educational Objectives (PEOs) in the Artificial Intelligence and Data Science (AI&DS) department outline the long-term achievements that graduates are expected to accomplish. These objectives are designed to equip students with the necessary skills and knowledge to excel in their careers and contribute responsibly to society. Here are the key PEOs:
+            Program Educational Objectives (PEOs) in the Artificial Intelligence and Data Science (AI&DS) department outline the long-term achievements that graduates are expected to accomplish. These objectives are designed to equip students with the necessary skills and knowledge to excel in their careers and contribute responsibly to society. Here are the key PEOs:
 
-        **PEO1:** Graduates will leverage their expertise in Artificial Intelligence and Data Science to develop innovative solutions for real-world challenges, driving technological advancements across various industries.
+            **PEO1:** Graduates will leverage their expertise in Artificial Intelligence and Data Science to develop innovative solutions for real-world challenges, driving technological advancements across various industries.
 
-        **PEO2:** Graduates will engage in lifelong learning and research, keeping pace with evolving technologies in AI and Data Science to remain competitive and industry-ready.
+            **PEO2:** Graduates will engage in lifelong learning and research, keeping pace with evolving technologies in AI and Data Science to remain competitive and industry-ready.
 
-        **PEO3:** Graduates will demonstrate professional ethics, teamwork, and leadership while contributing to sustainable and impactful AI-driven solutions that benefit society.
+            **PEO3:** Graduates will demonstrate professional ethics, teamwork, and leadership while contributing to sustainable and impactful AI-driven solutions that benefit society.
 
-        PEOs play a vital role in shaping AI&DS graduates by fostering technical proficiency, problem-solving abilities, ethical responsibility, and continuous learning.
+            PEOs play a vital role in shaping AI&DS graduates by fostering technical proficiency, problem-solving abilities, ethical responsibility, and continuous learning.
 
-  utter_po_aids_department:
+  utter_po_aids_department: 
     - text: |
-         Program Outcomes (POs) in the Artificial Intelligence and Data Science (AI&DS) department define the key competencies that graduates will develop during their academic journey. These outcomes align with industry and societal needs, ensuring that students are well-prepared for professional success. Here are the key POs:
+            Program Outcomes (POs) in the Artificial Intelligence and Data Science (AI&DS) department define the key competencies that graduates will develop during their academic journey. These outcomes align with industry and societal needs, ensuring that students are well-prepared for professional success. Here are the key POs:
 
-         **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, and engineering fundamentals to solve complex problems in Artificial Intelligence and Data Science.
+            **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, and engineering fundamentals to solve complex problems in Artificial Intelligence and Data Science.
 
-         **PO2** - Problem Analysis: Identify, formulate, and analyze real-world problems using AI and Data Science techniques, leading to data-driven solutions.
+            **PO2** - Problem Analysis: Identify, formulate, and analyze real-world problems using AI and Data Science techniques, leading to data-driven solutions.
 
-         **PO3** - Design and Development: Design and develop intelligent systems and applications that address societal and industrial challenges while ensuring sustainability and efficiency.
+            **PO3** - Design and Development: Design and develop intelligent systems and applications that address societal and industrial challenges while ensuring sustainability and efficiency.
 
-         **PO4** - Conduct Investigations: Apply research-based knowledge and innovative methodologies to analyze data and derive meaningful insights for decision-making.
+            **PO4** - Conduct Investigations: Apply research-based knowledge and innovative methodologies to analyze data and derive meaningful insights for decision-making.
 
-         **PO5** - Modern Tool Usage: Utilize modern computing tools, programming languages, and AI frameworks to design, implement, and evaluate intelligent systems.
+            **PO5** - Modern Tool Usage: Utilize modern computing tools, programming languages, and AI frameworks to design, implement, and evaluate intelligent systems.
 
-         **PO6** - The Engineer and Society: Apply ethical principles and responsibilities in AI and Data Science to address societal and global challenges.
+            **PO6** - The Engineer and Society: Apply ethical principles and responsibilities in AI and Data Science to address societal and global challenges.
 
-         **PO7** - Environment and Sustainability: Develop AI solutions that promote environmental sustainability and resource efficiency.
+            **PO7** - Environment and Sustainability: Develop AI solutions that promote environmental sustainability and resource efficiency.
 
-         **PO8** - Ethics: Adhere to professional ethics, ensuring responsible and unbiased AI solutions that contribute positively to society.
+            **PO8** - Ethics: Adhere to professional ethics, ensuring responsible and unbiased AI solutions that contribute positively to society.
 
-         **PO9** - Individual and Team Work: Function effectively as an individual and as a member or leader in diverse teams across multidisciplinary settings.
+            **PO9** - Individual and Team Work: Function effectively as an individual and as a member or leader in diverse teams across multidisciplinary settings.
 
-         **PO10** - Communication: Communicate effectively with the AI and Data Science community and society through reports, documentation, and presentations.
+            **PO10** - Communication: Communicate effectively with the AI and Data Science community and society through reports, documentation, and presentations.
 
-         **PO11** - Project Management and Finance: Demonstrate knowledge of project management, finance, and entrepreneurship to lead AI-driven innovations successfully.
+            **PO11** - Project Management and Finance: Demonstrate knowledge of project management, finance, and entrepreneurship to lead AI-driven innovations successfully.
 
-         **PO12** - Lifelong Learning: Engage in continuous learning and research to stay updated with advancements in AI and Data Science for personal and professional growth.
+            **PO12** - Lifelong Learning: Engage in continuous learning and research to stay updated with advancements in AI and Data Science for personal and professional growth.
 
   utter_pso_aids_department:
     - text: |
-        **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
+            **PSO1:** Utilize foundational knowledge in AI, data science, and statistics to design efficient, domain-specific processes for effective decision-making in areas such as business, governance, and various industries.
 
-        **PSO2:** Apply AI and data analytics to extract insights from data, create disruptive solutions, and address complex societal, environmental, and engineering challenges using cutting-edge technologies.
+            **PSO2:** Apply AI and data analytics to extract insights from data, create disruptive solutions, and address complex societal, environmental, and engineering challenges using cutting-edge technologies.
 
-        **PSO3:** Develop skills in data analytics, knowledge engineering, and visualization to manage complex projects, collaborate in multidisciplinary teams, and continuously contribute to economic and societal progress through innovative solutions.
+            **PSO3:** Develop skills in data analytics, knowledge engineering, and visualization to manage complex projects, collaborate in multidisciplinary teams, and continuously contribute to economic and societal progress through innovative solutions.
 
-        These PSOs aim to equip graduates with the necessary skills to excel in the evolving fields of Artificial Intelligence and Data Science.
-  
+            These PSOs aim to equip graduates with the necessary skills to excel in the evolving fields of Artificial Intelligence and Data Science.
+      
   utter_aids_department_info_about:
     - text: |
-        The AI&DS program, approved by AICTE and affiliated with Anna University, Chennai, equips students with skills in Data Science, Machine Learning, Deep Learning, and IoT. It prepares them for careers in AI-driven industries like Healthcare, Banking, and Robotics, meeting the demand for AI professionals in the digital era.
+            The **AI&DS** program, approved by AICTE and affiliated with Anna University, Chennai, equips students with skills in Data Science, Machine Learning, Deep Learning, and IoT. It prepares them for careers in AI-driven industries like Healthcare, Banking, and Robotics, meeting the demand for AI professionals in the digital era.
 
   utter_aids_department_vision:
     - text: |
-        To lead the way in advancing the domains of Artificial Intelligence and Data Sciences, empowering students as future ready leaders equipped with innovation, to address societal issues, and create a meaningful global impact.
+            **VISION OF AIDS**
+                 To lead the way in advancing the domains of Artificial Intelligence and Data Sciences, empowering students as future ready leaders equipped with innovation, to address societal issues, and create a meaningful global impact."
 
   utter_aids_department_mission:
     - text: |
-         1. To empower students by imparting a comprehensive education in the field of Artificial Intelligence and Data Sciences, cultivating a profound grasp of fundamental principles and methodologies in cutting-edge technologies.
+            **MISSION OF AIDS**
+                1. To empower students by imparting a comprehensive education in the field of Artificial Intelligence and Data Sciences, cultivating a profound grasp of fundamental principles and methodologies in cutting-edge technologies.
 
-         2. To cultivate a strong connection with industries to encourage partnerships in technology training, facilitate internships, and prepare students to become industry-ready professionals.
+                2. To cultivate a strong connection with industries to encourage partnerships in technology training, facilitate internships, and prepare students to become industry-ready professionals.
 
-         3. To encourage and endorse students' involvement in research and entrepreneurship with an innovative approach that effectively tackles real-world challenges.
+                3. To encourage and endorse students' involvement in research and entrepreneurship with an innovative approach that effectively tackles real-world challenges.
 
   utter_aids_total_students:
     - text: |
-         The total student count in the AIDS department varies each academic year.
+            Here is the count of students for the current year civil  
+              - Current Batch -> 2024 - 2025
+              - III YEAR: Girls - 17, Boys - 14, Total - 31
+              - II Year: Girls - 35, Boys - 27, Total - 62
+              - Total Girls - 52 , Total Boys - 41, Total Students - 93
 
   utter_aids_female_girls_students:
     - text: |
-          The number of female students in the AIDS department varies.
+            The number of female students in the AIDS department is 52.
   
   utter_aids_male_boys_students:
     - text: |
-          The number of male students in the AIDS department varies.
+            The number of male students in the AIDS department is 41.
   
   utter_aids_lab_facilities:
-    - text: 
-         "You can find details about the lab facilities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/lab%20facilities.pdf"
+    - text: "You can find details about the lab facilities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/lab%20facilities.pdf"
          
   utter_aids_department_activities:
-    - text: 
-         "You can find details about the Department activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsdepactivity.html"
+    - text: "You can find details about the Department activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsdepactivity.html"
 
   utter_aids_student_activities:
-    - text: 
-         "You can find details about the student activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsstudentsactivity.html"
+    - text: "You can find details about the student activities available in the AIDS department at the following link: https://ssmiet.ac.in/aidsstudentsactivity.html"
         
   utter_aids_faculty_activities:
-    - text:
-         "You can find details about the faculty activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/activities/AIDS%20Faculty%20activities%202024-2025.pdf"
+    - text: "You can find details about the faculty activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids/activities/AIDS%20Faculty%20activities%202024-2025.pdf"
 
   utter_aids_research_activities:
-    - text: 
-         "You can find details about the Research activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids-Research.html"
+    - text: "You can find details about the Research activities available in the AIDS department at the following link: https://ssmiet.ac.in/aids-Research.html"
 
   utter_intern_company_aids:
     - text: |
 
-        Here are top companies to get the internship
-          ✅Kevell Global Solution   
-          ✅ Titan Company 
-          ✅ MAHO JASE IT 
-          ✅ BLACKBUCK 
-          ✅ YBI Foundation 
-          ✅ BHEL  
-          ✅  CODSOFT
-          ✅  Infosys Pvt Ltd
-                    
-          📊 Year-wise internship count:
-          🔹 2024-2025 => 37 students
+            Here are top companies to get the internship
+              - Kevell Global Solution   
+              - Titan Company 
+              - MAHO JASE IT 
+              - BLACKBUCK 
+              - YBI Foundation 
+              - BHEL  
+              -  CODSOFT
+              -  Infosys Pvt Ltd
+                        
+              📊 Year-wise internship count:
+              🔹 2024-2025 => 37 students
 
   utter_technical_faculty_aids:
     - text: |
-          The technical faculty in the CSE department are:
-          - Mr. V. ISAC DEVARAJ (Technical Assistant)
+            The technical faculty in the CSE department are:
+            - Mr. V. ISAC DEVARAJ (Technical Assistant)
 
   utter_extra_courses_aids:
     - text: |
-       Here are the value-added courses offered by the AIDS department:
-           1. Java
-           2. Cloud Computing
-           3. Core Java
-           4. Code Tantra
-           5. Ethical Hacking
-           6. Software Testing Tool - Selenium
-           7. Machine Learning
+          Here are the value-added courses offered by the AIDS department:
+              1. Java
+              2. Cloud Computing
+              3. Core Java
+              4. Code Tantra
+              5. Ethical Hacking
+              6. Software Testing Tool - Selenium
+              7. Machine Learning
 
   utter_aids_accreditation:
     - text: |
-       Artificial Intelligence and Data Science (AI&DS) a new program is being introduced and approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai.
+            Artificial Intelligence and Data Science (AI&DS) a new program is being introduced and approved by all India Council for Technical Education (AICTE), Accredited by NAAC and affiliated to Anna University, Chennai.
 
   utter_aids_yearwise_student_count:
     - text: |
-       refer ssmiet website 
+            Here is the count of students for the current year civil  
+              - Current Batch -> 2024 - 2025
+              - III YEAR: Girls - 17, Boys - 14, Total - 31
+              - II Year: Girls - 35, Boys - 27, Total - 62
+              - Total Girls - 52 , Total Boys - 41, Total Students - 93
 
   utter_aids_event_conducted_photos:
     - text: |
