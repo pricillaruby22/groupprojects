@@ -60,11 +60,6 @@ rules:
       - intent: mech_total_students
       - action: utter_mech_total_students
 
-  - rule: Respond to Mechanical female or girls students count
-    steps:
-      - intent: mech_female_girls_students
-      - action: utter_mech_female_girls_students
-
   - rule: Respond to Mechanical male or boys students count
     steps:
       - intent: mech_male_boys_students
@@ -146,6 +141,15 @@ rules:
       - action: utter_mech_faculty_experience_knowledge
 
 
+  - rule: Respond to Mechanical staff count queries
+    steps:
+      - intent: mech_staff_count
+      - action: utter_mech_staff_count
+
+  - rule: Respond to Mechanical Engineering Internship Query
+    steps:
+      - intent: intern_company_mech
+      - action: utter_intern_company_mech
 
 
 
