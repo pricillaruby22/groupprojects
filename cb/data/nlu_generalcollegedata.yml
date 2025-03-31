@@ -1519,25 +1519,6 @@ synonyms:
       - How many buses are available for students?
       - Can I change my bus route after paying the fees?
       - Is there only one bus per stop?     
-
-  - intent: sem_exam_result
-    examples: |
-      - Can you provide the semester exam result link?
-      - Where can I check my semester exam results?
-      - What is the official website for semester exam results?
-      - Please share the link for checking semester results.
-      - How do I access my semester exam results online?
-      - Semester exam result link?
-      - Where to check my semester result?
-      - How to see semester exam marks online?
-      - Give me the website for semester results.
-      - Semester result checking link? 
-      - Where semester result link?
-      - Semester marks where?
-      - How see semester result?
-      - Give me semester result website?
-      - Where see semester exam number?
-      - Semester exam result links
   
   - intent: extracurricular_activites
     examples: |

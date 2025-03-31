@@ -18,22 +18,22 @@ rules:
   - rule: Respond to co-ed inquiries
     steps:
       - intent: coeducation
-      - action: utter_coed_info
+      - action: utter_coeducation
 
   - rule: Respond to entrance exam inquiries
     steps:
       - intent: entrance_exam
-      - action: utter_entrance_exam_info
+      - action: utter_entrance_exam
       
   - rule: Respond to uniform inquiries
     steps:
       - intent: uniform_dresscode
-      - action: utter_uniform_dresscode_info
+      - action: utter_uniform_dresscode
 
   - rule: Respond to book availability
     steps:
       - intent: book_availability
-      - action: utter_book_availability_info
+      - action: utter_book_availability
 
   - rule: Respond to current student total count inquiry
     steps:
@@ -43,7 +43,7 @@ rules:
   - rule: Respond to family visit policy
     steps:
       - intent: family_visit
-      - action: utter_family_visit_info
+      - action: utter_family_visit
 
   - rule: Respond to college location and address query
     steps:
@@ -108,7 +108,7 @@ rules:
   - rule: Respond to fee structure inquiry
     steps:
       - intent: fee_structure
-      - action: utter_fee_structure_info 
+      - action: utter_fee_structure
 
   - rule: Respond to college courses
     steps:
@@ -408,11 +408,6 @@ rules:
       - intent: ask_bus_facility_details
       - action: utter_ask_bus_facility_details  
 
-  - rule: Exam result
-    steps:
-      - intent: sem_exam_result
-      - action: utter_sem_exam_result
-
   - rule: extra_activities
     steps:
       - intent: extracurricular_activites
@@ -425,8 +420,8 @@ rules:
 
   - rule: Respond to GATE coaching inquiries
     steps:
-      - intent: gate_coaching_ques
-      - action: utter_gate_coaching_ques
+      - intent: gate_coaching
+      - action: utter_gate_coaching
 
   - rule: Respond to sports equipment
     steps:
