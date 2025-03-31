@@ -171,6 +171,17 @@ nlu:
       - Are the CSBS labs accessible to students outside class hours?
       - What kind of research work is conducted in the CSBS labs?
 
+  - intent: csbs_department_activities
+    examples: |
+      - What are the department activities conducted by the CSBS department?
+      - How often does the CSBS department organize technical events?
+      - What workshops are conducted by the CSBS department?
+      - What extracurricular activities are available in the CSBS department?
+      - Tell me about CSBS department activities.
+      - Give me the department activities of CSBS
+      - Where can I find the department activities of CSBS?
+      - Show me the department activities of CSBS    
+
   - intent: mou_sign_company_csbs
     examples: |
       - Which companies have signed an MOU with the institution?
@@ -282,5 +293,48 @@ nlu:
       - How many CSBS faculty members have both academic and industry experience?
       - What is the average number of years faculty members have worked at SSMIET?
       - How many faculty members in the CSBS department hold postgraduate degrees?
+
+  - intent: csbs_staff_count
+    examples: |
+      - How many teachers are there in the CSBS department?
+      - How many faculties are there in the CSBS department?
+      - How many staff members are working in the CSBS department?
+      - How many professors are there in the CSBS department?
+      - How many lecturers are present in the CSBS department?
+      - What is the total staff count in the CSBS department?
+      - Can you tell me the number of faculties in CSBS?
+      - How many academic staff are in the CSBS department?
+      - How many teaching staff members are there in CSBS?
+      - What is the number of faculty members in the CSBS department?
+      - How many faculty members are currently teaching in CSBS?
+      - Could you provide the count of staff in the CSBS department?
+      - How many assistant professors are there in the CSBS department?
+      - What is the strength of the teaching faculty in CSBS?
+      - How many working staff does the CSBS department have?
+      - Tell me the number of CSBS department lecturers.
+      - Can you provide the staff details for the CSBS department?
+      - What’s the total number of faculty in CSBS? 
+
+  - intent: csbs_event_conducted_photos
+    examples: |
+      - Can you provide photos of events conducted by the CSBS department?  
+      - Where can I find images of past CSBS department events?  
+      - Do you have a gallery of CSBS department event photos?  
+      - Can you share pictures from recent CSBS department activities?  
+      - Are there any photos available from CSBS department symposiums and workshops?  
+      - How can I access images of hackathons and technical events hosted by the CSBS department?  
+      - Do you have any pictures from cultural events organized by the CSBS department?  
+      - Can I see photos of guest lectures and seminars conducted by the CSBS department?  
+      - Are there any images of student project presentations in the CSBS department?  
+      - Where can I view photos from annual CSBS department functions and celebrations?
+      - What are the events conducted by the CSBS department?
+      - Can you provide a list of events organized by the CSBS department?
+      - What technical events does the CSBS department host?
+      - What cultural programs are conducted by the CSBS department?
+      - Does the CSBS department organize hackathons or coding competitions?
+      - What annual events are held by the CSBS department?
+      - Are there any workshops or seminars conducted by the CSBS department?
+      - Does the CSBS department conduct any inter-college competitions?    
+    
 
 

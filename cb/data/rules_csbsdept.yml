@@ -65,6 +65,11 @@ rules:
       - intent: csbs_lab_facilities
       - action: utter_csbs_lab_facilities
 
+  - rule: Respond to CSBS department activities
+    steps:
+      - intent: csbs_department_activities
+      - action: utter_csbs_department_activities    
+
   - rule: Respond to MOU inquiry
     steps:
       - intent: mou_sign_company_csbs
@@ -102,6 +107,16 @@ rules:
     steps:
       - intent: csbs_faculty_experience_knowledge
       - action: utter_csbs_faculty_experience_knowledge
+
+  - rule: Respond to csbs staff count
+    steps:
+      - intent: csbs_staff_count
+      - action: utter_csbs_staff_count    
+
+  - rule: Respond to CSBS event conducted photo queries
+    steps:
+      - intent: csbs_event_conducted_photos
+      - action: utter_csbs_event_conducted_photos    
 
 
 

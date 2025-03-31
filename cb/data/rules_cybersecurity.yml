@@ -85,3 +85,8 @@ rules:
     steps:
       - intent: cybersecurity_faculty_experience_knowledge
       - action: utter_cybersecurity_faculty_experience_knowledge
+
+  - rule: Respond to cybersecurity staff count
+    steps:
+      - intent: cybersecurity_staff_count
+      - action: utter_cybersecurity_staff_count    
