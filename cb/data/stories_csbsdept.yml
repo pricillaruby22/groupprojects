@@ -60,7 +60,11 @@ stories:
       - intent: csbs_lab_facilities
       - action: utter_csbs_lab_facilities
 
-  
+  - story: CSBS department activities story
+    steps:
+      - intent: csbs_department_activities
+      - action: utter_csbs_department_activities
+
   - story: asks about MOU companies
     steps:
       - intent: mou_sign_company_csbs
@@ -101,3 +105,12 @@ stories:
       - intent: csbs_faculty_experience_knowledge
       - action: utter_csbs_faculty_experience_knowledge
 
+  - story: Provide csbs staff count
+    steps:
+      - intent: csbs_staff_count
+      - action: utter_csbs_staff_count
+
+  - story: CSBS event conducted photo inquiries
+    steps:
+      - intent: csbs_event_conducted_photos
+      - action: utter_csbs_event_conducted_photos
