@@ -23,6 +23,9 @@ nlu:
       - What are the meal options in the canteen?
       - Can I get fast food in the college canteen?
       - Is there a variety of food available in the canteen?
+      - What are the foods available in canteen.
+      - college canteen foods
+      - canteen foods
 
   - intent: ask_canteen_timings
     examples: |

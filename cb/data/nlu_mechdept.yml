@@ -170,17 +170,6 @@ nlu:
       - How many students graduate from the Mechanical department each year?
       - How many students are currently in their final year in Mechanical?
 
-  - intent: mech_female_girls_students
-    examples: |
-      - How many girls are there in the Mechanical department?
-      - What is the total number of female students in the Mechanical department?
-      - How many girls are currently enrolled in the Mechanical department?
-      - What percentage of Mechanical students are girls?
-      - How many female students joined the Mechanical department this year?
-      - How many girls are in each year of the Mechanical department?
-      - Has the number of girls in the Mechanical department increased over the years?
-      - How many female students have graduated from the Mechanical department so far?
-      - What is the trend of female student enrollment in the Mechanical department?
 
   - intent: mech_male_boys_students
     examples: |
@@ -364,6 +353,38 @@ nlu:
       - How many Mechanical faculty members have both academic and industry experience?
       - What is the average number of years Mechanical faculty members have worked at SSMIET?
       - How many faculty members in the Mechanical department hold postgraduate degrees?
-
-
-
+  - intent: mech_staff_count
+    examples: |
+      - How many teachers are there in the Mechanical department?
+      - How many faculties are there in the Mech department?
+      - How many staff members are working in the Mechanical department?
+      - How many professors are there in the Mechanical department?
+      - How many lecturers are present in the Mechanical department?
+      - What is the total staff count in the Mechanical department?
+      - Can you tell me the number of faculties in Mechanical?
+      - How many academic staff are in the Mechanical department?
+      - How many teaching staff members are there in Mechanical?
+      - What is the number of faculty members in the Mechanical department?
+      - How many faculty members are currently teaching in Mechanical?
+      - Could you provide the count of staff in the Mech department?
+      - How many assistant professors are there in the Mechanical department?
+      - What is the strength of the teaching faculty in Mechanical?
+      - How many working staff does the Mech department have?
+      - Tell me the number of Mechanical department lecturers.
+      - Can you provide the staff details for the Mechanical department?
+      - What’s the total number of faculty in Mechanical?
+      
+  - intent: intern_company_mech
+    examples: |
+      - Which companies provide internships for Mechanical Engineering students?
+      - What are the companies that offer internships in the Mechanical Engineering department?
+      - Can you list some companies that provide internship opportunities for mechanical students?
+      - Tell me about companies that offer internships for Mechanical Engineering students.
+      - Can you name some companies that offer student internships in Mechanical Engineering?
+      - How many Mechanical Engineering students got internships?
+      - Give me the year-wise placed Mechanical Engineering students' internship count.
+      - Can you provide the number of Mechanical Engineering students who did internships each year?
+      - Tell me how many Mechanical Engineering students did internships in previous years.
+      - What is the yearly count of Mechanical Engineering students who got internships?
+      - List the number of Mechanical Engineering students who got internships year by year.
+      - How many Mechanical Engineering students secured internships each academic year?

@@ -1,3 +1,4 @@
+version: "3.1"
 rules:
   - rule: Respond to Civil HOD Details
     steps:
@@ -107,3 +108,28 @@ rules:
     steps:
       - intent: civil_faculty_experience_knowledge
       - action: utter_civil_faculty_experience_knowledge
+
+  - rule: Respond to civil year-wise student count
+    steps:
+      - intent: civil_yearwise_student_count
+      - action: utter_civil_yearwise_student_count
+
+  - rule: Respond to placement_civil query
+    steps:
+      - intent: placement_civil
+      - action: utter_placement_civil
+      
+  - rule: Respond to accreditation queries
+    steps:
+      - intent: civil_accreditation
+      - action: utter_civil_accreditation
+
+  - rule: Respond to civil_event_conducted_photos query
+    steps:
+      - intent: civil_event_conducted_photos
+      - action: utter_civil_event_conducted_photos
+
+  - rule: Respond to civil staff count
+    steps:
+      - intent: civil_staff_count
+      - action: utter_civil_staff_count

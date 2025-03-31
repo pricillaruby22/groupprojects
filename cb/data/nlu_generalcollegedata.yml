@@ -574,7 +574,7 @@ nlu:
       - Is there any trip for students
       - Is there any field trip is available for students
 
-  - intent: admission_deadline_lastdate
+  - intent: admission_apply_lastdate
     examples: |
       - When is the last date to apply for admission?
       - What is the admission closing date?
@@ -701,6 +701,7 @@ nlu:
       - Give me entire college placement details.
       - I need placement details in your college
       - Give me placements counts in your college
+      - How many students from each department get placed every year?
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
@@ -939,7 +940,7 @@ nlu:
   - intent: smart_classrooms_projector
     examples: |
       - Does the college have smart classrooms?
-      -        How many smart classrooms are available on campus?
+      - How many smart classrooms are available on campus?
       - What technologies are equipped in the smart classrooms?
       - Are all classrooms upgraded to smart classrooms?
       - How do smart classrooms enhance the learning experience?
@@ -970,6 +971,9 @@ nlu:
       - What factors contribute to higher placement rates in certain departments?
       - How do industry trends affect placement rates across different departments?
       - Has the placement rate for any department improved significantly over the years?
+      - which is the most demand department now?
+      - which is most trends department according to industry?
+      - most highest placement department
 
   - intent: eligible_student_placement_opportunities
     examples: |
@@ -982,10 +986,14 @@ nlu:
       - What measures does the college take to improve placement opportunities for all eligible students?
       - How do students who don’t get placed through campus drives find jobs?
       - What strategies are used to increase placement opportunities for students in low-demand fields?
+      - did all the students got placed in the campus interviews?
+      - how do you improve placement opportunities?
+      - how do you increase job or hiring or career opportunities
+      - Did college ensure that all eligible students get job opportunities?
+      - Do students from every department get placed?
 
   - intent: each_all_department_get_placed
     examples: |
-      - How many students from each department get placed every year?
       - Do some departments have higher placement numbers than others?
       - Is placement available for students in all departments?
       - What is the average number of students placed in each department annually?
@@ -994,6 +1002,7 @@ nlu:
       - What trends have been observed in department-wise placements over the past five years?
       - How does the placement cell support departments with lower placement rates?
       - What initiatives are taken to improve placement numbers for underrepresented departments?
+      - Do all the department get placements or not?
 
   - intent: ssmiet_college_ranking
     examples: |
@@ -1004,8 +1013,12 @@ nlu:
       - SSMIET ranking in 2024,2025?
       - What is the position of SSM Institute in Anna University rankings?
       - Where does SSM Institute of Engineering and Technology stand in Tamil Nadu rankings?
+      - position of SSM college in the whole colleges.
+      - Grade of the SSMIET college?
+      - what is the reputation of the SSMIET college?
+      - SSMIET Ranking
 
-  - intent: ssmiet_orgaization_clubs
+  - intent: ssmiet_organization_clubs
     examples: |
       - Are there any clubs in this college/organisation?
       - What clubs are available in this college/organization?
@@ -1013,6 +1026,7 @@ nlu:
       - Tell me about the clubs in your college.
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
+      - clubs in the SSMIET college
 
   - intent: college_events_annual_symposium
     examples: |
@@ -1047,6 +1061,8 @@ nlu:
       - Is there any department-wise celebration or special event?
       - Does the college conduct fresher’s day for new students?
       - Is there any cultural festivals and other festival celebrations ?
+      - Is there any Freshers Day in the SSMIET college?
+      - college events,symposium,events,freshers day and culturals
 
   - intent: first_year_1st_students_count
     examples: |
@@ -1118,6 +1134,9 @@ nlu:
       - What were the initial challenges faced by SSMIET?
       - How has SSMIET contributed to student career development over the years?
       - Tell me about the journey of SSMIET.
+      - Tell me about the college Background of SSMIET
+      - Overview of the college
+      - origin of the college
       - college history
 
   - intent: average_campus_placement
@@ -1132,6 +1151,7 @@ nlu:
       - How does SSMIET ensure a consistent average placement rate?
       - What initiatives have helped improve the average student placement?
       - How does the current year’s placement compare to the average placement of previous years?
+      - Average recruitment rate in the college
 
   - intent: yearwise_student_count_ssmiet
     examples: |
@@ -1145,6 +1165,14 @@ nlu:
       - What is the breakdown of students by year in SSMIET?
       - How many students are there in each academic year of SSMIET?
       - What is the total number of students per year in SSMIET?
+      - total student count for the past four years in SSMIET college
+      - total number of students for the past four years in SSMIET college
+      - year wise total students strength
+      - annual student count in SSMIET
+      - year wise students data
+      - Year wise student admission numbers
+      - yearwise total students intake in the college
+      - yearwise student statistics in ssmiet
 
   - intent: placement_training
     examples: |
@@ -1168,6 +1196,8 @@ nlu:
       - Are there any special coaching classes for weak students?
       - Do companies visit the campus to give training?
       - Is placement training free or do students have to pay for it?
+      - Recruitment training is available or not
+      - placement training available or not in the ssmiet college
 
   - intent: student_feedback
     examples: |
@@ -1222,7 +1252,10 @@ nlu:
       - Where can I see the recruitment schedule?
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
-      
+      - hiring Industry of the college?
+      - Job Providers of the college
+      - Placement or Hiring Partners of the college
+
   - intent: sports_achievements
     examples: |
       - What are all the sports available in this college?
@@ -1239,6 +1272,8 @@ nlu:
       - Did we win any inter-college tournaments?
       - Can I join a sports team?
       - Where can I check the sports achievements?
+      - sports achievements
+
   - intent: software_lab_details
     examples: |
       - What are the software available in labs?
@@ -1251,6 +1286,11 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
+<<<<<<< HEAD
+       
+=======
+                 
+>>>>>>> c31d9e423d203661e5e77c9c52bc622b94ed4776
   - intent: ask_lab_hardware
     examples: |
       - Tell me about your lab components
@@ -1279,6 +1319,9 @@ nlu:
       - How many faculty members are there?
       - What is the teaching and non-teaching staff count?
       - Staff statistics for past years?
+      - Faculty count for the past four years?
+      - yearwise faculty count in the college
+      - total staffs or faculty or professor each year in the college
     
 synonyms:
   - synonym: recruitment
@@ -1498,6 +1541,7 @@ synonyms:
       - How see semester result?
       - Give me semester result website?
       - Where see semester exam number?
+      - Semester exam result links
   
   - intent: extracurricular_activites
     examples: |
@@ -1532,6 +1576,9 @@ synonyms:
       - What are the available payment methods for paying fees?
       - Can fees be paid through UPI or net banking?
       - Is there an online portal for fee payment?
+      - Give the account details for fees payment.
+      - Fee Payment Details
+      - Where to pay the fees.Is there any account details to pay?
 
   - intent: gate_coaching
     examples: |
@@ -1544,7 +1591,11 @@ synonyms:
       - Does the college provide study materials for GATE?
       - Are there any online or offline GATE tutorial sessions available?
       - Is GATE coaching included in the regular curriculum?
+      - Gate Coaching
       - Are external coaching centers partnered with the college for GATE training?
+      - Are GATE practice tests available for students?
+      - Gate Coaching is available in your college
+      - Does the college offer counseling for GATE aspirants?
 
   - intent: sports_equipment
     examples: | 
@@ -1580,6 +1631,61 @@ synonyms:
       - How do we revise the curriculum based on industry trends?
       - Do we incorporate industry certifications and real-world projects in the syllabus?
       - how the ssmietcollege manage in keeping the curriculum relevant?
+
+  - intent: erp_login
+    examples: |
+        - How can faculty log in?
+        - Where is the faculty login page?
+        - Staff login link?
+        - Can teachers log in here?
+        - Login portal for faculty?
+        - How can students log in?
+        - Student login portal?
+        - Where do I enter student credentials?
+        - Access student dashboard?
+        - Student login details?
+        - Parent login page?
+        - How do parents log in?
+        - Where can parents check student details?
+        - Parent portal login?
+        - Parent login details?
+        - ERP login link?
+        - How do I log in to the ERP system?
+        - Access ERP portal?
+        - Where is the ERP dashboard?
+        - Login credentials for ERP?
+        - How do students log in to the ERP portal?
+        - Where can parents check student progress?
+        - How can I track my progress?
+        - Can I see my dashboard ?
+        - How can I see my personal details?
+        - Where can I find my student details?
+        - How do I check my profile in SSMIET?
+        - Show my details.
+        - I want to view my personal information.
+        - How can I check my attendance?
+        - How do I check my attendance status?
+        - How do I access my attendance details in SSMIET?
+        - Where can I find my monthly attendance?
+        - How do I check my subject-wise attendance?
+        - Can I view my total attendance percentage?
+        - Show my attendance report.
+        - How do I log in to the SSMIET student portal to check my attendance?
+        - Where can I find my attendance percentage for each subject?
+        - How do I retrieve my attendance records for the entire semester?
+        - Can I check my daily attendance and absentees list?
+        - What is the process to view my attendance report and download it?
+        - Where can I find my library card details?
+        - How can I check the lesson details
+        - Can you give me mark details or CGPA details of ssmiet
+        - When can I find the profile in ssmiet?
+        - I am studing the college ssmiet. So Give me my profile 
+        - Give me erp login link
+        - Where I find the student login or student portal?
+        - Can you give me faculty login or faculty portal
+        - attendance details
+        - give me my profile
+        - erp login
 
   - intent: goodbye
     examples: |

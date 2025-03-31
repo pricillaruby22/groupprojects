@@ -77,8 +77,8 @@ rules:
 
   - rule: Answer admission deadline and last date query
     steps:
-      - intent: admission_deadline_lastdate
-      - action: utter_admission_deadline_lastdate
+      - intent: admission_apply_lastdate
+      - action: utter_admission_apply_lastdate
 
   - rule: Answer SSMIET branches or campus query
     steps:
@@ -274,7 +274,6 @@ rules:
     steps:
       - intent: ssmiet_organization_clubs
       - action: utter_ssmiet_organization_clubs
-      
   
   - rule: Respond to college events or annual day or sumposium or college day queries
     steps:
@@ -426,8 +425,8 @@ rules:
 
   - rule: Respond to GATE coaching inquiries
     steps:
-      - intent: gate_coaching
-      - action: utter_gate_coaching
+      - intent: gate_coaching_ques
+      - action: utter_gate_coaching_ques
 
   - rule: Respond to sports equipment
     steps:
@@ -438,6 +437,11 @@ rules:
     steps:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry
+
+  - rule: Respond to erp login
+    steps:
+      - intent: erp_login
+      - action: utter_erp_login
 
   - rule: Say goodbye anytime the user says goodbye
     steps:

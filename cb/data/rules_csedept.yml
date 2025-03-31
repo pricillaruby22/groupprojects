@@ -29,6 +29,7 @@ rules:
     steps:
       - intent: cse_course_outcomes
       - action: utter_cse_course_outcomes
+      
   - rule: Respond to technical faculty in CSE
     steps:
       - intent: technical_faculty_cse
@@ -106,13 +107,13 @@ rules:
   
   - rule: Respond to MOU inquiry
     steps:
-      - intent: mou_sign_company
-      - action: utter_mou_sign_company
+      - intent: cse_mou_sign_company
+      - action: utter_cse_mou_sign_company
     
   - rule: Respond to internship companies
     steps:
-      - intent: intern_company
-      - action: utter_intern_company
+      - intent: cse_intern_company
+      - action: utter_cse_intern_company
   
   - rule: Provide cse contact details
     steps:
@@ -126,13 +127,13 @@ rules:
 
   - rule: Respond to placement company names in CSE
     steps:
-      - intent: placement_company_names
-      - action: utter_placement_company_names      
+      - intent: cse_placement_company_names
+      - action: utter_cse_placement_company_names      
 
-  - rule: Respond to accreditation queries
+  - rule: Respond to accrediation queries
     steps:
-      - intent: ask_cse_accreditation
-      - action: utter_cse_accreditation
+      - intent: ask_cse_accrediation
+      - action: utter_cse_accrediation
 
   - rule: Respond to CSE year-wise student count queries
     steps:
@@ -148,6 +149,7 @@ rules:
     steps:
       - intent: cse_faculty_experience_knowledge
       - action: utter_cse_faculty_experience_knowledge
+
   - rule: Respond to cse staff count
     steps:
       - intent: cse_staff_count

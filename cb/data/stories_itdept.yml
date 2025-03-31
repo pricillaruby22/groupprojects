@@ -80,7 +80,16 @@ stories:
       - intent: it_faculty_experience_knowledge
       - action: utter_it_faculty_experience_knowledge
 
-
+  
+  - story: Information Technology Department Contact Inquiry
+    steps:
+      - intent: it_contact
+      - action: utter_it_contact
+  
+  - story: Information Technology Staff Count Inquiry
+    steps:
+      - intent: it_staff_count
+      - action: utter_it_staff_count
 
 
 

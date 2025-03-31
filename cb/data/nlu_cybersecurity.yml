@@ -225,4 +225,25 @@ nlu:
       - What is the average number of years Cybersecurity faculty members have worked at SSMIET?
       - How many faculty members in the cyber department hold postgraduate degrees?
 
+  - intent: cybersecurity_staff_count
+    examples: |
+      - How many teachers are there in the cybersecurity department?
+      - How many faculties are there in the cyber department?
+      - How many staff members are working in the cybersecurity department?
+      - How many professors are there in the cyber department?
+      - How many lecturers are present in the cybersecurity department?
+      - What is the total staff count in the cyber department?
+      - Can you tell me the number of faculties in cybersecurity?
+      - How many academic staff are in the cyber department?
+      - How many teaching staff members are there in cybersecurity?
+      - What is the number of faculty members in the cyber department?
+      - How many faculty members are currently teaching in cybersecurity?
+      - Could you provide the count of staff in the cyber department?
+      - How many assistant professors are there in the cybersecurity department?
+      - What is the strength of the teaching faculty in cyber?
+      - How many working staff does the cybersecurity department have?
+      - Tell me the number of cyber department lecturers.
+      - Can you provide the staff details for the cybersecurity department?
+      - What’s the total number of faculty in cyber?     
+
 

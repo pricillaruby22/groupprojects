@@ -151,8 +151,8 @@ stories:
       - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
-      - intent: admission_deadline_lastdate
-      - action: utter_admission_deadline_lastdate
+      - intent: admission_apply_lastdate
+      - action: utter_admission_apply_lastdate
 
   - story: respond to SSMIET branches or campus query
     steps:
@@ -426,8 +426,8 @@ stories:
 
   - story: User asks about GATE coaching
     steps:
-      - intent: gate_coaching
-      - action: utter_gate_coaching
+      - intent: gate_coaching_ques
+      - action: utter_gate_coaching_ques
       
   - story: User asks about sports equipment
     steps:
@@ -438,6 +438,11 @@ stories:
     steps:
       - intent: curriculum_relevance_industry
       - action: utter_curriculum_relevance_industry 
+
+  - story: User asks about erp login
+    steps: 
+      - intent: erp_login
+      - action: utter_erp_login
 
   - story: Say goodbye anytime the user says goodbye
     steps:
