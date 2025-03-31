@@ -35,10 +35,10 @@ stories:
       - intent: book_availability
       - action: utter_book_availability_info
 
-  - story: Student total count inquiry
+  - story: Current student total count inquiry
     steps:
-      - intent: student_total_count
-      - action: utter_student_total_count
+      - intent: current_student_total_count
+      - action: utter_current_student_total_count
 
   - story: Family visit inquiry
     steps:
@@ -59,11 +59,6 @@ stories:
     steps: 
       - intent: NBA_accredited_dept 
       - action: utter_NBA_accredited_dept
-
-  - story: respond to bus facility query
-    steps:
-      - intent: bus_facility
-      - action: utter_bus_facility
 
   - story: respond to principal details query
     steps:
@@ -214,51 +209,6 @@ stories:
       - intent: admission_documents
       - action: utter_admission_documents
 
-  - story: User asks about counselling process
-    steps:
-      - intent: counselling_process
-      - action: utter_counselling_process
-
-  - story: User asks about college benefits
-    steps:
-      - intent: college_benefits
-      - action: utter_college_benefits
-
-  - story: User asks about staff count
-    steps:
-      - intent: staff_count
-      - action: utter_staff_count
-
-  - story: User asks about bank loans
-    steps:
-      - intent: bank_loans
-      - action: utter_bank_loans
-
-  - story: Answer Faculty or staff or professors experience and qualification inquiry
-    steps:
-      - intent: staff_professors_faculty_qualifications_experience
-      - action: utter_staff_professors_faculty_qualifications_experience
-
-  - story: User asks about college working hours
-    steps:
-      - intent: college_timing
-      - action: utter_college_timing
-
-  - story: User asks about scholarship details
-    steps:
-      - intent: scholarship_details
-      - action: utter_scholarship_details
-
-  - story: User asks about academic calendar
-    steps:
-      - intent: academic_calendar
-      - action: utter_academic_calendar
-
-  - story: User asks about admission documents
-    steps:
-      - intent: admission_documents
-      - action: utter_admission_documents
-  
   - story: User asks about counselling process
     steps:
       - intent: counselling_process
@@ -457,7 +407,7 @@ stories:
   - story: User asks about bus facility
     steps:
       - intent: ask_bus_facility_details
-      - action: utter_bus_facility_details    
+      - action: utter_ask_bus_facility_details    
 
   - story: semester exam results
     steps:
@@ -469,10 +419,10 @@ stories:
       - intent: extracurricular_activites
       - action: utter_extracurricular_activites
 
-  - story: User asks about fee payment details
+  - story: User asks about fee online payment details and account number or bank name
     steps:
-      - intent: fee_payment
-      - action: utter_fee_payment
+      - intent: fee_online_payment_details_account_number_bank_name
+      - action: utter_fee_online_payment_details_account_number_bank_name
 
   - story: User asks about GATE coaching
     steps:
