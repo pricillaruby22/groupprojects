@@ -13,7 +13,7 @@ stories:
   - story: User asks about online courses
     steps:
       - intent: ask_online_courses
-      - action: utter_online_courses
+      - action: utter_ask_online_courses
 
   - story: Co-ed inquiry story
     steps:
@@ -151,8 +151,8 @@ stories:
       - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate
-      - action: utter_admission_apply_lastdate
+      - intent: admission_apply_lastdate_deadline
+      - action: utter_admission_apply_lastdate_deadline
 
   - story: respond to SSMIET branches or campus query
     steps:

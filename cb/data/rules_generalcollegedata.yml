@@ -13,7 +13,7 @@ rules:
   - rule: Respond to online course queries
     steps:
       - intent: ask_online_courses
-      - action: utter_online_courses
+      - action: utter_ask_online_courses
 
   - rule: Respond to co-ed inquiries
     steps:
@@ -77,8 +77,8 @@ rules:
 
   - rule: Answer admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate
-      - action: utter_admission_apply_lastdate
+      - intent: admission_apply_lastdate_deadline
+      - action: utter_admission_apply_lastdate_deadline
 
   - rule: Answer SSMIET branches or campus query
     steps:

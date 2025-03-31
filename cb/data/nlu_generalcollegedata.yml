@@ -574,7 +574,7 @@ nlu:
       - Is there any trip for students
       - Is there any field trip is available for students
 
-  - intent: admission_apply_lastdate
+  - intent: admission_apply_lastdate_deadline
     examples: |
       - When is the last date to apply for admission?
       - What is the admission closing date?
@@ -1286,11 +1286,7 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
-<<<<<<< HEAD
-       
-=======
                  
->>>>>>> c31d9e423d203661e5e77c9c52bc622b94ed4776
   - intent: ask_lab_hardware
     examples: |
       - Tell me about your lab components
