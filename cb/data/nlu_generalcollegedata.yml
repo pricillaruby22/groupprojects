@@ -607,7 +607,8 @@ nlu:
   - intent: campus_college_visit
     examples: |
       - Can I visit the college before taking admission?
-      - Is it possible to tour the campus before admission?
+      - Is it possible to see or visit the campus before admission?
+      - can i view or visit the college or university before admission? 
       - Can I see the college facilities before applying?
       - Is a campus visit allowed before admission?
       - Can I come to the college to check the infrastructure before enrolling?
@@ -1371,16 +1372,7 @@ synonyms:
       - What are the punishments for ragging?
       - Who should I contact if I face any issues related to ragging?
       - How does the college handle false complaints about ragging?
-
-  - intent: bus_facility
-    examples: |
-      - Does the college provide a bus facility?
-      - What are the bus facilities available at the college?
-      - From which locations do the college buses operate?
-      - How many buses are available for students?
-      - Can I change my bus route after paying the fees?
-      - Is there only one bus per stop?
-
+ 
   - intent: ask_bus_seat_fcfs
     examples: |
       - Is the bus seating on a first-come, first-served basis?
@@ -1414,17 +1406,6 @@ synonyms:
       - How are bus seats assigned? Is it by reservation?
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
-
-  - intent: bus_facility_details
-    examples: |
-      - Can you provide detailed information about the bus facility?
-      - How does the seating arrangement work on the buses?
-      - What happens if the bus is full?
-      - Are there specific timings for different bus routes?
-      - Is there a seat reservation system for buses?
-      - Do staff members also have access to the bus facility?
-      - Is there a helpline for bus-related issues?
-      - Who should I contact for more details about the transport facility?
 
   - intent: ask_campus_general_photos
     examples: |
@@ -1527,7 +1508,21 @@ synonyms:
       - What is the fare for the college bus service?
       - Are the buses air-conditioned?
       - What should I do if I miss my bus?
-      - Is there a helpline for bus-related issues?           
+      - Is there a helpline for bus-related issues?   
+      - Can you provide detailed information about the bus facility?
+      - How does the seating arrangement work on the buses?
+      - What happens if the bus is full?
+      - Are there specific timings for different bus routes?
+      - Is there a seat reservation system for buses?
+      - Do staff members also have access to the bus facility?
+      - Is there a helpline for bus-related issues?
+      - Who should I contact for more details about the transport facility?   
+      - Does the college provide a bus facility?
+      - What are the bus facilities available at the college?
+      - From which locations do the college buses operate?
+      - How many buses are available for students?
+      - Can I change my bus route after paying the fees?
+      - Is there only one bus per stop?     
 
   - intent: sem_exam_result
     examples: |
@@ -1566,7 +1561,7 @@ synonyms:
         - Events have hostel?
         - Sports hostel give?
 
-  - intent: fee_payment
+  - intent: fee_online_payment_details_account_number_bank_name
     examples: |
       - What is the bank name for fee payment?
       - Which bank is used for fee transactions at SSMIET?
