@@ -379,7 +379,7 @@ responses:
 
   utter_admission_process:
     - text: |
-            Admission Process can be done in both offline and online 
+            Admission Process can be done in both online and offline 
             **For Offline**:
             You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
                 - **Dr. S. Joseph Dominic Vijayakumar**,
