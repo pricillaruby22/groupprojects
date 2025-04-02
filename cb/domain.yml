@@ -13,7 +13,7 @@ intents:
   - college_location_address
   - college_name_private_anna_university
   - principal_details
-  - collegel_details
+  - current_student_total_count
   - college_contact_email
   - college_distance_travel_time
   - fee_structure
@@ -29,7 +29,7 @@ intents:
   - First_graduate
   - fee_payment_other_than_tutionfee
   - about_industrial_visit
-  - admission_apply_lastdate
+  - admission_apply_lastdate_deadline
   - ssmiet_branches_campus
   - campus_college_visit
   - admission_start_date
@@ -70,14 +70,14 @@ intents:
   - sports_achievements
   - software_lab_details
   - ask_lab_hardware
-  - staff_professor_count
-  - sem_exam_result
+  - staff_professor_count 
   - extracurricular_activites
   - fee_payment
-  - gate_coaching_ques
+  - gate_coaching
   - ask_campus_general_photos
   - erp_login
   - NBA_accredited_dept
+  - fee_online_payment_details_account_number_bank_name
   - btech_courses
   - be_courses
   - cse_hod_details
@@ -119,9 +119,7 @@ intents:
   - hostel_restroom_facilities
   - hostel_fee
   - overall_hostel_details
-  - ask_ragging
-  - bus_facility
-  - ask_bus_seat
+  - ask_ragging 
   - ask_bus_seat_fcfs
   - ask_bus_seat_full
   - ask_bus_seat_no_reservation
@@ -373,10 +371,11 @@ intents:
   - sports_equipment
   - goodbye
 
+
 responses:
   utter_greet:
     - text: |
-        Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
+            Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
 
   utter_admission_process:
     - text: |
@@ -397,28 +396,34 @@ responses:
                 - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
                 - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
-  utter_online_courses:
-    - text: "No, we **don't offer online courses** and distance learning options."
+  utter_ask_online_courses:
+    - text: |
+            we **don't offer online courses** and distance learning options.
   
-  utter_coed_info:
+  utter_coeducation:
     - text: | 
-        Yes, this is a **co-educational college** where both boys and girls study together.
-        The institution follows certain protocols to ensure a safe and respectful environment for all students
+            Yes, this is a **co-educational college** where both boys and girls study together.
+            The institution follows certain protocols to ensure a safe and respectful environment for all students.
 
-  utter_entrance_exam_info:
-    - text: "There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process"
+  utter_entrance_exam:
+    - text: |
+            There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process.
   
-  utter_uniform_dresscode_info:
-    - text: " Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone."
+  utter_uniform_dresscode:
+    - text: |
+            Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone.
   
-  utter_book_availability_info:
-    - text: "The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details."
+  utter_book_availability:
+    - text: |
+            The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details.
   
   utter_current_student_total_count:
-    - text: "The current student count in our college is 1567.These numbers may vary slightly each year."
+    - text: |
+            The current student count in our college is 1567.These numbers may vary slightly each year.
 
-  utter_family_visit_info:
-    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+  utter_family_visit:
+    - text: |
+            Family visits are permitted in the hostel during designated visiting hours on weekends.  
 
   utter_college_location_address:
     - text: |
@@ -436,7 +441,7 @@ responses:
   
   utter_NBA_accredited_dept: 
   - text: |
-       The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
+          The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
           
   utter_principal_details:
     - text: |
@@ -452,108 +457,111 @@ responses:
                 - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
 
   utter_college_contact_email:
-    - text: "**Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com"
+    - text: |
+            **Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com
 
   utter_college_distance_travel_time:
-    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, checkout this link 'https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link'."
+    - text: |
+            It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, checkout this link 'https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link'.
   
-  utter_fee_structure_info:
-    - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+  utter_fee_structure:
+    - text: |
+            The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information.
  
   utter_college_courses:
     - text: |
-          Our College Offers Various Courses:     
-            - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
-            - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
-            - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
-            - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
+            Our College Offers Various Courses:     
+              - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
+              - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
+              - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
+              - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
 
   utter_be_courses:
     - text: |
-        The different BE courses available. They are,
-            - Civil Engineering
-            - Electronics and Communication Engineering (ECE)
-            - Electrical and Electronics Engineering (EEE)
-            - Mechanical Engineering
-            - Computer Science and Engineering (CSE)
-            - Computer Science and Engineering (Cyber Security)
-            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+            The different BE courses available. They are,
+              - Civil Engineering
+              - Electronics and Communication Engineering (ECE)
+              - Electrical and Electronics Engineering (EEE)
+              - Mechanical Engineering
+              - Computer Science and Engineering (CSE)
+              - Computer Science and Engineering (Cyber Security)
+              - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
 
   utter_btech_courses:
     - text: |
-         The different BTech courses available. They are,
-            - Artificial Intelligence and Data Science
-            - Computer Science and Business System
-            - Information Technology
+            The different BTech courses available. They are,
+              - Artificial Intelligence and Data Science
+              - Computer Science and Business System
+              - Information Technology
 
   utter_college_ug_courses:
     - text: |
-          **Undergraduate Courses(B.E & B.Tech)**:
+            **Undergraduate Courses(B.E & B.Tech)**:
 
-          **B.E. Programs:**
-            - Civil Engineering
-            - Electronics and Communication Engineering (ECE)
-            - Electrical and Electronics Engineering (EEE)
-            - Mechanical Engineering
-            - Computer Science and Engineering (CSE)
-            - Computer Science and Engineering (Cyber Security)
-            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+            **B.E. Programs:**
+              - Civil Engineering
+              - Electronics and Communication Engineering (ECE)
+              - Electrical and Electronics Engineering (EEE)
+              - Mechanical Engineering
+              - Computer Science and Engineering (CSE)
+              - Computer Science and Engineering (Cyber Security)
+              - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
 
-          **B.Tech. Programs:**
-            - Artificial Intelligence and Data Science (AI&DS)
-            - Computer Science and Business Systems (CSBS)
-            - Information Technology (IT)
+            **B.Tech. Programs:**
+              - Artificial Intelligence and Data Science (AI&DS)
+              - Computer Science and Business Systems (CSBS)
+              - Information Technology (IT)
 
   utter_college_pg_courses:
     - text: |
-          **PostGraduate Courses(M.E)**:
-            - Communication Systems
-            - Thermal Engineering
+            **PostGraduate Courses(M.E)**:
+              - Communication Systems
+              - Thermal Engineering
             
   utter_college_phd_courses:
     - text: |
-          **Ph.D Courses**:
-            - Information & Communication Engineering
-            - Mechanical Engineering
-            - Physics and Mathematics
+            **Ph.D Courses**:
+              - Information & Communication Engineering
+              - Mechanical Engineering
+              - Physics and Mathematics
 
   utter_college_courses_duration:
     - text: |
-          **The Duration of the Courses**:
-            - Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
-            - Postgraduate (M.E.) - 2 years (4 semesters)
-            - Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
+            **The Duration of the Courses**:
+              - Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
+              - Postgraduate (M.E.) - 2 years (4 semesters)
+              - Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
 
   utter_college_admission_form:
     - text: |
-          - The form is available online. Click the link to access it.
-          - Fill in the required details and submit it.
-          - If you need help, contact the admission office.
-          - Make sure to check deadlines and required documents before submission.
+            - The form is available online. Click the link to access it.
+            - Fill in the required details and submit it.
+            - If you need help, contact the admission office.
+            - Make sure to check deadlines and required documents before submission.
 
-          **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+            **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
 
   utter_college_admission_eligibility:
     - text: |
-         **Admission eligibility depends on the course you choose**:
+            **Admission eligibility depends on the course you choose**:
 
-         - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
-         - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage
-         - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
-         - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
-         - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
+            - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
+            - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage
+            - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
+            - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
+            - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
 
   utter_available_internships_and_placements:
     - text: |
-             SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs
-             Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
-             Placement Details
-               - 2018-2019(206-Students)
-               - 2019-2020(273-Students)
-               - 2020-2021(101-Students)
-               - 2021-2022(200-Students)
-               - 2022-2023(117-Students)
-             Top recruiters include 
+            SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs.
+            Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
+            Placement Details
+              - 2018-2019(206-Students)
+              - 2019-2020(273-Students)
+              - 2020-2021(101-Students)
+              - 2021-2022(200-Students)
+              - 2022-2023(117-Students)
+            Top recruiters include 
               ✅ 5K Car Care
               🏭 ABI-SHOWATECH
               🚛 ASHOK LEYLAND
@@ -579,20 +587,22 @@ responses:
               🌍 WIPRO
               🚗 Valeo
               🤖 UNIVERSAL Automation Systems
-             For more details, contact the placement office atFor contact us:
-             - Mr.C.Silambarasan M.E.,
+            For more details, contact the placement office atFor contact us:
+              - Mr.C.Silambarasan M.E.,
                   Training and Placement officer,
                   SSM Institute of Engineering and Technology,
                   Dindigul - 624 002,
                   Tamil Nadu, India
                   Phone: 7373707001
-                  E-mail Id: placement.ssmiet@gmail.com"
+                  E-mail Id: placement.ssmiet@gmail.com
 
   utter_change_the_course:
-    - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance contact=>+Phone:0451-244-8800-899 Email:ssmietdgl@gmail.com "
+    - text: |
+            Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance contact=>+Phone:0451-244-8800-899 Email:ssmietdgl@gmail.com 
 
   utter_First_graduate:
-    - text: "The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
+    - text: |
+            The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
               Students of SSMIET are eligible to avail various government scholarships such as,
               * BC /MBC Scholarship
               * Govt. of India post metric Scholarship (SC / ST / SCA Students)
@@ -600,10 +610,11 @@ responses:
               * MOMA Scholarship (BCM, Christianity)
               * AICTE Scholarship (All category of Girl Students only)
               * NHFDC Scholarship (All category of Differently abled Students)
-              * GQ 7.5 (6th to 12th Government School studied category)"
+              * GQ 7.5 (6th to 12th Government School studied category)
 
   utter_fee_payment_other_than_tutionfee:
-    - text: "Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information"
+    - text: |
+            Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information.
 
   utter_about_industrial_visit:
     - text: |
@@ -614,260 +625,271 @@ responses:
             ![IV photo 3](https://i.ibb.co/4nDHJqQ9/5.jpg)
             ![IV photo 3](https://i.ibb.co/WWM3fTp2/aids-2.jpg)
             
-  utter_admission_apply_lastdate:
-    - text: "This is the end date for admission, and there is no extension for the admission deadline."
+  utter_admission_apply_lastdate_deadline:
+    - text: |
+            This is the end date for admission, and there is no extension for the admission deadline.
 
   utter_ssmiet_branches_campus:
-    - text: "No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul."
+    - text: |
+            No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul.
 
   utter_campus_college_visit:
-    - text: "Yeah, sure! You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms."
+    - text: |
+            You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms.
 
   utter_admission_start_date:
-    - text: "Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released."
+    - text: |
+            Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released.
 
   utter_lateral_entry:
-    - text: "Yes, SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria."
-  
+    - text: |
+            SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria.
+
   utter_Sports_NCC_government_management_quota:
-    - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
+    - text: |
+            SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link].
 
   utter_placement_details_campus:
     - text: | 
-        **Placement Details**:
-        
-        - 2018-2019: 206 Students
-        - 2019-2020: 273 Students
-        - 2020-2021: 101 Students
-        - 2021-2022: 200 Students
-        - 2022-2023: 117 Students
+            **Placement Details**:
+            
+            - 2018-2019: 206 Students
+            - 2019-2020: 273 Students
+            - 2020-2021: 101 Students
+            - 2021-2022: 200 Students
+            - 2022-2023: 117 Students
 
   utter_staff_professors_faculty_qualifications_experience:
-    - text: "The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. 
-            The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and 
-            industry expertise. To know more about faculty qualifications and experience, visit this website "
+    - text: |
+            The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and industry expertise. 
 
   utter_college_timing:
     - text: | 
-          There are two shifts:
-          - 1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.
-          - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
+            There are two shifts:
+            - 1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.
+            - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
 
   utter_scholarship_details:
   - text: |
-      Students of SSMIET are eligible to avail various government scholarships such as:
-
-      - **BC / MBC Scholarship**  
-      - **Govt. of India Post-Metric Scholarship** *(SC / ST / SCA Students)*  
-      - **Govt. of India Post-Metric Scholarship** *(Converted Christian Students)*  
-      - **MOMA Scholarship** *(BCM, Christianity)*  
-      - **AICTE Scholarship** *(All categories of Girl Students only)*  
-      - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
-      - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
+          Students of SSMIET are eligible to avail various government scholarships such as:
+          - **BC / MBC Scholarship**  
+          - **Govt. of India Post-Metric Scholarship** *(SC / ST / SCA Students)*  
+          - **Govt. of India Post-Metric Scholarship** *(Converted Christian Students)*  
+          - **MOMA Scholarship** *(BCM, Christianity)*  
+          - **AICTE Scholarship** *(All categories of Girl Students only)*  
+          - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
+          - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
 
   utter_academic_calendar:
-    - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
+    - text: |
+            You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html
    
   utter_admission_documents:
     - text: |
-        The documents required for admission are:
+            The documents required for admission are:
 
-        📌 Both original and xerox copies are required.
+            📌 Both original and xerox copies are required.
 
-        - **Allotment Order**  
-        - **Community Certificate**  
-        - **HSC Mark Sheet**  
-        - **SSLC Mark Sheet**  
-        - **Transfer and Conduct Certificate**  
-        - **Aadhar Card**  
-        - **Nativity Certificate** *(Optional)*  
-        - **First Graduate Certificate** *(If Required)*  
-        - **Joint Declaration Form** *(Optional)*  
-        - **Passport Size Photos** *(2 Copies)*  
-        - **Medical Fitness Certificate** *(Optional)*  
-        - **Income Certificate** 
+            - **Allotment Order**  
+            - **Community Certificate**  
+            - **HSC Mark Sheet**  
+            - **SSLC Mark Sheet**  
+            - **Transfer and Conduct Certificate**  
+            - **Aadhar Card**  
+            - **Nativity Certificate** *(Optional)*  
+            - **First Graduate Certificate** *(If Required)*  
+            - **Joint Declaration Form** *(Optional)*  
+            - **Passport Size Photos** *(2 Copies)*  
+            - **Medical Fitness Certificate** *(Optional)*  
+            - **Income Certificate** 
 
   utter_counselling_process:
     - text: |
-        The counselling process at SSMIET is as follows:\n\n
-        1. Registration: Candidates must register online for counselling.\n
-        2. Choice Filling: Select your preferred courses and colleges.\n
-        3. Document Verification: Ensure you have all required documents.\n
-        4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
-        5. Fee Payment: Pay the admission fees to confirm your seat.\n
-        6. Reporting to College: Report to SSMIET with all required documents.\n\n
-        📞 For more details, contact admission office -  7373707002, 7373707008.
+            The counselling process at SSMIET is as follows:\n\n
+            1. Registration: Candidates must register online for counselling.\n
+            2. Choice Filling: Select your preferred courses and colleges.\n
+            3. Document Verification: Ensure you have all required documents.\n
+            4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
+            5. Fee Payment: Pay the admission fees to confirm your seat.\n
+            6. Reporting to College: Report to SSMIET with all required documents.\n\n
+            📞 For more details, contact admission office -  7373707002, 7373707008.
   
   utter_college_benefits:
     - text: |
-        🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
-        Your Future Begins Here! 🚀
+            🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
+            Your Future Begins Here! 🚀
 
-        ✅ **1. Excellence in Education**
+            ✅ **1. Excellence in Education**
 
-        Affiliated with Anna University & Approved by AICTE
-        Industry-focused curriculum with latest technologies
-        Highly qualified Ph.D. & experienced faculty
-        University Rank Holders & Gold Medalists every year
-              
-        ✅ **2. World-Class Infrastructure**
+            Affiliated with Anna University & Approved by AICTE
+            Industry-focused curriculum with latest technologies
+            Highly qualified Ph.D. & experienced faculty
+            University Rank Holders & Gold Medalists every year
+                  
+            ✅ **2. World-Class Infrastructure**
 
-        Smart Classrooms with Digital Learning Facilities
-        Advanced Laboratories with AI, IoT, and Robotics setups
-        Comprehensive Library with 10,000+ books & e-resources
-        Hostel & Transport facilities for student convenience
-             
-        ✅ **3. 100% Placement & Career Support**
+            Smart Classrooms with Digital Learning Facilities
+            Advanced Laboratories with AI, IoT, and Robotics setups
+            Comprehensive Library with 10,000+ books & e-resources
+            Hostel & Transport facilities for student convenience
+                
+            ✅ **3. 100% Placement & Career Support**
 
-        Strong Industry Tie-ups with MNCs & Core Companies
-        Guaranteed Internships & Industrial Training
-        Dedicated Placement Cell to boost your career
-        Top recruiters include TCS, Infosys, Wipro, HCL & more!
-              
-        ✅ **4. Scholarships & Financial Support**
+            Strong Industry Tie-ups with MNCs & Core Companies
+            Guaranteed Internships & Industrial Training
+            Dedicated Placement Cell to boost your career
+            Top recruiters include TCS, Infosys, Wipro, HCL & more!
+                  
+            ✅ **4. Scholarships & Financial Support**
 
-        Government & Private Scholarships available
-        Special Fee Concessions for Merit Students
-        100% tuition fee waiver for high achievers
-             
-        ✅ **5. Student Life & Extracurriculars**
+            Government & Private Scholarships available
+            Special Fee Concessions for Merit Students
+            100% tuition fee waiver for high achievers
+                
+            ✅ **5. Student Life & Extracurriculars**
 
-        Technical Clubs, Hackathons, and Innovation Labs
-        National & International Conferences & Workshops
-        Annual Cultural Fest & Sports Events for overall development
-              
-        ✅ **6. Research & Entrepreneurship Opportunities**
+            Technical Clubs, Hackathons, and Innovation Labs
+            National & International Conferences & Workshops
+            Annual Cultural Fest & Sports Events for overall development
+                  
+            ✅ **6. Research & Entrepreneurship Opportunities**
 
-        Start-up Incubation Center for young entrepreneurs
-        MOUs with top research organizations & industries
-        Funded Research & Innovation Projects
-        🚀 Be a Part of Our Success Story!
-        👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
-        👉 Apply Now & Shape Your Future!
+            Start-up Incubation Center for young entrepreneurs
+            MOUs with top research organizations & industries
+            Funded Research & Innovation Projects
+            🚀 Be a Part of Our Success Story!
+            👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
+            👉 Apply Now & Shape Your Future!
 
   utter_staff_count:
     - text: |
-        SSMIET currently has the following staff strength:  
-        👨‍🏫 **Teaching Staff:** 120+  
-        🏫 **Non-Teaching Staff:** 60+  
-        📚 **Total Staff:** 180+  
-        The institution maintains a well-balanced student-to-faculty ratio to ensure quality education.
-        Refer accurate staff count - https://ssmiet.ac.in/staffscount.html  
+            SSMIET currently has the following staff strength:  
+            👨‍🏫 **Teaching Staff:** 120+  
+            🏫 **Non-Teaching Staff:** 60+  
+            📚 **Total Staff:** 180+  
+            The institution maintains a well-balanced student-to-faculty ratio to ensure quality education.
+            Refer accurate staff count - https://ssmiet.ac.in/staffscount.html  
 
   utter_bank_loans:
     - text: |
-        Yes, SSMIET supports students in availing **bank loans** for their education.  
-        📌 We assist by providing the **Bonafide Certificate**, which includes the **fee structure** and other necessary details required by banks.  
-        📌 Students can approach the **college administration office** to obtain the required documents.  
-        📌 Most nationalized and private banks accept this certificate for processing **educational loans**.  
-        For further details, students are advised to contact their respective banks.  
+            SSMIET supports students in availing **bank loans** for their education.  
+            📌 We assist by providing the **Bonafide Certificate**, which includes the **fee structure** and other necessary details required by banks.  
+            📌 Students can approach the **college administration office** to obtain the required documents.  
+            📌 Most nationalized and private banks accept this certificate for processing **educational loans**.  
+            For further details, students are advised to contact their respective banks.  
 
   utter_cutoff_details:
     - text: |
-        The cutoff details for admission are as follows:
-        - General Category: 170+
-        - OBC Category: 160+
-        - SC/ST Category: 140+
-        - Management Quota: No specific cutoff, direct admission available.
-  
+            The cutoff details for admission are as follows:
+            - General Category: 170+
+            - OBC Category: 160+
+            - SC/ST Category: 140+
+            - Management Quota: No specific cutoff, direct admission available.
+      
   utter_college_qualification:
     - text: |
-        **SSM Institute of Engineering and Technology**  
-        *(An Autonomous Institution)*  
-        - Approved by AICTE, New Delhi  
-        - Affiliated to Anna University, Chennai  
-        - Accredited by NAAC & NBA 
+            **SSM Institute of Engineering and Technology**  
+            *(An Autonomous Institution)*  
+            - Approved by AICTE, New Delhi  
+            - Affiliated to Anna University, Chennai  
+            - Accredited by NAAC & NBA 
 
   utter_job_interview_preparation:
     - text: |
-        We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance.
+            We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance.
 
   utter_smart_classrooms_projector:
     - text: |
-        Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons.
+            Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons.
 
   utter_most_highest_placement_department:
     - text: |
-        "The departments with the highest placement rates are Computer Science,Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives."
+            The departments with the highest placement rates are Computer Science, Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives.
   
   utter_eligible_student_placement_opportunities:
     - text: |
-        All eligible students get placement opportunities. The college organizes multiple campus drives, inviting various companies to ensure that students from different departments have job opportunities. Training sessions and mock interviews are also conducted to help students prepare.
+            All eligible students get placement opportunities. The college organizes multiple campus drives, inviting various companies to ensure that students from different departments have job opportunities. Training sessions and mock interviews are also conducted to help students prepare.
   
   utter_each_all_department_get_placed:
     - text: |
-            The number of students placed varies by department. On average, a high percentage of students from Computer Science and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical,IT,CSBS,AIML,AIDS.Cyber Security also have placement opportunities, depending on the companies visiting the campus.
+            The number of students placed varies by department. On average, a high percentage of students from Computer Science and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, IT, CSBS, AIML, AIDS.Cyber Security also have placement opportunities, depending on the companies visiting the campus.
   
   utter_curriculum_relevance_industry:
     - text: |
-        Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations.
+            Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations.
 
   utter_ssmiet_college_ranking:
     - text: |
-        SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024.
+            SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024.
   
   utter_ssmiet_organization_clubs:
-    - text: "Yes! SSMIET offers various student clubs, including:
-        - Rotaract Club
-        - Young Innovators Club
-        - Math Club
-        - NDLI Club
-        - Yuva Club
-        - Build Club
-        - Space Club
-        These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
+    - text: |
+            SSMIET offers various student clubs, including:
+            - Rotaract Club
+            - Young Innovators Club
+            - Math Club
+            - NDLI Club
+            - Yuva Club
+            - Build Club
+            - Space Club
+            These clubs provide students with opportunities for innovation, leadership, and extracurricular activities.
 
   utter_college_events_annual_symposium:
     - text: |
-        The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities.
+            The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities.
       
   utter_first_year_1st_students_count:
     - text: |
-        "The total number of first-year students is X. The department-wise count is available in the records."
+            The total number of first-year students is X. The department-wise count is available in the records.
 
   utter_second_year_2nd_students_count:
     - text: |
-        "The second-year student strength is Y. Department-wise details can be provided upon request."
+            The second-year student strength is Y. Department-wise details can be provided upon request.
 
   utter_third_year_3rd_students_count:
     - text: |
-        "The total number of third-year students is Z. Many students are actively involved in projects and internships."
+            The total number of third-year students is Z. Many students are actively involved in projects and internships.
 
   utter_final_year_4th_students_count:
     - text: |
-        "The final-year students count is W. A significant number have already secured placements."
+            The final-year students count is W. A significant number have already secured placements.
 
   utter_ssmiet_history_about_college:
-      - text: |
-          **SSM Institute of Engineering and Technology (SSMIET)** was established in the academic year **2011-2012** by the SSM Group, which has over **30** years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
-          Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
-          The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
-          SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges.
-  
+    - text: |
+            **SSM Institute of Engineering and Technology (SSMIET)** was established in the academic year **2011-2012** by the SSM Group, which has over **30** years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
+            Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
+            The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
+            SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges.
+    
   utter_average_campus_placement:
-      - text: "The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%."
+    - text: |
+            The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%.
   
   utter_yearwise_student_count_ssmiet:
-      - text: |
-              Here is the year-wise total student count in SSMIET:
-              - 2024 - 2025: 1567 students
-              - 2023 - 2024: 1330 students
-              - 2022 - 2023: 1137 students
-              - 2021 - 2022: 1133 students
+    - text: |
+            Here is the year-wise total student count in SSMIET:
+            - 2024 - 2025: 1567 students
+            - 2023 - 2024: 1330 students
+            - 2022 - 2023: 1137 students
+            - 2021 - 2022: 1133 students
 
   utter_placement_training:
     - text: |
-        The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation.
+            The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation.
 
   utter_student_feedback:
     - text: |
             You can submit your feedback only if you are an student/professor of our college using this link:
             - [Feedback Form for Students] (https://ssmiet.ac.in/feedback.html)
             - [Feedback form for Faculties] (https://ssmiet.ac.in/NAAC/C1/Teachers%20Feedback.pdf) 
+
   utter_water_facilities:
-    - text: "Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users"
+    - text: |
+            Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users.
+
   utter_recruiters_college_for_placements:
-    - text: "The list of recruiters visiting the college are Megaeon
+    - text: |
+            The list of recruiters visiting the college are Megaeon
               - BSA
               - DOMEX
               - Data Patterns Ltd.
@@ -882,63 +904,66 @@ responses:
               - HCL Technologies
               - Govern Adan Systems
               - Valeo
-              - For  more details =>contact us:
+            For  more details contact us:
               - Mr.C.Silambarasan M.E.,
               - Phone: 7373707001
-              - E-mail Id: placement.ssmiet@gmail.com"
+              - E-mail Id: placement.ssmiet@gmail.com
 
   utter_sports_achievements:
-    - text: "Our college has won multiple sports tournaments this year! Check out the details on this link ![Sports Achievements](https://bit.ly/4hGoQ2B) "
+    - text: |
+            Our college has won multiple sports tournaments this year! Check out the details on this link ![Sports Achievements](https://bit.ly/4hGoQ2B) 
+  
   utter_software_lab_details:
-    - text: "The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code,Android studio,UBUNTU,Eclipse, and more."
+    - text: |
+            The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code, Android studio, UBUNTU, Eclipse, and more.
+  
   utter_ask_lab_hardware :
     - text: |
-        The lab is equipped with:
-        - Processor: INTEL i7
-        - RAM: 16GB
-        - HDD: 500GB
-        - System Type: 64-bit OS
-        - OS: Windows 10, Ubuntu
-        - Display: 18.5" LCD
-        - Peripherals: Lenovo standard keyboard and optical mouse.
+            The lab is equipped with:
+            - Processor: INTEL i7
+            - RAM: 16GB
+            - HDD: 500GB
+            - System Type: 64-bit OS
+            - OS: Windows 10, Ubuntu
+            - Display: 18.5" LCD
+            - Peripherals: Lenovo standard keyboard and optical mouse.
 
   utter_staff_professor_count:
-    - text: "Teaching and non-teaching staff count over the years:
-      - 2024-2025: 96 Teaching, 33 Non-teaching
-      - 2023-2024: 78 Teaching, 34 Non-teaching
-      - 2022-2023: 70 Teaching, 29 Non-teaching
-      - 2021-2022: 95 Teaching, 38 Non-teaching"
-
-  utter_sem_exam_result:
-    - text: "exam link"
-
+    - text: |
+            Teaching and non-teaching staff count over the years:
+            - 2024-2025: 96 Teaching, 33 Non-teaching
+            - 2023-2024: 78 Teaching, 34 Non-teaching
+            - 2022-2023: 70 Teaching, 29 Non-teaching
+            - 2021-2022: 95 Teaching, 38 Non-teaching
+ 
   utter_extracurricular_activites:
     - text: |
-          Technical events
-          Symposium
-          Workshops
-  utter_fee_payment:
+            Technical events
+            Symposium
+            Workshops
+
+  utter_fee_online_payment_details_account_number_bank_name:
     - text: |
             - Bank Name: State Bank Of India, Dindigul.
             - Account Name: SSM Institute of Engineering and Technology
             - Account Number: 00000032684732711
             - IFSC Code: SBIN0012758
 
-  utter_gate_coaching_ques:
+  utter_gate_coaching:
     - text: |
-        The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
+            The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
   
   utter_campus_general_photos:
     - text: |
-        Here are some images of our college campus:
+            Here are some images of our college campus:
 
-        ![Campus View 1](https://ssmiet.ac.in/images/course.jpg)
-        ![Campus View 2](https://i.ibb.co/4GP2V2J/campus1.jpg)
-        ![Campus View 3](https://i.ibb.co/C5BfKXYQ/campus3.jpg)
+            ![Campus View 1](https://ssmiet.ac.in/images/course.jpg)
+            ![Campus View 2](https://i.ibb.co/4GP2V2J/campus1.jpg)
+            ![Campus View 3](https://i.ibb.co/C5BfKXYQ/campus3.jpg)
 
   utter_erp_login:
     - text: |
-        You can check this link as a student, parent, or faculty member to view attendance and profile: https://ssmiet.ac.in/erpnew.html.
+            You can check this link as a student, parent, or faculty member to view attendance and profile: https://ssmiet.ac.in/erpnew.html.
 
   utter_cse_hod_details:
     - text: |
@@ -1279,13 +1304,13 @@ responses:
           
   utter_ragging:
     - text: |
-          - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
-          - To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues.
-          - If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured.
-          - Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college.
-          - Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment.
+            - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
+            - To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues.
+            - If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured.
+            - Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college.
+            - Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment.
 
-  utter_bus_facility:
+  utter_ask_bus_facility_details:
       - text: |
               Our college provides bus facilities for day scholars. Once you have paid the bus fees for your location, you cannot change your bus 
               route or stop to another location. However, you can request a route change after completing one year.\n Bus fees are charged separately 
@@ -1294,29 +1319,19 @@ responses:
               - We have Buses from **Palani , Periyakulam , Vanthalagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
               - We have totally 25+ Buses.There is only one bus per stop.
 
+              For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link 
+
   utter_bus_seat_fcfs:
-    - text: "Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat."
+    - text: |
+            Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat.
 
   utter_bus_seat_full:
-    - text: "If the bus is full, students may have to stand during the journey. There are no extra buses provided."
+    - text: |
+            If the bus is full, students may have to stand during the journey. There are no extra buses provided.
 
   utter_bus_seat_no_reservation:
-    - text: "Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure."
-
-  utter_bus_facility_details:
     - text: |
-        Our college provides a well-organized bus facility for students and staff. Here are the key details:
-        
-        - Buses cover multiple routes and ensure accessibility to different areas.
-        - Seating is based on a first-come, first-served (FCFS) system.
-        - If the bus is full, students may have to stand as no extra buses are available.
-        - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
-        - There is no seat reservation system; seating depends on availability.
-        - The bus service is available for both students and staff.
-        - A helpline is provided for any bus-related issues.
-        
-        
-        For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link      
+            Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure.           
 
   utter_canteen_availability:
     - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
@@ -2637,25 +2652,25 @@ responses:
 
   utter_campus_auditorium_photos:
     - text: |
-        Here are some images of the college auditorium:
+            Here are some images of the college auditorium:
 
-        ![Auditorium 1](https://i.ibb.co/fYzDFtZJ/aud-7.jpg)
-        ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
-        ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
+            ![Auditorium 1](https://i.ibb.co/fYzDFtZJ/aud-7.jpg)
+            ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
+            ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
 
   utter_campus_canteen_photos:
     - text: |
-        Here are some images of the college canteen:
+            Here are some images of the college canteen:
 
-        ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
-      # ![Canteen 2](https://example.com/canteen2.jpg)
+            ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
+          # ![Canteen 2](https://example.com/canteen2.jpg)
 
   utter_campus_library_photos:
     - text: |
-          Here are some images of the library:
+            Here are some images of the library:
 
-          ![Library 1](https://i.ibb.co/KxFwkXcP/lib1.jpg)
-          ![Library 2](https://i.ibb.co/hx3HgFjm/aud-6.jpg)
+            ![Library 1](https://i.ibb.co/KxFwkXcP/lib1.jpg)
+            ![Library 2](https://i.ibb.co/hx3HgFjm/aud-6.jpg)
 
   utter_aids_hod_details:
     - text: |
@@ -3258,10 +3273,10 @@ utter_campus_hostel_photos:
 
 utter_campus_playground_photos:
   - text: |
-      Here are some images of the playground:
+          Here are some images of the playground:
 
-      ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
-      ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
+          ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
+          ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
 
 utter_goodbye:   
   - text: "Good Bye!..."

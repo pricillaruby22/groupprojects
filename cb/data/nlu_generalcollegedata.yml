@@ -574,7 +574,7 @@ nlu:
       - Is there any trip for students
       - Is there any field trip is available for students
 
-  - intent: admission_apply_lastdate
+  - intent: admission_apply_lastdate_deadline
     examples: |
       - When is the last date to apply for admission?
       - What is the admission closing date?
@@ -607,7 +607,8 @@ nlu:
   - intent: campus_college_visit
     examples: |
       - Can I visit the college before taking admission?
-      - Is it possible to tour the campus before admission?
+      - Is it possible to see or visit the campus before admission?
+      - can i view or visit the college or university before admission? 
       - Can I see the college facilities before applying?
       - Is a campus visit allowed before admission?
       - Can I come to the college to check the infrastructure before enrolling?
@@ -1285,11 +1286,7 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
-<<<<<<< HEAD
-       
-=======
                  
->>>>>>> c31d9e423d203661e5e77c9c52bc622b94ed4776
   - intent: ask_lab_hardware
     examples: |
       - Tell me about your lab components
@@ -1371,16 +1368,7 @@ synonyms:
       - What are the punishments for ragging?
       - Who should I contact if I face any issues related to ragging?
       - How does the college handle false complaints about ragging?
-
-  - intent: bus_facility
-    examples: |
-      - Does the college provide a bus facility?
-      - What are the bus facilities available at the college?
-      - From which locations do the college buses operate?
-      - How many buses are available for students?
-      - Can I change my bus route after paying the fees?
-      - Is there only one bus per stop?
-
+ 
   - intent: ask_bus_seat_fcfs
     examples: |
       - Is the bus seating on a first-come, first-served basis?
@@ -1414,17 +1402,6 @@ synonyms:
       - How are bus seats assigned? Is it by reservation?
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
-
-  - intent: bus_facility_details
-    examples: |
-      - Can you provide detailed information about the bus facility?
-      - How does the seating arrangement work on the buses?
-      - What happens if the bus is full?
-      - Are there specific timings for different bus routes?
-      - Is there a seat reservation system for buses?
-      - Do staff members also have access to the bus facility?
-      - Is there a helpline for bus-related issues?
-      - Who should I contact for more details about the transport facility?
 
   - intent: ask_campus_general_photos
     examples: |
@@ -1527,26 +1504,21 @@ synonyms:
       - What is the fare for the college bus service?
       - Are the buses air-conditioned?
       - What should I do if I miss my bus?
-      - Is there a helpline for bus-related issues?           
-
-  - intent: sem_exam_result
-    examples: |
-      - Can you provide the semester exam result link?
-      - Where can I check my semester exam results?
-      - What is the official website for semester exam results?
-      - Please share the link for checking semester results.
-      - How do I access my semester exam results online?
-      - Semester exam result link?
-      - Where to check my semester result?
-      - How to see semester exam marks online?
-      - Give me the website for semester results.
-      - Semester result checking link? 
-      - Where semester result link?
-      - Semester marks where?
-      - How see semester result?
-      - Give me semester result website?
-      - Where see semester exam number?
-      - Semester exam result links
+      - Is there a helpline for bus-related issues?   
+      - Can you provide detailed information about the bus facility?
+      - How does the seating arrangement work on the buses?
+      - What happens if the bus is full?
+      - Are there specific timings for different bus routes?
+      - Is there a seat reservation system for buses?
+      - Do staff members also have access to the bus facility?
+      - Is there a helpline for bus-related issues?
+      - Who should I contact for more details about the transport facility?   
+      - Does the college provide a bus facility?
+      - What are the bus facilities available at the college?
+      - From which locations do the college buses operate?
+      - How many buses are available for students?
+      - Can I change my bus route after paying the fees?
+      - Is there only one bus per stop?     
   
   - intent: extracurricular_activites
     examples: |
@@ -1566,7 +1538,7 @@ synonyms:
         - Events have hostel?
         - Sports hostel give?
 
-  - intent: fee_payment
+  - intent: fee_online_payment_details_account_number_bank_name
     examples: |
       - What is the bank name for fee payment?
       - Which bank is used for fee transactions at SSMIET?
