@@ -1316,7 +1316,7 @@ responses:
               route or stop to another location. However, you can request a route change after completing one year.\n Bus fees are charged separately 
               and vary based on the distance from the college to your preferred location. You can find details about bus routes and bus numbers below.
 
-              - We have Buses from **Palani , Periyakulam , Vanthalagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
+              - We have Buses from **Palani , Periyakulam , batlagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
               - We have totally 25+ Buses.There is only one bus per stop.
 
               For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link 
@@ -1326,12 +1326,22 @@ responses:
             Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat.
 
   utter_bus_seat_full:
-    - text: |
-            If the bus is full, students may have to stand during the journey. There are no extra buses provided.
+    - text: "If the bus is full, students won’t need to stand as an extra bus will be provided."
 
   utter_bus_seat_no_reservation:
     - text: |
-            Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure.           
+            Our college provides a well-organized bus facility for students and staff. Here are the key details:
+            
+            - Buses cover multiple routes and ensure accessibility to different areas.
+            - Seating is based on a first-come, first-served (FCFS) system.
+            - If the bus is full, students may have to stand as no extra buses are available.
+            - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
+            - There is no seat reservation system; seating depends on availability.
+            - The bus service is available for both students and staff.
+            - A helpline is provided for any bus-related issues.
+            
+            
+            For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link      
 
   utter_canteen_availability:
     - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
