@@ -665,7 +665,6 @@ responses:
       - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
       - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
 
-
   utter_academic_calendar:
     - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
    
@@ -1256,26 +1255,27 @@ responses:
             You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
 
   utter_hostel_availability_info:
-      - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
+    - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
   
   utter_hostel_wifi_details:
-    - text: "SSMIET provides WiFi access in the hostel and common areas."
+    - text: "SSMIET provides WiFi access in the hostel and common areas for seperate blocks in the campus."
 
   utter_hostel_room_sharing:
-    - text: "Rooms are shared by 4 members"
+    - text: "Rooms are shared by 4 members with individual cot or bed provided for students"
 
   utter_hostel_food_routine:
-    - text: |
-           The hostel provides vegetarian meals on all days except once a week when a non-vegetarian meal is served. The menu is designed to be nutritious, hygienic, and balanced for all residents.
+    - text: "The hostel provides vegetarian meals on all days except once a week when a non-vegetarian meal is served. The menu is designed to be nutritious, hygienic, and balanced for all residents."
 
   utter_hostel_restroom_facilities:
-    - text: "hotwater, how many bathrooms in a flooor, clean"
+    - text: "hotwater is provided in our hostel, and 3 washrooms and 3 restrooms are there for each floor which are cleaned everyday"
 
   utter_hostel_fee:
-    - text: "hostel fee details"
+    - text: "hostel fee is about 60000 per year"
 
   utter_overall_hostel_details:
-    - text: "full hostel details"
+    - text: "Yes, our college provides hostel facilities for both male and female students. The hostels are equipped with study halls, food services, WiFi, and security. Rooms are shared by four students, each with an individual cot or bed. The hostel serves vegetarian meals daily, with one non-vegetarian meal per week. Restroom facilities include hot water, three washrooms, and three restrooms per floor, cleaned daily. The annual hostel fee is ₹60,000. we have our hostel warden for the protection of our students ."
+
+
           
   utter_ragging:
     - text: |
@@ -2211,12 +2211,13 @@ responses:
     - text: |
             Here is the count of students for the current year Mechanical(dummy) 
               - Current Batch -> 2024 - 2025
-              - IV Year: Girls - 4, Boys - 11, Total - 15
-              - II Year: Girls - 8, Boys - 14, Total - 22
-              - I Year: Girls - 6, Boys - 10, Total - 16
-              - Total Girls - 18, Total Boys - 35, Total Students - 53  
+              - IV Year: 40
+              - III Year: 25
+              - II Year: 28
+              - I Year: 25
+              - Total Girls - 01, Total Boys - 117, Total Students - 118 
   utter_mech_male_boys_students:
-    - text: "The number of male students in the Mechanical department varies."
+    - text: "The number of male students in the Mechanical department is 117"
 
   utter_mech_lab_facilities:
     - text:  "You can find details about the lab facilities available in the Mechanical department at the following link: https://ssmiet.ac.in/mechfacilities.html"
@@ -3036,6 +3037,7 @@ responses:
               **PEO**  2️⃣ **Professionalism & Ethics**: Graduates will exhibit professionalism, ethical values, and teamwork in their careers.
               **PEO**  3️⃣ **Lifelong Learning**: Graduates will engage in lifelong learning and adapt to evolving technologies in Civil Engineering.
               **PEO**  4️⃣ **Sustainability & Social Responsibility**: Graduates will contribute to sustainable infrastructure development with environmental responsibility.
+ 
   utter_po_civil_department:
       - text: |
               **📌 Program Outcomes (PO) - Civil Engineering Department**
@@ -3145,6 +3147,7 @@ responses:
               
             For more details, visit our official page:  
             🔗 [Civil Value-Added Courses] https://ssmiet.ac.in/civil%20valueaddedcourse.html
+
   utter_intern_company_civil:
     - text: |
             Here are some companies offering internships for Civil Engineering students:
@@ -3241,6 +3244,7 @@ utter_civil_staff_count:
               - *Teaching Staff* - 8
               - *Non-Teaching Staff* - 2
               - *Total Staff* - 10
+
 utter_campus_hostel_photos:
     - text: |
             Here are some images of the hostel:
@@ -3259,5 +3263,5 @@ utter_campus_playground_photos:
       ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
       ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
 
-utter_goodbye:
+utter_goodbye:   
   - text: "Good Bye!..."
