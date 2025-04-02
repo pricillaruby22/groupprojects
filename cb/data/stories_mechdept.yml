@@ -50,11 +50,6 @@ stories:
       - intent: mech_total_students
       - action: utter_mech_total_students
 
-  - story: Mechanical female or girls students story
-    steps:
-      - intent: mech_female_girls_students
-      - action: utter_mech_female_girls_students
-
   - story: Mechanical male or boys students story
     steps:
       - intent: mech_male_boys_students
@@ -144,3 +139,13 @@ stories:
     steps:
       - intent: mech_faculty_experience_knowledge
       - action: utter_mech_faculty_experience_knowledge
+  
+  - story: Mechanical staff count inquiries
+    steps:
+      - intent: mech_staff_count
+      - action: utter_mech_staff_count
+
+  - story: Mechanical Engineering Internship Count
+    steps:
+      - intent: intern_company_mech
+      - action: utter_intern_company_mech

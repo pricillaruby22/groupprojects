@@ -226,10 +226,39 @@ nlu:
       - What is the total teaching experience of the senior-most faculty in the B.Tech IT department?
       - How many B.Tech IT faculty members have more than five years of teaching experience?
 
+  - intent: it_contact
+    examples: |
+      - Give me the contact details of the Information Technology department.
+      - How can I contact the HOD of the Information Technology or it department?
+      - Provide the email ID for the Information Technology department.
+      - What is the phone number of the Information Technology department at SSMIET?
+      - Who should I contact for internship-related queries about Information Technology or it?
+      - Give me the address of the Information Technology department at SSM Institute of Engineering and Technology.
+      - Can you provide the Information Technology department's contact information?
+      - Information Technology or IT contact details
 
 
 
-
+  - intent: it_staff_count
+    examples: |
+      - How many teachers are there in the IT or information and technology department?
+      - How many faculties are there in the IT department?
+      - How many staff members are working in the IT department?
+      - How many professors are there in the IT department?
+      - How many lecturers are present in the IT department?
+      - What is the total staff count in the IT department?
+      - Can you tell me the number of faculties in IT?
+      - How many academic staff are in the IT department?
+      - How many teaching staff members are there in IT?
+      - What is the number of faculty members in the IT department?
+      - How many faculty members are currently teaching in IT?
+      - Could you provide the count of staff in the IT department?
+      - How many assistant professors are there in the IT department?
+      - What is the strength of the teaching faculty in IT?
+      - How many working staff does the IT department have?
+      - Tell me the number of IT department lecturers.
+      - Can you provide the staff details for the IT department?
+      - What’s the total number of faculty in IT?
 
 
 

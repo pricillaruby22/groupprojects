@@ -13,29 +13,29 @@ stories:
   - story: User asks about online courses
     steps:
       - intent: ask_online_courses
-      - action: utter_online_courses
+      - action: utter_ask_online_courses
 
   - story: Co-ed inquiry story
     steps:
       - intent: coeducation
-      - action: utter_coed_info
+      - action: utter_coeducation
 
   - story: Entrance exam inquiry story
     steps:
       - intent: entrance_exam
-      - action: utter_entrance_exam_info
+      - action: utter_entrance_exam
 
   - story: Uniform inquiry story
     steps:
       - intent: uniform_dresscode
-      - action: utter_uniform_dresscode_info
+      - action: utter_uniform_dresscode
 
   - story: Book availability inquiry
     steps:
       - intent: book_availability
-      - action: utter_book_availability_info
+      - action: utter_book_availability
 
-  - story: Student total count inquiry
+  - story: Current student total count inquiry
     steps:
       - intent: current_student_total_count
       - action: utter_current_student_total_count
@@ -43,7 +43,7 @@ stories:
   - story: Family visit inquiry
     steps:
       - intent: family_visit
-      - action: utter_family_visit_info
+      - action: utter_family_visit
 
   - story: User asks for college location and address
     steps:
@@ -59,11 +59,6 @@ stories:
     steps: 
       - intent: NBA_accredited_dept 
       - action: utter_NBA_accredited_dept
-
-  - story: respond to bus facility query
-    steps:
-      - intent: bus_facility
-      - action: utter_bus_facility
 
   - story: respond to principal details query
     steps:
@@ -88,7 +83,7 @@ stories:
   - story: Fee structure inquiry
     steps:
       - intent: fee_structure
-      - action: utter_fee_structure_info
+      - action: utter_fee_structure
 
   - story: respond to be courses query
     steps:
@@ -156,8 +151,8 @@ stories:
       - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate
-      - action: utter_admission_apply_lastdate
+      - intent: admission_apply_lastdate_deadline
+      - action: utter_admission_apply_lastdate_deadline
 
   - story: respond to SSMIET branches or campus query
     steps:
@@ -214,51 +209,6 @@ stories:
       - intent: admission_documents
       - action: utter_admission_documents
 
-  - story: User asks about counselling process
-    steps:
-      - intent: counselling_process
-      - action: utter_counselling_process
-
-  - story: User asks about college benefits
-    steps:
-      - intent: college_benefits
-      - action: utter_college_benefits
-
-  - story: User asks about staff count
-    steps:
-      - intent: staff_count
-      - action: utter_staff_count
-
-  - story: User asks about bank loans
-    steps:
-      - intent: bank_loans
-      - action: utter_bank_loans
-
-  - story: Answer Faculty or staff or professors experience and qualification inquiry
-    steps:
-      - intent: staff_professors_faculty_qualifications_experience
-      - action: utter_staff_professors_faculty_qualifications_experience
-
-  - story: User asks about college working hours
-    steps:
-      - intent: college_timing
-      - action: utter_college_timing
-
-  - story: User asks about scholarship details
-    steps:
-      - intent: scholarship_details
-      - action: utter_scholarship_details
-
-  - story: User asks about academic calendar
-    steps:
-      - intent: academic_calendar
-      - action: utter_academic_calendar
-
-  - story: User asks about admission documents
-    steps:
-      - intent: admission_documents
-      - action: utter_admission_documents
-  
   - story: User asks about counselling process
     steps:
       - intent: counselling_process
@@ -457,27 +407,22 @@ stories:
   - story: User asks about bus facility
     steps:
       - intent: ask_bus_facility_details
-      - action: utter_bus_facility_details    
-
-  - story: semester exam results
-    steps:
-      - intent: sem_exam_result
-      - action: utter_sem_exam_result
+      - action: utter_ask_bus_facility_details    
 
   - story: extracurricular_activites
     steps:
       - intent: extracurricular_activites
       - action: utter_extracurricular_activites
 
-  - story: User asks about fee payment details
+  - story: User asks about fee online payment details and account number or bank name
     steps:
-      - intent: fee_payment
-      - action: utter_fee_payment
+      - intent: fee_online_payment_details_account_number_bank_name
+      - action: utter_fee_online_payment_details_account_number_bank_name
 
   - story: User asks about GATE coaching
     steps:
-      - intent: gate_coaching_ques
-      - action: utter_gate_coaching_ques
+      - intent: gate_coaching
+      - action: utter_gate_coaching
       
   - story: User asks about sports equipment
     steps:

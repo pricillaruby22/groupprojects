@@ -13,7 +13,7 @@ intents:
   - college_location_address
   - college_name_private_anna_university
   - principal_details
-  - collegel_details
+  - current_student_total_count
   - college_contact_email
   - college_distance_travel_time
   - fee_structure
@@ -29,7 +29,7 @@ intents:
   - First_graduate
   - fee_payment_other_than_tutionfee
   - about_industrial_visit
-  - admission_apply_lastdate
+  - admission_apply_lastdate_deadline
   - ssmiet_branches_campus
   - campus_college_visit
   - admission_start_date
@@ -70,14 +70,14 @@ intents:
   - sports_achievements
   - software_lab_details
   - ask_lab_hardware
-  - staff_professor_count
-  - sem_exam_result
+  - staff_professor_count 
   - extracurricular_activites
   - fee_payment
-  - gate_coaching_ques
+  - gate_coaching
   - ask_campus_general_photos
   - erp_login
   - NBA_accredited_dept
+  - fee_online_payment_details_account_number_bank_name
   - btech_courses
   - be_courses
   - cse_hod_details
@@ -119,9 +119,7 @@ intents:
   - hostel_restroom_facilities
   - hostel_fee
   - overall_hostel_details
-  - ask_ragging
-  - bus_facility
-  - ask_bus_seat
+  - ask_ragging 
   - ask_bus_seat_fcfs
   - ask_bus_seat_full
   - ask_bus_seat_no_reservation
@@ -173,6 +171,8 @@ intents:
   - it_yearwise_student_count
   - it_event_conducted_photos
   - it_faculty_experience_knowledge
+  - it_contact
+  - it_staff_count
   - eee_hod_details
   - eee_faculty_details
   - peo_eee_department
@@ -232,6 +232,8 @@ intents:
   - mech_yearwise_student_count
   - mech_event_conducted_photos
   - mech_faculty_experience_knowledge
+  - mech_staff_count
+  - intern_company_mech
   - csbs_hod_details  
   - csbs_faculty_details  
   - peo_csbs_department  
@@ -369,14 +371,15 @@ intents:
   - sports_equipment
   - goodbye
 
+
 responses:
   utter_greet:
     - text: |
-        Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
+            Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
 
   utter_admission_process:
     - text: |
-            Admission Process can be done in both offline and online 
+            Admission Process can be done in both online and offline 
             **For Offline**:
             You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
                 - **Dr. S. Joseph Dominic Vijayakumar**,
@@ -393,28 +396,34 @@ responses:
                 - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
                 - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
-  utter_online_courses:
-    - text: "No, we **don't offer online courses** and distance learning options."
+  utter_ask_online_courses:
+    - text: |
+            we **don't offer online courses** and distance learning options.
   
-  utter_coed_info:
+  utter_coeducation:
     - text: | 
-        Yes, this is a **co-educational college** where both boys and girls study together.
-        The institution follows certain protocols to ensure a safe and respectful environment for all students
+            Yes, this is a **co-educational college** where both boys and girls study together.
+            The institution follows certain protocols to ensure a safe and respectful environment for all students.
 
-  utter_entrance_exam_info:
-    - text: "There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process"
+  utter_entrance_exam:
+    - text: |
+            There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process.
   
-  utter_uniform_dresscode_info:
-    - text: " Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone."
+  utter_uniform_dresscode:
+    - text: |
+            Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone.
   
-  utter_book_availability_info:
-    - text: "The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details."
+  utter_book_availability:
+    - text: |
+            The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details.
   
   utter_current_student_total_count:
-    - text: "The current student count in our college is 1567.These numbers may vary slightly each year."
+    - text: |
+            The current student count in our college is 1567.These numbers may vary slightly each year.
 
-  utter_family_visit_info:
-    - text: "Family visits are permitted in the hostel during designated visiting hours on weekends. Please check with the hostel administration for specific timings and policies."
+  utter_family_visit:
+    - text: |
+            Family visits are permitted in the hostel during designated visiting hours on weekends.  
 
   utter_college_location_address:
     - text: |
@@ -432,7 +441,7 @@ responses:
   
   utter_NBA_accredited_dept: 
   - text: |
-       The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
+          The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
           
   utter_principal_details:
     - text: |
@@ -448,108 +457,111 @@ responses:
                 - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
 
   utter_college_contact_email:
-    - text: "**Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com"
+    - text: |
+            **Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com
 
   utter_college_distance_travel_time:
-    - text: "It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, checkout this link 'https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link'."
+    - text: |
+            It depends on the distance. For example, from Dindigul Bus Stand to SSMIET, it takes around 15 to 20 minutes depending on traffic. If you want to know the exact distance and travel time, checkout this link 'https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link'.
   
-  utter_fee_structure_info:
-    - text: "The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information."
+  utter_fee_structure:
+    - text: |
+            The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information.
  
   utter_college_courses:
     - text: |
-          Our College Offers Various Courses:     
-            - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
-            - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
-            - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
-            - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
+            Our College Offers Various Courses:     
+              - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
+              - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
+              - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
+              - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
 
   utter_be_courses:
     - text: |
-        The different BE courses available. They are,
-            - Civil Engineering
-            - Electronics and Communication Engineering (ECE)
-            - Electrical and Electronics Engineering (EEE)
-            - Mechanical Engineering
-            - Computer Science and Engineering (CSE)
-            - Computer Science and Engineering (Cyber Security)
-            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+            The different BE courses available. They are,
+              - Civil Engineering
+              - Electronics and Communication Engineering (ECE)
+              - Electrical and Electronics Engineering (EEE)
+              - Mechanical Engineering
+              - Computer Science and Engineering (CSE)
+              - Computer Science and Engineering (Cyber Security)
+              - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
 
   utter_btech_courses:
     - text: |
-         The different BTech courses available. They are,
-            - Artificial Intelligence and Data Science
-            - Computer Science and Business System
-            - Information Technology
+            The different BTech courses available. They are,
+              - Artificial Intelligence and Data Science
+              - Computer Science and Business System
+              - Information Technology
 
   utter_college_ug_courses:
     - text: |
-          **Undergraduate Courses(B.E & B.Tech)**:
+            **Undergraduate Courses(B.E & B.Tech)**:
 
-          **B.E. Programs:**
-            - Civil Engineering
-            - Electronics and Communication Engineering (ECE)
-            - Electrical and Electronics Engineering (EEE)
-            - Mechanical Engineering
-            - Computer Science and Engineering (CSE)
-            - Computer Science and Engineering (Cyber Security)
-            - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+            **B.E. Programs:**
+              - Civil Engineering
+              - Electronics and Communication Engineering (ECE)
+              - Electrical and Electronics Engineering (EEE)
+              - Mechanical Engineering
+              - Computer Science and Engineering (CSE)
+              - Computer Science and Engineering (Cyber Security)
+              - Computer Science and Engineering (Artificial Intelligence & Machine Learning)
 
-          **B.Tech. Programs:**
-            - Artificial Intelligence and Data Science (AI&DS)
-            - Computer Science and Business Systems (CSBS)
-            - Information Technology (IT)
+            **B.Tech. Programs:**
+              - Artificial Intelligence and Data Science (AI&DS)
+              - Computer Science and Business Systems (CSBS)
+              - Information Technology (IT)
 
   utter_college_pg_courses:
     - text: |
-          **PostGraduate Courses(M.E)**:
-            - Communication Systems
-            - Thermal Engineering
+            **PostGraduate Courses(M.E)**:
+              - Communication Systems
+              - Thermal Engineering
             
   utter_college_phd_courses:
     - text: |
-          **Ph.D Courses**:
-            - Information & Communication Engineering
-            - Mechanical Engineering
-            - Physics and Mathematics
+            **Ph.D Courses**:
+              - Information & Communication Engineering
+              - Mechanical Engineering
+              - Physics and Mathematics
 
   utter_college_courses_duration:
     - text: |
-          **The Duration of the Courses**:
-            - Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
-            - Postgraduate (M.E.) - 2 years (4 semesters)
-            - Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
+            **The Duration of the Courses**:
+              - Undergraduate (B.E./B.Tech) - 4 years (8 semesters)
+              - Postgraduate (M.E.) - 2 years (4 semesters)
+              - Doctoral (Ph.D.) - Usually 3 to 5 years, depending on research progress.(Full Time and Part Time)
 
   utter_college_admission_form:
     - text: |
-          - The form is available online. Click the link to access it.
-          - Fill in the required details and submit it.
-          - If you need help, contact the admission office.
-          - Make sure to check deadlines and required documents before submission.
+            - The form is available online. Click the link to access it.
+            - Fill in the required details and submit it.
+            - If you need help, contact the admission office.
+            - Make sure to check deadlines and required documents before submission.
 
-          **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+            **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
 
   utter_college_admission_eligibility:
     - text: |
-         **Admission eligibility depends on the course you choose**:
+            **Admission eligibility depends on the course you choose**:
 
-         - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
-         - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage
-         - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
-         - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
-         - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
+            - **Undergraduate (B.E./B.Tech)**: Must have completed higher secondary education (12th grade) with required subjects like Maths and Science.
+            - **Postgraduate (M.E.)**: Requires a relevant Bachelor's degree (B.E./B.Tech) with a minimum percentage
+            - **Doctoral (Ph.D.)**: Must have a Master's degree (M.E./M.Tech) in a related field. Research qualifications may be required.
+            - **Lateral Entry**: Diploma holders can apply for direct second-year admission in certain courses.
+            - **Special Criteria**: Courses have government quota,management quota,reservation quotas, and scholarships.
 
   utter_available_internships_and_placements:
     - text: |
-             SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs
-             Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
-             Placement Details
-               - 2018-2019(206-Students)
-               - 2019-2020(273-Students)
-               - 2020-2021(101-Students)
-               - 2021-2022(200-Students)
-               - 2022-2023(117-Students)
-             Top recruiters include 
+            SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs.
+            Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
+            Placement Details
+              - 2018-2019(206-Students)
+              - 2019-2020(273-Students)
+              - 2020-2021(101-Students)
+              - 2021-2022(200-Students)
+              - 2022-2023(117-Students)
+            Top recruiters include 
               ✅ 5K Car Care
               🏭 ABI-SHOWATECH
               🚛 ASHOK LEYLAND
@@ -575,20 +587,22 @@ responses:
               🌍 WIPRO
               🚗 Valeo
               🤖 UNIVERSAL Automation Systems
-             For more details, contact the placement office atFor contact us:
-             - Mr.C.Silambarasan M.E.,
+            For more details, contact the placement office atFor contact us:
+              - Mr.C.Silambarasan M.E.,
                   Training and Placement officer,
                   SSM Institute of Engineering and Technology,
                   Dindigul - 624 002,
                   Tamil Nadu, India
                   Phone: 7373707001
-                  E-mail Id: placement.ssmiet@gmail.com"
+                  E-mail Id: placement.ssmiet@gmail.com
 
   utter_change_the_course:
-    - text: "Yes,Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance contact=>+Phone:0451-244-8800-899 Email:ssmietdgl@gmail.com "
+    - text: |
+            Students can apply for a course change within the first year, subject to availability and eligibility criteria. Approval depends on academic performance and administrative regulations. Please visit the academic office for further assistance contact=>+Phone:0451-244-8800-899 Email:ssmietdgl@gmail.com 
 
   utter_First_graduate:
-    - text: "The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
+    - text: |
+            The First Graduate Scheme provides tuition fee concessions for students who are the first in their family to pursue higher education. Eligible students must submit the necessary documents to avail of this benefit. For details,look below
               Students of SSMIET are eligible to avail various government scholarships such as,
               * BC /MBC Scholarship
               * Govt. of India post metric Scholarship (SC / ST / SCA Students)
@@ -596,10 +610,11 @@ responses:
               * MOMA Scholarship (BCM, Christianity)
               * AICTE Scholarship (All category of Girl Students only)
               * NHFDC Scholarship (All category of Differently abled Students)
-              * GQ 7.5 (6th to 12th Government School studied category)"
+              * GQ 7.5 (6th to 12th Government School studied category)
 
   utter_fee_payment_other_than_tutionfee:
-    - text: "Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information"
+    - text: |
+            Apart from tuition fees, students may need to pay for hostel accommodation, mess charges, lab fees, exam fees, and transportation . A detailed fee structure contact the college administration at 0451 244 8800 for detailed information.
 
   utter_about_industrial_visit:
     - text: |
@@ -610,261 +625,271 @@ responses:
             ![IV photo 3](https://i.ibb.co/4nDHJqQ9/5.jpg)
             ![IV photo 3](https://i.ibb.co/WWM3fTp2/aids-2.jpg)
             
-  utter_admission_apply_lastdate:
-    - text: "This is the end date for admission, and there is no extension for the admission deadline."
+  utter_admission_apply_lastdate_deadline:
+    - text: |
+            This is the end date for admission, and there is no extension for the admission deadline.
 
   utter_ssmiet_branches_campus:
-    - text: "No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul."
+    - text: |
+            No, SSMIET does not have any other branches in other cities. It is a standalone institution located in Dindigul.
 
   utter_campus_college_visit:
-    - text: "Yeah, sure! You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms."
+    - text: |
+            You can visit our college before admission and explore the facilities, including the hostel, labs, and classrooms.
 
   utter_admission_start_date:
-    - text: "Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released."
+    - text: |
+            Admissions usually start in [mention month or time frame]. The application process begins once the official notification is released.
 
   utter_lateral_entry:
-    - text: "Yes, SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria."
-  
+    - text: |
+            SSMIET accepts lateral entry students. Diploma holders can apply for direct second-year admission based on eligibility criteria.
+
   utter_Sports_NCC_government_management_quota:
-    - text: "Yes, SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link]."
+    - text: |
+            SSMIET provides a separate quota for sports and NCC students based on eligibility criteria. The college also offers admissions through both government and management quota, with seat allocation and eligibility determined as per regulations. To know more about the quotas for admission, visit this website [insert website link].
 
   utter_placement_details_campus:
     - text: | 
-        **Placement Details**:
-        
-        - 2018-2019: 206 Students
-        - 2019-2020: 273 Students
-        - 2020-2021: 101 Students
-        - 2021-2022: 200 Students
-        - 2022-2023: 117 Students
+            **Placement Details**:
+            
+            - 2018-2019: 206 Students
+            - 2019-2020: 273 Students
+            - 2020-2021: 101 Students
+            - 2021-2022: 200 Students
+            - 2022-2023: 117 Students
 
   utter_staff_professors_faculty_qualifications_experience:
-    - text: "The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. 
-            The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and 
-            industry expertise. To know more about faculty qualifications and experience, visit this website "
+    - text: |
+            The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and industry expertise. 
 
   utter_college_timing:
     - text: | 
-          There are two shifts:
-          - 1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.
-          - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
+            There are two shifts:
+            - 1st and 4th (final) year college timing: 8:30 AM to 1:30 PM.
+            - 2nd and 3rd year college timing: 12:00 PM to 5:00 PM.
 
   utter_scholarship_details:
   - text: |
-      Students of SSMIET are eligible to avail various government scholarships such as:
-
-      - **BC / MBC Scholarship**  
-      - **Govt. of India Post-Metric Scholarship** *(SC / ST / SCA Students)*  
-      - **Govt. of India Post-Metric Scholarship** *(Converted Christian Students)*  
-      - **MOMA Scholarship** *(BCM, Christianity)*  
-      - **AICTE Scholarship** *(All categories of Girl Students only)*  
-      - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
-      - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
-
+          Students of SSMIET are eligible to avail various government scholarships such as:
+          - **BC / MBC Scholarship**  
+          - **Govt. of India Post-Metric Scholarship** *(SC / ST / SCA Students)*  
+          - **Govt. of India Post-Metric Scholarship** *(Converted Christian Students)*  
+          - **MOMA Scholarship** *(BCM, Christianity)*  
+          - **AICTE Scholarship** *(All categories of Girl Students only)*  
+          - **NHFDC Scholarship** *(All categories of Differently-abled Students)*  
+          - **GQ 7.5** *(For students who studied 6th to 12th in Government Schools)*  
 
   utter_academic_calendar:
-    - text: "You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html"
+    - text: |
+            You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html
    
   utter_admission_documents:
     - text: |
-        The documents required for admission are:
+            The documents required for admission are:
 
-        📌 Both original and xerox copies are required.
+            📌 Both original and xerox copies are required.
 
-        - **Allotment Order**  
-        - **Community Certificate**  
-        - **HSC Mark Sheet**  
-        - **SSLC Mark Sheet**  
-        - **Transfer and Conduct Certificate**  
-        - **Aadhar Card**  
-        - **Nativity Certificate** *(Optional)*  
-        - **First Graduate Certificate** *(If Required)*  
-        - **Joint Declaration Form** *(Optional)*  
-        - **Passport Size Photos** *(2 Copies)*  
-        - **Medical Fitness Certificate** *(Optional)*  
-        - **Income Certificate** 
+            - **Allotment Order**  
+            - **Community Certificate**  
+            - **HSC Mark Sheet**  
+            - **SSLC Mark Sheet**  
+            - **Transfer and Conduct Certificate**  
+            - **Aadhar Card**  
+            - **Nativity Certificate** *(Optional)*  
+            - **First Graduate Certificate** *(If Required)*  
+            - **Joint Declaration Form** *(Optional)*  
+            - **Passport Size Photos** *(2 Copies)*  
+            - **Medical Fitness Certificate** *(Optional)*  
+            - **Income Certificate** 
 
   utter_counselling_process:
     - text: |
-        The counselling process at SSMIET is as follows:\n\n
-        1. Registration: Candidates must register online for counselling.\n
-        2. Choice Filling: Select your preferred courses and colleges.\n
-        3. Document Verification: Ensure you have all required documents.\n
-        4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
-        5. Fee Payment: Pay the admission fees to confirm your seat.\n
-        6. Reporting to College: Report to SSMIET with all required documents.\n\n
-        📞 For more details, contact admission office -  7373707002, 7373707008.
+            The counselling process at SSMIET is as follows:\n\n
+            1. Registration: Candidates must register online for counselling.\n
+            2. Choice Filling: Select your preferred courses and colleges.\n
+            3. Document Verification: Ensure you have all required documents.\n
+            4. Seat Allotment: Seats will be allotted based on your rank and preferences.\n
+            5. Fee Payment: Pay the admission fees to confirm your seat.\n
+            6. Reporting to College: Report to SSMIET with all required documents.\n\n
+            📞 For more details, contact admission office -  7373707002, 7373707008.
   
   utter_college_benefits:
     - text: |
-        🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
-        Your Future Begins Here! 🚀
+            🎓 **Why Choose SSM Institute of Engineering & Technology (SSMIET)?**
+            Your Future Begins Here! 🚀
 
-        ✅ **1. Excellence in Education**
+            ✅ **1. Excellence in Education**
 
-        Affiliated with Anna University & Approved by AICTE
-        Industry-focused curriculum with latest technologies
-        Highly qualified Ph.D. & experienced faculty
-        University Rank Holders & Gold Medalists every year
-              
-        ✅ **2. World-Class Infrastructure**
+            Affiliated with Anna University & Approved by AICTE
+            Industry-focused curriculum with latest technologies
+            Highly qualified Ph.D. & experienced faculty
+            University Rank Holders & Gold Medalists every year
+                  
+            ✅ **2. World-Class Infrastructure**
 
-        Smart Classrooms with Digital Learning Facilities
-        Advanced Laboratories with AI, IoT, and Robotics setups
-        Comprehensive Library with 10,000+ books & e-resources
-        Hostel & Transport facilities for student convenience
-             
-        ✅ **3. 100% Placement & Career Support**
+            Smart Classrooms with Digital Learning Facilities
+            Advanced Laboratories with AI, IoT, and Robotics setups
+            Comprehensive Library with 10,000+ books & e-resources
+            Hostel & Transport facilities for student convenience
+                
+            ✅ **3. 100% Placement & Career Support**
 
-        Strong Industry Tie-ups with MNCs & Core Companies
-        Guaranteed Internships & Industrial Training
-        Dedicated Placement Cell to boost your career
-        Top recruiters include TCS, Infosys, Wipro, HCL & more!
-              
-        ✅ **4. Scholarships & Financial Support**
+            Strong Industry Tie-ups with MNCs & Core Companies
+            Guaranteed Internships & Industrial Training
+            Dedicated Placement Cell to boost your career
+            Top recruiters include TCS, Infosys, Wipro, HCL & more!
+                  
+            ✅ **4. Scholarships & Financial Support**
 
-        Government & Private Scholarships available
-        Special Fee Concessions for Merit Students
-        100% tuition fee waiver for high achievers
-             
-        ✅ **5. Student Life & Extracurriculars**
+            Government & Private Scholarships available
+            Special Fee Concessions for Merit Students
+            100% tuition fee waiver for high achievers
+                
+            ✅ **5. Student Life & Extracurriculars**
 
-        Technical Clubs, Hackathons, and Innovation Labs
-        National & International Conferences & Workshops
-        Annual Cultural Fest & Sports Events for overall development
-              
-        ✅ **6. Research & Entrepreneurship Opportunities**
+            Technical Clubs, Hackathons, and Innovation Labs
+            National & International Conferences & Workshops
+            Annual Cultural Fest & Sports Events for overall development
+                  
+            ✅ **6. Research & Entrepreneurship Opportunities**
 
-        Start-up Incubation Center for young entrepreneurs
-        MOUs with top research organizations & industries
-        Funded Research & Innovation Projects
-        🚀 Be a Part of Our Success Story!
-        👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
-        👉 Apply Now & Shape Your Future!
+            Start-up Incubation Center for young entrepreneurs
+            MOUs with top research organizations & industries
+            Funded Research & Innovation Projects
+            🚀 Be a Part of Our Success Story!
+            👉 Visit: [SSMIET Official Website] https://ssmiet.ac.in/index-2.html
+            👉 Apply Now & Shape Your Future!
 
   utter_staff_count:
     - text: |
-        SSMIET currently has the following staff strength:  
-        👨‍🏫 **Teaching Staff:** 120+  
-        🏫 **Non-Teaching Staff:** 60+  
-        📚 **Total Staff:** 180+  
-        The institution maintains a well-balanced student-to-faculty ratio to ensure quality education.
-        Refer accurate staff count - https://ssmiet.ac.in/staffscount.html  
+            SSMIET currently has the following staff strength:  
+            👨‍🏫 **Teaching Staff:** 120+  
+            🏫 **Non-Teaching Staff:** 60+  
+            📚 **Total Staff:** 180+  
+            The institution maintains a well-balanced student-to-faculty ratio to ensure quality education.
+            Refer accurate staff count - https://ssmiet.ac.in/staffscount.html  
 
   utter_bank_loans:
     - text: |
-        Yes, SSMIET supports students in availing **bank loans** for their education.  
-        📌 We assist by providing the **Bonafide Certificate**, which includes the **fee structure** and other necessary details required by banks.  
-        📌 Students can approach the **college administration office** to obtain the required documents.  
-        📌 Most nationalized and private banks accept this certificate for processing **educational loans**.  
-        For further details, students are advised to contact their respective banks.  
+            SSMIET supports students in availing **bank loans** for their education.  
+            📌 We assist by providing the **Bonafide Certificate**, which includes the **fee structure** and other necessary details required by banks.  
+            📌 Students can approach the **college administration office** to obtain the required documents.  
+            📌 Most nationalized and private banks accept this certificate for processing **educational loans**.  
+            For further details, students are advised to contact their respective banks.  
 
   utter_cutoff_details:
     - text: |
-        The cutoff details for admission are as follows:
-        - General Category: 170+
-        - OBC Category: 160+
-        - SC/ST Category: 140+
-        - Management Quota: No specific cutoff, direct admission available.
-  
+            The cutoff details for admission are as follows:
+            - General Category: 170+
+            - OBC Category: 160+
+            - SC/ST Category: 140+
+            - Management Quota: No specific cutoff, direct admission available.
+      
   utter_college_qualification:
     - text: |
-        **SSM Institute of Engineering and Technology**  
-        *(An Autonomous Institution)*  
-        - Approved by AICTE, New Delhi  
-        - Affiliated to Anna University, Chennai  
-        - Accredited by NAAC & NBA 
+            **SSM Institute of Engineering and Technology**  
+            *(An Autonomous Institution)*  
+            - Approved by AICTE, New Delhi  
+            - Affiliated to Anna University, Chennai  
+            - Accredited by NAAC & NBA 
 
   utter_job_interview_preparation:
     - text: |
-        We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance.
+            We have a placement training session once a week, where we prepare students for job interviews and technical rounds. Our training includes mock interviews, technical skill enhancement, resume building, and HR interview preparation. We also provide resources, conduct aptitude tests, and give personalized feedback to help students improve their confidence and performance.
 
   utter_smart_classrooms_projector:
     - text: |
-        Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons.
+            Our college has smart classrooms equipped with projectors to enhance the learning experience. These classrooms help in delivering interactive and visually engaging lessons.
 
   utter_most_highest_placement_department:
     - text: |
-        "The departments with the highest placement rates are Computer Science,Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives."
+            The departments with the highest placement rates are Computer Science, Electronics & Communication Engineering. These departments have a strong demand in the industry, and most students secure placements through campus recruitment drives.
   
   utter_eligible_student_placement_opportunities:
     - text: |
-        All eligible students get placement opportunities. The college organizes multiple campus drives, inviting various companies to ensure that students from different departments have job opportunities. Training sessions and mock interviews are also conducted to help students prepare.
+            All eligible students get placement opportunities. The college organizes multiple campus drives, inviting various companies to ensure that students from different departments have job opportunities. Training sessions and mock interviews are also conducted to help students prepare.
   
   utter_each_all_department_get_placed:
     - text: |
-            The number of students placed varies by department. On average, a high percentage of students from Computer Science and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical,IT,CSBS,AIML,AIDS.Cyber Security also have placement opportunities, depending on the companies visiting the campus.
+            The number of students placed varies by department. On average, a high percentage of students from Computer Science and Electronics departments get placed. Other departments, such as Mechanical, Civil, and Electrical, IT, CSBS, AIML, AIDS.Cyber Security also have placement opportunities, depending on the companies visiting the campus.
   
   utter_curriculum_relevance_industry:
     - text: |
-        Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations.
+            Our college provides value-added courses from industry professionals, ensuring that our students stay informed about the latest industrial needs. This allows them to adapt and build themselves to tackle real-time challenges effectively. In this way, our curriculum stays updated with industry expectations.
 
   utter_ssmiet_college_ranking:
     - text: |
-        SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024.
+            SSM Institute of Engineering and Technology, Dindigul, B.Tech ranking by Anna University is 96 out of 355 colleges in Tamil Nadu in 2024.
   
   utter_ssmiet_organization_clubs:
-    - text: "Yes! SSMIET offers various student clubs, including:
-        - Rotaract Club
-        - Young Innovators Club
-        - Math Club
-        - NDLI Club
-        - Yuva Club
-        - Build Club
-        - Space Club
-        These clubs provide students with opportunities for innovation, leadership, and extracurricular activities."
+    - text: |
+            SSMIET offers various student clubs, including:
+            - Rotaract Club
+            - Young Innovators Club
+            - Math Club
+            - NDLI Club
+            - Yuva Club
+            - Build Club
+            - Space Club
+            These clubs provide students with opportunities for innovation, leadership, and extracurricular activities.
 
   utter_college_events_annual_symposium:
     - text: |
-        The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities.
+            The college conducts various special functions, including symposiums, annual day, and college day celebrations. A symposium is organized to encourage student participation in technical and academic activities. The annual day and college day are celebrated every year with events such as guest lectures, prize distributions, and student performances. Additionally, the college hosts department-wise special events and technical fests. However, no cultural events are conducted in the college. Other functions like graduation day, sports day, and fresher’s day are also organized to engage students in extracurricular activities.
       
   utter_first_year_1st_students_count:
     - text: |
-        "The total number of first-year students is X. The department-wise count is available in the records."
+            The total number of first-year students is X. The department-wise count is available in the records.
 
   utter_second_year_2nd_students_count:
     - text: |
-        "The second-year student strength is Y. Department-wise details can be provided upon request."
+            The second-year student strength is Y. Department-wise details can be provided upon request.
 
   utter_third_year_3rd_students_count:
     - text: |
-        "The total number of third-year students is Z. Many students are actively involved in projects and internships."
+            The total number of third-year students is Z. Many students are actively involved in projects and internships.
 
   utter_final_year_4th_students_count:
     - text: |
-        "The final-year students count is W. A significant number have already secured placements."
+            The final-year students count is W. A significant number have already secured placements.
 
   utter_ssmiet_history_about_college:
-      - text: |
-          **SSM Institute of Engineering and Technology (SSMIET)** was established in the academic year **2011-2012** by the SSM Group, which has over **30** years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
-          Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
-          The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
-          SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges.
-  
+    - text: |
+            **SSM Institute of Engineering and Technology (SSMIET)** was established in the academic year **2011-2012** by the SSM Group, which has over **30** years of experience in the textile industry. The institute was founded with the vision of providing quality technical education and has grown steadily over the years in terms of infrastructure, academic excellence, and student development.
+            Over the years, SSMIET has expanded its facilities, including well-equipped laboratories, libraries, and research centers to support technical education.
+            The institution focuses on industry-oriented training, encouraging students to engage in internships, workshops, and skill-based learning.
+            SSMIET continues its journey by fostering innovation, career development, and holistic education for its students, preparing them for future challenges.
+    
   utter_average_campus_placement:
-      - text: "The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%."
+    - text: |
+            The average number of students placed per year is 179.4, and the average placement percentage (based on the highest placement year) is approximately 65.71%.
   
   utter_yearwise_student_count_ssmiet:
-      - text: |
-              Here is the year-wise total student count in SSMIET:
-              - 2024 - 2025: 1567 students
-              - 2023 - 2024: 1330 students
-              - 2022 - 2023: 1137 students
-              - 2021 - 2022: 1133 students
+    - text: |
+            Here is the year-wise total student count in SSMIET:
+            - 2024 - 2025: 1567 students
+            - 2023 - 2024: 1330 students
+            - 2022 - 2023: 1137 students
+            - 2021 - 2022: 1133 students
 
   utter_placement_training:
     - text: |
-        The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation.
+            The college provides placement training for students before campus recruitment. Training includes aptitude preparation, interview skills, and group discussion practice. Mock interviews and soft skills sessions are conducted to help students gain confidence. Resume-building guidance is also provided. Placement training is available for final-year students, and technical sessions are included to prepare them for company requirements. The training is scheduled as part of the academic program, and faculty members assist students in their preparation.
 
   utter_student_feedback:
     - text: |
             You can submit your feedback only if you are an student/professor of our college using this link:
             - [Feedback Form for Students] (https://ssmiet.ac.in/feedback.html)
             - [Feedback form for Faculties] (https://ssmiet.ac.in/NAAC/C1/Teachers%20Feedback.pdf) 
+
   utter_water_facilities:
-    - text: "Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users"
+    - text: |
+            Drinking water taps and purifiers are available at multiple locations on our campus.Everybody can make use of it and the  aqua machine is also periodically cleaned ensuring the health of students and users.
+
   utter_recruiters_college_for_placements:
-    - text: "The list of recruiters visiting the college are Megaeon
+    - text: |
+            The list of recruiters visiting the college are Megaeon
               - BSA
               - DOMEX
               - Data Patterns Ltd.
@@ -879,63 +904,66 @@ responses:
               - HCL Technologies
               - Govern Adan Systems
               - Valeo
-              - For  more details =>contact us:
+            For  more details contact us:
               - Mr.C.Silambarasan M.E.,
               - Phone: 7373707001
-              - E-mail Id: placement.ssmiet@gmail.com"
+              - E-mail Id: placement.ssmiet@gmail.com
 
   utter_sports_achievements:
-    - text: "Our college has won multiple sports tournaments this year! Check out the details on this link ![Sports Achievements](https://bit.ly/4hGoQ2B) "
+    - text: |
+            Our college has won multiple sports tournaments this year! Check out the details on this link ![Sports Achievements](https://bit.ly/4hGoQ2B) 
+  
   utter_software_lab_details:
-    - text: "The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code,Android studio,UBUNTU,Eclipse, and more."
+    - text: |
+            The lab software is updated according to the curriculum every semester. Currently, available software includes Turbo C, Python IDLE, VS Code, Android studio, UBUNTU, Eclipse, and more.
+  
   utter_ask_lab_hardware :
     - text: |
-        The lab is equipped with:
-        - Processor: INTEL i7
-        - RAM: 16GB
-        - HDD: 500GB
-        - System Type: 64-bit OS
-        - OS: Windows 10, Ubuntu
-        - Display: 18.5" LCD
-        - Peripherals: Lenovo standard keyboard and optical mouse.
+            The lab is equipped with:
+            - Processor: INTEL i7
+            - RAM: 16GB
+            - HDD: 500GB
+            - System Type: 64-bit OS
+            - OS: Windows 10, Ubuntu
+            - Display: 18.5" LCD
+            - Peripherals: Lenovo standard keyboard and optical mouse.
 
   utter_staff_professor_count:
-    - text: "Teaching and non-teaching staff count over the years:
-      - 2024-2025: 96 Teaching, 33 Non-teaching
-      - 2023-2024: 78 Teaching, 34 Non-teaching
-      - 2022-2023: 70 Teaching, 29 Non-teaching
-      - 2021-2022: 95 Teaching, 38 Non-teaching"
-
-  utter_sem_exam_result:
-    - text: "exam link"
-
+    - text: |
+            Teaching and non-teaching staff count over the years:
+            - 2024-2025: 96 Teaching, 33 Non-teaching
+            - 2023-2024: 78 Teaching, 34 Non-teaching
+            - 2022-2023: 70 Teaching, 29 Non-teaching
+            - 2021-2022: 95 Teaching, 38 Non-teaching
+ 
   utter_extracurricular_activites:
     - text: |
-          Technical events
-          Symposium
-          Workshops
-  utter_fee_payment:
+            Technical events
+            Symposium
+            Workshops
+
+  utter_fee_online_payment_details_account_number_bank_name:
     - text: |
             - Bank Name: State Bank Of India, Dindigul.
             - Account Name: SSM Institute of Engineering and Technology
             - Account Number: 00000032684732711
             - IFSC Code: SBIN0012758
 
-  utter_gate_coaching_ques:
+  utter_gate_coaching:
     - text: |
-        The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
+            The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
   
   utter_campus_general_photos:
     - text: |
-        Here are some images of our college campus:
+            Here are some images of our college campus:
 
-        ![Campus View 1](https://ssmiet.ac.in/images/course.jpg)
-        ![Campus View 2](https://i.ibb.co/4GP2V2J/campus1.jpg)
-        ![Campus View 3](https://i.ibb.co/C5BfKXYQ/campus3.jpg)
+            ![Campus View 1](https://ssmiet.ac.in/images/course.jpg)
+            ![Campus View 2](https://i.ibb.co/4GP2V2J/campus1.jpg)
+            ![Campus View 3](https://i.ibb.co/C5BfKXYQ/campus3.jpg)
 
   utter_erp_login:
     - text: |
-        You can check this link as a student, parent, or faculty member to view attendance and profile: https://ssmiet.ac.in/erpnew.html.
+            You can check this link as a student, parent, or faculty member to view attendance and profile: https://ssmiet.ac.in/erpnew.html.
 
   utter_cse_hod_details:
     - text: |
@@ -1252,67 +1280,68 @@ responses:
             You can find more details about the lab facilities available in the CSE department at the following link: https://ssmiet.ac.in/cse%20facilities.html"
 
   utter_hostel_availability_info:
-      - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. \nContact the hostel warden for details."
+    - text: "Yes, the college has hostel facilities for both male and female students.The hostels are equipped with study halls, food services, and security. Contact the hostel warden for details."
   
   utter_hostel_wifi_details:
-    - text: "SSMIET provides WiFi access in the hostel and common areas."
+    - text: "SSMIET provides WiFi access in the hostel and common areas for seperate blocks in the campus."
 
   utter_hostel_room_sharing:
-    - text: "Rooms are shared by 4 members"
+    - text: "Rooms are shared by 4 members with individual cot or bed provided for students"
 
   utter_hostel_food_routine:
-    - text: |
-           The hostel provides vegetarian meals on all days except once a week when a non-vegetarian meal is served. The menu is designed to be nutritious, hygienic, and balanced for all residents.
+    - text: "The hostel provides vegetarian meals on all days except once a week when a non-vegetarian meal is served. The menu is designed to be nutritious, hygienic, and balanced for all residents."
 
   utter_hostel_restroom_facilities:
-    - text: "hotwater, how many bathrooms in a flooor, clean"
+    - text: "hotwater is provided in our hostel, and 3 washrooms and 3 restrooms are there for each floor which are cleaned everyday"
 
   utter_hostel_fee:
-    - text: "hostel fee details"
+    - text: "hostel fee is about 60000 per year"
 
   utter_overall_hostel_details:
-    - text: "full hostel details"
+    - text: "Yes, our college provides hostel facilities for both male and female students. The hostels are equipped with study halls, food services, WiFi, and security. Rooms are shared by four students, each with an individual cot or bed. The hostel serves vegetarian meals daily, with one non-vegetarian meal per week. Restroom facilities include hot water, three washrooms, and three restrooms per floor, cleaned daily. The annual hostel fee is ₹60,000. we have our hostel warden for the protection of our students ."
+
+
           
   utter_ragging:
     - text: |
-          - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
-          - To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues.
-          - If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured.
-          - Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college.
-          - Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment.
+            - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
+            - To maintain a ragging-free campus, our college has a strong anti-ragging policy, conducts awareness sessions, and provides a helpline for students to report any issues.
+            - If you ever need to report any ragging-related issues, you can contact our official helpline. All reports are taken seriously, and strict action is ensured.
+            - Ragging is strictly prohibited, and those found guilty may face severe consequences, including suspension or dismissal from the college.
+            - Our college conducts regular awareness programs to educate students on the importance of maintaining a respectful and ragging-free environment.
 
-  utter_bus_facility:
+  utter_ask_bus_facility_details:
       - text: |
               Our college provides bus facilities for day scholars. Once you have paid the bus fees for your location, you cannot change your bus 
               route or stop to another location. However, you can request a route change after completing one year.\n Bus fees are charged separately 
               and vary based on the distance from the college to your preferred location. You can find details about bus routes and bus numbers below.
 
-              - We have Buses from **Palani , Periyakulam , Vanthalagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
+              - We have Buses from **Palani , Periyakulam , batlagundu , Nilakottai , Madurai , VadaMadurai , Dindigul Bus stand , Natham**.
               - We have totally 25+ Buses.There is only one bus per stop.
 
+              For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link 
+
   utter_bus_seat_fcfs:
-    - text: "Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat."
+    - text: |
+            Bus seating in our college is based on a first-come, first-served (FCFS) system. It's best to arrive early to get a seat.
 
   utter_bus_seat_full:
-    - text: "If the bus is full, students may have to stand during the journey. There are no extra buses provided."
+    - text: "If the bus is full, students won’t need to stand as an extra bus will be provided."
 
   utter_bus_seat_no_reservation:
-    - text: "Seats cannot be reserved in advance. The best way to secure a seat is to arrive early before departure."
-
-  utter_bus_facility_details:
     - text: |
-        Our college provides a well-organized bus facility for students and staff. Here are the key details:
-        
-        - Buses cover multiple routes and ensure accessibility to different areas.
-        - Seating is based on a first-come, first-served (FCFS) system.
-        - If the bus is full, students may have to stand as no extra buses are available.
-        - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
-        - There is no seat reservation system; seating depends on availability.
-        - The bus service is available for both students and staff.
-        - A helpline is provided for any bus-related issues.
-        
-        
-        For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link      
+            Our college provides a well-organized bus facility for students and staff. Here are the key details:
+            
+            - Buses cover multiple routes and ensure accessibility to different areas.
+            - Seating is based on a first-come, first-served (FCFS) system.
+            - If the bus is full, students may have to stand as no extra buses are available.
+            - Departure timings vary based on the distance and route of each bus. Please check with the transport department for specific schedules.
+            - There is no seat reservation system; seating depends on availability.
+            - The bus service is available for both students and staff.
+            - A helpline is provided for any bus-related issues.
+            
+            
+            For more details, you can view the check the link: https://drive.google.com/file/d/1VOdaWgwF02DfpSPKZP60CziZPvE1n2An/view?usp=drive_link      
 
   utter_canteen_availability:
     - text: "Yes, our college has a well-maintained canteen for students and staff. It provides a comfortable seating area and ensures hygiene standards are met."
@@ -1640,11 +1669,11 @@ responses:
             🔹 Position: Head of the Department (HOD), IT, SSMIET
             🔹 Years of Experience: 22+ years in teaching 
             🔹 Qualification: 🎓 Ph.D, M.E, B.E
-               To learn more about HOD of IT of SSMIET, please visit this website https://ssmiet.ac.in/pdf/cse/prabhu.pdf"
+             To learn more about HOD of IT of SSMIET, please visit this website https://ssmiet.ac.in/pdf/cse/prabhu.pdf"
 
   utter_it_faculty_details:
     - text: |
-            Here are the faculty members of the IT department:
+            ** 📌 Faculty members of the Information Technology department:**
 
               ![Prabhu](https://i.ibb.co/zVspTzcQ/prabhu.jpg)
             - **Dr. G. Prabu** - M.E., Ph.D. (Professor and Head)
@@ -1657,124 +1686,137 @@ responses:
 
   utter_peo_it_department:
     - text: |
-        Program Educational Objectives (PEOs) of IT department:
-        
-        **PEO1** - Technical Proficiency: Demonstrate technical competence with analytical and critical thinking to understand and meet the diversified requirements of industry, academia, and research.
-        
-        **PEO2** - Continuous Educational Growth: Exhibit technical leadership, team skills, and entrepreneurship skills to provide business solutions to real-world problems.
-        
-        **PEO3** - Managerial Skills: Work in multi-disciplinary industries with social and environmental responsibility, work ethics, and adaptability to address complex engineering and social problems.
-        
-        **PEO4** - Service to the Society: Pursue lifelong learning, use cutting-edge technologies, and engage in applied research to design optimal solutions.
+            **📌Program Educational Objectives (PEOs) of IT department:**
+            
+            **PEO1** - Technical Proficiency: Demonstrate technical competence with analytical and critical thinking to understand and meet the diversified requirements of industry, academia, and research.
+            
+            **PEO2** - Continuous Educational Growth: Exhibit technical leadership, team skills, and entrepreneurship skills to provide business solutions to real-world problems.
+            
+            **PEO3** - Managerial Skills: Work in multi-disciplinary industries with social and environmental responsibility, work ethics, and adaptability to address complex engineering and social problems.
+            
+            **PEO4** - Service to the Society: Pursue lifelong learning, use cutting-edge technologies, and engage in applied research to design optimal solutions.
 
   utter_po_it_department:
     - text: |
-        Program Outcomes (POs) of IT department:
-        
-        **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
-        
-        **PO2** - Problem Analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
-        
-        **PO3** - Design/Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
-        
-        **PO4** - Conduct Investigations of Complex Problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
-        
-        **PO5** - Modern Tool Usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
-        
-        **PO6** - The Engineer and Society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
-        
-        **PO7** - Environment and Sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
-        
-        **PO8** - Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
-        
-        **PO9** - Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
-        
-        **PO10** - Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
-        
-        **PO11** - Project Management and Finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects, and in multidisciplinary environments.
-        
-        **PO12** - Life-Long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
+            **📌Program Outcomes (POs) of IT department:**
+            
+            **PO1** - Engineering Knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.
+            
+            **PO2** - Problem Analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.
+            
+            **PO3** - Design/Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet specified needs with appropriate consideration for public health and safety, and cultural, societal, and environmental considerations.
+            
+            **PO4** - Conduct Investigations of Complex Problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.
+            
+            **PO5** - Modern Tool Usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.
+            
+            **PO6** - The Engineer and Society: Apply reasoning informed by contextual knowledge to assess societal, health, safety, legal, and cultural issues and the consequent responsibilities relevant to professional engineering practice.
+            
+            **PO7** - Environment and Sustainability: Understand the impact of professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.
+            
+            **PO8** - Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of engineering practice.
+            
+            **PO9** - Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.
+            
+            **PO10** - Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.
+            
+            **PO11** - Project Management and Finance: Demonstrate knowledge and understanding of engineering and management principles and apply these to one's own work, as a member and leader in a team, to manage projects, and in multidisciplinary environments.
+            
+            **PO12** - Life-Long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.
 
   utter_pso_it_department:
     - text: |
-        Program Specific Outcomes (PSOs) of IT department:
-        
-        **PSO1**: Have proficiency in programming skills to design, develop, and apply appropriate techniques to solve complex engineering problems.
-        
-        **PSO2**: Have knowledge to build, automate, and manage business solutions using cutting-edge technologies.
-        
-        **PSO3**: Have excitement towards research in applied computer technologies.
-       
+            **📌Program Specific Outcomes (PSOs) of IT department:**
+            
+            **PSO1**: Have proficiency in programming skills to design, develop, and apply appropriate techniques to solve complex engineering problems.
+            
+            **PSO2**: Have knowledge to build, automate, and manage business solutions using cutting-edge technologies.
+            
+            **PSO3**: Have excitement towards research in applied computer technologies.
+          
 
   utter_it_department_info_about:
-    - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, features excellent infrastructure and a dedicated faculty. \nCommitted to quality education, the department aims to enhance the teaching-learning process and develop into a Center of Excellence. \nIts ultimate goal is to create excellent career pathways for students through placements, entrepreneurship, or higher studies."
+    - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, features excellent infrastructure and a dedicated faculty. Committed to quality education, the department aims to enhance the teaching-learning process and develop into a Center of Excellence. Its ultimate goal is to create excellent career pathways for students through placements, entrepreneurship, or higher studies."
 
   utter_it_department_vision:
-    - text: "**Vision**: \nTo be an outstanding center for IT education and research for betterment of society."
+    - text: |
+            **VISION OF IT**
+                  - To be an outstanding center for IT education and research for betterment of society.
 
   utter_it_department_mission:
-    - text: "**Mission**: \nImpart sound knowledge of IT domains to the students. \nNurture students to contribute to dynamic industrial needs. \nEmpower faculty with the knowledge in the emerging areas of IT. \nPromote sustained research to build information systems for the benefit of society."
+    - text: |
+            **MISSION OF IT**
+                  - Impart sound knowledge of IT domains to the students. 
+                  - Nurture students to contribute to dynamic industrial needs. 
+                  - Empower faculty with the knowledge in the emerging areas of IT. 
+                  - Promote sustained research to build information systems for the benefit of society.
 
   utter_it_total_students:
-    - text: "The total student count in the IT department varies each academic year."
+    - text: |
+            Here is the count of students for the current year Information Technology(dummy)
+              - Current Batch -> 2024 - 2025
+              - IV Year: Girls - 4, Boys - 11, Total - 15
+              - II Year: Girls - 8, Boys - 14, Total - 22
+              - I Year: Girls - 6, Boys - 10, Total - 16
+              - Total Girls - 18, Total Boys - 35, Total Students - 53
+
 
   utter_it_female_girls_students:
-    - text: 
-        "The number of female students in the IT department varies."
+    - text:  "The number of female students in the IT department varies."
   
   utter_it_male_boys_students:
-    - text: 
-        "The number of male students in the IT department varies."
+    - text: "The number of male students in the IT department varies."
 
   utter_mou_sign_company_it:
-    - text: "Here are the companies that have signed an MOU with our institution: 
-              1. Code Tantra 
-              2. Edunet Foundation
-              3. Vinculo
-              4. Svasti Technology Solutions
-              5. Accent Techno Soft (ATS)
-              6. Maxelerator Foundation
-              7. Spotlight Technology
-              8. Tarcin Robotics
-              9. Pirai Infotech Private Limited
-              10. Red Hat India Private Limited
-              11. Airmate Technologies
-              12. Silicon Software Services
-              13. Elysium Academy Private Limited
-              14. Cloud Systems\n15. NIIT - Dindigul
-              16. Gateway Software Solutions
-              17. Micro Genesis Tech Soft Private Limited"
+    - text: |
+            Here are the companies that have signed an MOU with the Information Technology department: 
+              - 1. Code Tantra 
+              - 2. Edunet Foundation
+              - 3. Vinculo
+              - 4. Svasti Technology Solutions
+              - 5. Accent Techno Soft (ATS)
+              - 6. Maxelerator Foundation
+              - 7. Spotlight Technology
+              - 8. Tarcin Robotics
+              - 9. Pirai Infotech Private Limited
+              - 10. Red Hat India Private Limited
+              - 11. Airmate Technologies
+              - 12. Silicon Software Services
+              - 13. Elysium Academy Private Limited
+              - 14. Cloud Systems
+              - 15. NIIT - Dindigul
+              - 16. Gateway Software Solutions
+              - 17. Micro Genesis Tech Soft Private Limited
 
   utter_placement_company_names_it:
     - text: |
-        Companies recruiting IT students categorized by tier levels:
-          - Tier 1:
-            - Tata Consultancy Services (TCS)
-            - Infosys
-            - Wipro
-            - HCL Technologies
-            - Capgemini
-            - Hexaware Technologies
-          - Tier 2:
-            - Zoho Corp
-            - 4i Apps Solutions Pvt Ltd
-            - Accenture
-            - Atos Syntel
-            - Revature
-          - Tier 3:
-            - Venture Tools
-            - Vintorix Solutions
-            - Slusby Technologies
-            - Mechpro Technologies
-            - Spotlight Technologies
-            - Svasti Technology Solutions
-            - Pirai Infotech Pvt Ltd
-            - ThinkBig Infotech Pvt Ltd
-            - Net Tel Solutions India Pvt Ltd    
+            Companies recruiting IT students categorized by tier levels:
+              - Tier 1:
+                - Tata Consultancy Services (TCS)
+                - Infosys
+                - Wipro
+                - HCL Technologies
+                - Capgemini
+                - Hexaware Technologies
+              - Tier 2:
+                - Zoho Corp
+                - 4i Apps Solutions Pvt Ltd
+                - Accenture
+                - Atos Syntel
+                - Revature
+              - Tier 3:
+                - Venture Tools
+                - Vintorix Solutions
+                - Slusby Technologies
+                - Mechpro Technologies
+                - Spotlight Technologies
+                - Svasti Technology Solutions
+                - Pirai Infotech Pvt Ltd
+                - ThinkBig Infotech Pvt Ltd
+                - Net Tel Solutions India Pvt Ltd    
 
   utter_it_accreditation:
-    - text: |
-        "The Department of Information Technology, established in 2023 with an intake of 60 students, offers excellent infrastructure and a committed faculty. Focused on quality education, it aims to enhance learning and become a Center of Excellence. The department strives to create career pathways through placements, entrepreneurship, or higher studies. Currently, it is not accredited."
+    - text: "The Department of Information Technology, established in 2023 with an intake of 60 students, offers excellent infrastructure and a committed faculty. Focused on quality education, it aims to enhance learning and become a Center of Excellence. The department strives to create career pathways through placements, entrepreneurship, or higher studies. Currently, it is not accredited by NBA"
 
   utter_it_event_conducted_photos:
     - text: |
@@ -1783,9 +1825,25 @@ responses:
             Check it out further details "https://shorturl.at/7m1WF"
 
   utter_it_faculty_experience_knowledge:
+    - text:  "The IT faculty at SSMIET has an highly experienced educators and On average,faculty members have around 11 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences."
+  
+  utter_it_contact:
     - text: |
-        "The IT faculty at SSMIET has an highly experienced educators and On average,faculty members have around 11 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
+            - The Head of the Department(contact),
+            - Department of Information and Technology Engineering,
+            - SSM Institute of Engineering and Technology,
+            - Dindigul – 624 002,Tamil Nadu, India
+            📞 Phone: : 9994614854
+            📧 E-mail: vgprabhu.samycse@ssmiet.ac.in
 
+  utter_it_staff_count:
+    - text: |
+            Staff Counts in IT
+              - *Teaching Staff* - 4
+              - *Non-Teaching Staff* - ?
+              - *Total Staff* - 4
+
+        
   utter_eee_hod_details:
     - text: |
             ![Sekar](https://i.ibb.co/wFD9fcD6/sekar.jpg)
@@ -2080,7 +2138,7 @@ responses:
 
   utter_mech_faculty_details:
     - text: |
-            Here are the faculty members of the Mech department:
+            **📌 Faculty details of the Mechanical department**
               
               ![Sankaranarayanan](https://i.ibb.co/zhFTwMNk/sankaranarayanan.jpg)
             - **Dr.G. Sankaranarayanan** - M.E., Ph.D. (Professor and Head)
@@ -2105,7 +2163,7 @@ responses:
         
   utter_peo_mech_department:
     - text: |
-            Programme Educational Objectives (PEOs) of Mechanical department:
+            **📌 Programme Educational Objectives (PEOs) of Mechanical department:**
 
             **PEO1** Domain Knowledge - Prepare graduates to excel in their professional career by acquiring knowledge in Mathematics, Science, Engineering principles through theory, laboratory classes and to formulate, solve, address problems in the mechanical engineering domains.
 
@@ -2119,7 +2177,7 @@ responses:
 
   utter_po_mech_department:
     - text: |
-            Program Outcomes (POs) of Mechanical department:
+            **📌Program Outcomes (POs) of Mechanical department:**
 
             **PO1** Apply the knowledge of mathematics, science, engineering fundamentals and an engineering specialization to the solution of complex engineering problems.
 
@@ -2147,7 +2205,7 @@ responses:
 
   utter_pso_mech_department:
     - text: |
-            Programme Specific Outcomes (PSO) of Mechanical department:
+            **📌Programme Specific Outcomes (PSO) of Mechanical department:**
 
             **PSO1** Research oriented: Comprehend journal literature, do research on new mechanical engineering problems and publish the results through patents, journals, conferences and symposium.
 
@@ -2159,7 +2217,7 @@ responses:
     - text: "You can find the course outcomes for the Mechanical department at SSMIET in the following PDF:  https://ssmiet.ac.in/MECH/2024/Course%20Outcomes%20R2017.pdf"
 
   utter_mech_department_info_about:
-    - text: " **Mechanical Engineering** is one of the oldest and broadest disciplines, applying energy, materials, and mechanics to drive technology and industry. With flexibility and diverse career paths, mechanical engineers can become entrepreneurs, consultants, or industry professionals. The department has 12 faculty members, including an IIT doctorate and three pursuing PhDs. It follows modern teaching methods, including presentations, seminars, industrial visits, and guest lectures."
+    - text: " The **Mechanical Engineering** Department at SSMIET is one of the oldest and broadest disciplines, applying energy, materials, and mechanics to drive technology and industry. With flexibility and diverse career paths, mechanical engineers can become entrepreneurs, consultants, or industry professionals. The department has 12 faculty members, including an IIT doctorate and three pursuing PhDs. It follows modern teaching methods, including presentations, seminars, industrial visits, and guest lectures."
 
   utter_mech_department_vision:
     - text: |
@@ -2175,139 +2233,168 @@ responses:
                - Promoting co-curricular and extra-curricular activities to develop the life skills of graduating mechanical engineering students.
 
   utter_mech_total_students:
-    - text: "The total student count in the Mechanical department varies each academic year."
-  
+    - text: |
+            Here is the count of students for the current year Mechanical(dummy) 
+              - Current Batch -> 2024 - 2025
+              - IV Year: 40
+              - III Year: 25
+              - II Year: 28
+              - I Year: 25
+              - Total Girls - 01, Total Boys - 117, Total Students - 118 
   utter_mech_male_boys_students:
-    - text: 
-        "The number of male students in the Mechanical department varies."
+    - text: "The number of male students in the Mechanical department is 117"
 
   utter_mech_lab_facilities:
-    - text: 
-        "You can find details about the lab facilities available in the Mechanical department at the following link: https://ssmiet.ac.in/mechfacilities.html"
+    - text:  "You can find details about the lab facilities available in the Mechanical department at the following link: https://ssmiet.ac.in/mechfacilities.html"
 
   utter_mech_department_activities:
-    - text: 
-        "You can find details about the department activities at the following link: https://ssmiet.ac.in/mech%20department%20activity.html"
+    - text:  "You can find details about the department activities of the Mechanical Engineering at the following link: https://ssmiet.ac.in/mech%20department%20activity.html"
   
   utter_mech_student_activities:
-    - text: 
-        "You can find details about the student activities at the following link: https://ssmiet.ac.in/stud_act_mech.html"
+    - text: "You can find details about the student activities of the mechanical department at the following link: https://ssmiet.ac.in/stud_act_mech.html"
 
   utter_mech_faculty_activities:
-    - text: 
-        "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/fac_act_mech.html"
+    - text: "You can find details about the faculty activities at the following link: https://ssmiet.ac.in/fac_act_mech.html"
 
   utter_mech_professional_bodies:
-    - text: 
-        "You can find details about the professional bodies associated with the Mechanical department at the following link: https://ssmiet.ac.in/mechanical%20professional%20bodies.html"
+    - text: "You can find details about the professional bodies associated with the Mechanical department at the following link: https://ssmiet.ac.in/mechanical%20professional%20bodies.html"
   
   utter_mech_research_activities:
-    - text: 
-        "You can find details about the research activities in the Mechanical department at the following link: https://ssmiet.ac.in/MECHANICAL%20RESEARCH.html"
+    - text:  "You can find details about the research activities in the Mechanical department at the following link: https://ssmiet.ac.in/MECHANICAL%20RESEARCH.html"
   
   utter_mech_newsletter:
-    - text: 
-        "You can find details about the Mechanical department newsletter at the following link: https://ssmiet.ac.in/mech%20news%20letter.html"
+    - text: "You can find details about the Mechanical department newsletter at the following link: https://ssmiet.ac.in/mech%20news%20letter.html"
         
   utter_technical_faculty_mech:
     - text: |
-        The technical faculty in the Mechanical department are:
-          - Mr.S.Sivachandran D.M.E.,B.E., (Technical Assistant)
-          - Mr.P.Kaliappan DME.,B.E.,M.E., (Technical Assistant)
-          - Mr.M.Mayilvaganam DME., (Technical Assistant)
-          - Mr.J.Gopinath D.M.E, B.A., (Technical Assistant)
-          - Mr. P. Ilayaraja (DME)  (Technical Assistant)
-         
+            Here are the technical faculty in the Mechanical department are:
+              - Mr.S.Sivachandran D.M.E.,B.E., (Technical Assistant)
+              - Mr.P.Kaliappan DME.,B.E.,M.E., (Technical Assistant)
+              - Mr.M.Mayilvaganam DME., (Technical Assistant)
+              - Mr.J.Gopinath D.M.E, B.A., (Technical Assistant)
+              - Mr. P. Ilayaraja (DME)  (Technical Assistant)
+            
   utter_placement_mech:
     - text: |
-        Year-wise placement details for the Mechanical department:
-          - 2018-2019: 66 students
-          - 2019-2020: 62 students
-          - 2020-2021: 96 students
-          - 2021-2022: 54 students
-          - 2022-2023: 31 students
-          - 2023-2024: 35 students
+            Year-wise placement details for the Mechanical department:
+              - 2018-2019: 66 students
+              - 2019-2020: 62 students
+              - 2020-2021: 96 students
+              - 2021-2022: 54 students
+              - 2022-2023: 31 students
+              - 2023-2024: 35 students
+            You check the placement details in this link https://ssmiet.ac.in/mech%20placement.html
         
   utter_extra_courses_mech:
     - text: |
-        Here are the value-added courses offered by the Mechanical department:
-          1. Technology Training on CATIA 
-          2. Technology Training on 3D Printing
-          3. Technology Training on CREO      
-          4. Technology Training on PYTHON
-          5. Hands on Training on Heat transfer Equipments
-          6. Machine Drawing
-          7. Refrigeration and Air Conditioning(R&AC)
-          8. Cad Modelling in Industrial Applications
+            Here are the value-added courses offered by the Mechanical department:
+               - **Technology Training on CATIA** 
+               - **Technology Training on 3D Printing**
+               - **Technology Training on CREO**
+               - **Technology Training on PYTHON**
+               - **Hands on Training on Heat transfer Equipments**
+               - **Machine Drawing**
+               - **Refrigeration and Air Conditioning(R&AC)**
+               - **Cad Modelling in Industrial Applications**
 
   utter_mou_sign_company_mech:
     - text: |
-          Here are the companies that have signed an MOU with our institution: 
-              1. A PLUS NDT Services, Coimbatore 
-              2. Sri Sai NDT Services, Pondicherry 
-              3. UNIQUE MEP Engineering Pvt Ltd, Chennai 
-              4. Supreme EDM Tools, Coimbatore  
-              5. SPOTLITE Technology, Dindigul 
-              6. Prajith Engineering Technologies, Coimbatore. 
-              7. Ford Motors India Limited, Chennai. 
-              8. CIPET, Madurai 
-              9. Senthil Kumaran Engineering and Contractors, Dindigul
-              10. Tirupathi E Power Motors, Dindigul 
-              11. Southern Railway, Perambalur.  
-              12. southern Railway, Ponmalai
-              13. Madura Steel Industries Ltd, Dindigul
-              14. PCRA
-              15. SPD & Sons, Dindigul
-              16. Interfit India Limited, Dindigul 
-              17. Nalvetha Castings Limited, Dindigul
-              18. Mr. A. Annadurai, Jt. Secretary, DRTEC, DIC, Dindigul 
-              19. Siva Balaji Press tools, Dindigul 
+            Here are the companies that have signed an MOU with the mechanical engineering department: 
+                - 1. A PLUS NDT Services, Coimbatore 
+                - 2. Sri Sai NDT Services, Pondicherry 
+                - 3. UNIQUE MEP Engineering Pvt Ltd, Chennai 
+                - 4. Supreme EDM Tools, Coimbatore  
+                - 5. SPOTLITE Technology, Dindigul 
+                - 6. Prajith Engineering Technologies, Coimbatore. 
+                - 7. Ford Motors India Limited, Chennai. 
+                - 8. CIPET, Madurai 
+                - 9. Senthil Kumaran Engineering and Contractors, Dindigul
+                - 10. Tirupathi E Power Motors, Dindigul 
+                - 11. Southern Railway, Perambalur.  
+                - 12. southern Railway, Ponmalai
+                - 13. Madura Steel Industries Ltd, Dindigul
+                - 14. PCRA
+                - 15. SPD & Sons, Dindigul
+                - 16. Interfit India Limited, Dindigul 
+                - 17. Nalvetha Castings Limited, Dindigul
+                - 18. Mr. A. Annadurai, Jt. Secretary, DRTEC, DIC, Dindigul 
+                - 19. Siva Balaji Press tools, Dindigul 
 
   utter_mech_contact:
     - text: |
-        📌 The Head of the Department,
-        🏛️ Department of Mechanical Engineering,
-        🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
-        📞 Phone: 0451 – 2448830
-        ✉️ Email: hodmechanicalssmiet@gmail.com
+            📌 The Head of the Department,
+            🏛️ Department of Mechanical Engineering,
+            🏫 SSM Institute of Engineering and Technology, Dindigul – 624 002, Tamil Nadu, India.
+            📞 Phone: 0451 – 2448830
+            ✉️ Email: hodmechanicalssmiet@gmail.com
   
   utter_placement_company_names_mech:
     - text: |
-        Companies recruiting Mechanical Engineering students categorized by tier levels:
-          - Tier 1 Companies:
-            - Tata Motors
-            - Tata Steel
-            - Tata Consultancy Services (TCS)
-            - Larsen & Toubro (L&T)
-            - Mahindra & Mahindra
-            - Bharat Heavy Electricals Limited (BHEL)
-          - Tier 2 Companies:
-            - Hindustan Aeronautics Limited (HAL)
-            - Siemens India
-            - Godrej & Boyce
-            - Thermax
-          - Tier 3 Companies:
-            - Ashok Leyland
-            - Kirloskar Group
-            - Jindal Steel & Power
-            - Hindustan Petroleum Corporation Limited (HPCL)
+            Companies recruiting Mechanical Engineering students categorized by tier levels:
+              - Tier 1 Companies:
+                - Tata Motors
+                - Tata Steel
+                - Tata Consultancy Services (TCS)
+                - Larsen & Toubro (L&T)
+                - Mahindra & Mahindra
+                - Bharat Heavy Electricals Limited (BHEL)
+              - Tier 2 Companies:
+                - Hindustan Aeronautics Limited (HAL)
+                - Siemens India
+                - Godrej & Boyce
+                - Thermax
+              - Tier 3 Companies:
+                - Ashok Leyland
+                - Kirloskar Group
+                - Jindal Steel & Power
+                - Hindustan Petroleum Corporation Limited (HPCL)
 
   utter_mech_accreditation:
-    - text: |
-        The Mechanical Engineering (ME) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011. \nThe institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. \nAdditionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC).
+    - text: " The Mechanical Engineering (ME) department at SSM Institute of Engineering and Technology (SSMIET) was established in 2011.The institute is approved by the All India Council for Technical Education (AICTE) and is affiliated with Anna University, Chennai. Additionally, SSMIET is accredited by the National Assessment and Accreditation Council (NAAC) and also accredited by NBA."
 
   utter_mech_yearwise_student_count:
-    - text: |
-        "Yearwise student count in Mechanical department"
+    - text:  "Yearwise student count in Mechanical department"
 
   utter_mech_event_conducted_photos:
     - text: |
-        "Event photos"
+            ![Mech Event photo 1](https://ibb.co/YnV8Yk7)
+            ![Mech Event photo 2](https://ibb.co/Hfn5TBVX)
+            ![Mech Event photo 3](https://ibb.co/Y4f7kN65)
+            ![Mech Event photo 4](https://ibb.co/20pBX0kM)
+            ![Mech Event photo 5](https://ibb.co/ymgkhVsp)
+            ![Mech Event photo 6](https://ibb.co/S7VSxFYv)
+
 
   utter_mech_faculty_experience_knowledge:
+    - text: "The Mechanical Engineering faculty at SSMIET has an highly experienced educators and On average,faculty members have around 12 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence."
+  
+  utter_mech_staff_count:
     - text: |
-        The Mechanical Engineering faculty at SSMIET has an highly experienced educators and On average,faculty members have around 12 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided.
+            Staff Counts in Mechanical
+              - *Teaching Staff* - 11
+              - *Non-Teaching Staff* - 5
+              - *Total Staff* - 16
+  utter_intern_company_mech:
+    - text: |
+            Here are some companies offering internships for Mechanical Engineering students:
 
+                - A PLUS NDT Services, Coimbatore
+                - Sri Sai NDT Services, Pondicherry
+                - UNIQUE MEP Engineering Pvt Ltd, Chennai
+                - Supreme EDM Tools, Coimbatore
+                - SPOTLITE Technology, Dindigul
+                - Prajith Engineering Technologies, Coimbatore
+                - Ford Motors India Limited, Chennai
+                - Senthil Kumaran Engineering and Contractors, Dindigul
+                - Tirupathi E Power Motors, Dindigul
+                - Southern Railway, Perambalur
+                - Southern Railway, Ponmalai
+                - SPD & Sons, Dindigul
+                - Interfit India Limited, Dindigul
+                - Nalvetha Castings Limited, Dindigul
+                - Mr. A. Annadurai, Jt. Secretary, DRTEC, DIC, Dindigul
+              
+            
   utter_csbs_hod_details:
      - text: |
               ![Jeyalakshmi](https://i.ibb.co/cXgfhVhg/jeyalakshmi.jpg)
@@ -2575,25 +2662,25 @@ responses:
 
   utter_campus_auditorium_photos:
     - text: |
-        Here are some images of the college auditorium:
+            Here are some images of the college auditorium:
 
-        ![Auditorium 1](https://i.ibb.co/fYzDFtZJ/aud-7.jpg)
-        ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
-        ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
+            ![Auditorium 1](https://i.ibb.co/fYzDFtZJ/aud-7.jpg)
+            ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
+            ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
 
   utter_campus_canteen_photos:
     - text: |
-        Here are some images of the college canteen:
+            Here are some images of the college canteen:
 
-        ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
-      # ![Canteen 2](https://example.com/canteen2.jpg)
+            ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
+          # ![Canteen 2](https://example.com/canteen2.jpg)
 
   utter_campus_library_photos:
     - text: |
-          Here are some images of the library:
+            Here are some images of the library:
 
-          ![Library 1](https://i.ibb.co/KxFwkXcP/lib1.jpg)
-          ![Library 2](https://i.ibb.co/hx3HgFjm/aud-6.jpg)
+            ![Library 1](https://i.ibb.co/KxFwkXcP/lib1.jpg)
+            ![Library 2](https://i.ibb.co/hx3HgFjm/aud-6.jpg)
 
   utter_aids_hod_details:
     - text: |
@@ -2947,7 +3034,7 @@ responses:
 
   utter_civil_faculty_details:
       - text: |
-              **Faculty Details of the Civil Engineering Department:**
+              ** 📌 Faculty Details of the Civil Engineering Department:**
             
                 ![Selvabharathi](https://i.ibb.co/Z1RKyFhF/selvabharathi.jpg)
               - **Dr. G. Selvabharathi** - B.Tech., M.E., Ph.D , (Professor & Head)
@@ -2975,6 +3062,7 @@ responses:
               **PEO**  2️⃣ **Professionalism & Ethics**: Graduates will exhibit professionalism, ethical values, and teamwork in their careers.
               **PEO**  3️⃣ **Lifelong Learning**: Graduates will engage in lifelong learning and adapt to evolving technologies in Civil Engineering.
               **PEO**  4️⃣ **Sustainability & Social Responsibility**: Graduates will contribute to sustainable infrastructure development with environmental responsibility.
+ 
   utter_po_civil_department:
       - text: |
               **📌 Program Outcomes (PO) - Civil Engineering Department**
@@ -3000,8 +3088,7 @@ responses:
               **PSO2**: Inculcating state of art technologies in students to deal with practical aspects of Civil Engineering.
 
   utter_civil_course_outcomes:
-        - text: |
-                You can find the course outcomes for civil department,please visit: [Civil Engineering Course Outcomes] https://ssmiet.ac.in/civil/2024/CO%20PO%20R%202021.pdf
+        - text: "You can find the course outcomes for civil department,please visit: [Civil Engineering Course Outcomes] https://ssmiet.ac.in/civil/2024/CO%20PO%20R%202021.pdf"
       
   utter_technical_faculty_civil:
         - text: |
@@ -3015,7 +3102,7 @@ responses:
   utter_civil_department_vision:
     - text: |
             **VISION OF CIVIL**
-                  To provide technical education to all aspiring students to become Civil Engineering professionals with creativity, competency, and the skill to solve challenges with societal focus.
+                  - To provide technical education to all aspiring students to become Civil Engineering professionals with creativity, competency, and the skill to solve challenges with societal focus.
 
   utter_civil_department_mission:
     - text: |
@@ -3072,19 +3159,20 @@ responses:
   utter_extra_courses_civil:
     - text: |
             The Civil Engineering department offers the following value-added courses:
-            - **AutoCAD for Civil Engineers**
-            - **Building Information Modelling (BIM)**
-            - **STAAD Pro for Structural Analysis**
-            - **Total Station and Surveying Techniques**
-            - **Geotechnical Investigation and Soil Testing**
-            - **Concrete Mix Design and Testing**
-            - **Revit Architecture and Structural Design**
-            - **Construction Project Management using Primavera**
-            - **Environmental Impact Assessment (EIA) Training**
-            - **Road Safety and Traffic Management**
-            
+              - **AutoCAD for Civil Engineers**
+              - **Building Information Modelling (BIM)**
+              - **STAAD Pro for Structural Analysis**
+              - **Total Station and Surveying Techniques**
+              - **Geotechnical Investigation and Soil Testing**
+              - **Concrete Mix Design and Testing**
+              - **Revit Architecture and Structural Design**
+              - **Construction Project Management using Primavera**
+              - **Environmental Impact Assessment (EIA) Training**
+              - **Road Safety and Traffic Management**
+              
             For more details, visit our official page:  
             🔗 [Civil Value-Added Courses] https://ssmiet.ac.in/civil%20valueaddedcourse.html
+
   utter_intern_company_civil:
     - text: |
             Here are some companies offering internships for Civil Engineering students:
@@ -3123,9 +3211,9 @@ responses:
             - Dindigul – 624 002,Tamil Nadu, India
             📞 Phone: 0451 – 2448827  
             📧 E-mail: hodcivilssmiet@gmail.com
+
   utter_civil_faculty_experience_knowledge:
-    - text: |
-            "The CIVIL department faculty members have an highly experienced educators and On average,faculty members have around 8.125 years experience."
+    - text: "The CIVIL department faculty members have an highly experienced educators and On average,faculty members have around 8.125 years experience."
 
   utter_civil_yearwise_student_count:
     - text: |
@@ -3174,12 +3262,14 @@ responses:
             ![Civil Event photo 4](https://i.ibb.co/bgZhsQ5P/civilacti13.jpg)
             ![Civil Event photo 5](https://i.ibb.co/6RnXr1c2/civilacti14.jpg)
             ![Civil Event photo 6](https://i.ibb.co/C3VtS7wf/civilacti10.jpg)
+
 utter_civil_staff_count:
     - text: |
             Staff Counts in civil
               - *Teaching Staff* - 8
               - *Non-Teaching Staff* - 2
               - *Total Staff* - 10
+
 utter_campus_hostel_photos:
     - text: |
             Here are some images of the hostel:
@@ -3193,10 +3283,10 @@ utter_campus_hostel_photos:
 
 utter_campus_playground_photos:
   - text: |
-      Here are some images of the playground:
+          Here are some images of the playground:
 
-      ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
-      ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
+          ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
+          ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
 
-utter_goodbye:
+utter_goodbye:   
   - text: "Good Bye!..."

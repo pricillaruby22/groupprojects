@@ -13,29 +13,29 @@ rules:
   - rule: Respond to online course queries
     steps:
       - intent: ask_online_courses
-      - action: utter_online_courses
+      - action: utter_ask_online_courses
 
   - rule: Respond to co-ed inquiries
     steps:
       - intent: coeducation
-      - action: utter_coed_info
+      - action: utter_coeducation
 
   - rule: Respond to entrance exam inquiries
     steps:
       - intent: entrance_exam
-      - action: utter_entrance_exam_info
+      - action: utter_entrance_exam
       
   - rule: Respond to uniform inquiries
     steps:
       - intent: uniform_dresscode
-      - action: utter_uniform_dresscode_info
+      - action: utter_uniform_dresscode
 
   - rule: Respond to book availability
     steps:
       - intent: book_availability
-      - action: utter_book_availability_info
+      - action: utter_book_availability
 
-  - rule: Respond to student total count inquiry
+  - rule: Respond to current student total count inquiry
     steps:
       - intent: current_student_total_count
       - action: utter_current_student_total_count
@@ -43,7 +43,7 @@ rules:
   - rule: Respond to family visit policy
     steps:
       - intent: family_visit
-      - action: utter_family_visit_info
+      - action: utter_family_visit
 
   - rule: Respond to college location and address query
     steps:
@@ -59,12 +59,7 @@ rules:
     steps: 
       - intent: NBA_accredited_dept 
       - action: utter_NBA_accredited_dept
-
-  - rule: Answer bus facility query
-    steps:
-      - intent: bus_facility
-      - action: utter_bus_facility
-
+ 
   - rule: Answer principal details query
     steps:
       - intent: principal_details
@@ -82,8 +77,8 @@ rules:
 
   - rule: Answer admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate
-      - action: utter_admission_apply_lastdate
+      - intent: admission_apply_lastdate_deadline
+      - action: utter_admission_apply_lastdate_deadline
 
   - rule: Answer SSMIET branches or campus query
     steps:
@@ -113,11 +108,7 @@ rules:
   - rule: Respond to fee structure inquiry
     steps:
       - intent: fee_structure
-      - action: utter_fee_structure_info
-  - rule: Respond to college location and address query
-    steps:
-      - intent: college_location_address
-      - action: utter_college_location_address
+      - action: utter_fee_structure
 
   - rule: Respond to college courses
     steps:
@@ -415,27 +406,22 @@ rules:
   - rule: Provide bus facility details
     steps:
       - intent: ask_bus_facility_details
-      - action: utter_bus_facility_details  
-
-  - rule: Exam result
-    steps:
-      - intent: sem_exam_result
-      - action: utter_sem_exam_result
+      - action: utter_ask_bus_facility_details  
 
   - rule: extra_activities
     steps:
       - intent: extracurricular_activites
       - action: utter_extracurricular_activites
 
-  - rule: Respond to fee payment inquiries
+  - rule: Respond to fee online payment details and account number or bank name inquiries
     steps:
-      - intent: fee_payment
-      - action: utter_fee_payment
+      - intent: fee_online_payment_details_account_number_bank_name
+      - action: utter_fee_online_payment_details_account_number_bank_name
 
   - rule: Respond to GATE coaching inquiries
     steps:
-      - intent: gate_coaching_ques
-      - action: utter_gate_coaching_ques
+      - intent: gate_coaching
+      - action: utter_gate_coaching
 
   - rule: Respond to sports equipment
     steps:
