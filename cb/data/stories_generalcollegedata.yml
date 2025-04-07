@@ -376,33 +376,23 @@ stories:
 
   - story: User asks for general campus photos
     steps:
-      - intent: ask_campus_general_photos
-      - action: utter_campus_general_photos
+      - intent: general_photos
+      - action: utter_general_photos
 
   - story: User asks for auditorium photos
     steps:
-      - intent: ask_campus_auditorium_photos
-      - action: utter_campus_auditorium_photos
+      - intent: auditorium_photos
+      - action: utter_auditorium_photos
 
   - story: User asks for canteen photos
     steps:
-      - intent: ask_campus_canteen_photos
-      - action: utter_campus_canteen_photos
+      - intent: canteen_photos
+      - action: utter_canteen_photos
 
   - story: User asks for library photos
     steps:
-      - intent: ask_campus_library_photos
-      - action: utter_campus_library_photos
-
-  - story: User asks for hostel photos
-    steps:
-      - intent: ask_campus_hostel_photos
-      - action: utter_campus_hostel_photos
-
-  - story: User asks for playground photos
-    steps:
-      - intent: ask_campus_playground_photos
-      - action: utter_campus_playground_photos
+      - intent: library_photos
+      - action: utter_library_photos
       
   - story: User asks about bus facility
     steps:
@@ -439,7 +429,18 @@ stories:
       - intent: erp_login
       - action: utter_erp_login
 
+  - story: User asks for hostel photos
+    steps:
+      - intent: provide_hostel_photos
+      - action: utter_provide_hostel_photos
+
+  - story: User asks for playground photos
+    steps:
+      - intent: request_playground_photos
+      - action: utter_show_playground_photos
+
   - story: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
+

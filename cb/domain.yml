@@ -12,13 +12,15 @@ intents:
   - family_visit
   - college_location_address
   - college_name_private_anna_university
+  - NBA_accredited_dept
   - principal_details
-  - current_student_total_count
   - college_contact_email
   - college_distance_travel_time
   - fee_structure
   - college_courses
   - college_ug_courses
+  - be_courses
+  - btech_courses
   - college_pg_courses
   - college_phd_courses
   - college_courses_duration
@@ -74,21 +76,18 @@ intents:
   - extracurricular_activites
   - fee_payment
   - gate_coaching
-  - ask_campus_general_photos
+  - general_photos
   - erp_login
-  - NBA_accredited_dept
   - fee_online_payment_details_account_number_bank_name
-  - btech_courses
-  - be_courses
   - cse_hod_details
   - cse_faculty_details
   - peo_cse_department
   - po_cse_department
   - pso_cse_department
-  - technical_faculty_cse
-  - cse_contact
   - cse_course_outcomes
   - cse_department_info_about
+  - cse_department_mission
+  - cse_department_vision
   - cse_total_students
   - cse_female_girls_students
   - cse_male_boys_students
@@ -99,17 +98,17 @@ intents:
   - cse_professional_bodies
   - cse_research_activities
   - cse_newsletter
+  - technical_faculty_cse
+  - placement_cse
+  - extra_courses_cse_dept
+  - cse_mou_sign_company
+  - cse_intern_company
+  - cse_contact
+  - cse_placement_company_names
   - cse_accrediation
   - cse_yearwise_student_count
   - cse_event_conducted_photos
   - cse_faculty_experience_knowledge
-  - cse_placement_company_names
-  - cse_mou_sign_company
-  - placement_cse
-  - extra_courses_cse_dept
-  - cse_department_mission
-  - cse_department_vision
-  - cse_intern_company
   - cse_staff_count
   - photos_cse_dept
   - hostel_availability
@@ -120,9 +119,13 @@ intents:
   - hostel_fee
   - overall_hostel_details
   - ask_ragging 
+  - ask_bus_facility_details
   - ask_bus_seat_fcfs
   - ask_bus_seat_full
   - ask_bus_seat_no_reservation
+  - ask_canteen_availability
+  - ask_canteen_food_options
+  - ask_canteen_timings
   - ece_hod_details
   - ece_faculty_details
   - peo_ece_department
@@ -185,25 +188,25 @@ intents:
   - eee_total_students
   - eee_female_girls_students
   - eee_male_boys_students
-  - eee_lab_facilities
   - eee_department_activities
   - eee_student_activities
   - eee_faculty_activities
   - eee_professional_bodies
-  - eee_research_activities
-  - eee_staff_count                                    
+  - eee_research_activities                                  
   - eee_newsletter
-  - mou_sign_company_eee
-  - intern_company_eee
-  - eee_contact
-  - technical_faculty_eee
-  - placement_eee
   - extra_courses_eee
+  - intern_company_eee
+  - mou_sign_company_eee
+  - eee_contact
+  - placement_eee
   - placement_company_names_eee
-  - eee_accreditation
   - eee_yearwise_student_count
   - eee_event_conducted_photos
   - eee_faculty_experience_knowledge
+  - eee_accreditation
+  - eee_lab_facilities
+  - technical_faculty_eee
+  - eee_staff_count  
   - mech_hod_details
   - mech_faculty_details
   - peo_mech_department
@@ -251,12 +254,12 @@ intents:
   - intern_company_csbs  
   - technical_faculty_csbs  
   - extra_courses_csbs  
-  - placement_company_names_csbs  
   - csbs_accreditation  
-  - csbs_yearwise_student_count    
+  - csbs_yearwise_student_count   
+  - csbs_event_conducted_photos
+  - placement_company_names_csbs   
   - csbs_faculty_experience_knowledge  
   - csbs_staff_count
-  - csbs_event_conducted_photos
   - communication_system_faculty_details
   - communication_system_department_info_about
   - communication_system_department_vision
@@ -273,12 +276,18 @@ intents:
   - thermal_department_mission
   - thermal_contact
   - thermal_faculty_experience_knowledge
+  - thermal_engineering_total_students
+  - thermal_engineering_female_girls_students
+  - thermal_engineering_male_boys_students
+  - sports_equipment
+  - auditorium_photos
+  - canteen_photos
+  - library_photos
   - aids_hod_details
   - aids_faculty_details
   - peo_aids_department
   - po_aids_department
   - pso_aids_department
-  - aids_course_outcomes
   - aids_department_info_about
   - aids_department_vision
   - aids_department_mission
@@ -291,18 +300,14 @@ intents:
   - aids_faculty_activities
   - aids_professional_bodies
   - aids_research_activities
-  - aids_newsletter
-  - mou_sign_company_aids
   - intern_company_aids
-  - aids_contact
   - technical_faculty_aids
-  - placement_aids
   - extra_courses_aids
-  - placement_company_names_aids
   - aids_accreditation
   - aids_yearwise_student_count
   - aids_event_conducted_photos
   - aids_faculty_experience_knowledge
+  - placement_aids
   - cybersecurity_hod_details
   - cybersecurity_faculty_details
   - peo_cybersecurity_department
@@ -321,23 +326,30 @@ intents:
   - cybersecurity_event_conducted_photos
   - cybersecurity_faculty_experience_knowledge
   - cybersecurity_staff_count
+  - aiml_hod_details
+  - aiml_faculty_details
+  - aiml_department_info_about
+  - aiml_department_vision
+  - aiml_department_mission
+  - aiml_total_students
+  - aiml_faculty_experience_knowledge
   - civil_hod_details
   - civil_faculty_details
   - peo_civil_department
   - po_civil_department
   - pso_civil_department
-  - technical_faculty_civil
   - civil_course_outcomes
+  - technical_faculty_civil
   - civil_department_info_about
   - civil_department_vision
   - civil_department_mission
   - placement_company_names_civil
   - civil_department_activities
   - civil_student_activities
+  - civil_research_activities
   - civil_total_students  
   - civil_female_girls_students  
   - civil_male_boys_students 
-  - civil_research_activities
   - extra_courses_civil
   - intern_company_civil
   - mou_sign_company_civil
@@ -347,58 +359,41 @@ intents:
   - placement_civil
   - civil_accreditation
   - civil_event_conducted_photos
-  - civil_staff_count
-  - aiml_hod_details
-  - aiml_faculty_details
-  - aiml_department_info_about
-  - aiml_department_vision
-  - aiml_department_mission
-  - aiml_total_students
-  - aiml_faculty_experience_knowledge
-  - thermal_engineering_yearwise_student_count
-  - thermal_engineering_total_students
-  - thermal_engineering_female_students
-  - thermal_engineering_male_students
-  - ask_campus_auditorium_photos
-  - ask_campus_canteen_photos
-  - ask_campus_library_photos
-  - ask_campus_hostel_photos
-  - ask_campus_playground_photos
-  - ask_bus_facility_details
-  - ask_canteen_availability
-  - ask_canteen_food_options
-  - ask_canteen_timings
-  - sports_equipment
+  - civil_dept_staff_count
+  - provide_hostel_photos
+  - request_playground_photos
   - goodbye
-
 
 responses:
   utter_greet:
     - text: |
-            Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today?
+            Hello, I am glad to meet you! Welcome to SSMIET Chatbot. How can I assist you today😊?
 
   utter_admission_process:
     - text: |
             Admission Process can be done in both online and offline 
+
             **For Offline**:
-            You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
-                - **Dr. S. Joseph Dominic Vijayakumar**,
-                - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
-                - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
+              You can find detailed information about our admission process here: [Click for Admission Details] https://www.yourcollegewebsite.com/admissions.
+              - **Dr. S. Joseph Dominic Vijayakumar**,
+              - **Admission Cell** - Coordinator,SSM Higher EducationalInstitutions Dindigul - Palani Highway, Dindigul.
+              - **Contact Number**: 7373707002,7373707008 .If you need further assistance, contact us at 0451 244 8800.
+
             **For Online**:
-                - The form is available online. Click the link to access it.
-                - Fill in the required details and submit it.
-                - If you need help, contact the admission office.
-                - Make sure to check deadlines and required documents before submission.
-                **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+              - The form is available online. Click the link to access it.
+              - Fill in the required details and submit it.
+              - If you need help, contact the admission office.
+              - Make sure to check deadlines and required documents before submission.
+              **To apply for admission through online**, please fill out the online admission form here: https://docs.google.com/forms/d/e/1FAIpQLSfYYDwOR6v9w2_9wvz5iWnZFZI8DD0H9l40up_mFcnkEGbK9A/viewform
+
             **Admission process**:
-                - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
-                - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
-                - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
+              - Admission is encouraged through the **Tamil Nadu Engineering Admissions (TNEA)** counselling process which is a single window system.
+              - The online process followed in the TNEA includes **registration, payments, choice filling, allotment and confirmation**.
+              - The **vacant or unclaimed seats** in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process i.e., after supplementary counselling.
 
   utter_ask_online_courses:
     - text: |
-            we **don't offer online courses** and distance learning options.
+            We **don't offer online courses** and distance learning options.
   
   utter_coeducation:
     - text: | 
@@ -407,15 +402,15 @@ responses:
 
   utter_entrance_exam:
     - text: |
-            There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.\nThe online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.\n The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process.
+            There is **No Entrance exam** but admission is encouraged through the Tamil Nadu Engineering Admissions (TNEA) counselling process which is a single window system.The online process followed in the TNEA includes registration, payments, choice filling, allotment and confirmation.The vacant or unclaimed seats in TNEA counselling process may be allotted as management seats after the completion of the entire counselling process.
   
   utter_uniform_dresscode:
     - text: |
-            Students are required to wear as per the college's dress code[girls should wear the chudithar with shawl ,leggins with open top is not allowed and for boys formal t-shirt and pants ,jeans,jacket is not allowed] .\n Students may have specific uniform for lab practicals alone.
+            Students are required to wear as per the college's dress code , Girls should wear the chudithar with shawl ,leggins with open top is not allowed and For Boys Formal T-shirt and Pants is allowed.Jeans and Jacket is not allowed .Students may have specific uniform for Lab Practicals alone.
   
   utter_book_availability:
     - text: |
-            The college provides necessary books through the library.\n Some books are available for purchase, while others can be borrowed for a semester.\n Please check with the library for more details.
+            The college provides necessary books through the library.Some books are available for purchase, while others can be borrowed for a semester.Please check with the library for more details.
   
   utter_current_student_total_count:
     - text: |
@@ -441,24 +436,26 @@ responses:
   
   utter_NBA_accredited_dept: 
   - text: |
-          The NBA-accredited departments in our college are CSE, ECE, Civil, Mech, IT, Cybersecurity, CSBS, AI & DS, and AIML.
+          The NBA-accredited departments in our college are **ECE, Mechanical and EEE**.
           
   utter_principal_details:
     - text: |
-            ![Principal Photo](https://i.ibb.co/d4dhTfFL/Dr-D-SENTHIL-KUMARAN-M-E-Ph-D-NUS-MISTE.jpg)
-            **Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
-                - He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
-                  Bharathiar University.
-                - With over 26 years of academic and industry experience, he has served as,
-                   - **Principal** at SSMIET and RVS College of Engineering. 
-                   - **Director of Academic Development** at PEACE Group of Institutions. 
-                   - **Research Fellow** at NUS. 
-                   
-                - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
+            ![Principal Photo](https://i.ibb.co/fGZGZW7b/senthil-imresizer.jpg)
+            
+            - **Dr. D. Senthil Kumaran (M.E, PhD (NUS), MISTE, MISLCA, FIE)** is the Principal of SSM Institute of Engineering and Technology (SSMIET). 
+            - He holds a Ph.D. from the National University of Singapore, an M.E. in Industrial Engineering, and a B.E. in Production Engineering from 
+              Bharathiar University.
+            - With over 26 years of academic and industry experience, he has served as,
+              - **Principal** at SSMIET and RVS College of Engineering. 
+              - **Director of Academic Development** at PEACE Group of Institutions. 
+              - **Research Fellow** at NUS.           
+            - To learn more about principal of SSMIET, please visit this website https://ssmiet.ac.in/pdf/PRINCIPAL%20SIR%20PROFILE.pdf"
 
   utter_college_contact_email:
     - text: |
-            **Contact Info**:- Phone: 0451-244-8800-899 (100 lines) - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com
+            **Contact Info**:
+                - Phone: 0451-244-8800-899 (100 lines) 
+                - Email: ssmietdgl@ssmiet.ac.in and ssmietdgl@gmail.com
 
   utter_college_distance_travel_time:
     - text: |
@@ -953,7 +950,7 @@ responses:
     - text: |
             The college does not provide GATE coaching or tutorial classes. There are no special training sessions, dedicated preparation centers, or faculty-led programs for GATE. Study materials and mock tests for GATE are also not offered. Students who wish to prepare for GATE can do so through external coaching centers or self-study.
   
-  utter_campus_general_photos:
+  utter_general_photos:
     - text: |
             Here are some images of our college campus:
 
@@ -1217,37 +1214,51 @@ responses:
 
   utter_cse_placement_company_names:
     - text: |
-        Companies recruiting CSE students categorized by tier levels:
-          - Tier 1:
-            - Tata Consultancy Services (TCS)
-            - Infosys
-            - Wipro
-            - HCL Technologies
-            - Capgemini
-            - Hexaware Technologies
-          - Tier 2:
-            - Zoho Corp
-            - 4i Apps Solutions Pvt Ltd
-            - Accenture
-            - Atos Syntel
-            - Revature
-          - Tier 3:
-            - Venture Tools
-            - Vintorix Solutions
-            - Slusby Technologies
-            - Mechpro Technologies
-            - Spotlight Technologies
-            - Svasti Technology Solutions
-            - Pirai Infotech Pvt Ltd
-            - ThinkBig Infotech Pvt Ltd
-            - Net Tel Solutions India Pvt Ltd  
+            Companies recruiting CSE students categorized by tier levels:
+              - Tier 1:
+                - Tata Consultancy Services (TCS)
+                - Infosys
+                - Wipro
+                - HCL Technologies
+                - Capgemini
+                - Hexaware Technologies
+              - Tier 2:
+                - Zoho Corp
+                - 4i Apps Solutions Pvt Ltd
+                - Accenture
+                - Atos Syntel
+                - Revature
+              - Tier 3:
+                - Venture Tools
+                - Vintorix Solutions
+                - Slusby Technologies
+                - Mechpro Technologies
+                - Spotlight Technologies
+                - Svasti Technology Solutions
+                - Pirai Infotech Pvt Ltd
+                - ThinkBig Infotech Pvt Ltd
+                - Net Tel Solutions India Pvt Ltd  
 
   utter_cse_accrediation:
     - text: "Our CSE department is established in the year 2011. It is approved by All India Council for Technical Education (AICTE), Accredited by NAAC, and affiliated to Anna University, Chennai."
  
   utter_cse_yearwise_student_count:
     - text: |
-        "Yearwise student count in CSE department"
+            Here is the students count details for the CSE Department:
+             
+             - **Batch -> 2024 - 2025**
+                  IV Year: Girls - , Boys - , Total - 65
+                  III Year: Girls - , Boys - , Total - 65
+                  II Year: Girls - , Boys - , Total - 57
+                  I Year: Girls - , Boys - , Total - 63
+                  Total Girls - , Total Boys - , Total Students - 250
+                  
+             - **Batch -> 2023 - 2024**
+                  IV Year: Girls - , Boys - , Total - 58
+                  III Year: Girls - , Boys - , Total - 65
+                  II Year: Girls - , Boys - , Total - 65
+                  I Year: Girls - , Boys - , Total - 57
+                  Total Girls - 16, Total Boys - 44, Total Students - 245
 
   utter_cse_event_conducted_photos:
     - text: |
@@ -1300,8 +1311,6 @@ responses:
   utter_overall_hostel_details:
     - text: "Yes, our college provides hostel facilities for both male and female students. The hostels are equipped with study halls, food services, WiFi, and security. Rooms are shared by four students, each with an individual cot or bed. The hostel serves vegetarian meals daily, with one non-vegetarian meal per week. Restroom facilities include hot water, three washrooms, and three restrooms per floor, cleaned daily. The annual hostel fee is ₹60,000. we have our hostel warden for the protection of our students ."
 
-
-          
   utter_ragging:
     - text: |
             - Our college has a strict zero-tolerance policy against ragging. There have been no ragging cases here, and we ensure a safe and friendly environment for all students.
@@ -1964,10 +1973,10 @@ responses:
   
   utter_eee_student_activities:
     - text: | 
-         You can find details about the student activities of EEE department at the following link: 
-         https://ssmiet.ac.in/eee%20student%20activities.html
-         https://shorturl.at/EVX1Y
-         https://shorturl.at/LyN0T
+            You can find details about the student activities of EEE department at the following link: 
+            https://ssmiet.ac.in/eee%20student%20activities.html
+            https://shorturl.at/EVX1Y
+            https://shorturl.at/LyN0T
   
   utter_eee_faculty_activities:
     - text: "You can find details about the faculty activities of EEE department at the following link:https://ssmiet.ac.in/eee_faculty_activity.html"
@@ -2364,7 +2373,6 @@ responses:
             ![Mech Event photo 5](https://ibb.co/ymgkhVsp)
             ![Mech Event photo 6](https://ibb.co/S7VSxFYv)
 
-
   utter_mech_faculty_experience_knowledge:
     - text: "The Mechanical Engineering faculty at SSMIET has an highly experienced educators and On average,faculty members have around 12 years of experience, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence."
   
@@ -2394,7 +2402,6 @@ responses:
                 - Nalvetha Castings Limited, Dindigul
                 - Mr. A. Annadurai, Jt. Secretary, DRTEC, DIC, Dindigul
               
-            
   utter_csbs_hod_details:
      - text: |
               ![Jeyalakshmi](https://i.ibb.co/cXgfhVhg/jeyalakshmi.jpg)
@@ -2536,7 +2543,6 @@ responses:
             ![CSBS Event photo 5](https://i.ibb.co/23y9KtFS/csbsevent10.jpg)
             ![CSBS Event photo 6](https://i.ibb.co/4wQNJSxp/csbsevent6.jpg)
  
-
   utter_placement_company_names_csbs:
   - text: |
           "Our students are placed in:
@@ -2595,11 +2601,11 @@ responses:
     - text: |
         "The total student count for the Communication System department is not available. Please consult the administration for the latest figures."
 
-  utter_communication_system_female_students:
+  utter_communication_system_female_girls_students:
     - text: |
         "The number of female students in the Communication System department is not available. Kindly check with the department for further details."
 
-  utter_communication_system_male_students:
+  utter_communication_system_male_boys_students:
     - text: |
         "The number of male students in the Communication System department is not currently available. Please contact the department for more information."
 
@@ -2640,11 +2646,11 @@ responses:
     - text: |
         "The total number of students in the Thermal Engineering department is not available at the moment. Please reach out to the administration."
 
-  utter_thermal_engineering_female_students:
+  utter_thermal_engineering_female_girls_students:
     - text: |
         "The number of female students in the Thermal Engineering department is not available. You can inquire with the department for accurate data."
 
-  utter_thermal_engineering_male_students:
+  utter_thermal_engineering_male_boys_students:
     - text: |
         "The number of male students in the Thermal Engineering department is not available. Please check with the department for more details."
 
@@ -2660,7 +2666,7 @@ responses:
         - 🎾 Tennis – Court, Nets, Racquets
         - 🏸 Ball Badminton – Racquets, Balls
 
-  utter_campus_auditorium_photos:
+  utter_auditorium_photos:
     - text: |
             Here are some images of the college auditorium:
 
@@ -2668,14 +2674,13 @@ responses:
             ![Auditorium 2](https://i.ibb.co/mCtM9MNm/aud-1.jpg)
             ![Auditorium 3](https://i.ibb.co/fdn93Fd6/aud5.jpg)
 
-  utter_campus_canteen_photos:
+  utter_canteen_photos:
     - text: |
             Here are some images of the college canteen:
 
             ![Canteen 1](https://i.ibb.co/gbVM7KLv/candeen1.jpg)
-          # ![Canteen 2](https://example.com/canteen2.jpg)
 
-  utter_campus_library_photos:
+  utter_library_photos:
     - text: |
             Here are some images of the library:
 
@@ -2824,14 +2829,14 @@ responses:
 
   utter_extra_courses_aids:
     - text: |
-          Here are the value-added courses offered by the AIDS department:
-              1. Java
-              2. Cloud Computing
-              3. Core Java
-              4. Code Tantra
-              5. Ethical Hacking
-              6. Software Testing Tool - Selenium
-              7. Machine Learning
+            Here are the value-added courses offered by the AIDS department:
+                1. Java
+                2. Cloud Computing
+                3. Core Java
+                4. Code Tantra
+                5. Ethical Hacking
+                6. Software Testing Tool - Selenium
+                7. Machine Learning
 
   utter_aids_accreditation:
     - text: |
@@ -2985,7 +2990,7 @@ responses:
   utter_cybersecurity_faculty_experience_knowledge:
     - text: "The Cyber security faculty at SSMIET has an average teaching experience of around 10 years, with several members having both academic and industry experience. A significant percentage of faculty members hold Ph.D. qualifications, ensuring strong research and subject expertise. Many faculty members actively update their knowledge through training programs, certifications, and participation in conferences. The senior-most faculty members have extensive teaching experience, contributing to the department’s academic excellence. Additionally, a majority of the faculty hold postgraduate degrees, further strengthening the quality of education provided."
 
-  utter_csbs_staff_count:
+  utter_cybersecurity_staff_count:
     - text: |
             Staff Counts in CSBS
               - *Teaching Staff* - 2
@@ -3201,7 +3206,7 @@ responses:
               - 6.Water, Sanitation and Hygiene Institute (WASH Institute)
               - 7.Prince Promoters
               - 8.Concepteurs CAD Training Centre
-           🔗[Click here] https://ssmiet.ac.in/mou.civil.html "
+            🔗[Click here] https://ssmiet.ac.in/mou.civil.html "
 
   utter_civil_contact:
     - text: |
@@ -3263,17 +3268,17 @@ responses:
             ![Civil Event photo 5](https://i.ibb.co/6RnXr1c2/civilacti14.jpg)
             ![Civil Event photo 6](https://i.ibb.co/C3VtS7wf/civilacti10.jpg)
 
-utter_civil_staff_count:
+  
+  utter_civil_dept_staff_count:
     - text: |
             Staff Counts in civil
               - *Teaching Staff* - 8
               - *Non-Teaching Staff* - 2
-              - *Total Staff* - 10
+              - *Total Staff* - 10
 
-utter_campus_hostel_photos:
+  utter_provide_hostel_photos:
     - text: |
             Here are some images of the hostel:
-
             ![Hostel 1](https://i.ibb.co/hJ4m2RrK/hostel1.jpg)
             ![Hostel 2](https://i.ibb.co/n8VMbX3t/hostel2.jpg)
             ![Hostel 3](https://i.ibb.co/pjRwnGWM/hostel3.jpg)
@@ -3281,12 +3286,14 @@ utter_campus_hostel_photos:
             ![Hostel 5](https://i.ibb.co/1GP8N5fg/hostel5.jpg)
             ![Hostel 6](https://i.ibb.co/JWPdLn9T/hostel6.jpg)
 
-utter_campus_playground_photos:
-  - text: |
-          Here are some images of the playground:
+  utter_show_playground_photos:
+    - text: |
+            Here are some images of the playground:
+            ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
+            ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
 
-          ![Playground 1](https://i.ibb.co/jZz8t15M/grd2.jpg)
-          ![Playground 2](https://i.ibb.co/vxNdYQ0F/grd3.jpg)
+  utter_goodbye:   
+    - text: "Good Bye!..."
 
-utter_goodbye:   
-  - text: "Good Bye!..."
+
+

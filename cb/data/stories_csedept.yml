@@ -126,8 +126,8 @@ stories:
 
   - story: Provide CSE placement company names
     steps:
-      - intent: placement_company_names
-      - action: utter_placement_company_names     
+      - intent: cse_placement_company_names
+      - action: utter_cse_placement_company_names     
   
   - story: Accreditation inquiry
     steps:

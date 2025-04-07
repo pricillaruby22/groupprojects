@@ -1286,10 +1286,6 @@ nlu:
       - Do labs provide Eclipse for Java programming?
       - Does lab software change every semester?
       - What are the latest updates in lab software?
-<<<<<<< Updated upstream
-=======
-       
->>>>>>> Stashed changes
                  
   - intent: ask_lab_hardware
     examples: |
@@ -1407,7 +1403,7 @@ synonyms:
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
 
-  - intent: ask_campus_general_photos
+  - intent: general_photos
     examples: |
       - Can I see photos of the college campus?
       - Do you have pictures of the campus?
@@ -1422,7 +1418,7 @@ synonyms:
       - Where can I find pictures of the main building?
       - Are there any photos of the college auditorium?
 
-  - intent: ask_campus_auditorium_photos
+  - intent: auditorium_photos
     examples: |
       - Can I see photos of the college auditorium?
       - Do you have any images of the auditorium?
@@ -1435,7 +1431,7 @@ synonyms:
       - Do you have pictures of events held in the auditorium?
       - Are there any photos of the auditorium seating arrangement?
 
-  - intent: ask_campus_canteen_photos
+  - intent: canteen_photos
     examples: |
       - Can I see photos of the college canteen?
       - Do you have any images of the canteen?
@@ -1448,7 +1444,7 @@ synonyms:
       - Do you have pictures of the seating area in the canteen?
       - Are there any photos of the food served in the canteen?
 
-  - intent: ask_campus_hostel_photos
+  - intent: provide_hostel_photos
     examples: |
       - Can I see a photo of the hostel?
       - Show me a picture of the college hostel.
@@ -1461,7 +1457,7 @@ synonyms:
       - Show hostel images.
       - Provide a photo of the hostel building.
 
-  - intent: ask_campus_library_photos
+  - intent: library_photos
     examples: |
       - Can I see photos of the college library?
       - Do you have any images of the library?
@@ -1473,19 +1469,6 @@ synonyms:
       - Show me some images of the college library.
       - Do you have pictures of the reading area in the library?
       - Are there any photos of the bookshelves in the library?
-
-  - intent: ask_campus_playground_photos
-    examples: |
-      - Can I see a photo of the playground?
-      - Show me a picture of the college playground.
-      - Do you have any images of the playground?
-      - I want to see how the playground looks.
-      - Playground photos, please.
-      - Can you provide a playground image?
-      - What does the playground look like?
-      - Give me a picture of the playground.
-      - Show playground images.
-      - Provide a photo of the college sports ground.
 
   - intent: ask_bus_facility_details
     examples: |
@@ -1668,8 +1651,40 @@ synonyms:
         - give me my profile
         - erp login
 
+  - intent: request_playground_photos
+    examples: |
+        - Show me playground photos
+        - Can I see some pictures of the playground?
+        - Do you have images of the campus playground?
+        - I want to see the playground pictures
+        - Send me photos of the playground
+        - Share some images of the playground
+        - Can you display playground photos?
+        - I’d love to see the sports ground. Do you have any pictures?
+        - Where can I find photos of the campus playground?
+        - Upload playground pictures
+        - Show a few images of the outdoor sports area
+        - Provide me with some playground visuals
+        - Could you show me the playground?
+        - Any snapshots of the playground?
+        - Give me a glimpse of the playground with some images
+        - Show me SSMIET playground photos
+        - Can I see some SSMIET college playground pictures?
+        - Do you have images of the SSMIET campus playground?
+        - I want to see the SSMIET college sports ground
+        - Send me photos of the SSMIET playground
+        - Show me the college ground pictures
+        - Can I see some photos of SSMIET's outdoor sports area?
+        - Share images of SSMIET's playground
+        - Show me the SSMIET college ground and sports area
+        - Where can I find photos of SSMIET college's playground?
+    
   - intent: goodbye
     examples: |
-      - Bye
-      - See you later
-      - Goodbye
+        - Bye
+        - See you later
+        - Goodbye
+
+
+
+

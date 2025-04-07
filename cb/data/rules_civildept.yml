@@ -129,7 +129,7 @@ rules:
       - intent: civil_event_conducted_photos
       - action: utter_civil_event_conducted_photos
 
-  - rule: Respond to civil staff count
-    steps:
-      - intent: civil_staff_count
-      - action: utter_civil_staff_count
+  # - rule: Respond to civil staff count
+  #   steps:
+  #     - intent: civil_dept_staff_count
+  #     - action: utter_civil_dept_staff_count

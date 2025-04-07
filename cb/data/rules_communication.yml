@@ -43,12 +43,12 @@ rules:
   - rule: Respond to female student count for Communication System
     steps:
       - intent: communication_system_female_girls_students
-      - action: utter_communication_system_female_students
+      - action: utter_communication_system_female_girls_students
 
   - rule: Respond to male student count for Communication System
     steps:
       - intent: communication_system_male_boys_students
-      - action: utter_communication_system_male_students
+      - action: utter_communication_system_male_boys_students
 
 
 

@@ -110,7 +110,7 @@ nlu:
       - How many students graduate from the Thermal Engineering department each year?
       - How many students are currently in their final year in Thermal Engineering?
 
-  - intent: thermal_engineering_female_students
+  - intent: thermal_engineering_female_girls_students
     examples: |
       - How many girls are there in the Thermal Engineering department?
       - What is the total number of female students in the Thermal Engineering department?
@@ -122,7 +122,7 @@ nlu:
       - How many female students have graduated from the Thermal Engineering department so far?
       - What is the trend of female student enrollment in the Thermal Engineering department?
 
-  - intent: thermal_engineering_male_students
+  - intent: thermal_engineering_male_boys_students
     examples: |
       - How many boys are there in the Thermal Engineering department?
       - What is the total number of male students in the Thermal Engineering department?

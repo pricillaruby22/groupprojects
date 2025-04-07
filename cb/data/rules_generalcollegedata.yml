@@ -375,33 +375,23 @@ rules:
 
   - rule: Show general campus photos
     steps:
-      - intent: ask_campus_general_photos
-      - action: utter_campus_general_photos
+      - intent: general_photos
+      - action: utter_general_photos
 
   - rule: Show auditorium photos
     steps:
-      - intent: ask_campus_auditorium_photos
-      - action: utter_campus_auditorium_photos
+      - intent: auditorium_photos
+      - action: utter_auditorium_photos
 
   - rule: Show canteen photos
     steps:
-      - intent: ask_campus_canteen_photos
-      - action: utter_campus_canteen_photos
+      - intent: canteen_photos
+      - action: utter_canteen_photos
 
   - rule: Show library photos
     steps:
-      - intent: ask_campus_library_photos
-      - action: utter_campus_library_photos
-
-  - rule: Show hostel photos
-    steps:
-      - intent: ask_campus_hostel_photos
-      - action: utter_campus_hostel_photos
-
-  - rule: Show playground photos
-    steps:
-      - intent: ask_campus_playground_photos
-      - action: utter_campus_playground_photos  
+      - intent: library_photos
+      - action: utter_library_photos
 
   - rule: Provide bus facility details
     steps:
@@ -437,8 +427,19 @@ rules:
     steps:
       - intent: erp_login
       - action: utter_erp_login
+      
+  - rule: Show hostel photos
+    steps:
+      - intent: provide_hostel_photos
+      - action: utter_provide_hostel_photos
+
+  - rule: Show playground photos
+    steps:
+      - intent: request_playground_photos
+      - action: utter_show_playground_photos
 
   - rule: Say goodbye anytime the user says goodbye
     steps:
       - intent: goodbye
       - action: utter_goodbye
+

@@ -37,13 +37,13 @@ stories:
 
   - story: Female student count for Thermal Engineering
     steps:
-      - intent: thermal_engineering_female_students
-      - action: utter_thermal_engineering_female_students
+      - intent: thermal_engineering_female_girls_students
+      - action: utter_thermal_engineering_female_girls_students
 
   - story: Male student count for Thermal Engineering
     steps:
-      - intent: thermal_engineering_male_students
-      - action: utter_thermal_engineering_male_students
+      - intent: thermal_engineering_male_boys_students
+      - action: utter_thermal_engineering_male_boys_students
 
 
   

@@ -80,7 +80,6 @@ rules:
       - intent: intern_company_csbs
       - action: utter_intern_company_csbs
   
-
   - rule: Respond to extra courses in CSBS
     steps:
       - intent: extra_courses_csbs
@@ -88,8 +87,8 @@ rules:
 
   - rule: Respond to placement company names in CSBS
     steps:
-      - intent: placement_company_names
-      - action: utter_placement_company_names      
+      - intent: placement_company_names_csbs
+      - action: utter_placement_company_names_csbs      
 
   - rule: Respond to accreditation queries
     steps:

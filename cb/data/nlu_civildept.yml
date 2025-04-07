@@ -314,23 +314,23 @@ nlu:
       - What annual events are held by the Civil department?  
       - Are there any workshops or seminars conducted by the Civil department?  
       - Does the Civil department conduct any inter-college competitions?
-- intent: civil_staff_count
-  examples: |
-      - How many teachers are there in the Civil department?
-      - How many faculties are there in the Civil department?
-      - How many staff members are working in the Civil department?
-      - How many professors are there in the Civil department?
-      - How many lecturers are present in the Civil department?
-      - What is the total staff count in the Civil department?
-      - Can you tell me the number of faculties in Civil?
-      - How many academic staff are in the Civil department?
-      - How many teaching staff members are there in Civil?
-      - What is the number of faculty members in the Civil department?
-      - How many faculty members are currently teaching in Civil?
-      - Could you provide the count of staff in the Civil department?
-      - How many assistant professors are there in the Civil department?
-      - What is the strength of the teaching faculty in Civil?
-      - How many working staff does the Civil department have?
-      - Tell me the number of Civil department lecturers.
-      - Can you provide the staff details for the Civil department?
-      - What’s the total number of faculty in Civil?
+# - intent: civil_dept_staff_count
+#   examples: |
+#       - How many teachers are there in the Civil department?
+#       - How many faculties are there in the Civil department?
+#       - How many staff members are working in the Civil department?
+#       - How many professors are there in the Civil department?
+#       - How many lecturers are present in the Civil department?
+#       - What is the total staff count in the Civil department?
+#       - Can you tell me the number of faculties in Civil?
+#       - How many academic staff are in the Civil department?
+#       - How many teaching staff members are there in Civil?
+#       - What is the number of faculty members in the Civil department?
+#       - How many faculty members are currently teaching in Civil?
+#       - Could you provide the count of staff in the Civil department?
+#       - How many assistant professors are there in the Civil department?
+#       - What is the strength of the teaching faculty in Civil?
+#       - How many working staff does the Civil department have?
+#       - Tell me the number of Civil department lecturers.
+#       - Can you provide the staff details for the Civil department?
+#       - What’s the total number of faculty in Civil?
