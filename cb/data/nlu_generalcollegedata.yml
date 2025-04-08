@@ -38,6 +38,7 @@ nlu:
       - Steps to join?
       - Tell about recruitment process of ssmiet
       - admission process of ssmiet college
+      - admission process
     
   - intent: ask_online_courses
     examples: |
@@ -58,6 +59,7 @@ nlu:
       - Do I need to attend in person, or is online study available?
       - Is there any available digital courses?
       - online courses available or not
+      - online courses
 
   - intent: coeducation
     examples: |
@@ -100,6 +102,8 @@ nlu:
        - Is there any preliminary test?
        - Is there any selection exam available or not?
        - entrance exam available or not?
+       - Entrance exam
+       - entrance exam
 
   - intent: uniform_dresscode
     examples: |
@@ -120,6 +124,7 @@ nlu:
        - What is the regular outfit of the college
        - Give me formal wear of the college
        - dresscode
+       - Uniform Dresscode
 
   - intent: book_availability
     examples: |
@@ -162,15 +167,22 @@ nlu:
       - How many in school now?
       - What number students?
       - total students count in ssmiet
+      - current student total count
+      - total student strength of ssmiet
+      - total strength 
 
-  - intent: family_visit
+  - intent: family_visit_hostel
     examples: |
-       - Are family visits allowed in the hostel?
-       - Can parents visit students in the hostel?
-       - What is the policy on family visits?
-       - Can my family visit me while I stay in the hostel?
-       - Are there specific timings for family visits?
-       - Family visits is available or not for hostel students in this college
+      - Are family visits allowed in the hostel?
+      - Can parents visit students in the hostel?
+      - What is the policy on family visits?
+      - Can my family visit me while I stay in the hostel?
+      - Are there specific timings for family visits?
+      - Family visits is available or not for hostel students in this college
+      - Is it okay if my relatives come to see me in the hostel?
+      - When can my family come to visit me in the hostel?
+      - Are there any rules for family visits in the hostel?
+      - family visit
 
   - intent: college_location_address
     examples: |
@@ -203,6 +215,8 @@ nlu:
       - How can i come to this college?
       - How can i come to this institute?
       - college location
+      - college address
+      - college location address
 
   - intent: college_name_private_anna_university
     examples: |
@@ -250,6 +264,9 @@ nlu:
       - What is the affiliation status of SSMIET?
       - Is SSMIET approved by AICTE and affiliated with Anna University?
       - Does SSMIET have university affiliation for all its courses?
+      - college name
+      - private college or not
+      - ssmiet autonomous or not
 
   - intent: NBA_accredited_dept
     examples: |
@@ -263,6 +280,7 @@ nlu:
        - Is the cse ,ece,civil,mech,it,cybersecurity,csbs,aids,aiml departments NBA accredited in your college?
        - What is the NBA accreditation status of your college’s departments?
        - Has your college received NBA accreditation for all engineering departments?
+       - NBA accredited department
 
   - intent: principal_details
     examples: |
@@ -289,6 +307,7 @@ nlu:
       - Principal of the college
       - Correspondent of the college
       - Dean of the college
+      - principal details
 
   - intent: college_contact_email
     examples: |
@@ -310,6 +329,10 @@ nlu:
       - How to connect with your college
       - How to message with your college
       - contact of the college
+      - college contact email
+      - give college mail id
+      - Mobile number of SSMIET
+      - Phone number of your college
 
   - intent: college_distance_travel_time
     examples: |
@@ -324,6 +347,9 @@ nlu:
       - How long will it take to reach the college by car?
       - How much time does it take to travel to SSMIET from the nearest bus stand?
       - Distance time of the college
+      - college distance travel time
+      - college distance
+      - travel time for ssmiet
   
   - intent: fee_structure
     examples: |
@@ -342,6 +368,18 @@ nlu:
       - can you provide the fee structure for all departments and all years?
       - fees structure of the college
       - fee structure of the college
+      - fee structure
+      - fees details
+      - give me the fee structure for cse 
+      - give me the fee structure for ece 
+      - give me the fee structure for eee 
+      - give me the fee structure for mech
+      - give me the fee structure for civil
+      - give me the fee structure for it
+      - give me the fee structure for csbs
+      - give me the fee structure for aids
+      - give me the fee structure for cyber security
+      - give me the fee structure for aiml 
 
   - intent: college_courses
     examples: |
@@ -367,6 +405,9 @@ nlu:
       - What are the educational courses?
       - What are the degree courses?
       - What are the degree programs are available?
+      - Tell me the college courses in you college
+      - Tell college courses
+      - tell all the courses in ssmiet
 
   - intent: be_courses
     examples: |
@@ -375,7 +416,10 @@ nlu:
         - What are the basic BE courses available?
         - What are BE courses offered in your college?
         - BE courses
-        - Bachleor of Engineering
+        - Bachleor of Engineering courses
+        - B.E courses
+        - b.e courses
+        - be courses
 
   - intent: btech_courses
     examples: |
@@ -385,7 +429,10 @@ nlu:
         - What are Btech courses offered in your college?
         - BTech courses
         - What are the Btech courses available?
-        - Bachleor of Technology
+        - Bachleor of Technology courses
+        - B.Tech courses
+        - b.tech courses
+        - btech courses
 
   - intent: college_ug_courses
     examples: |
@@ -397,6 +444,7 @@ nlu:
       - What are the BE and B.Tech courses availaable in college?
       - ug courses
       - under graduate courses
+      - UG courses
 
   - intent: college_pg_courses
     examples: |
@@ -409,6 +457,7 @@ nlu:
       - postgraduate courses
       - pg courses
       - post graduate courses
+      - PG courses
     
   - intent: college_phd_courses
     examples: |
@@ -421,6 +470,8 @@ nlu:
       - Are there any Phd courses available.
       - Are there any research programs ?
       - give the Doctor of Philosophy courses
+      - PH.D courses
+      - Doctor of Philosophy
 
   - intent: college_courses_duration
     examples: |
@@ -437,6 +488,7 @@ nlu:
       - Are there flexible study durations for postgraduate courses?
       - When will I complete this courses?
       - When will I complete the CSE, EEE,ECE, AIDS, CSBS, MECH, CIVIL Courses ?
+      - Duration of the course
 
   - intent: college_admission_form
     examples: |
@@ -462,6 +514,9 @@ nlu:
      - Can you give me Enrollment form
      - application form 
      - online application form
+     - Admission form
+     - Online admission form
+     - College admission form
 
   - intent: college_admission_eligibility
     examples: |
@@ -482,6 +537,8 @@ nlu:
       - what are the admission qualification details?
       - What are the admission guidelines?
       - Give me the admission criteria.   
+      - Admiision eligible
+      - College admission eligibilities
 
   - intent: available_internships_and_placements
     examples: |
@@ -524,8 +581,10 @@ nlu:
       - I want change the course 
       - how can I change the courses after joined the college?
       - how can I change the courses after applied the college?
+      - I would like to transfer to another department
       - how to change the course
       - change the course
+      - switch the course
 
   - intent: First_graduate
     examples: |
@@ -554,6 +613,7 @@ nlu:
       - Do we have to pay for transportation separately?
       - Can you provide a detailed fee structure?
       - Is there any fees apart from tutition fees
+      - is there any amount we need to pay additionally except tuition fees ?
 
   - intent: about_industrial_visit
     examples: |

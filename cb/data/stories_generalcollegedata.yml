@@ -40,10 +40,10 @@ stories:
       - intent: current_student_total_count
       - action: utter_current_student_total_count
 
-  - story: Family visit inquiry
+  - story: Family visit in hostel inquiry
     steps:
-      - intent: family_visit
-      - action: utter_family_visit
+      - intent: family_visit_hostel
+      - action: utter_family_visit_hostel
 
   - story: User asks for college location and address
     steps:
