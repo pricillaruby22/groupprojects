@@ -40,10 +40,10 @@ rules:
       - intent: current_student_total_count
       - action: utter_current_student_total_count
 
-  - rule: Respond to family visit policy
+  - rule: Respond to family visit in hostel policy
     steps:
-      - intent: family_visit
-      - action: utter_family_visit
+      - intent: family_visit_hostel
+      - action: utter_family_visit_hostel
 
   - rule: Respond to college location and address query
     steps:
