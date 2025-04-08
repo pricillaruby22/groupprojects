@@ -31,7 +31,7 @@ intents:
   - First_graduate
   - fee_payment_other_than_tutionfee
   - about_industrial_visit
-  - admission_apply_lastdate_deadline
+  - admission_lastdate
   - ssmiet_branches_campus
   - campus_college_visit
   - admission_start_date
@@ -406,7 +406,7 @@ responses:
   
   utter_uniform_dresscode:
     - text: |
-            Students are required to wear as per the college's dress code , Girls should wear the chudithar with shawl ,leggins with open top is not allowed and For Boys Formal T-shirt and Pants is allowed.Jeans and Jacket is not allowed .Students may have specific uniform for Lab Practicals alone.
+            Students are required to wear Formal dresses for both Girls and Boys as per the College's Requirements.Students may have specific uniform for Lab Practicals alone.
   
   utter_book_availability:
     - text: |
@@ -416,7 +416,7 @@ responses:
     - text: |
             The current student count in our college is 1567.These numbers may vary slightly each year.
 
-  utter_family_visit:
+  utter_family_visit_hostel:
     - text: |
             Family visits are permitted in the hostel during designated visiting hours on weekends.  
 
@@ -431,12 +431,12 @@ responses:
     - text: |
             **SSM Institute of Engineering and Technology (SSMIET)**. 
             It is an autonomous institution.It is approved by AICTE, New Delhi, 
-            affiliated with Anna University, Chenn
-            ai, and accredited by NAAC & NBA.
+            affiliated with Anna University, Chennai
+            and accredited by NAAC & NBA[ECE,EEE,MECH].
   
   utter_NBA_accredited_dept: 
   - text: |
-          The NBA-accredited departments in our college are **ECE, Mechanical and EEE**.
+          The NBA Accredited Departments in our college are **ECE, Mechanical and EEE**.
           
   utter_principal_details:
     - text: |
@@ -463,14 +463,16 @@ responses:
   
   utter_fee_structure:
     - text: |
-            The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information.
- 
+            The fee structure varies based on the course and department. Please visit the official website or contact the college administration at 0451 244 8800 for detailed information.                                                                                                                                                                                      
   utter_college_courses:
     - text: |
             Our College Offers Various Courses:     
               - **Undergraduate Courses (B.E & B.Tech)**:You can study engineering in fields like **Civil, Mechanical, Electronics, Electrical, and Computer Science**. Special courses include **Cyber Security, AI & ML, Data Science, IT and Business Systems**
+              
               - **Postgraduate Programs (M.E)**: Advanced studies are available in **Communication Systems and Thermal Engineering**
+              
               - **Doctoral Programs (Ph.D.)**: Research opportunities in **Information & Communication ,Mechanical Engineering and Physics , Mathematics**
+              
               - **Specializations**: We also offer new technologies like **Artificial Intelligence, Cyber Security, and Data Science**.
 
   utter_be_courses:
@@ -552,46 +554,49 @@ responses:
     - text: |
             SSMIET provides internship opportunities in collaboration with reputed companies. The placement cell assists students in securing internships and full-time jobs.
             Our College Students got placed in both the **Multi National Company [MNC]** and **Startups companies**.Below students are got placed.
+            
             Placement Details
               - 2018-2019(206-Students)
               - 2019-2020(273-Students)
               - 2020-2021(101-Students)
               - 2021-2022(200-Students)
               - 2022-2023(117-Students)
+
             Top recruiters include 
-              ✅ 5K Car Care
-              🏭 ABI-SHOWATECH
-              🚛 ASHOK LEYLAND
-              🚲 BSA
-              💼 CAPGEMINI
-              🖥 CRAYONTE
-              🏠 DOMEX
-              🔬 embien
-              💻 HCL
-              📊 HEXAWARE
-              🖥 IBM
-              🚀 jGoLD Technologies
-              🌐 Infosys
-              🎵 JASMIN INFOTECH
-              🏗 KAMAI ELEVATORS
-              📡 MANUREVA Digital Solutions
-              🔧 Piral Infotech
-              🛠 REVATURE
-              💡 STOICS-IT
-              📉 ATOS SYNTEL
-              🏢 TCS
-              🦄 ZOHO
-              🌍 WIPRO
-              🚗 Valeo
-              🤖 UNIVERSAL Automation Systems
+              - 5K Car Care
+              - ABI-SHOWATECH
+              - ASHOK LEYLAND
+              - BSA
+              - CAPGEMINI
+              - CRAYONTE
+              - DOMEX
+              - embien
+              - HCL
+              - HEXAWARE
+              - IBM
+              - jGoLD Technologies
+              - Infosys
+              - JASMIN INFOTECH
+              - KAMAI ELEVATORS
+              - MANUREVA Digital Solutions
+              - Piral Infotech
+              - REVATURE
+              - STOICS-IT
+              - ATOS SYNTEL
+              - TCS
+              - ZOHO
+              - WIPRO
+              - Valeo
+              - UNIVERSAL Automation Systems
+
             For more details, contact the placement office atFor contact us:
               - Mr.C.Silambarasan M.E.,
-                  Training and Placement officer,
-                  SSM Institute of Engineering and Technology,
-                  Dindigul - 624 002,
-                  Tamil Nadu, India
-                  Phone: 7373707001
-                  E-mail Id: placement.ssmiet@gmail.com
+                Training and Placement officer,
+                SSM Institute of Engineering and Technology,
+                Dindigul - 624 002,
+                Tamil Nadu, India
+                Phone: 7373707001
+                E-mail Id: placement.ssmiet@gmail.com
 
   utter_change_the_course:
     - text: |
@@ -622,9 +627,8 @@ responses:
             ![IV photo 3](https://i.ibb.co/4nDHJqQ9/5.jpg)
             ![IV photo 3](https://i.ibb.co/WWM3fTp2/aids-2.jpg)
             
-  utter_admission_apply_lastdate_deadline:
-    - text: |
-            This is the end date for admission, and there is no extension for the admission deadline.
+  utter_admission_lastdate:
+    - text: This is the end date for admission, and there is no extension for the admission deadline.
 
   utter_ssmiet_branches_campus:
     - text: |
@@ -1074,16 +1078,20 @@ responses:
            - To inculcate a sense of responsibility towards society with ethical values.
 
   utter_cse_total_students:
-    - text: 
-        "The total student count in the CSE department varies each academic year."
-  
+    - text: |
+            Here is the count of students for the current year EEE  
+              - Current Batch -> 2024 - 2025
+              - IV Year: Girls - 30, Boys - 35 , Total - 65
+              - III Year: Girls - 37, Boys - 28 , Total - 65
+              - II Year: Girls - 34, Boys - 24 , Total - 58
+              - I Year: Total - 63
+              - Total Girls - 101 , Total Boys - 87 , Total Students - 250
+           
   utter_cse_female_girls_students:
-    - text: 
-        "The number of female students in the CSE department varies."
+    - text: "The Number of Female students in the CSE department is **101**."
   
   utter_cse_male_boys_students:
-    - text: 
-        "The number of male students in the CSE department varies."
+    - text: "The Number of Male students in the CSE department **87**."
 
   utter_cse_lab_facilities:
     - text: |
@@ -1247,18 +1255,18 @@ responses:
             Here is the students count details for the CSE Department:
              
              - **Batch -> 2024 - 2025**
-                  IV Year: Girls - , Boys - , Total - 65
-                  III Year: Girls - , Boys - , Total - 65
-                  II Year: Girls - , Boys - , Total - 57
-                  I Year: Girls - , Boys - , Total - 63
-                  Total Girls - , Total Boys - , Total Students - 250
+                  IV Year: Girls - 30, Boys - 35 , Total - 65
+                  III Year: Girls - 37, Boys - 28 , Total - 65
+                  II Year: Girls - 34, Boys - 24 , Total - 58
+                  I Year: Total - 63
+                  Total Girls - 101 , Total Boys - 87 , Total Students - 250
                   
              - **Batch -> 2023 - 2024**
-                  IV Year: Girls - , Boys - , Total - 58
-                  III Year: Girls - , Boys - , Total - 65
-                  II Year: Girls - , Boys - , Total - 65
-                  I Year: Girls - , Boys - , Total - 57
-                  Total Girls - 16, Total Boys - 44, Total Students - 245
+                  IV Year: Total - 58
+                  III Year: Girls - 30, Boys - 35, Total - 65
+                  II Year: Girls - 37, Boys - 28, Total - 65
+                  I Year: Girls - 34, Boys - 24 , Total - 58
+                  Total Girls - 101, Total Boys - 87 , Total Students - 245
 
   utter_cse_event_conducted_photos:
     - text: |
@@ -1958,7 +1966,7 @@ responses:
             Here is the count of students for the current year EEE  
             - Current Batch -> 2024 - 2025
             - IV Year: Girls - 24, Boys - 27, Total - 51
-            - III YEAR: Girls - 9, Boys - 13, Total - 22
+            - III Year: Girls - 9, Boys - 13, Total - 22
             - II Year: Girls - 12, Boys - 21, Total - 33
             - Total Girls - 45, Total Boys - 61, Total Students - 106
         

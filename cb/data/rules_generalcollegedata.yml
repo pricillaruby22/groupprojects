@@ -77,8 +77,8 @@ rules:
 
   - rule: Answer admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate_deadline
-      - action: utter_admission_apply_lastdate_deadline
+      - intent: admission_lastdate
+      - action: utter_admission_lastdate
 
   - rule: Answer SSMIET branches or campus query
     steps:
