@@ -151,8 +151,8 @@ stories:
       - action: utter_about_industrial_visit
   - story: respond to admission deadline and last date query
     steps:
-      - intent: admission_apply_lastdate_deadline
-      - action: utter_admission_apply_lastdate_deadline
+      - intent: admission_lastdate
+      - action: utter_admission_lastdate
 
   - story: respond to SSMIET branches or campus query
     steps:

@@ -560,6 +560,7 @@ nlu:
       - If SSMIET Students placed in any MNC Companies in ssmiet?
       - What are the available internships?
       - internships
+      - placement details in ssmiet
       - What are the placement opportunities in ssmiet?
       - available internships and placement in college
 
@@ -634,7 +635,7 @@ nlu:
       - Is there any trip for students
       - Is there any field trip is available for students
 
-  - intent: admission_apply_lastdate_deadline
+  - intent: admission_lastdate
     examples: |
       - When is the last date to apply for admission?
       - What is the admission closing date?
@@ -651,6 +652,8 @@ nlu:
       - Last date for apply admission
       - End date for apply admission
       - Deadline date for apply admission
+      - last date for admission
+      - end date for admission
 
   - intent: ssmiet_branches_campus
     examples: |
@@ -663,6 +666,8 @@ nlu:
       - Is there an SSMIET branch in Chennai or other cities?
       - How many branches does SSMIET have?
       - Is SSMIET a single-campus college or does it have other locations?
+      - Other Branches in SSMIET
+      - Any other branches for the ssmiet college?
 
   - intent: campus_college_visit
     examples: |
@@ -681,6 +686,10 @@ nlu:
       - Are parents allowed to visit the college before admission?
       - Can I talk to current students and staff before enrolling?
       - Can I check your college before admission
+      - College campus visit before I Join the college
+      - campus visit
+      - When will I visit this college?
+      - Is college visit available or not?
 
   - intent: admission_start_date
     examples: |
@@ -700,6 +709,8 @@ nlu:
       - After public result of 12th when will the admission start
       - After exam result when wil the admission start for 12th graduate students
       - Before results when will admission starts
+      - admission start date
+      - admission opening date
 
   - intent: lateral_entry
     examples: |
@@ -716,6 +727,8 @@ nlu:
       - Can diploma holders apply for lateral entry into engineering programs?
       - Can diploma students study engineering?
       - Can I join engineering after a diploma?
+      - lateral entry 
+      - Is there any admission for Lateral entry?
 
   - intent: Sports_NCC_government_management_quota
     examples: |
