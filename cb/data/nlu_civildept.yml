@@ -16,7 +16,11 @@ nlu:
     - civil hod details
     - who is the head of civil department
     - Civil Hod 
-    
+    - civil head of the department
+    - Hod of civil department
+    - head of the civil engineering 
+
+
 - intent: civil_faculty_details
   examples: |
     - Who are the faculty members of the Civil department?
@@ -42,6 +46,17 @@ nlu:
     - Professor details in Civil Engineering.
     - Staffs or faculties or professors in Civil Engineering department.
     - Faculty in Civil Engineering.
+    - list out the CIVIL teaching staffs.
+    - list out phd holders in civil
+    - Who all are Associate professors in CIVIL?
+    - How many faculty members in the CIVIL department hold postgraduate degrees?
+    - list the Assistant professors in civil(civil engineering).
+    - faculty details in civil
+    - staffs details in civil
+    - professor details in civil
+    - staffs or faculties or professors in CIVIL departments
+    - faculty in civil engineering
+    - faculty in civil department
 
 - intent: peo_civil_department
   examples: |
@@ -51,6 +66,11 @@ nlu:
     - What are the educational objectives of the Civil dept program?
     - What long-term goals does the Civil Engineering program aim to achieve?
     - Can you explain the purpose or aim or objective of the Civil Engineering curriculum?
+    - program educational objectives of civil
+    - peo of civil engineering
+    - peo of civil department
+    - program education objectives of civil engineering
+
 - intent: po_civil_department
   examples: |
     - What are the Program Outcomes (PO) of the Civil Engineering department?
@@ -58,12 +78,24 @@ nlu:
     - What are the Civil Engineering program outcomes?
     - List the POs of Civil Engineering dept.
     - what are po's or PO'S of civil department?
+    - Program Outcomes of CIVIL department
+    - program outcomes in civil engineering
+    - po of civil department
+    - po of civil
+    - po of civil engineering
+
 - intent: pso_civil_department
   examples: |
     - What are the Program Specific Outcomes (PSO) of the Civil Engineering department?
     - Tell me the PSOs of the Civil department.
     - List the Civil Engineering PSOs.
     - What are the specific outcomes of the Civil Engineering program?
+    - Program Specific Outcomes of CIVIL
+    - program specific outcomes in civil engineering
+    - pso of civil
+    - pso of civil engineering
+    - pso of civil department
+
 - intent: civil_course_outcomes
   examples: |
     - What are the course outcomes in Civil Engineering dept/department?
@@ -75,6 +107,14 @@ nlu:
     - What are the key objectives of the Civil Engineering curriculum?
     - Can you provide the course outcomes for the Civil Engineering department?
     - What skills do students develop in the course of Civil Engineering?
+    - What are the course outcomes of civil engineering?
+    - What are the course outcomes of CIVIL?
+    - what am i going to learn in this civil department
+    - what am i going to learn in this civil department
+    - course outcomes of CIVIL
+    - Course outcomes of civil engineering 
+    - course outcomes of civil
+    - course outcomes of civil engineering department
 
 - intent: technical_faculty_civil
   examples: |
@@ -103,6 +143,10 @@ nlu:
     - Give me an overview of the Civil Department.
     - What is the Civil Engineering Department about?
     - Provide information about the Civil Department.
+    - history of CIVIL
+    - About Civil engineering department
+
+
 
 - intent: civil_department_vision
   examples: |
@@ -110,6 +154,10 @@ nlu:
     - Tell me the vision statement of the Civil Department.
     - What does the Civil Department aspire to achieve?
     - Give me the vision of the Civil Department.
+    - vision of CIVIL
+    - Vision of Civil Engineering department
+    - Vision of Civil department
+
 
 - intent: civil_department_mission
   examples: |
@@ -117,6 +165,9 @@ nlu:
     - Tell me the mission statement of the Civil Department.
     - What are the goals of the Civil Department?
     - What is the Civil Department's mission?
+    - mission of CIVIL
+    - Mission of Civil Engineering department
+    - Mission of Civil department
 
 - intent: placement_company_names_civil
   examples: |
@@ -130,6 +181,13 @@ nlu:
     - Give me the names of companies for Civil placements  
     - What are the companies coming and hiring for final year Civil placements?
     - Are there any top companies for Civil placements?
+    - Placement company names in CIVIL department
+    - placement company names civil engineering department
+    - placement company name in civil
+    - Give me the names of companies for CIVIL placements   
+    - placement company names of CIVIL
+    - placement company names of civil department
+
 
 - intent: civil_department_activities
   examples: |
@@ -141,6 +199,11 @@ nlu:
     - Give me the department activities of Civil Engineering.
     - Where can I find the department activities of Civil?
     - Show me the department activities of Civil Engineering.
+    - Department activities of CIVIL department
+    - Department activities of Civil engineering department
+    - department activities of civil department
+
+
 
 - intent: civil_student_activities
   examples: |
@@ -150,6 +213,11 @@ nlu:
     - Give me the student activities of Civil.
     - Where can I find the student activities of Civil?
     - Show me the student activities of Civil Engineering.
+    - Student activities of CIVIL department
+    - student activities of Civil engineering department
+    - student activities of civil department
+
+
 
 - intent: civil_total_students
   examples: |
@@ -164,6 +232,12 @@ nlu:
     - How many students are currently pursuing B.E. Civil Engineering?
     - How many students graduate from the Civil department each year?
     - How many students are currently in their final year in Civil Engineering?
+    - Total student count in Civil Engineering department
+    - Current total student strength in CIVIL
+    - total students in civil
+    - total students in civil department
+    - total students in CIVIL
+
 
 - intent: civil_female_girls_students
   examples: |
@@ -176,6 +250,10 @@ nlu:
     - Has the number of girls in the Civil department increased over the years?
     - How many female students have graduated from the Civil department so far?
     - What is the trend of female student enrollment in the Civil department?
+    - Total female students in CIVIL department
+    - Total Female students in Civil engineering department
+    - Total Girls students in CIVIL department
+    - Total girls students in Civil engineering department
 
 - intent: civil_male_boys_students
   examples: |
@@ -188,6 +266,11 @@ nlu:
     - Has the number of boys in the Civil department increased over the years?
     - How many male students have graduated from the Civil department so far?
     - What is the trend of male student enrollment in the Civil department?
+    - Total male students in CIVIL department
+    - Total Male students in Civil engineering department
+    - Total Boys students in CIVIL department
+    - Total boys students in Civil engineering department
+
 - intent: civil_research_activities
   examples: |
     - What research activities are conducted in the Civil department?
@@ -200,6 +283,9 @@ nlu:
     - Are students encouraged to publish research papers in the Civil department?
     - What research opportunities are available for undergraduate students in Civil?
     - Are there any research conferences organized by the Civil department?
+    - Research activities of CIVIL department
+    - research activities of Civil engineering department
+    - research activities of Civil department
 
 - intent: extra_courses_civil
   examples: |
@@ -210,6 +296,10 @@ nlu:
     - Are there any special training programs for Civil students?
     - What additional skill-based courses are available for Civil Engineering?
     - Can you provide details on Civil value-added courses?
+    - extra courses in civil department 
+    - extra courses in CIVIL department 
+    - extra courses in civil engineering department 
+    - value added course in CIVIL
 
 - intent: intern_company_civil
   examples: |
@@ -225,6 +315,11 @@ nlu:
     - What is the yearly count of Civil Engineering students who got internships?
     - List the number of Civil Engineering students who got internships year by year.
     - How many Civil Engineering students secured internships each academic year?
+    - Intern Companies in CIVIL department
+    - intern companies in civil engineering department
+    - intern companies in CIVIL
+    - Internships in civil
+    - Internships count in civil department
 
 - intent: mou_sign_company_civil
   examples: |
@@ -245,6 +340,10 @@ nlu:
     - Give me details on MOU partners and their dates for the Civil department.
     - Give me the details about tie-up companies in Civil Engineering.
     - MOU of civil Engineering 
+    - MOU signed company in Civil engineering department
+    - MOU signed company in CIVIL
+    - MOU signed company in Civil department
+
 
 - intent: civil_contact
   examples: |
@@ -256,6 +355,14 @@ nlu:
     - Give me the address of the Civil department at SSM Institute of Engineering and Technology.
     - Can you provide the department's contact information?
     - Civil Engineering contact details
+    - CIVIL contact details
+    - contact of CIVIL department
+    - phone number of civil
+    - email of CIVIL
+    - contact of Civil engineering department
+    - phone number of Civil engineering
+    - email of Civil engineering
+    - contact of civil department
     
 - intent: civil_faculty_experience_knowledge
   examples: |
@@ -273,85 +380,114 @@ nlu:
     - How many Civil faculty members have both academic and industry experience?
     - What is the average number of years faculty members have worked at SSMIET?
     - How many faculty members in the Civil department hold postgraduate degrees?
+    - Average staffs experience in Civil Engineering department
+    - average professors experience in civil
 
 - intent: civil_yearwise_student_count
   examples: |
-      - What is the year-wise student count for the Civil department since the college started?
-      - Can you provide the student intake count for the Civil department for each academic year since inception?
-      - How many students were admitted to the Civil department each year from the beginning?
-      - What is the total number of students enrolled in the Civil department for every academic year since the college started?
-      - How has the student strength of the Civil department varied year by year since the first batch?
-      - What are the year-wise student counts for the Civil department?
-      - Can you provide the student count for each year in the Civil department?
-      - What is the breakdown of students by year in the Civil department?
-      - How many students are there in each academic year of the Civil department?
-      - What is the total number of students per year in the Civil department?
+    - What is the year-wise student count for the Civil department since the college started?
+    - Can you provide the student intake count for the Civil department for each academic year since inception?
+    - How many students were admitted to the Civil department each year from the beginning?
+    - What is the total number of students enrolled in the Civil department for every academic year since the college started?
+    - How has the student strength of the Civil department varied year by year since the first batch?
+    - What are the year-wise student counts for the Civil department?
+    - Can you provide the student count for each year in the Civil department?
+    - What is the breakdown of students by year in the Civil department?
+    - How many students are there in each academic year of the Civil department?
+    - What is the total number of students per year in the Civil department?
+    - year wise student count in civil engineering department
+    - year wise student count in CIVIL
+    - student strength for past four years in CIVIL department
+    - yearwise student strenght of civil department
+
+
 - intent: placement_civil
   examples: |
-      - Tell me about the placement details in Civil department
-      - How many students got placed in civil?
-      - civil department placement statistics
-      - Year-wise placement count in civil  
-      - Tell me about the placement statistics in the Civil department
-      - How successful is the civil department in placements?
-      - What is the placement rate for civil students?
-      - Can you provide the civil placement report?
-      - How many civil students were placed last year?
-      - What's the highest placement count for Civil?
-      - Which companies hired Civil students?
-      - How has civil placement performance changed over the years?
-      - Do Civil students get good placements?
-      - Share the year-wise placement details for Civil.
+    - Tell me about the placement details in Civil department
+    - How many students got placed in civil?
+    - civil department placement statistics
+    - Year-wise placement count in civil  
+    - Tell me about the placement statistics in the Civil department
+    - How successful is the civil department in placements?
+    - What is the placement rate for civil students?
+    - Can you provide the civil placement report?
+    - How many civil students were placed last year?
+    - What's the highest placement count for Civil?
+    - Which companies hired Civil students?
+    - How has civil placement performance changed over the years?
+    - Do Civil students get good placements?
+    - Share the year-wise placement details for Civil.
+
 
 - intent: civil_accreditation
   examples: |
-      - What are the accreditations and affiliations of the Civil department?
-      - Is the Civil department accredited by NAAC and AICTE?
-      - Under which university is the Civil department affiliated?
-      - Is the Civil department approved by the government?
-      - Does the Civil department have AICTE and NAAC approval?
-      - Which university is the Civil department connected with?
-      - Is the Civil department good?
-      - Is this college’s Civil department recognized by the government?
-      - Is the Civil course valid for jobs?
+    - What are the accreditations and affiliations of the Civil department?
+    - Is the Civil department accredited by NAAC and AICTE?
+    - Under which university is the Civil department affiliated?
+    - Is the Civil department approved by the government?
+    - Does the Civil department have AICTE and NAAC approval?
+    - Which university is the Civil department connected with?
+    - Is the Civil department good?
+    - Is this college’s Civil department recognized by the government?
+    - Is the Civil course valid for jobs?
+    - accreditations of CIVIL
+    - accreditations of Civil Engineering
+    - CIVIL department accrediated or not
+    - Civil Engineering Department is accrediated or not
+
+
 
 - intent: civil_event_conducted_photos
   examples: |
-      - Can you provide photos of events conducted by the Civil department?  
-      - Where can I find images of past Civil department events?  
-      - Do you have a gallery of Civil department event photos?  
-      - Can you share pictures from recent Civil department activities?  
-      - Are there any photos available from Civil department symposiums and workshops?  
-      - How can I access images of technical events hosted by the Civil department?  
-      - Do you have any pictures from cultural events organized by the Civil department?  
-      - Can I see photos of guest lectures and seminars conducted by the Civil department?  
-      - Are there any images of student project presentations in the Civil department?  
-      - Where can I view photos from annual Civil department functions and celebrations?  
-      - What are the events conducted by the Civil department?  
-      - Can you provide a list of events organized by the Civil department?  
-      - What technical events does the Civil department host?  
-      - What cultural programs are conducted by the Civil department?  
-      - Does the Civil department organize competitions or technical events?  
-      - What annual events are held by the Civil department?  
-      - Are there any workshops or seminars conducted by the Civil department?  
-      - Does the Civil department conduct any inter-college competitions?
-# - intent: civil_dept_staff_count
-#   examples: |
-#       - How many teachers are there in the Civil department?
-#       - How many faculties are there in the Civil department?
-#       - How many staff members are working in the Civil department?
-#       - How many professors are there in the Civil department?
-#       - How many lecturers are present in the Civil department?
-#       - What is the total staff count in the Civil department?
-#       - Can you tell me the number of faculties in Civil?
-#       - How many academic staff are in the Civil department?
-#       - How many teaching staff members are there in Civil?
-#       - What is the number of faculty members in the Civil department?
-#       - How many faculty members are currently teaching in Civil?
-#       - Could you provide the count of staff in the Civil department?
-#       - How many assistant professors are there in the Civil department?
-#       - What is the strength of the teaching faculty in Civil?
-#       - How many working staff does the Civil department have?
-#       - Tell me the number of Civil department lecturers.
-#       - Can you provide the staff details for the Civil department?
-#       - What’s the total number of faculty in Civil?
+    - Can you provide photos of events conducted by the Civil department?  
+    - Where can I find images of past Civil department events?  
+    - Do you have a gallery of Civil department event photos?  
+    - Can you share pictures from recent Civil department activities?  
+    - Are there any photos available from Civil department symposiums and workshops?  
+    - How can I access images of technical events hosted by the Civil department?  
+    - Do you have any pictures from cultural events organized by the Civil department?  
+    - Can I see photos of guest lectures and seminars conducted by the Civil department?  
+    - Are there any images of student project presentations in the Civil department?  
+    - Where can I view photos from annual Civil department functions and celebrations?  
+    - What are the events conducted by the Civil department?  
+    - Can you provide a list of events organized by the Civil department?  
+    - What technical events does the Civil department host?  
+    - What cultural programs are conducted by the Civil department?  
+    - Does the Civil department organize competitions or technical events?  
+    - What annual events are held by the Civil department?  
+    - Are there any workshops or seminars conducted by the Civil department?  
+    - Does the Civil department conduct any inter-college competitions?
+    - CIVIL event conducted photos
+    - Event couducted photos of civil engineering department
+    - event conducted photos of CIVIL
+    - photos of CIVIL department
+    - photos of Civil engineering department
+
+- intent: civil_dept_staff_count
+  examples: |
+    - How many teachers are there in the Civil department?
+    - How many faculties are there in the Civil department?
+    - How many staff members are working in the Civil department?
+    - How many professors are there in the Civil department?
+    - How many lecturers are present in the Civil department?
+    - What is the total staff count in the Civil department?
+    - Can you tell me the number of faculties in Civil?
+    - How many academic staff are in the Civil department?
+    - How many teaching staff members are there in Civil?
+    - What is the number of faculty members in the Civil department?
+    - How many faculty members are currently teaching in Civil?
+    - Could you provide the count of staff in the Civil department?
+    - How many assistant professors are there in the Civil department?
+    - What is the strength of the teaching faculty in Civil?
+    - How many working staff does the Civil department have?
+    - Tell me the number of Civil department lecturers.
+    - Can you provide the staff details for the Civil department?
+    - What’s the total number of faculty in Civil?
+    - Total staffs count in CIVIL department
+    - Total staffs count in Civil Engineering department
+    - Current total staffs strength in CIVIL
+    - Total faculty count in CIVIL department
+    - Total professors count in Civil Engineering department
+    - Current total professors strength in CIVIL
+    - faculty count of civil department
+    - staffs count of civil
