@@ -662,7 +662,7 @@ responses:
 
   utter_staff_professors_faculty_qualifications_experience:
     - text: |
-            The faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and industry expertise. 
+            The Faculty at SSMIET are highly qualified, with many holding postgraduate and doctoral degrees in their respective fields. The teaching staff includes experienced professors, associate professors, and assistant professors with strong academic backgrounds and industry expertise. 
 
   utter_college_timing:
     - text: | 
@@ -683,7 +683,7 @@ responses:
 
   utter_academic_calendar:
     - text: |
-            You can find the working hours, holiday details, and academic calendar at:\n🔗 [SSMIET Academic Calendar]https://ssmiet.ac.in/cc.html
+            You can find the working hours, holiday details, and academic calendar at:🔗 [SSMIET Academic Calendar] https://ssmiet.ac.in/cc.html
    
   utter_admission_documents:
     - text: |
@@ -3302,6 +3302,9 @@ responses:
 
   utter_goodbye:   
     - text: "Good Bye!..."
+
+  utter_default:
+    - text: Sorry, I didn't understand that. Can you please rephrase?
 
 
 

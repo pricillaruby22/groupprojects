@@ -443,3 +443,7 @@ rules:
       - intent: goodbye
       - action: utter_goodbye
 
+  - rule: Fallback when intent is not recognized
+    steps:
+      - intent: nlu_fallback
+      - action: utter_default

@@ -13,14 +13,35 @@ nlu:
     - Who is the current HOD of Civil Engineering at SSMIET?
     - Who is the current head of the Civil Engineering department at SSMIET?
     - What are the qualifications of the HOD of Civil Engineering?
+    - civil hod details
+    - who is the head of civil department
+    - Civil Hod 
     
 - intent: civil_faculty_details
   examples: |
-    - Who are the faculty members of the Civil Engineering department?
-    - Can you provide details about the Civil Engineering faculty?
-    - List the professors in the Civil Engineering department.
-    - Tell me about the Civil Engineering department staff.
-    - Who teaches in the Civil Engineering department?
+    - Who are the faculty members of the Civil department?
+    - Can you list the Civil department faculty?
+    - Tell me about the educators in the Civil Engineering department.
+    - Provide details on Civil Engineering department professors.
+    - Give me a list of Civil department staff.
+    - I am not familiar with the faculty in Civil. Can you help?
+    - Who teaches in the Civil department?
+    - I am uneducated about the staff in Civil Engineering. Can you list them?
+    - Tell me who the Civil professors are.
+    - I don't know the educators in Civil. Can you inform me?
+    - Can you give me some information about the Civil faculty?
+    - I know some professors in Civil, but can you list all?
+    - Who are the key faculty members in Civil Engineering?
+    - Give me more details about the educators in Civil Engineering.
+    - List out the Civil teaching staff.
+    - List out PhD holders in Civil Engineering.
+    - Who all are Associate Professors in Civil?
+    - List the Assistant Professors in Civil Engineering.
+    - Faculty details in Civil.
+    - Staff details in Civil.
+    - Professor details in Civil Engineering.
+    - Staffs or faculties or professors in Civil Engineering department.
+    - Faculty in Civil Engineering.
 
 - intent: peo_civil_department
   examples: |
