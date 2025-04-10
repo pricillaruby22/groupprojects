@@ -2,15 +2,15 @@ version: "3.1"
 rules:
   - rule: Provide canteen availability
     steps:
-      - intent: ask_canteen_availability
-      - action: utter_canteen_availability
+      - intent: canteen_availability_info
+      - action: utter_canteen_availability_info
 
   - rule: Provide canteen food options
     steps:
-      - intent: ask_canteen_food_options
+      - intent: canteen_food_options
       - action: utter_canteen_food_options
 
   - rule: Provide canteen timings and facilities
     steps:
-      - intent: ask_canteen_timings
+      - intent: canteen_timings
       - action: utter_canteen_timings

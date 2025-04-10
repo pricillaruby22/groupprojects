@@ -240,11 +240,6 @@ rules:
       - intent: college_qualification
       - action: utter_college_qualification
 
-  - rule: Respond to job interview preparation queries
-    steps:
-      - intent: job_interview_preparation
-      - action: utter_job_interview_preparation
-
   - rule: Respond to smart classroom with projector queries
     steps:
       - intent: smart_classrooms_projector
@@ -255,15 +250,10 @@ rules:
       - intent: most_highest_placement_department
       - action: utter_most_highest_placement_department
 
-  - rule: Respond to eligible student placement opportunities queries
+  - rule: Respond to Student and placement opportunities
     steps:
-      - intent: eligible_student_placement_opportunities
-      - action: utter_eligible_student_placement_opportunities
-        
-  - rule: Respond to each or all department placement numbers queries
-    steps:
-      - intent: each_all_department_get_placed
-      - action: utter_each_all_department_get_placed
+      - intent: student_department_placement_info
+      - action: utter_student_department_placement_info
 
   - rule: Respond to SSMIET college ranking query
     steps:
@@ -327,8 +317,8 @@ rules:
 
   - rule: Respond to water facilities queries
     steps:
-      - intent: water_facilities
-      - action: utter_water_facilities
+      - intent: drinking_water_info
+      - action: utter_drinking_water_info
 
   - rule: Respond to recruiter queries
     steps:
@@ -339,39 +329,31 @@ rules:
     steps:
       - intent: sports_achievements
       - action: utter_sports_achievements
-  - rule: Respond to software lab details queries
+
+  - rule: Respond to software lab facilities queries
     steps:
-      - intent: software_lab_details
-      - action: utter_software_lab_details
+      - intent: software_lab_facility
+      - action: utter_software_lab_facility
 
   - rule: Respond to staff count queries
     steps:
       - intent: staff_professor_count
       - action: utter_staff_professor_count
+
   - rule: Provide lab hardware details
     steps:
-      - intent: ask_lab_hardware
-      - action: utter_ask_lab_hardware
+      - intent: lab_hardware
+      - action: utter_lab_hardware
 
   - rule: Respond with general ragging policy
     steps:
-    - intent: ask_ragging
-    - action: utter_ragging
-
-  - rule: Explain the bus seating policy (FCFS)
-    steps:
-    - intent: ask_bus_seat_fcfs
-    - action: utter_bus_seat_fcfs
-
-  - rule: Inform user that full buses require standing
-    steps:
-    - intent: ask_bus_seat_full
-    - action: utter_bus_seat_full
+    - intent: ragging_policy
+    - action: utter_ragging_policy
 
   - rule: Respond to seat reservation requests
     steps:
-    - intent: ask_bus_seat_no_reservation
-    - action: utter_bus_seat_no_reservation
+    - intent: bus_seat_number_reservation
+    - action: utter_bus_seat_number_reservation
 
   - rule: Show general campus photos
     steps:
@@ -395,23 +377,18 @@ rules:
 
   - rule: Provide bus facility details
     steps:
-      - intent: ask_bus_facility_details
-      - action: utter_ask_bus_facility_details  
+      - intent: bus_facility_details
+      - action: utter_bus_facility_details  
 
-  - rule: extra_activities
+  - rule: Respond to fees payment info inquiries
     steps:
-      - intent: extracurricular_activites
-      - action: utter_extracurricular_activites
+      - intent: fees_payment_info
+      - action: utter_fees_payment_info
 
-  - rule: Respond to fee online payment details and account number or bank name inquiries
+  - rule: Respond to competitive exam coaching inquiries
     steps:
-      - intent: fee_online_payment_details_account_number_bank_name
-      - action: utter_fee_online_payment_details_account_number_bank_name
-
-  - rule: Respond to GATE coaching inquiries
-    steps:
-      - intent: gate_coaching
-      - action: utter_gate_coaching
+      - intent: competitive_exam_coaching
+      - action: utter_competitive_exam_coaching
 
   - rule: Respond to sports equipment
     steps:
@@ -437,6 +414,11 @@ rules:
     steps:
       - intent: request_playground_photos
       - action: utter_show_playground_photos
+  
+  - rule: Respond to general intake questions
+    steps:
+      - intent: ask_intake
+      - action: utter_intake_info
 
   - rule: Say goodbye anytime the user says goodbye
     steps:

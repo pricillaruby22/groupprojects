@@ -15,6 +15,8 @@ nlu:
         - What is name of the CSE HOD?
         - cse hod
         - cse head of the department
+        - Hod of computer Science department
+        - head of the computer science engineering 
   
   - intent: cse_faculty_details
     examples: |
@@ -35,12 +37,14 @@ nlu:
       - list out the CSE teaching staffs.
       - list out phd holders in cse
       - Who all are Associate professors in CSE?
+      - How many faculty members in the CSE department hold postgraduate degrees?
       - list the Assistant professors in cse(computer science engineering).
       - faculty details in cse
       - staffs details in cse
       - professor details in cse
       - staffs or faculties or professors in CSE departments
       - faculty in computer science engineering
+      - faculty in computer science department department
 
   - intent: peo_cse_department
     examples: |
@@ -57,6 +61,7 @@ nlu:
       - peo of cse
       - program educational objectives of cse
       - peo of computer science engineering
+      - peo of computer science department
       - program education objectives of computer science engineering
 
   - intent: po_cse_department
@@ -74,7 +79,9 @@ nlu:
       - What are the key components of Program Outcomes (POs) in a CSE program?
       - Program Outcomes of CSE department
       - program outcomes in computer science engineering
+      - po of computer science department
       - po of cse
+      - po of computer science engineering
   
   - intent: pso_cse_department
     examples: |
@@ -93,6 +100,7 @@ nlu:
       - program specific outcomes in computer science engineering
       - pso of cse
       - pso of computer science engineering
+      - pso of computer science department
   
   - intent: technical_faculty_cse
     examples: |
@@ -112,8 +120,10 @@ nlu:
       - Give me a list of administrative and technical staff in CSE.
       - Are there lab instructors in the CSE department?
       - non-teaching faculty or staffs in computer science department
+      - non-teaching faculty or staffs in computer science engineering department
       - technical faculty or staffs or assistants in cse
       - non-teaching faculty or staffs or assistants in cse
+      - technical faculty of CSE department
 
   - intent: placement_cse
     examples: |
@@ -131,6 +141,9 @@ nlu:
       - How has CSE placement performance changed over the years?
       - Do CSE students get good placements?
       - Share the year-wise placement details for CSE.
+      - yearwise placement details in cse department
+      - yearwise placement details in CSE department
+      - yearwise placement details in Computer Science Engineering department
 
   - intent: cse_course_outcomes
     examples: |
@@ -150,6 +163,10 @@ nlu:
       - What are the course outcomes of CSE?
       - what am i going to learn in this cse department
       - what am i going to learn in this computer science department
+      - course outcomes of CSE
+      - Course outcomes of computer science engineering 
+      - course outcomes of cse
+      - course outcomes of computer science engineering department
 
   - intent: cse_department_info_about
     examples: |
@@ -162,6 +179,9 @@ nlu:
       - How does the Computer Science Engineering [CSE] department emphasize co-curricular and extracurricular activities?
       - Tell me about CSE department.
       - What is the about of CSE department?
+      - about CSE department
+      - history of CSE
+      - About Computer science engineering department
 
   - intent: cse_department_vision
     examples: |
@@ -176,6 +196,9 @@ nlu:
       - How does research and innovation contribute to the CSE department’s vision?
       - Does the vision of the CSE department include global technological advancements?
       - Tell me about vision of CSE department.
+      - vision of CSE
+      - Vision of Computer Science Engineering department
+      - Vision of Computer Science department
 
   - intent: cse_department_mission
     examples: |
@@ -190,6 +213,9 @@ nlu:
       - How does research and innovation contribute to the CSE department’s mission?
       - Does the mission of the CSE department include global technological advancements?
       - Tell me about mission of CSE department.
+      - mission of CSE
+      - Mission of Computer Science Engineering department
+      - Mission of Computer Science department
 
   - intent: cse_total_students
     examples: |
@@ -204,6 +230,12 @@ nlu:
       - How many students are currently pursuing B.E. CSE?
       - How many students graduate from the CSE department each year?
       - How many students are currently in their final year in CSE?
+      - Total student count in CSE department
+      - Total student count in Computer Science Engineering department
+      - Current total student strength in CSE
+      - total students in cse
+      - total students in computer science department
+      - total students in CSE
 
   - intent: cse_female_girls_students
     examples: |
@@ -216,6 +248,10 @@ nlu:
       - Has the number of girls in the CSE department increased over the years?
       - How many female students have graduated from the CSE department so far?
       - What is the trend of female student enrollment in the computer science and engineering department?
+      - Total female students in CSE department
+      - Total Female students in Computer science engineering department
+      - Total Girls students in CSE department
+      - Total girls students in Computer science engineering department
 
   - intent: cse_male_boys_students
     examples: |
@@ -228,6 +264,10 @@ nlu:
       - Has the number of boys in the computer science and engineeringdepartment increased over the years?
       - How many male students have graduated from the CSE department so far?
       - What is the trend of male student enrollment in the CSE department?
+      - Total male students in CSE department
+      - Total Male students in Computer science engineering department
+      - Total Boys students in CSE department
+      - Total boys students in Computer science engineering department
 
   - intent: cse_lab_facilities
     examples: |
@@ -242,7 +282,9 @@ nlu:
       - What technologies are used in the project in  CSE department?
       - How to set up the project environment in cse?
       - What tools are required for the project in CSE?
-
+      - CSE lab facilities
+      - About Lab facilities in CSE department
+      - About Lab facilities in Computer science engineering department
 
   - intent: cse_department_activities
     examples: |
@@ -254,6 +296,9 @@ nlu:
       - Give me the department activities of CSE
       - Where can I find the department activities of CSE?
       - Show me the department activities of CSE
+      - Department activities of CSE department
+      - Department activities of Computer science engineering department
+      - department activities of computer science department
 
   - intent: cse_student_activities
     examples: |
@@ -263,6 +308,9 @@ nlu:
       - Give me the student activities of CSE.
       - Where can I find the student activities of computer science and engineering?
       - Show me the student activities of computer science and engineering.
+      - Student activities of CSE department
+      - student activities of Computer science engineering department
+      - student activities of computer science department
 
   - intent: cse_faculty_activities
     examples: |
@@ -275,6 +323,9 @@ nlu:
       - Are faculty members involved in industry collaborations in CSE?
       - Do computer science and engineering faculty members participate in technical conferences and seminars?
       - Are Computer Science Engineering [CSE] faculty members involved in curriculum development and innovation?
+      - Faculty activities of CSE department
+      - faculty activities of Computer science engineering department
+      - faculty activities of computer science department
 
   - intent: cse_professional_bodies
     examples: |
@@ -288,6 +339,9 @@ nlu:
       - How can students become members of professional organizations in the CSE department?
       - Are there any certifications provided through professional bodies in the CSE department?
       - Do professional bodies offer internship or research opportunities for CSE students?
+      - professional bodies of CSE department
+      - professional bodies of Computer Science engineering department
+      - professional bodies of Computer Science department
 
   - intent: cse_research_activities
     examples: |
@@ -301,6 +355,9 @@ nlu:
       - Are students encouraged to publish research papers in the CSE department?
       - What research opportunities are available for undergraduate students in CSE?
       - Are there any research conferences organized by the CSE department?
+      - Research activities of CSE department
+      - research activities of Computer science engineering department
+      - research activities of Computer science department
 
   - intent: cse_newsletter
     examples: |
@@ -314,6 +371,9 @@ nlu:
       - Are student achievements highlighted in the CSE department newsletter?
       - How does the CSE department newsletter help in knowledge sharing?
       - Where can I find previous editions of the CSE department newsletter?
+      - Newsletter of CSE department
+      - newsletter of Computer Science engineering department
+      - newsletter of Computer Science department
 
   - intent: cse_mou_sign_company
     examples: |
@@ -336,6 +396,10 @@ nlu:
       - Which companies have signed an MOU with the institution in CSE?
       - Can you provide details on MOU-signed companies in CSE?
       - Tell me about the industry collaborations with Computer Science Engineering [CSE].
+      - mou signed company in CSE department
+      - MOU signed company in Computer science engineering department
+      - MOU signed company in CSE
+      - MOU signed company in Computer science department
 
   - intent: cse_intern_company
     examples: |
@@ -345,12 +409,17 @@ nlu:
         - Tell me about companies that offer internships in CSE.
         - Can you name some companies that offer student internships in Computer Science Engineering [CSE]?
         - How many students got internships in CSE Department?
-        - Give me the year-wise placed students' internship count in cse.
+        - Give me the year-wise placed students internship count in cse.
         - Can you provide the number of students who did internships each year in CSE?
         - Tell me how many students did internships in CSE in previous years.
         - What is the yearly count of students who got internships in CSE?
         - List the number of students who got internships year by year in CSE.
         - How many students secured internships each academic year in CSE?
+        - Intern Companies in CSE department
+        - intern companies in computer science engineering department
+        - intern companies in CSE
+        - Internships in cse
+        - Internships count in computer science department
 
   - intent: cse_contact
     examples: |
@@ -362,6 +431,13 @@ nlu:
       - Give me the address of the CSE department at SSM Institute of Engineering and Technology.
       - Can you provide the department's contact information?
       - CSE contact details
+      - contact of CSE department
+      - phone number of cse 
+      - email of CSE
+      - contact of Computer science engineering department
+      - phone number of Computer science engineering
+      - email of Computer science engineering
+      - contact of computer science department
 
   - intent: extra_courses_cse_dept
     examples: |
@@ -372,6 +448,9 @@ nlu:
       - Do CSE students have any extra learning opportunities?
       - value added courses in CSE [computer science engineering].
       - extra courses in cse department 
+      - extra courses in CSE department 
+      - extra courses in computer science engineering department 
+      - value added course in CSE
                     
   - intent: cse_placement_company_names
     examples: |
@@ -385,25 +464,27 @@ nlu:
         - Give me the names of companies for CSE placements  
         - What are the companies are coming and hiring for final year placements in CSE?
         - Is there any top companies for placement? 
+        - Placement company names in CSE department
+        - placement company names computer science engineering department
+        - placement company name in cse
 
-  - intent: cse_accrediation
+  - intent: cse_accreditation
     examples: |
-      - What are the accrediations and affiliations of the CSE department?
+      - What are the accreditations and affiliations of the CSE department?
       - Is the CSE department accredited by NAAC and AICTE?
       - Under which university/govt body is the CSE department affiliated?
       - Is the CSE department approved by the government?
       - Does the CSE department have AICTE and NAAC approval?
-      - Is the CSE department accreditated by NAAC and NBA?
+      - Is the CSE department accrediated by NAAC and NBA?
       - Is the CSE department recognized by the government?
       - is this CSE dept approved by any of these recognized govt agencies like NAAC and NBA?
       - Which university is the CSE department connected with?
-      - Is the CSE department good?
       - Is this college’s CSE department recognized by the government?
-      - Is the CSE course valid for jobs?
-      - Give me the names of companies for CSE placements.
-      - What is the accrediations of cse
-      - accrediations of CSE
-      - accrediations of Computer Science Engineering
+      - What is the accreditations of cse
+      - accreditations of CSE
+      - accreditations of Computer Science Engineering
+      - CSE department accrediated or not
+      - Computer Science Engineering Department is accrediated or not
 
   - intent: cse_yearwise_student_count
     examples: |
@@ -417,6 +498,10 @@ nlu:
       - What is the breakdown of students by year in the CSE department?
       - How many students are there in each academic year of the CSE department?
       - What is the total number of students per year in the CSE department?
+      - year wise student count in computer science engineering department
+      - year wise student count in CSE
+      - student strength for past four years in CSE department
+      - yearwise student strenght of computer science department
 
   - intent: cse_event_conducted_photos
     examples: |
@@ -438,6 +523,9 @@ nlu:
       - What annual events are held by the CSE department?
       - Are there any workshops or seminars conducted by the CSE department?
       - Does the CSE department conduct any inter-college competitions?
+      - CSE event conducted photos
+      - Event couducted photos of computer science engineering department
+      - event conducted photos of CSE
 
   - intent: cse_faculty_experience_knowledge
     examples: |
@@ -453,7 +541,9 @@ nlu:
       - What is the minimum teaching experience required for CSE faculty at SSMIET?
       - How many CSE faculty members have both academic and industry experience?
       - What is the average number of years faculty members have worked at SSMIET?
-      - How many faculty members in the CSE department hold postgraduate degrees?
+      - average Faculty experience in CSE 
+      - Average staffs experience in Computer Science Engineering department
+      - average professors experience in cse
 
   - intent: cse_placement_company_names
     examples: |
@@ -465,24 +555,9 @@ nlu:
       - Who are the recruiters for CSE students?
       - Which companies visit for CSE placements?
       - Give me the names of companies for CSE placements   
+      - placement company names of CSE
+      - placement company names of Computer science department
     
-  - intent: curriculum_relevance_industry
-    examples: |
-      - How does my course content align with current industry standards?
-      - Is my curriculum updated based on industry trends?
-      - does this college have the curriculum updated to the industrial needs
-      - Are we learning skills that companies are looking for right now?
-      - Does the university update subjects to match job market requirements?
-      - How do the syllabus matches with the industry needs?
-      - How does this curriculum ensure graduates meet industry needs?
-      - Are students trained in the latest technologies we use in our company?
-      - Does the institution collaborate with companies to update coursework?
-      - is the syllabus related to the curriculum?
-      - How do you incorporate real-world skills into the academic program?
-      - How do we revise the curriculum based on industry trends?
-      - Do we incorporate industry certifications and real-world projects in the syllabus?
-      - how the ssmietcollege manage in keeping the curriculum relevant? 
-
   - intent: cse_staff_count
     examples: |
       - How many teachers are there in the CSE department?
@@ -503,6 +578,14 @@ nlu:
       - Tell me the number of CSE department lecturers.
       - Can you provide the staff details for the CSE department?
       - What’s the total number of faculty in CSE? 
+      - Total staffs count in CSE department
+      - Total staffs count in Computer Science Engineering department
+      - Current total staffs strength in CSE
+      - Total faculty count in CSE department
+      - Total professors count in Computer Science Engineering department
+      - Current total professors strength in CSE
+      - faculty count of computer science department
+      - staffs count of cse
 
   - intent: photos_cse_dept
     examples: |
@@ -522,5 +605,6 @@ nlu:
       - Where can I check the CSE department’s pictures?
       - Show me the latest images from the CSE department.
       - Any recent event pictures from the CSE department?
-
+      - photos of CSE department
+      - photos of Computer science engineering department
   

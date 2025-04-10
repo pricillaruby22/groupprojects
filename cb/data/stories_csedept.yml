@@ -131,8 +131,8 @@ stories:
   
   - story: Accreditation inquiry
     steps:
-      - intent: cse_accrediation
-      - action: utter_cse_accrediation 
+      - intent: cse_accreditation
+      - action: utter_cse_accreditation 
 
   - story: CSE year-wise student count inquiries
     steps:

@@ -11,6 +11,11 @@ nlu:
         - Who is in charge of the ECE department?
         - How long has the HOD of ECE been working?
         - Is the head of ECE experienced?
+        - What is name of the ECE HOD?
+        - ece hod
+        - ece head of the department
+        - Hod of electronics and communication department
+        - head of the Electronics and Communication engineering 
 
     - intent: ece_faculty_details
       examples: |
@@ -25,8 +30,18 @@ nlu:
         - Can you give me some information about the ECE faculty?
         - Who are the key faculty members in ECE?
         - Give me more details about the educators in ECE.
-        - list out the ECE teaching madam.
-
+        - list out the ECE teaching members.
+        - list out the ECE teaching staffs.
+        - list out phd holders in ece
+        - Who all are Associate professors in ECE?
+        - How many faculty members in the ECE department hold postgraduate degrees?
+        - list the Assistant professors in ece(electronics and communication engineering).
+        - faculty details in ece
+        - staffs details in ece
+        - professor details in ece
+        - staffs or faculties or professors in ECE departments
+        - faculty in electronics and communication engineering
+        - faculty in electronics and communication department
 
     - intent: peo_ece_department
       examples: |
@@ -40,6 +55,11 @@ nlu:
         - Why are Program Educational Objectives (PEOs) important for Electronics and Communication Engineering students?
         - How do Program Educational Objectives (PEOs) help in shaping a ECE graduate’s career?
         - What are the key components of Program Educational Objectives (PEOs) in a ECE program?
+        - peo of ece
+        - program educational objectives of ece
+        - peo of electronics and communication engineering
+        - peo of electronics and communication department
+        - program education objectives of electronics and communication engineering
 
     - intent: po_ece_department
       examples: |
@@ -53,6 +73,11 @@ nlu:
         - Why are Program Outcomes (POs) important for Electronics and Communication Engineering students?
         - How do Program Outcomes (POs) help in shaping a ECE graduate’s career?
         - What are the key components of Program Outcomes (POs) in a ECE program?
+        - Program Outcomes of ECE department
+        - program outcomes in electronics and communication engineering
+        - po of electronics and communication department
+        - po of ece
+        - po of electronics and communication engineering
     
     - intent: pso_ece_department
       examples: |
@@ -66,6 +91,11 @@ nlu:
         - Why are Program Specific Outcomes (PSOs) important for Electronics and Communication Engineering students?
         - How do Program Specific Outcomes (PSOs) help in shaping a ECE graduate’s career?
         - What are the key components of Program Specific Outcomes (PSOs) in a ECE program?
+        - Program Specific Outcomes of ECE
+        - program specific outcomes in electronics and communication engineering
+        - pso of ece
+        - pso of electronics and communication department
+        - pso of electronics and communication engineering
     
     - intent: technical_faculty_ece
       examples: |
@@ -83,6 +113,11 @@ nlu:
         - Who are the supporting staff in the ECE department?
         - Give me a list of administrative and technical staff in ECE.
         - Are there lab instructors in the ECE department?
+        - non-teaching faculty or staffs in electronics and communication department
+        - non-teaching faculty or staffs in electronics and communication engineering department
+        - technical faculty or staffs or assistants in ECE
+        - non-teaching faculty or staffs or assistants in ece
+        - technical faculty of ECE department
 
     - intent: placement_ece
       examples: |
@@ -100,6 +135,9 @@ nlu:
         - How has ECE placement performance changed over the years?
         - Do ECE students get good placements?
         - Share the year-wise placement details for ECE.
+        - yearwise placement details in ece department
+        - yearwise placement details in ECE department
+        - yearwise placement details in electronics and communication engineering department
 
     - intent: ece_course_outcomes
       examples: |
@@ -116,6 +154,12 @@ nlu:
         - What are the learning outcomes of a ECE course?
         - What knowledge will I acquire after completing ECE?
         - What are the course outcomes of ECE?
+        - what am i going to learn in this ece department
+        - what am i going to learn in this electronics and communication  department
+        - course outcomes of ECCE
+        - Course outcomes of electronics and communication engineering
+        - course outcomes of ece
+        - course outcomes of electronics and communication engineering department
 
     - intent: ece_department_info_about
       examples: |
@@ -128,6 +172,9 @@ nlu:
         - How does the Electronics and Communication Engineering department emphasize co-curricular and extracurricular activities?
         - Tell me about ECE department.
         - What is the about of ECE department?
+        - about ECE department
+        - history of ECE
+        - About electronics and communication engineering department
 
     - intent: ece_department_vision
       examples: |
@@ -142,6 +189,9 @@ nlu:
         - How does research and innovation contribute to the ECE department’s vision?
         - Does the vision of the ECE department include global technological advancements?
         - Tell me about vision of ECE department.
+        - vision of ECE
+        - Vision of electronics and communication engineering department
+        - Vision of electronics and communication department
 
     - intent: ece_department_mission
       examples: |
@@ -156,6 +206,9 @@ nlu:
         - How does research and innovation contribute to the ECE department’s mission?
         - Does the mission of the ECE department include global technological advancements?
         - Tell me about mission of ECE department.
+        - mission of ECE
+        - Mission of electronics and communication engineering department
+        - Mission of electronics and communication department
 
     - intent: ece_total_students
       examples: |
@@ -170,6 +223,12 @@ nlu:
         - How many students are currently pursuing B.E. ECE?
         - How many students graduate from the ECE department each year?
         - How many students are currently in their final year in ECE?
+        - Total student count in ECE department
+        - Total student count in electronics and communication engineering department
+        - Current total student strength in ECE
+        - total students in ece
+        - total students in electronics and communication department
+        - total students in ECE
 
     - intent: ece_female_girls_students
       examples: |
@@ -182,6 +241,10 @@ nlu:
         - Has the number of girls in the ECE department increased over the years?
         - How many female students have graduated from the ECE department so far?
         - What is the trend of female student enrollment in the ECE department?
+        - Total female students in ECE department
+        - Total Female students in electronics and communication engineering department
+        - Total Girls students in ece department
+        - Total girls students in electronics and communication department
 
     - intent: ece_male_boys_students
       examples: |
@@ -194,6 +257,10 @@ nlu:
         - Has the number of boys in the ECE department increased over the years?
         - How many male students have graduated from the ECE department so far?
         - What is the trend of male student enrollment in the ECE department?
+        - Total male students in ECE department
+        - Total Male students in electronics and communication engineering department
+        - Total Boys students in ece department
+        - Total boys students in electronics and communication department
 
     - intent: ece_lab_facilities
       examples: |
@@ -205,6 +272,12 @@ nlu:
         - Does the ECE department provide high-speed internet in the labs?
         - Are the ECE labs accessible to students outside class hours?
         - What kind of research work is conducted in the ECE labs?
+        - What technologies are used in the project in  ECE department?
+        - How to set up the project environment in ece?
+        - What tools are required for the project in ECE?
+        - ECE lab facilities
+        - About Lab facilities in ECE department
+        - About Lab facilities in electronics and communication engineering department
 
     - intent: ece_department_activities
       examples: |
@@ -216,6 +289,9 @@ nlu:
         - Give me the department activities of ECE
         - Where can I find the department activities of ECE?
         - Show me the department activities of ECE
+        - Department activities of ECE department
+        - Department activities of electronics and communication engineering department
+        - Department activities of electronics and communication department
 
     - intent: ece_student_activities
       examples: |
@@ -225,6 +301,9 @@ nlu:
         - Give me the student activities of ECE.
         - Where can I find the student activities of ECE?
         - Show me the student activities of ECE.
+        - student activities of ECE department
+        - student activities of electronics and communication engineering department
+        - student activities of electronics and communication department
 
     - intent: ece_faculty_activities
       examples: |
@@ -237,6 +316,9 @@ nlu:
         - Are ECE faculty members involved in industry collaborations?
         - Do ECE faculty members participate in technical conferences and seminars?
         - Are ECE faculty members involved in curriculum development and innovation?
+        - Faculty activities of ECE department
+        - faculty activities of electronics and communication engineering department
+        - faculty activities of electronics and communication department
 
     - intent: ece_professional_bodies
       examples: |
@@ -250,6 +332,9 @@ nlu:
         - How can students become members of professional organizations in the ECE department?
         - Are there any certifications provided through professional bodies in the ECE department?
         - Do professional bodies offer internship or research opportunities for ECE students?
+        - professional bodies of ECE department
+        - professional bodies of electronics and communication engineering department
+        - professional bodies of electronics and communication department
 
     - intent: ece_research_activities
       examples: |
@@ -263,6 +348,9 @@ nlu:
         - Are students encouraged to publish research papers in the ECE department?
         - What research opportunities are available for undergraduate students in ECE?
         - Are there any research conferences organized by the ECE department?
+        - Research activities of ECE department
+        - research activities of electronics and communication engineering department
+        - research activities of electronics and communication department
 
     - intent: ece_newsletter
       examples: |
@@ -276,6 +364,9 @@ nlu:
         - Are student achievements highlighted in the ECE department newsletter?
         - How does the ECE department newsletter help in knowledge sharing?
         - Where can I find previous editions of the ECE department newsletter?
+        - newsletter of ECE department
+        - newsletter of electronics and communication engineering department
+        - Newsletter of electronics and communication department
 
     - intent: mou_sign_company_ece
       examples: |
@@ -295,6 +386,10 @@ nlu:
         - Tell me about the latest MOU collaborations for ECE.
         - Give me details on MOU partners and their dates for ECE.
         - Give me the details about tie-up companies for ECE.
+        - mou signed company in ECE department
+        - MOU signed company in electronics and communication engineering department
+        - MOU signed company in CSE
+        - MOU signed company in electronics and communication department
 
     - intent: intern_company_ece
       examples: |
@@ -310,6 +405,11 @@ nlu:
         - What is the yearly count of ECE students who got internships?
         - List the number of ECE students who got internships year by year.
         - How many ECE students secured internships each academic year?
+        - Intern Companies in ECE department
+        - intern companies in electronics and communication engineering department
+        - intern companies in ECE
+        - Internships in ece
+        - Internships count in electronics and communication department
 
     - intent: ece_contact
       examples: |
@@ -321,7 +421,14 @@ nlu:
         - Give me the address of the ECE department at SSM Institute of Engineering and Technology.
         - Can you provide the ECE department's contact information?
         - ECE contact details
-
+        - contact of ECE department
+        - phone number of ece 
+        - email of ECE
+        - contact of electronics and communication engineering department
+        - phone number of electronics and communication engineering
+        - email of electronics and communication engineering
+        - contact of electronics and communication department
+ 
     - intent: extra_courses_ece
       examples: |
         - Tell me about the value-added courses in Electronics and Communication Engineering department
@@ -329,6 +436,11 @@ nlu:
         - Extra courses provided by ECE department
         - List the value-added courses for ECE students
         - Do ECE students have any extra learning opportunities? 
+        - value added courses in ECE [electronics and communication engineering].
+        - extra courses in ece department 
+        - extra courses in ECE department 
+        - extra courses in electronics and communication engineering department 
+        - value added course in ECE
                       
     - intent: placement_company_names_ece
       examples: |
@@ -342,6 +454,9 @@ nlu:
         - Give me the names of companies for ECE placements  
         - What are the companies are coming and hiring for ECE final year placements?
         - Is there any top companies for placement in ECE? 
+        - Placement company names in ECE department
+        - placement company names electronics and communication engineering department
+        - placement company name in ece
 
     - intent: ece_accreditation
       examples: |
@@ -354,6 +469,11 @@ nlu:
         - Is the ECE department good?
         - Is this college’s ECE department recognized by the government?
         - Is the ECE course valid for jobs?  
+        - What is the accreditations of ece
+        - accreditations of ECE
+        - accreditations of electronics and communication engineering
+        - ECE department accrediated or not
+        - electronics and communication engineering Department is accrediated or not
 
     - intent: ece_yearwise_student_count
       examples: |
@@ -367,6 +487,10 @@ nlu:
         - What is the breakdown of students by year in the ECE department?
         - How many students are there in each academic year of the ECE department?
         - What is the total number of students per year in the ECE department?
+        - year wise student count in electronics and communication engineering department
+        - year wise student count in ECE
+        - student strength for past four years in ECE department
+        - yearwise student strenght of electronics and communication department
 
     - intent: ece_event_conducted_photos
       examples: |
@@ -388,6 +512,9 @@ nlu:
         - What annual events are held by the ECE department?
         - Are there any workshops or seminars conducted by the ECE department?
         - Does the ECE department conduct any inter-college competitions?
+        - ECE event conducted photos
+        - Event couducted photos of electronics and communication engineering department
+        - event conducted photos of ECE
 
     - intent: ece_faculty_experience_knowledge
       examples: |
@@ -404,7 +531,9 @@ nlu:
         - What is the minimum teaching experience required for ECE faculty at SSMIET?
         - How many ECE faculty members have both academic and industry experience?
         - What is the average number of years ECE faculty members have worked at SSMIET?
-        - How many faculty members in the ECE department hold postgraduate degrees?
+        - average Faculty experience in ECE
+        - Average staffs experience in electronics and communication engineering department
+        - average professors experience in ece
 
     - intent: ece_staff_count
       examples: |
@@ -426,6 +555,14 @@ nlu:
         - Tell me the number of ECE department lecturers.
         - Can you provide the staff details for the ECE department?
         - What’s the total number of faculty in ECE?    
+        - Total staffs count in ECE department
+        - Total staffs count in electronics and communication engineering department
+        - Current total staffs strength in ECE
+        - Total faculty count in ECE department
+        - Total professors count in electronics and communication engineering department
+        - Current total professors strength in ECE
+        - faculty count of electronics and communication  department
+        - staffs count of ece
 
 
 

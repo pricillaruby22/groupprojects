@@ -132,8 +132,8 @@ rules:
 
   - rule: Respond to accrediation queries
     steps:
-      - intent: ask_cse_accrediation
-      - action: utter_cse_accrediation
+      - intent: ask_cse_accreditation
+      - action: utter_cse_accreditation
 
   - rule: Respond to CSE year-wise student count queries
     steps:

@@ -18,6 +18,18 @@ nlu:
     examples: |
       - How can I apply for admission to this college?
       - What is the admission process for this college?
+      - What are the requirements for enrolling in this college?
+      - Can you guide me through the admission procedure?
+      - Is admission open?
+      - Do I need to apply online or visit the campus for admission?
+      - How to apply?
+      - Steps to join?
+      - What is the eligibility criteria for admission?
+      - Are admissions currently open for this academic year?
+      - Can I apply through the website?
+      - When does the admission process begin?
+      - How can I apply for admission to this college?
+      - What is the admission process for this college?
       - How do I join this institution?
       - What are the requirements for enrolling in this college?
       - Can you guide me through the admission procedure?
@@ -36,9 +48,37 @@ nlu:
       - Is admission open?
       - Can I get in?
       - Steps to join?
+      - What is the eligibility criteria for admission?
+      - Could you please explain the college's admission process?
+      - May I know the steps to apply for admission?
+      - When does the admission process begin?
+      - Are admissions currently open for this academic year?
+      - Is it hard to join this college?
+      - So, how do I become a student here?
+      - I wanna apply—how do I start?
+      - Can I still apply or is it too late?
+      - How to apply?
+      - Any seats left?
+      - What do I do to join?
+      - I’m new here, how do I take admission?
+      - I’m confused—can someone help me join?
+      - Not sure how this works. How do I apply?
+      - Where do I even begin if I want to study here?
+      - I want to study here, but don’t know the steps.
+      - Can I apply through the website?
+      - Is there an online admission form?
+      - Do I need to come in person for applying?
+      - Can I do the admission process on my phone?
+      - Is there an app for admissions?
+      - I want to join quickly—what’s the fastest way?
+      - Is there still time to apply?
+      - I need to apply today, can you help?
+      - Are admissions closing soon?
+      - Can I join this semester?
       - Tell about recruitment process of ssmiet
       - admission process of ssmiet college
       - admission process
+      - Admission Process details
     
   - intent: ask_online_courses
     examples: |
@@ -416,7 +456,9 @@ nlu:
         - What are the basic BE courses available?
         - What are BE courses offered in your college?
         - BE courses
-        - Bachleor of Engineering courses
+        - Bachelor of Engineering courses
+        - Give me the Bachelor of Engineering courses
+        - Tell me the B.E courses
         - B.E courses
         - b.e courses
         - be courses
@@ -429,7 +471,7 @@ nlu:
         - What are Btech courses offered in your college?
         - BTech courses
         - What are the Btech courses available?
-        - Bachleor of Technology courses
+        - Bachelor of Technology courses
         - B.Tech courses
         - b.tech courses
         - btech courses
@@ -569,14 +611,21 @@ nlu:
       - Can I change my course after admission?
       - Is course switching allowed?
       - I want to transfer to another department. Is that possible?
-      - I am an ece or eee or mech or civil or it or csbs or aids or cse dept .now i want to switch or change or move to ece or eee or mech or civil or it or csbs or aids or cse any other department 
-      - What’s the procedure for changing my course?
-      - Can I move to another specialization?
-      - I picked the wrong course. Can I switch?
-      - If I don’t like my current course, can I change it?
-      - Is there any fee for changing the course?
-      - Can I change from B.Sc. to B.Tech.?
-      - Is branch change possible in the second year?
+      - I joined in eee department, now I want to change to cse. How can I do that?
+      - I have joined in the ece department recently, can I change my course?
+      - I joined last week in mechanical, but I want to move to IT now. Is it possible?
+      - How to change the course after joining?
+      - How to switch from one department to another after admission?
+      - I applied for civil, but now I want to move to csbs. What should I do?
+      - I am an ece student now I want to change the course
+      - I joined eee but I want to go to cse. What is the process?
+      - I joined in a course 1 week ago, can I change it now?
+      - How can I switch my course after joining?
+      - I want to change from B.Tech EEE to B.Tech CSE
+      - Is course change allowed after one week of joining?
+      - I took IT by mistake, can I shift to CSBS?
+      - What is the procedure to change course after joining?
+      - Is there any process to move to another branch now?
       - can i swap the courses?
       - I am belong to one particular department.So,Can I switch to other courses after joining?
       - I want change the course 
@@ -668,6 +717,8 @@ nlu:
       - Is SSMIET a single-campus college or does it have other locations?
       - Other Branches in SSMIET
       - Any other branches for the ssmiet college?
+      - ssmiet branches
+      - ssmiet other campus
 
   - intent: campus_college_visit
     examples: |
@@ -690,6 +741,9 @@ nlu:
       - campus visit
       - When will I visit this college?
       - Is college visit available or not?
+      - college campus visit
+      - college visit
+      - campus visit
 
   - intent: admission_start_date
     examples: |
@@ -729,6 +783,7 @@ nlu:
       - Can I join engineering after a diploma?
       - lateral entry 
       - Is there any admission for Lateral entry?
+      - lateral entry
 
   - intent: Sports_NCC_government_management_quota
     examples: |
@@ -752,6 +807,10 @@ nlu:
       - Does SSMIET follow Anna University guidelines for quota admissions?
       - Is there any sports quota available
       - Tell about NCC
+      - management quota
+      - government quota
+      - NCC quota
+      - sports quota
 
   - intent: placement_details_campus
     examples: |
@@ -775,6 +834,9 @@ nlu:
       - I need placement details in your college
       - Give me placements counts in your college
       - How many students from each department get placed every year?
+      - college past year placement details
+      - placement count of total college
+      - placement details for our college 
 
   - intent: staff_professors_faculty_qualifications_experience
     examples: |
@@ -789,7 +851,8 @@ nlu:
       - What are the academic credentials of the SSMIET faculty?
       - Is the professors and staffs of ths college are well qualfied?
       - what is the overall qualification of teachers or staffs or faculty or professors in this college? 
-   
+      - faculty qualification
+      - Faculty or staffs are well qualified or not
       
   - intent: college_timing
     examples: |
@@ -807,6 +870,9 @@ nlu:
       - Can you confirm the timings for both shifts in the college?
       - college working hours
       - Is there are two shifts in your college?
+      - Which time will the college begins?
+      - When will the college starts?
+      - What time college start and end?
 
   - intent: scholarship_details
     examples: |
@@ -837,7 +903,8 @@ nlu:
       - MOMA Scholarship
       - NHFDC Scholarship
       - AICTE Scholarship
-      - Is there any post metric scholarship in your college`
+      - Is there any post metric scholarship in your college
+      - Scholarship details
 
   - intent: academic_calendar
     examples: |
@@ -856,14 +923,14 @@ nlu:
       - Can you provide the link to the official holiday and academic schedule?
       - When is college open?
       - College open or closed today?
-      - What time college start and end?
       - Which days no class?
       - Give holiday list.
-      - Tell me college time and holiday.
+      - Tell me college days and holiday.
       - Any leave this month?
       - Give me educational calendar
       - Give me educational schedule
       - Give me schedule of the college
+      - academic calendar
 
   - intent: admission_documents
     examples: |
@@ -883,13 +950,12 @@ nlu:
       - Are both original and photocopies needed for admission documentation?
       - Are there any specific document requirements for first-generation graduates?
       - Can you confirm whether a medical fitness certificate is necessary for admission?
+      - documents required for admission process
+      - Certificates required for admission
+      - admission documents
 
   - intent: counselling_process
     examples: |
-      - How to join the college?
-      - What should I do to get admission?
-      - When should I come for admission?
-      - What to do after passing school?
       - How can I apply for counselling at SSMIET?
       - What are the steps in the counselling process?
       - What documents are required for counselling?
@@ -898,11 +964,18 @@ nlu:
       - Is there any online registration required for counselling?
       - When will the counselling process start?
       - What is the last date for counselling registration?
-      - How do I confirm my admission after counselling?
-      - Can I change my course after seat allotment?
-      - Tell me how to get a seat in the college.
       - What is the procedure for online registration for counselling?
-      - What I need to do after completed 12th standard
+      - How do I confirm my seat after counselling?
+      - Will I receive any confirmation after counselling?
+      - Can I change my course during counselling?
+      - How many rounds of counselling are there?
+      - Is the counselling process conducted online or offline?
+      - Where can I find the counselling schedule?
+      - Who can participate in the counselling process?
+      - What is the counselling fee?
+      - How do I know my counselling rank?
+      - counselling process
+      - Counselling Process Details
 
   - intent: college_benefits
     examples: |
@@ -921,7 +994,9 @@ nlu:
       - reason for college to be best.
       - Why I choose this college?what are the advantage or benefits or reason of this college
       - college benefits
-      - career opportunities
+      - why this college is best?
+      - advantage of the college
+      - why I want to choose this college
 
   - intent: staff_count
     examples: |
@@ -934,6 +1009,9 @@ nlu:
       - Can you provide the exact number of teaching and non-teaching staff in SSMIET?
       - How many professors, assistant professors, and lecturers are there in each department?
       - What is the student-to-teacher ratio at SSMIET?
+      - staff count in SSMIET college
+      - Faculty count of SSMIET college
+      - Professors strenght of SSMIET college
 
   - intent: bank_loans
     examples: |
@@ -948,6 +1026,8 @@ nlu:
       - Does SSMIET provide any support in securing bank loans?
       - What are the eligibility criteria for availing an education loan?
       - Does SSMIET have tie-ups with specific banks for student loans?
+      - bank loans
+      - bank loan to pay the fees
 
   - intent: cutoff_details
     examples: | 
@@ -968,8 +1048,9 @@ nlu:
       - What is the required score for the admission
       - cutoff details
       - cut off details
+      - which round I will got?
+      - which round my cut off belongs to?
 
-      
   - intent: college_qualification
     examples: |
       - Is this ssmiet college approved?
@@ -995,20 +1076,6 @@ nlu:
       - Qualification of ssmiet
       - ssmiet accreditation
       - ssmiet affiliation
-
-  - intent: job_interview_preparation
-    examples: |
-      - What strategies do you use to prepare students for job interviews?
-      - How do you help students improve their technical skills for technical rounds?
-      - Do you conduct mock interviews or practice sessions?
-      - How do you tailor interview preparation for different industries?
-      - What resources do you provide to help students with interview preparation?
-      - How do you help students build confidence for interviews?
-      - How do you train students for behavioral and HR interviews?
-      - Do you provide mentorship or one-on-one coaching for interview preparation?
-      - How does the college support students in securing placements?
-      - Is there any career development program
-      - In this college, professional skills training is available or not?
     
   - intent: smart_classrooms_projector
     examples: |
@@ -1032,6 +1099,13 @@ nlu:
       - Is there a smart classroom with a projector at SSMIET?
       - How can faculty or students request a projector for use?
       - Are projectors regularly maintained and upgraded at SSMIET?
+      - Did the college provide visual and interactive learning?
+      - Do you provide visual and interactive learning?
+      - smart classrooms
+      - learn using projector
+      - equipped projector or not
+      - interactive classes
+      - visual learning
 
   - intent: most_highest_placement_department
     examples: |
@@ -1047,26 +1121,37 @@ nlu:
       - which is the most demand department now?
       - which is most trends department according to industry?
       - most highest placement department
+      - Which department has more placements, CSE or ECE?
+      - Between IT and Mechanical, which has the highest placement rate?
+      - Is ECE placement better than Civil?
+      - How do CSE and AI&DS compare in terms of placements?
+      - Which department gets the best placement packages: CSE or EEE?
+      - Are placements higher in Computer Science than in other departments?
+      - Does Mechanical have better placement rates than Civil?
+      - What’s the placement comparison between core and non-core departments?
+      - Who gets placed more: students from IT or AI&DS?
+      - Which engineering department has seen a rise in placements recently?
+      - Can you tell me the top 3 departments in terms of placement performance?
+      - Is CSE still leading in placements or has AI&DS taken over?
+      - What’s the placement record for EEE compared to ECE?
+      - Highest placed department in the college
+      - highest placed department in SSMIET
 
-  - intent: eligible_student_placement_opportunities
+  - intent: student_department_placement_info
     examples: |
-      - Does every student get a chance to attend campus interviews?
-      - Are there placement opportunities for students from all courses?
-      - What is the eligibility criteria for campus placements?
-      - How does the college ensure that all eligible students get placement opportunities?
-      - What percentage of eligible students secure jobs through campus recruitment?
-      - Are there any students who don’t get placed despite meeting the eligibility criteria?
-      - What measures does the college take to improve placement opportunities for all eligible students?
-      - How do students who don’t get placed through campus drives find jobs?
-      - What strategies are used to increase placement opportunities for students in low-demand fields?
-      - did all the students got placed in the campus interviews?
-      - how do you improve placement opportunities?
-      - how do you increase job or hiring or career opportunities
-      - Did college ensure that all eligible students get job opportunities?
-      - Do students from every department get placed?
-
-  - intent: each_all_department_get_placed
-    examples: |
+      - Do all eligible students get placement?
+      - Are placements available for all eligible students?
+      - Who all are eligible for campus placements?
+      - Is placement guaranteed for eligible students?
+      - Are eligible students placed in companies?
+      - Do you provide placement opportunities for eligible students?
+      - What about placements for eligible students?
+      - Does every eligible student get a placement opportunity?
+      - Are there any special drives for eligible students?
+      - How do eligible students get placed?
+      - all the students got placed or not?
+      - Do all the students got placed in the college?
+      - Did each students got placed in the SSMIET?
       - Do some departments have higher placement numbers than others?
       - Is placement available for students in all departments?
       - What is the average number of students placed in each department annually?
@@ -1090,6 +1175,10 @@ nlu:
       - Grade of the SSMIET college?
       - what is the reputation of the SSMIET college?
       - SSMIET Ranking
+      - what is the rank of this college in overall colleges in tamilnadu?
+      - rank of the college
+      - Rank of the SSMIET
+      - ranking of the college
 
   - intent: ssmiet_organization_clubs
     examples: |
@@ -1100,6 +1189,11 @@ nlu:
       - Does your college have any clubs for students?
       - What kind of clubs do students participate in?
       - clubs in the SSMIET college
+      - Other than Academics,Is there any other to learn?
+      - Other than Academics,Is there any clubs ?
+      - Clubs for students in the SSMIET college
+      - available clubs in ssm institute of engineering and technology
+      - Clubs for students in SSM Institute of Engineering and Technology
 
   - intent: college_events_annual_symposium
     examples: |
@@ -1136,6 +1230,11 @@ nlu:
       - Is there any cultural festivals and other festival celebrations ?
       - Is there any Freshers Day in the SSMIET college?
       - college events,symposium,events,freshers day and culturals
+      - cultural day 
+      - college day
+      - symposium
+      - freshers day
+      - college events
 
   - intent: first_year_1st_students_count
     examples: |
@@ -1211,6 +1310,8 @@ nlu:
       - Overview of the college
       - origin of the college
       - college history
+      - How the college bulids up?
+      - About the SSM Institute of Engineering and Technology
 
   - intent: average_campus_placement
     examples: |
@@ -1225,6 +1326,10 @@ nlu:
       - What initiatives have helped improve the average student placement?
       - How does the current year’s placement compare to the average placement of previous years?
       - Average recruitment rate in the college
+      - Give percentage for average placement per year.
+      - Approximately , How many percentage of students placed in the college per year.
+      - average placement per year in SSMIET
+      - Average Campus Placement 
 
   - intent: yearwise_student_count_ssmiet
     examples: |
@@ -1246,6 +1351,8 @@ nlu:
       - Year wise student admission numbers
       - yearwise total students intake in the college
       - yearwise student statistics in ssmiet
+      - Total students intake in each and every academic year.
+      - annual strength of the college
 
   - intent: placement_training
     examples: |
@@ -1271,6 +1378,24 @@ nlu:
       - Is placement training free or do students have to pay for it?
       - Recruitment training is available or not
       - placement training available or not in the ssmiet college
+      - What strategies do you use to prepare students for job interviews?
+      - How do you help students improve their technical skills for technical rounds?
+      - Do you conduct mock interviews or practice sessions?
+      - How do you tailor interview preparation for different industries?
+      - What resources do you provide to help students with interview preparation?
+      - How do you help students build confidence for interviews?
+      - How do you train students for behavioral and HR interviews?
+      - Do you provide mentorship or one-on-one coaching for interview preparation?
+      - How does the college support students in securing placements?
+      - Is there any career development program
+      - In this college, professional skills training is available or not?
+      - Do you provide Job preparation?
+      - Do you help to get a job?
+      - job preparation
+      - interview preparation
+      - Do you provide placement training for students?
+      - What are the placement training do you provide?
+      - In which year placement training starts?
 
   - intent: student_feedback
     examples: |
@@ -1289,24 +1414,35 @@ nlu:
       - Where can I review my academic experience?
       - Share link for feedback?
       - How to submit a complaint about faculty?
+      - students feedback form link
+      - faculty/parents feedback form link
+      - feedback form link
+      - Where to give feedback?
 
-  - intent: water_facilities
+  - intent: drinking_water_info
     examples: |
-      - What are the drinking water facilities available?
-      - Are there enough water coolers on campus?
-      - Is there clean drinking water in our college?
-      - Where can I find water coolers?
-      - Drinking purified water available in this SSMIET college?
-      - Does the college provide purified water?
-      - Is there a problem with drinking water?
-      - I need drinking water near my classroom.
-      - Are the water dispensers working?
-      - Is the water filter properly maintained?
-      - Can I get bottled water on campus?
-      - Any water shortage issues in college?
-      - Where are the water refill stations?
-      - Is the drinking water tested regularly?
-      - Can I bring my own water bottle?
+      - What drinking water facilities are available on campus?
+      - Are there enough water coolers or dispensers in college?
+      - Does SSMIET provide clean and purified drinking water?
+      - Where can I find water coolers near my classroom?
+      - Is drinking water available throughout the campus?
+      - Are all the water dispensers currently working?
+      - Is the filtered water regularly maintained and tested?
+      - Can students refill their bottles anywhere on campus?
+      - Are there any issues with water supply in the college?
+      - Where are the water refill stations located?
+      - Can I get access to bottled water in college?
+      - Is there any shortage of drinking water at SSMIET?
+      - Do I need to bring my own drinking water?
+      - Is it safe to drink the water provided in the college?
+      - Who maintains the water filters on campus?
+      - Are water coolers cleaned regularly?
+      - Is there a purified water source near the classroom block?
+      - Are there separate water stations for staff and students?
+      - How often is drinking water quality tested at SSMIET?
+      - Where can I find the nearest working water cooler?
+      - water facilities 
+      - drinking water facilities
 
   - intent: recruiters_college_for_placements
     examples: |
@@ -1315,19 +1451,20 @@ nlu:
       - Which companies visit for hiring this college?
       - Does this college have campus recruitment?
       - Which companies visit the college for placements?
-      - Can you tell me about job opportunities?
       - Are there any recruiters coming this year?
-      - Does the college have a placement cell?
-      - Can I get placed through college?
-      - What are the placements provided in this college?
+      - What are the placements company provided in this college?
       - How many companies visited last year?
       - Do startups also recruit/hire from this college?
-      - Where can I see the recruitment schedule?
+      - Where can I see the recruitment company names of the college?
       - Are placements guaranteed for all students?
       - How many recruiters are there in this college?
       - hiring Industry of the college?
       - Job Providers of the college
       - Placement or Hiring Partners of the college
+      - which company are hiring students from this college
+      - what are the placement company name of the college
+      - placement company names of the SSMIET college
+      - recruiters of college
 
   - intent: sports_achievements
     examples: |
@@ -1346,37 +1483,62 @@ nlu:
       - Can I join a sports team?
       - Where can I check the sports achievements?
       - sports achievements
+      - what are the achievements done by students in sports?
+      - Sports awards
+      - what are the sports achievements in this SSMIET college
 
-  - intent: software_lab_details
+  - intent: software_lab_facility
     examples: |
-      - What are the software available in labs?
-      - Which programming software are used in college?
-      - Is Turbo C available in labs?
-      - Can I use Python IDLE in labs?
-      - Do labs have updated software?
-      - What IDEs are available in the college labs?
-      - Is VS Code installed in labs?
-      - Do labs provide Eclipse for Java programming?
-      - Does lab software change every semester?
-      - What are the latest updates in lab software?
-                 
-  - intent: ask_lab_hardware
+      - What software components are used in the lab setup?
+      - What type of software is installed on lab computers?
+      - What software tools are available for students in the lab?
+      - What are the basic software packages used in the lab?
+      - What is the general software environment in the labs?
+      - What software is in the lab?
+      - What software resources are available in the lab?
+      - Do labs get new software every semester?
+      - Do labs have the latest software?
+      - What kind of software is used in the lab?
+      - What things are installed in the lab systems?
+      - Is Turbo C in the lab?
+      - Can I use Python in the lab?
+      - Do we have VS Code in our lab?
+      - Is Eclipse there in the computer lab?
+      - What tools are used in the lab?
+      - Which IDEs are available in the lab for development?
+      - Is everything set up in the lab already?
+      - Are Python and Java development environments installed in the lab?
+      - Do labs provide tools for Android or web development?
+      - What software packages are typically included in the lab setup?
+      - Are students allowed to request additional software installation?
+      - What things are in the lab computers?
+      - Software
+      - software components
+      - software available in your college
+      - Mention the all software components
+      - software available in labs
+      - software used in labs
+      - Software Components in Laboratory
+
+  - intent: lab_hardware
     examples: |
-      - Tell me about your lab components
-      - What hardware is available in the lab?
-      - Can you describe the lab setup?
-      - What computers do you have in the lab?
-      - What is the system configuration in your lab?
-      - Tell me the hardware details of your lab
-      - What are the specs of the lab computers?
-      - What are the hardware details of the lab? (Professor)
-      - Tell me about the lab setup for research
-      - What computing resources are available for faculty?
-      - What hardware does the lab have for students?
-      - What are the system specs in the student lab?
-      - Can I use Ubuntu in the lab?
-      - What hardware inventory does the lab have?
-      - How many systems are available in the lab?
+      - What hardware components are used in the lab setup?
+      - What kind of hardware is installed in the lab systems?
+      - What are the main computer parts used in your lab?
+      - What type of hardware is provided in the computer lab?
+      - What hardware setup is followed in your labs?
+      - What computer equipment is available in the labs?
+      - What physical components are present in lab systems?
+      - What hardware facilities do students get in the lab?
+      - What are the basic hardware tools in the lab?
+      - What hardware resources are provided in labs?
+      - Give me hardware components used in lab
+      - hardware
+      - hardware available in labs
+      - hardware used in labs
+      - Hardware Components in Laboratory
+      - hardware available in your college
+      - Mention the all hardware components
 
   - intent: staff_professor_count
     examples: |
@@ -1391,79 +1553,33 @@ nlu:
       - Faculty count for the past four years?
       - yearwise faculty count in the college
       - total staffs or faculty or professor each year in the college
+      - yearwise total staffs counts
+      - staffs count for past years
+      - For each years,How many faculty are there in the college?
+      - Faculty strength details for past years.
     
-synonyms:
-  - synonym: recruitment
+  - intent: ragging_policy
     examples: |
-      - hiring
-      - job placements
-      - careers
-      - employment opportunities
-      - job openings
+      - Is there ragging in the college?
+      - Do seniors rag juniors in your campus?
+      - I'm worried about ragging. Is it safe there?
+      - How does the college handle ragging?
+      - Do juniors feel safe from ragging?
+      - Is your college ragging-free?
+      - What is the college doing to stop ragging?
+      - What measures are taken to prevent ragging?
+      - What kind of punishment is given for ragging?
+      - Is the environment safe for freshers?
+      - Has there ever been a ragging complaint?
+      - Is it safe for new students?
+      - What happens if someone tries to rag?
+      - about ragging act
+      - Is there any ragging?
+      - ragging details
+      - Ragging Information in the college
+      - ragging information details
 
-  - synonym: water_facilities
-    examples: |
-      - drinking water
-      - water supply
-      - water dispensers
-
-  - synonym: student_feedback
-    examples: |
-      - review system
-      - complaints
-      - feedback form
-      - course review
-      - faculty feedback
-
-  - synonym: sports_achievements
-    examples: |
-      - sports awards
-      - athletic performance
-      - tournament results
-      - sports competitions
-      - college sports records
-
-  - intent: ask_ragging
-    examples: |
-      - Is there ragging in this college?
-      - Does ragging happen here?
-      - Is ragging allowed in this institution?
-      - What are the anti-ragging rules in place?
-      - How does the college prevent ragging?
-      - Have there been any ragging cases in this college?
-      - Do seniors rag juniors in this college?
-      - What should I do if someone tries to rag me?
-      - What actions are taken if someone is caught ragging?
-      - How does the college ensure a ragging-free environment?
-      - Is there an anti-ragging committee in this college?
-      - Can I report ragging anonymously?
-      - Are there awareness programs about ragging in the college?
-      - What are the punishments for ragging?
-      - Who should I contact if I face any issues related to ragging?
-      - How does the college handle false complaints about ragging?
- 
-  - intent: ask_bus_seat_fcfs
-    examples: |
-      - Is the bus seating on a first-come, first-served basis?
-      - How are bus seats allocated in the college?
-      - Do students get seats on a first-come basis in the bus?
-      - Is there a fixed seating arrangement on the bus?
-      - Are bus seats reserved or first-come, first-served?
-      - Do I have to arrive early to get a bus seat?
-      - How does the seating system work in college buses?
-      - If the bus is full, do students have to stand?
-      - Are bus seats assigned, or do we take any available seat?
-      - What happens if there are no seats left on the bus?
-
-  - intent: ask_bus_seat_full
-    examples: |
-      - What happens if the bus is full?
-      - Do students have to stand if the bus is full?
-      - Is there any extra bus if the seats are full?
-      - What should I do if I don't get a seat on the bus?
-      - Are additional buses provided when the bus is full?
-
-  - intent: ask_bus_seat_no_reservation
+  - intent: bus_seat_number_reservation
     examples: |
       - Are bus seats reserved in advance?
       - Is there any seat reservation system for the college bus?
@@ -1475,6 +1591,17 @@ synonyms:
       - How are bus seats assigned? Is it by reservation?
       - Are students given fixed seats on the bus?
       - Does the college allow seat reservations for buses?
+      - What happens if the bus is full?
+      - Do students have to stand if the bus is full?
+      - Is there any extra bus if the seats are full?
+      - What should I do if I don't get a seat on the bus?
+      - Are additional buses provided when the bus is full?
+      - Is the bus seating on a first-come, first-served basis?
+      - How are bus seats allocated in the college?
+      - Do students get seats on a first-come basis in the bus?
+      - bus sear number reservation
+      - bus full
+      - bus seat first come first served
 
   - intent: general_photos
     examples: |
@@ -1543,7 +1670,7 @@ synonyms:
       - Do you have pictures of the reading area in the library?
       - Are there any photos of the bookshelves in the library?
 
-  - intent: ask_bus_facility_details
+  - intent: bus_facility_details
     examples: |
       - What are the bus facilities available at the college?
       - Is there a college bus service?
@@ -1551,18 +1678,15 @@ synonyms:
       - Are there separate buses for different routes?
       - Does the college provide transportation?
       - What are the departure timings of the buses?
-      - How is bus seating arranged?
       - Do students get separate seats on the bus?
       - What happens if the bus is full?
       - Is there an extra bus if the main bus is full?
       - Can students reserve their bus seats in advance?
       - Is the bus facility available for all students?
       - Are there specific bus stops for pickup and drop?
-      - How can I find my designated bus route?
       - Is the bus service available for both students and staff?
       - How do I apply for a bus pass?
       - What is the fare for the college bus service?
-      - Are the buses air-conditioned?
       - What should I do if I miss my bus?
       - Is there a helpline for bus-related issues?   
       - Can you provide detailed information about the bus facility?
@@ -1578,79 +1702,68 @@ synonyms:
       - From which locations do the college buses operate?
       - How many buses are available for students?
       - Can I change my bus route after paying the fees?
-      - Is there only one bus per stop?     
-  
-  - intent: extracurricular_activites
-    examples: |
-        - What extracurricular activities are available?
-        - Are there any sports or cultural clubs?
-        - What kind of activities can students participate in?
-        - Tell me about the cultural and sports events at the hostel.
-        - What non-academic programs are organized?
-        - What games in hostel?
-        - Any sports in hostel?
-        - Hostel have activities?
-        - What events in hostel?
-        - Cultural programs happen in hostel?
-        - Hostel play what?
-        - Games in hostel?
-        - What all fun in hostel?
-        - Events have hostel?
-        - Sports hostel give?
+      - Is there only one bus per stop?  
 
-  - intent: fee_online_payment_details_account_number_bank_name
+  - intent: fees_payment_info
     examples: |
+      - How do I pay my college fees?
+      - What are the steps for online fee payment?
+      - Can I get the bank details for fee payment?
+      - Do you accept fees through Google Pay or PhonePe?
+      - Is there any payment link for fees?
+      - How can I find the SSMIET bank account number?
+      - What is the procedure for fee payment?
+      - Which account should I send the fee to?
+      - Does the college accept cash or only bank transfer?
+      - I need IFSC and account details for paying fees.
+      - Where can I get the payment instructions for fees?
+      - fees payment details
+      - I need to pay college fees.Give me account details
+      - Account details of ssmiet
       - What is the bank name for fee payment?
       - Which bank is used for fee transactions at SSMIET?
-      - What is the account name for fee payment?
-      - Under which name should the fee payment be made?
-      - What is the account number for SSMIET fee payment?
-      - Where can I find the account number for paying college fees?
-      - What is the IFSC code for fee transactions?
-      - Which IFSC code should be used for online fee payment?
-      - How can I transfer fees to the SSMIET account?
-      - Which branch of SBI handles the fee payments for SSMIET?
-      - What are the available payment methods for paying fees?
-      - Can fees be paid through UPI or net banking?
-      - Is there an online portal for fee payment?
-      - Give the account details for fees payment.
-      - Fee Payment Details
-      - Where to pay the fees.Is there any account details to pay?
+      - Where to pay the fees?
+      - Give me Account details to pay the fees
+      - Fee Payment
+      - fee payment account information
 
-  - intent: gate_coaching
+  - intent: competitive_exam_coaching
     examples: |
-      - Is GATE coaching available in the college?
-      - Does the college provide GATE tutorials for students?
-      - Are there any special classes for GATE preparation in the college?
-      - Does the college offer free GATE coaching for students?
-      - Are faculty members conducting GATE training sessions?
-      - Is there a dedicated GATE preparation center in the college?
-      - Does the college provide study materials for GATE?
-      - Are there any online or offline GATE tutorial sessions available?
-      - Is GATE coaching included in the regular curriculum?
-      - Gate Coaching
-      - Are external coaching centers partnered with the college for GATE training?
-      - Are GATE practice tests available for students?
-      - Gate Coaching is available in your college
-      - Does the college offer counseling for GATE aspirants?
+      - Does SSMIET offer coaching for competitive exams?
+      - Is there any coaching provided for exams like GATE, IELTS, or UPSC in the college?
+      - Are there coaching classes in SSMIET for government exams like TNPSC or Bank exams?
+      - Does the college support students preparing for competitive exams?
+      - Are there any facilities or coaching for UPSC preparation in SSMIET?
+      - Is GATE or IELTS coaching available in the college?
+      - Does SSMIET provide training sessions for competitive exams?
+      - Are there any special classes for competitive exam preparation?
+      - Are external coaching centers partnered with SSMIET for competitive exams?
+      - Does the college offer practice sessions for exams like GATE and TNPSC?
+      - Is there a dedicated coaching program for competitive exams in the college?
+      - Are study materials provided for exams like Bank, GATE, or UPSC?
+      - Does the college include coaching for competitive exams in the curriculum?
+      - Coaching for GATE, UPSC, IELTS, Bank exams is available at SSMIET?
+      - Is there any support or counseling for competitive exam aspirants at SSMIET?
 
-  - intent: sports_equipment
-    examples: | 
-      - What sports equipment is available?
-      - Can you list the sports facilities provided?
-      - What kind of sports gear does the hostel offer?
-      - Tell me about the sports infrastructure at the hostel.
-      - What sports items can students access?
-      - What sports things in hostel?
-      - What games equipment is there?
-      - Hostel have football and cricket?
-      - What all sports we can play?
-      - What sports things hostel give?
-      - Sports things what?
-      - What play things hostel have?
-      - Football cricket have?
-      - What hostel give for play?
-      - Hostel have play items?
+  - intent: college_sports_facilities
+    examples: |
+      - Does our college have sports equipment?
+      - Are sports items available in the college?
+      - Can we get sports gear for practice?
+      - Is there any facility for sports equipment?
+      - Do we get sports kits from the college?
+      - Is there a place to borrow sports items?
+      - Are cricket and football kits available?
+      - Can students access sports equipment?
+      - Does the sports department provide gear?
+      - Is there equipment for all sports games?
+      - Do we have rackets and balls in college?
+      - Can I get sports materials from the college?
+      - Are there indoor sports kits provided?
+      - sports equipment
+      - what are the sports equipment are there in the college?
+      - What are the sports equipment are used ?
+      - available sports equipment
 
   - intent: curriculum_relevance_industry
     examples: |
@@ -1667,62 +1780,38 @@ synonyms:
       - How do you incorporate real-world skills into the academic program?
       - How do we revise the curriculum based on industry trends?
       - Do we incorporate industry certifications and real-world projects in the syllabus?
-      - how the ssmietcollege manage in keeping the curriculum relevant?
+      - how the ssmiet college manage in keeping the curriculum relevant?
+      - curriculum related to industry or not?
+      - syllabus meets the industry standards or not?
 
   - intent: erp_login
     examples: |
-        - How can faculty log in?
-        - Where is the faculty login page?
-        - Staff login link?
-        - Can teachers log in here?
-        - Login portal for faculty?
-        - How can students log in?
-        - Student login portal?
-        - Where do I enter student credentials?
-        - Access student dashboard?
-        - Student login details?
-        - Parent login page?
-        - How do parents log in?
-        - Where can parents check student details?
-        - Parent portal login?
-        - Parent login details?
-        - ERP login link?
-        - How do I log in to the ERP system?
-        - Access ERP portal?
-        - Where is the ERP dashboard?
-        - Login credentials for ERP?
-        - How do students log in to the ERP portal?
-        - Where can parents check student progress?
-        - How can I track my progress?
-        - Can I see my dashboard ?
-        - How can I see my personal details?
-        - Where can I find my student details?
-        - How do I check my profile in SSMIET?
-        - Show my details.
-        - I want to view my personal information.
-        - How can I check my attendance?
-        - How do I check my attendance status?
-        - How do I access my attendance details in SSMIET?
-        - Where can I find my monthly attendance?
-        - How do I check my subject-wise attendance?
-        - Can I view my total attendance percentage?
-        - Show my attendance report.
-        - How do I log in to the SSMIET student portal to check my attendance?
-        - Where can I find my attendance percentage for each subject?
-        - How do I retrieve my attendance records for the entire semester?
-        - Can I check my daily attendance and absentees list?
-        - What is the process to view my attendance report and download it?
-        - Where can I find my library card details?
-        - How can I check the lesson details
-        - Can you give me mark details or CGPA details of ssmiet
-        - When can I find the profile in ssmiet?
-        - I am studing the college ssmiet. So Give me my profile 
-        - Give me erp login link
-        - Where I find the student login or student portal?
-        - Can you give me faculty login or faculty portal
-        - attendance details
-        - give me my profile
-        - erp login
+      - Is there any platform to view student academic details?
+      - Where can I see my academic information?
+      - How can faculty access their portal?
+      - How can parents view student progress and details?
+      - Is there a login for students to check academic records?
+      - Can I access my timetable and marks?
+      - Where can I view my attendance and subject-wise reports?
+      - How do I check my fees and payment history?
+      - Is there an ERP portal for parents, students, and faculty?
+      - How can I log in to see my personal details and academic progress?
+      - Where can I find my childs academic details how she or he is performing in this college?
+      - Can I view my lesson status and subject notes?
+      - Is there an online platform for checking marks, attendance, and library details?
+      - How to access timetable and marks in SSMIET?
+      - Where can I find class notes and question bank?
+      - How can I view my student conduct or request forms?
+      - How can I check my library status and due books?
+      - Is there a link for online fee payment?
+      - How do I download my no dues certificate?
+      - Can parents see lesson status and marks of their children?
+      - Where can I find general details and announcements?
+      - Can faculty upload or view class notes and question banks?
+      - How to request academic documents or information online?
+      - I am a staff in this college how do i check my status and details ?
+      - can i see my semester results?
+      - i am student in this college so where can i see my internal marks ans results ?
 
   - intent: request_playground_photos
     examples: |
@@ -1751,6 +1840,19 @@ synonyms:
         - Share images of SSMIET's playground
         - Show me the SSMIET college ground and sports area
         - Where can I find photos of SSMIET college's playground?
+
+  - intent: ask_intake
+    examples: |
+      - How many seats?
+      - Total intake?
+      - What is the intake for each course?
+      - Department-wise seat availability?
+      - How many students per branch?
+      - Is there any limit for each department?
+      - Can you share the annual intake for each department?
+      - What is the total intake capacity of the institution?
+      - How many students are admitted into each program per year?
+      - College la total intake evlo?
     
   - intent: goodbye
     examples: |

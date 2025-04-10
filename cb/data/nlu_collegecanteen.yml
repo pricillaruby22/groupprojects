@@ -1,17 +1,23 @@
 version: "3.1"
 nlu:
-  - intent: ask_canteen_availability
+  - intent: canteen_availability_info
     examples: |
       - Is there a canteen in the college?
       - Does the college have a canteen?
       - Is a canteen available on campus?
       - Do students have access to a canteen?
-      - Is there a cafeteria in the college?
-      - Does the campus provide a canteen facility?
       - Is food available in the college canteen?
-      - Do you have a canteen in the college?
+      - Do we get lunch in the canteen?
+      - Do we have any cafeteria in college?
+      - Can I buy food inside the college?
+      - Does the college campus include a canteen?
+      - Do we get snacks and drinks in the canteen?
+      - Are meals available for students on campus?
+      - Is there a place for students to eat food?
+      - Can we buy breakfast from the canteen?
+      - Is the canteen available for all students?
 
-  - intent: ask_canteen_food_options
+  - intent: canteen_food_options
     examples: |
       - What food options are available in the canteen?
       - What kind of food does the canteen serve?
@@ -27,7 +33,7 @@ nlu:
       - college canteen foods
       - canteen foods
 
-  - intent: ask_canteen_timings
+  - intent: canteen_timings
     examples: |
       - What are the canteen timings?
       - When does the canteen open and close?

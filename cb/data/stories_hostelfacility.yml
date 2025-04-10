@@ -17,8 +17,8 @@ stories:
 
   - story: Details of hostel_food
     steps:
-      - intent: hostel_food_routine
-      - action: utter_hostel_food_routine
+      - intent: hostel_food_info
+      - action: utter_hostel_food_info
 
   - story: Details of restroom
     steps:
@@ -27,8 +27,8 @@ stories:
 
   - story: Details of hostel_fees
     steps:
-      - intent: hostel_fee
-      - action: utter_hostel_fee
+      - intent: hostel_fee_info
+      - action: utter_hostel_fee_info
 
   - story: complete hostel details
     steps:

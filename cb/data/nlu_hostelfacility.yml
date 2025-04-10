@@ -41,19 +41,28 @@ nlu:
       - How many stay one room?
       - Hostel room share how many?
 
-  - intent: hostel_food_routine
+  - intent: hostel_food_info
     examples: |
-      - What is the food routine in the hostel?
-      - Can you provide details about the mess facilities?
-      - What type of food is served? 
       - What food is given in the hostel?
-      - When is breakfast, lunch, and dinner served?
-      - Do you serve vegetarian and non-vegetarian meals?
-      - Mess food good?
-      - Food give hostel?
-      - When eat food?
-      - What food hostel have?
-      - Mess food what?
+      - What type of food is available in the hostel?
+      - Is veg and non-veg food provided?
+      - Do we get both vegetarian and non-vegetarian food?
+      - Do they give non-veg weekly?
+      - How often do we get non-veg in hostel?
+      - When is non-veg served in the hostel?
+      - Is food provided daily in the hostel?
+      - Do we get meals every day?
+      - Is breakfast, lunch, and dinner available?
+      - What do they serve in the hostel mess?
+      - What is the hostel mess menu like?
+      - Is food included in hostel facilities?
+      - Hostel food details?
+      - What kind of meals do hostel students get?
+      - What is the weekly food schedule in hostel?
+      - Hostel food details
+      - hostel food routine
+      - about hostel foods
+      - hostel food menu
 
   - intent: hostel_restroom_facilities
     examples: |
@@ -70,20 +79,27 @@ nlu:
       - Water hot give?
       - Bathroom clean?
     
-  - intent: hostel_fee
-    examples: | 
-      - What is the hostel fee for one year?
-      - How much does the hostel cost annually?
-      - What are the hostel charges per year?
-      - Can you provide details about hostel fees?
-      - What is the yearly fee for the hostel?
-      - How much for one year in the hostel?
-      - Hostel charge for one year?
-      - What is the hostel price?
-      - Hostel money one year?
-      - How much hostel?
-      - Fee hostel what?
-      - Hostel pay how much?
+  - intent: hostel_fee_info
+    examples: |
+      - What is the hostel fee?
+      - How much is the hostel fee?
+      - Tell me the hostel fee details.
+      - What are the hostel charges?
+      - How much do I need to pay for the hostel?
+      - What is the price of hostel stay?
+      - Tell me the yearly hostel fee.
+      - What is the annual hostel fee?
+      - How much is the hostel fee per year?
+      - What are the hostel expenses?
+      - Fee structure for hostel?
+      - Cost of living in hostel?
+      - What’s the rent for the hostel?
+      - Hostel accommodation cost?
+      - Total amount for hostel stay?
+      - Hostel fees per year
+      - hostel fee
+      - hostel fees in the college
+      - About hostel fees
 
   - intent: overall_hostel_details
     examples: |

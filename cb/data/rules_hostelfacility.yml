@@ -17,8 +17,8 @@ rules:
 
   - rule: hostel_food_routing
     steps:
-      - intent: hostel_food_routing
-      - action: utter_hostel_food_routine
+      - intent: hostel_food_info
+      - action: utter_hostel_food_info
 
   - rule: bathroom_facility
     steps:
@@ -27,8 +27,8 @@ rules:
 
   - rule: hostel_fees
     steps:
-      - intent: hostel_fee
-      - action: utter_hostel_fee
+      - intent: hostel_fee_info
+      - action: utter_hostel_fee_info
     
   - rule: hostel_details
     steps:
