@@ -11,6 +11,10 @@ nlu:
       - Who is in charge of the IT department?
       - How long has the HOD of IT been working?
       - Is the head of IT experienced?
+      - IT hod
+      - IT head of the department
+      - Hod of Information Technology department
+      - head of the Information Technology
 
   - intent: it_faculty_details
     examples: |
@@ -26,6 +30,17 @@ nlu:
       - Who are the key faculty members in IT?
       - Give me more details about the educators in IT.
       - List out the IT teaching faculty.
+      - list out the IT teaching staffs.
+      - list out phd holders in IT
+      - Who all are Associate professors in IT?
+      - How many faculty members in the IT department hold postgraduate degrees?
+      - list the Assistant professors in IT(Information Technology).
+      - faculty details in IT
+      - staffs details in IT
+      - professor details in IT
+      - staffs or faculties or professors in IT departments
+      - faculty in IT
+      - faculty in IT department
 
   - intent: peo_it_department
     examples: |
@@ -39,6 +54,11 @@ nlu:
       - Why are Program Educational Objectives (PEOs) important for Information Technology students?
       - How do Program Educational Objectives (PEOs) help in shaping an IT graduate’s career?
       - What are the key components of Program Educational Objectives (PEOs) in an IT program?
+      - peo of IT
+      - program educational objectives of IT
+      - peo of Information Technology 
+      - peo of Information Technology department
+      - program education objectives of Information Technology
 
   - intent: po_it_department
     examples: |
@@ -52,6 +72,11 @@ nlu:
       - Why are Program Outcomes (POs) important for Information Technology students?
       - How do Program Outcomes (POs) help in shaping an IT graduate’s career?
       - What are the key components of Program Outcomes (POs) in an IT program?
+      - Program Outcomes of IT department
+      - program outcomes in Information Technology
+      - po of Information Technology department
+      - po of IT
+      - po of Information Technology
 
   - intent: pso_it_department
     examples: |
@@ -65,6 +90,11 @@ nlu:
       - Why are Program Specific Outcomes (PSOs) important for Information Technology students?
       - How do Program Specific Outcomes (PSOs) help in shaping an IT graduate’s career?
       - What are the key components of Program Specific Outcomes (PSOs) in an IT program?
+      - Program Specific Outcomes of IT 
+      - program specific outcomes in Information Technology      
+      - pso of IT
+      - pso of Information Technology
+      - pso of Information Technology department
 
   - intent: it_department_info_about
     examples: |
@@ -77,6 +107,9 @@ nlu:
       - How does the Information Technology department emphasize co-curricular and extracurricular activities?
       - Tell me about IT department.
       - What is the about of IT department?
+      - about IT department
+      - history of IT
+      - About Information Technology department
 
   - intent: it_department_vision
     examples: |
@@ -91,6 +124,9 @@ nlu:
       - How does research and innovation contribute to the IT department’s vision?
       - Does the vision of the IT department include global technological advancements?
       - Tell me about vision of IT department.
+      - vision of IT
+      - Vision of Information Technology
+      - Vision of Information Technology department
 
   - intent: it_department_mission
     examples: |
@@ -103,6 +139,9 @@ nlu:
       - How does the IT department’s mission align with modern technology trends?
       - What initiatives are taken to fulfill the IT department’s mission?
       - Tell me about mission of IT department.
+      - mission of IT
+      - Mission of  Information Technology department
+      - Mission of  Information Technology
 
   - intent: it_total_students
     examples: |
@@ -117,6 +156,12 @@ nlu:
       - How many students are currently pursuing B.Tech IT?
       - How many students graduate from the IT department each year?
       - How many students are currently in their final year in IT?
+      - Total student count in IT department
+      - Total student count in Information Technology department
+      - Current total student strength in IT
+      - total students in IT
+      - total students in Information Technology department
+      - total students in IT
 
   - intent: it_female_girls_students
     examples: |
@@ -129,6 +174,10 @@ nlu:
       - Has the number of girls in the IT department increased over the years?
       - How many female students have graduated from the IT department so far?
       - What is the trend of female student enrollment in the IT department?
+      - Total female students in IT department
+      - Total Female students in Information Technology department
+      - Total Girls students in IT department
+      - Total girls students in Information Technology department
 
   - intent: it_male_boys_students
     examples: |
@@ -141,6 +190,10 @@ nlu:
       - Has the number of boys in the IT department increased over the years?
       - How many male students have graduated from the IT department so far?
       - What is the trend of male student enrollment in the IT department?
+      - Total male students in IT department
+      - Total Male students in Information Technology department
+      - Total Boys students in IT department
+      - Total boys students in Information Technology department
 
   - intent: mou_sign_company_it
     examples: |
@@ -160,6 +213,10 @@ nlu:
       - Tell me about the latest MOU collaborations for B.Tech IT.
       - Give me details on MOU partners and their dates for B.Tech IT.
       - Give me the details about tie-up companies for B.Tech IT.
+      - mou signed company in IT department
+      - MOU signed company in Information Technology department
+      - MOU signed company in IT
+      - MOU signed company in Information Technology department
                     
   - intent: placement_company_names_it
     examples: |
@@ -172,7 +229,10 @@ nlu:
       - Which companies visit for B.Tech IT placements?
       - Give me the names of companies for B.Tech IT placements  
       - What are the companies are coming and hiring for B.Tech IT final year placements?
-      - Is there any top companies for placement in B.Tech IT? 
+      - Is there any top companies for placement in B.Tech IT?       
+      - Give me the names of companies for IT placements   
+      - placement company names of IT
+      - placement company names of Information Technology department
 
   - intent: it_accreditation
     examples: |
@@ -186,6 +246,11 @@ nlu:
       - Is this college’s B.Tech IT department recognized by the government?
       - Is the B.Tech IT course valid for jobs?
       - Give me the names of companies for B.Tech IT placements   
+      - What is the accreditations of IT
+      - accreditations of IT
+      - accreditations of Information Technology
+      - IT department accrediated or not
+      - Information Technology Department is accrediated or not
 
   - intent: it_event_conducted_photos
     examples: |
@@ -199,6 +264,9 @@ nlu:
       - Can I see photos of guest lectures and seminars conducted by the B.Tech IT department?  
       - Are there any images of student project presentations in the B.Tech IT department?  
       - Where can I view photos from annual B.Tech IT department functions and celebrations?
+      - IT event conducted photos
+      - Event couducted photos of Information Technology department
+      - event conducted photos of IT
       
   - intent: it_yearwise_student_count
     examples: |
@@ -212,6 +280,10 @@ nlu:
       - What is the breakdown of students by year in the B.Tech IT department?
       - How many students are there in each academic year of the B.Tech IT department?
       - What is the total number of students per year in the B.Tech IT department?
+      - year wise student count in Information Technology department
+      - year wise student count in IT
+      - student strength for past four years in IT department
+      - yearwise student strenght of Information Technology department
 
   - intent: it_faculty_experience_knowledge
     examples: |
@@ -225,6 +297,9 @@ nlu:
       - How often do B.Tech IT faculty members update their knowledge with training or certifications?
       - What is the total teaching experience of the senior-most faculty in the B.Tech IT department?
       - How many B.Tech IT faculty members have more than five years of teaching experience?
+      - average Faculty experience in IT 
+      - Average staffs experience in Information Technology department
+      - average professors experience in IT
 
   - intent: it_contact
     examples: |
@@ -236,8 +311,14 @@ nlu:
       - Give me the address of the Information Technology department at SSM Institute of Engineering and Technology.
       - Can you provide the Information Technology department's contact information?
       - Information Technology or IT contact details
-
-
+      - IT contact details
+      - contact of IT department
+      - phone number of IT
+      - email of IT
+      - contact of Information Technology department
+      - phone number of Information Technology  
+      - email of Information Technology
+      - contact of Information Technology department
 
   - intent: it_staff_count
     examples: |
@@ -259,6 +340,15 @@ nlu:
       - Tell me the number of IT department lecturers.
       - Can you provide the staff details for the IT department?
       - What’s the total number of faculty in IT?
+       - Total staffs count in IT department
+      - Total staffs count in Information Technology department
+      - Current total staffs strength in IT
+      - Total faculty count in IT department
+      - Total professors count in Information Technology department
+      - Current total professors strength in IT
+      - faculty count of Information Technology department
+      - staffs count of IT
+
 
 
 
