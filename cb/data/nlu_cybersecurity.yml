@@ -12,6 +12,10 @@ nlu:
         - Who is in charge of the Cyber department?
         - How long has the HOD of CyberSecurity been working?
         - Is the head of cyber experienced?
+        - cyber hod
+        - cyber head of the department
+        - Hod of Cyber Security department
+        - head of the Cyber Security
 
   - intent: cybersecurity_faculty_details
     examples: |
@@ -27,6 +31,17 @@ nlu:
       -  Who are the key faculty members in Cybersecurity?
       -  Give me more details about the educators in Cybersecurity.
       -  List out the Cybersecurity teaching madam.
+      - list out the cyber teaching staffs.
+      - list out phd holders in cyber
+      - Who all are Associate professors in cyber?
+      - How many faculty members in the cyber department hold postgraduate degrees?
+      - list the Assistant professors in cyber(Cyber Security).
+      - faculty details in cyber
+      - staffs details in cyber
+      - professor details in cyber
+      - staffs or faculties or professors in cyber departments
+      - faculty in cyber
+      - faculty in Cyber Security department
 
   - intent: peo_cybersecurity_department
     examples: |
@@ -40,6 +55,11 @@ nlu:
         - Why are Program Educational Objectives (PEOs) important for cybersecurity students?
         - How do Program Educational Objectives (PEOs) help in shaping a Cybersecurity graduate’s career?
         - What are the key components of Program Educational Objectives (PEOs) in a Cybersecurity program?
+        - peo of cyber
+        - program educational objectives of cyber
+        - peo of Cyber Security 
+        - peo of Cyber Security department
+        - program education objectives of Cyber Security
 
   - intent: po_cybersecurity_department
     examples: |
@@ -53,6 +73,11 @@ nlu:
         - Why are Program Outcomes (POs) important for cybersecurity?
         - How do Program Outcomes (POs) help in shaping cyber graduate’s career?
         - What are the key components of Program Outcomes (POs) in a Cybersecurity program?
+        - Program Outcomes of cyber department
+        - program outcomes in Cyber Security
+        - po of Cyber Security department
+        - po of cyber
+        - po of Cyber Security
 
   - intent: pso_cybersecurity_department
     examples: |
@@ -66,6 +91,11 @@ nlu:
         - Why are Program Specific Outcomes (PSOs) important for cybersecurity students?
         - How do Program Specific Outcomes (PSOs) help in shaping a Cybersecurity graduate’s career?
         - What are the key components of Program Specific Outcomes (PSOs) in a Cybersecurity program?
+        - Program Specific Outcomes of cyber
+        - program specific outcomes in Cyber Security   
+        - pso of cyber
+        - pso of Cyber Security
+        - pso of Cyber Security department
 
   - intent: cybersecurity_department_info_about
     examples: |
@@ -78,6 +108,9 @@ nlu:
       - How does the cybersecurity department emphasize co-curricular and extracurricular activities?
       - Tell me about the Cybersecurity department.
       - What is the about of the Cybersecurity department?
+      - about cyber department
+      - history of Cyber Security
+      - About Cyber Security department
 
   - intent: cybersecurity_department_vision
     examples: |
@@ -92,6 +125,9 @@ nlu:
       - How does research and innovation contribute to the Cybersecurity department’s vision?
       - Does the vision of the Cybersecurity department include global technological advancements?
       - Tell me about the vision of the Cyber department.
+      - vision of cyber
+      - Vision of Cyber Security
+      - Vision of Cyber Security department
 
   - intent: cybersecurity_department_mission
     examples: |
@@ -106,6 +142,9 @@ nlu:
       - How does research and innovation contribute to the Cybersecurity department’s mission?
       - Does the mission of the Cybersecurity department include global technological advancements?
       - Tell me about the mission of the Cybersecurity department.
+      - mission of cyber
+      - Mission of Cyber Security department
+      - Mission of Cyber Security
 
   - intent: cybersecurity_total_students
     examples: |
@@ -120,6 +159,12 @@ nlu:
       - How many students are currently pursuing B.E. Cybersecurity?
       - How many students graduate from the Cybersecurity department each year?
       - How many students are currently in their final year in Cyber?
+      - Total student count in cyber department
+      - Total student count in Cybersecurity department
+      - Current total student strength in cyber
+      - total students in cyber
+      - total students in Cybersecurity department
+      - total students in Cyber
 
   - intent: cybersecurity_female_girls_students
     examples: |
@@ -132,7 +177,10 @@ nlu:
       - Has the number of girls in the Cybersecurity department increased over the years?
       - How many female students have graduated from the Cybersecurity department so far?
       - What is the trend of female student enrollment in the Cyber department?
-
+      - Total female students in cyber department
+      - Total Female students in Cybersecurity department
+      - Total Girls students in Cyber department
+      - Total girls students in Cybersecurity department
 
   - intent: cybersecurity_male_boys_students
     examples: |
@@ -145,6 +193,10 @@ nlu:
       - Has the number of boys in the Cybersecurity department increased over the years?
       - How many male students have graduated from the Cyber department so far?
       - What is the trend of male student enrollment in the Cybersecurity department?
+      - Total male students in Cyber department
+      - Total Male students in Cybersecurity department
+      - Total Boys students in Cyber department
+      - Total boys students in Cybersecurity department
 
   - intent: cybersecurity_department_activities
     examples: |
@@ -156,8 +208,10 @@ nlu:
       - Give me the department activities of Cybersecurity.
       - Where can I find the department activities of Cybersecurity?
       - Show me the department activities of Cybersecurity.
+      - Department activities of Cyber department
+      - Department activities of Cybersecurity department
+      - department activities of Cybersecurity department
 
-  
   - intent: cybersecurity_student_activities
     examples: |
       - What are the student activities conducted by the Cybersecurity department?
@@ -166,6 +220,9 @@ nlu:
       - Give me the student activities of Cyber.
       - Where can I find the student activities of Cybersecurity?
       - Show me the student activities of Cyber.
+      - Student activities of Cyber department
+      - student activities of Cybersecurity department
+      - student activities of Cybersecurity department
 
   - intent: cybersecurity_faculty_activities
     examples: |
@@ -178,6 +235,9 @@ nlu:
       - Are Cyber faculty members involved in industry collaborations?
       - Do Cybersecurity faculty members participate in technical conferences and seminars?
       - Are Cybersecurity faculty members involved in curriculum development and innovation?
+      - Faculty activities of Cyber department
+      - faculty activities of Cybersecurity department
+      - faculty activities of Cybersecurity department
 
   - intent: extra_courses_cybersecurity
     examples: |
@@ -186,6 +246,11 @@ nlu:
       - Extra courses provided by the Cybersecurity department.
       - List the value-added courses for Cyber students.
       - Do Cybersecurity students have any extra learning opportunities?
+      - value added courses in Cyber [Cybersecurity].
+      - extra courses in cyber department 
+      - extra courses in Cyber department 
+      - extra courses in Cybersecurity department 
+      - value added course in Cyber
 
   - intent: cybersecurity_event_conducted_photos
     examples: |
@@ -207,6 +272,9 @@ nlu:
       - What annual events are held by the Cybersecurity department?
       - Are there any workshops or seminars conducted by the Cyber department?
       - Does the Cybersecurity department conduct any inter-college competitions?
+      - Cyber event conducted photos
+      - Event couducted photos of Cybersecurity department
+      - event conducted photos of Cyber
 
   - intent: cybersecurity_faculty_experience_knowledge
     examples: |
@@ -224,6 +292,9 @@ nlu:
       - How many Cybersecurity faculty members have both academic and industry experience?
       - What is the average number of years Cybersecurity faculty members have worked at SSMIET?
       - How many faculty members in the cyber department hold postgraduate degrees?
+      - average Faculty experience in Cyber 
+      - Average staffs experience in Cybersecurity department
+      - average professors experience in cyber
 
   - intent: cybersecurity_staff_count
     examples: |
@@ -244,6 +315,14 @@ nlu:
       - How many working staff does the cybersecurity department have?
       - Tell me the number of cyber department lecturers.
       - Can you provide the staff details for the cybersecurity department?
-      - What’s the total number of faculty in cyber?     
+      - What’s the total number of faculty in cyber?    
+      - Total staffs count in Cyber department
+      - Total staffs count in cybersecurity department
+      - Current total staffs strength in Cyber
+      - Total faculty count in Cyber department
+      - Total professors count in cybersecurity department
+      - Current total professors strength in Cyber
+      - faculty count of cybersecurity department
+      - staffs count of cyber 
 
 
