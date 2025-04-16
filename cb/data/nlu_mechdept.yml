@@ -11,6 +11,11 @@ nlu:
       - Who is in charge of the Mechanical department?
       - How long has the HOD of Mechanical been working?
       - Is the head of Mechanical experienced?
+      - Mech Head of the department
+      - Mechanical HOD
+      - HOD of Mechanical department
+      - Head of the Mechanical Engineering department
+
 
   - intent: mech_faculty_details
     examples: |
@@ -26,6 +31,17 @@ nlu:
       - Who are the key faculty members in Mechanical?
       - Give me more details about the educators in Mechanical.
       - List out the Mechanical teaching madam.
+      - list out the Mechanical or mech teaching staffs.
+      - list out phd holders in mech
+      - Who all are Associate professors in MECH or MECHANICAL?
+      - How many faculty members in the MECH or MECHANICAL department hold postgraduate degrees?
+      - list the Assistant professors in mech(computer science engineering).
+      - faculty details in mechanical
+      - staffs details in mech or mechanical
+      - professor details in mech
+      - staffs or faculties or professors in MECH departments
+      - faculty in mechanical engineering
+      - faculty in mechanical department department
 
   - intent: peo_mech_department
     examples: |
@@ -39,6 +55,10 @@ nlu:
       - Why are Program Educational Objectives (PEOs) important for Mechanical students?
       - How do Program Educational Objectives (PEOs) help in shaping a Mechanical graduate’s career?
       - What are the key components of Program Educational Objectives (PEOs) in a Mechanical program?
+      - program educational objectives of mech
+      - peo of mech engineering
+      - peo of mechanical department
+      - program education objectives of mechanical engineering
 
   - intent: po_mech_department
     examples: |
@@ -52,6 +72,11 @@ nlu:
       - Why are Program Outcomes (POs) important for Mechanical students?
       - How do Program Outcomes (POs) help in shaping a Mechanical graduate’s career?
       - What are the key components of Program Outcomes (POs) in a Mechanical program?
+      - Program Outcomes of MECHANICAL department
+      - program outcomes in mechanical engineering
+      - po of mechanical department
+      - po of mech
+      - po of mechanical engineering
 
   - intent: pso_mech_department
     examples: |
@@ -65,6 +90,11 @@ nlu:
       - Why are Program Specific Outcomes (PSOs) important for Mechanical students?
       - How do Program Specific Outcomes (PSOs) help in shaping a Mechanical graduate’s career?
       - What are the key components of Program Specific Outcomes (PSOs) in a Mechanical program?
+      - Program Specific Outcomes of MECH or MECHANICAL 
+      - program specific outcomes in mechanical engineering
+      - pso of mech or mechanical
+      - pso of mechanical engineering
+      - pso of mechanical department
 
   - intent: technical_faculty_mech
     examples: |
@@ -99,6 +129,9 @@ nlu:
       - How has Mechanical placement performance changed over the years?
       - Do Mechanical students get good placements?
       - Share the year-wise placement details for Mechanical.
+      - yearwise placement details in mech department
+      - yearwise placement details in MECH or MECHANICAL department
+      - yearwise placement details in mechanical or mech Engineering department
 
   - intent: mech_course_outcomes
     examples: |
@@ -115,6 +148,14 @@ nlu:
       - What are the learning outcomes of a Mechanical course?
       - What knowledge will I acquire after completing Mechanical?
       - What are the course outcomes of Mechanical?
+      - What are the course outcomes of mechanical and engineering?
+      - What are the course outcomes of MECH?
+      - what am i going to learn in this mechanical department
+      - what am i going to learn in this mechanical or mech department
+      - course outcomes of MECHANICAL OR MECH
+      - Course outcomes of mechanical engineering 
+      - course outcomes of mech
+      - course outcomes of mechanical engineering department
 
   - intent: mech_department_info_about
     examples: |
@@ -127,6 +168,9 @@ nlu:
       - How does the Mechanical department emphasize co-curricular and extracurricular activities?
       - Tell me about Mechanical department.
       - What is the about of Mechanical department?
+      - history of MECHANICAL or MECH
+      - About mechanical engineering department
+
 
   - intent: mech_department_vision
     examples: |
@@ -141,6 +185,11 @@ nlu:
       - How does research and innovation contribute to the Mechanical department’s vision?
       - Does the vision of the Mechanical department include global technological advancements?
       - Tell me about the vision of the Mechanical department.
+      - vision of MECH 
+      - Vision of mechanical Engineering department
+      - Vision of mechanical department
+
+
 
   - intent: mech_department_mission
     examples: |
@@ -155,6 +204,9 @@ nlu:
       - How does research and innovation contribute to the Mechanical department’s mission?
       - Does the mission of the Mechanical department include global technological advancements?
       - Tell me about the mission of the Mechanical department.
+      - mission of MECH
+      - Mission of mechanical Engineering department
+      - Mission of mecanical department
 
   - intent: mech_total_students
     examples: |
@@ -169,6 +221,12 @@ nlu:
       - How many students are currently pursuing B.E. Mechanical?
       - How many students graduate from the Mechanical department each year?
       - How many students are currently in their final year in Mechanical?
+      - Total student count in mechanical Engineering department
+      - Current total student strength in MECH
+      - total students in mech
+      - total students in mechanical department
+      - total students in MECHANICAL or MECH
+
 
 
   - intent: mech_male_boys_students
@@ -182,6 +240,10 @@ nlu:
       - Has the number of boys in the Mechanical department increased over the years?
       - How many male students have graduated from the Mechanical department so far?
       - What is the trend of male student enrollment in the Mechanical department?
+      - Total male students in MECHANICAL department
+      - Total Male students in MECH engineering department
+      - Total Boys students in mech department
+      - Total boys students in mechanical engineering department
 
   - intent: mech_lab_facilities
     examples: |
@@ -193,6 +255,9 @@ nlu:
       - Does the Mechanical department provide high-speed internet in the labs?
       - Are the Mechanical labs accessible to students outside class hours?
       - What kind of research work is conducted in the Mechanical labs?
+      - About Lab facilities in MECH department
+      - About Lab facilities in mechanical engineering department
+
 
   - intent: mech_department_activities
     examples: |
@@ -204,6 +269,10 @@ nlu:
       - Give me the department activities of Mechanical.
       - Where can I find the department activities of Mechanical?
       - Show me the department activities of Mechanical.
+      - Department activities of MECH department
+      - Department activities of mechanical engineering department
+      - department activities of mechanical department
+
 
   - intent: mech_student_activities
     examples: |
@@ -213,6 +282,10 @@ nlu:
       - Give me the student activities of Mechanical.
       - Where can I find the student activities of Mechanical?
       - Show me the student activities of Mechanical.
+      - Student activities of MECH department
+      - student activities of mechanical engineering department
+      - student activities of mechanical department
+
 
   - intent: mech_faculty_activities
     examples: |
@@ -225,6 +298,9 @@ nlu:
       - Are Mechanical faculty members involved in industry collaborations?
       - Do Mechanical faculty members participate in technical conferences and seminars?
       - Are Mechanical faculty members involved in curriculum development and innovation?
+      - Faculty activities of MECH department
+      - faculty activities of mechanical engineering department
+      - faculty activities of mechanical department
 
   - intent: mech_professional_bodies
     examples: |
@@ -238,6 +314,12 @@ nlu:
       - How can students become members of professional organizations in the Mechanical department?
       - Are there any certifications provided through professional bodies in the Mechanical department?
       - Do professional bodies offer internship or research opportunities for Mechanical students?
+      - professional bodies of mechanical engineering department
+      - professional bodies of mechanical department
+      - Research activities of MECH department
+      - research activities of mechanical engineering department
+      - research activities of mechanical department
+
 
   - intent: mech_research_activities
     examples: |
@@ -264,6 +346,9 @@ nlu:
       - Are student achievements highlighted in the Mechanical department newsletter?
       - How does the Mechanical department newsletter help in knowledge sharing?
       - Where can I find previous editions of the Mechanical department newsletter?
+      - Newsletter of MECH department
+      - newsletter of mechanical engineering department
+      - newsletter of mechanical department
 
   - intent: mou_sign_company_mech
     examples: |
@@ -283,6 +368,10 @@ nlu:
       - Tell me about the latest MOU collaborations for Mechanical.
       - Give me details on MOU partners and their dates for Mechanical.
       - Give me the details about tie-up companies for Mechanical.
+      - MOU signed company in mechanical engineering department
+      - MOU signed company in MECH or MECHANICAL
+      - MOU signed company in mechanical department
+
 
   - intent: mech_contact
     examples: |
@@ -294,6 +383,14 @@ nlu:
       - Give me the address of the Mechanical department at SSM Institute of Engineering and Technology.
       - Can you provide the Mechanical department's contact information?
       - Mechanical contact details
+      - MECH contact details
+      - contact of MECH department
+      - phone number of mechanical
+      - email of MECH
+      - contact of mechanical engineering department
+      - phone number of mechanical engineering
+      - email of mechanical engineering
+      - contact of mechanical department
 
   - intent: extra_courses_mech
     examples: |
@@ -302,6 +399,11 @@ nlu:
       - Extra courses provided by Mechanical department
       - List the value-added courses for Mechanical students
       - Do Mechanical students have any extra learning opportunities?
+      - extra courses in mechanical department 
+      - extra courses in MECH department 
+      - extra courses in mechanical engineering department 
+      - value added course in MECHANICAL
+
 
   - intent: placement_company_names_mech
     examples: |
@@ -315,6 +417,9 @@ nlu:
       - Give me the names of companies for Mechanical placements  
       - What are the companies coming and hiring for Mechanical final year placements?
       - Are there any top companies for placement in Mechanical?
+      - Placement company names in MECH department
+      - placement company names mechanical engineering department
+      - placement company name in mech
 
   - intent: mech_event_conducted_photos
     examples: |
@@ -336,6 +441,11 @@ nlu:
       - What annual events are held by the Mechanical department?
       - Are there any workshops or seminars conducted by the Mechanical department?
       - Does the Mechanical department conduct any inter-college competitions?
+      - MECH event conducted photos
+      - Event couducted photos of mechanical engineering department
+      - event conducted photos of MECHANICAL
+      - photos of MECH department
+      - photos of mechanical engineering department
 
   - intent: mech_faculty_experience_knowledge
     examples: |
@@ -353,6 +463,10 @@ nlu:
       - How many Mechanical faculty members have both academic and industry experience?
       - What is the average number of years Mechanical faculty members have worked at SSMIET?
       - How many faculty members in the Mechanical department hold postgraduate degrees?
+      - Average staffs experience in mechanical Engineering department
+      - average professors experience in mechanical
+
+
   - intent: mech_staff_count
     examples: |
       - How many teachers are there in the Mechanical department?
@@ -373,6 +487,16 @@ nlu:
       - Tell me the number of Mechanical department lecturers.
       - Can you provide the staff details for the Mechanical department?
       - What’s the total number of faculty in Mechanical?
+      - Total staffs count in MECH department
+      - Total staffs count in mechanical Engineering department
+      - Current total staffs strength in MECH
+      - Total faculty count in MECHANICAL department
+      - Total professors count in mechanical ineering department
+      - Current total professors strength in MECH
+      - faculty count of mechanical department
+      - staffs count of cse
+
+
       
   - intent: intern_company_mech
     examples: |
@@ -388,3 +512,9 @@ nlu:
       - What is the yearly count of Mechanical Engineering students who got internships?
       - List the number of Mechanical Engineering students who got internships year by year.
       - How many Mechanical Engineering students secured internships each academic year?
+      - Intern Companies in MECH department
+      - intern companies in mechanical engineering department
+      - intern companies in MECH
+      - Internships in mechanical
+      - Internships count in mechanical department
+
