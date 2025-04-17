@@ -2,6 +2,21 @@ version: "3.1"
 nlu:
   - intent: csbs_hod_details
     examples: |
+      - Who is the HOD of the CSBS department?
+      - Who is the head of the CSBS department?
+      - Who is the current HOD of Computer Science and and Business System?
+      - Tell me about Head of the department CSBS?
+      - Who is the department head of CSBS?
+      - Who is in charge of the CSBS department?
+      - Can you tell me the HOD of the Computer Science and Business System department?
+      - Who is the head professor of the CSBS department?
+      - Who manages the CSBS department?
+      - Who is the director of the CSBS department?
+      - What is name of the CSBS HOD?
+      - csbs hod
+      - csbs head of the department
+      - Hod of computer Science and Business System department
+      - head of the computer science and business system
       - Who is the Head of the Computer Science and Business System Department at SSMIET?
       - Can you provide the qualifications and experience details of the CSBS HOD?
       - What are the research areas of the HOD of CSBS?
@@ -31,29 +46,54 @@ nlu:
       - Who are the key faculty members in CSBS?
       - I have some idea about the staff. Can you provide full details?
       - Give me more details about the educators in CSBS.
-      - List out the CSBS teaching madam.
+      - List out the CSBS teaching staffs.
+      - list out phd holders in csbs
+      - Who all are Associate professors in CSBS?
+      - How many faculty members in the CSBS department hold postgraduate degrees?
+      - list the Assistant professors in cse(computer science and business system).
+      - faculty details in csbs
+      - staffs details in csbs
+      - professor details in csbs
+      - staffs or faculties or professors in CSBS departments
+      - faculty in computer science and business system
+      - faculty in computer science and business system department 
 
   - intent: peo_csbs_department
     examples: |
       - What does PEO stand for in the CSBS department?
-      - What is the PEO of the CSBS department?
+      - What is the peo of CSBS department?
       - Tell me about PEO of Computer Science and Business System.
-      - What are the PEOs in the CSBS department?
-      - Why are Program Educational Objectives (PEOs) important for students?
-      - How do PEOs help in shaping the career of a CSBS graduate?
+      - What are the PEOs in CSBS department?
+      - How do PEOs help in shaping the career of a Computer Science and Business System graduate?
       - What are the key components of a typical CSBS department PEO?
       - What are the key goals of PEOs in Computer Science and Business System?
+      - Why are Program Educational Objectives (PEOs) important for Computer Science and Business System students?
+      - How do Program Educational Objectives (PEOs) help in shaping a CSBS graduate’s career?
+      - What are the key components of Program Educational Objectives (PEOs) in a CSBS program?
+      - peo of csbs
+      - program educational objectives of csbs
+      - peo of computer science and business system
+      - peo of computer science and business system department
+      - program education objectives of computer science and business system
 
   - intent: po_csbs_department
     examples: |
       - What does PO stand for in the CSBS department?
       - What is the PO of the CSBS department?
-      - Tell me about PO of Computer Science and Business System.
+      - Tell me about PO of Computer Science and business System.
       - What are the POs in the CSBS department?
       - Why are Program Outcomes (POs) important for students?
-      - How do POs help in shaping the career of a CSBS graduate?
+      - How do POs help in shaping the career of a Computer Science and and Business System graduate?
       - What are the key components of a typical CSBS department PO?
-      - What are the key goals of POs in Computer Science and Business System?
+      - What are the key goals of POs in Computer Science and and Business System?
+      - Why are Program Outcomes (POs) important for Computer Science and and Business System students?
+      - How do Program Outcomes (POs) help in shaping a CSBS graduate’s career?
+      - What are the key components of Program Outcomes (POs) in a CSBS program?
+      - Program Outcomes of CSBS department
+      - program outcomes in computer science and business system
+      - po of computer science and business system department
+      - po of csbs
+      - po of computer science and business system
 
   - intent: pso_csbs_department
     examples: |
@@ -62,9 +102,17 @@ nlu:
       - Tell me about PSO of Computer Science and Business System.
       - What are the PSOs in the CSBS department?
       - Why are Program Specific Outcomes (PSOs) important for students?
-      - How do PSOs help in shaping the career of a CSBS graduate?
+      - How do PSOs help in shaping the career of a Computer Science and Business System graduate?
       - What are the key components of a typical CSBS department PSO?
       - What are the key goals of PSOs in Computer Science and Business System?
+      - Why are Program Specific Outcomes (PSOs) important for Computer Science and Business System students?
+      - How do Program Specific Outcomes (PSOs) help in shaping a CSBS graduate’s career?
+      - What are the key components of Program Specific Outcomes (PSOs) in a CSBS program?
+      - Program Specific Outcomes of CSBS
+      - program specific outcomes in computer science and business system
+      - pso of csbs
+      - pso of computer science and business system
+      - pso of computer science and business system department
 
   - intent: technical_faculty_csbs
     examples: |
@@ -82,6 +130,10 @@ nlu:
       - Who are the supporting staff in the CSBS department?
       - Give me a list of administrative and technical staff in CSBS.
       - Are there lab instructors in the CSBS department?
+      - non-teaching faculty or staffs in computer science and business system department
+      - technical faculty or staffs or assistants in csbs
+      - non-teaching faculty or staffs or assistants in csbs
+      - technical faculty of CSBS department
 
   - intent: csbs_department_info_about
     examples: |
@@ -93,6 +145,10 @@ nlu:
       - How does the department help students achieve academic and career goals?
       - How does the department emphasize co-curricular and extracurricular activities?
       - Tell me about the CSBS department.
+      - What is the about of CSBS department?
+      - about CSBS department
+      - history of CSBS
+      - About Computer science and business system department
 
   - intent: csbs_department_vision
     examples: |
@@ -106,7 +162,9 @@ nlu:
       - What initiatives are taken to fulfill the CSBS department’s vision?
       - How does research and innovation contribute to the CSBS department’s vision?
       - Does the vision of the CSBS department include global technological advancements?
-
+      - Tell me about vision of CSBS department.
+      - vision of CSBS
+      - Vision of Computer Science and Business System department
 
   - intent: csbs_department_mission
     examples: |
@@ -121,6 +179,8 @@ nlu:
       - How does research and innovation contribute to the CSBS department’s mission?
       - Does the mission of the CSBS department include global technological advancements?
       - Tell me about the mission of the CSBS department.
+      - mission of CSBS
+      - Mission of Computer Science and Business System department
 
   - intent: csbs_total_students
     examples: |
@@ -135,6 +195,12 @@ nlu:
       - How many students are currently pursuing B.E. CSBS?
       - How many students graduate from the CSBS department each year?
       - How many students are currently in their final year in CSBS?
+      - Total student count in CSBS department
+      - Total student count in Computer Science and Business System department
+      - Current total student strength in CSBS
+      - total students in csbs
+      - total students in computer science and business system department
+      - total students in CSBS
 
   - intent: csbs_female_girls_students
     examples: |
@@ -147,6 +213,10 @@ nlu:
       - Has the number of girls in the CSBS department increased over the years?
       - How many female students have graduated from the CSBS department so far?
       - What is the trend of female student enrollment in the CSBS department?
+      - Total female students in CSBS department
+      - Total Female students in Computer science and Business System department
+      - Total Girls students in CSbs department
+      - Total girls students in Computer science and business system department
 
   - intent: csbs_male_boys_students
     examples: |
@@ -159,6 +229,10 @@ nlu:
       - Has the number of boys in the CSBS department increased over the years?
       - How many male students have graduated from the CSBS department so far?
       - What is the trend of male student enrollment in the CSBS department?
+      - Total male students in CSBS department
+      - Total Male students in Computer science and Business System department
+      - Total Boys students in CSBS department
+      - Total boys students in Computer science and business system department
 
   - intent: csbs_lab_facilities
     examples: |
@@ -170,6 +244,12 @@ nlu:
       - Does the CSBS department provide high-speed internet in the labs?
       - Are the CSBS labs accessible to students outside class hours?
       - What kind of research work is conducted in the CSBS labs?
+      - What technologies are used in the project in  CSBS department?
+      - How to set up the project environment in csbs?
+      - What tools are required for the project in CSBS?
+      - CSBS lab facilities
+      - About Lab facilities in CSBS department
+      - About Lab facilities in Computer science and business system department
 
   - intent: csbs_department_activities
     examples: |
@@ -180,7 +260,9 @@ nlu:
       - Tell me about CSBS department activities.
       - Give me the department activities of CSBS
       - Where can I find the department activities of CSBS?
-      - Show me the department activities of CSBS    
+      - Show me the department activities of CSBS   
+      - Department activities of CSBS department
+      - Department activities of Computer science and business system department 
 
   - intent: mou_sign_company_csbs
     examples: |
@@ -200,6 +282,12 @@ nlu:
       - Tell me about the latest MOU collaborations.
       - Give me details on MOU partners and their dates.
       - Give me the details about tie-up companies.
+      - Which companies have signed an MOU with the institution in CSBS?
+      - Can you provide details on MOU-signed companies in CSBS?
+      - Tell me about the industry collaborations with Computer Science and Business System [CSBS].
+      - mou signed company in CSBS department
+      - MOU signed company in Computer science and business system department
+      - MOU signed company in CSBS
 
   - intent: intern_company_csbs
     examples: |
@@ -215,6 +303,10 @@ nlu:
       - What is the yearly count of students who got internships?
       - List the number of students who got internships year by year.
       - How many students secured internships each academic year?
+      - Intern Companies in CSBS department
+      - intern companies in computer science and business system department
+      - intern companies in CSBS
+      - Internships in csbs
 
   - intent: extra_courses_csbs
     examples: |
@@ -223,6 +315,11 @@ nlu:
       - Extra courses provided by CSBS department.
       - List the value-added courses for CSBS students.
       - Do CSBS students have any extra learning opportunities? 
+      - value added courses in CSBS [computer science and Business System].
+      - extra courses in csbs department 
+      - extra courses in CSBS department 
+      - extra courses in computer science and business system department 
+      - value added course in CSBS
 
   - intent: placement_company_names_csbs
     examples: |
@@ -249,7 +346,10 @@ nlu:
       - Which companies hired CSBS students?
       - How has CSBS placement performance changed over the years?
       - Do CSBS students get good placements?
-      - Share the year-wise placement details for CSBS. 
+      - Placement company names in CSBS department
+      - placement company names computer science and business system department
+      - placement company name in csbs
+      
 
   - intent: csbs_accreditation
     examples: |
@@ -262,7 +362,11 @@ nlu:
       - Is the CSBS department good?
       - Is this college’s CSBS department recognized by the government?
       - Is the CSBS course valid for jobs?
-
+      - What is the accreditations of csbs
+      - accreditations of CSBS
+      - accreditations of Computer Science and Business System
+      - CSBS department accrediated or not
+      - Computer Science and Business System Department is accrediated or not
   
   - intent: csbs_yearwise_student_count
     examples: |
@@ -276,6 +380,10 @@ nlu:
       - What is the breakdown of students by year in the CSBS department?
       - How many students are there in each academic year of the CSBS department?
       - What is the total number of students per year in the CSBS department?
+      - year wise student count in computer science and business system department
+      - year wise student count in CSBS
+      - student strength for past four years in CSBS department
+      - yearwise student strenght of computer science and business system department
 
   - intent: csbs_faculty_experience_knowledge
     examples: |
@@ -293,6 +401,10 @@ nlu:
       - How many CSBS faculty members have both academic and industry experience?
       - What is the average number of years faculty members have worked at SSMIET?
       - How many faculty members in the CSBS department hold postgraduate degrees?
+      - What is the average number of years faculty members have worked at SSMIET?
+      - average Faculty experience in CSBS
+      - Average staffs experience in Computer Science and Business System department
+      - average professors experience in csbs
 
   - intent: csbs_staff_count
     examples: |
@@ -314,6 +426,14 @@ nlu:
       - Tell me the number of CSBS department lecturers.
       - Can you provide the staff details for the CSBS department?
       - What’s the total number of faculty in CSBS? 
+      - Total staffs count in CSBS department
+      - Total staffs count in Computer Science and Business System department
+      - Current total staffs strength in CSBS
+      - Total faculty count in CSBS department
+      - Total professors count in Computer Science and Business System department
+      - Current total professors strength in CSBS
+      - faculty count of computer science and business system department
+      - staffs count of csbs
 
   - intent: csbs_event_conducted_photos
     examples: |
@@ -335,6 +455,9 @@ nlu:
       - What annual events are held by the CSBS department?
       - Are there any workshops or seminars conducted by the CSBS department?
       - Does the CSBS department conduct any inter-college competitions?    
+      - CSBS event conducted photos
+      - Event couducted photos of computer science and business system department
+      - event conducted photos of CSBS
     
 
 
